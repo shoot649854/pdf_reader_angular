@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { BackendService } from './services/backend.service';
 import { PdfService } from './services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
+import { PdfModalComponent } from './pdf-modal/pdf-modal.component';
 import { RouterOutlet } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
@@ -23,6 +25,7 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     MatToolbarModule,
     MatProgressBarModule,
     PdfUploadComponent,
+    MatDialogModule,
     PdfViewerComponent,
     PdfEditorComponent,
     NgxExtendedPdfViewerModule,
@@ -36,18 +39,32 @@ export class AppComponent {
   isLoading = false;
   processedChunks: Uint8Array[] = [];
 
-  constructor(private backendService: BackendService, private pdfService: PdfService, private snackBar: MatSnackBar) {}
+  constructor(
+    private backendService: BackendService, 
+    private pdfService: PdfService, 
+    private snackBar: MatSnackBar, 
+    private dialog: MatDialog,
+  ) {}
 
-  onPdfUploaded(event: any) {
-    const file = event.target?.files[0];
-    const reader = new FileReader();
-    reader.onload = () => {
-      this.pdfSrc = reader.result;
-      this.pdfBytes = new Uint8Array(reader.result as ArrayBuffer);
-    };
-    if (file) {
-      reader.readAsArrayBuffer(file);
-    }
+  onPdfUploaded(pdfBytes: ArrayBuffer) {
+    console.log('PDF uploaded to parent: ', pdfBytes);
+    this.isLoading = true;
+    this.pdfSrc = pdfBytes;
+
+    const dialogRef = this.dialog.open(PdfModalComponent, {
+      data: { pdfBytes: pdfBytes },
+      width: '90%',
+      height: '90%',
+      maxWidth: '100vw',
+      maxHeight: '100vh',
+      panelClass: 'custom-modalbox',
+      hasBackdrop: true,
+      disableClose: false,
+    });
+
+    dialogRef.afterClosed().subscribe(() => {
+      this.isLoading = false;
+    });
   }
 
   async processPdf() {

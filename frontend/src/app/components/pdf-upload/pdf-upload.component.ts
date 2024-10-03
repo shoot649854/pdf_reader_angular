@@ -13,10 +13,14 @@ export class PdfUploadComponent {
   @Output() pdfUploaded = new EventEmitter<ArrayBuffer>();
 
   onFileSelected(event: any) {
+    console.log('File selected: ', event.target.files[0]);
     const file = event.target.files[0];
     if (file) {
       const reader = new FileReader();
-      reader.onload = () => this.pdfUploaded.emit(reader.result as ArrayBuffer);
+      reader.onload = () => {
+        console.log('File content: ', reader.result);
+        this.pdfUploaded.emit(reader.result as ArrayBuffer);
+      }
       reader.readAsArrayBuffer(file);
     }
   }
@@ -26,7 +30,10 @@ export class PdfUploadComponent {
     const file = event.dataTransfer?.files[0];
     if (file) {
       const reader = new FileReader();
-      reader.onload = () => this.pdfUploaded.emit(reader.result as ArrayBuffer);
+      reader.onload = () => {
+        console.log('File content: ', reader.result);
+        this.pdfUploaded.emit(reader.result as ArrayBuffer);
+      }
       reader.readAsArrayBuffer(file);
     }
   }

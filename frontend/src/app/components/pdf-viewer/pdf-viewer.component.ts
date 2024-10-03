@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { CommonModule } from '@angular/common';
 
@@ -7,8 +7,23 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule, NgxExtendedPdfViewerModule],
   templateUrl: './pdf-viewer.component.html',
-  styleUrls: ['./pdf-viewer.component.scss']
+  styleUrls: ['./pdf-viewer.component.scss'],
 })
-export class PdfViewerComponent {
-  @Input() pdfSrc: string | ArrayBuffer | null = ''; 
+export class PdfViewerComponent implements OnChanges {
+  @Input() pdfSrc: string | ArrayBuffer | Uint8Array | Blob | null = '';
+  pdfSource: string | Uint8Array | Blob | null = '';
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['pdfSrc']) {
+      this.updatePdfSource();
+    }
+  }
+
+  private updatePdfSource() {
+    if (this.pdfSrc instanceof ArrayBuffer) {
+      this.pdfSource = new Uint8Array(this.pdfSrc);
+    } else {
+      this.pdfSource = this.pdfSrc;
+    }
+  }
 }
