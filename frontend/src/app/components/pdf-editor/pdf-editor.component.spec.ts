@@ -8,9 +8,8 @@ describe('PdfEditorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PdfEditorComponent]
-    })
-    .compileComponents();
+      imports: [PdfEditorComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PdfEditorComponent);
     component = fixture.componentInstance;

@@ -7,7 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
   standalone: true,
   imports: [CommonModule, MatButtonModule],
   templateUrl: './pdf-upload.component.html',
-  styleUrls: ['./pdf-upload.component.scss']
+  styleUrls: ['./pdf-upload.component.scss'],
 })
 export class PdfUploadComponent {
   @Output() pdfUploaded = new EventEmitter<ArrayBuffer>();
@@ -20,7 +20,7 @@ export class PdfUploadComponent {
       reader.onload = () => {
         console.log('File content: ', reader.result);
         this.pdfUploaded.emit(reader.result as ArrayBuffer);
-      }
+      };
       reader.readAsArrayBuffer(file);
     }
   }
@@ -33,7 +33,7 @@ export class PdfUploadComponent {
       reader.onload = () => {
         console.log('File content: ', reader.result);
         this.pdfUploaded.emit(reader.result as ArrayBuffer);
-      }
+      };
       reader.readAsArrayBuffer(file);
     }
   }

@@ -5,7 +5,7 @@ import { BackendService } from './services/backend.service';
 import { PdfService } from './services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
-import { PdfModalComponent } from './pdf-modal/pdf-modal.component';
+import { PdfModalComponent } from './components/pdf-modal/pdf-modal.component';
 import { RouterOutlet } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
@@ -29,8 +29,8 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
     PdfViewerComponent,
     PdfEditorComponent,
     NgxExtendedPdfViewerModule,
-    HttpClientModule
-  ]
+    HttpClientModule,
+  ],
 })
 export class AppComponent {
   title = 'pdf editor';
@@ -40,31 +40,42 @@ export class AppComponent {
   processedChunks: Uint8Array[] = [];
 
   constructor(
-    private backendService: BackendService, 
-    private pdfService: PdfService, 
-    private snackBar: MatSnackBar, 
+    private backendService: BackendService,
+    private pdfService: PdfService,
+    private snackBar: MatSnackBar,
     private dialog: MatDialog,
   ) {}
 
-  onPdfUploaded(pdfBytes: ArrayBuffer) {
-    console.log('PDF uploaded to parent: ', pdfBytes);
+  async onPdfUploaded(pdfBytes: ArrayBuffer) {
     this.isLoading = true;
-    this.pdfSrc = pdfBytes;
 
-    const dialogRef = this.dialog.open(PdfModalComponent, {
-      data: { pdfBytes: pdfBytes },
-      width: '90%',
-      height: '90%',
-      maxWidth: '100vw',
-      maxHeight: '100vh',
-      panelClass: 'custom-modalbox',
-      hasBackdrop: true,
-      disableClose: false,
-    });
+    try {
+      const fillable_pdf = await this.pdfService.addFillableFieldsToPdf(new Uint8Array(pdfBytes));
+      if (fillable_pdf && fillable_pdf.length > 0) {
+        this.pdfBytes = fillable_pdf;
+        this.pdfSrc = fillable_pdf;
 
-    dialogRef.afterClosed().subscribe(() => {
+        const dialogRef = this.dialog.open(PdfModalComponent, {
+          data: { pdfBytes: fillable_pdf },
+          width: '90%',
+          height: '90%',
+          maxWidth: '100vw',
+          maxHeight: '100vh',
+          panelClass: 'custom-modalbox',
+          hasBackdrop: true,
+          disableClose: false,
+        });
+
+        dialogRef.afterClosed().subscribe(() => {
+          this.isLoading = false;
+        });
+      } else {
+        console.error('Failed to generate modified PDF bytes.');
+      }
+    } catch (error) {
+      console.error('Error processing PDF to fillable form: ', error);
       this.isLoading = false;
-    });
+    }
   }
 
   async processPdf() {
@@ -83,7 +94,7 @@ export class AppComponent {
             complete: () => {
               this.isLoading = false;
               this.mergeChunks();
-            }
+            },
           });
         }
       } catch (error) {

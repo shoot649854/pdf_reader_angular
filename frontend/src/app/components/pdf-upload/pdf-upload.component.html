@@ -1,4 +1,4 @@
 <div class="upload-container" (drop)="onDrop($event)" (dragover)="onDragOver($event)">
-  <input type="file" accept="application/pdf" (change)="onFileSelected($event)" hidden #fileInput>
+  <input type="file" accept="application/pdf" (change)="onFileSelected($event)" hidden #fileInput />
   <button mat-raised-button color="primary" (click)="fileInput.click()">Upload PDF</button>
 </div>

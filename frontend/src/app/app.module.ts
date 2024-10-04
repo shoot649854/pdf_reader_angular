@@ -23,12 +23,7 @@ import { PdfEditorComponent } from './components/pdf-editor/pdf-editor.component
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PdfViewerComponent,
-    PdfUploadComponent,
-    PdfEditorComponent
-  ],
+  declarations: [AppComponent, PdfViewerComponent, PdfUploadComponent, PdfEditorComponent],
   imports: [
     RouterModule.forRoot([]),
     BrowserModule,
@@ -36,16 +31,16 @@ import { RouterModule } from '@angular/router';
     HttpClientModule,
     FormsModule,
     NgxExtendedPdfViewerModule,
-    
+
     // Material Modules
     MatToolbarModule,
     MatProgressBarModule,
     MatSnackBarModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],  
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

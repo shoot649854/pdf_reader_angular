@@ -8,9 +8,8 @@ describe('PdfUploadComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PdfUploadComponent]
-    })
-    .compileComponents();
+      imports: [PdfUploadComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(PdfUploadComponent);
     component = fixture.componentInstance;

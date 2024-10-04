@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [FormsModule, MatButtonModule, CommonModule],
   templateUrl: './pdf-editor.component.html',
-  styleUrls: ['./pdf-editor.component.scss']
+  styleUrls: ['./pdf-editor.component.scss'],
 })
 export class PdfEditorComponent {
   @Input() pdfBytes: Uint8Array | undefined;
@@ -22,7 +22,13 @@ export class PdfEditorComponent {
     const pages = pdfDoc.getPages();
     const firstPage = pages[0];
     const helveticaFont = await pdfDoc.embedFont(StandardFonts.Helvetica);
-    firstPage.drawText(this.text, { x: 50, y: 750, size: 24, font: helveticaFont, color: rgb(0, 0, 0) });
+    firstPage.drawText(this.text, {
+      x: 50,
+      y: 750,
+      size: 24,
+      font: helveticaFont,
+      color: rgb(0, 0, 0),
+    });
     this.pdfBytes = await pdfDoc.save();
   }
 
