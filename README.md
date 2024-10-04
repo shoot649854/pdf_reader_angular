@@ -1,15 +1,17 @@
-# pdf_reader_angular
+# PDF Reader Angular
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat)
-![React](https://img.shields.io/badge/React-18.3.3-blue)
-![Nextjs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Node](https://img.shields.io/badge/Node-20.14.10-green)
-![Python](https://img.shields.io/badge/-Python-F9DC3E.svg?logo=python&style=flat)
-![Python Version](https://img.shields.io/badge/python-3.11-blue)
+![Angular](https://img.shields.io/badge/Angular-18.2.0-red)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue)
+![RxJS](https://img.shields.io/badge/RxJS-7.8.0-purple)
+![Zone.js](https://img.shields.io/badge/Zone.js-0.14.10-yellowgreen)
 
 ## Description
 
-[Deployment](http://shirokanecpa.sakura.ne.jp)
+This project is built with **Angular** (v18.2.0) and utilizes **TypeScript** and **RxJS** for a robust front-end application. It includes a variety of tools and packages like Angular Material, PDF handling libraries, and linting configurations to enhance the development process.
+
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/02074ed6-dc5a-4141-a6ec-8982d3657ba9" alt="ezgif-6-c7aa0a31dc" />
+</p>
 
 ### Branch Naming Rules
 
@@ -20,49 +22,69 @@
 | hotfix/{module name}/{subject} | Hotfix branch          |              |
 | sandbox/{anything}             | test code, etc.        |              |
 
-### Basic Branch Operation Rules
+### Branch Rules
 
-- Work is branched from each latest branch
-- Delete working branches after merging
-- Review as much as possible (have someone do it for you)
-- Build, deploy, etc. are discussed separately.
+-   Work is branched from each latest branch.
+-   Delete working branches after merging.
+-   Review as much as possible (have someone do it for you).
+-   Build, deploy, etc. are discussed separately.
 
-## Front End
+## Front End Setup
 
-The react app is created using [next.js](https://nextjs.org) because it is the recommended library on the [react getting started](https://react.dev/learn/start-a-new-react-project).
+This project is built using **Angular** and requires **Node.js** to run locally. Follow the steps below to install and run the project.
 
-1. **Install dependencies:**
+### Prerequisites
 
-   Install NodeJS
-   [node](https://nodejs.org/en/download/package-manager)
+1. **Install NodeJS**  
+   Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/en/download/).
 
-   Make sure you have [pnpm](https://pnpm.io/) installed. If not, install it using:
+2. **Install Angular CLI**  
+   If you do not have the Angular CLI installed, you can install it globally using npm:
 
-   ```sh
-   cd frontend
-   npm install -g pnpm
-   ```
+    ```bash
+    npm install -g @angular/cli
+    ```
 
-   ```
-   nodenv install 20.12.2
-   nodenv local 20.12.2
-   node -v
-   ```
+3. **Install pnpm**  
+   The project uses `pnpm` as the package manager. You can install it using the following command:
 
-   This should return v20.12.2
+    ```bash
+    npm install -g pnpm
+    ```
 
-   Then, install the project dependencies:
+### Installation
 
-   ```sh
-   pnpm install
-   ng serve
-   ```
+Once the prerequisites are installed, follow these steps to set up the project:
 
-Make sure to have .env file on `frontend/.env`
+1. **Clone the repository**:
 
-```bash
+    ```bash
+    git clone <repository-url>
+    ```
 
-```
+2. **Navigate to the project directory**:
+    ```bash
+    cd frontend
+    pnpm install
+    ```
+
+### Running the Application
+
+After installing the dependencies, you can run the Angular application locally:
+
+1. **Start the development server**:
+
+    ```bash
+    pnpm start
+    ```
+
+    This command will start a local server, and you can access the application at [http://localhost:4200](http://localhost:4200).
+
+2. **Build the application**:
+   If you want to build the project for production:
+    ```bash
+    pnpm build
+    ```
 
 ## Commit message
 
