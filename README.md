@@ -9,6 +9,10 @@
 
 This project is built with **Angular** (v18.2.0) and utilizes **TypeScript** and **RxJS** for a robust front-end application. It includes a variety of tools and packages like Angular Material, PDF handling libraries, and linting configurations to enhance the development process.
 
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/02074ed6-dc5a-4141-a6ec-8982d3657ba9" alt="ezgif-6-c7aa0a31dc" />
+</p>
+
 ### Branch Naming Rules
 
 | Branch Name                    | Description            | Supplemental |
