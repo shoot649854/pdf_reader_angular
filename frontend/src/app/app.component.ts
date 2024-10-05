@@ -53,12 +53,12 @@ export class AppComponent {
     const dialogRef = this.dialog.open(FormDialogComponent, {
       minWidth: '400px',
       width: '100%',
-      height: 'auto',   
-      maxWidth: '600px',      
+      height: 'auto',
+      maxWidth: '600px',
       disableClose: false,
     });
 
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         console.log('Form Data:', result);
       }

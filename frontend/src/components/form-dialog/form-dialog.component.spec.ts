@@ -8,9 +8,8 @@ describe('FormDialogComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FormDialogComponent]
-    })
-    .compileComponents();
+      imports: [FormDialogComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(FormDialogComponent);
     component = fixture.componentInstance;

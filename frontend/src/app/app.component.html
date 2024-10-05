@@ -208,7 +208,11 @@
         <!-- <app-pdf-upload (pdfUploaded)="onPdfUploaded($event)"></app-pdf-upload> -->
         <!-- <mat-progress-bar *ngIf="isLoading" mode="indeterminate"></mat-progress-bar> -->
         <button mat-raised-button color="primary" (click)="openFormDialog()">Open Form</button>
-        <mat-progress-bar *ngIf="isLoading" class="custom-progress-bar" mode="indeterminate"></mat-progress-bar>
+        <mat-progress-bar
+          *ngIf="isLoading"
+          class="custom-progress-bar"
+          mode="indeterminate"
+        ></mat-progress-bar>
       </div>
     </div>
   </div>

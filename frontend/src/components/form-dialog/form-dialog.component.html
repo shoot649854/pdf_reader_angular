@@ -6,7 +6,7 @@
         <ng-container *ngIf="field.type === 'text'">
           <mat-form-field>
             <mat-label>{{ field.label }}</mat-label>
-            <input matInput [formControlName]="field.key">
+            <input matInput [formControlName]="field.key" />
           </mat-form-field>
         </ng-container>
 
@@ -14,7 +14,7 @@
           <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
         </ng-container>
       </div>
-      
+
       <div mat-dialog-actions>
         <button mat-button (click)="onClose()">Cancel</button>
         <button mat-button color="primary" type="submit">Submit</button>

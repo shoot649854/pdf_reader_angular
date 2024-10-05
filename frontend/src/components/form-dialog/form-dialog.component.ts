@@ -1,5 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, ReactiveFormsModule, Validators, FormControl } from '@angular/forms';
+import {
+  FormBuilder,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+  FormControl,
+} from '@angular/forms';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -8,31 +14,31 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http'; 
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-form-dialog',
   standalone: true,
   imports: [
-    CommonModule, 
-    ReactiveFormsModule, 
-    MatFormFieldModule, 
-    MatInputModule, 
+    CommonModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatButtonModule,
     MatDialogModule,
-    MatCheckboxModule
+    MatCheckboxModule,
   ],
   templateUrl: './form-dialog.component.html',
   styleUrls: ['./form-dialog.component.scss'],
 })
 export class FormDialogComponent implements OnInit {
-  form!: FormGroup;  // Declare form but do not initialize it here
-  formFields: { key: string, label: string, type: string }[] = [];
+  form!: FormGroup; // Declare form but do not initialize it here
+  formFields: { key: string; label: string; type: string }[] = [];
 
   constructor(
     private fb: FormBuilder,
     private dialogRef: MatDialogRef<FormDialogComponent>,
-    private http: HttpClient // Inject HttpClient to fetch JSON data
+    private http: HttpClient, // Inject HttpClient to fetch JSON data
   ) {}
 
   ngOnInit(): void {
@@ -59,7 +65,7 @@ export class FormDialogComponent implements OnInit {
       this.formFields.push({
         key,
         label: this.formatFieldName(key),
-        type: fieldType
+        type: fieldType,
       });
     }
   }

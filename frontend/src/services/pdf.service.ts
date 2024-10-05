@@ -14,7 +14,7 @@ GlobalWorkerOptions.workerSrc =
 export class PdfService {
   // private visionApiKey: string = process.env['GOOGLE_CLOUD_VISION_API_KEY'] || '';
   private visionApiKey: string = environment.visionApiKey;
-  constructor() {};
+  constructor() {}
 
   /**
    * Merge multiple PDF chunks into a single PDF and return as a Blob URL.
@@ -210,12 +210,13 @@ export class PdfService {
 
         const annotations = response.data.textAnnotations;
         if (annotations) {
-          for (let j = 0; j < annotations.length; j++) { // Iterate through all annotations, including the first
+          for (let j = 0; j < annotations.length; j++) {
+            // Iterate through all annotations, including the first
             const annotation = annotations[j];
             detectedFields.push({
               pageNumber: i + 1,
-              description: annotation.text,           // Use 'text' instead of 'description'
-              boundingPoly: annotation.boundingBox,   // Use 'boundingBox' instead of 'boundingPoly'
+              description: annotation.text, // Use 'text' instead of 'description'
+              boundingPoly: annotation.boundingBox, // Use 'boundingBox' instead of 'boundingPoly'
             });
           }
         }
@@ -225,8 +226,7 @@ export class PdfService {
     }
 
     return detectedFields;
-}
-
+  }
 
   /**
    * Calculate bounding box coordinates from Vision API's boundingPoly.
