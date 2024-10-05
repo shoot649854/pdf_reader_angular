@@ -14,6 +14,7 @@ import { PdfViewerComponent } from '../components/pdf-viewer/pdf-viewer.componen
 import { PdfEditorComponent } from '../components/pdf-editor/pdf-editor.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { FormDialogComponent } from '../components/form-dialog/form-dialog.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -31,6 +32,7 @@ import { FormDialogComponent } from '../components/form-dialog/form-dialog.compo
     PdfEditorComponent,
     NgxExtendedPdfViewerModule,
     HttpClientModule,
+    MatButtonModule,
   ],
 })
 export class AppComponent {
