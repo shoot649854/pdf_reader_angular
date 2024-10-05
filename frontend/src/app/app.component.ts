@@ -13,6 +13,7 @@ import { PdfUploadComponent } from '../components/pdf-upload/pdf-upload.componen
 import { PdfViewerComponent } from '../components/pdf-viewer/pdf-viewer.component';
 import { PdfEditorComponent } from '../components/pdf-editor/pdf-editor.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { FormDialogComponent } from '../components/form-dialog/form-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -45,6 +46,18 @@ export class AppComponent {
     private snackBar: MatSnackBar,
     private dialog: MatDialog,
   ) {}
+
+  openFormDialog(): void {
+    const dialogRef = this.dialog.open(FormDialogComponent, {
+      width: '400px',
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        console.log('Form Data:', result);
+      }
+    });
+  }
 
   async onPdfUploaded(pdfBytes: ArrayBuffer) {
     this.isLoading = true;
