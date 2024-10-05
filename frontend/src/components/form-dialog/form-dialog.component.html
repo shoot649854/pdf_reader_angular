@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Form Details</h2>
+<mat-dialog-content>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    
+    <!-- Loop through each form field from the JSON object -->
+    <div *ngFor="let field of formFields">
+      <mat-form-field>
+        <!-- Use the preformatted label from the component -->
+        <mat-label>{{ field.label }}</mat-label>
+        <input matInput [formControlName]="field.key" required />
+      </mat-form-field>
+    </div>
+
+    <div mat-dialog-actions>
+      <button mat-button (click)="onClose()">Cancel</button>
+      <button mat-button color="primary" type="submit">Submit</button>
+    </div>
+  </form>
+</mat-dialog-content>

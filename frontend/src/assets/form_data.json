@@ -1,0 +1,11 @@
+{
+    "t1Line1a_FamilyName[0]": "Doe",
+    "t1Line1b_GivenName[0]": "John",
+    "t1Line1c_MiddleName[0]": "A",
+    "ine2_CompanyName[0]": "Acme Corp",
+    "t2Line7_CountryofBirth[0]": "USA",
+    "t1Line3_TaxNumber[0]": "123456789",
+    "t2Line35_CountryOfResidence[0]": "USA",
+    "t2Line1_AlienNumber[0]": "987654321",
+    "ine4_SSN[0]": "000-00-0000"
+}
