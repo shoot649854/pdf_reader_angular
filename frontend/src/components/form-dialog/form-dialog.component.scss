@@ -1,0 +1,48 @@
+.dialog-form-container {
+    width: 100%;
+    height: auto;
+    // min-width: 800px; 
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    mat-dialog-content {
+      max-height: 400px; // Set a maximum height for scrollable content
+      overflow-y: auto;  // Enable vertical scrolling if content exceeds height
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    //   min-width: 400px; // Set minimum width for the form
+    //   max-width: 600px; // Optionally set a maximum width
+      margin: 0 auto;   // Center the form horizontally if it's smaller than the container
+  
+      mat-form-field {
+        width: 100%;  // Form fields take full width of form
+        margin-bottom: 20px; // Space between form fields
+      }
+  
+      mat-checkbox {
+        width: 100%;  // Ensure the checkbox also takes up full width
+        margin-bottom: 20px; // Space between checkboxes
+      }
+  
+      mat-dialog-actions {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 20px;
+  
+        button {
+          margin-left: 10px;  // Space between Cancel and Submit buttons
+        }
+      }
+    }
+  }
+  

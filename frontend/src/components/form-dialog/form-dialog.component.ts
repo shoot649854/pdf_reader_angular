@@ -5,6 +5,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http'; 
 
@@ -17,14 +19,15 @@ import { HttpClient } from '@angular/common/http';
     MatFormFieldModule, 
     MatInputModule, 
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    MatCheckboxModule
   ],
   templateUrl: './form-dialog.component.html',
   styleUrls: ['./form-dialog.component.scss'],
 })
 export class FormDialogComponent implements OnInit {
   form!: FormGroup;  // Declare form but do not initialize it here
-  formFields: { key: string, label: string }[] = []; // Array to hold the dynamic fields with formatted labels
+  formFields: { key: string, label: string, type: string }[] = [];
 
   constructor(
     private fb: FormBuilder,
@@ -43,12 +46,20 @@ export class FormDialogComponent implements OnInit {
   generateForm(data: any) {
     const keys = Object.keys(data);
     for (const key of keys) {
-      this.form.addControl(key, new FormControl(data[key], Validators.required));
+      const fieldType = data[key].type;
+      const fieldValue = data[key].value;
 
-      // Push the field and its formatted label into the array
-      this.formFields.push({ 
-        key, 
-        label: this.formatFieldName(key) 
+      // Add the form control based on the field type
+      if (fieldType === 'checkbox') {
+        this.form.addControl(key, new FormControl(fieldValue));
+      } else {
+        this.form.addControl(key, new FormControl(fieldValue, Validators.required));
+      }
+
+      this.formFields.push({
+        key,
+        label: this.formatFieldName(key),
+        type: fieldType
       });
     }
   }
@@ -60,7 +71,6 @@ export class FormDialogComponent implements OnInit {
 
   onSubmit() {
     if (this.form.valid) {
-      // Pass the form data to the calling component
       this.dialogRef.close(this.form.value);
     }
   }
