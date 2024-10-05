@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
-import { BackendService } from './services/backend.service';
-import { PdfService } from './services/pdf.service';
+import { BackendService } from '../services/backend.service';
+import { PdfService } from '../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
-import { PdfModalComponent } from './components/pdf-modal/pdf-modal.component';
+import { PdfModalComponent } from '../components/pdf-modal/pdf-modal.component';
 import { RouterOutlet } from '@angular/router';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { PdfUploadComponent } from './components/pdf-upload/pdf-upload.component';
-import { PdfViewerComponent } from './components/pdf-viewer/pdf-viewer.component';
-import { PdfEditorComponent } from './components/pdf-editor/pdf-editor.component';
+import { PdfUploadComponent } from '../components/pdf-upload/pdf-upload.component';
+import { PdfViewerComponent } from '../components/pdf-viewer/pdf-viewer.component';
+import { PdfEditorComponent } from '../components/pdf-editor/pdf-editor.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @Component({
