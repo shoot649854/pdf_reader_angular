@@ -26,7 +26,12 @@ import { PdfEditorComponent } from '../components/pdf-editor/pdf-editor.componen
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [AppComponent, PdfViewerComponent, PdfUploadComponent, PdfEditorComponent],
+  declarations: [
+    AppComponent,
+    PdfViewerComponent,
+    PdfUploadComponent,
+    PdfEditorComponent,
+  ],
   imports: [
     RouterModule.forRoot([]),
     BrowserModule,

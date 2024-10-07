@@ -11,6 +11,15 @@ import {
 import { HttpClient } from '@angular/common/http';
 import { Observable, firstValueFrom } from 'rxjs';
 
+interface FormData {
+  [key: string]: string | boolean; // Adjust according to your form structure
+}
+
+interface UploadResponse {
+  success: boolean;
+  message: string;
+}
+
 @Injectable({
   providedIn: 'root',
 })
@@ -19,7 +28,7 @@ export class PdfService {
 
   async fillPdfForm(
     pdfUrl: string,
-    formData: any | null = null
+    formData: FormData | null = null
   ): Promise<Uint8Array> {
     try {
       const pdfData = await this.fetchPdfBytes(pdfUrl);
@@ -83,8 +92,7 @@ export class PdfService {
     }
   }
 
-  // New method to fill the PDF on the backend
-  fillPdfFormOnBackend(formData: any): Observable<Blob> {
+  fillPdfFormOnBackend(formData: FormData): Observable<Blob> {
     return this.http.post(
       '/api/fill-pdf',
       { formData },
@@ -104,10 +112,10 @@ export class PdfService {
     URL.revokeObjectURL(url);
   }
 
-  uploadFilledPdf(file: Blob, filename: string): Observable<any> {
+  uploadFilledPdf(file: Blob, filename: string): Observable<UploadResponse> {
     const formData = new FormData();
     formData.append('file', file, filename);
-    return this.http.post('/api/upload-pdf', formData);
+    return this.http.post<UploadResponse>('/api/upload-pdf', formData);
   }
 
   private async fetchPdfBytes(pdfUrl: string): Promise<ArrayBuffer> {
@@ -120,7 +128,7 @@ export class PdfService {
   private async handlePdfError(
     error: unknown,
     pdfUrl: string,
-    formData: any | null
+    formData: FormData | null
   ): Promise<Uint8Array> {
     if (error instanceof Error) {
       console.error('Error filling PDF:', error);
@@ -131,10 +139,6 @@ export class PdfService {
         );
         if (userProvidedPassword) {
           try {
-            const existingPdfBytes = await this.fetchPdfBytes(pdfUrl);
-            const pdfDoc = await PDFDocument.load(existingPdfBytes, {});
-
-            // Retry filling the form with the password-protected document
             return await this.fillPdfForm(pdfUrl, formData);
           } catch (err) {
             console.error('Failed to load encrypted PDF:', err);
