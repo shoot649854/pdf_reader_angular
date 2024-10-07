@@ -1,12 +1,4 @@
+
 {
-  "t1Line1a_FamilyName[0]": { "type": "text", "value": "Doe" },
-  "t1Line1b_GivenName[0]": { "type": "text", "value": "John" },
-  "t1Line1c_MiddleName[0]": { "type": "text", "value": "A" },
-  "ine2_CompanyName[0]": { "type": "text", "value": "Acme Corp" },
-  "t2Line7_CountryofBirth[0]": { "type": "text", "value": "USA" },
-  "t1Line3_TaxNumber[0]": { "type": "text", "value": "123456789" },
-  "t2Line35_CountryOfResidence[0]": { "type": "text", "value": "USA" },
-  "t2Line1_AlienNumber[0]": { "type": "text", "value": "987654321" },
-  "ine4_SSN[0]": { "type": "text", "value": "000-00-0000" },
-  "termsAccepted": { "type": "checkbox", "value": false }
+  "form1[0].#subform[0].G28CheckBox[0]": { "type": "checkbox", "value": false }
 }

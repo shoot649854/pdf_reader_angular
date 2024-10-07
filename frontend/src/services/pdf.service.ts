@@ -1,307 +1,125 @@
 import { Injectable } from '@angular/core';
-import { PDFDocument, rgb, StandardFonts, PDFPage } from 'pdf-lib';
-import axios from 'axios';
-import { getDocument, GlobalWorkerOptions } from 'pdfjs-dist';
-import { environment } from '../environment/environment';
-
-// Configure PDF.js worker
-GlobalWorkerOptions.workerSrc =
-  'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js';
+import { PDFDocument, PDFField, PDFCheckBox, PDFTextField, PDFRadioGroup, PDFDropdown, PDFOptionList } from 'pdf-lib';
+import { HttpClient } from '@angular/common/http';
+import { Observable, firstValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PdfService {
-  // private visionApiKey: string = process.env['GOOGLE_CLOUD_VISION_API_KEY'] || '';
-  private visionApiKey: string = environment.visionApiKey;
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
-  /**
-   * Merge multiple PDF chunks into a single PDF and return as a Blob URL.
-   */
+  async fillPdfForm(pdfUrl: string, formData: any | null = null): Promise<Uint8Array> {
+    try {
+      const pdfData = await this.fetchPdfBytes(pdfUrl);
+      const pdfDoc = await PDFDocument.load(pdfData);
+      const form = pdfDoc.getForm();
+      const fields = form.getFields();
 
-  async mergePdfChunks(chunks: Uint8Array[]): Promise<string> {
-    const mergedPdf = await PDFDocument.create();
-    for (const chunk of chunks) {
-      const pdf = await PDFDocument.load(chunk);
-      const copiedPages = await mergedPdf.copyPages(pdf, pdf.getPageIndices());
-      copiedPages.forEach((page) => mergedPdf.addPage(page));
-    }
-    const mergedBytes = await mergedPdf.save();
-    return URL.createObjectURL(new Blob([mergedBytes], { type: 'application/pdf' }));
-  }
+      console.log('Available PDF Fields:');
+      fields.forEach((field) => {
+        const fieldName = field.getName();
+        const fieldType = field.constructor.name;
+        console.log(`Field Name: ${fieldName}, Field Type: ${fieldType}`);
+      });
 
-  /**
-   * Split a PDF into chunks of specified page sizes.
-   */
-  async splitPdf(pdfBytes: Uint8Array, chunkSize = 5): Promise<Uint8Array[]> {
-    const pdfDoc = await PDFDocument.load(pdfBytes);
-    const totalPages = pdfDoc.getPageCount();
-    const chunks: Uint8Array[] = [];
+      if (formData) {
+        Object.keys(formData).forEach((key) => {
+          try {
+            const field: PDFField | undefined = form.getField(key);
+            if (!field) {
+              console.warn(`Field with key '${key}' not found in the PDF.`);
+              return;
+            }
 
-    for (let i = 0; i < totalPages; i += chunkSize) {
-      const newPdf = await PDFDocument.create();
-      const end = Math.min(i + chunkSize, totalPages);
-      const pageIndices = [];
-      for (let j = i; j < end; j++) {
-        pageIndices.push(j);
-      }
-      const copiedPages = await newPdf.copyPages(pdfDoc, pageIndices);
-      copiedPages.forEach((page) => newPdf.addPage(page));
-      chunks.push(await newPdf.save());
-    }
+            const fieldValue = formData[key];
 
-    return chunks;
-  }
-
-  /**
-   * Add fillable fields to a PDF based on detected text fields using OCR.
-   */
-  async addFillableFieldsToPdf(pdfBytes: Uint8Array): Promise<Uint8Array> {
-    const images = await this.convertPdfToImages(pdfBytes);
-    const detectedFields = await this.detectTextFields(images);
-    const pdfDoc = await PDFDocument.load(pdfBytes);
-    const form = pdfDoc.getForm();
-    const font = await pdfDoc.embedFont(StandardFonts.Helvetica);
-
-    for (const field of detectedFields) {
-      const { pageNumber, description, boundingPoly } = field;
-
-      const page = pdfDoc.getPages()[pageNumber - 1];
-      const { xMin, yMin, xMax, yMax } = this.calculateBoundingBox(boundingPoly);
-
-      const pdfCoordinates = this.mapImageToPdfCoordinates(
-        boundingPoly,
-        images[pageNumber - 1].width,
-        images[pageNumber - 1].height,
-        page.getSize().width,
-        page.getSize().height,
-      );
-
-      if (description.toLowerCase().includes('agree')) {
-        const checkbox = form.createCheckBox(description.replace(/\s+/g, '_'));
-        checkbox.addToPage(page, {
-          x: pdfCoordinates.xMin,
-          y: pdfCoordinates.yMin,
-          width: pdfCoordinates.width,
-          height: pdfCoordinates.height,
-        });
-        checkbox.updateAppearances();
-      } else {
-        const textField = form.createTextField(description.replace(/\s+/g, '_'));
-        textField.setText('');
-        textField.addToPage(page, {
-          x: pdfCoordinates.xMin,
-          y: pdfCoordinates.yMin,
-          width: pdfCoordinates.width,
-          height: pdfCoordinates.height,
-        });
-        textField.updateAppearances(font);
-      }
-    }
-
-    const modifiedPdfBytes = await pdfDoc.save();
-    return modifiedPdfBytes;
-  }
-
-  /**
-   * Convert PDF pages to images using PDF.js.
-   * @param pdfBytes - The PDF as Uint8Array.
-   * @returns An array of image data URLs.
-   */
-  private async convertPdfToImages(pdfBytes: Uint8Array): Promise<HTMLCanvasElement[]> {
-    const loadingTask = getDocument({ data: pdfBytes });
-    const pdf = await loadingTask.promise;
-    const numPages = pdf.numPages;
-    const images: HTMLCanvasElement[] = [];
-
-    for (let pageNum = 1; pageNum <= numPages; pageNum++) {
-      const page = await pdf.getPage(pageNum);
-      const viewport = page.getViewport({ scale: 2.0 }); // Adjust scale for better quality
-      const canvas = document.createElement('canvas');
-      const context = canvas.getContext('2d') as CanvasRenderingContext2D;
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
-
-      const renderContext = {
-        canvasContext: context,
-        viewport: viewport,
-      };
-
-      await page.render(renderContext).promise;
-      images.push(canvas);
-    }
-
-    return images;
-  }
-
-  /**
-   * Perform OCR on images using Google Cloud Vision API.
-   * @param canvases - Array of HTMLCanvasElements representing PDF pages.
-   * @returns Array of detected text fields with positional data.
-   */
-  // private async detectTextFields(canvases: HTMLCanvasElement[]): Promise<DetectedField[]> {
-  //   const detectedFields: DetectedField[] = [];
-  //   for (let i = 0; i < canvases.length; i++) {
-  //     const canvas = canvases[i];
-  //     const imgData = canvas.toDataURL('image/png').split(',')[1]; // Get base64 string
-
-  //     const requestPayload = {
-  //       requests: [
-  //         {
-  //           image: {
-  //             content: imgData,
-  //           },
-  //           features: [
-  //             {
-  //               type: 'TEXT_DETECTION',
-  //               maxResults: 100,
-  //             },
-  //           ],
-  //         },
-  //       ],
-  //     };
-
-  //     try {
-  //       const response = await axios.post(
-  //         `https://vision.googleapis.com/v1/images:annotate?key=${this.visionApiKey}`,
-  //         requestPayload,
-  //         {
-  //           headers: {
-  //             'Content-Type': 'application/json',
-  //           },
-  //         },
-  //       );
-
-  //       const annotations = response.data.responses[0].textAnnotations;
-  //       if (annotations) {
-  //         for (let j = 1; j < annotations.length; j++) {
-  //           const annotation = annotations[j];
-  //           detectedFields.push({
-  //             pageNumber: i + 1,
-  //             description: annotation.description,
-  //             boundingPoly: annotation.boundingPoly,
-  //           });
-  //         }
-  //       }
-  //     } catch (error) {
-  //       console.error('Error during OCR:', error);
-  //     }
-  //   }
-
-  //   return detectedFields;
-  // }
-  private async detectTextFields(canvases: HTMLCanvasElement[]): Promise<DetectedField[]> {
-    const detectedFields: DetectedField[] = [];
-    for (let i = 0; i < canvases.length; i++) {
-      const canvas = canvases[i];
-      const imgData = canvas.toDataURL('image/png').split(',')[1]; // Get base64 string
-
-      const requestPayload = {
-        imageBase64: imgData,
-      };
-
-      try {
-        const response = await axios.post('http://localhost:5001/api/vision/ocr', requestPayload, {
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        });
-
-        const annotations = response.data.textAnnotations;
-        if (annotations) {
-          for (let j = 0; j < annotations.length; j++) {
-            // Iterate through all annotations, including the first
-            const annotation = annotations[j];
-            detectedFields.push({
-              pageNumber: i + 1,
-              description: annotation.text, // Use 'text' instead of 'description'
-              boundingPoly: annotation.boundingBox, // Use 'boundingBox' instead of 'boundingPoly'
-            });
+            if (field instanceof PDFTextField) {
+              field.setText(fieldValue);
+            } else if (field instanceof PDFCheckBox) {
+              if (fieldValue === true || fieldValue === 'Yes' || fieldValue === 'On') {
+                field.check();
+              } else {
+                field.uncheck();
+              }
+            } else if (field instanceof PDFRadioGroup) {
+              field.select(fieldValue);
+            } else if (field instanceof PDFDropdown || field instanceof PDFOptionList) {
+              field.select(fieldValue);
+            } else {
+              console.warn(`Unsupported field type for key '${key}': ${field.constructor.name}`);
+            }
+          } catch (err) {
+            console.error(`Error setting field with key '${key}':`, err);
           }
-        }
-      } catch (error) {
-        console.error('Error during OCR:', error);
+        });
       }
+
+      form.flatten();
+      const pdfBytes = await pdfDoc.save();
+      return pdfBytes;
+    } catch (error: unknown) {
+      return this.handlePdfError(error, pdfUrl, formData);
     }
-
-    return detectedFields;
   }
 
-  /**
-   * Calculate bounding box coordinates from Vision API's boundingPoly.
-   * @param boundingPoly - The bounding polygon from Vision API.
-   * @returns An object with min and max coordinates.
-   */
-  private calculateBoundingBox(boundingPoly: any): BoundingBox {
-    const vertices = boundingPoly.vertices;
-    const xValues = vertices.map((vertex: any) => vertex.x || 0);
-    const yValues = vertices.map((vertex: any) => vertex.y || 0);
-    return {
-      xMin: Math.min(...xValues),
-      yMin: Math.min(...yValues),
-      xMax: Math.max(...xValues),
-      yMax: Math.max(...yValues),
-    };
+
+  // New method to fill the PDF on the backend
+  fillPdfFormOnBackend(formData: any): Observable<Blob> {
+    return this.http.post('/api/fill-pdf', { formData }, { responseType: 'blob' });
   }
 
-  /**
-   * Map image coordinates to PDF coordinates.
-   * @param boundingPoly - The bounding polygon from Vision API.
-   * @param imgWidth - Width of the image.
-   * @param imgHeight - Height of the image.
-   * @param pdfWidth - Width of the PDF page.
-   * @param pdfHeight - Height of the PDF page.
-   * @returns An object with mapped PDF coordinates.
-   */
-  private mapImageToPdfCoordinates(
-    boundingPoly: any,
-    imgWidth: number,
-    imgHeight: number,
-    pdfWidth: number,
-    pdfHeight: number,
-  ): MappedCoordinates {
-    const box = this.calculateBoundingBox(boundingPoly);
-
-    // Calculate scale ratios
-    const xScale = pdfWidth / imgWidth;
-    const yScale = pdfHeight / imgHeight;
-
-    // Map coordinates
-    const xMin = box.xMin * xScale;
-    const yMin = pdfHeight - box.yMax * yScale; // PDF origin is bottom-left
-    const width = (box.xMax - box.xMin) * xScale;
-    const height = (box.yMax - box.yMin) * yScale;
-
-    return { xMin, yMin, width, height };
+  downloadPdf(pdfBytes: Uint8Array, fileName: string) {
+    const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   }
-}
 
-/**
- * Interface for detected text fields.
- */
-interface DetectedField {
-  pageNumber: number;
-  description: string;
-  boundingPoly: any;
-}
+  uploadFilledPdf(file: Blob, filename: string): Observable<any> {
+    const formData = new FormData();
+    formData.append('file', file, filename);
+    return this.http.post('/api/upload-pdf', formData);
+  }
 
-/**
- * Interface for bounding box coordinates.
- */
-interface BoundingBox {
-  xMin: number;
-  yMin: number;
-  xMax: number;
-  yMax: number;
-}
+  private async fetchPdfBytes(pdfUrl: string): Promise<ArrayBuffer> {
+    const response = await firstValueFrom(this.http.get(pdfUrl, { responseType: 'arraybuffer' }));
+    return response;
+  }
 
-/**
- * Interface for mapped PDF coordinates.
- */
-interface MappedCoordinates {
-  xMin: number;
-  yMin: number;
-  width: number;
-  height: number;
+  private async handlePdfError(
+    error: unknown,
+    pdfUrl: string,
+    formData: any | null,
+  ): Promise<Uint8Array> {
+    if (error instanceof Error) {
+      console.error('Error filling PDF:', error);
+
+      if (error.message.includes('encrypted')) {
+        const userProvidedPassword = prompt('This PDF is encrypted. Please provide the password:');
+        if (userProvidedPassword) {
+          try {
+            const existingPdfBytes = await this.fetchPdfBytes(pdfUrl);
+            const pdfDoc = await PDFDocument.load(existingPdfBytes, {});
+
+            // Retry filling the form with the password-protected document
+            return await this.fillPdfForm(pdfUrl, formData);
+          } catch (err) {
+            console.error('Failed to load encrypted PDF:', err);
+            throw new Error('Failed to decrypt the PDF.');
+          }
+        } else {
+          throw new Error('Password is required to process the PDF.');
+        }
+      }
+    } else {
+      console.error('An unknown error occurred while filling the PDF.');
+    }
+    throw error;
+  }
 }
