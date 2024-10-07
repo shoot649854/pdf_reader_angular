@@ -1,5 +1,13 @@
 import { Injectable } from '@angular/core';
-import { PDFDocument, PDFField, PDFCheckBox, PDFTextField, PDFRadioGroup, PDFDropdown, PDFOptionList } from 'pdf-lib';
+import {
+  PDFDocument,
+  PDFField,
+  PDFCheckBox,
+  PDFTextField,
+  PDFRadioGroup,
+  PDFDropdown,
+  PDFOptionList,
+} from 'pdf-lib';
 import { HttpClient } from '@angular/common/http';
 import { Observable, firstValueFrom } from 'rxjs';
 
@@ -9,7 +17,10 @@ import { Observable, firstValueFrom } from 'rxjs';
 export class PdfService {
   constructor(private http: HttpClient) {}
 
-  async fillPdfForm(pdfUrl: string, formData: any | null = null): Promise<Uint8Array> {
+  async fillPdfForm(
+    pdfUrl: string,
+    formData: any | null = null
+  ): Promise<Uint8Array> {
     try {
       const pdfData = await this.fetchPdfBytes(pdfUrl);
       const pdfDoc = await PDFDocument.load(pdfData);
@@ -37,17 +48,26 @@ export class PdfService {
             if (field instanceof PDFTextField) {
               field.setText(fieldValue);
             } else if (field instanceof PDFCheckBox) {
-              if (fieldValue === true || fieldValue === 'Yes' || fieldValue === 'On') {
+              if (
+                fieldValue === true ||
+                fieldValue === 'Yes' ||
+                fieldValue === 'On'
+              ) {
                 field.check();
               } else {
                 field.uncheck();
               }
             } else if (field instanceof PDFRadioGroup) {
               field.select(fieldValue);
-            } else if (field instanceof PDFDropdown || field instanceof PDFOptionList) {
+            } else if (
+              field instanceof PDFDropdown ||
+              field instanceof PDFOptionList
+            ) {
               field.select(fieldValue);
             } else {
-              console.warn(`Unsupported field type for key '${key}': ${field.constructor.name}`);
+              console.warn(
+                `Unsupported field type for key '${key}': ${field.constructor.name}`
+              );
             }
           } catch (err) {
             console.error(`Error setting field with key '${key}':`, err);
@@ -63,10 +83,13 @@ export class PdfService {
     }
   }
 
-
   // New method to fill the PDF on the backend
   fillPdfFormOnBackend(formData: any): Observable<Blob> {
-    return this.http.post('/api/fill-pdf', { formData }, { responseType: 'blob' });
+    return this.http.post(
+      '/api/fill-pdf',
+      { formData },
+      { responseType: 'blob' }
+    );
   }
 
   downloadPdf(pdfBytes: Uint8Array, fileName: string) {
@@ -88,20 +111,24 @@ export class PdfService {
   }
 
   private async fetchPdfBytes(pdfUrl: string): Promise<ArrayBuffer> {
-    const response = await firstValueFrom(this.http.get(pdfUrl, { responseType: 'arraybuffer' }));
+    const response = await firstValueFrom(
+      this.http.get(pdfUrl, { responseType: 'arraybuffer' })
+    );
     return response;
   }
 
   private async handlePdfError(
     error: unknown,
     pdfUrl: string,
-    formData: any | null,
+    formData: any | null
   ): Promise<Uint8Array> {
     if (error instanceof Error) {
       console.error('Error filling PDF:', error);
 
       if (error.message.includes('encrypted')) {
-        const userProvidedPassword = prompt('This PDF is encrypted. Please provide the password:');
+        const userProvidedPassword = prompt(
+          'This PDF is encrypted. Please provide the password:'
+        );
         if (userProvidedPassword) {
           try {
             const existingPdfBytes = await this.fetchPdfBytes(pdfUrl);
