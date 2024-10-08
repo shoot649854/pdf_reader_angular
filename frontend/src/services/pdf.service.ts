@@ -52,13 +52,18 @@ export class PdfService {
               return;
             }
 
-            const fieldValue = formData[key];
+            let fieldValue = formData[key];
+
+            // Ensure that fieldValue is converted to string if it's boolean
+            if (typeof fieldValue === 'boolean') {
+              fieldValue = fieldValue.toString();
+            }
 
             if (field instanceof PDFTextField) {
-              field.setText(fieldValue);
+              field.setText(fieldValue as string); // Expecting string
             } else if (field instanceof PDFCheckBox) {
               if (
-                fieldValue === true ||
+                fieldValue === 'true' ||
                 fieldValue === 'Yes' ||
                 fieldValue === 'On'
               ) {
@@ -67,12 +72,12 @@ export class PdfService {
                 field.uncheck();
               }
             } else if (field instanceof PDFRadioGroup) {
-              field.select(fieldValue);
+              field.select(fieldValue as string); // Expecting string
             } else if (
               field instanceof PDFDropdown ||
               field instanceof PDFOptionList
             ) {
-              field.select(fieldValue);
+              field.select(fieldValue as string); // Expecting string or string[]
             } else {
               console.warn(
                 `Unsupported field type for key '${key}': ${field.constructor.name}`
