@@ -1,55 +1,28 @@
-import io
+# import io
 
-from flask import Flask, jsonify, request, send_file
-from PyPDF2 import PdfReader, PdfWriter
+# from flask import Flask, jsonify, request, send_file
+# from PyPDF2 import PdfReader, PdfWriter
+# app = Flask(__name__)
 
-app = Flask(__name__)
+from src.config import I140_JSON_PATH, I140_PATH, OUTPUT_PDF_PATH
+from src.controller.JSONFieldDataLoader import JSONFieldDataLoader
 
-
-@app.route("/api/fill-pdf", methods=["POST"])
-def fill_pdf_form_api():
-    try:
-        form_data = request.json.get("formData")
-        pdf_path = "path_to_your_i140_template.pdf"
-
-        filled_pdf_stream = fill_pdf_form1(pdf_path, form_data)
-
-        return send_file(
-            filled_pdf_stream, as_attachment=True, download_name="filled_i140_form.pdf"
-        )
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+# from src.controller.PDFFill import PDFFill
+from src.controller.PDFFormFiller import PDFFormFiller
+from src.controller.PDFManipulator import PDFManipulator
 
 
-def fill_pdf_form1(pdf_path, data_dict):
-    pdf_writer = PdfWriter()
-    with open(pdf_path, "rb") as pdf_file:
-        pdf_reader = PdfReader(pdf_file)
-        for page in pdf_reader.pages:
-            if "/Annots" in page:
-                fields = page["/Annots"]
-                for field_ref in fields:
-                    field_obj = field_ref.get_object()
-                    if "/T" in field_obj:
-                        field_name_str = field_obj["/T"][1:-1]
-                        if field_name_str in data_dict:
-                            field_obj.update(
-                                {
-                                    PyPDF2.generic.NameObject(
-                                        "/V"
-                                    ): PyPDF2.generic.create_string_object(
-                                        data_dict[field_name_str]
-                                    )
-                                }
-                            )
+def main():
+    data_loader = JSONFieldDataLoader()
+    pdf_manipulator = PDFManipulator(I140_PATH)
+    form_filler = PDFFormFiller(data_loader, pdf_manipulator)
+    form_filler.fill_form(I140_JSON_PATH, OUTPUT_PDF_PATH)
 
-            pdf_writer.add_page(page)
-
-    pdf_stream = io.BytesIO()
-    pdf_writer.write(pdf_stream)
-    pdf_stream.seek(0)
-    return pdf_stream
+    # pdf_manipulator = PDFFill(pdf_path=I140_PATH)
+    # pdf_manipulator.fill_family_name("Doe")
+    # pdf_manipulator.fill_family_name("")
+    # pdf_manipulator.save_pdf(OUTPUT_PDF_PATH)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    main()
