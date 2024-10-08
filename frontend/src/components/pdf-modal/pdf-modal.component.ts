@@ -7,7 +7,12 @@ import { PdfEditorComponent } from '../pdf-editor/pdf-editor.component';
 @Component({
   selector: 'app-pdf-modal',
   standalone: true,
-  imports: [CommonModule, MatDialogModule, PdfViewerComponent, PdfEditorComponent],
+  imports: [
+    CommonModule,
+    MatDialogModule,
+    PdfViewerComponent,
+    PdfEditorComponent,
+  ],
   templateUrl: './pdf-modal.component.html',
   styleUrls: ['./pdf-modal.component.scss'],
 })

@@ -5,9 +5,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.useESLintClass": true,
-  "eslint.workingDirectories": ["./"],
-
+  "eslint.workingDirectories": [{ "mode": "auto" }],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -29,6 +27,5 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   "prettier.requireConfig": true
 }

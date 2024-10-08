@@ -18,6 +18,12 @@ import { HttpClient } from '@angular/common/http';
 import { PdfService } from '../../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
+type PDFField = {
+  fieldName: string;
+  fieldType: string;
+  value: string;
+};
+
 @Component({
   selector: 'app-form-dialog',
   standalone: true,
@@ -43,26 +49,31 @@ export class FormDialogComponent implements OnInit {
     private dialogRef: MatDialogRef<FormDialogComponent>,
     private http: HttpClient,
     private pdfService: PdfService,
-    private snackBar: MatSnackBar,
+    private snackBar: MatSnackBar
   ) {}
 
   ngOnInit(): void {
     this.form = this.fb.group({});
-    this.http.get('/assets/form_data.json').subscribe((data: any) => {
-      this.generateForm(data);
-    });
+    this.http
+      .get<PDFField[]>('/assets/form_data.json')
+      .subscribe((data: PDFField[]) => {
+        this.generateForm(data);
+      });
   }
 
-  generateForm(data: any) {
-    const keys = Object.keys(data);
-    for (const key of keys) {
-      const fieldType = data[key].type;
-      const fieldValue = data[key].value;
+  generateForm(data: PDFField[]): void {
+    for (const field of data) {
+      const key = field.fieldName;
+      const fieldType = field.fieldType;
+      const fieldValue = field.value;
 
       if (fieldType === 'checkbox') {
         this.form.addControl(key, new FormControl(fieldValue));
       } else {
-        this.form.addControl(key, new FormControl(fieldValue, Validators.required));
+        this.form.addControl(
+          key,
+          new FormControl(fieldValue, Validators.required)
+        );
       }
 
       this.formFields.push({
@@ -83,18 +94,26 @@ export class FormDialogComponent implements OnInit {
       console.log(formData);
       this.fillAndDownloadPdf(formData);
     } else {
-      this.snackBar.open('Please fill all required fields.', 'Close', { duration: 3000 });
+      this.snackBar.open('Please fill all required fields.', 'Close', {
+        duration: 3000,
+      });
     }
   }
 
-  async fillAndDownloadPdf(formData: any) {
+  async fillAndDownloadPdf(formData: {
+    [key: string]: string | boolean;
+  }): Promise<void> {
     try {
       const pdfBytes = await this.pdfService.fillPdfForm(this.pdfUrl, formData);
       this.pdfService.downloadPdf(pdfBytes, 'filled-form.pdf');
-      this.snackBar.open('PDF filled and downloaded successfully!', 'Close', { duration: 3000 });
+      this.snackBar.open('PDF filled and downloaded successfully!', 'Close', {
+        duration: 3000,
+      });
     } catch (error) {
       console.error('Error filling PDF:', error);
-      this.snackBar.open('Error filling PDF. Please try again.', 'Close', { duration: 3000 });
+      this.snackBar.open('Error filling PDF. Please try again.', 'Close', {
+        duration: 3000,
+      });
     }
   }
 

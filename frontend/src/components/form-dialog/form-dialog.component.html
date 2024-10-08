@@ -11,7 +11,9 @@
         </ng-container>
 
         <ng-container *ngIf="field.type === 'checkbox'">
-          <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
+          <mat-checkbox [formControlName]="field.key">{{
+            field.label
+          }}</mat-checkbox>
         </ng-container>
       </div>
 

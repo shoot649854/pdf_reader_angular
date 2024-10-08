@@ -12,9 +12,9 @@ import { MatButtonModule } from '@angular/material/button';
 export class PdfUploadComponent {
   @Output() pdfUploaded = new EventEmitter<ArrayBuffer>();
 
-  onFileSelected(event: any) {
-    console.log('File selected: ', event.target.files[0]);
-    const file = event.target.files[0];
+  onFileSelected(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const file = input.files?.[0];
     if (file) {
       const reader = new FileReader();
       reader.onload = () => {
