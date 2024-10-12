@@ -50,8 +50,20 @@ export class AppComponent {
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         console.log('Form Data:', result);
+        this.saveResultAsJson(result);
       }
     });
+  }
+
+  saveResultAsJson(result: { [key: string]: string | boolean }): void {
+    const jsonData = JSON.stringify(result, null, 2);
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = window.URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'form-data.json';
+    anchor.click();
+    window.URL.revokeObjectURL(url);
   }
 
   showError(message: string) {

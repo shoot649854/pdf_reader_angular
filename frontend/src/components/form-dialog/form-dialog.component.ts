@@ -19,9 +19,10 @@ import { PdfService } from '../../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 type PDFField = {
-  fieldName: string;
+  field_name: string;
   fieldType: string;
   value: string;
+  initial_value: string;
 };
 
 @Component({
@@ -43,6 +44,10 @@ export class FormDialogComponent implements OnInit {
   form!: FormGroup;
   formFields: { key: string; label: string; type: string }[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
+  currentPage: number = 1;
+  pageSize: number = 10;
+  totalPages: number = 0;
+  originalFormData: PDFField[] = []; // Store the original PDFField data here
 
   constructor(
     private fb: FormBuilder,
@@ -57,35 +62,71 @@ export class FormDialogComponent implements OnInit {
     this.http
       .get<PDFField[]>('/assets/form_data.json')
       .subscribe((data: PDFField[]) => {
-        this.generateForm(data);
+        this.originalFormData = data; // Store the original data
+        this.totalPages = Math.ceil(data.length / this.pageSize);
+        this.generateForm(data, this.currentPage);
       });
   }
 
-  generateForm(data: PDFField[]): void {
-    for (const field of data) {
-      const key = field.fieldName;
-      const fieldType = field.fieldType;
-      const fieldValue = field.value;
+  generateForm(data: PDFField[], page: number): void {
+    const startIndex = (page - 1) * this.pageSize;
+    const endIndex = startIndex + this.pageSize;
+    const pageData = data.slice(startIndex, endIndex);
 
-      if (fieldType === 'checkbox') {
-        this.form.addControl(key, new FormControl(fieldValue));
+    this.formFields = [];
+
+    for (const field of pageData) {
+      const key = field.field_name;
+      const fieldType = field.fieldType;
+      const initialValue = field.initial_value;
+
+      if (!key) {
+        console.warn('Skipping field with missing fieldName:', field);
+        continue;
+      }
+
+      let controlType: string;
+      if (fieldType === '/Tx') {
+        controlType = 'text';
+      } else if (fieldType === 'checkbox') {
+        controlType = 'checkbox';
+      } else {
+        controlType = 'text';
+      }
+
+      if (controlType === 'checkbox') {
+        this.form.addControl(key, new FormControl(initialValue === 'true'));
       } else {
         this.form.addControl(
           key,
-          new FormControl(fieldValue, Validators.required)
+          new FormControl(initialValue, Validators.required)
         );
       }
 
       this.formFields.push({
         key,
         label: this.formatFieldName(key),
-        type: fieldType,
+        type: controlType,
       });
     }
   }
 
   formatFieldName(fieldName: string): string {
     return fieldName.replace('[0]', '').replace(/_/g, ' ');
+  }
+
+  previousPage(): void {
+    if (this.currentPage > 1) {
+      this.currentPage--;
+      this.generateForm(this.originalFormData, this.currentPage);
+    }
+  }
+
+  nextPage(): void {
+    if (this.currentPage < this.totalPages) {
+      this.currentPage++;
+      this.generateForm(this.originalFormData, this.currentPage);
+    }
   }
 
   onSubmit() {

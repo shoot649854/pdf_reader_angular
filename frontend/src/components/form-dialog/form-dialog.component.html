@@ -2,6 +2,7 @@
   <h2 mat-dialog-title>Form</h2>
   <mat-dialog-content>
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <!-- Display form fields for the current page -->
       <div *ngFor="let field of formFields">
         <ng-container *ngIf="field.type === 'text'">
           <mat-form-field>
@@ -11,12 +12,18 @@
         </ng-container>
 
         <ng-container *ngIf="field.type === 'checkbox'">
-          <mat-checkbox [formControlName]="field.key">{{
-            field.label
-          }}</mat-checkbox>
+          <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
         </ng-container>
       </div>
 
+      <!-- Pagination Controls -->
+      <div class="pagination-controls">
+        <button mat-raised-button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+        <span>Page {{ currentPage }} of {{ totalPages }}</span>
+        <button mat-raised-button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+      </div>
+
+      <!-- Dialog Actions (Submit and Cancel Buttons) -->
       <div mat-dialog-actions>
         <button mat-button (click)="onClose()">Cancel</button>
         <button mat-button color="primary" type="submit">Submit</button>
