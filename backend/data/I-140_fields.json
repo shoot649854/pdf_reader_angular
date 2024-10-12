@@ -8,7 +8,7 @@
     {
         "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
         "field_type": "/Tx",
-        "initial_value": "Abby",
+        "initial_value": "",
         "page_number": 1
     },
     {
