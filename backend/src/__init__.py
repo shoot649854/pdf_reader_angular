@@ -4,6 +4,7 @@ import dotenv
 import firebase_admin
 from firebase_admin import credentials, firestore
 from flask import Flask
+from flask_cors import CORS
 
 dotenv.load_dotenv()
 
@@ -24,4 +25,6 @@ if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
+
 app = Flask(__name__)
+CORS(app=app, resources={r"/*": {"origins": "http://localhost:4200"}})

@@ -1,4 +1,5 @@
 from flask import jsonify, request, send_file
+from flask_cors import cross_origin
 from src import app, db
 from src.config import I140_PATH, OUTPUT_PDF_PATH
 from src.controller.JSONFieldDataLoader import JSONFieldDataLoader
@@ -47,6 +48,7 @@ def generate_pdf():
 
 
 #
+@cross_origin(origins="http://localhost:4200")
 @app.route("/save_form_data_to_firestore", methods=["POST"])
 def save_form_data_to_firestore():
     """Save form data sent by the frontend to Firestore."""

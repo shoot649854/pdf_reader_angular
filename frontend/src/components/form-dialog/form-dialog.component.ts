@@ -20,7 +20,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 
 type PDFField = {
   field_name: string;
-  description?: string;
+  description: string;
   fieldType: string;
   value: string;
   initial_value: string;
@@ -68,7 +68,7 @@ export class FormDialogComponent implements OnInit {
     this.http
       .get<PDFField[]>('/assets/form_data.json')
       .subscribe((data: PDFField[]) => {
-        this.originalFormData = data; // Store the original data
+        this.originalFormData = data;
         this.totalPages = Math.ceil(data.length / this.pageSize);
         this.generateForm(data, this.currentPage);
       });
@@ -83,7 +83,7 @@ export class FormDialogComponent implements OnInit {
 
     for (const field of pageData) {
       const key = field.field_name;
-      const description = field.description;
+      const description = field.description ?? '';
       const fieldType = field.fieldType;
       const initialValue = field.initial_value;
 
@@ -132,8 +132,35 @@ export class FormDialogComponent implements OnInit {
 
   nextPage(): void {
     if (this.currentPage < this.totalPages) {
-      this.currentPage++;
-      this.generateForm(this.originalFormData, this.currentPage);
+      const currentPageData = this.form.value;
+      const formDataToSend = Object.keys(currentPageData).map((key) => {
+        const originalField = this.originalFormData.find(
+          (field) => field.field_name === key
+        );
+        return {
+          field_name: key,
+          field_type: originalField ? originalField.fieldType : '/Tx',
+          initial_value: currentPageData[key] as string,
+          page_number: this.currentPage,
+        };
+      });
+
+      // Send the data to the API
+      this.http
+        .post(
+          'http://localhost:5001/save_form_data_to_firestore',
+          formDataToSend
+        )
+        .subscribe(
+          (response) => {
+            console.log('Form data saved successfully:', response);
+            this.currentPage++;
+            this.generateForm(this.originalFormData, this.currentPage);
+          },
+          (error) => {
+            console.error('Error saving form data:', error);
+          }
+        );
     }
   }
 
