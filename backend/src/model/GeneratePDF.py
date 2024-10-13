@@ -11,10 +11,24 @@ form_data_storage = {}
 @app.route("/save_form_data", methods=["POST"])
 def save_form_data():
     """Save form data sent by the frontend."""
-    form_data = request.json
-    page_number = form_data.get("currentPage")
-    form_data_storage[page_number] = form_data
-    return jsonify({"message": "Form data saved successfully."}), 200
+    form_data = request.json  # Assuming this is a list of form data dictionaries
+
+    if isinstance(form_data, list):
+        # Loop through the list and save each form page
+        for page_data in form_data:
+            page_number = page_data.get("current_form_page_number")
+            if page_number is not None:
+                form_data_storage[page_number] = page_data
+            else:
+                return (
+                    jsonify(
+                        {"error": "Invalid data, 'current_form_page_number' missing."}
+                    ),
+                    400,
+                )
+        return jsonify({"message": "Form data saved successfully."}), 200
+    else:
+        return jsonify({"error": "Invalid data format, expected a list."}), 400
 
 
 @app.route("/generate_pdf", methods=["POST"])
