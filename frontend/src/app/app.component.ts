@@ -40,10 +40,11 @@ export class AppComponent {
 
   openFormDialog(): void {
     const dialogRef = this.dialog.open(FormDialogComponent, {
-      minWidth: '400px',
-      width: '100%',
-      height: 'auto',
-      maxWidth: '600px',
+      minWidth: '600px',
+      width: '70vw',
+      // height: '80vh',
+      maxWidth: '80vw',
+      maxHeight: '90vh',
       disableClose: false,
     });
 

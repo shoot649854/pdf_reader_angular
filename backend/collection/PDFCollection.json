@@ -1,0 +1,49 @@
+{
+    "info": {
+      "name": "PDF Manipulation API",
+      "_postman_id": "",
+      "description": "Collection for interacting with the Flask PDF API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Save Form Data",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"currentPage\": 1,\n  \"fieldName1\": \"Sample Text\",\n  \"checkboxField\": true\n}"
+          },
+          "url": {
+            "raw": "http://127.0.0.1:5001/save_form_data",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5001",
+            "path": ["save_form_data"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Generate PDF",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"fieldName1\": \"Sample Text\",\n  \"checkboxField\": true\n}"
+          },
+          "url": {
+            "raw": "http://127.0.0.1:5001/generate_pdf",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5001",
+            "path": ["generate_pdf"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
