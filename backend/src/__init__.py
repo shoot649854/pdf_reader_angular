@@ -3,6 +3,7 @@ import os
 import dotenv
 import firebase_admin
 from firebase_admin import credentials, firestore
+from flask import Flask
 
 dotenv.load_dotenv()
 
@@ -23,3 +24,4 @@ if not firebase_admin._apps:
     firebase_admin.initialize_app(cred)
 
 db = firestore.client()
+app = Flask(__name__)
