@@ -13,6 +13,8 @@ pdfplumber = "^0.11.4"
 pdfrw = "^0.4"
 pymupdf = "^1.24.11"
 colorlog = "^6.8.2"
+python-dotenv = "^1.0.1"
+firebase-admin = "^6.5.0"
 
 
 [build-system]

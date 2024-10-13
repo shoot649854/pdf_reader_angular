@@ -43,6 +43,30 @@
           }
         },
         "response": []
+      },
+      {
+        "name": "Save Form Data to Firestore",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "[\n    {\n        \"field_name\": \"Full Name\",\n        \"description\": \"Enter your full legal name\",\n        \"field_type\": \"text\",\n        \"initial_value\": \"John Doe\",\n        \"page_number\": 1\n    },\n    {\n        \"field_name\": \"Date of Birth\",\n        \"description\": \"Enter your birthdate\",\n        \"field_type\": \"date\",\n        \"initial_value\": \"1990-01-01\",\n        \"page_number\": 1\n    },\n    {\n        \"field_name\": \"Citizenship\",\n        \"description\": \"Enter your country of citizenship\",\n        \"field_type\": \"dropdown\",\n        \"initial_value\": \"USA\",\n        \"page_number\": 2\n    }\n]"
+          },
+          "url": {
+            "raw": "http://localhost:5000/save_form_data_to_firestore",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "5000",
+            "path": ["save_form_data_to_firestore"]
+          }
+        },
+        "response": []
       }
     ]
   }

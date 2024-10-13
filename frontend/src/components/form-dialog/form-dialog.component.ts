@@ -20,6 +20,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 
 type PDFField = {
   field_name: string;
+  description?: string;
   fieldType: string;
   value: string;
   initial_value: string;
@@ -42,7 +43,12 @@ type PDFField = {
 })
 export class FormDialogComponent implements OnInit {
   form!: FormGroup;
-  formFields: { key: string; label: string; type: string }[] = [];
+  formFields: {
+    key: string;
+    description: string;
+    label: string;
+    type: string;
+  }[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
   currentPage: number = 1;
   pageSize: number = 10;
@@ -77,6 +83,7 @@ export class FormDialogComponent implements OnInit {
 
     for (const field of pageData) {
       const key = field.field_name;
+      const description = field.description;
       const fieldType = field.fieldType;
       const initialValue = field.initial_value;
 
@@ -105,6 +112,7 @@ export class FormDialogComponent implements OnInit {
 
       this.formFields.push({
         key,
+        description,
         label: this.formatFieldName(key),
         type: controlType,
       });
