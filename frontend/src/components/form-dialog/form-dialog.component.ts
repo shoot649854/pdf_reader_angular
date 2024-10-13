@@ -167,8 +167,53 @@ export class FormDialogComponent implements OnInit {
   onSubmit() {
     if (this.form.valid) {
       const formData = this.form.value;
-      console.log(formData);
-      this.fillAndDownloadPdf(formData);
+
+      // Transform the formData into an array of objects
+      const formattedData = Object.keys(formData).map((key) => {
+        return {
+          field_name: key,
+          initial_value: formData[key],
+          field_type: '/Tx', // Assuming all fields are text, adjust as needed
+          page_number: 1, // Assuming page number is 1, adjust based on your logic
+        };
+      });
+
+      // Make a POST request to generate the PDF with formatted data
+      this.http
+        .post('http://localhost:5001/generate_pdf', formattedData, {
+          responseType: 'blob',
+        })
+        .subscribe(
+          (response: Blob) => {
+            // Create a link element for the PDF download
+            const blobUrl = window.URL.createObjectURL(response);
+            const a = document.createElement('a');
+            a.href = blobUrl;
+            a.download = 'filled-form.pdf'; // Download name for the PDF
+            document.body.appendChild(a); // Append the link to the body
+            a.click(); // Simulate the click event to trigger download
+            document.body.removeChild(a); // Remove the link after download
+            window.URL.revokeObjectURL(blobUrl); // Clean up the URL
+
+            this.snackBar.open(
+              'PDF generated and downloaded successfully!',
+              'Close',
+              {
+                duration: 3000,
+              }
+            );
+          },
+          (error) => {
+            console.error('Error generating PDF:', error);
+            this.snackBar.open(
+              'Error generating PDF. Please try again.',
+              'Close',
+              {
+                duration: 3000,
+              }
+            );
+          }
+        );
     } else {
       this.snackBar.open('Please fill all required fields.', 'Close', {
         duration: 3000,
