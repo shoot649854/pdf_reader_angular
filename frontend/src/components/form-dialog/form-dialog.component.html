@@ -4,6 +4,7 @@
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <!-- Display form fields for the current page -->
       <div *ngFor="let field of formFields">
+        <!-- Text Field -->
         <ng-container *ngIf="field.type === 'text'">
           <mat-form-field>
             <mat-label>{{ field.label }}</mat-label>
@@ -11,8 +12,19 @@
           </mat-form-field>
         </ng-container>
 
+        <!-- Checkbox Field -->
         <ng-container *ngIf="field.type === 'checkbox'">
           <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
+        </ng-container>
+
+        <!-- Dropdown (Select) Field -->
+        <ng-container *ngIf="field.type === 'select'">
+          <mat-form-field>
+            <mat-label>{{ field.label }}</mat-label>
+            <select matNativeControl [formControlName]="field.key">
+              <option *ngFor="let option of field.options" [value]="option">{{ option }}</option>
+            </select>
+          </mat-form-field>
         </ng-container>
       </div>
 

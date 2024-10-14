@@ -1,16 +1,1205 @@
 [
+
   {
-      "field_name": "form1[0].#pageSet[0].Page1[0].PDF417BarCode1[0]",
-      "description": "Barcode (PDF417)",
-      "field_type": "/Tx",
-      "initial_value": "I-140|05/31/22|1",
-      "page_number": 1
+      "field_name": "form1[0].#subform[3].Line9d_State[0]",
+      "field_type": "/Ch",
+      "initial_value": "",
+      "page_number": 4,
+      "options": [
+          " ",
+          "AA",
+          "AE",
+          "AK",
+          "AL",
+          "AP",
+          "AR",
+          "AS",
+          "AZ",
+          "CA",
+          "CO",
+          "CT",
+          "DC",
+          "DE",
+          "FL",
+          "FM",
+          "GA",
+          "GU",
+          "HI",
+          "IA",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "ME",
+          "MH",
+          "MI",
+          "MN",
+          "MO",
+          "MP",
+          "MS",
+          "MT",
+          "NC",
+          "ND",
+          "NE",
+          "NH",
+          "NJ",
+          "NM",
+          "NV",
+          "NY",
+          "OH",
+          "OK",
+          "OR",
+          "PA",
+          "PR",
+          "PW",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "UT",
+          "UT",
+          "VA",
+          "VI",
+          "VT",
+          "WA",
+          "WI",
+          "WV",
+          "WY"
+      ]
   },
   {
-      "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
-      "description": "FamilyName",
+      "field_name": "form1[0].#subform[3].Line9e_ZipCode[0]",
       "field_type": "/Tx",
       "initial_value": "",
-      "page_number": 1
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line9b_Unit[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/ STE ",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line9b_Unit[1]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/ FLR ",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line9b_Unit[2]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/ APT ",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2f_Relationship[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2c_Person2MiddleName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2b_Person2GivenName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2a_Person2FamilyName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2d_DateOfBirth[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Line2e_CountryOfBirth[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 4
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 4,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#pageSet[0].Page1[4].PDF417BarCode1[0]",
+      "field_type": "/Tx",
+      "initial_value": "I-140|05/31/22|5",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2f_Relationship[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2f_Relationship[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[2]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2f_Relationship[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[3]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2f_Relationship[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[4]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 5
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxNo[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxYes[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 5,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#pageSet[0].Page1[5].PDF417BarCode1[0]",
+      "field_type": "/Tx",
+      "initial_value": "I-140|05/31/22|6",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 6,
+      "possible_values": [
+          "/CANTREAD",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item1b_InterpreterName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[1]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 6,
+      "possible_values": [
+          "/CANREAD",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item2_PreparerName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item2_Preparer[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 6,
+      "possible_values": [
+          "/Off",
+          "/PREP"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item3a_FamilyName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item4_Title[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item3b_GivenName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item7_Email[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item6_MobilePhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item5_DayPhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part7_Item8b_Date[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part8_Item1a_FamilyName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part8_Item2_OrgName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Part8_Item1b_GivenName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#subform[5].Line1a_SignatureofPetitioner[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 6
+  },
+  {
+      "field_name": "form1[0].#pageSet[0].Page1[6].PDF417BarCode1[0]",
+      "field_type": "/Tx",
+      "initial_value": "I-140|05/31/22|7",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_StreetNumberName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_AptSteFlrNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_CityOrTown[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_Country[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_Province[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_PostalCode[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_ZipCode[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_State[0]",
+      "field_type": "/Ch",
+      "initial_value": "",
+      "page_number": 7,
+      "options": [
+          " ",
+          "AA",
+          "AE",
+          "AK",
+          "AL",
+          "AP",
+          "AR",
+          "AS",
+          "AZ",
+          "CA",
+          "CO",
+          "CT",
+          "DC",
+          "DE",
+          "FL",
+          "FM",
+          "GA",
+          "GU",
+          "HI",
+          "IA",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "ME",
+          "MH",
+          "MI",
+          "MN",
+          "MO",
+          "MP",
+          "MS",
+          "MT",
+          "NC",
+          "ND",
+          "NE",
+          "NH",
+          "NJ",
+          "NM",
+          "NV",
+          "NY",
+          "OH",
+          "OK",
+          "OR",
+          "PA",
+          "PR",
+          "PW",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "UT",
+          "UT",
+          "VA",
+          "VI",
+          "VT",
+          "WA",
+          "WI",
+          "WV",
+          "WY"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_Unit[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/Off",
+          "/STE"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_Unit[1]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/FLR",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item3_Unit[2]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/APT",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item4_DayPhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item6_Email[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item5_MobilePhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item6_Language[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item1a_FamilyName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item1b_GivenName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item2_OrgName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Country[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_StreetNumberName[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_AptSteFlrNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_CityOrTown[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Province[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_PostalCode[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_ZipCode[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_State[0]",
+      "field_type": "/Ch",
+      "initial_value": "",
+      "page_number": 7,
+      "options": [
+          " ",
+          "AA",
+          "AE",
+          "AK",
+          "AL",
+          "AP",
+          "AR",
+          "AS",
+          "AZ",
+          "CA",
+          "CO",
+          "CT",
+          "DC",
+          "DE",
+          "FL",
+          "FM",
+          "GA",
+          "GU",
+          "HI",
+          "IA",
+          "ID",
+          "IL",
+          "IN",
+          "KS",
+          "KY",
+          "LA",
+          "MA",
+          "MD",
+          "ME",
+          "MH",
+          "MI",
+          "MN",
+          "MO",
+          "MP",
+          "MS",
+          "MT",
+          "NC",
+          "ND",
+          "NE",
+          "NH",
+          "NJ",
+          "NM",
+          "NV",
+          "NY",
+          "OH",
+          "OK",
+          "OR",
+          "PA",
+          "PR",
+          "PW",
+          "RI",
+          "SC",
+          "SD",
+          "TN",
+          "TX",
+          "UT",
+          "UT",
+          "VA",
+          "VI",
+          "VT",
+          "WA",
+          "WI",
+          "WV",
+          "WY"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Unit[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/Off",
+          "/STE"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Unit[1]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/FLR",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Unit[2]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 7,
+      "possible_values": [
+          "/APT",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item4_DayPhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_Email[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part9_Item3_MobilePhone[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part6_Line6a_InterpretersSignature[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#subform[6].Part8_Item7b_Date[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 7
+  },
+  {
+      "field_name": "form1[0].#pageSet[0].Page1[7].PDF417BarCode1[0]",
+      "field_type": "/Tx",
+      "initial_value": "I-140|05/31/22|8",
+      "page_number": 8
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 8,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[1]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 8,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part9_Item7b_NotExtend[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 8,
+      "possible_values": [
+          "/N",
+          "/Off"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part9_Item7b_Extend[0]",
+      "field_type": "/Btn",
+      "initial_value": "/Off",
+      "page_number": 8,
+      "possible_values": [
+          "/Off",
+          "/Y"
+      ]
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part9_Item8b_Date[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 8
+  },
+  {
+      "field_name": "form1[0].#subform[7].Part7_Line8a_InterpretersSignature[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 8
+  },
+  {
+      "field_name": "form1[0].#pageSet[0].Page1[8].PDF417BarCode1[0]",
+      "field_type": "/Tx",
+      "initial_value": "I-140|05/31/22|9",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line3d_AdditionalInfo[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt1Line1a_FamilyName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt1Line1b_GivenName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt1Line1c_MiddleName[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line3a_PageNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line3b_PartNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line3c_ItemNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line4d_AdditionalInfo[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line4a_PageNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line4b_PartNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line4c_ItemNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line5d_AdditionalInfo[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line5a_PageNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line5b_PartNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line5c_ItemNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[0]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
+  },
+  {
+      "field_name": "form1[0].#subform[8].#area[6].Pt1Line3_TaxNumber[1]",
+      "field_type": "/Tx",
+      "initial_value": "",
+      "page_number": 9
   }
 ]

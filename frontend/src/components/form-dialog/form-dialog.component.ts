@@ -21,9 +21,10 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 type PDFField = {
   field_name: string;
   description: string;
-  fieldType: string;
+  field_type: string;
   value: string;
   initial_value: string;
+  options?: string[];
 };
 
 @Component({
@@ -48,6 +49,7 @@ export class FormDialogComponent implements OnInit {
     description: string;
     label: string;
     type: string;
+    options?: string[];
   }[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
   currentPage: number = 1;
@@ -84,7 +86,7 @@ export class FormDialogComponent implements OnInit {
     for (const field of pageData) {
       const key = field.field_name;
       const description = field.description ?? '';
-      const fieldType = field.fieldType;
+      const field_type = field.field_type;
       const initialValue = field.initial_value;
 
       if (!key) {
@@ -93,29 +95,41 @@ export class FormDialogComponent implements OnInit {
       }
 
       let controlType: string;
-      if (fieldType === '/Tx') {
+      let control: FormControl;
+
+      if (field_type === '/Tx') {
         controlType = 'text';
-      } else if (fieldType === 'checkbox') {
+        control = new FormControl(initialValue, Validators.required);
+      } else if (field_type === 'checkbox' || field_type === '/Btn') {
         controlType = 'checkbox';
+        control = new FormControl(initialValue === 'true');
+      } else if (field_type === '/Ch') {
+        controlType = 'select';
+        const options = field.options || []; // Assuming options are provided in the field data
+        control = new FormControl(initialValue, Validators.required);
+        this.formFields.push({
+          key,
+          description,
+          label: this.formatFieldName(key),
+          type: controlType,
+          options, // Add options for select fields
+        });
       } else {
         controlType = 'text';
+        control = new FormControl(initialValue, Validators.required);
       }
 
-      if (controlType === 'checkbox') {
-        this.form.addControl(key, new FormControl(initialValue === 'true'));
-      } else {
-        this.form.addControl(
+      this.form.addControl(key, control);
+
+      if (controlType !== 'select') {
+        // Avoid pushing the select fields again
+        this.formFields.push({
           key,
-          new FormControl(initialValue, Validators.required)
-        );
+          description,
+          label: this.formatFieldName(key),
+          type: controlType,
+        });
       }
-
-      this.formFields.push({
-        key,
-        description,
-        label: this.formatFieldName(key),
-        type: controlType,
-      });
     }
   }
 
@@ -139,7 +153,7 @@ export class FormDialogComponent implements OnInit {
         );
         return {
           field_name: key,
-          field_type: originalField ? originalField.fieldType : '/Tx',
+          field_type: originalField ? originalField.field_type : '/Tx',
           initial_value: currentPageData[key] as string,
           page_number: this.currentPage,
         };
@@ -167,14 +181,12 @@ export class FormDialogComponent implements OnInit {
   onSubmit() {
     if (this.form.valid) {
       const formData = this.form.value;
-
-      // Transform the formData into an array of objects
       const formattedData = Object.keys(formData).map((key) => {
         return {
           field_name: key,
           initial_value: formData[key],
-          field_type: '/Tx', // Assuming all fields are text, adjust as needed
-          page_number: 1, // Assuming page number is 1, adjust based on your logic
+          field_type: '/Tx',
+          page_number: 1,
         };
       });
 
@@ -185,15 +197,14 @@ export class FormDialogComponent implements OnInit {
         })
         .subscribe(
           (response: Blob) => {
-            // Create a link element for the PDF download
             const blobUrl = window.URL.createObjectURL(response);
             const a = document.createElement('a');
             a.href = blobUrl;
-            a.download = 'filled-form.pdf'; // Download name for the PDF
-            document.body.appendChild(a); // Append the link to the body
-            a.click(); // Simulate the click event to trigger download
-            document.body.removeChild(a); // Remove the link after download
-            window.URL.revokeObjectURL(blobUrl); // Clean up the URL
+            a.download = 'filled-form.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(blobUrl);
 
             this.snackBar.open(
               'PDF generated and downloaded successfully!',
