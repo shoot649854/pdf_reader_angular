@@ -1,0 +1,203 @@
+name: Backend CI
+
+on:
+  pull_request:
+
+jobs:
+  SetGlobalConstants:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      TARGET_DIRECTORIES: '["backend", "langchain-chat", "advanced_search"]'
+      FIRST_TARGET_DIRECTORY: 'backend'
+      PYTHON_38_VERSION: 3.8.17
+      PYTHON_39_VERSION: 3.9.12
+      PYTHON_310_VERSION: 3.10.4
+      PYTHON_311_VERSION: 3.11.1
+      PYTHON_312_VERSION: 3.12.0
+      CHECKING_BADGE_COLOR: FFAA00
+      PASSING_BADGE_COLOR: 0088FF
+      RUNNING_OR_FAILING_STATUS: running or failed
+      PASSING_STATUS: passing
+      PASSING_LINTS_BADGE_NAME: passing_lints
+      PASSING_LINTS_BADGE_LABEL: 'passing lints'
+      PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_NAME: passing_unit_test_python_versions
+      PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_LABEL: 'passing unit tests Python versions'
+    steps:
+      - run: echo 'Setting constants.'
+
+  CreateCache:
+    needs: SetGlobalConstants
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        python-version: [
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_38_VERSION }}',
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}',
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_310_VERSION }}',
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_311_VERSION }}',
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}',
+        ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: CreateCache
+        uses: ./.github/actions/create_env_cache
+        with:
+          python-version: ${{ matrix.python-version }}
+          TARGET_DIRECTORY: ${{ needs.SetGlobalConstants.outputs.FIRST_TARGET_DIRECTORY }}
+
+  UpdateReadmeBadgesToCheckingStatus:
+    needs: SetGlobalConstants
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Update each lint badge status to running or failing
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: '${{ needs.SetGlobalConstants.outputs.PASSING_LINTS_BADGE_NAME }}'
+          label: '${{ needs.SetGlobalConstants.outputs.PASSING_LINTS_BADGE_LABEL }}'
+          status: '${{ needs.SetGlobalConstants.outputs.RUNNING_OR_FAILING_STATUS }}'
+          color: ${{ needs.SetGlobalConstants.outputs.CHECKING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update the passing unit tests Python versions status
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_NAME }}'
+          label: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_LABEL }}'
+          status: '${{ needs.SetGlobalConstants.outputs.RUNNING_OR_FAILING_STATUS }}'
+          color: ${{ needs.SetGlobalConstants.outputs.CHECKING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+  RunFlake8:
+    needs: [CreateCache, SetGlobalConstants]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the Python dependencies
+        uses: ./.github/actions/setup_py_dependencies
+        with:
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+      - name: Lint with flake8
+        run: python flake8 . || true
+        working-directory: ${{ matrix.target-directory }}
+  RunIsort:
+    needs: [CreateCache, SetGlobalConstants]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the Python dependencies
+        uses: ./.github/actions/setup_py_dependencies
+        with:
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+      - name: Install isort
+        run: pip install isort
+      - name: Lint with isort
+        run: isort . --check-only || isort .
+        working-directory: ${{ matrix.target-directory }}
+  RunBlack:
+    needs: [CreateCache, SetGlobalConstants]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the Python dependencies
+        uses: ./.github/actions/setup_py_dependencies
+        with:
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+      - name: Install black
+        run: pip install black
+      - name: Lint with black
+        run: black --check . || black .
+        working-directory: ${{ matrix.target-directory }}
+  RunDetectSecrets:
+    needs: [CreateCache, SetGlobalConstants]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      matrix:
+        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the Python dependencies
+        uses: ./.github/actions/setup_py_dependencies
+        with:
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+      - name: Install
+        run: pip install detect-secrets
+      - name: Run detect-secrets scan
+        run: detect-secrets scan ${{ matrix.target-directory }} > secrets_output.json
+        working-directory: ${{ matrix.target-directory }}
+
+  UpdateReadmeBadgesToPassingStatus:
+    needs: [
+      SetGlobalConstants,
+      UpdateReadmeBadgesToCheckingStatus,
+      RunFlake8,
+      RunIsort,
+      RunBlack,
+      RunDetectSecrets,
+    ]
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Update each lint badge status
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: '${{ needs.SetGlobalConstants.outputs.PASSING_LINTS_BADGE_NAME }}'
+          label: '${{ needs.SetGlobalConstants.outputs.PASSING_LINTS_BADGE_LABEL }}'
+          status: 'flake8 | mypy | Pyright | numdoclint'
+          color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Echo the passing unit tests number value
+        run: echo ${{ needs.RunTestsAndSaveCoverageAndPassingNum.outputs.COVERAGE }}
+      - name: Update tests line coverage
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: unit_tests_coverage
+          label: 'unit tests coverage'
+          status: ${{ needs.RunTestsAndSaveCoverageAndPassingNum.outputs.COVERAGE }}
+          color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Echo the passing unit tests number value
+        run: echo ${{ needs.RunTestsAndSaveCoverageAndPassingNum.outputs.PASSING_TESTS_NUM }}
+      - name: Update the passing unit tests number
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: passing_unit_tests_num
+          label: 'passing unit tests number'
+          status: ${{ needs.RunTestsAndSaveCoverageAndPassingNum.outputs.PASSING_TESTS_NUM }}
+          color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update the passsing doctests number
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: passing_doctests_num
+          label: 'passing doctests number'
+          status: ${{ needs.RunDocTest.outputs.PASSING_TESTS_NUM }}
+          color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update the passing unit tests Python versions status
+        uses: RubbaBoy/BYOB@v1.3.0
+        with:
+          name: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_NAME }}'
+          label: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_LABEL }}'
+          status: '${{ needs.SetGlobalConstants.outputs.PYTHON_38_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_310_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_311_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
+          color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

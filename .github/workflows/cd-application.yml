@@ -1,0 +1,63 @@
+name: Deploy Docker Compose App
+
+on:
+  push:
+    branches:
+      - main
+      - dev/main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Authenticate to Google Cloud
+      - name: Authenticate to Google Cloud
+        id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+
+      # Set up Google Cloud SDK
+      - name: Set up Google Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+
+      # Docker auth to Google Cloud Container Registry (GCR)
+      - name: Docker auth
+        run: |-
+          gcloud auth configure-docker asia-northeast1-docker.pkg.dev
+
+      # Build and push frontend container
+      - name: Build and push frontend container
+        run: |-
+          docker build -t "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}" ./frontend
+          docker push "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}"
+
+      # Build and push backend container
+      - name: Build and push backend container
+        run: |-
+          docker build -t "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}" ./backend
+          docker push "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}"
+
+      # Deploy with Docker Compose
+      - name: Deploy containers with Docker Compose
+        run: |-
+          # Create a docker-compose.override.yml file to use the images from GCR
+          echo "version: '3'" > docker-compose.override.yml
+          echo "services:" >> docker-compose.override.yml
+          echo "  frontend:" >> docker-compose.override.yml
+          echo "    image: asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}" >> docker-compose.override.yml
+          echo "  backend:" >> docker-compose.override.yml
+          echo "    image: asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}" >> docker-compose.override.yml
+
+          # Use docker-compose to bring up the services
+          docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+      # Verify that the services are running
+      - name: Verify deployment
+        run: docker-compose ps
