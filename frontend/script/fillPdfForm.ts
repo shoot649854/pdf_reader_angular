@@ -13,28 +13,37 @@ async function fillPdfForm() {
 
     const form = pdfDoc.getForm();
     const fields = form.getFields();
+
+    // Log the total number of fields
+    console.log(`Total fields found: ${fields.length}`);
+
     const formFieldData: {
       fieldName: string;
       fieldType: string;
       value: string;
     }[] = [];
 
-    fields.forEach((field) => {
+    fields.forEach((field, index) => {
       const fieldName = field.getName();
       const fieldType = field.constructor.name;
 
-      console.log(`Field Name: ${fieldName}, Type: ${fieldType}`);
+      // Log each field with its index
+      console.log(
+        `Field ${index + 1} - Name: ${fieldName}, Type: ${fieldType}`
+      );
 
       formFieldData.push({
         fieldName: fieldName,
         fieldType: fieldType,
-        value: '',
+        value: '', // Placeholder for the value (can be modified)
       });
     });
 
+    // Write all form field data to a JSON file
     const jsonData = JSON.stringify(formFieldData, null, 2);
-
     fs.writeFileSync('form-fields.json', jsonData);
+
+    // Optional: fill the form fields with sample data
     fields.forEach((field) => {
       const fieldName = field.getName();
       const fieldType = field.constructor.name;
@@ -54,6 +63,7 @@ async function fillPdfForm() {
       }
     });
 
+    // Flatten the form and save the modified PDF
     form.flatten();
     const pdfBytes = await pdfDoc.save();
     fs.writeFileSync('filled-form.pdf', pdfBytes);

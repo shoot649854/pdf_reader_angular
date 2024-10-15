@@ -19,9 +19,12 @@ import { PdfService } from '../../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 type PDFField = {
-  fieldName: string;
-  fieldType: string;
+  field_name: string;
+  description: string;
+  field_type: string;
   value: string;
+  initial_value: string;
+  options?: string[];
 };
 
 @Component({
@@ -41,8 +44,18 @@ type PDFField = {
 })
 export class FormDialogComponent implements OnInit {
   form!: FormGroup;
-  formFields: { key: string; label: string; type: string }[] = [];
+  formFields: {
+    key: string;
+    description: string;
+    label: string;
+    type: string;
+    options?: string[];
+  }[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
+  currentPage: number = 1;
+  pageSize: number = 10;
+  totalPages: number = 0;
+  originalFormData: PDFField[] = []; // Store the original PDFField data here
 
   constructor(
     private fb: FormBuilder,
@@ -57,30 +70,65 @@ export class FormDialogComponent implements OnInit {
     this.http
       .get<PDFField[]>('/assets/form_data.json')
       .subscribe((data: PDFField[]) => {
-        this.generateForm(data);
+        this.originalFormData = data;
+        this.totalPages = Math.ceil(data.length / this.pageSize);
+        this.generateForm(data, this.currentPage);
       });
   }
 
-  generateForm(data: PDFField[]): void {
-    for (const field of data) {
-      const key = field.fieldName;
-      const fieldType = field.fieldType;
-      const fieldValue = field.value;
+  generateForm(data: PDFField[], page: number): void {
+    const startIndex = (page - 1) * this.pageSize;
+    const endIndex = startIndex + this.pageSize;
+    const pageData = data.slice(startIndex, endIndex);
 
-      if (fieldType === 'checkbox') {
-        this.form.addControl(key, new FormControl(fieldValue));
-      } else {
-        this.form.addControl(
-          key,
-          new FormControl(fieldValue, Validators.required)
-        );
+    this.formFields = [];
+
+    for (const field of pageData) {
+      const key = field.field_name;
+      const description = field.description ?? '';
+      const field_type = field.field_type;
+      const initialValue = field.initial_value;
+
+      if (!key) {
+        console.warn('Skipping field with missing fieldName:', field);
+        continue;
       }
 
-      this.formFields.push({
-        key,
-        label: this.formatFieldName(key),
-        type: fieldType,
-      });
+      let controlType: string;
+      let control: FormControl;
+
+      if (field_type === '/Tx') {
+        controlType = 'text';
+        control = new FormControl(initialValue, Validators.required);
+      } else if (field_type === 'checkbox' || field_type === '/Btn') {
+        controlType = 'checkbox';
+        control = new FormControl(initialValue === 'true');
+      } else if (field_type === '/Ch') {
+        controlType = 'select';
+        const options = field.options || []; // Assuming options are provided in the field data
+        control = new FormControl(initialValue, Validators.required);
+        this.formFields.push({
+          key,
+          description,
+          label: this.formatFieldName(key),
+          type: controlType,
+          options, // Add options for select fields
+        });
+      } else {
+        controlType = 'text';
+        control = new FormControl(initialValue, Validators.required);
+      }
+
+      this.form.addControl(key, control);
+
+      if (controlType !== 'select') {
+        this.formFields.push({
+          key,
+          description,
+          label: this.formatFieldName(key),
+          type: controlType,
+        });
+      }
     }
   }
 
@@ -88,11 +136,93 @@ export class FormDialogComponent implements OnInit {
     return fieldName.replace('[0]', '').replace(/_/g, ' ');
   }
 
+  previousPage(): void {
+    if (this.currentPage > 1) {
+      this.currentPage--;
+      this.generateForm(this.originalFormData, this.currentPage);
+    }
+  }
+
+  nextPage(): void {
+    if (this.currentPage < this.totalPages) {
+      const currentPageData = this.form.value;
+      const formDataToSend = Object.keys(currentPageData).map((key) => {
+        const originalField = this.originalFormData.find(
+          (field) => field.field_name === key
+        );
+        return {
+          field_name: key,
+          field_type: originalField ? originalField.field_type : '/Tx',
+          initial_value: currentPageData[key] as string,
+          page_number: this.currentPage,
+        };
+      });
+
+      this.http
+        .post(
+          'http://localhost:5001/save_form_data_to_firestore',
+          formDataToSend
+        )
+        .subscribe(
+          (response) => {
+            console.log('Form data saved successfully:', response);
+            this.currentPage++;
+            this.generateForm(this.originalFormData, this.currentPage);
+          },
+          (error) => {
+            console.error('Error saving form data:', error);
+          }
+        );
+    }
+  }
+
   onSubmit() {
     if (this.form.valid) {
       const formData = this.form.value;
-      console.log(formData);
-      this.fillAndDownloadPdf(formData);
+      const formattedData = Object.keys(formData).map((key) => {
+        return {
+          field_name: key,
+          initial_value: formData[key],
+          field_type: '/Tx',
+          page_number: 1,
+        };
+      });
+
+      // Make a POST request to generate the PDF with formatted data
+      this.http
+        .post('http://localhost:5001/generate_pdf', formattedData, {
+          responseType: 'blob',
+        })
+        .subscribe(
+          (response: Blob) => {
+            const blobUrl = window.URL.createObjectURL(response);
+            const a = document.createElement('a');
+            a.href = blobUrl;
+            a.download = 'filled-form.pdf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(blobUrl);
+
+            this.snackBar.open(
+              'PDF generated and downloaded successfully!',
+              'Close',
+              {
+                duration: 3000,
+              }
+            );
+          },
+          (error) => {
+            console.error('Error generating PDF:', error);
+            this.snackBar.open(
+              'Error generating PDF. Please try again.',
+              'Close',
+              {
+                duration: 3000,
+              }
+            );
+          }
+        );
     } else {
       this.snackBar.open('Please fill all required fields.', 'Close', {
         duration: 3000,

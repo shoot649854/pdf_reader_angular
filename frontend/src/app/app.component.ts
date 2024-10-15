@@ -40,18 +40,31 @@ export class AppComponent {
 
   openFormDialog(): void {
     const dialogRef = this.dialog.open(FormDialogComponent, {
-      minWidth: '400px',
-      width: '100%',
-      height: 'auto',
-      maxWidth: '600px',
+      minWidth: '600px',
+      width: '70vw',
+      // height: '80vh',
+      maxWidth: '80vw',
+      maxHeight: '90vh',
       disableClose: false,
     });
 
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         console.log('Form Data:', result);
+        this.saveResultAsJson(result);
       }
     });
+  }
+
+  saveResultAsJson(result: { [key: string]: string | boolean }): void {
+    const jsonData = JSON.stringify(result, null, 2);
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    const url = window.URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'form-data.json';
+    anchor.click();
+    window.URL.revokeObjectURL(url);
   }
 
   showError(message: string) {

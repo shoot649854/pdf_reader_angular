@@ -1,125 +1,112 @@
 [
     {
+        "field_name": "form1[0].#pageSet[0].Page1[0].PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-140|05/31/22|1",
+        "page_number": 1
+    },
+    {
         "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
-        "description": "FamilyName",
         "field_type": "/Tx",
         "initial_value": "",
-        "page_number": 1,
-        "need": "form1[0].#subform[0].G28CheckBox[0]"
+        "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
-        "description": "GivenName",
         "field_type": "/Tx",
         "initial_value": "",
-        "page_number": 1,
-        "need": "form1[0].#subform[0].G28CheckBox[0]"
+        "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
-        "description": "MiddleName",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line2_CompanyName[0]",
-        "description": "CompanyName",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].G28CheckBox[0]",
-        "description": "Attorney G-28 Checkbox",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].attyStateBarNumber[0]",
-        "description": "Attorney State Bar Number",
         "field_type": "/Tx",
         "initial_value": "",
-        "page_number": 1        
+        "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
-        "description": "Attorney USCIS Online Account Number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].#area[1].Pt2Line2_USCISOnlineActNumber[0]",
-        "description": "USCIS Online Account Number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line3_TaxNumber[0]",
-        "description": "Tax Identification Number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line4_SSN[0]",
-        "description": "Social Security Number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6a_InCareofName[0]",
-        "description": "In Care Of Name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6b_StreetNumberName[0]",
-        "description": "Street Number and Name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_AptSteFlrNumber[0]",
-        "description": "Apartment/Ste/Flr Number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6d_CityOrTown[0]",
-        "description": "City or Town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6g_PostalCode[0]",
-        "description": "Postal Code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6i_Country[0]",
-        "description": "Country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6e_State[0]",
-        "description": "State",
         "field_type": "/Ch",
         "initial_value": "",
         "page_number": 1,
@@ -191,135 +178,122 @@
     },
     {
         "field_name": "form1[0].#subform[0].Line6f_ZipCode[0]",
-        "description": "Zip Code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[0]",
-        "description": "Unit Type: STE (Suite)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/ STE ",
             "/Off"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[1]",
-        "description": "Unit Type: FLR (Floor)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/ FLR ",
             "/Off"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[2]",
-        "description": "Unit Type: APT (Apartment)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/ APT ",
             "/Off"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].Line6h_Province[0]",
-        "description": "Province",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[0]",
-        "description": "Petition Type: e",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/e"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[1]",
-        "description": "Petition Type: a",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/a"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[2]",
-        "description": "Petition Type: b",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/b"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[3]",
-        "description": "Petition Type: 3",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/c"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[4]",
-        "description": "Petition Type: 4",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/d"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[5]",
-        "description": "Petition Type: 5",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/g"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[6]",
-        "description": "Petition Type: 6",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/h"
         ]
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[7]",
-        "description": "Petition Type: 7",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 1,
-        "options": [
+        "possible_values": [
             "/Off",
             "/f"
         ]
@@ -335,7 +309,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -345,7 +319,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -492,7 +466,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/ STE ",
             "/Off"
         ]
@@ -502,7 +476,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/ FLR ",
             "/Off"
         ]
@@ -512,7 +486,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/ APT ",
             "/Off"
         ]
@@ -612,7 +586,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/1a",
             "/Off"
         ]
@@ -640,7 +614,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
-        "options": [
+        "possible_values": [
             "/1b",
             "/Off"
         ]
@@ -698,7 +672,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ STE ",
             "/Off"
         ]
@@ -708,7 +682,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ FLR ",
             "/Off"
         ]
@@ -718,7 +692,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ APT ",
             "/Off"
         ]
@@ -782,7 +756,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ STE ",
             "/Off"
         ]
@@ -792,7 +766,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ FLR ",
             "/Off"
         ]
@@ -802,7 +776,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/ APT ",
             "/Off"
         ]
@@ -818,7 +792,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -828,7 +802,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -838,7 +812,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -848,7 +822,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -858,7 +832,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -868,7 +842,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -878,7 +852,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -888,7 +862,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -898,7 +872,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -908,7 +882,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -918,7 +892,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -928,7 +902,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -938,7 +912,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -948,7 +922,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -958,7 +932,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1004,7 +978,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1014,7 +988,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1090,7 +1064,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1100,7 +1074,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1110,7 +1084,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1120,7 +1094,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1130,7 +1104,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1140,7 +1114,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1186,7 +1160,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1196,7 +1170,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1320,7 +1294,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/ STE ",
             "/Off"
         ]
@@ -1330,7 +1304,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/ FLR ",
             "/Off"
         ]
@@ -1340,7 +1314,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/ APT ",
             "/Off"
         ]
@@ -1386,7 +1360,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1396,7 +1370,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1406,7 +1380,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1416,7 +1390,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1426,7 +1400,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1436,7 +1410,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1584,7 +1558,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1594,7 +1568,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1604,7 +1578,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1614,7 +1588,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1624,7 +1598,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1634,7 +1608,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1644,7 +1618,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1654,7 +1628,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1664,7 +1638,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1674,7 +1648,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1684,7 +1658,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1694,7 +1668,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1716,7 +1690,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1726,7 +1700,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1736,7 +1710,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -1746,7 +1720,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -1762,7 +1736,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
-        "options": [
+        "possible_values": [
             "/CANTREAD",
             "/Off"
         ]
@@ -1778,7 +1752,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
-        "options": [
+        "possible_values": [
             "/CANREAD",
             "/Off"
         ]
@@ -1794,7 +1768,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
-        "options": [
+        "possible_values": [
             "/Off",
             "/PREP"
         ]
@@ -1990,7 +1964,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/Off",
             "/STE"
         ]
@@ -2000,7 +1974,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/FLR",
             "/Off"
         ]
@@ -2010,7 +1984,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/APT",
             "/Off"
         ]
@@ -2176,7 +2150,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/Off",
             "/STE"
         ]
@@ -2186,7 +2160,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/FLR",
             "/Off"
         ]
@@ -2196,7 +2170,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
-        "options": [
+        "possible_values": [
             "/APT",
             "/Off"
         ]
@@ -2242,7 +2216,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -2252,7 +2226,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
@@ -2262,7 +2236,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
-        "options": [
+        "possible_values": [
             "/N",
             "/Off"
         ]
@@ -2272,7 +2246,7 @@
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
-        "options": [
+        "possible_values": [
             "/Off",
             "/Y"
         ]
