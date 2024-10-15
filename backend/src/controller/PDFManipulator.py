@@ -92,6 +92,12 @@ class PDFManipulator:
             logger.debug(f"Updated other field type with value '{value}'.")
 
     def _update_button_field(self, field, value):
+        if isinstance(value, bool):
+            value = "yes" if value else "no"
+
+        elif isinstance(value, str):
+            value = value.lower()
+
         if value.lower() == "yes":
             logger.debug("Checkbox/radio button checked (value: Yes).")
             on_value = self._get_on_value(field)

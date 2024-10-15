@@ -122,7 +122,6 @@ export class FormDialogComponent implements OnInit {
       this.form.addControl(key, control);
 
       if (controlType !== 'select') {
-        // Avoid pushing the select fields again
         this.formFields.push({
           key,
           description,
@@ -159,7 +158,6 @@ export class FormDialogComponent implements OnInit {
         };
       });
 
-      // Send the data to the API
       this.http
         .post(
           'http://localhost:5001/save_form_data_to_firestore',
