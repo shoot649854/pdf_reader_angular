@@ -2,13 +2,15 @@ name: Backend CI
 
 on:
   pull_request:
+    paths:
+      - 'backend/src'
 
 jobs:
   SetGlobalConstants:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     outputs:
-      TARGET_DIRECTORIES: '["backend", "langchain-chat", "advanced_search"]'
+    #   # TARGET_DIRECTORIES: '["backend", "langchain-chat", "advanced_search"]'
       FIRST_TARGET_DIRECTORY: 'backend'
       PYTHON_38_VERSION: 3.8.17
       PYTHON_39_VERSION: 3.9.12
@@ -34,7 +36,7 @@ jobs:
       matrix:
         python-version: [
           '${{ needs.SetGlobalConstants.outputs.PYTHON_38_VERSION }}',
-          '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}',
+          '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}',
           '${{ needs.SetGlobalConstants.outputs.PYTHON_310_VERSION }}',
           '${{ needs.SetGlobalConstants.outputs.PYTHON_311_VERSION }}',
           '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}',
@@ -74,76 +76,76 @@ jobs:
     needs: [CreateCache, SetGlobalConstants]
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    strategy:
-      matrix:
-        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    # strategy:
+    #   matrix:
+    #     target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup the Python dependencies
         uses: ./.github/actions/setup_py_dependencies
         with:
-          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
       - name: Lint with flake8
         run: python flake8 . || true
-        working-directory: ${{ matrix.target-directory }}
+        working-directory: ${{ needs.SetGlobalConstants.outputs.TARGET_DIRECTORY}}
   RunIsort:
     needs: [CreateCache, SetGlobalConstants]
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    strategy:
-      matrix:
-        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    # strategy:
+    #   matrix:
+    #     target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup the Python dependencies
         uses: ./.github/actions/setup_py_dependencies
         with:
-          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
       - name: Install isort
         run: pip install isort
       - name: Lint with isort
         run: isort . --check-only || isort .
-        working-directory: ${{ matrix.target-directory }}
+        working-directory: ${{ needs.SetGlobalConstants.outputs.TARGET_DIRECTORY}}
   RunBlack:
     needs: [CreateCache, SetGlobalConstants]
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    strategy:
-      matrix:
-        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    # strategy:
+    #   matrix:
+    #     target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup the Python dependencies
         uses: ./.github/actions/setup_py_dependencies
         with:
-          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
       - name: Install black
         run: pip install black
       - name: Lint with black
         run: black --check . || black .
-        working-directory: ${{ matrix.target-directory }}
+        working-directory: ${{ needs.SetGlobalConstants.outputs.TARGET_DIRECTORY}}
   RunDetectSecrets:
     needs: [CreateCache, SetGlobalConstants]
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    strategy:
-      matrix:
-        target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
+    # strategy:
+    #   matrix:
+    #     target-directory: ${{ fromJson(needs.SetGlobalConstants.outputs.TARGET_DIRECTORIES) }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup the Python dependencies
         uses: ./.github/actions/setup_py_dependencies
         with:
-          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }}'
+          python-version: '${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
       - name: Install
         run: pip install detect-secrets
       - name: Run detect-secrets scan
         run: detect-secrets scan ${{ matrix.target-directory }} > secrets_output.json
-        working-directory: ${{ matrix.target-directory }}
+        working-directory: ${{ needs.SetGlobalConstants.outputs.TARGET_DIRECTORY}}
 
   UpdateReadmeBadgesToPassingStatus:
     needs: [
@@ -198,6 +200,6 @@ jobs:
         with:
           name: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_NAME }}'
           label: '${{ needs.SetGlobalConstants.outputs.PASSING_UNIT_TEST_PYTHON_VERSIONS_BADGE_LABEL }}'
-          status: '${{ needs.SetGlobalConstants.outputs.PYTHON_38_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_39_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_310_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_311_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
+          status: '${{ needs.SetGlobalConstants.outputs.PYTHON_38_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_310_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_311_VERSION }} | ${{ needs.SetGlobalConstants.outputs.PYTHON_312_VERSION }}'
           color: ${{ needs.SetGlobalConstants.outputs.PASSING_BADGE_COLOR }}
           github_token: ${{ secrets.GITHUB_TOKEN }}

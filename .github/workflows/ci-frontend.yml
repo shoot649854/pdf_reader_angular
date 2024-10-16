@@ -1,6 +1,9 @@
 name: Frontend CI
 
-on: [pull_request]
+on:
+  pull_request:
+    paths:
+      - 'frontend/src'
 
 jobs:
   SetGlobalConstants:
