@@ -1,7 +1,6 @@
-name: Deploy Docker Compose App
+name: Deploy to Google Cloud Run
 
 on:
-  pull_request:
   push:
     branches:
       - main
@@ -17,48 +16,51 @@ jobs:
 
       # Authenticate to Google Cloud
       - name: Authenticate to Google Cloud
-        id: 'auth'
-        uses: 'google-github-actions/auth@v2'
+        uses: google-github-actions/auth@v2
         with:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
 
       # Set up Google Cloud SDK
       - name: Set up Google Cloud SDK
-        uses: 'google-github-actions/setup-gcloud@v2'
+        uses: google-github-actions/setup-gcloud@v2
         with:
           project_id: ${{ secrets.PROJECT_ID }}
 
-      # Docker auth to Google Cloud Container Registry (GCR)
-      - name: Docker auth
-        run: |-
-          gcloud auth configure-docker asia-northeast1-docker.pkg.dev
+      # Configure Docker to use the gcloud command-line tool as a credential helper
+      - name: Configure Docker for gcloud
+        run: gcloud auth configure-docker asia-northeast1-docker.pkg.dev
 
       # Build and push frontend container
       - name: Build and push frontend container
-        run: |-
+        run: |
           docker build -t "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}" ./frontend
           docker push "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}"
 
+      # Deploy frontend to Cloud Run
+      - name: Deploy frontend to Cloud Run
+        run: |
+          gcloud run deploy frontend-service \
+            --image "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}" \
+            --region asia-northeast1 \
+            --platform managed \
+            --allow-unauthenticated
+
       # Build and push backend container
       - name: Build and push backend container
-        run: |-
+        run: |
           docker build -t "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}" ./backend
           docker push "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}"
 
-      # Deploy with Docker Compose
-      - name: Deploy containers with Docker Compose
-        run: |-
-          # Create a docker-compose.override.yml file to use the images from GCR
-          echo "version: '3'" > docker-compose.override.yml
-          echo "services:" >> docker-compose.override.yml
-          echo "  frontend:" >> docker-compose.override.yml
-          echo "    image: asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/frontend/frontend:${{ github.sha }}" >> docker-compose.override.yml
-          echo "  backend:" >> docker-compose.override.yml
-          echo "    image: asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}" >> docker-compose.override.yml
+      # Deploy backend to Cloud Run
+      - name: Deploy backend to Cloud Run
+        run: |
+          gcloud run deploy backend-service \
+            --image "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/backend/backend:${{ github.sha }}" \
+            --region asia-northeast1 \
+            --platform managed \
+            --allow-unauthenticated \
+            --set-env-vars FLASK_ENV=production
 
-          # Use docker-compose to bring up the services
-          docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-
-      # Verify that the services are running
-      - name: Verify deployment
-        run: docker-compose ps
+      # Verify deployed services
+      - name: List Cloud Run services
+        run: gcloud run services list --platform managed --region asia-northeast1
