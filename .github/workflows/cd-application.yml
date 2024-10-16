@@ -64,18 +64,14 @@ jobs:
           export REGION=asia-northeast1
           export APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}
 
-          # Make sure template files exist before trying to substitute them
+          # テンプレートファイルを処理し、環境変数で置換
           for template in *.template.yaml; do
-            if [ -f "$template" ]; then
-              envsubst '$PROJECT_ID $REGION $APP_NAME' < "$template" > "${template%%.*}.yaml"
-            else
-              echo "Template $template not found!"
-            fi
+            envsubst '$PROJECT_ID $REGION $APP_NAME' < "$template" > "${template%%.*}.yaml"
           done
         working-directory: .github/google_cloud
 
       - name: 'Check substituted clouddeploy.yaml'
-        run: cat clouddeploy.yaml || echo "clouddeploy.yaml not found!"
+        run: cat clouddeploy.yaml
         working-directory: .github/google_cloud
 
       - name: 'Create Cloud Deploy delivery pipeline'
@@ -86,7 +82,7 @@ jobs:
         run: gcloud deploy delivery-pipelines describe ${{ needs.SetGlobalConstants.outputs.APP_NAME }} --region asia-northeast1
 
       - name: 'Create release name'
-        run: echo "RELEASE_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}-${{ github.sha::7 }}-${{ github.run_number }}" >> $GITHUB_ENV
+        run: echo "RELEASE_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}-${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
 
       - name: 'Create Cloud Deploy release'
         id: 'release'
@@ -95,7 +91,7 @@ jobs:
           delivery_pipeline: '${{ needs.SetGlobalConstants.outputs.APP_NAME }}'
           name: '${{ env.RELEASE_NAME }}'
           region: 'asia-northeast1'
-          description: '${{ github.event.head_commit.message }}'
+          description: '${{ env.GITHUB_COMMIT_MSG }}'
           skaffold_file: '.github/google_cloud/skaffold.template.yaml'
           images: 'app=asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}:${{ github.sha }}'
 
