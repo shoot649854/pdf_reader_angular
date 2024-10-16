@@ -60,8 +60,11 @@ jobs:
           echo "REGION=asia-northeast1" >> $GITHUB_ENV
           echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
 
+          echo "PROJECT_ID: $PROJECT_ID"
+          echo "REGION: $REGION"
+          echo "APP_NAME: $APP_NAME"
+
           for template in $(ls *.template.yaml); do
-            # envsubst '${PROJECT_ID} ${REGION} ${APP_NAME}' < ${template} > ${template%%.*}.yaml
             echo "Processing template: ${template}"
             envsubst '$PROJECT_ID $REGION $APP_NAME' < ${template} > ${template%%.*}.yaml
             echo "Resulting YAML:"
