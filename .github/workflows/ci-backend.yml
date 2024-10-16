@@ -3,7 +3,7 @@ name: Backend CI
 on:
   pull_request:
     paths:
-      - 'backend/src'
+      - 'backend'
 
 jobs:
   SetGlobalConstants:
