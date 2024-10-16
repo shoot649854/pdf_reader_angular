@@ -1,7 +1,6 @@
 name: Deploy Backend
 
 on:
-  pull_request:
   push:
     branches:
       - main
@@ -60,20 +59,12 @@ jobs:
           echo "REGION=asia-northeast1" >> $GITHUB_ENV
           echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
 
-          # 環境変数を即座にシェルに反映
           export PROJECT_ID=${{ secrets.PROJECT_ID }}
           export REGION=asia-northeast1
           export APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}
 
-          echo "PROJECT_ID: $PROJECT_ID"
-          echo "REGION: $REGION"
-          echo "APP_NAME: $APP_NAME"
-
-          for template in $(ls *.template.yaml); do
-            echo "Processing template: ${template}"
-            envsubst '$PROJECT_ID $REGION $APP_NAME' < ${template} > ${template%%.*}.yaml
-            echo "Resulting YAML:"
-            cat ${template%%.*}.yaml
+          for template in *.template.yaml; do
+            envsubst '$PROJECT_ID $REGION $APP_NAME' < "$template" > "${template%%.*}.yaml"
           done
         working-directory: .github/google_cloud
 
