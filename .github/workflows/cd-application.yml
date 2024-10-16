@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 5
     outputs:
       TARGET_DIRECTORY: 'backend'
-      APP_NAME: 'flask-application'
+      APP_NAME: 'pdf-reader-backend'
       PYTHON_38_VERSION: 3.8.17
       PYTHON_39_VERSION: 3.9.12
       PYTHON_310_VERSION: 3.10.4
