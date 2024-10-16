@@ -1,6 +1,7 @@
 name: Deploy Backend
 
 on:
+  pull-request:
   push:
     branches:
       - main
