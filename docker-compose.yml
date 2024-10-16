@@ -1,0 +1,30 @@
+version: '3'
+services:
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        ports:
+            - '4200:80'
+        networks:
+            - app-network
+        depends_on:
+            - backend
+
+    backend:
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        ports:
+            - '5001:5001'
+        networks:
+            - app-network
+        volumes:
+            - ./backend/data:/app/data
+            - ~/.gcp:/root/.gcp
+        environment:
+            - FLASK_ENV=development
+
+networks:
+    app-network:
+        driver: bridge

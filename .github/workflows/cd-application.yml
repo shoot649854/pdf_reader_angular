@@ -1,0 +1,103 @@
+name: Deploy Backend
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - dev/main
+
+jobs:
+  SetGlobalConstants:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      TARGET_DIRECTORY: 'backend'
+      APP_NAME: 'pdf-reader-backend'
+      PYTHON_38_VERSION: 3.8.17
+      PYTHON_39_VERSION: 3.9.12
+      PYTHON_310_VERSION: 3.10.4
+      PYTHON_311_VERSION: 3.11.1
+      PYTHON_312_VERSION: 3.12.0
+    steps:
+      - run: echo 'Setting constants.'
+
+  # https://github.com/google-github-actions/example-workflows/tree/main/workflows/create-cloud-deploy-release
+  # App変更: secrets.App, .github/google_cloud/skaffold.template.yaml, .github/google_cloud/clouddeploy.template.yaml
+  RunGoogleCloudDeploy:
+    needs: [SetGlobalConstants]
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v4'
+
+      - name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+
+      - name: 'Set up Google Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
+        with:
+          project_id: ${{ secrets.PROJECT_ID }}
+
+      - name: 'Docker auth'
+        run: gcloud auth configure-docker asia-northeast1-docker.pkg.dev
+
+      - name: 'Build and push container'
+        run: |-
+          docker build -t "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}:${{ github.sha }}" .
+          docker push "asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}:${{ github.sha }}"
+        working-directory: ${{ needs.SetGlobalConstants.outputs.TARGET_DIRECTORY }}
+
+      - name: 'Render template config manifests'
+        run: |-
+          echo "PROJECT_ID=${{ secrets.PROJECT_ID }}" >> $GITHUB_ENV
+          echo "REGION=asia-northeast1" >> $GITHUB_ENV
+          echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
+
+          export PROJECT_ID=${{ secrets.PROJECT_ID }}
+          export REGION=asia-northeast1
+          export APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}
+
+          # テンプレートファイルを処理し、環境変数で置換
+          for template in *.template.yaml; do
+            envsubst '$PROJECT_ID $REGION $APP_NAME' < "$template" > "${template%%.*}.yaml"
+          done
+        working-directory: .github/google_cloud
+
+      - name: 'Check substituted clouddeploy.yaml'
+        run: cat clouddeploy.yaml
+        working-directory: .github/google_cloud
+
+      - name: 'Create Cloud Deploy delivery pipeline'
+        run: gcloud deploy apply --file clouddeploy.yaml --region asia-northeast1
+        working-directory: .github/google_cloud
+
+      - name: 'Verify delivery pipeline'
+        run: gcloud deploy delivery-pipelines describe ${{ needs.SetGlobalConstants.outputs.APP_NAME }} --region asia-northeast1
+
+      - name: 'Create release name'
+        run: echo "RELEASE_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}-${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}" >> $GITHUB_ENV
+
+      - name: 'Create Cloud Deploy release'
+        id: 'release'
+        uses: 'google-github-actions/create-cloud-deploy-release@v0'
+        with:
+          delivery_pipeline: '${{ needs.SetGlobalConstants.outputs.APP_NAME }}'
+          name: '${{ env.RELEASE_NAME }}'
+          region: 'asia-northeast1'
+          description: '${{ env.GITHUB_COMMIT_MSG }}'
+          skaffold_file: '.github/google_cloud/skaffold.template.yaml'
+          images: 'app=asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}/${{ needs.SetGlobalConstants.outputs.APP_NAME }}:${{ github.sha }}'
+
+      - name: 'Report Cloud Deploy release'
+        run: |-
+          echo "Created release ${{ steps.release.outputs.name }} "
+          echo "Release link ${{ steps.release.outputs.link }} "
+          RELEASE_URL="https://console.cloud.google.com/deploy/delivery-pipelines/asia-northeast1/${{ needs.SetGlobalConstants.outputs.APP_NAME }}/releases/${{ env.RELEASE_NAME }}?project=${{ secrets.PROJECT_ID }}"
+          echo "Release link: $RELEASE_URL"
