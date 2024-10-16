@@ -22,6 +22,8 @@ jobs:
     steps:
       - run: echo 'Setting constants.'
 
+  # https://github.com/google-github-actions/example-workflows/tree/main/workflows/create-cloud-deploy-release
+  # App変更: secrets.App, .github/google_cloud/skaffold.template.yaml, .github/google_cloud/clouddeploy.template.yaml
   RunGoogleCloudDeploy:
     needs: [SetGlobalConstants]
     permissions:
