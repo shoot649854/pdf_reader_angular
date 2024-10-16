@@ -61,7 +61,7 @@ jobs:
           echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
 
           for template in $(ls *.template.yaml); do
-            envsubst < ${template} > ${template%%.*}.yaml
+            envsubst '${PROJECT_ID} ${REGION} ${APP_NAME}' < ${template} > ${template%%.*}.yaml
           done
         working-directory: .github/google_cloud
 
