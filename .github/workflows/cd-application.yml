@@ -60,6 +60,11 @@ jobs:
           echo "REGION=asia-northeast1" >> $GITHUB_ENV
           echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
 
+          # 環境変数を即座にシェルに反映
+          export PROJECT_ID=${{ secrets.PROJECT_ID }}
+          export REGION=asia-northeast1
+          export APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}
+
           echo "PROJECT_ID: $PROJECT_ID"
           echo "REGION: $REGION"
           echo "APP_NAME: $APP_NAME"
