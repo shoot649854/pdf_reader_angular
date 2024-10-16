@@ -1,7 +1,7 @@
 apiVersion: skaffold/v4beta7
 kind: Config
 metadata:
-  name: '${APP}'
+  name: '${APP_NAME}'
 deploy:
   cloudrun: {}
 profiles:

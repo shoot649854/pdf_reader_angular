@@ -58,7 +58,7 @@ jobs:
         run: |-
           echo "PROJECT_ID=${{ secrets.PROJECT_ID }}" >> $GITHUB_ENV
           echo "REGION=asia-northeast1" >> $GITHUB_ENV
-          echo "APP=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
+          echo "APP_NAME=${{ needs.SetGlobalConstants.outputs.APP_NAME }}" >> $GITHUB_ENV
 
           for template in $(ls *.template.yaml); do
             envsubst < ${template} > ${template%%.*}.yaml

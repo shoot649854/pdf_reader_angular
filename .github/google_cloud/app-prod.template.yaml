@@ -1,7 +1,7 @@
 apiVersion: serving.knative.dev/v1
 kind: Service
 metadata:
-  name: '${APP}-prod'
+  name: '${APP_NAME}-prod'
 spec:
   template:
     metadata:
@@ -11,7 +11,7 @@ spec:
     spec:
       serviceAccountName: ${RUN_SERVICE_ACCOUNT}
       containers:
-      - name: '${APP}'
+      - name: '${APP_NAME}'
         image: 'app'
         env:
           - name: 'TARGET'
