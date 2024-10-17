@@ -75,16 +75,18 @@ After installing the dependencies, you can run the Angular application locally:
 1. **Start the development server**:
 
     ```bash
-    pnpm start
+    pnpm run start
     ```
 
     This command will start a local server, and you can access the application at [http://localhost:4200](http://localhost:4200).
 
-2. **Build the application**:
-   If you want to build the project for production:
-    ```bash
-    pnpm build
-    ```
+## Running Backend
+
+ ```bash
+ pip install poetry
+ poetry install --no-root
+ poetry run python app.py
+ ```
 
 ## Commit message
 
