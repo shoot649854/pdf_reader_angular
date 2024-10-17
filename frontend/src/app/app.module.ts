@@ -19,20 +19,13 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 // Components
 import { AppComponent } from './app.component';
-import { PdfViewerComponent } from '../components/pdf-viewer/pdf-viewer.component';
-import { PdfUploadComponent } from '../components/pdf-upload/pdf-upload.component';
-import { PdfEditorComponent } from '../components/pdf-editor/pdf-editor.component';
 
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PdfViewerComponent,
-    PdfUploadComponent,
-    PdfEditorComponent,
-  ],
+  declarations: [],
   imports: [
+    AppComponent,
     RouterModule.forRoot([]),
     BrowserModule,
     BrowserAnimationsModule,
@@ -53,6 +46,6 @@ import { RouterModule } from '@angular/router';
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [],
 })
 export class AppModule {}

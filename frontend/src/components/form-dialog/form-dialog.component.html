@@ -14,7 +14,9 @@
 
         <!-- Checkbox Field -->
         <ng-container *ngIf="field.type === 'checkbox'">
-          <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
+          <mat-checkbox [formControlName]="field.key">{{
+            field.label
+          }}</mat-checkbox>
         </ng-container>
 
         <!-- Dropdown (Select) Field -->
@@ -22,7 +24,9 @@
           <mat-form-field>
             <mat-label>{{ field.label }}</mat-label>
             <select matNativeControl [formControlName]="field.key">
-              <option *ngFor="let option of field.options" [value]="option">{{ option }}</option>
+              <option *ngFor="let option of field.options" [value]="option">
+                {{ option }}
+              </option>
             </select>
           </mat-form-field>
         </ng-container>
@@ -30,9 +34,21 @@
 
       <!-- Pagination Controls -->
       <div class="pagination-controls">
-        <button mat-raised-button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+        <button
+          mat-raised-button
+          (click)="previousPage()"
+          [disabled]="currentPage === 1"
+        >
+          Previous
+        </button>
         <span>Page {{ currentPage }} of {{ totalPages }}</span>
-        <button mat-raised-button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+        <button
+          mat-raised-button
+          (click)="nextPage()"
+          [disabled]="currentPage === totalPages"
+        >
+          Next
+        </button>
       </div>
 
       <!-- Dialog Actions (Submit and Cancel Buttons) -->

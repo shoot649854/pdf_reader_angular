@@ -79,11 +79,9 @@ export class FormDialogComponent implements OnInit {
         this.totalPages = Math.ceil(data.length / this.pageSize);
         this.generateForm(data, this.currentPage);
 
-        this.form
-          .get('TestCheckButton')
-          ?.valueChanges.subscribe((isChecked) => {
-            this.toggleDependentFields();
-          });
+        this.form.get('TestCheckButton')?.valueChanges.subscribe(() => {
+          this.toggleDependentFields();
+        });
       });
   }
 
@@ -98,7 +96,7 @@ export class FormDialogComponent implements OnInit {
   toggleDependentFields(): void {
     const startIndex = (this.currentPage - 1) * this.pageSize;
     const endIndex = startIndex + this.pageSize;
-    const pageData = this.originalFormData.slice(startIndex, endIndex); // Handle only current page data
+    const pageData = this.originalFormData.slice(startIndex, endIndex);
 
     this.formFields = pageData
       .map((field) => {
@@ -126,13 +124,13 @@ export class FormDialogComponent implements OnInit {
           return null;
         }
       })
-      .filter((field) => field !== null); // Filter out null fields
+      .filter((field) => field !== null);
   }
 
   generateForm(data: PDFField[], page: number): void {
     const startIndex = (page - 1) * this.pageSize;
     const endIndex = startIndex + this.pageSize;
-    const pageData = data.slice(startIndex, endIndex); // Slice form fields based on page and pageSize
+    const pageData = data.slice(startIndex, endIndex);
 
     this.formFields = [];
 
@@ -149,7 +147,6 @@ export class FormDialogComponent implements OnInit {
       let controlType: string;
       let control: FormControl;
 
-      // Only show fields that meet the 'need' condition (if any)
       if (field.need && !this.shouldShowField(field.need)) {
         return;
       }
@@ -188,7 +185,6 @@ export class FormDialogComponent implements OnInit {
       }
     });
 
-    // Apply visibility rules for fields with dependencies
     this.toggleDependentFields();
   }
 
