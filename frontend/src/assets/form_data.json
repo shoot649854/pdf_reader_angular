@@ -1,11 +1,22 @@
 [
     {
+        "field_name": "TestCheckButton",
+        "description": "TestCheckButton",
+        "field_type": "/Btn",
+        "initial_value": "/Off",
+        "page_number": 1,
+        "options": [
+            "/Off",
+            "/Y"
+        ]
+    },
+    {
         "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
         "description": "FamilyName",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1,
-        "need": "form1[0].#subform[0].G28CheckBox[0]"
+        "need": ["TestCheckButton"]
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
@@ -13,7 +24,7 @@
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 1,
-        "need": "form1[0].#subform[0].G28CheckBox[0]"
+        "need": ["TestCheckButton"]
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
@@ -326,12 +337,14 @@
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[1].PDF417BarCode1[0]",
+        "description": "PDF417 Barcode on Page 1",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|2",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2a_Amend[0]",
+        "description": "Is this an amendment? (Yes/No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -342,6 +355,7 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2b_ScheduleA[0]",
+        "description": "Schedule A attached? (Yes/No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -352,60 +366,70 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2aReceipt[0].Line2a_ReceiptNumber[0]",
+        "description": "Receipt Number for Line 2a",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1a_FamilyName[0]",
+        "description": "What is your family name?",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1b_GivenName[0]",
+        "description": "What is your given (first) name?",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1c_MiddleName[0]",
+        "description": "What is your middle name?",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2b_StreetNumberName[0]",
+        "description": "Street number and name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_AptSteFlrNumber[0]",
+        "description": "Apartment/Suite/Floor number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2d_CityOrTown[0]",
+        "description": "City or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2h_Province[0]",
+        "description": "Province",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2i_Country[0]",
+        "description": "Country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2e_State[0]",
+        "description": "State",
         "field_type": "/Ch",
         "initial_value": "",
         "page_number": 2,
@@ -477,18 +501,21 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2f_ZipCode[0]",
+        "description": "ZIP code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2a_InCareofName[0]",
+        "description": "In care of name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[0]",
+        "description": "Unit number (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -499,6 +526,7 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[1]",
+        "description": "Unit number (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -509,6 +537,7 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[2]",
+        "description": "Unit number (3rd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -519,96 +548,112 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line2g_PostalCode[0]",
+        "description": "Postal code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line5_DateOfBirth[0]",
+        "description": "Date of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line6_CityTownOfBirth[0]",
+        "description": "City or town of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line8_Country[0]",
+        "description": "Country of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line9_Country[0]",
+        "description": "Second country of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line11_Alien[0].Pt3Line8_AlienNumber[0]",
+        "description": "Alien registration number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line12_SSN[0]",
+        "description": "Social Security Number (SSN)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line13_DateOArrival[0]",
+        "description": "Date of arrival",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14_I94Number[0].Line14a_ArrivalDeparture[0]",
+        "description": "I-94 Arrival/Departure number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14b_Passport[0]",
+        "description": "Passport number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14c_TravelDoc[0]",
+        "description": "Travel document number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14d_CountryOfIssuance[0]",
+        "description": "Country of issuance",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14e_ExpDate[0]",
+        "description": "Expiration date (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line14e_ExpDate[1]",
+        "description": "Expiration date (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line15_CurrentNon[0]",
+        "description": "Current nonimmigrant status",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_Visa[0]",
+        "description": "Visa number",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -619,24 +664,28 @@
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_CityorTown[0]",
+        "description": "City or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_Country[0]",
+        "description": "Country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line7_StateProvinceOfBirth[0]",
+        "description": "State/Province of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 2
     },
     {
         "field_name": "form1[0].#subform[1].Line1b_Status[0]",
+        "description": "Immigration status",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 2,
@@ -647,54 +696,63 @@
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[2].PDF417BarCode1[0]",
+        "description": "PDF417 Barcode on Page 2",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|3",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line1b_Country[0]",
+        "description": "Country name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_StreetNumberName[0]",
+        "description": "Street number and name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_AptSteFlrNumber[0]",
+        "description": "Apartment/Suite/Floor number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2c_CityOrTown[0]",
+        "description": "City or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2e_Province[0]",
+        "description": "Province",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2f_Country[0]",
+        "description": "Country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2d_PostalCode[0]",
+        "description": "Postal code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[0]",
+        "description": "Unit number (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -705,6 +763,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[1]",
+        "description": "Unit number (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -715,6 +774,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[2]",
+        "description": "Unit number (3rd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -725,60 +785,70 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line3c_MiddleName2[0]",
+        "description": "Second middle name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3b_GivenName2[0]",
+        "description": "Second given name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3a_FamilyName2[0]",
+        "description": "Second family name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3d_StreetNumberName[0]",
+        "description": "Second street number and name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_AptSteFlrNumber[0]",
+        "description": "Second apartment/suite/floor number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3f_CityOrTown[0]",
+        "description": "Second city or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3g_PostalCode[0]",
+        "description": "Second postal code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3i_Country[0]",
+        "description": "Second country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3h_Province[0]",
+        "description": "Second province",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[0]",
+        "description": "Second unit number (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -789,6 +859,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[1]",
+        "description": "Second unit number (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -799,6 +870,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[2]",
+        "description": "Second unit number (3rd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -809,12 +881,14 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_InCareofName[1]",
+        "description": "In care of name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form485[0]",
+        "description": "Form I-485 attached?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -825,6 +899,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form131[0]",
+        "description": "Form I-131 attached?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -835,6 +910,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form765[0]",
+        "description": "Form I-765 attached?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -845,6 +921,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line4_OtherAttach[0]",
+        "description": "Other attachments?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -855,6 +932,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line7_Yes[0]",
+        "description": "Answer to question 7 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -865,6 +943,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line7_No[0]",
+        "description": "Answer to question 7 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -875,6 +954,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line5_No[0]",
+        "description": "Answer to question 5 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -885,6 +965,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line5_Yes[0]",
+        "description": "Answer to question 5 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -895,6 +976,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line6_No[0]",
+        "description": "Answer to question 6 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -905,6 +987,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line6_Yes[0]",
+        "description": "Answer to question 6 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -915,6 +998,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line8_Yes[0]",
+        "description": "Answer to question 8 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -925,6 +1009,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line8_No[0]",
+        "description": "Answer to question 8 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -935,6 +1020,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line1a_Employer[0]",
+        "description": "Employer name",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -945,6 +1031,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line1b_Self[0]",
+        "description": "Self-employed?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -955,6 +1042,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line1c_Other[0]",
+        "description": "Other employment type",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -965,42 +1053,49 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line1c_Explain[0]",
+        "description": "Explanation of other employment",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_TypeofBusiness[0]",
+        "description": "Type of business",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_DateEstablished[0]",
+        "description": "Date business was established",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2c_NumberofEmployees[0]",
+        "description": "Number of employees",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2d_GrossAnnualIncome[0]",
+        "description": "Gross annual income",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2e_NetAnnualIncome[0]",
+        "description": "Net annual income",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Yes[0]",
+        "description": "Answer to question 4 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -1011,6 +1106,7 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line4_No[0]",
+        "description": "Answer to question 4 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 3,
@@ -1021,72 +1117,84 @@
     },
     {
         "field_name": "form1[0].#subform[2].Line2g_LaborCertification[0]",
+        "description": "Labor certification",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#subform[2].Line2f[0].Line2f_NAICSCode[0]",
+        "description": "NAICS code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 3
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[3].PDF417BarCode1[0]",
+        "description": "PDF417 Barcode on Page 3",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|4",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2i_LaborCertificationDate[0]",
+        "description": "Labor certification date",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line3b_AnnualIncome[0]",
+        "description": "Annual income",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line3a_Occupation[0]",
+        "description": "Occupation",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2_SOCCode1[0]",
+        "description": "SOC code (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2_SOCCode2[0]",
+        "description": "SOC code (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1_JobTitle[0]",
+        "description": "Job title",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line3_JobDescription[0]",
+        "description": "Jo description",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line5_Hours[0]",
+        "description": "Hours per week",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line4_No1[0]",
+        "description": "Answer to question 4 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1097,6 +1205,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line4_Yes1[0]",
+        "description": "Answer to question 4 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1107,6 +1216,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line7_No1[0]",
+        "description": "Answer to question 7 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1117,6 +1227,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line7_Yes1[0]",
+        "description": "Answer to question 7 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1127,6 +1238,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line6_No1[0]",
+        "description": "Answer to question 6 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1137,6 +1249,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line6_Yes1[0]",
+        "description": "Answer to question 6 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1147,42 +1260,49 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line1c_Person1MiddleName[0]",
+        "description": "First person middle name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1b_Person1GivenName[0]",
+        "description": "First person given name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1a_Person1FamilyName[0]",
+        "description": "First person family name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1d_Person1DateOfBirth[0]",
+        "description": "First person date of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1e_CountryOfBirth[0]",
+        "description": "First person country of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line1f_Relationship[0]",
+        "description": "Relationship to the first person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber5_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 5 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1193,6 +1313,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber5_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 5 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1203,42 +1324,49 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line8_Wages[0]",
+        "description": "Wages",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line8_Per[0]",
+        "description": "Wages per... (period)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2h_LaborCertification[0]",
+        "description": "Labor certification status",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line9a_StreetNumberName[0]",
+        "description": "Street number and name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_AptSteFlrNumber[0]",
+        "description": "Apartment/Suite/Floor number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line9c_CityOrTown[0]",
+        "description": "City or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line9d_State[0]",
+        "description": "State",
         "field_type": "/Ch",
         "initial_value": "",
         "page_number": 4,
@@ -1311,12 +1439,14 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line9e_ZipCode[0]",
+        "description": "ZIP code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[0]",
+        "description": "Unit number (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1327,6 +1457,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[1]",
+        "description": "Unit number (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1337,6 +1468,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[2]",
+        "description": "Unit number (3rd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1347,42 +1479,49 @@
     },
     {
         "field_name": "form1[0].#subform[3].Line2f_Relationship[0]",
+        "description": "Relationship to second person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2c_Person2MiddleName[0]",
+        "description": "Second person's middle name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2b_Person2GivenName[0]",
+        "description": "Second person's given name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2a_Person2FamilyName[0]",
+        "description": "Second person's family name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2d_DateOfBirth[0]",
+        "description": "Second person's date of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Line2e_CountryOfBirth[0]",
+        "description": "Second person's country of birth",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 4
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 6 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1393,6 +1532,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 6 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1403,6 +1543,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 11 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1413,6 +1554,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 11 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1423,6 +1565,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 12 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1433,6 +1576,7 @@
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 12 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 4,
@@ -1443,144 +1587,168 @@
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[4].PDF417BarCode1[0]",
+        "description": "PDF417 Barcode on Page 4",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|5",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[1]",
+        "description": "Second person's middle name (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[1]",
+        "description": "Second person's given name (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[1]",
+        "description": "Second person's family name (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[1]",
+        "description": "Second person's relationship",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[1]",
+        "description": "Second person's date of birth (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[1]",
+        "description": "Second person's country of birth (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[2]",
+        "description": "Second person's middle name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[2]",
+        "description": "Second person's given name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[2]",
+        "description": "Second person's family name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[2]",
+        "description": "Second person's date of birth (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[3]",
+        "description": "Second person's country of birth (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[3]",
+        "description": "Second person's middle name (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[3]",
+        "description": "Second person's given name (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[2]",
+        "description": "Second person's family name (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[3]",
+        "description": "Second person's date of birth (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[2]",
+        "description": "Second person's country of birth (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[4]",
+        "description": "Second person's middle name (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[4]",
+        "description": "Second person's given name (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[4]",
+        "description": "Second person's family name (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[3]",
+        "description": "Second person's date of birth (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[4]",
+        "description": "Second person's country of birth (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[3]",
+        "description": "Relationship to second person (4th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxNo[0]",
+        "description": "Second person's country of birth (5th)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1591,6 +1759,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 17 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1601,6 +1770,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 17 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1611,6 +1781,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 18 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1621,6 +1792,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 18 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1631,6 +1803,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 29 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1641,6 +1814,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 29 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1651,6 +1825,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 30 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1661,6 +1836,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 30 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1671,6 +1847,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 35 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1681,6 +1858,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 35 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1691,6 +1869,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 36 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1701,18 +1880,21 @@
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[4]",
+        "description": "Answer to Part 7, item 36 (Yes)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[4]",
+        "description": "Relationship to second person (5th)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 5
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxNo[0]",
+        "description": "Country of birth (4th person)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1723,6 +1905,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 23 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1733,6 +1916,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxNo[0]",
+        "description": "Answer to Part 7, item 23 (Yes)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1743,6 +1927,7 @@
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxYes[0]",
+        "description": "Answer to Part 7, item 24 (No)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 5,
@@ -1753,12 +1938,14 @@
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[5].PDF417BarCode1[0]",
+        "description": "Answer to Part 7, item 24 (Yes)",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|6",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[0]",
+        "description": "PDF417 Barcode on Page 5",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
@@ -1769,12 +1956,14 @@
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1b_InterpreterName[0]",
+        "description": "Interpreter details (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[1]",
+        "description": "Interpreter name (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
@@ -1785,12 +1974,14 @@
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item2_PreparerName[0]",
+        "description": "Interpreter details (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item2_Preparer[0]",
+        "description": "Preparer name",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 6,
@@ -1801,120 +1992,140 @@
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item3a_FamilyName[0]",
+        "description": "Preparer details",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item4_Title[0]",
+        "description": "Preparer family name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item3b_GivenName[0]",
+        "description": "Preparer title",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item7_Email[0]",
+        "description": "Preparer given name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item6_MobilePhone[0]",
+        "description": "Preparer email address",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item5_DayPhone[0]",
+        "description": "Preparer mobile phone number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item8b_Date[0]",
+        "description": "Preparer daytime phone number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item1a_FamilyName[0]",
+        "description": "Preparer signature date",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item2_OrgName[0]",
+        "description": "Family name of petitioner",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item1b_GivenName[0]",
+        "description": "Organization name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#subform[5].Line1a_SignatureofPetitioner[0]",
+        "description": "Given name of petitioner",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 6
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[6].PDF417BarCode1[0]",
+        "description": "Petitioner's signature",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|7",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_StreetNumberName[0]",
+        "description": "PDF417 Barcode on Page 6",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_AptSteFlrNumber[0]",
+        "description": "Petitioner's street number and name",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_CityOrTown[0]",
+        "description": "Petitioner's apartment/suite/floor number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Country[0]",
+        "description": "Petitioner's city or town",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Province[0]",
+        "description": "Petitioner's country",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_PostalCode[0]",
+        "description": "Petitioner's province",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_ZipCode[0]",
+        "description": "Petitioner's postal code",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_State[0]",
+        "description": "Petitioner's ZIP code",
         "field_type": "/Ch",
         "initial_value": "",
         "page_number": 7,
@@ -1987,6 +2198,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[0]",
+        "description": "Petitioner's state",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -1997,6 +2209,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[1]",
+        "description": "Petitioner's unit number (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -2007,6 +2220,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[2]",
+        "description": "Petitioner's unit number (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -2017,90 +2231,105 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item4_DayPhone[0]",
+        "description": "Petitioner's unit number (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item6_Email[0]",
+        "description": "Petitioner's daytime phone number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item5_MobilePhone[0]",
+        "description": "Petitioner's email address",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item6_Language[0]",
+        "description": "Petitioner's mobile phone number",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item1a_FamilyName[0]",
+        "description": "Petitioner's language",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item1b_GivenName[0]",
+        "description": "Family name of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item2_OrgName[0]",
+        "description": "Given name of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Country[0]",
+        "description": "Organization name of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_StreetNumberName[0]",
+        "description": "Country of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_AptSteFlrNumber[0]",
+        "description": "Street number and name of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_CityOrTown[0]",
+        "description": "Apartment/Suite/Floor number of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Province[0]",
+        "description": "City or town of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_PostalCode[0]",
+        "description": "Province of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_ZipCode[0]",
+        "description": "Postal code of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_State[0]",
+        "description": "ZIP code of Part 9 person",
         "field_type": "/Ch",
         "initial_value": "",
         "page_number": 7,
@@ -2173,6 +2402,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[0]",
+        "description": "State of Part 9 person",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -2183,6 +2413,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[1]",
+        "description": "Unit number of Part 9 person (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -2193,6 +2424,7 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[2]",
+        "description": "Unit number of Part 9 person (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 7,
@@ -2203,42 +2435,49 @@
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item4_DayPhone[0]",
+        "description": "Unit number of Part 9 person (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Email[0]",
+        "description": "Daytime phone of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_MobilePhone[0]",
+        "description": "Email address of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part6_Line6a_InterpretersSignature[0]",
+        "description": "Mobile phone of Part 9 person",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item7b_Date[0]",
+        "description": "Interpreter's signature",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 7
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[7].PDF417BarCode1[0]",
+        "description": "Date of signature",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|8",
         "page_number": 8
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[0]",
+        "description": "PDF417 Barcode on Page 7",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
@@ -2249,6 +2488,7 @@
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[1]",
+        "description": "Attorney Checkbox (1st)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
@@ -2259,6 +2499,7 @@
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7b_NotExtend[0]",
+        "description": "Attorney Checkbox (2nd)",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
@@ -2269,6 +2510,7 @@
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7b_Extend[0]",
+        "description": "Not extending?",
         "field_type": "/Btn",
         "initial_value": "/Off",
         "page_number": 8,
@@ -2279,162 +2521,189 @@
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item8b_Date[0]",
+        "description": "Extending?",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 8
     },
     {
         "field_name": "form1[0].#subform[7].Part7_Line8a_InterpretersSignature[0]",
+        "description": "Attorney signature date",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 8
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[8].PDF417BarCode1[0]",
+        "description": "Interpreter's signature",
         "field_type": "/Tx",
         "initial_value": "I-140|05/31/22|9",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3d_AdditionalInfo[0]",
+        "description": "PDF417 Barcode on Page 8",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1a_FamilyName[1]",
+        "description": "Additional information (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1b_GivenName[1]",
+        "description": "First person's family name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1c_MiddleName[1]",
+        "description": "First person's given name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3a_PageNumber[0]",
+        "description": "First person's middle name (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3b_PartNumber[0]",
+        "description": "Page number for additional info (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3c_ItemNumber[0]",
+        "description": "Part number for additional info (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4d_AdditionalInfo[0]",
+        "description": "Item number for additional info (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4a_PageNumber[0]",
+        "description": "Additional information (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4b_PartNumber[0]",
+        "description": "Page number for additional info (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4c_ItemNumber[0]",
+        "description": "Part number for additional info (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5d_AdditionalInfo[0]",
+        "description": "Item number for additional info (2nd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5a_PageNumber[0]",
+        "description": "Additional information (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5b_PartNumber[0]",
+        "description": "Page number for additional info (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5c_ItemNumber[0]",
+        "description": "Part number for additional info (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[0]",
+        "description": "Item number for additional info (3rd)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[0]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[0]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[0]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[1]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[1]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[1]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[1]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
     },
     {
         "field_name": "form1[0].#subform[8].#area[6].Pt1Line3_TaxNumber[1]",
+        "description": "Tax number (1st)",
         "field_type": "/Tx",
         "initial_value": "",
         "page_number": 9
