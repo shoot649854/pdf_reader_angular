@@ -25,6 +25,7 @@ type PDFField = {
   value: string;
   initial_value: string;
   options?: string[];
+  need?: string[];
 };
 
 @Component({
@@ -50,12 +51,13 @@ export class FormDialogComponent implements OnInit {
     label: string;
     type: string;
     options?: string[];
+    need?: string[];
   }[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
   currentPage: number = 1;
   pageSize: number = 10;
   totalPages: number = 0;
-  originalFormData: PDFField[] = []; // Store the original PDFField data here
+  originalFormData: PDFField[] = [];
 
   constructor(
     private fb: FormBuilder,
@@ -66,36 +68,91 @@ export class FormDialogComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.form = this.fb.group({});
+    this.form = this.fb.group({
+      TestCheckButton: [false],
+    });
+
     this.http
       .get<PDFField[]>('/assets/form_data.json')
       .subscribe((data: PDFField[]) => {
         this.originalFormData = data;
         this.totalPages = Math.ceil(data.length / this.pageSize);
         this.generateForm(data, this.currentPage);
+
+        this.form
+          .get('TestCheckButton')
+          ?.valueChanges.subscribe((isChecked) => {
+            this.toggleDependentFields();
+          });
       });
+  }
+
+  shouldShowField(fieldNeeds: string[]): boolean {
+    const result = fieldNeeds.every((controlName) => {
+      const controlValue = this.form.get(controlName)?.value;
+      return controlValue;
+    });
+    return result;
+  }
+
+  toggleDependentFields(): void {
+    const startIndex = (this.currentPage - 1) * this.pageSize;
+    const endIndex = startIndex + this.pageSize;
+    const pageData = this.originalFormData.slice(startIndex, endIndex); // Handle only current page data
+
+    this.formFields = pageData
+      .map((field) => {
+        const shouldShow = !field.need || this.shouldShowField(field.need);
+
+        if (shouldShow) {
+          if (!this.form.contains(field.field_name)) {
+            this.form.addControl(
+              field.field_name,
+              new FormControl('', Validators.required)
+            );
+          }
+
+          return {
+            key: field.field_name,
+            description: field.description,
+            label: this.formatFieldName(field.field_name),
+            type: field.field_type === '/Tx' ? 'text' : 'checkbox',
+            options: field.options ?? [],
+          };
+        } else {
+          if (this.form.contains(field.field_name)) {
+            this.form.removeControl(field.field_name);
+          }
+          return null;
+        }
+      })
+      .filter((field) => field !== null); // Filter out null fields
   }
 
   generateForm(data: PDFField[], page: number): void {
     const startIndex = (page - 1) * this.pageSize;
     const endIndex = startIndex + this.pageSize;
-    const pageData = data.slice(startIndex, endIndex);
+    const pageData = data.slice(startIndex, endIndex); // Slice form fields based on page and pageSize
 
     this.formFields = [];
 
-    for (const field of pageData) {
+    pageData.forEach((field) => {
       const key = field.field_name;
       const description = field.description ?? '';
       const field_type = field.field_type;
       const initialValue = field.initial_value;
 
       if (!key) {
-        console.warn('Skipping field with missing fieldName:', field);
-        continue;
+        return;
       }
 
       let controlType: string;
       let control: FormControl;
+
+      // Only show fields that meet the 'need' condition (if any)
+      if (field.need && !this.shouldShowField(field.need)) {
+        return;
+      }
 
       if (field_type === '/Tx') {
         controlType = 'text';
@@ -105,14 +162,14 @@ export class FormDialogComponent implements OnInit {
         control = new FormControl(initialValue === 'true');
       } else if (field_type === '/Ch') {
         controlType = 'select';
-        const options = field.options || []; // Assuming options are provided in the field data
+        const options = field.options || [];
         control = new FormControl(initialValue, Validators.required);
         this.formFields.push({
           key,
           description,
           label: this.formatFieldName(key),
           type: controlType,
-          options, // Add options for select fields
+          options,
         });
       } else {
         controlType = 'text';
@@ -129,7 +186,10 @@ export class FormDialogComponent implements OnInit {
           type: controlType,
         });
       }
-    }
+    });
+
+    // Apply visibility rules for fields with dependencies
+    this.toggleDependentFields();
   }
 
   formatFieldName(fieldName: string): string {

@@ -7,7 +7,7 @@
         <!-- Text Field -->
         <ng-container *ngIf="field.type === 'text'">
           <mat-form-field>
-            <mat-label>{{ field.label }}</mat-label>
+            <mat-label>{{ field.description }}</mat-label>
             <input matInput [formControlName]="field.key" />
           </mat-form-field>
         </ng-container>
