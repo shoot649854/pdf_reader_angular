@@ -63,19 +63,9 @@ export class FormDialogComponent implements OnInit {
     this.loadFormData();
   }
 
-  fieldDescriptions: { [key: string]: string } = {
-    TestCheckButton_FieldName: 'TestCheckButton_FieldName',
-    G28CheckBox: 'form1[0].#subform[0].G28CheckBox[0]',
-  };
-
   private initializeForm(): void {
     this.form = this.fb.group({
-      TestCheckButton_FieldName: [false],
       G28CheckBox: [false],
-    });
-
-    this.form.get('TestCheckButton_FieldName')?.valueChanges.subscribe(() => {
-      this.toggleDependentFields();
     });
 
     this.form.get('G28CheckBox')?.valueChanges.subscribe(() => {
@@ -118,7 +108,7 @@ export class FormDialogComponent implements OnInit {
 
   private createFieldMeta(field: PDFFieldType): any {
     return {
-      key: field.field_name,
+      name: field.field_name,
       description: field.description,
       label: formatFieldName(field.field_name),
       type: getFieldType(field.field_type),
@@ -172,14 +162,14 @@ export class FormDialogComponent implements OnInit {
   }
 
   private saveFormData(currentPageData: any): void {
-    const formDataToSend = Object.keys(currentPageData).map((key) => {
+    const formDataToSend = Object.keys(currentPageData).map((name) => {
       const originalField = this.originalFormData.find(
-        (field) => field.field_name === key
+        (field) => field.field_name === name
       );
       return {
-        field_name: key,
+        field_name: name,
         field_type: originalField?.field_type ?? GLOBAL_TEXTFIELD,
-        initial_value: currentPageData[key] as string,
+        initial_value: currentPageData[name] as string,
         page_number: this.currentPage,
       };
     });
@@ -211,9 +201,9 @@ export class FormDialogComponent implements OnInit {
 
   private prepareFormData() {
     const formData = this.form.value;
-    return Object.keys(formData).map((key) => ({
-      field_name: key,
-      initial_value: formData[key],
+    return Object.keys(formData).map((name) => ({
+      field_name: name,
+      initial_value: formData[name],
       field_type: GLOBAL_TEXTFIELD,
       page_number: 1,
     }));
@@ -258,7 +248,7 @@ export class FormDialogComponent implements OnInit {
   }
 
   async fillAndDownloadPdf(formData: {
-    [key: string]: string | boolean;
+    [name: string]: string | boolean;
   }): Promise<void> {
     try {
       const pdfBytes = await this.pdfService.fillPdfForm(this.pdfUrl, formData);

@@ -1,27 +1,17 @@
 [
   {
-    "field_name": "TestCheckButton_FieldName",
-    "description": "TestCheckButton_description",
-    "field_type": "/Btn",
-    "initial_value": "/Off",
-    "page_number": 1,
-    "options": ["/Off", "/Y"]
-  },
-  {
     "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
     "description": "FamilyName",
     "field_type": "/Tx",
     "initial_value": "",
-    "page_number": 1,
-    "need": ["TestCheckButton_FieldName"]
+    "page_number": 1
   },
   {
     "field_name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
     "description": "GivenName",
     "field_type": "/Tx",
     "initial_value": "",
-    "page_number": 1,
-    "need": ["TestCheckButton_FieldName"]
+    "page_number": 1
   },
   {
     "field_name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
@@ -38,7 +28,7 @@
     "page_number": 1
   },
   {
-    "field_name": "form1[0].#subform[0].G28CheckBox[0]",
+    "field_name": "G28CheckBox",
     "description": "Attorney G-28 Checkbox",
     "field_type": "/Btn",
     "initial_value": "/Off",
@@ -55,15 +45,15 @@
   {
     "field_name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
     "description": "Attorney USCIS Online Account Number",
-    "field_type": "/Tx",
-    "need": ["form1[0].#subform[0].G28CheckBox[0]"],
+    "field_type": "/Num",
     "initial_value": "",
-    "page_number": 1
+    "page_number": 1,
+    "need": ["G28CheckBox"]
   },
   {
     "field_name": "form1[0].#subform[0].#area[1].Pt2Line2_USCISOnlineActNumber[0]",
     "description": "USCIS Online Account Number",
-    "field_type": "/Tx",
+    "field_type": "/Num",
     "initial_value": "",
     "page_number": 1
   },
@@ -77,7 +67,7 @@
   {
     "field_name": "form1[0].#subform[0].Line4_SSN[0]",
     "description": "Social Security Number",
-    "field_type": "/Tx",
+    "field_type": "/Num",
     "initial_value": "",
     "page_number": 1
   },
@@ -98,7 +88,7 @@
   {
     "field_name": "form1[0].#subform[0].Line6c_AptSteFlrNumber[0]",
     "description": "Apartment/Ste/Flr Number",
-    "field_type": "/Tx",
+    "field_type": "/Num",
     "initial_value": "",
     "page_number": 1
   },
