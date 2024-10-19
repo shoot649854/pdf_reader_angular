@@ -1,7 +1,7 @@
 [
   {
-    "field_name": "TestCheckButton",
-    "description": "TestCheckButton",
+    "field_name": "TestCheckButton_FieldName",
+    "description": "TestCheckButton_description",
     "field_type": "/Btn",
     "initial_value": "/Off",
     "page_number": 1,
@@ -13,7 +13,7 @@
     "field_type": "/Tx",
     "initial_value": "",
     "page_number": 1,
-    "need": ["TestCheckButton"]
+    "need": ["TestCheckButton_FieldName"]
   },
   {
     "field_name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
@@ -21,7 +21,7 @@
     "field_type": "/Tx",
     "initial_value": "",
     "page_number": 1,
-    "need": ["TestCheckButton"]
+    "need": ["TestCheckButton_FieldName"]
   },
   {
     "field_name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
@@ -56,6 +56,7 @@
     "field_name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
     "description": "Attorney USCIS Online Account Number",
     "field_type": "/Tx",
+    "need": ["form1[0].#subform[0].G28CheckBox[0]"],
     "initial_value": "",
     "page_number": 1
   },
