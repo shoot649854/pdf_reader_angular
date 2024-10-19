@@ -12,11 +12,21 @@ import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSelectModule } from '@angular/material/select';
+import { MatOptionModule } from '@angular/material/core';
 
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { PdfService } from '../../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+
+import {
+  Base_URL,
+  GLOBAL_TEXTFIELD,
+  GLOBAL_BUTTON,
+  GLOBAL_CHOICE,
+  GLOBAL_NUMBER,
+} from '../setting';
 
 type PDFField = {
   field_name: string;
@@ -39,6 +49,8 @@ type PDFField = {
     MatButtonModule,
     MatDialogModule,
     MatCheckboxModule,
+    MatSelectModule,
+    MatOptionModule,
   ],
   templateUrl: './form-dialog.component.html',
   styleUrls: ['./form-dialog.component.scss'],
@@ -114,7 +126,7 @@ export class FormDialogComponent implements OnInit {
             key: field.field_name,
             description: field.description,
             label: this.formatFieldName(field.field_name),
-            type: field.field_type === '/Tx' ? 'text' : 'checkbox',
+            type: this.getFieldType(field.field_type),
             options: field.options ?? [],
           };
         } else {
@@ -125,6 +137,21 @@ export class FormDialogComponent implements OnInit {
         }
       })
       .filter((field) => field !== null);
+  }
+
+  getFieldType(fieldType: string) {
+    switch (fieldType) {
+      case GLOBAL_TEXTFIELD:
+        return 'text';
+      case GLOBAL_NUMBER:
+        return 'number';
+      case GLOBAL_CHOICE:
+        return 'select';
+      case GLOBAL_BUTTON:
+        return 'checkbox';
+      default:
+        return 'text';
+    }
   }
 
   generateForm(data: PDFField[], page: number): void {
@@ -144,6 +171,8 @@ export class FormDialogComponent implements OnInit {
         return;
       }
 
+      console.log(`Field Name: ${key}, Field Type: ${field_type}`);
+
       let controlType: string;
       let control: FormControl;
 
@@ -151,14 +180,15 @@ export class FormDialogComponent implements OnInit {
         return;
       }
 
-      if (field_type === '/Tx') {
+      // Handle text field
+      if (field_type === GLOBAL_TEXTFIELD) {
         controlType = 'text';
         control = new FormControl(initialValue, Validators.required);
-      } else if (field_type === 'checkbox' || field_type === '/Btn') {
-        controlType = 'checkbox';
-        control = new FormControl(initialValue === 'true');
-      } else if (field_type === '/Ch') {
-        controlType = 'select';
+      }
+
+      // Handle choice field
+      else if (field_type === GLOBAL_CHOICE) {
+        controlType = 'choice';
         const options = field.options || [];
         control = new FormControl(initialValue, Validators.required);
         this.formFields.push({
@@ -168,24 +198,47 @@ export class FormDialogComponent implements OnInit {
           type: controlType,
           options,
         });
-      } else {
+      }
+
+      // Handle button field (checkbox-style in PDF forms)
+      else if (field_type === GLOBAL_BUTTON) {
+        controlType = 'checkbox';
+        control = new FormControl(initialValue === 'true');
+      }
+
+      // Handle numeric field
+      else if (field_type === GLOBAL_NUMBER) {
+        controlType = 'number';
+        control = new FormControl(initialValue, [
+          Validators.required,
+          Validators.pattern('^[0-9]*$'),
+        ]);
+      }
+
+      // Default to text field
+      else {
         controlType = 'text';
         control = new FormControl(initialValue, Validators.required);
       }
 
       this.form.addControl(key, control);
 
-      if (controlType !== 'select') {
-        this.formFields.push({
-          key,
-          description,
-          label: this.formatFieldName(key),
-          type: controlType,
-        });
-      }
+      this.formFields.push({
+        key,
+        description,
+        label: this.formatFieldName(key),
+        type: controlType,
+      });
     });
 
     this.toggleDependentFields();
+  }
+
+  preventNonNumeric(event: KeyboardEvent): void {
+    const charCode = event.which ? event.which : event.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+      event.preventDefault();
+    }
   }
 
   formatFieldName(fieldName: string): string {
@@ -208,17 +261,16 @@ export class FormDialogComponent implements OnInit {
         );
         return {
           field_name: key,
-          field_type: originalField ? originalField.field_type : '/Tx',
+          field_type: originalField
+            ? originalField.field_type
+            : GLOBAL_TEXTFIELD,
           initial_value: currentPageData[key] as string,
           page_number: this.currentPage,
         };
       });
 
       this.http
-        .post(
-          'http://localhost:5001/save_form_data_to_firestore',
-          formDataToSend
-        )
+        .post(`/${Base_URL}/save_form_data_to_firestore`, formDataToSend)
         .subscribe(
           (response) => {
             console.log('Form data saved successfully:', response);
@@ -239,14 +291,14 @@ export class FormDialogComponent implements OnInit {
         return {
           field_name: key,
           initial_value: formData[key],
-          field_type: '/Tx',
+          field_type: GLOBAL_TEXTFIELD,
           page_number: 1,
         };
       });
 
       // Make a POST request to generate the PDF with formatted data
       this.http
-        .post('http://localhost:5001/generate_pdf', formattedData, {
+        .post(`/${Base_URL}/generate_pdf`, formattedData, {
           responseType: 'blob',
         })
         .subscribe(

@@ -48,7 +48,7 @@
   {
     "field_name": "form1[0].#subform[0].attyStateBarNumber[0]",
     "description": "Attorney State Bar Number",
-    "field_type": "/Tx",
+    "field_type": "/Num",
     "initial_value": "",
     "page_number": 1
   },
@@ -69,7 +69,7 @@
   {
     "field_name": "form1[0].#subform[0].Pt1Line3_TaxNumber[0]",
     "description": "Tax Identification Number",
-    "field_type": "/Tx",
+    "field_type": "/Num",
     "initial_value": "",
     "page_number": 1
   },
