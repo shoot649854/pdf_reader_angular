@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { MatDialogRef } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -8,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -17,6 +17,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Base_URL, GLOBAL_TEXTFIELD, DATA_PATH } from '../setting';
 import { PDFFieldType } from './type';
 import { createFormControl, formatFieldName, getFieldType } from './setting';
+import { SuccessPopupComponent } from '../success-popup/success-popup.component';
 
 @Component({
   selector: 'app-form-dialog',
@@ -49,7 +50,8 @@ export class FormDialogComponent implements OnInit {
     private dialogRef: MatDialogRef<FormDialogComponent>,
     private http: HttpClient,
     private pdfService: PdfService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar,
+    private dialog: MatDialog
   ) {}
 
   ngOnInit(): void {
@@ -244,14 +246,14 @@ export class FormDialogComponent implements OnInit {
    * Submits the form by validating it and generating a PDF if valid.
    */
   onSubmit(): void {
-    if (this.form.valid) {
-      const formData = this.prepareFormData();
-      this.generatePdf(formData);
-    } else {
-      this.snackBar.open('Please fill all required fields.', 'Close', {
-        duration: 3000,
-      });
-    }
+    // if (this.form.valid) {
+    //   const formData = this.prepareFormData();
+    //   this.generatePdf(formData);
+    // } else {
+    //   this.snackBar.open('Please fill all required fields.', 'Close', {
+    //     duration: 3000,
+    //   });
+    // }
   }
 
   /**
@@ -339,6 +341,19 @@ export class FormDialogComponent implements OnInit {
    * Closes the form dialog.
    */
   onClose(): void {
+    console.log('FormDialogComponent: onClose called'); // Debug log
+
+    // Open Success Popup
+    const dialogRef = this.dialog.open(SuccessPopupComponent, {
+      data: {
+        message: 'Form closed successfully!',
+      },
+      panelClass: 'custom-dialog-container',
+    });
+
+    dialogRef.afterOpened().subscribe(() => {
+      console.log('SuccessPopupComponent is opened');
+    });
     this.dialogRef.close();
   }
 }
