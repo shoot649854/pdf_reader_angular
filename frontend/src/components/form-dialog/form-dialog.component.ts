@@ -1,11 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormBuilder,
-  FormGroup,
-  ReactiveFormsModule,
-  Validators,
-  FormControl,
-} from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
@@ -63,24 +57,31 @@ export class FormDialogComponent implements OnInit {
     this.loadFormData();
   }
 
+  /**
+   * Initializes an empty form group.
+   */
   private initializeForm(): void {
     this.form = this.fb.group({});
-
-    const controlName = 'form1[0].#subform[0].G28CheckBox[0]';
-
-    this.form.get([controlName])?.valueChanges.subscribe(() => {
-      this.toggleDependentFields();
-    });
   }
 
+  /**
+   * Loads form data from an external data source and generates the form.
+   * Also sets up value change subscriptions for form controls.
+   */
   private loadFormData(): void {
     this.http.get<PDFFieldType[]>(DATA_PATH).subscribe((data) => {
       this.originalFormData = data;
       this.totalPages = Math.ceil(data.length / this.pageSize);
       this.generateForm(data, this.currentPage);
+      this.setupValueChangeSubscriptions(data);
     });
   }
 
+  /**
+   * Generates the form for a specific page using the loaded data.
+   * @param data - The entire form data set.
+   * @param page - The current page number.
+   */
   private generateForm(data: PDFFieldType[], page: number): void {
     const pageData = this.getPageData(data, page);
     this.formFields = [];
@@ -89,12 +90,22 @@ export class FormDialogComponent implements OnInit {
     this.toggleDependentFields();
   }
 
+  /**
+   * Extracts the data for a specific page from the entire form dataset.
+   * @param data - The entire form data set.
+   * @param page - The current page number.
+   * @returns The form data for the specified page.
+   */
   private getPageData(data: PDFFieldType[], page: number): PDFFieldType[] {
     const startIndex = (page - 1) * this.pageSize;
     const endIndex = startIndex + this.pageSize;
     return data.slice(startIndex, endIndex);
   }
 
+  /**
+   * Adds a form control to the form if it should be displayed.
+   * @param field - The field data containing information about the form control.
+   */
   private addFieldToForm(field: PDFFieldType): void {
     if (!field.field_name) return;
 
@@ -104,15 +115,33 @@ export class FormDialogComponent implements OnInit {
     if (!this.form.contains(field.field_name)) {
       const control = createFormControl(field);
       this.form.addControl(field.field_name, control);
-
-      this.form.get([field.field_name])?.valueChanges.subscribe(() => {
-        this.toggleDependentFields();
-      });
     }
 
     this.formFields.push(this.createFieldMeta(field));
   }
 
+  /**
+   * Sets up value change subscriptions for each form control.
+   * @param data - The entire form data set.
+   */
+  private setupValueChangeSubscriptions(data: PDFFieldType[]): void {
+    data.forEach((field) => {
+      if (field.field_name) {
+        const control = this.form.get([field.field_name]);
+        if (control) {
+          control.valueChanges.subscribe(() => {
+            this.toggleDependentFields();
+          });
+        }
+      }
+    });
+  }
+
+  /**
+   * Creates metadata for a form field.
+   * @param field - The field data containing information about the form control.
+   * @returns An object containing field metadata.
+   */
   private createFieldMeta(field: PDFFieldType): any {
     return {
       name: field.field_name,
@@ -123,6 +152,11 @@ export class FormDialogComponent implements OnInit {
     };
   }
 
+  /**
+   * Determines whether a field should be displayed based on dependencies.
+   * @param fieldNeeds - The dependencies that determine if the field should be shown.
+   * @returns A boolean indicating if the field should be displayed.
+   */
   private shouldShowField(fieldNeeds: string[]): boolean {
     if (!fieldNeeds || !Array.isArray(fieldNeeds)) {
       return true;
@@ -133,6 +167,9 @@ export class FormDialogComponent implements OnInit {
     });
   }
 
+  /**
+   * Toggles the visibility of dependent form fields based on their conditions.
+   */
   toggleDependentFields(): void {
     const pageData = this.getPageData(this.originalFormData, this.currentPage);
     this.formFields = pageData
@@ -152,6 +189,9 @@ export class FormDialogComponent implements OnInit {
       .filter((field) => field !== null);
   }
 
+  /**
+   * Navigates to the previous page if available.
+   */
   previousPage(): void {
     if (this.currentPage > 1) {
       this.currentPage--;
@@ -159,6 +199,9 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Navigates to the next page if available and saves the current page data.
+   */
   nextPage(): void {
     if (this.currentPage < this.totalPages) {
       const currentPageData = this.form.value;
@@ -166,6 +209,10 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Saves the form data of the current page to an external service.
+   * @param currentPageData - The form data to be saved.
+   */
   private saveFormData(currentPageData: any): void {
     const formDataToSend = Object.keys(currentPageData).map((name) => {
       const originalField = this.originalFormData.find(
@@ -193,6 +240,9 @@ export class FormDialogComponent implements OnInit {
       );
   }
 
+  /**
+   * Submits the form by validating it and generating a PDF if valid.
+   */
   onSubmit(): void {
     if (this.form.valid) {
       const formData = this.prepareFormData();
@@ -204,6 +254,10 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Prepares form data for submission.
+   * @returns An array containing the form data.
+   */
   private prepareFormData() {
     const formData = this.form.value;
     return Object.keys(formData).map((name) => ({
@@ -214,6 +268,10 @@ export class FormDialogComponent implements OnInit {
     }));
   }
 
+  /**
+   * Generates a PDF based on the provided form data.
+   * @param formData - The form data to generate the PDF with.
+   */
   private generatePdf(formData: any[]): void {
     this.http
       .post(`/${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
@@ -241,6 +299,10 @@ export class FormDialogComponent implements OnInit {
       );
   }
 
+  /**
+   * Downloads a PDF blob by creating a link and triggering a download.
+   * @param blob - The PDF blob to be downloaded.
+   */
   private downloadPdf(blob: Blob): void {
     const blobUrl = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -252,6 +314,10 @@ export class FormDialogComponent implements OnInit {
     window.URL.revokeObjectURL(blobUrl);
   }
 
+  /**
+   * Fills and downloads the PDF using the provided form data.
+   * @param formData - The form data used to fill the PDF.
+   */
   async fillAndDownloadPdf(formData: {
     [name: string]: string | boolean;
   }): Promise<void> {
@@ -269,6 +335,9 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Closes the form dialog.
+   */
   onClose(): void {
     this.dialogRef.close();
   }
