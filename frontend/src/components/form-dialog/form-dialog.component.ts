@@ -64,11 +64,11 @@ export class FormDialogComponent implements OnInit {
   }
 
   private initializeForm(): void {
-    this.form = this.fb.group({
-      G28CheckBox: [false],
-    });
+    this.form = this.fb.group({});
 
-    this.form.get('G28CheckBox')?.valueChanges.subscribe(() => {
+    const controlName = 'form1[0].#subform[0].G28CheckBox[0]';
+
+    this.form.get([controlName])?.valueChanges.subscribe(() => {
       this.toggleDependentFields();
     });
   }
@@ -101,8 +101,15 @@ export class FormDialogComponent implements OnInit {
     const shouldShow = !field.need || this.shouldShowField(field.need);
     if (!shouldShow) return;
 
-    const control = createFormControl(field);
-    this.form.addControl(field.field_name, control);
+    if (!this.form.contains(field.field_name)) {
+      const control = createFormControl(field);
+      this.form.addControl(field.field_name, control);
+
+      this.form.get([field.field_name])?.valueChanges.subscribe(() => {
+        this.toggleDependentFields();
+      });
+    }
+
     this.formFields.push(this.createFieldMeta(field));
   }
 
@@ -121,12 +128,7 @@ export class FormDialogComponent implements OnInit {
       return true;
     }
     return fieldNeeds.every((controlName) => {
-      const simpleName =
-        controlName
-          .split('.')
-          .pop()
-          ?.replace(/[\[\]0]/g, '') || controlName;
-      const control = this.form.get(simpleName);
+      const control = this.form.get([controlName]);
       return control?.value === true || control?.value === '/Y';
     });
   }
@@ -136,11 +138,14 @@ export class FormDialogComponent implements OnInit {
     this.formFields = pageData
       .map((field) => {
         const shouldShow = !field.need || this.shouldShowField(field.need);
+
         if (shouldShow) {
           this.addFieldToForm(field);
           return this.createFieldMeta(field);
         } else {
-          this.form.removeControl(field.field_name);
+          if (this.form.contains(field.field_name)) {
+            this.form.removeControl(field.field_name);
+          }
           return null;
         }
       })

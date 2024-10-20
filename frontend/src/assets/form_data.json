@@ -28,7 +28,7 @@
     "page_number": 1
   },
   {
-    "field_name": "G28CheckBox",
+    "field_name": "form1[0].#subform[0].G28CheckBox[0]",
     "description": "Attorney G-28 Checkbox",
     "field_type": "/Btn",
     "initial_value": "/Off",
@@ -48,7 +48,7 @@
     "field_type": "/Num",
     "initial_value": "",
     "page_number": 1,
-    "need": ["G28CheckBox"]
+    "need": ["form1[0].#subform[0].G28CheckBox[0]"]
   },
   {
     "field_name": "form1[0].#subform[0].#area[1].Pt2Line2_USCISOnlineActNumber[0]",
