@@ -1,31 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import {
-  FormBuilder,
-  FormGroup,
-  ReactiveFormsModule,
-  Validators,
-  FormControl,
-} from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSelectModule } from '@angular/material/select';
+import { MatOptionModule } from '@angular/material/core';
 
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { PdfService } from '../../services/pdf.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
-type PDFField = {
-  field_name: string;
-  description: string;
-  field_type: string;
-  value: string;
-  initial_value: string;
-  options?: string[];
-};
+import { Base_URL, GLOBAL_TEXTFIELD, DATA_PATH } from '../setting';
+import { PDFFieldType } from './type';
+import { createFormControl, formatFieldName, getFieldType } from './setting';
 
 @Component({
   selector: 'app-form-dialog',
@@ -38,24 +29,20 @@ type PDFField = {
     MatButtonModule,
     MatDialogModule,
     MatCheckboxModule,
+    MatSelectModule,
+    MatOptionModule,
   ],
   templateUrl: './form-dialog.component.html',
   styleUrls: ['./form-dialog.component.scss'],
 })
 export class FormDialogComponent implements OnInit {
   form!: FormGroup;
-  formFields: {
-    key: string;
-    description: string;
-    label: string;
-    type: string;
-    options?: string[];
-  }[] = [];
+  formFields: any[] = [];
   pdfUrl = '/assets/forms/i-140copy-decrypted.pdf';
-  currentPage: number = 1;
-  pageSize: number = 10;
-  totalPages: number = 0;
-  originalFormData: PDFField[] = []; // Store the original PDFField data here
+  currentPage = 1;
+  pageSize = 10;
+  totalPages = 0;
+  originalFormData: PDFFieldType[] = [];
 
   constructor(
     private fb: FormBuilder,
@@ -66,76 +53,145 @@ export class FormDialogComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.form = this.fb.group({});
-    this.http
-      .get<PDFField[]>('/assets/form_data.json')
-      .subscribe((data: PDFField[]) => {
-        this.originalFormData = data;
-        this.totalPages = Math.ceil(data.length / this.pageSize);
-        this.generateForm(data, this.currentPage);
-      });
+    this.initializeForm();
+    this.loadFormData();
   }
 
-  generateForm(data: PDFField[], page: number): void {
-    const startIndex = (page - 1) * this.pageSize;
-    const endIndex = startIndex + this.pageSize;
-    const pageData = data.slice(startIndex, endIndex);
+  /**
+   * Initializes an empty form group.
+   */
+  private initializeForm(): void {
+    this.form = this.fb.group({});
+  }
 
+  /**
+   * Loads form data from an external data source and generates the form.
+   * Also sets up value change subscriptions for form controls.
+   */
+  private loadFormData(): void {
+    this.http.get<PDFFieldType[]>(DATA_PATH).subscribe((data) => {
+      this.originalFormData = data;
+      this.totalPages = Math.ceil(data.length / this.pageSize);
+      this.generateForm(data, this.currentPage);
+      this.setupValueChangeSubscriptions(data);
+    });
+  }
+
+  /**
+   * Generates the form for a specific page using the loaded data.
+   * @param data - The entire form data set.
+   * @param page - The current page number.
+   */
+  private generateForm(data: PDFFieldType[], page: number): void {
+    const pageData = this.getPageData(data, page);
     this.formFields = [];
 
-    for (const field of pageData) {
-      const key = field.field_name;
-      const description = field.description ?? '';
-      const field_type = field.field_type;
-      const initialValue = field.initial_value;
+    pageData.forEach((field) => this.addFieldToForm(field));
+    this.toggleDependentFields();
+  }
 
-      if (!key) {
-        console.warn('Skipping field with missing fieldName:', field);
-        continue;
-      }
+  /**
+   * Extracts the data for a specific page from the entire form dataset.
+   * @param data - The entire form data set.
+   * @param page - The current page number.
+   * @returns The form data for the specified page.
+   */
+  private getPageData(data: PDFFieldType[], page: number): PDFFieldType[] {
+    const startIndex = (page - 1) * this.pageSize;
+    const endIndex = startIndex + this.pageSize;
+    return data.slice(startIndex, endIndex);
+  }
 
-      let controlType: string;
-      let control: FormControl;
+  /**
+   * Adds a form control to the form if it should be displayed.
+   * @param field - The field data containing information about the form control.
+   */
+  private addFieldToForm(field: PDFFieldType): void {
+    if (!field.field_name) return;
 
-      if (field_type === '/Tx') {
-        controlType = 'text';
-        control = new FormControl(initialValue, Validators.required);
-      } else if (field_type === 'checkbox' || field_type === '/Btn') {
-        controlType = 'checkbox';
-        control = new FormControl(initialValue === 'true');
-      } else if (field_type === '/Ch') {
-        controlType = 'select';
-        const options = field.options || []; // Assuming options are provided in the field data
-        control = new FormControl(initialValue, Validators.required);
-        this.formFields.push({
-          key,
-          description,
-          label: this.formatFieldName(key),
-          type: controlType,
-          options, // Add options for select fields
-        });
-      } else {
-        controlType = 'text';
-        control = new FormControl(initialValue, Validators.required);
-      }
+    const shouldShow = !field.need || this.shouldShowField(field.need);
+    if (!shouldShow) return;
 
-      this.form.addControl(key, control);
-
-      if (controlType !== 'select') {
-        this.formFields.push({
-          key,
-          description,
-          label: this.formatFieldName(key),
-          type: controlType,
-        });
-      }
+    if (!this.form.contains(field.field_name)) {
+      const control = createFormControl(field);
+      this.form.addControl(field.field_name, control);
     }
+
+    this.formFields.push(this.createFieldMeta(field));
   }
 
-  formatFieldName(fieldName: string): string {
-    return fieldName.replace('[0]', '').replace(/_/g, ' ');
+  /**
+   * Sets up value change subscriptions for each form control.
+   * @param data - The entire form data set.
+   */
+  private setupValueChangeSubscriptions(data: PDFFieldType[]): void {
+    data.forEach((field) => {
+      if (field.field_name) {
+        const control = this.form.get([field.field_name]);
+        if (control) {
+          control.valueChanges.subscribe(() => {
+            this.toggleDependentFields();
+          });
+        }
+      }
+    });
   }
 
+  /**
+   * Creates metadata for a form field.
+   * @param field - The field data containing information about the form control.
+   * @returns An object containing field metadata.
+   */
+  private createFieldMeta(field: PDFFieldType): any {
+    return {
+      name: field.field_name,
+      description: field.description,
+      label: formatFieldName(field.field_name),
+      type: getFieldType(field.field_type),
+      options: field.options ?? [],
+    };
+  }
+
+  /**
+   * Determines whether a field should be displayed based on dependencies.
+   * @param fieldNeeds - The dependencies that determine if the field should be shown.
+   * @returns A boolean indicating if the field should be displayed.
+   */
+  private shouldShowField(fieldNeeds: string[]): boolean {
+    if (!fieldNeeds || !Array.isArray(fieldNeeds)) {
+      return true;
+    }
+    return fieldNeeds.every((controlName) => {
+      const control = this.form.get([controlName]);
+      return control?.value === true || control?.value === '/Y';
+    });
+  }
+
+  /**
+   * Toggles the visibility of dependent form fields based on their conditions.
+   */
+  toggleDependentFields(): void {
+    const pageData = this.getPageData(this.originalFormData, this.currentPage);
+    this.formFields = pageData
+      .map((field) => {
+        const shouldShow = !field.need || this.shouldShowField(field.need);
+
+        if (shouldShow) {
+          this.addFieldToForm(field);
+          return this.createFieldMeta(field);
+        } else {
+          if (this.form.contains(field.field_name)) {
+            this.form.removeControl(field.field_name);
+          }
+          return null;
+        }
+      })
+      .filter((field) => field !== null);
+  }
+
+  /**
+   * Navigates to the previous page if available.
+   */
   previousPage(): void {
     if (this.currentPage > 1) {
       this.currentPage--;
@@ -143,86 +199,54 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Navigates to the next page if available and saves the current page data.
+   */
   nextPage(): void {
     if (this.currentPage < this.totalPages) {
       const currentPageData = this.form.value;
-      const formDataToSend = Object.keys(currentPageData).map((key) => {
-        const originalField = this.originalFormData.find(
-          (field) => field.field_name === key
-        );
-        return {
-          field_name: key,
-          field_type: originalField ? originalField.field_type : '/Tx',
-          initial_value: currentPageData[key] as string,
-          page_number: this.currentPage,
-        };
-      });
-
-      this.http
-        .post(
-          'http://localhost:5001/save_form_data_to_firestore',
-          formDataToSend
-        )
-        .subscribe(
-          (response) => {
-            console.log('Form data saved successfully:', response);
-            this.currentPage++;
-            this.generateForm(this.originalFormData, this.currentPage);
-          },
-          (error) => {
-            console.error('Error saving form data:', error);
-          }
-        );
+      this.saveFormData(currentPageData);
     }
   }
 
-  onSubmit() {
+  /**
+   * Saves the form data of the current page to an external service.
+   * @param currentPageData - The form data to be saved.
+   */
+  private saveFormData(currentPageData: any): void {
+    const formDataToSend = Object.keys(currentPageData).map((name) => {
+      const originalField = this.originalFormData.find(
+        (field) => field.field_name === name
+      );
+      return {
+        field_name: name,
+        field_type: originalField?.field_type ?? GLOBAL_TEXTFIELD,
+        initial_value: currentPageData[name] as string,
+        page_number: this.currentPage,
+      };
+    });
+
+    this.http
+      .post(`/${Base_URL}/save_form_data_to_firestore`, formDataToSend)
+      .subscribe(
+        (response) => {
+          console.log('Form data saved successfully:', response);
+          this.currentPage++;
+          this.generateForm(this.originalFormData, this.currentPage);
+        },
+        (error) => {
+          console.error('Error saving form data:', error);
+        }
+      );
+  }
+
+  /**
+   * Submits the form by validating it and generating a PDF if valid.
+   */
+  onSubmit(): void {
     if (this.form.valid) {
-      const formData = this.form.value;
-      const formattedData = Object.keys(formData).map((key) => {
-        return {
-          field_name: key,
-          initial_value: formData[key],
-          field_type: '/Tx',
-          page_number: 1,
-        };
-      });
-
-      // Make a POST request to generate the PDF with formatted data
-      this.http
-        .post('http://localhost:5001/generate_pdf', formattedData, {
-          responseType: 'blob',
-        })
-        .subscribe(
-          (response: Blob) => {
-            const blobUrl = window.URL.createObjectURL(response);
-            const a = document.createElement('a');
-            a.href = blobUrl;
-            a.download = 'filled-form.pdf';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            window.URL.revokeObjectURL(blobUrl);
-
-            this.snackBar.open(
-              'PDF generated and downloaded successfully!',
-              'Close',
-              {
-                duration: 3000,
-              }
-            );
-          },
-          (error) => {
-            console.error('Error generating PDF:', error);
-            this.snackBar.open(
-              'Error generating PDF. Please try again.',
-              'Close',
-              {
-                duration: 3000,
-              }
-            );
-          }
-        );
+      const formData = this.prepareFormData();
+      this.generatePdf(formData);
     } else {
       this.snackBar.open('Please fill all required fields.', 'Close', {
         duration: 3000,
@@ -230,8 +254,72 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
+  /**
+   * Prepares form data for submission.
+   * @returns An array containing the form data.
+   */
+  private prepareFormData() {
+    const formData = this.form.value;
+    return Object.keys(formData).map((name) => ({
+      field_name: name,
+      initial_value: formData[name],
+      field_type: GLOBAL_TEXTFIELD,
+      page_number: 1,
+    }));
+  }
+
+  /**
+   * Generates a PDF based on the provided form data.
+   * @param formData - The form data to generate the PDF with.
+   */
+  private generatePdf(formData: any[]): void {
+    this.http
+      .post(`/${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
+      .subscribe(
+        (response: Blob) => {
+          this.downloadPdf(response);
+          this.snackBar.open(
+            'PDF generated and downloaded successfully!',
+            'Close',
+            {
+              duration: 3000,
+            }
+          );
+        },
+        (error) => {
+          console.error('Error generating PDF:', error);
+          this.snackBar.open(
+            'Error generating PDF. Please try again.',
+            'Close',
+            {
+              duration: 3000,
+            }
+          );
+        }
+      );
+  }
+
+  /**
+   * Downloads a PDF blob by creating a link and triggering a download.
+   * @param blob - The PDF blob to be downloaded.
+   */
+  private downloadPdf(blob: Blob): void {
+    const blobUrl = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = blobUrl;
+    a.download = 'filled-form.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    window.URL.revokeObjectURL(blobUrl);
+  }
+
+  /**
+   * Fills and downloads the PDF using the provided form data.
+   * @param formData - The form data used to fill the PDF.
+   */
   async fillAndDownloadPdf(formData: {
-    [key: string]: string | boolean;
+    [name: string]: string | boolean;
   }): Promise<void> {
     try {
       const pdfBytes = await this.pdfService.fillPdfForm(this.pdfUrl, formData);
@@ -247,7 +335,10 @@ export class FormDialogComponent implements OnInit {
     }
   }
 
-  onClose() {
+  /**
+   * Closes the form dialog.
+   */
+  onClose(): void {
     this.dialogRef.close();
   }
 }

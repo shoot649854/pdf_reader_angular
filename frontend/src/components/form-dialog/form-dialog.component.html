@@ -3,42 +3,91 @@
   <mat-dialog-content>
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <!-- Display form fields for the current page -->
-      <div *ngFor="let field of formFields">
+      <div *ngFor="let field of formFields" class="form-field">
         <!-- Text Field -->
         <ng-container *ngIf="field.type === 'text'">
-          <mat-form-field>
-            <mat-label>{{ field.label }}</mat-label>
-            <input matInput [formControlName]="field.key" />
+          <mat-form-field appearance="outline">
+            <mat-label>{{ field.description }}</mat-label>
+            <input
+              matInput
+              [formControlName]="field.name"
+              [placeholder]="field.description"
+            />
+            <!-- Validation Hint -->
+            <mat-hint
+              *ngIf="
+                !form.get(field.name)?.valid && form.get(field.name)?.touched
+              "
+            >
+              This field is required
+            </mat-hint>
           </mat-form-field>
         </ng-container>
 
         <!-- Checkbox Field -->
         <ng-container *ngIf="field.type === 'checkbox'">
-          <mat-checkbox [formControlName]="field.key">{{ field.label }}</mat-checkbox>
+          <mat-checkbox [formControlName]="field.name">{{
+            field.description
+          }}</mat-checkbox>
         </ng-container>
 
-        <!-- Dropdown (Select) Field -->
-        <ng-container *ngIf="field.type === 'select'">
-          <mat-form-field>
+        <!-- Choice Field -->
+        <ng-container *ngIf="field.type === 'choice'">
+          <mat-form-field appearance="outline">
             <mat-label>{{ field.label }}</mat-label>
-            <select matNativeControl [formControlName]="field.key">
-              <option *ngFor="let option of field.options" [value]="option">{{ option }}</option>
-            </select>
+            <mat-select [formControlName]="field.name">
+              <mat-option *ngFor="let option of field.options" [value]="option">
+                {{ option }}
+              </mat-option>
+            </mat-select>
+            <!-- Validation Hint -->
+            <mat-hint
+              *ngIf="
+                !form.get(field.name)?.valid && form.get(field.name)?.touched
+              "
+            >
+              Please select an option
+            </mat-hint>
+          </mat-form-field>
+        </ng-container>
+
+        <!-- Numeric Field -->
+        <ng-container *ngIf="field.type === 'number'">
+          <mat-form-field>
+            <mat-label>{{ field.description }}</mat-label>
+            <input
+              matInput
+              type="number"
+              [formControlName]="field.name"
+              min="0"
+            />
           </mat-form-field>
         </ng-container>
       </div>
 
       <!-- Pagination Controls -->
       <div class="pagination-controls">
-        <button mat-raised-button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+        <button
+          mat-raised-button
+          (click)="previousPage()"
+          [disabled]="currentPage === 1"
+        >
+          Previous
+        </button>
         <span>Page {{ currentPage }} of {{ totalPages }}</span>
-        <button mat-raised-button (click)="nextPage()" [disabled]="currentPage === totalPages">Next</button>
+        <button
+          mat-raised-button
+          (click)="nextPage()"
+          [disabled]="currentPage === totalPages"
+        >
+          Next
+        </button>
       </div>
 
       <!-- Dialog Actions (Submit and Cancel Buttons) -->
-      <div mat-dialog-actions>
+      <div mat-dialog-actions class="dialog-actions">
         <button mat-button (click)="onClose()">Cancel</button>
-        <button mat-button color="primary" type="submit">Submit</button>
+        <button mat-raised-button color="primary" type="submit">Submit</button>
       </div>
     </form>
   </mat-dialog-content>
