@@ -41,19 +41,10 @@ export class SuccessPopupComponent implements OnInit, OnDestroy {
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {
     // Set default values
-    this.width = '400px';
-    this.height = 'auto';
-    this.enterAnimationDuration = '300ms';
-    this.exitAnimationDuration = '300ms';
-
-    if (data) {
-      this.width = data.width || this.width;
-      this.height = data.height || this.height;
-      this.enterAnimationDuration =
-        data.enterAnimationDuration || this.enterAnimationDuration;
-      this.exitAnimationDuration =
-        data.exitAnimationDuration || this.exitAnimationDuration;
-    }
+    this.width = data?.width || '400px';
+    this.height = data?.height || '1000px';
+    this.enterAnimationDuration = data?.enterAnimationDuration || '300ms';
+    this.exitAnimationDuration = data?.exitAnimationDuration || '300ms';
   }
 
   ngOnInit(): void {}

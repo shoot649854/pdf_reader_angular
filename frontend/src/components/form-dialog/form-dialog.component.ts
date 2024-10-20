@@ -348,6 +348,10 @@ export class FormDialogComponent implements OnInit {
       data: {
         message: 'Form closed successfully!',
       },
+      width: '400px',
+      height: 'auto',
+      enterAnimationDuration: '300ms',
+      exitAnimationDuration: '300ms',
       panelClass: 'custom-dialog-container',
     });
 
