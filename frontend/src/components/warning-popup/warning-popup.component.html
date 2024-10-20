@@ -1,0 +1,10 @@
+<h2 mat-dialog-title class="dialog-title">warning!</h2>
+<mat-dialog-content class="dialog-content">
+    <div class="icon-container">
+    <mat-icon class="warning-icon">check_circle</mat-icon>
+    </div>
+    <p class="message">{{ data.message }}</p>
+</mat-dialog-content>
+<mat-dialog-actions class="dialog-actions">
+    <button mat-button class="close-button" (click)="onClose()">Close</button>
+</mat-dialog-actions>
