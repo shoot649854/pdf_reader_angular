@@ -174,12 +174,14 @@ export class FormDialogComponent implements OnInit {
    */
   toggleDependentFields(): void {
     const pageData = this.getPageData(this.originalFormData, this.currentPage);
-    this.formFields = pageData
+    const updatedFormFields = pageData
       .map((field) => {
         const shouldShow = !field.need || this.shouldShowField(field.need);
 
         if (shouldShow) {
-          this.addFieldToForm(field);
+          if (!this.form.contains(field.field_name)) {
+            this.addFieldToForm(field);
+          }
           return this.createFieldMeta(field);
         } else {
           if (this.form.contains(field.field_name)) {
@@ -189,6 +191,9 @@ export class FormDialogComponent implements OnInit {
         }
       })
       .filter((field) => field !== null);
+    if (JSON.stringify(this.formFields) !== JSON.stringify(updatedFormFields)) {
+      this.formFields = updatedFormFields as any[];
+    }
   }
 
   /**
@@ -229,7 +234,7 @@ export class FormDialogComponent implements OnInit {
     });
 
     this.http
-      .post(`/${Base_URL}/save_form_data_to_firestore`, formDataToSend)
+      .post(`${Base_URL}/save_form_data_to_firestore`, formDataToSend)
       .subscribe(
         (response) => {
           console.log('Form data saved successfully:', response);
@@ -276,7 +281,7 @@ export class FormDialogComponent implements OnInit {
    */
   private generatePdf(formData: any[]): void {
     this.http
-      .post(`/${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
+      .post(`${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
       .subscribe(
         (response: Blob) => {
           this.downloadPdf(response);
@@ -341,9 +346,6 @@ export class FormDialogComponent implements OnInit {
    * Closes the form dialog.
    */
   onClose(): void {
-    console.log('FormDialogComponent: onClose called'); // Debug log
-
-    // Open Success Popup
     const dialogRef = this.dialog.open(SuccessPopupComponent, {
       data: {
         message: 'Form closed successfully!',

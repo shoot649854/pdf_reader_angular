@@ -13,7 +13,6 @@
               [formControlName]="field.name"
               [placeholder]="field.description"
             />
-            <!-- Validation Hint -->
             <mat-hint
               *ngIf="
                 !form.get(field.name)?.valid && form.get(field.name)?.touched
@@ -40,7 +39,6 @@
                 {{ option }}
               </mat-option>
             </mat-select>
-            <!-- Validation Hint -->
             <mat-hint
               *ngIf="
                 !form.get(field.name)?.valid && form.get(field.name)?.touched
