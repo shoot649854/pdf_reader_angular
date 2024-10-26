@@ -24,6 +24,6 @@ class JSONFieldDataLoader(FieldDataLoader):
             field_name = field["field_name"]
             value = field.get("initial_value", "AAA")
             data_dict[field_name] = value
-            logger.info(f"'{value}' is loaded from json object.")
+            logger.debug(f"'{value}' is loaded from json object.")
         logger.info("Data loading is complete from json object.")
         return data_dict

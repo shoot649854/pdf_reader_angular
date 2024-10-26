@@ -28,6 +28,9 @@ class PDFManipulator:
                         logger.debug(
                             f"Processing field '{field_name}' of type '{field_type}'."
                         )
+                        # logger.debug(
+                        #     f"Available fields in data_dict: {data_dict.keys()}"
+                        # )
                         if field_name in data_dict:
                             value = data_dict[field_name]
                             logger.debug(
@@ -44,6 +47,11 @@ class PDFManipulator:
         with open(output_pdf_path, "wb") as output_file:
             self.pdf_writer.write(output_file)
         logger.info(f"PDF saved successfully to {output_pdf_path}.")
+
+    def save_pdf_to_buffer(self, pdf_buffer):
+        """Save the filled PDF to an in-memory bytes buffer."""
+        self.pdf_writer.write(pdf_buffer)
+        logger.info("PDF saved successfully to in-memory buffer.")
 
     def _get_field_name(self, field):
         field_name_obj = field["/T"]

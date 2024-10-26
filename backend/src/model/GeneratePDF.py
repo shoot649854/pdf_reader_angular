@@ -1,3 +1,5 @@
+import io
+
 from flask import jsonify, request, send_file
 from flask_cors import cross_origin
 from src import app, db
@@ -44,6 +46,38 @@ def generate_pdf():
     form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
     return send_file(
         OUTPUT_PDF_PATH, as_attachment=True, download_name="filled-form.pdf"
+    )
+
+
+@app.route("/return_generate_pdf", methods=["POST"])
+def return_generate_pdf():
+    """Generate PDF based on the submitted form data."""
+    form_data = request.json
+    # logger.info(f"Received form_data: {form_data}")
+
+    pdf_manipulator = PDFManipulator(I140_PATH)
+    data_loader = JSONFieldDataLoader()
+    form_filler = PDFFormFiller(data_loader, pdf_manipulator)
+
+    pdf_buffer = io.BytesIO()
+
+    # Fill the PDF form using the form data and write it to the buffer
+    form_filler.fill_form_from_object_to_buffer(form_data, pdf_buffer)
+
+    # Check the buffer size for debugging
+    pdf_buffer.seek(0)
+    # buffer_content = pdf_buffer.getvalue()
+    # logger.info(f"Buffer size before sending: {len(buffer_content)} bytes")
+
+    # with open("filled-debug.pdf", "wb") as f:
+    #     f.write(buffer_content)
+
+    pdf_buffer.seek(0)
+    return send_file(
+        pdf_buffer,
+        as_attachment=True,
+        download_name="filled-form.pdf",
+        mimetype="application/pdf",
     )
 
 
