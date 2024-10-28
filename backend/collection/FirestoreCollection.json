@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "187fb46a-bbd2-46bf-a9ef-cd14adc8e35d",
+		"name": "Firestore API",
+		"description": "Collection for interacting with the Flask PDF API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28588217"
+	},
+
+	"item": [
+		{
+			"name": "Save Form Data to Firestore",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n    {\n        \"field_name\": \"Full Name\",\n        \"description\": \"Enter your full legal name\",\n        \"field_type\": \"text\",\n        \"initial_value\": \"John Doe\",\n        \"page_number\": 1\n    },\n    {\n        \"field_name\": \"Date of Birth\",\n        \"description\": \"Enter your birthdate\",\n        \"field_type\": \"date\",\n        \"initial_value\": \"1990-01-01\",\n        \"page_number\": 1\n    },\n    {\n        \"field_name\": \"Citizenship\",\n        \"description\": \"Enter your country of citizenship\",\n        \"field_type\": \"dropdown\",\n        \"initial_value\": \"USA\",\n        \"page_number\": 2\n    }\n]"
+				},
+				"url": {
+					"raw": "http://localhost:5001/firestore/save_form_data_to_firestore",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"save_form_data_to_firestore"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Form Data by Field Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/firestore/get_form_data/Full Name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"get_form_data",
+						"Full Name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Form Data by Field Name",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"initial_value\": \"Jane Doe\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5001/firestore/update_form_data/Full Name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"update_form_data",
+						"Full Name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Form Data by Field Name",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/firestore/delete_form_data/Full Name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"delete_form_data",
+						"Full Name"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Form Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/firestore/get_all_form_data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"get_all_form_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete All",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5001/firestore/delete_all_form_data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"delete_all_form_data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
