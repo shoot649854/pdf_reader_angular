@@ -8,9 +8,7 @@ from flask_cors import CORS
 
 dotenv.load_dotenv()
 
-CREDENTIAL_PATH = "~/.gcp/credentials/firestore-keyfile.json"
-
-# credential_path = os.getenv("CREDENTIAL_PATH")
+CREDENTIAL_PATH = os.getenv("CREDENTIAL_PATH")
 credential_path = CREDENTIAL_PATH
 if not credential_path:
     raise EnvironmentError(
@@ -28,3 +26,16 @@ db = firestore.client()
 
 app = Flask(__name__)
 CORS(app=app, resources={r"/*": {"origins": "http://localhost:4200"}})
+
+from src.model.Firestore import firestore_bp
+from src.model.GeneratePDF import generate_pdf_bp
+from src.model.GoogleCloudStorage import storage_bp
+
+# Register blueprints
+app.register_blueprint(firestore_bp, url_prefix="/firestore")
+app.register_blueprint(generate_pdf_bp, url_prefix="/generate_pdf")
+app.register_blueprint(storage_bp, url_prefix="/storage")
+
+# Run the Flask app
+if __name__ == "__main__":
+    app.run(debug=True)
