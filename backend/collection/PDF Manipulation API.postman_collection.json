@@ -73,7 +73,7 @@
 					}
 				},
 			  "url": {
-				"raw": "http://127.0.0.1:5001/return_generate_pdf",
+				"raw": "http://localhost:5001/generate_pdf/return_generate_pdf",
 				"protocol": "http",
 				"host": [
 				  "localhost"
