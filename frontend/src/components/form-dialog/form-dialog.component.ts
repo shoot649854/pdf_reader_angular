@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { MatDialogRef } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -8,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { MatOptionModule } from '@angular/material/core';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
@@ -17,6 +17,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { Base_URL, GLOBAL_TEXTFIELD, DATA_PATH } from '../setting';
 import { PDFFieldType } from './type';
 import { createFormControl, formatFieldName, getFieldType } from './setting';
+import { SuccessPopupComponent } from '../success-popup/success-popup.component';
 
 @Component({
   selector: 'app-form-dialog',
@@ -49,7 +50,8 @@ export class FormDialogComponent implements OnInit {
     private dialogRef: MatDialogRef<FormDialogComponent>,
     private http: HttpClient,
     private pdfService: PdfService,
-    private snackBar: MatSnackBar
+    private snackBar: MatSnackBar,
+    private dialog: MatDialog
   ) {}
 
   ngOnInit(): void {
@@ -172,12 +174,14 @@ export class FormDialogComponent implements OnInit {
    */
   toggleDependentFields(): void {
     const pageData = this.getPageData(this.originalFormData, this.currentPage);
-    this.formFields = pageData
+    const updatedFormFields = pageData
       .map((field) => {
         const shouldShow = !field.need || this.shouldShowField(field.need);
 
         if (shouldShow) {
-          this.addFieldToForm(field);
+          if (!this.form.contains(field.field_name)) {
+            this.addFieldToForm(field);
+          }
           return this.createFieldMeta(field);
         } else {
           if (this.form.contains(field.field_name)) {
@@ -187,6 +191,9 @@ export class FormDialogComponent implements OnInit {
         }
       })
       .filter((field) => field !== null);
+    if (JSON.stringify(this.formFields) !== JSON.stringify(updatedFormFields)) {
+      this.formFields = updatedFormFields as any[];
+    }
   }
 
   /**
@@ -227,7 +234,7 @@ export class FormDialogComponent implements OnInit {
     });
 
     this.http
-      .post(`/${Base_URL}/save_form_data_to_firestore`, formDataToSend)
+      .post(`${Base_URL}/save_form_data_to_firestore`, formDataToSend)
       .subscribe(
         (response) => {
           console.log('Form data saved successfully:', response);
@@ -244,14 +251,14 @@ export class FormDialogComponent implements OnInit {
    * Submits the form by validating it and generating a PDF if valid.
    */
   onSubmit(): void {
-    if (this.form.valid) {
-      const formData = this.prepareFormData();
-      this.generatePdf(formData);
-    } else {
-      this.snackBar.open('Please fill all required fields.', 'Close', {
-        duration: 3000,
-      });
-    }
+    // if (this.form.valid) {
+    //   const formData = this.prepareFormData();
+    //   this.generatePdf(formData);
+    // } else {
+    //   this.snackBar.open('Please fill all required fields.', 'Close', {
+    //     duration: 3000,
+    //   });
+    // }
   }
 
   /**
@@ -274,7 +281,7 @@ export class FormDialogComponent implements OnInit {
    */
   private generatePdf(formData: any[]): void {
     this.http
-      .post(`/${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
+      .post(`${Base_URL}/generate_pdf`, formData, { responseType: 'blob' })
       .subscribe(
         (response: Blob) => {
           this.downloadPdf(response);
@@ -339,6 +346,20 @@ export class FormDialogComponent implements OnInit {
    * Closes the form dialog.
    */
   onClose(): void {
+    const dialogRef = this.dialog.open(SuccessPopupComponent, {
+      data: {
+        message: 'Form closed successfully!',
+      },
+      width: '400px',
+      height: 'auto',
+      enterAnimationDuration: '300ms',
+      exitAnimationDuration: '300ms',
+      panelClass: 'custom-dialog-container',
+    });
+
+    dialogRef.afterOpened().subscribe(() => {
+      console.log('SuccessPopupComponent is opened');
+    });
     this.dialogRef.close();
   }
 }

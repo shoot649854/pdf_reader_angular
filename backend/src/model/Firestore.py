@@ -1,11 +1,15 @@
-from flask import jsonify, request
-from src import app, db
+from flask import Blueprint, jsonify, request
+from flask_cors import cross_origin
+from src import db
 from src.logging.Logging import logger
 
 form_data_storage = {}
 
+firestore_bp = Blueprint("firestore_bp", __name__)
 
-@app.route("/save_form_data_to_firestore", methods=["POST"])
+
+@cross_origin(origins="http://localhost:4200")
+@firestore_bp.route("/save_form_data_to_firestore", methods=["POST"])
 def save_form_data_to_firestore():
     """Save form data sent by the frontend to Firestore."""
     form_data = request.json
@@ -15,16 +19,16 @@ def save_form_data_to_firestore():
             # Extract page number and other data fields
             page_number = page_data.get("page_number")
             field_name = page_data.get("field_name")
-            description = page_data.get("description")
+            # description = page_data.get("description")
             field_type = page_data.get("field_type")
             initial_value = page_data.get("initial_value")
 
             # Check if page number is provided
             if page_number is not None:
-                form_ref = db.collection("forms").document(str(page_number))
+                form_ref = db.collection("forms").document(field_name)
                 form_document_data = {
                     "field_name": field_name,
-                    "description": description,
+                    # "description": description,
                     "field_type": field_type,
                     "initial_value": initial_value,
                     "page_number": page_number,
@@ -43,10 +47,8 @@ def save_form_data_to_firestore():
     else:
         return jsonify({"error": "Invalid data format, expected a list."}), 400
 
-    # READ - Retrieve form data from Firestore by field_name
 
-
-@app.route("/get_form_data/<string:field_name>", methods=["GET"])
+@firestore_bp.route("/get_form_data/<string:field_name>", methods=["GET"])
 def get_form_data(field_name):
     """Retrieve form data for a specific field_name from Firestore."""
     form_ref = db.collection("forms").document(field_name)
@@ -62,7 +64,7 @@ def get_form_data(field_name):
 
 
 # UPDATE - Update form data for a specific field_name in Firestore
-@app.route("/update_form_data/<string:field_name>", methods=["PUT"])
+@firestore_bp.route("/update_form_data/<string:field_name>", methods=["PUT"])
 def update_form_data(field_name):
     """Update form data for a specific field_name in Firestore."""
     updated_data = request.json
@@ -84,7 +86,7 @@ def update_form_data(field_name):
 
 
 # DELETE - Delete form data for a specific field_name from Firestore
-@app.route("/delete_form_data/<string:field_name>", methods=["DELETE"])
+@firestore_bp.route("/delete_form_data/<string:field_name>", methods=["DELETE"])
 def delete_form_data(field_name):
     """Delete form data for a specific field_name from Firestore."""
     form_ref = db.collection("forms").document(field_name)
@@ -104,8 +106,36 @@ def delete_form_data(field_name):
         return jsonify({"error": f"No form data found for field '{field_name}'."}), 404
 
 
+@firestore_bp.route("/delete_all_form_data", methods=["DELETE"])
+def delete_all_form_data():
+    """Delete all form data from Firestore."""
+    forms_ref = db.collection("forms")
+    docs = forms_ref.stream()
+    deleted_count = 0
+    for doc in docs:
+        forms_ref.document(doc.id).delete()
+        deleted_count += 1
+
+    if deleted_count > 0:
+        logger.info(
+            f"All form data deleted from Firestore. Total deleted: {deleted_count}."
+        )
+        return (
+            jsonify(
+                {
+                    "message": "All form data deleted successfully. Total deleted:"
+                    f"{deleted_count}."
+                }
+            ),
+            200,
+        )
+    else:
+        logger.warning("No form data found to delete.")
+        return jsonify({"error": "No form data found to delete."}), 404
+
+
 # READ ALL - Retrieve all form data from Firestore
-@app.route("/get_all_form_data", methods=["GET"])
+@firestore_bp.route("/get_all_form_data", methods=["GET"])
 def get_all_form_data():
     """Retrieve all form data from Firestore."""
     logger.info("Route /get_all_form_data has been accessed.")

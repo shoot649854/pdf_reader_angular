@@ -6,4 +6,5 @@ export type PDFFieldType = {
   initial_value: string;
   options?: string[];
   need?: string[];
+  required?: boolean;
 };

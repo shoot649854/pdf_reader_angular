@@ -1,9 +1,4 @@
-import {
-  FormBuilder,
-  FormGroup,
-  ReactiveFormsModule,
-  Validators,
-} from '@angular/forms';
+import { Validators } from '@angular/forms';
 import { FormControl } from '@angular/forms';
 import {
   GLOBAL_TEXTFIELD,
@@ -15,20 +10,31 @@ import { PDFFieldType } from './type';
 
 export function createFormControl(field: PDFFieldType): FormControl {
   const initialValue = field.initial_value;
+  const isRequired = field.required ?? false;
+
   switch (field.field_type) {
     case GLOBAL_TEXTFIELD:
-      return new FormControl(initialValue, Validators.required);
+      return new FormControl(
+        initialValue,
+        isRequired ? Validators.required : []
+      );
     case GLOBAL_CHOICE:
-      return new FormControl(initialValue, Validators.required);
+      return new FormControl(
+        initialValue,
+        isRequired ? Validators.required : []
+      );
     case GLOBAL_BUTTON:
       return new FormControl(initialValue === 'true');
     case GLOBAL_NUMBER:
-      return new FormControl(initialValue, [
-        Validators.required,
-        Validators.pattern('^[0-9]*$'),
-      ]);
+      const validators = isRequired
+        ? [Validators.required, Validators.pattern('^[0-9]*$')]
+        : [Validators.pattern('^[0-9]*$')];
+      return new FormControl(initialValue, validators);
     default:
-      return new FormControl(initialValue, Validators.required);
+      return new FormControl(
+        initialValue,
+        isRequired ? Validators.required : []
+      );
   }
 }
 

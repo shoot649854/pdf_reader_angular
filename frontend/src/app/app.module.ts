@@ -19,13 +19,16 @@ import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 // Components
 import { AppComponent } from './app.component';
+import { SuccessPopupComponent } from '../components/success-popup/success-popup.component';
 
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [],
-  imports: [
+  declarations: [
     AppComponent,
+    SuccessPopupComponent, // <-- Declare it here
+  ],
+  imports: [
     RouterModule.forRoot([]),
     BrowserModule,
     BrowserAnimationsModule,
@@ -46,6 +49,7 @@ import { RouterModule } from '@angular/router';
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
-  bootstrap: [],
+  bootstrap: [AppComponent],
+  entryComponents: [SuccessPopupComponent],
 })
 export class AppModule {}
