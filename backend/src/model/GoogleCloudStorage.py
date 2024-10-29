@@ -1,9 +1,10 @@
 import os
 import tempfile
 
-from flask import Blueprint, current_app, jsonify, request, send_file
+from flask import Blueprint, jsonify, request, send_file
 from flask_cors import cross_origin
 from google.cloud import storage
+from google.oauth2 import service_account
 from src.logging.Logging import logger
 
 storage_bp = Blueprint("storage_bp", __name__)
@@ -11,7 +12,13 @@ storage_bp = Blueprint("storage_bp", __name__)
 
 def get_gcs_client():
     """Initialize and return a Google Cloud Storage client."""
-    return storage.Client()
+    key_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+    if not key_path:
+        logger.error("GOOGLE_APPLICATION_CREDENTIALS is not set.")
+        raise EnvironmentError("GOOGLE_APPLICATION_CREDENTIALS is not set.")
+
+    credentials = service_account.Credentials.from_service_account_file(key_path)
+    return storage.Client(credentials=credentials)
 
 
 def get_bucket():

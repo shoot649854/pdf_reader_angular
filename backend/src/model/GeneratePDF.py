@@ -5,8 +5,8 @@ from src.config import I140_PATH, OUTPUT_PDF_PATH
 from src.controller.JSONFieldDataLoader import JSONFieldDataLoader
 from src.controller.PDFFormFiller import PDFFormFiller
 from src.controller.PDFManipulator import PDFManipulator
-
-# from src.logging.Logging import logger
+from src.logging.Logging import logger
+from src.model.GoogleCloudStorage import get_bucket
 
 generate_pdf_bp = Blueprint("generate_pdf_bp", __name__)
 
@@ -59,22 +59,27 @@ def return_generate_pdf():
     form_filler = PDFFormFiller(data_loader, pdf_manipulator)
 
     pdf_buffer = io.BytesIO()
-
-    # Fill the PDF form using the form data and write it to the buffer
     form_filler.fill_form_from_object_to_buffer(form_data, pdf_buffer)
-
-    # Check the buffer size for debugging
     pdf_buffer.seek(0)
-    # buffer_content = pdf_buffer.getvalue()
-    # logger.info(f"Buffer size before sending: {len(buffer_content)} bytes")
 
-    # with open("filled-debug.pdf", "wb") as f:
-    #     f.write(buffer_content)
+    try:
+        bucket = get_bucket()
+        blob_name = "filled-form.pdf"
+        blob = bucket.blob(blob_name)
+        blob.upload_from_file(pdf_buffer, content_type="application/pdf")
+        signed_url = blob.generate_signed_url(expiration=3600)
 
-    pdf_buffer.seek(0)
-    return send_file(
-        pdf_buffer,
-        as_attachment=True,
-        download_name="filled-form.pdf",
-        mimetype="application/pdf",
-    )
+        logger.info(f"PDF uploaded to GCS bucket '{bucket.name}' as '{blob_name}'.")
+        return (
+            jsonify(
+                {
+                    "message": "PDF generated and uploaded successfully.",
+                    "gcs_url": signed_url,
+                }
+            ),
+            200,
+        )
+
+    except Exception as e:
+        logger.error(f"Failed to upload PDF to GCS: {str(e)}")
+        return jsonify({"error": f"Failed to upload PDF to GCS: {str(e)}"}), 500

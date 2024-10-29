@@ -30,5 +30,4 @@ class PDFFormFiller:
         data_dict = self.data_loader.load_data_from_object(json_object)
         self.pdf_manipulator.fill_form(data_dict)
         self.pdf_manipulator.save_pdf_to_buffer(pdf_buffer)
-        self.pdf_manipulator.save_pdf(OUTPUT_PDF_PATH)
         logger.info("Successfully filled the form from object and wrote to buffer.")
