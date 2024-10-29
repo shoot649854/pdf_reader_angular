@@ -1,0 +1,783 @@
+[
+    {
+        "field_name": "Line4_DaytimeTelephoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt1Line2c_MiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt1Line2b_GivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt1Line2a_FamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt1Line1_USCISOnlineAcctNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3a_StreetNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3b_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ STE "
+        ]
+    },
+    {
+        "field_name": "Line3b_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ FLR "
+        ]
+    },
+    {
+        "field_name": "Line3b_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3b_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ APT "
+        ]
+    },
+    {
+        "field_name": "Line3c_CityOrTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3d_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 1,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ]
+    },
+    {
+        "field_name": "Line3e_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3f_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3h_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line3g_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt1ItemNumber7_FaxNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line6_EMail[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line7_MobileTelephoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line2b_NameofOrganization[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line2c_DateExpires[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "CheckBox2[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Checkbox1dAmNot[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Checkbox1dAm[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/N"
+        ]
+    },
+    {
+        "field_name": "Pt2Line1b_BarNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "CheckBox1[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line3_NameofAttorneyOrRep[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "CheckBox3[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "CheckBox4[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line4b_LawStudent[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt2Line1a_LicensingAuthority[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Pt2Line1d_NameofFirmOrOrganization[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1
+    },
+    {
+        "field_name": "Line4_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/R"
+        ]
+    },
+    {
+        "field_name": "Line4_Checkbox[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/A"
+        ]
+    },
+    {
+        "field_name": "Line4_Checkbox[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/B"
+        ]
+    },
+    {
+        "field_name": "Line4_Checkbox[3]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/P"
+        ]
+    },
+    {
+        "field_name": "Line2a_ICE[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line2b_ListMatter[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line3a_CBP[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line3b_ListSpecificMatter[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line1a_USCIS[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line1b_ListFormNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line4_Checkbox[4]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/BD"
+        ]
+    },
+    {
+        "field_name": "Pt3Line5c_MiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line5b_GivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line5a_FamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line7a_NameOfEntity[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line10_MobileTelephoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line8_USCISOnlineAcctNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12g_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12f_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12h_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12a_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12c_CityOrTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12e_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12b_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ STE "
+        ]
+    },
+    {
+        "field_name": "Line12b_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ FLR "
+        ]
+    },
+    {
+        "field_name": "Line12b_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line12b_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ APT "
+        ]
+    },
+    {
+        "field_name": "Line12d_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 2,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ]
+    },
+    {
+        "field_name": "Line11_EMail[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line9_ANumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line9_DaytimeTelephoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line7b_TitleofEntity[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Pt3Line4_ReceiptNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2
+    },
+    {
+        "field_name": "Line1_Signature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "Line2_SignatureStudent[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "Pt5Line2b_DateofSignature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "Pt4Line2a_CheckBox2a[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Line3_Date[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "Pt4Line2b_CheckBox2b[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Pt4Line2c_CheckBox2c[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/Y"
+        ]
+    },
+    {
+        "field_name": "Pt4Line2b_DateofSignature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "P5_Line6a_SignatureofApplicant[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3
+    },
+    {
+        "field_name": "Pt9Line3d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt3Line5a_FamilyName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt3Line5b_GivenName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt3Line5c_MiddleName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line3a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line3b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line3c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line4d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line4a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line4b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line4c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line5d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line5a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line5b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line5c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6d_AdditionalInfo[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6a_PageNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6b_PartNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    },
+    {
+        "field_name": "Pt9Line6c_ItemNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4
+    }
+]

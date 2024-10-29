@@ -1,4 +1,4 @@
-from src.config import OUTPUT_PDF_PATH
+# from src.config import OUTPUT_PDF_PATH
 from src.controller.FieldDataLoader import FieldDataLoader
 from src.controller.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
