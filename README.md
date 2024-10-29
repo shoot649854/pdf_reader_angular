@@ -29,7 +29,7 @@ This project is built with **Angular** (v18.2.0) and utilizes **TypeScript** and
 -   Review as much as possible (have someone do it for you).
 -   Build, deploy, etc. are discussed separately.
 
-## Front End Setup
+## Frontend Setup
 
 This project is built using **Angular** and requires **Node.js** to run locally. Follow the steps below to install and run the project.
 
@@ -80,13 +80,52 @@ After installing the dependencies, you can run the Angular application locally:
 
     This command will start a local server, and you can access the application at [http://localhost:4200](http://localhost:4200).
 
-## Running Backend
+## Backend Setup
 
- ```bash
- pip install poetry
- poetry install --no-root
- poetry run python app.py
- ```
+### Dependencies
+
+| Package              | Version  |
+| -------------------- | -------- |
+| python               | ^3.12    |
+| flask                | ^3.0.3   |
+| pypdf2               | ^3.0.1   |
+| pdfplumber           | ^0.11.4  |
+| pdfrw                | ^0.4     |
+| pymupdf              | ^1.24.11 |
+| colorlog             | ^6.8.2   |
+| python-dotenv        | ^1.0.1   |
+| firebase-admin       | ^6.5.0   |
+| flask-cors           | ^5.0.0   |
+| google-cloud-storage | ^2.18.2  |
+
+### Installation
+
+1. **Install Poetry from pip package**:
+
+    ```bash
+    cd pdf_form_extractor_cli
+    ```
+
+2. **Install dependencies using Poetry**
+
+    ```bash
+    poetry install --no-root
+    poetry run python app.py
+    ```
+
+### Running the CLI Tool
+
+After setting up the environment, use the following command to run the tool:
+
+```bash
+poetry run python PDFDataCLI.py <path-to-your-pdf> -o <output-json-path>
+```
+
+For example:
+
+```bash
+poetry run python PDFDataCLI.py data/I-140.pdf -o output.json
+```
 
 ## Commit message
 
