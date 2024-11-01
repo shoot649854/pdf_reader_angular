@@ -1,0 +1,1394 @@
+[
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|1",
+        "page_number": 1,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "USCISOnlineAcctNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the USCIS Online Account Number."
+    },
+    {
+        "field_name": "Pt1Line3_GivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the applicant's given name."
+    },
+    {
+        "field_name": "Pt1Line3_FamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the applicant's family name."
+    },
+    {
+        "field_name": "Pt1Line3_MiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the applicant's middle name."
+    },
+    {
+        "field_name": "Pt1Line1_AlienRegistrationNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the applicant's Alien Registration Number."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the street number and name of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_CityTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the city or town of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ STE "
+        ],
+        "description": "This field contains the unit number of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ FLR "
+        ],
+        "description": "This field contains the second unit number of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the apartment, suite, or floor number of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/ APT "
+        ],
+        "description": "This field contains the third unit number of the applicant's mailing address."
+    },
+    {
+        "field_name": "Pt1Line5_MailingAddress_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the ZIP code of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 1,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ],
+        "description": "This field contains the state of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_InCareofName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the name of the person to whom the applicant's mail should be addressed."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the province of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the postal code of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line5_MailingAddress_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the country of the applicant's mailing address."
+    },
+    {
+        "field_name": "Part1_Line6_CompanyorOrganizationName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the name of the company or organization that the applicant works for."
+    },
+    {
+        "field_name": "Part1Line5_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/Y"
+        ],
+        "description": "This checkbox indicates whether the applicant has lived at the same address for the past 3 years."
+    },
+    {
+        "field_name": "Part1Line5_Checkbox[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/N"
+        ],
+        "description": "This checkbox indicates whether the applicant has lived in the United States for the past 3 years."
+    },
+    {
+        "field_name": "CheckBox1[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 1,
+        "possible_values": [
+            "/1"
+        ],
+        "description": "This checkbox indicates whether the applicant has a mailing address in the United States."
+    },
+    {
+        "field_name": "AttyStateBarNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the attorney's state bar number."
+    },
+    {
+        "field_name": "Pt2Line2_USCISOnlineActNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 1,
+        "description": "This field contains the USCIS Online Account Number for the attorney."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|2",
+        "page_number": 2,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "Part1_Line11_CheckBox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/C"
+        ],
+        "description": "This checkbox indicates whether the applicant is filing an I-130 petition for a relative."
+    },
+    {
+        "field_name": "Part1_Line11_CheckBox[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/D"
+        ],
+        "description": "This checkbox indicates whether the applicant is filing an I-485 application to adjust status to that of a lawful permanent resident."
+    },
+    {
+        "field_name": "Part1_Line11_CheckBox[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/A"
+        ],
+        "description": "This checkbox indicates whether the applicant is filing an I-821(d) application for consideration of deferred action for childhood arrivals (DACA)."
+    },
+    {
+        "field_name": "Part1_Line11_CheckBox[3]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/B"
+        ],
+        "description": "This checkbox indicates whether the applicant is filing an I-821(d) application for consideration of deferred action for childhood arrivals (DACA)."
+    },
+    {
+        "field_name": "P2_Line2_ReceiptNumberof[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the receipt number of the I-130 petition or I-485 application."
+    },
+    {
+        "field_name": "P2_Line1_FormNumberof[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the form number of the I-130 petition or I-485 application."
+    },
+    {
+        "field_name": "P2_Line2_ClassorEligRequested[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the class or eligibility requested on the I-130 petition or I-485 application."
+    },
+    {
+        "field_name": "Part2_Line4_PetitionerApplicantGivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the given name of the petitioner or applicant."
+    },
+    {
+        "field_name": "Part2_Line4_PetitionerApplicantFamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the family name of the petitioner or applicant."
+    },
+    {
+        "field_name": "Part2_Line4_PetitionerApplicantMiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the middle name of the petitioner or applicant."
+    },
+    {
+        "field_name": "Line_GivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the given name of the beneficiary."
+    },
+    {
+        "field_name": "Line_FamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the family name of the beneficiary."
+    },
+    {
+        "field_name": "Line_MiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the middle name of the beneficiary."
+    },
+    {
+        "field_name": "Part1_Line8_NameOfCompanyPOC_TitleofPOC[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the title of the company point of contact."
+    },
+    {
+        "field_name": "Part1_Line8_NameOfCompanyPOC_GivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the given name of the company point of contact."
+    },
+    {
+        "field_name": "Part1_Line8_NameOfCompanyPOC_FamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the family name of the company point of contact."
+    },
+    {
+        "field_name": "Part1_Line8_NameOfCompanyPOC_MiddleName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the middle name of the company point of contact."
+    },
+    {
+        "field_name": "Part1_Line9_CompanyIRSTaxNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the company's IRS tax number."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 2,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ],
+        "description": "This field contains the state of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the ZIP code of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ APT "
+        ],
+        "description": "This field contains the unit number of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the apartment, suite, or floor number of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ FLR "
+        ],
+        "description": "This field contains the second unit number of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 2,
+        "possible_values": [
+            "/ STE "
+        ],
+        "description": "This field contains the third unit number of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_CityTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the city or town of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the province of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the postal code of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the country of the beneficiary's physical address."
+    },
+    {
+        "field_name": "Part1_Line4_PhysicalAddress_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 2,
+        "description": "This field contains the street number and name of the beneficiary's physical address."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|3",
+        "page_number": 3,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "P3_Line1_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/N"
+        ],
+        "description": "This checkbox indicates whether the representative is filing Form I-693, Report of Medical Examination and Vaccination Record, with the Form I-485, Application to Register Permanent Resident Status or Adjust Status."
+    },
+    {
+        "field_name": "P3_Line1_Checkbox[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/Y"
+        ],
+        "description": "This checkbox indicates whether the representative is filing Form I-693, Report of Medical Examination and Vaccination Record, with the Form I-130, Petition for Alien Relative."
+    },
+    {
+        "field_name": "P3_Line1_B_Language[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the language in which the representative prefers to communicate."
+    },
+    {
+        "field_name": "P3_Line2_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/A"
+        ],
+        "description": "This checkbox indicates whether the representative is filing Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative."
+    },
+    {
+        "field_name": "P3_Line2_NameofRepresentative[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the name of the representative."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 3,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ],
+        "description": "This field contains the state of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the ZIP code of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/ APT "
+        ],
+        "description": "This field contains the unit number of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the apartment, suite, or floor number of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/ FLR "
+        ],
+        "description": "This field contains the second unit number of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 3,
+        "possible_values": [
+            "/ STE "
+        ],
+        "description": "This field contains the third unit number of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_CityTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the city or town of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the province of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the postal code of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the country of the company or organization's other information."
+    },
+    {
+        "field_name": "Part1_Line7_OtherInformationAboutCompanyOrg_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the street number and name of the company or organization's other information."
+    },
+    {
+        "field_name": "P3_Line4_DaytimeTelePhoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the representative's daytime telephone number."
+    },
+    {
+        "field_name": "P3_Line5_MobileTelePhoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the representative's mobile telephone number."
+    },
+    {
+        "field_name": "P3_Line6_Email[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the representative's email address."
+    },
+    {
+        "field_name": "P3_Line5_MobileTelePhoneNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 3,
+        "description": "This field contains the representative's second mobile telephone number."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|4",
+        "page_number": 4,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "P4_Line3_CityTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the city or town of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the province of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the postal code of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the ZIP code of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 4,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ],
+        "description": "This field contains the state of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the street number and name of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 4,
+        "possible_values": [
+            "/ STE "
+        ],
+        "description": "This field contains the unit number of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 4,
+        "possible_values": [
+            "/ FLR "
+        ],
+        "description": "This field contains the second unit number of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the apartment, suite, or floor number of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 4,
+        "possible_values": [
+            "/ APT "
+        ],
+        "description": "This field contains the third unit number of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line3_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the country of the interpreter's address."
+    },
+    {
+        "field_name": "P4_Line5_Email[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the interpreter's email address."
+    },
+    {
+        "field_name": "P4_Line4_DaytimeTelePhoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the interpreter's daytime telephone number."
+    },
+    {
+        "field_name": "P4_Line1_InterpreterGivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the interpreter's given name."
+    },
+    {
+        "field_name": "P4_Line1_InterpreterFamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the interpreter's family name."
+    },
+    {
+        "field_name": "P4_Line2_NameofBusinessorOrgName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the name of the business or organization that employs the interpreter."
+    },
+    {
+        "field_name": "Pt5Line3_SignatureOfPetitioner[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the signature of the petitioner."
+    },
+    {
+        "field_name": "P3_DateofSignature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the date the form was signed."
+    },
+    {
+        "field_name": "P4_Line6_Language[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the language in which the interpreter is proficient."
+    },
+    {
+        "field_name": "P4_Line4_DaytimeTelePhoneNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 4,
+        "description": "This field contains the interpreter's second daytime telephone number."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|5",
+        "page_number": 5,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "P5_Line6_EmailAddress[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the preparer's email address."
+    },
+    {
+        "field_name": "P5_Line4_DaytimeTelePhoneNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the preparer's daytime telephone number."
+    },
+    {
+        "field_name": "P5_Line5_FaxNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the preparer's fax number."
+    },
+    {
+        "field_name": "P5_Line3_CityTown[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the city or town of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_Province[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the province of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_PostalCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the postal code of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_ZipCode[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the ZIP code of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_State[0]",
+        "field_type": "/Ch",
+        "initial_value": "",
+        "page_number": 5,
+        "options": [
+            " ",
+            "AA",
+            "AE",
+            "AK",
+            "AL",
+            "AP",
+            "AR",
+            "AS",
+            "AZ",
+            "CA",
+            "CO",
+            "CT",
+            "DC",
+            "DE",
+            "FL",
+            "FM",
+            "GA",
+            "GU",
+            "HI",
+            "IA",
+            "ID",
+            "IL",
+            "IN",
+            "KS",
+            "KY",
+            "LA",
+            "MA",
+            "MD",
+            "ME",
+            "MH",
+            "MI",
+            "MN",
+            "MO",
+            "MP",
+            "MS",
+            "MT",
+            "NC",
+            "ND",
+            "NE",
+            "NH",
+            "NJ",
+            "NM",
+            "NV",
+            "NY",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "PR",
+            "PW",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VA",
+            "VI",
+            "VT",
+            "WA",
+            "WI",
+            "WV",
+            "WY"
+        ],
+        "description": "This field contains the state of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_StreetNumberName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the street number and name of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_Unit[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/ STE "
+        ],
+        "description": "This field contains the unit number of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_Unit[1]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/ FLR "
+        ],
+        "description": "This field contains the second unit number of the preparer's address."
+    },
+    {
+        "field_name": "Pt10Line3b_AptSteFlrNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the apartment, suite, or floor number of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_Unit[2]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/ APT "
+        ],
+        "description": "This field contains the third unit number of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line3_Country[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the country of the preparer's address."
+    },
+    {
+        "field_name": "P5_Line1_PreparerGivenName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the preparer's given name."
+    },
+    {
+        "field_name": "P5_Line1_PreparerFamilyName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the preparer's family name."
+    },
+    {
+        "field_name": "P5_Line2_NameofBusinessorOrgName[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the name of the business or organization that the preparer works for."
+    },
+    {
+        "field_name": "P4_Line6_Signature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the signature of the interpreter."
+    },
+    {
+        "field_name": "P4_Line6_DateofSignature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 5,
+        "description": "This field contains the date the form was signed by the interpreter."
+    },
+    {
+        "field_name": "P5_Line7a_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/A"
+        ],
+        "description": "This checkbox indicates whether the preparer is authorized to represent the petitioner in immigration proceedings."
+    },
+    {
+        "field_name": "P5_Line7b_Checkbox[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/B"
+        ],
+        "description": "This checkbox indicates whether the preparer is claiming an exemption from the definition of a representative in immigration proceedings."
+    },
+    {
+        "field_name": "P5_Line7b_extends[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/1"
+        ],
+        "description": "This field contains the text that extends the exemption from the definition of a representative in immigration proceedings."
+    },
+    {
+        "field_name": "P5_Line7b_notextends[0]",
+        "field_type": "/Btn",
+        "initial_value": "",
+        "page_number": 5,
+        "possible_values": [
+            "/2"
+        ],
+        "description": "This field contains the text that does not extend the exemption from the definition of a representative in immigration proceedings."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|6",
+        "page_number": 6,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "P5_Line8_Signature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 6,
+        "description": "This field contains the preparer's signature."
+    },
+    {
+        "field_name": "P5_Line8_DateofSignature[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 6,
+        "description": "This field contains the date the form was signed by the preparer."
+    },
+    {
+        "field_name": "PDF417BarCode1[0]",
+        "field_type": "/Tx",
+        "initial_value": "I-907|11/03/22|7",
+        "page_number": 7,
+        "description": "This field contains the PDF417 barcode data for the form."
+    },
+    {
+        "field_name": "Pt9Line3d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains additional information for Part 9, Line 3(d)."
+    },
+    {
+        "field_name": "Pt9Line3a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the page number for Part 9, Line 3(a)."
+    },
+    {
+        "field_name": "Pt9Line3b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the part number for Part 9, Line 3(b)."
+    },
+    {
+        "field_name": "Pt9Line3c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the item number for Part 9, Line 3(c)."
+    },
+    {
+        "field_name": "Pt1Line1_AlienRegistrationNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the Alien Registration Number of the second beneficiary."
+    },
+    {
+        "field_name": "Pt9Line4d_AdditionalInfo[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains additional information for Part 9, Line 4(d)."
+    },
+    {
+        "field_name": "Pt9Line4a_PageNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the page number for Part 9, Line 4(a)."
+    },
+    {
+        "field_name": "Pt9Line4b_PartNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the part number for Part 9, Line 4(b)."
+    },
+    {
+        "field_name": "Pt9Line4c_ItemNumber[0]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the item number for Part 9, Line 4(c)."
+    },
+    {
+        "field_name": "Pt1Line3_GivenName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the given name of the second beneficiary."
+    },
+    {
+        "field_name": "Pt1Line3_FamilyName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the family name of the second beneficiary."
+    },
+    {
+        "field_name": "Pt1Line3_MiddleName[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the middle name of the second beneficiary."
+    },
+    {
+        "field_name": "Pt9Line4d_AdditionalInfo[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains additional information for Part 9, Line 4(d)."
+    },
+    {
+        "field_name": "Pt9Line4a_PageNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the page number for Part 9, Line 4(a)."
+    },
+    {
+        "field_name": "Pt9Line4b_PartNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the part number for Part 9, Line 4(b)."
+    },
+    {
+        "field_name": "Pt9Line4c_ItemNumber[1]",
+        "field_type": "/Tx",
+        "initial_value": "",
+        "page_number": 7,
+        "description": "This field contains the item number for Part 9, Line 4(c)."
+    }
+]
