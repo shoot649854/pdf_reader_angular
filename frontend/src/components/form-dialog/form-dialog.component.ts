@@ -18,6 +18,7 @@ import { Base_URL, GLOBAL_TEXTFIELD, DATA_PATH } from '../setting';
 import { PDFFieldType } from './type';
 import { createFormControl, formatFieldName, getFieldType } from './setting';
 import { SuccessPopupComponent } from '../success-popup/success-popup.component';
+import { FormDataService } from '../../services/form-data.service';
 
 @Component({
   selector: 'app-form-dialog',
@@ -51,12 +52,13 @@ export class FormDialogComponent implements OnInit {
     private http: HttpClient,
     private pdfService: PdfService,
     private snackBar: MatSnackBar,
+    private formDataService: FormDataService,
     private dialog: MatDialog
   ) {}
 
   ngOnInit(): void {
     this.initializeForm();
-    this.loadFormData();
+    this.loadFormData(DATA_PATH);
   }
 
   /**
@@ -70,8 +72,8 @@ export class FormDialogComponent implements OnInit {
    * Loads form data from an external data source and generates the form.
    * Also sets up value change subscriptions for form controls.
    */
-  private loadFormData(): void {
-    this.http.get<PDFFieldType[]>(DATA_PATH).subscribe((data) => {
+  private loadFormData(dpath: string): void {
+    this.http.get<PDFFieldType[]>(dpath).subscribe((data) => {
       this.originalFormData = data;
       this.totalPages = Math.ceil(data.length / this.pageSize);
       this.generateForm(data, this.currentPage);
@@ -212,8 +214,45 @@ export class FormDialogComponent implements OnInit {
   nextPage(): void {
     if (this.currentPage < this.totalPages) {
       const currentPageData = this.form.value;
+      this.saveFormDataToBackend(currentPageData);
       this.saveFormData(currentPageData);
     }
+  }
+
+  /**
+   * Saves data to the backend to update the JSON file.
+   * @param currentPageData - The form data of the current page.
+   */
+  private saveFormDataToBackend(currentPageData: any): void {
+    // Update originalFormData with the currentPageData values
+    for (let key in currentPageData) {
+      const field = this.originalFormData.find(
+        (item: PDFFieldType) => item.field_name === key
+      );
+      if (field) {
+        field.initial_value = currentPageData[key];
+      }
+    }
+
+    // Use the service to send the updated form data to the backend
+    this.formDataService.updateFormData(this.originalFormData).subscribe(
+      (response) => {
+        console.log('Form data updated successfully:', response);
+        this.snackBar.open('Form data saved successfully!', 'Close', {
+          duration: 3000,
+        });
+      },
+      (error) => {
+        console.error('Error saving form data to the backend:', error);
+        this.snackBar.open(
+          'Error saving form data. Please try again.',
+          'Close',
+          {
+            duration: 3000,
+          }
+        );
+      }
+    );
   }
 
   /**
@@ -234,7 +273,7 @@ export class FormDialogComponent implements OnInit {
     });
 
     this.http
-      .post(`${Base_URL}/save_form_data_to_firestore`, formDataToSend)
+      .post(`${Base_URL}/firestore/save_form_data_to_firestore`, formDataToSend)
       .subscribe(
         (response) => {
           console.log('Form data saved successfully:', response);

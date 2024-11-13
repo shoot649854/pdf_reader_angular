@@ -1,0 +1,15 @@
+{
+    "people": [
+        {
+            "FamilyName": "Doe",
+            "GivenName": "John",
+            "Age": 30,
+            "Address": {
+                "Street": "123 Main St",
+                "City": "Anytown",
+                "State": "CA",
+                "ZipCode": "12345"
+            }
+        }
+    ]
+}
