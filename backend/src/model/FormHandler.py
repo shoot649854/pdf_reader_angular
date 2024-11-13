@@ -6,10 +6,11 @@ from flask import Blueprint, jsonify, request
 form_bp = Blueprint("form_controller", __name__)
 
 current_dir = os.path.dirname(__file__)  # backend/src/controller
-project_root = os.path.abspath(
-    os.path.join(current_dir, "../../..")
-)  # pdf_reader_angular/
+project_root = os.path.abspath(os.path.join(current_dir, "../../.."))
 DATA_PATH = os.path.join(project_root, "frontend", "src", "assets", "form_data.json")
+PERSONAL_INFO = os.path.abspath(
+    os.path.join(current_dir, "../../data/personal_data.json")
+)
 
 
 @form_bp.route("/update-form-data", methods=["POST"])
