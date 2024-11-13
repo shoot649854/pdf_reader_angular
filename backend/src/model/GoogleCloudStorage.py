@@ -31,7 +31,6 @@ def get_bucket():
     return client.bucket(bucket_name)
 
 
-@cross_origin(origins="http://localhost:4200")
 @storage_bp.route("/upload_file", methods=["POST"])
 def upload_file():
     """Upload a file to Google Cloud Storage."""

@@ -8,7 +8,6 @@ form_data_storage = {}
 firestore_bp = Blueprint("firestore_bp", __name__)
 
 
-@cross_origin(origins="http://localhost:4200")
 @firestore_bp.route("/save_form_data_to_firestore", methods=["POST"])
 def save_form_data_to_firestore():
     """Save form data sent by the frontend to Firestore."""
