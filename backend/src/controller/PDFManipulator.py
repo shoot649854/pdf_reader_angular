@@ -1,4 +1,4 @@
-import PyPDF2
+import pypdf
 from src.logging.Logging import logger
 
 
@@ -8,8 +8,8 @@ class PDFManipulator:
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
         logger.info(f"Initializing PDFManipulator with PDF path: {pdf_path}")
-        self.pdf_reader = PyPDF2.PdfReader(pdf_path)
-        self.pdf_writer = PyPDF2.PdfWriter()
+        self.pdf_reader = pypdf.PdfReader(pdf_path)
+        self.pdf_writer = pypdf.PdfWriter()
 
     def fill_form(self, data_dict):
         logger.info(
@@ -67,9 +67,9 @@ class PDFManipulator:
         if field_type == "/Tx":  # Text field
             field.update(
                 {
-                    PyPDF2.generic.NameObject(
-                        "/V"
-                    ): PyPDF2.generic.create_string_object(value)
+                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
+                        value
+                    )
                 }
             )
             logger.debug(f"Updated text field with value '{value}'.")
@@ -79,12 +79,12 @@ class PDFManipulator:
         elif field_type == "/Ch":  # Choice field
             field.update(
                 {
-                    PyPDF2.generic.NameObject(
-                        "/V"
-                    ): PyPDF2.generic.create_string_object(value),
-                    PyPDF2.generic.NameObject(
-                        "/DV"
-                    ): PyPDF2.generic.create_string_object(value),
+                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
+                        value
+                    ),
+                    pypdf.generic.NameObject("/DV"): pypdf.generic.create_string_object(
+                        value
+                    ),
                 }
             )
             logger.debug(f"Updated choice field with value '{value}'.")
@@ -92,9 +92,9 @@ class PDFManipulator:
             # Other field types
             field.update(
                 {
-                    PyPDF2.generic.NameObject(
-                        "/V"
-                    ): PyPDF2.generic.create_string_object(value)
+                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
+                        value
+                    )
                 }
             )
             logger.debug(f"Updated other field type with value '{value}'.")
@@ -111,20 +111,16 @@ class PDFManipulator:
             on_value = self._get_on_value(field)
             field.update(
                 {
-                    PyPDF2.generic.NameObject("/V"): PyPDF2.generic.NameObject(
-                        on_value
-                    ),
-                    PyPDF2.generic.NameObject("/AS"): PyPDF2.generic.NameObject(
-                        on_value
-                    ),
+                    pypdf.generic.NameObject("/V"): pypdf.generic.NameObject(on_value),
+                    pypdf.generic.NameObject("/AS"): pypdf.generic.NameObject(on_value),
                 }
             )
         else:
             logger.debug("Checkbox/radio button unchecked (value: Off).")
             field.update(
                 {
-                    PyPDF2.generic.NameObject("/V"): PyPDF2.generic.NameObject("/Off"),
-                    PyPDF2.generic.NameObject("/AS"): PyPDF2.generic.NameObject("/Off"),
+                    pypdf.generic.NameObject("/V"): pypdf.generic.NameObject("/Off"),
+                    pypdf.generic.NameObject("/AS"): pypdf.generic.NameObject("/Off"),
                 }
             )
 

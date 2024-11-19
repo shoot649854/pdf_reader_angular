@@ -1,7 +1,12 @@
 import argparse
 import os
+import sys
 
-from PyPDF2.errors import DependencyError
+from pypdf.errors import DependencyError
+
+if __name__ == "__main__":
+    sys.path.append(os.path.abspath("../backend"))
+
 from src.controller.JSONWriter import JSONWriter
 from src.controller.PDFFormExtractor import PDFFormExtractor
 from src.logging.Logging import logger
@@ -42,7 +47,7 @@ class PDFDataCLI:
                 output_path = f"./data/{pdf_name}.data.json"
 
             try:
-                fields = extractor.get_fields()
+                fields = extractor.get_fields_with_questions()
                 writer = JSONWriter(output_path)
                 writer.write(fields)
                 print(f"Data extracted and written to {output_path} for {pdf_path}")
