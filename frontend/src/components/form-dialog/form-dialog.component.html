@@ -2,72 +2,73 @@
   <h2 mat-dialog-title>Form</h2>
   <mat-dialog-content>
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
-      <!-- Display form fields for the current page -->
-      <div *ngFor="let field of formFields" class="form-field">
-        <!-- Text Field -->
-        <ng-container *ngIf="field.type === 'text'">
-          <mat-form-field appearance="outline">
-            <mat-label>{{ field.description }}</mat-label>
-            <input
-              matInput
-              [formControlName]="field.name"
-              [placeholder]="field.description"
-            />
-            <mat-hint
-              *ngIf="
-                !form.get(field.name)?.valid && form.get(field.name)?.touched
-              "
-            >
-              This field is required
-            </mat-hint>
-          </mat-form-field>
-        </ng-container>
+      <!-- Iterate over each form section -->
+      <div *ngFor="let section of formSections" class="form-section">
+        <h3 style="font-size: 2rem; font-weight: bold; line-height: 2.5rem; margin-bottom: 1rem;">
+          {{ section.title }}
+        </h3>
+        <p style="font-size: 1.5rem; color: #555; line-height: 2rem; margin-bottom: 1.5rem;">
+          {{ section.subtitle }}
+        </p>
+        
 
-        <!-- Checkbox Field -->
-        <ng-container *ngIf="field.type === 'checkbox'">
-          <mat-checkbox [formControlName]="field.name">{{
-            field.description
-          }}</mat-checkbox>
-        </ng-container>
-
-        <!-- Choice Field -->
-        <ng-container *ngIf="field.type === 'choice'">
-          <mat-form-field appearance="outline">
-            <mat-label>{{ field.label }}</mat-label>
-            <mat-select [formControlName]="field.name">
-              <mat-option *ngFor="let option of field.options" [value]="option">
-                {{ option }}
-              </mat-option>
-            </mat-select>
-            <mat-hint
-              *ngIf="
-                !form.get(field.name)?.valid && form.get(field.name)?.touched
-              "
-            >
-              Please select an option
-            </mat-hint>
-          </mat-form-field>
-        </ng-container>
-
-        <!-- Numeric Field -->
-        <ng-container *ngIf="field.type === 'number'">
-          <mat-form-field>
-            <mat-label>{{ field.description }}</mat-label>
-            <input
-              matInput
-              type="number"
-              [formControlName]="field.name"
-              min="0"
-            />
-          </mat-form-field>
-        </ng-container>
+      
+        <!-- Iterate over fields within the section -->
+        <div *ngFor="let field of section.fields" class="form-field">
+          <!-- Text Field -->
+          <ng-container *ngIf="field.type === 'text'">
+            <mat-form-field appearance="outline">
+              <mat-label>{{ field.description }}</mat-label>
+              <input matInput [formControlName]="field.name" [placeholder]="field.description" />
+              <mat-hint *ngIf="!form.get(field.name)?.valid && form.get(field.name)?.touched">
+                This field is required
+              </mat-hint>
+            </mat-form-field>
+          </ng-container>
+      
+          <!-- Checkbox Field -->
+          <ng-container *ngIf="field.type === 'checkbox'">
+            <mat-checkbox [formControlName]="field.name">{{ field.description }}</mat-checkbox>
+          </ng-container>
+      
+          <!-- Select Dropdown Field -->
+          <ng-container *ngIf="field.type === 'select'">
+            <mat-form-field appearance="outline">
+              <mat-label>{{ field.label }}</mat-label>
+              <mat-select [formControlName]="field.name">
+                <mat-option *ngFor="let option of field.options" [value]="option">
+                  {{ option }}
+                </mat-option>
+              </mat-select>
+              <mat-hint *ngIf="!form.get(field.name)?.valid && form.get(field.name)?.touched">
+                Please select an option
+              </mat-hint>
+            </mat-form-field>
+          </ng-container>
+      
+          <!-- Numeric Field -->
+          <ng-container *ngIf="field.type === 'number'">
+            <mat-form-field appearance="outline">
+              <mat-label>{{ field.description }}</mat-label>
+              <input matInput type="number" [formControlName]="field.name" min="0" />
+              <mat-hint *ngIf="!form.get(field.name)?.valid && form.get(field.name)?.touched">
+                Please enter a valid number
+              </mat-hint>
+            </mat-form-field>
+          </ng-container>
+      
+          <!-- Handle Unsupported Field Types -->
+          <div *ngIf="field.type === 'unsupported'">
+            <p class="error-message">Unsupported field type: {{ field.field_type }}</p>
+          </div>
+        </div>
       </div>
 
       <!-- Pagination Controls -->
       <div class="pagination-controls">
         <button
           mat-raised-button
-          (click)="previousPage()"
+          (click)="previous_page()"
           [disabled]="currentPage === 1"
         >
           Previous
@@ -75,7 +76,7 @@
         <span>Page {{ currentPage }} of {{ totalPages }}</span>
         <button
           mat-raised-button
-          (click)="nextPage()"
+          (click)="next_page()"
           [disabled]="currentPage === totalPages"
         >
           Next
