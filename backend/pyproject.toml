@@ -8,7 +8,6 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 flask = "^3.0.3"
-pypdf2 = "^3.0.1"
 pdfplumber = "^0.11.4"
 pdfrw = "^0.4"
 pymupdf = "^1.24.11"
@@ -20,6 +19,7 @@ google-cloud-storage = "^2.18.2"
 pycryptodome = "^3.21.0"
 google-cloud-aiplatform = "^1.70.0"
 google-generativeai = "^0.8.3"
+pypdf = "^5.1.0"
 
 
 [build-system]

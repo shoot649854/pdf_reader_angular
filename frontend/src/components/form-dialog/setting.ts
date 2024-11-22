@@ -6,9 +6,9 @@ import {
   GLOBAL_CHOICE,
   GLOBAL_NUMBER,
 } from '../setting';
-import { PDFFieldType } from './type';
+import { PDFQuestionType } from './type';
 
-export function createFormControl(field: PDFFieldType): FormControl {
+export function createFormControl(field: PDFQuestionType): FormControl {
   const initialValue = field.initial_value;
   const isRequired = field.required ?? false;
 
@@ -42,7 +42,7 @@ export function formatFieldName(fieldName: string): string {
   return fieldName.replace('[0]', '').replace(/_/g, ' ');
 }
 
-export function getFieldType(fieldType: string): string {
+export function get_field_type(fieldType: string): string {
   switch (fieldType) {
     case GLOBAL_TEXTFIELD:
       return 'text';

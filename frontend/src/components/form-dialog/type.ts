@@ -1,4 +1,11 @@
-export type PDFFieldType = {
+export type PDFItemType = {
+  title: string;
+  subtitle: string;
+  questions: PDFQuestionType[];
+  fields: any[];
+};
+
+export type PDFQuestionType = {
   field_name: string;
   description: string;
   field_type: string;
