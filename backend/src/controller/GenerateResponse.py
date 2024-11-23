@@ -2,10 +2,9 @@ import os
 
 import vertexai
 from google.oauth2 import service_account
-from vertexai.preview.generative_models import GenerativeModel
-
 from src import ABS_CREDENTIAL_PATH
 from src.logging.Logging import logger
+from vertexai.preview.generative_models import GenerativeModel
 
 # Set up your project details
 PROJECT_ID = os.getenv("PROJECT_ID")
@@ -17,9 +16,9 @@ vertexai.init(project=PROJECT_ID, location=LOCATION, credentials=credentials)
 
 
 class GenerateResponse:
-    def __init__(self):
+    def __init__(self, model="gemini-pro"):
         try:
-            self.chat = self._initiate_chat_session()
+            self.chat = self._initiate_chat_session(model)
             logger.info("Chat session successfully initiated.")
         except Exception as e:
             logger.error(f"Failed to initiate chat session: {e}")
@@ -40,9 +39,10 @@ class GenerateResponse:
             logger.error(f"Error in generating response: {e}")
             return None
 
-    def _initiate_chat_session(self):
+    def _initiate_chat_session(self, model=RESOURCE_ID):
         """Initialize the chat session。"""
-        model = GenerativeModel(RESOURCE_ID)
+        logger.info(f"Using model: {model}")
+        model = GenerativeModel(model)
         return model.start_chat()
 
     def _multiturn_generate_content(self, user_input):
