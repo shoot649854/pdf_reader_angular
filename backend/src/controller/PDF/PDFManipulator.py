@@ -17,25 +17,15 @@ class PDFManipulator:
         )
         for page_num, page in enumerate(self.pdf_reader.pages, start=1):
             if "/Annots" in page:
-                logger.debug(f"Page {page_num}: Found annotations for form fields.")
                 annotations = page["/Annots"]
                 for annotation in annotations:
                     field = annotation.get_object()
                     if "/T" in field:
                         field_name = self._get_field_name(field)
                         field_type = field.get("/FT")
-
-                        logger.debug(
-                            f"Processing field '{field_name}' of type '{field_type}'."
-                        )
-                        # logger.debug(
-                        #     f"Available fields in data_dict: {data_dict.keys()}"
-                        # )
                         if field_name in data_dict:
                             value = data_dict[field_name]
-                            logger.debug(
-                                f"Updating field '{field_name}' with value '{value}'."
-                            )
+                            logger.debug(f"Updating {field_name} with value: '{value}'")
                             self._update_field(field, field_type, value)
             else:
                 logger.debug(f"Page {page_num}: No annotations found.")
@@ -72,9 +62,7 @@ class PDFManipulator:
                     )
                 }
             )
-            logger.debug(f"Updated text field with value '{value}'.")
         elif field_type == "/Btn":  # Checkbox or radio button
-            logger.debug(f"Updating button field with value '{value}'.")
             self._update_button_field(field, value)
         elif field_type == "/Ch":  # Choice field
             field.update(

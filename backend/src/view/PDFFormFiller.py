@@ -1,5 +1,6 @@
 # from src.config import OUTPUT_PDF_PATH
-from src.controller.FieldDataLoader import FieldDataLoader
+from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
+from src.controller.DataHandle.JSONHandler import JSONHandler
 from src.controller.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
 
@@ -7,12 +8,18 @@ from src.logging.Logging import logger
 class PDFFormFiller:
     """Coordinates data loading and PDF manipulation."""
 
-    def __init__(self, data_loader: FieldDataLoader, pdf_manipulator: PDFManipulator):
+    def __init__(
+        self,
+        data_loader: JSONFieldLoader,
+        pdf_manipulator: PDFManipulator,
+        json_handler: JSONHandler,
+    ):
         self.data_loader = data_loader
         self.pdf_manipulator = pdf_manipulator
+        self.json_handler = json_handler
 
     def fill_form(self, data_source, output_pdf_path):
-        data_dict = self.data_loader.load_data(data_source)
+        data_dict = self.json_handler.load_data(data_source)
         self.pdf_manipulator.fill_form(data_dict)
         self.pdf_manipulator.save_pdf(output_pdf_path)
         logger.info(f"Successfully filled the form: {output_pdf_path}")

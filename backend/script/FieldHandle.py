@@ -1,27 +1,27 @@
 import json
 
-from src.controller.GenerateResponse import GenerateResponse
 from src.logging.Logging import logger
 
-
-class FieldDescriptionGenerator:
-    def __init__(self, response_generator: GenerateResponse):
-        self._response_generator = response_generator
-
-    def generate(self, input_text):
-        """Concrete implementation of AIResponseGenerator"""
-        return self._response_generator.generate_response(input_text)
+from backend.src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
+from backend.src.controller.DataHandle.JSONHandler import JSONHandler
+from backend.src.controller.VertexAI.GenerateResponse import GenerateResponse
 
 
 class FieldProcessor:
-    def __init__(self, data_loader, description_generator, response_parser):
-        self.data_loader = data_loader
-        self.description_generator = description_generator
+    def __init__(
+        self,
+        json_handler: JSONHandler,
+        generate_res: GenerateResponse,
+        response_parser: JSONFieldLoader,
+    ):
+        self.json_handler = json_handler
+        self.generate_res = generate_res
         self.response_parser = response_parser
+        self.json_handler = json_handler
 
-    def process_fields(self, input_path, output_path):
+    def generating_descriptions(self, input_path, output_path):
         """Service for processing fields and generating descriptions"""
-        info = self.data_loader.load_json_data(input_path)
+        info = self.json_handler.load_data_from_path(input_path)
         fields_by_page = self._group_fields_by_page(info)
 
         for page_number, fields in fields_by_page.items():
@@ -36,7 +36,7 @@ class FieldProcessor:
             descriptions = self.response_parser.parse(ai_response)
             self._assign_descriptions(fields, descriptions, page_number)
 
-        self._write_to_file(info, output_path)
+        self.json_handler.save_data(info)
         logger.info(f"Updated data written to {output_path}")
 
     def _group_fields_by_page(self, fields):
@@ -53,12 +53,7 @@ class FieldProcessor:
             field["description"] = ""
 
     def _get_ai_response(self, fields):
-        input_text = self._generate_prompt(fields)
-        return self.description_generator.generate(input_text)
-
-    def _generate_prompt(self, fields):
-        """Creates a prompt text for AI model based on the fields."""
-        return f"""
+        input_text = f"""
 Please provide a concise description for each of the following fields on 
 
 
@@ -72,6 +67,7 @@ Instructions:
 Fields:
 {json.dumps([{'field_name': field['field_name']} for field in fields], indent=4)}
 """
+        return self.generate_res.generate_response(input_text)
 
     def _assign_descriptions(self, fields, descriptions, page_number):
         if not descriptions or len(descriptions) != len(fields):
@@ -83,7 +79,3 @@ Fields:
 
         for idx, field in enumerate(fields):
             field["description"] = descriptions[idx] if idx < len(descriptions) else ""
-
-    def _write_to_file(self, data, output_path):
-        with open(output_path, "w") as outfile:
-            json.dump(data, outfile, indent=4)

@@ -1,11 +1,10 @@
 import io
 
 from flask import Flask, jsonify, request, send_file
-
 from src.config import I140_PATH, OUTPUT_PDF_PATH
-from src.controller.JSONFieldData import JSONFieldDataLoader
-from src.controller.PDFFormFiller import PDFFormFiller
-from src.controller.PDFMultiple import PDFMultiple
+from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
+from src.controller.PDF.PDFManipulator import PDFManipulator
+from src.view.PDFFormFiller import PDFFormFiller
 
 app = Flask(__name__)
 
@@ -24,8 +23,8 @@ def fill_form():
         else:
             return jsonify({"error": "No JSON file provided."}), 400
 
-        data_loader = JSONFieldDataLoader()
-        pdf_manipulator = PDFMultiple(I140_PATH)
+        data_loader = JSONFieldLoader()
+        pdf_manipulator = PDFManipulator(I140_PATH)
         form_filler = PDFFormFiller(data_loader, pdf_manipulator)
 
         json_path = io.StringIO(json_data)

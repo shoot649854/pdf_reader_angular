@@ -7,7 +7,7 @@ from pypdf.errors import DependencyError
 if __name__ == "__main__":
     sys.path.append(os.path.abspath("../backend"))
 
-from src.controller.JSONWriter import JSONWriter
+from src.controller.DataHandle.JSONHandler import JSONHandler
 from src.controller.PDFFormExtractor import PDFFormExtractor
 from src.logging.Logging import logger
 
@@ -47,10 +47,12 @@ class PDFDataCLI:
                 output_path = f"./data/{pdf_name}.data.json"
 
             try:
-                fields = extractor.get_fields_with_questions()
-                writer = JSONWriter(output_path)
-                writer.write(fields)
-                print(f"Data extracted and written to {output_path} for {pdf_path}")
+                fields = extractor.get_fields()
+                json_handler = JSONHandler()
+                json_handler.save_data(output_path, fields)
+                logger.debug(
+                    f"Data extracted and written to {output_path} for {pdf_path}"
+                )
             except DependencyError as e:
                 logger.error("Dependency Error: %s", e)
             except Exception as e:

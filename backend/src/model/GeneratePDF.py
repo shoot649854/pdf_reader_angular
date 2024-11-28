@@ -1,13 +1,13 @@
 import io
 
 from flask import Blueprint, jsonify, request, send_file
-
 from src.config import I140_PATH, OUTPUT_PDF_PATH
-from src.controller.JSONFieldData import JSONFieldDataLoader
-from src.controller.PDFFormFiller import PDFFormFiller
-from src.controller.PDFManipulator import PDFManipulator
+from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
+from src.controller.PDF.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
 from src.model.GoogleCloudStorage import get_bucket
+
+from backend.src.view.PDFFormFiller import PDFFormFiller
 
 generate_pdf_bp = Blueprint("generate_pdf_bp", __name__)
 
@@ -41,7 +41,7 @@ def generate_pdf():
     """Generate PDF based on the submitted form data."""
     form_data = request.json
     pdf_manipulator = PDFManipulator(I140_PATH)
-    data_loader = JSONFieldDataLoader()
+    data_loader = JSONFieldLoader()
     form_filler = PDFFormFiller(data_loader, pdf_manipulator)
     form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
     return send_file(
@@ -53,10 +53,10 @@ def generate_pdf():
 def return_generate_pdf():
     """Generate PDF based on the submitted form data."""
     form_data = request.json
-    # logger.info(f"Received form_data: {form_data}")
+    logger.debug(f"Received form_data: {form_data}")
 
     pdf_manipulator = PDFManipulator(I140_PATH)
-    data_loader = JSONFieldDataLoader()
+    data_loader = JSONFieldLoader()
     form_filler = PDFFormFiller(data_loader, pdf_manipulator)
 
     pdf_buffer = io.BytesIO()
