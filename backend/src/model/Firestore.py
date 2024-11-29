@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, request
-from flask_cors import cross_origin
+
+# from flask_cors import cross_origin
 from src import db
 from src.logging.Logging import logger
 
@@ -13,38 +14,28 @@ def save_form_data_to_firestore():
     """Save form data sent by the frontend to Firestore."""
     form_data = request.json
 
-    if isinstance(form_data, list):
-        for page_data in form_data:
-            # Extract page number and other data fields
-            page_number = page_data.get("page_number")
-            field_name = page_data.get("field_name")
-            # description = page_data.get("description")
-            field_type = page_data.get("field_type")
-            initial_value = page_data.get("initial_value")
-
-            # Check if page number is provided
-            if page_number is not None:
-                form_ref = db.collection("forms").document(field_name)
-                form_document_data = {
-                    "field_name": field_name,
-                    # "description": description,
-                    "field_type": field_type,
-                    "initial_value": initial_value,
-                    "page_number": page_number,
-                }
-
-                # Save the data to Firestore
-                form_ref.set(form_document_data)
-                logger.info(f"Form data for page {page_number} saved to Firestore.")
-            else:
-                return (
-                    jsonify({"error": "Invalid data, 'page_number' is missing."}),
-                    400,
-                )
-
-        return jsonify({"message": "Form data saved successfully to Firestore."}), 200
-    else:
+    if not isinstance(form_data, list):
         return jsonify({"error": "Invalid data format, expected a list."}), 400
+
+    for page_data in form_data:
+        required_fields = {"field_name", "page_number", "field_type", "initial_value"}
+        missing_fields = required_fields - page_data.keys()
+        if missing_fields:
+            return (
+                jsonify({"error": f"Missing fields: {', '.join(missing_fields)}"}),
+                400,
+            )
+
+        page_number = page_data["page_number"]
+        form_ref = db.collection("forms").document(page_data["field_name"])
+        try:
+            form_ref.set(page_data)
+            logger.info(f"Form data for page {page_number} saved to Firestore.")
+        except Exception as e:
+            logger.error(f"Error saving form data for page {page_number}: {e}")
+            return jsonify({"error": "Failed to save form data to Firestore."}), 500
+
+    return jsonify({"message": "Form data saved successfully to Firestore."}), 200
 
 
 @firestore_bp.route("/get_form_data/<string:field_name>", methods=["GET"])
@@ -122,7 +113,7 @@ def delete_all_form_data():
         return (
             jsonify(
                 {
-                    "message": "All form data deleted successfully. Total deleted:"
+                    "message": "All form data deleted successfully. Total deleted: "
                     f"{deleted_count}."
                 }
             ),

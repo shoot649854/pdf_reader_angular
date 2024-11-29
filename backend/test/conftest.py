@@ -5,16 +5,22 @@ from logging import CRITICAL, DEBUG
 from unittest.mock import MagicMock, patch
 
 import pytest
-from flask import Flask
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from src.logging.Logging import file, logger, stream
+from app import app as main_app  # noqa: E402
+from src.logging.Logging import file, logger, stream  # noqa: E402
 
 
 @pytest.fixture
 def app():
-    app = Flask(__name__)
-    return app
+    main_app.config["TESTING"] = True
+    return main_app
+
+
+@pytest.fixture
+def client(app):
+    with app.test_client() as client:
+        yield client
 
 
 @pytest.fixture
