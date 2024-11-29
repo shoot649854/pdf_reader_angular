@@ -19,7 +19,7 @@ class PDFFormFiller:
         self.json_handler = json_handler
 
     def fill_form(self, data_source, output_pdf_path):
-        data_dict = self.json_handler.load_data(data_source)
+        data_dict = self.json_handler.load_data_from_path(data_source)
         self.pdf_manipulator.fill_form(data_dict)
         self.pdf_manipulator.save_pdf(output_pdf_path)
         logger.info(f"Successfully filled the form: {output_pdf_path}")
