@@ -38,21 +38,16 @@ def configure_logging():
 
     # Set logger levels
     logger.setLevel(DEBUG)
-    stream.setLevel(CRITICAL)  # Suppress console output during tests
-    file.setLevel(DEBUG)  # Log everything to the file
+    stream.setLevel(CRITICAL)
+    file.setLevel(DEBUG)
 
     logger.debug("Starting test session")
 
     try:
         yield
     finally:
-        # Flush captured outputs to the logger
-        stdout_output = captured_stdout.getvalue()
-        stderr_output = captured_stderr.getvalue()
-
-        logger.debug("Captured stdout:\n" + stdout_output)
-        logger.debug("Captured stderr:\n" + stderr_output)
-
+        logger.debug(captured_stdout.getvalue())
+        logger.debug(captured_stderr.getvalue())
         logger.debug("Test session completed")
 
         # Restore original stdout and stderr
