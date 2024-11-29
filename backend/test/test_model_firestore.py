@@ -10,10 +10,10 @@ import glob
 from src.config import FILE_PATH
 from src.controller.DataHandle.JSONHandler import JSONHandler
 
-# from src.model.Firestore import firestore_bp
-
 JSON_PATHS = glob.glob(os.path.join(FILE_PATH, "*updated.data.json"))
 json_handler = JSONHandler()
+
+url_prefix = "firestore"
 
 
 ###################################################
@@ -23,7 +23,7 @@ def test_save_form_data_to_firestore_valid(client, mock_db):
     for path in JSON_PATHS:
         json_object = json_handler.load_data_from_path(path)
         response = client.post(
-            "/firestore/save_form_data_to_firestore", json=json_object
+            f"/{url_prefix}/save_form_data_to_firestore", json=json_object
         )
 
         # Mock Firestore's set function
@@ -53,7 +53,7 @@ def test_get_form_data_valid(mock_db, client):
         "initial_value": "Sample value",
     }
 
-    response = client.get(f"/firestore/get_form_data/{field_name}")
+    response = client.get(f"/{url_prefix}/get_form_data/{field_name}")
     assert response.status_code == 200
     assert response.get_json() == {
         "field_name": field_name,
@@ -69,7 +69,7 @@ def test_get_form_data_not_found(mock_db, client):
     form_ref = mock_db.collection("forms").document(field_name)
     form_ref.get.return_value.exists = False
 
-    response = client.get(f"/firestore/get_form_data/{field_name}")
+    response = client.get(f"/{url_prefix}/get_form_data/{field_name}")
     assert response.status_code == 404
     assert response.get_json() == {
         "error": f"No form data found for field '{field_name}'."
@@ -88,7 +88,7 @@ def test_update_form_data_valid(mock_db, client):
     form_ref.get.return_value.exists = True
 
     response = client.put(
-        f"/firestore/update_form_data/{field_name}", json=updated_data
+        f"/{url_prefix}/update_form_data/{field_name}", json=updated_data
     )
     assert response.status_code == 200
     assert response.get_json() == {
@@ -105,7 +105,7 @@ def test_update_form_data_not_found(mock_db, client):
     form_ref.get.return_value.exists = False
 
     response = client.put(
-        f"/firestore/update_form_data/{field_name}", json=updated_data
+        f"/{url_prefix}/update_form_data/{field_name}", json=updated_data
     )
     assert response.status_code == 404
     assert response.get_json() == {
@@ -123,7 +123,7 @@ def test_delete_form_data_valid(mock_db, client):
     form_ref = mock_db.collection("forms").document(field_name)
     form_ref.get.return_value.exists = True
 
-    response = client.delete(f"/firestore/delete_form_data/{field_name}")
+    response = client.delete(f"/{url_prefix}/delete_form_data/{field_name}")
     assert response.status_code == 200
     assert response.get_json() == {
         "message": f"Form data for field '{field_name}' deleted successfully."
@@ -137,7 +137,7 @@ def test_delete_form_data_not_found(mock_db, client):
     form_ref = mock_db.collection("forms").document(field_name)
     form_ref.get.return_value.exists = False
 
-    response = client.delete(f"/firestore/delete_form_data/{field_name}")
+    response = client.delete(f"/{url_prefix}/delete_form_data/{field_name}")
     assert response.status_code == 404
     assert response.get_json() == {
         "error": f"No form data found for field '{field_name}'."
@@ -155,7 +155,7 @@ def test_delete_all_form_data(mock_db, client):
     mock_docs = [MagicMock(id="doc1"), MagicMock(id="doc2"), MagicMock(id="doc3")]
     forms_ref.stream.return_value = mock_docs
 
-    response = client.delete("/firestore/delete_all_form_data")
+    response = client.delete(f"/{url_prefix}/delete_all_form_data")
     assert response.status_code == 200
     assert response.get_json() == {
         "message": "All form data deleted successfully. Total deleted: 3."
@@ -167,7 +167,7 @@ def test_delete_all_form_data_none(mock_db, client):
     forms_ref = mock_db.collection("forms")
     forms_ref.stream.return_value = []
 
-    response = client.delete("/firestore/delete_all_form_data")
+    response = client.delete(f"/{url_prefix}/delete_all_form_data")
     assert response.status_code == 404
     assert response.get_json() == {"error": "No form data found to delete."}
 
@@ -184,7 +184,7 @@ def test_get_all_form_data(mock_db, client):
     ]
     forms_ref.stream.return_value = mock_docs
 
-    response = client.get("/firestore/get_all_form_data")
+    response = client.get(f"/{url_prefix}/get_all_form_data")
     assert response.status_code == 200
     assert response.get_json() == [
         {"field_name": "test_field_1", "value": "data1"},
@@ -197,6 +197,6 @@ def test_get_all_form_data_none(mock_db, client):
     forms_ref = mock_db.collection("forms")
     forms_ref.stream.return_value = []
 
-    response = client.get("/firestore/get_all_form_data")
+    response = client.get(f"/{url_prefix}/get_all_form_data")
     assert response.status_code == 404
     assert response.get_json() == {"error": "No form data found."}
