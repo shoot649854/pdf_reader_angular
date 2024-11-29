@@ -103,7 +103,7 @@ After installing the dependencies, you can run the Angular application locally:
 1. **Install Poetry from pip package**:
 
     ```bash
-    cd pdf_form_extractor_cli
+    cd backend
     ```
 
 2. **Install dependencies using Poetry**
@@ -111,6 +111,13 @@ After installing the dependencies, you can run the Angular application locally:
     ```bash
     poetry install --no-root
     poetry run python app.py
+    ```
+
+3. **Running test scripts using pytest**
+    ```bash
+     poetry run pytest test \
+        -vv --tb=short -s \
+        --cov-report=html --cov-report=term-missing --cov=src
     ```
 
 ### Running the CLI Tool
