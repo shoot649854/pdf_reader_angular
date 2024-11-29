@@ -1,7 +1,7 @@
 # from src.config import OUTPUT_PDF_PATH
 from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
 from src.controller.DataHandle.JSONHandler import JSONHandler
-from src.controller.PDFManipulator import PDFManipulator
+from src.controller.PDF.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
 
 

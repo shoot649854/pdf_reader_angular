@@ -6,8 +6,7 @@ from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
 from src.controller.PDF.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
 from src.model.GoogleCloudStorage import get_bucket
-
-from backend.src.view.PDFFormFiller import PDFFormFiller
+from src.view.PDFFormFiller import PDFFormFiller
 
 generate_pdf_bp = Blueprint("generate_pdf_bp", __name__)
 
