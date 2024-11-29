@@ -45,7 +45,8 @@ def test_update_form_data_valid(mock_open, client):
 
     # Verification
     mock_open.assert_called_once_with(DATA_PATH, "w")
-    mock_open().write.assert_called_once_with(json.dumps(updated_data, indent=2))
+    written_content = "".join(call[0][0] for call in mock_open().write.call_args_list)
+    assert written_content == json.dumps(updated_data, indent=2)
 
 
 @patch("builtins.open", new_callable=mock_open)
