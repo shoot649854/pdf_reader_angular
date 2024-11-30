@@ -30,6 +30,20 @@ def mock_db():
         yield mock_db
 
 
+@pytest.fixture
+def mock_fill_form():
+    """Fixture to mock the fill_form method of PDFManipulator."""
+    with patch("src.controller.PDF.PDFManipulator.PDFManipulator.fill_form") as mock:
+        yield mock
+
+
+@pytest.fixture
+def mock_save_pdf():
+    """Fixture to mock the save_pdf method of PDFManipulator."""
+    with patch("src.controller.PDF.PDFManipulator.PDFManipulator.save_pdf") as mock:
+        yield mock
+
+
 @pytest.fixture(autouse=True)
 def configure_logging():
     """Fixture to configure logging during tests."""

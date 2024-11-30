@@ -8,7 +8,7 @@ if __name__ == "__main__":
     sys.path.append(os.path.abspath("../backend"))
 
 from src.controller.DataHandle.JSONHandler import JSONHandler
-from src.controller.PDFFormExtractor import PDFFormExtractor
+from src.controller.PDF.PDFFormExtractor import PDFFormExtractor
 from src.logging.Logging import logger
 
 

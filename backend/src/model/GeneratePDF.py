@@ -1,11 +1,11 @@
-import io
+import os
 
 from flask import Blueprint, jsonify, request, send_file
-from src.config import I140_PATH, OUTPUT_PDF_PATH
+from src.config import FILE_PATH, OUTPUT_PDF_PATH
 from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
+from src.controller.DataHandle.JSONHandler import JSONHandler
 from src.controller.PDF.PDFManipulator import PDFManipulator
 from src.logging.Logging import logger
-from src.model.GoogleCloudStorage import get_bucket
 from src.view.PDFFormFiller import PDFFormFiller
 
 generate_pdf_bp = Blueprint("generate_pdf_bp", __name__)
@@ -20,7 +20,7 @@ def save_form_data():
 
     if isinstance(form_data, list):
         for page_data in form_data:
-            page_number = page_data.get("current_form_page_number")
+            page_number = page_data.get("page_number")
             if page_number is not None:
                 form_data_storage[page_number] = page_data
             else:
@@ -35,51 +35,59 @@ def save_form_data():
         return jsonify({"error": "Invalid data format, expected a list."}), 400
 
 
-@generate_pdf_bp.route("/generate_pdf", methods=["POST"])
-def generate_pdf():
+def get_path_name_from_visa(visa_name: str):
+    logger.info(visa_name)
+    return os.path.join(FILE_PATH, "I-140.pdf")
+
+
+@generate_pdf_bp.route("/generate_pdf/<string:visa_name>", methods=["POST"])
+def generate_pdf(visa_name: str):
     """Generate PDF based on the submitted form data."""
     form_data = request.json
-    pdf_manipulator = PDFManipulator(I140_PATH)
+    path_name = get_path_name_from_visa(visa_name)
+    pdf_manipulator = PDFManipulator(path_name)
     data_loader = JSONFieldLoader()
-    form_filler = PDFFormFiller(data_loader, pdf_manipulator)
+    json_handler = JSONHandler()
+    form_filler = PDFFormFiller(data_loader, pdf_manipulator, json_handler)
+
     form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
     return send_file(
         OUTPUT_PDF_PATH, as_attachment=True, download_name="filled-form.pdf"
     )
 
 
-@generate_pdf_bp.route("/return_generate_pdf", methods=["POST"])
-def return_generate_pdf():
-    """Generate PDF based on the submitted form data."""
-    form_data = request.json
-    logger.debug(f"Received form_data: {form_data}")
+# @generate_pdf_bp.route("/return_generate_pdf", methods=["POST"])
+# def return_generate_pdf():
+#     """Generate PDF based on the submitted form data."""
+#     form_data = request.json
+#     logger.debug(f"Received form_data: {form_data}")
 
-    pdf_manipulator = PDFManipulator(I140_PATH)
-    data_loader = JSONFieldLoader()
-    form_filler = PDFFormFiller(data_loader, pdf_manipulator)
+#     pdf_manipulator = PDFManipulator(I140_PATH)
+#     data_loader = JSONFieldLoader()
+#     form_filler = PDFFormFiller(data_loader, pdf_manipulator)
 
-    pdf_buffer = io.BytesIO()
-    form_filler.fill_form_from_object_to_buffer(form_data, pdf_buffer)
-    pdf_buffer.seek(0)
+#     pdf_buffer = io.BytesIO()
+#     form_filler.fill_form_from_object_to_buffer(form_data, pdf_buffer)
+#     pdf_buffer.seek(0)
 
-    try:
-        bucket = get_bucket()
-        blob_name = "filled-form.pdf"
-        blob = bucket.blob(blob_name)
-        blob.upload_from_file(pdf_buffer, content_type="application/pdf")
-        signed_url = blob.generate_signed_url(expiration=3600)
+#     try:
+#         bucket = get_bucket()
+#         blob_name = "filled-form.pdf"
+#         blob = bucket.blob(blob_name)
+#         blob.upload_from_file(pdf_buffer, content_type="application/pdf")
+#         signed_url = blob.generate_signed_url(expiration=3600)
 
-        logger.info(f"PDF uploaded to GCS bucket '{bucket.name}' as '{blob_name}'.")
-        return (
-            jsonify(
-                {
-                    "message": "PDF generated and uploaded successfully.",
-                    "gcs_url": signed_url,
-                }
-            ),
-            200,
-        )
+#         logger.info(f"PDF uploaded to GCS bucket '{bucket.name}' as '{blob_name}'.")
+#         return (
+#             jsonify(
+#                 {
+#                     "message": "PDF generated and uploaded successfully.",
+#                     "gcs_url": signed_url,
+#                 }
+#             ),
+#             200,
+#         )
 
-    except Exception as e:
-        logger.error(f"Failed to upload PDF to GCS: {str(e)}")
-        return jsonify({"error": f"Failed to upload PDF to GCS: {str(e)}"}), 500
+#     except Exception as e:
+#         logger.error(f"Failed to upload PDF to GCS: {str(e)}")
+#         return jsonify({"error": f"Failed to upload PDF to GCS: {str(e)}"}), 500

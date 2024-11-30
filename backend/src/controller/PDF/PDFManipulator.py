@@ -7,14 +7,10 @@ class PDFManipulator:
 
     def __init__(self, pdf_path):
         self.pdf_path = pdf_path
-        logger.info(f"Initializing PDFManipulator with PDF path: {pdf_path}")
         self.pdf_reader = pypdf.PdfReader(pdf_path)
         self.pdf_writer = pypdf.PdfWriter()
 
     def fill_form(self, data_dict):
-        logger.info(
-            "Starting to fill form fields based on the provided data dictionary."
-        )
         for page_num, page in enumerate(self.pdf_reader.pages, start=1):
             if "/Annots" in page:
                 annotations = page["/Annots"]
