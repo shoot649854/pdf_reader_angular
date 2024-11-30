@@ -1,8 +1,9 @@
 import os
-import tempfile
+from io import BytesIO
 
 from flask import Blueprint, jsonify, request, send_file
-from flask_cors import cross_origin
+
+# from flask_cors import cross_origin
 from google.cloud import storage
 from google.oauth2 import service_account
 from src.logging.Logging import logger
@@ -67,23 +68,23 @@ def download_file(filename):
     try:
         bucket = get_bucket()
         blob = bucket.blob(filename)
-        if not blob.exists():
+        if not blob.exists(client=bucket.client):
             logger.warning(
                 f"File '{filename}' does not exist in bucket '{bucket.name}'."
             )
             return jsonify({"error": f"File '{filename}' does not exist."}), 404
 
-        with tempfile.NamedTemporaryFile(delete=False) as temp_file:
-            blob.download_to_filename(temp_file.name)
-            logger.info(
-                f"File '{filename}' downloaded from GCS bucket '{bucket.name}'."
-            )
-            return send_file(
-                temp_file.name,
-                as_attachment=True,
-                download_name=filename,
-                mimetype=blob.content_type,
-            )
+        # Download blob content into memory
+        file_obj = BytesIO()
+        blob.download_to_file(file_obj)
+        file_obj.seek(0)
+        logger.info(f"File '{filename}' downloaded from GCS bucket '{bucket.name}'.")
+        return send_file(
+            file_obj,
+            as_attachment=True,
+            download_name=filename,
+            mimetype=blob.content_type,
+        )
     except Exception as e:
         logger.error(f"Failed to download file '{filename}': {str(e)}")
         return jsonify({"error": f"Failed to download file: {str(e)}"}), 500
@@ -109,7 +110,7 @@ def delete_file(filename):
     try:
         bucket = get_bucket()
         blob = bucket.blob(filename)
-        if not blob.exists():
+        if not blob.exists(client=bucket.client):
             logger.warning(
                 f"File '{filename}' does not exist in bucket '{bucket.name}'."
             )

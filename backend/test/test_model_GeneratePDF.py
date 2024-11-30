@@ -83,7 +83,6 @@ def test_generate_pdf_no_form_data(client):
     assert response.get_json() == {"error": "No form data provided"}
 
 
-# Failing
 def test_generate_pdf_invalid_form_data(client):
     """Test PDF generation with invalid form data format."""
     visa_name = "I-140"
@@ -96,7 +95,6 @@ def test_generate_pdf_invalid_form_data(client):
     # assert response.get_json() == {"error": "Invalid form data format"}
 
 
-# Failing
 @patch("src.model.GeneratePDF.get_path_name_from_visa")
 def test_generate_pdf_invalid_visa_name(mock_get_path_name_from_visa, client):
     """Test PDF generation with an invalid visa name."""
