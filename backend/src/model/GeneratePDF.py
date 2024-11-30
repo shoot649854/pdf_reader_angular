@@ -43,17 +43,48 @@ def get_path_name_from_visa(visa_name: str):
 @generate_pdf_bp.route("/generate_pdf/<string:visa_name>", methods=["POST"])
 def generate_pdf(visa_name: str):
     """Generate PDF based on the submitted form data."""
-    form_data = request.json
-    path_name = get_path_name_from_visa(visa_name)
-    pdf_manipulator = PDFManipulator(path_name)
-    data_loader = JSONFieldLoader()
-    json_handler = JSONHandler()
-    form_filler = PDFFormFiller(data_loader, pdf_manipulator, json_handler)
+    try:
+        form_data = request.json
+        if not form_data:
+            logger.error("No form data provided")
+            return {"error": "No form data provided"}, 400
 
-    form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
-    return send_file(
-        OUTPUT_PDF_PATH, as_attachment=True, download_name="filled-form.pdf"
-    )
+        # Check if form_data is a dictionary or a list of dictionaries
+        if not isinstance(form_data, (dict, list)):
+            logger.error(
+                "Invalid form data format, expected a dictionary or "
+                "list of dictionaries"
+            )
+            return {"error": "Invalid form data format"}, 400
+
+        if not form_data:
+            logger.error("No form data provided")
+            return {"error": "No form data provided"}, 400
+
+        path_name = get_path_name_from_visa(visa_name)
+        if not path_name:
+            logger.error(f"Invalid visa name: {visa_name}")
+            return {"error": f"Invalid visa name: {visa_name}"}, 400
+
+        pdf_manipulator = PDFManipulator(path_name)
+        data_loader = JSONFieldLoader()
+        json_handler = JSONHandler()
+        form_filler = PDFFormFiller(data_loader, pdf_manipulator, json_handler)
+
+        # Fill the PDF with the form data
+        form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
+
+        # Return the filled PDF file
+        return send_file(
+            OUTPUT_PDF_PATH,
+            as_attachment=True,
+            download_name="filled-form.pdf",
+            mimetype="application/pdf",
+        )
+
+    except Exception as e:
+        logger.error(f"Error generating PDF: {e}")
+        return {"error": "An unexpected error occurred"}, 500
 
 
 # @generate_pdf_bp.route("/return_generate_pdf", methods=["POST"])
