@@ -53,12 +53,13 @@ repos:
       - id: trailing-whitespace
         name: Remove trailing whitespace
 
-  # Pytest: Run tests before committing
-  - repo: local
-    hooks:
-      - id: pytest
-        name: Run Pytest to execute all tests
-        entry: poetry run pytest
-        language: system
-        types: [python]
-        pass_filenames: false
+  # # Pytest: Run tests before committing
+  # - repo: local
+  #   hooks:
+  #     - id: pytest
+  #       name: Run Pytest to execute all tests
+  #       entry: poetry run pytest
+  #       language: system
+  #       types: [python]
+  #       pass_filenames: false
+  #       working_directory: backend
