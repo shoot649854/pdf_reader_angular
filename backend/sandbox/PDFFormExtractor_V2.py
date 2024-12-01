@@ -13,7 +13,7 @@ from src.logging.Logging import logger
 
 
 class PDFFormExtractor_V2(PDFFormExtractor):
-    """Handles extraction of form fields and linking them with sections."""
+    """Handles extraction of form fields and linking them with titles."""
 
     GRAY_TOLERANCE = 10
 
@@ -23,7 +23,7 @@ class PDFFormExtractor_V2(PDFFormExtractor):
         self.font_size_threshold = font_size_threshold
 
     def get_fields(self):
-        """Extract form fields and link them with their sections."""
+        """Extract form fields and link them with their titles."""
         fields_info = []
         with open(self.pdf_path, "rb") as doc:
             for page_number, _ in enumerate(doc, start=1):
@@ -32,22 +32,22 @@ class PDFFormExtractor_V2(PDFFormExtractor):
                 fields_info.extend(form_fields)
         return fields_info
 
-    def get_fields_with_sections(self):
-        """Extract form fields and link them with their sections."""
+    def get_fields_with_titles(self):
+        """Extract form fields and link them with their titles."""
         fields_info = []
         with fitz.open(self.pdf_path) as doc:
             for page_number, page in enumerate(doc, start=1):
                 logger.info(f"Processing page {page_number}...")
-                sections = self._extract_sections(page)
+                titles = self._extract_titles(page)
                 form_fields = self._extract_form_fields(page_number)
                 form_fields = self.sorting(form_fields, page.mediabox.width)
-                linked_fields = self._link_fields_to_sections(form_fields, sections, page.mediabox.width)
+                linked_fields = self._link_fields_to_titles(form_fields, titles, page.mediabox.width)
                 fields_info.extend(linked_fields)
         return fields_info
 
-    def _extract_sections(self, page):
-        """Extract section headers based on font size and background color."""
-        sections = []
+    def _extract_titles(self, page):
+        """Extract title headers based on font size and background color."""
+        titles = []
         text_blocks = page.get_text("dict").get("blocks", [])
         drawing_blocks = self._extract_drawing_blocks(page)
 
@@ -59,24 +59,24 @@ class PDFFormExtractor_V2(PDFFormExtractor):
             block_rect = block.get("bbox")
             is_gray_background = self._is_within_gray_background(block_rect, drawing_blocks)
 
-            section_text = ""
-            section_position = block_rect
+            title_text = ""
+            title_position = block_rect
 
             for line in block["lines"]:
                 for span in line["spans"]:
                     if is_gray_background and span["size"] > self.font_size_threshold:
-                        section_text += span["text"] + " "
+                        title_text += span["text"] + " "
 
-            if section_text.strip():
-                sections.append(
+            if title_text.strip():
+                titles.append(
                     {
-                        "text": section_text.strip(),
-                        "position": section_position,  # [x0, y0, x1, y1]
+                        "text": title_text.strip(),
+                        "position": title_position,  # [x0, y0, x1, y1]
                     }
                 )
 
-        logger.info(f"Extracted {len(sections)} sections:\n\t" f"{'\n\t'.join([f'{section['text']}' for section in sections])}")
-        return sections
+        logger.info(f"Extracted {len(titles)} titles:\n\t" f"{'\n\t'.join([f'{title['text']}' for title in titles])}")
+        return titles
 
     def _extract_drawing_blocks(self, page):
         """Extract drawing blocks from the page."""
@@ -166,87 +166,87 @@ class PDFFormExtractor_V2(PDFFormExtractor):
         right_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
         return left_fields + right_fields
 
-    def _link_fields_to_sections(self, fields, sections, page_width):
-        """Link each form field to the closest section above it."""
+    def _link_fields_to_titles(self, fields, titles, page_width):
+        """Link each form field to the closest title above it."""
         half_page = page_width / 2
 
-        # Divide sections into left and right halves
-        left_sections = []
-        right_sections = []
-        for section in sections:
-            x0_section = section["position"][0]
-            if x0_section <= half_page:
-                left_sections.append(section)
+        # Divide titles into left and right halves
+        left_titles = []
+        right_titles = []
+        for title in titles:
+            x0_title = title["position"][0]
+            if x0_title <= half_page:
+                left_titles.append(title)
             else:
-                right_sections.append(section)
+                right_titles.append(title)
 
-        # Sort sections in each half from top to bottom
-        left_sections.sort(key=lambda s: s["position"][1])
-        right_sections.sort(key=lambda s: s["position"][1])
+        # Sort titles in each half from top to bottom
+        left_titles.sort(key=lambda s: s["position"][1])
+        right_titles.sort(key=lambda s: s["position"][1])
 
         for field in fields:
             field_top = field["rect"][1]
             x0_field = field["rect"][0]
-            linked_section = None
+            linked_title = None
 
             # Field is in left half
             if x0_field <= half_page:
-                for section in reversed(left_sections):
-                    section_top = section["position"][1]
-                    if section_top <= field_top:
-                        linked_section = section["text"]
+                for title in reversed(left_titles):
+                    title_top = title["position"][1]
+                    if title_top <= field_top:
+                        linked_title = title["text"]
                         break
-                field["section"] = linked_section
+                field["title"] = linked_title
 
             # Field is in right half
             elif x0_field > half_page:
-                for section in reversed(right_sections):
-                    section_top = section["position"][1]
-                    if section_top <= field_top:
-                        linked_section = section["text"]
+                for title in reversed(right_titles):
+                    title_top = title["position"][1]
+                    if title_top <= field_top:
+                        linked_title = title["text"]
                         break
 
-                # If no section above in right half, check left half
-                if linked_section is None:
-                    for section in reversed(left_sections):
-                        section_top = section["position"][1]
-                        if section_top <= field_top:
-                            linked_section = section["text"]
+                # If no title above in right half, check left half
+                if linked_title is None:
+                    for title in reversed(left_titles):
+                        title_top = title["position"][1]
+                        if title_top <= field_top:
+                            linked_title = title["text"]
                             break
-                field["section"] = linked_section
+                field["title"] = linked_title
 
-            # Assign the section or fallback value
+            # Assign the title or fallback value
             else:
-                field["section"] = linked_section
+                field["title"] = linked_title
         return fields
 
     @staticmethod
-    def apply_previous_section(fields):
-        """Replace null sections with the most recent non-null section."""
-        previous_section = None
+    def apply_previous_title(fields):
+        """Replace null titles with the most recent non-null title."""
+        previous_title = None
 
         for field in fields:
-            if field["section"] is None:
-                field["section"] = previous_section
+            if field["title"] is None:
+                field["title"] = previous_title
             else:
-                previous_section = field["section"]
+                previous_title = field["title"]
 
         return fields
 
     @staticmethod
-    def grouping_by_section(fields):
-        """Group fields by their sections and transform the structure."""
-        grouped_sections = {}
+    def grouping_by_title(fields):
+        """Group fields by their titles and transform the structure."""
+        grouped_titles = {}
 
         for field in fields:
-            section = field.get("section", "Unknown Section")
-            if section not in grouped_sections:
-                grouped_sections[section] = {
-                    "section": section,
-                    "description": "",
+            title = field.get("title", "Unknown title")
+            if title not in grouped_titles:
+                grouped_titles[title] = {
+                    "title": title,
+                    "subtitle": "",
                     "question": [],
                 }
-            grouped_sections[section]["question"].append(
+            grouped_titles[title]["question"].append(
                 {
                     "field_name": field["field_name"],
                     "field_type": field["field_type"],
@@ -256,17 +256,18 @@ class PDFFormExtractor_V2(PDFFormExtractor):
                 }
             )
 
-        return list(grouped_sections.values())
+        return list(grouped_titles.values())
 
 
 if __name__ == "__main__":
     pdf_path = os.path.join(FILE_PATH, "I-140.pdf")
     extractor = PDFFormExtractor_V2(pdf_path)
-    fields_with_sections = extractor.get_fields_with_sections()
-    # fields_with_sections = extractor.apply_previous_section(fields_with_sections)
-    # fields_with_sections = extractor.grouping_by_section(fields_with_sections)
-    json_output = json.dumps(fields_with_sections, indent=4)
+    fields_with_titles = extractor.get_fields_with_titles()
+    fields_with_titles = extractor.apply_previous_title(fields_with_titles)
+    fields_with_titles_description = extractor.generating_descriptions(fields_with_titles)
+    fields_with_titles = extractor.grouping_by_title(fields_with_titles)
+    json_output = json.dumps(fields_with_titles, indent=4)
 
     # Optionally, save the JSON to a file
-    with open(os.path.join(FILE_PATH, "fields_with_sections.json"), "w") as json_file:
+    with open(os.path.join(FILE_PATH, "fields_with_titles.json"), "w") as json_file:
         json_file.write(json_output)

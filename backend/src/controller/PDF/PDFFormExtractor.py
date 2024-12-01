@@ -1,10 +1,11 @@
-# import json
-# import os
-# import sys
+import json
 
 import fitz
 from pypdf import PdfReader, generic
 from src.logging.Logging import logger
+
+# import os
+# import sys
 
 
 class PDFFormExtractor:
@@ -227,6 +228,65 @@ class PDFFormExtractor:
 
         return fields
 
+    def generating_descriptions(self, json_data):
+        """Service for processing fields and generating descriptions"""
+        # info = self.json_handler.load_data_from_path(input_path)
+        output = ""
+        fields_by_page = self._group_fields_by_page(json_data)
+
+        for page_number, fields in fields_by_page.items():
+            logger.info(f"Page: {page_number} has started to process.")
+            self._initialize_field_descriptions(fields)
+            ai_response = self._get_ai_response(fields)
+
+            if not ai_response:
+                logger.warning(f"No response for page {page_number}. Skipping.")
+                continue
+
+            descriptions = self.response_parser.parse(ai_response)
+            self._assign_descriptions(fields, descriptions, page_number)
+
+        self.json_handler.save_data(json_data)
+        return output
+
+    def _group_fields_by_page(self, fields):
+        fields_by_page = {}
+        for field in fields:
+            page_number = field.get("page_number")
+            if page_number not in fields_by_page:
+                fields_by_page[page_number] = []
+            fields_by_page[page_number].append(field)
+        return fields_by_page
+
+    def _initialize_field_descriptions(self, fields):
+        for field in fields:
+            field["description"] = ""
+
+    def _get_ai_response(self, fields):
+        input_text = f"""
+Please provide a concise description for each of the following fields on
+
+
+Instructions:
+- Return only the JSON array of objects.
+- Do not include any additional text before or after the JSON.
+- Each object should have the keys "field_name" and "description".
+- Do not include any Markdown formatting or code block syntax.
+- Ensure the JSON is properly formatted.
+
+Fields:
+{json.dumps([{'field_name': field['field_name']} for field in fields], indent=4)}
+"""
+        return self.generate_res.generate_response(input_text)
+
+    def _assign_descriptions(self, fields, descriptions, page_number):
+        if not descriptions or len(descriptions) != len(fields):
+            logger.warning(f"Mismatch of descriptions: page {page_number}. ")
+            descriptions += [""] * (len(fields) - len(descriptions))
+
+        for idx, field in enumerate(fields):
+            field["description"] = descriptions[idx] if idx < len(descriptions) else ""
+
     @staticmethod
     def grouping_by_section(fields):
         """Group fields by their sections and transform the structure."""
@@ -238,9 +298,9 @@ class PDFFormExtractor:
                 grouped_sections[section] = {
                     "section": section,
                     "description": "",
-                    "question": [],
+                    "questions": [],
                 }
-            grouped_sections[section]["question"].append(
+            grouped_sections[section]["questions"].append(
                 {
                     "field_name": field["field_name"],
                     "field_type": field["field_type"],

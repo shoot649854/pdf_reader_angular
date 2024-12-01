@@ -54,7 +54,7 @@ class FieldProcessor:
 
     def _get_ai_response(self, fields):
         input_text = f"""
-Please provide a concise description for each of the following fields on 
+Please provide a concise description for each of the following fields on
 
 
 Instructions:
@@ -71,10 +71,7 @@ Fields:
 
     def _assign_descriptions(self, fields, descriptions, page_number):
         if not descriptions or len(descriptions) != len(fields):
-            logger.warning(
-                f"Mismatch in number of descriptions for page {page_number}. "
-                "Filling missing descriptions with empty strings."
-            )
+            logger.warning(f"Mismatch of descriptions: page {page_number}. ")
             descriptions += [""] * (len(fields) - len(descriptions))
 
         for idx, field in enumerate(fields):
