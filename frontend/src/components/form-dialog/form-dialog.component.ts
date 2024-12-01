@@ -59,6 +59,7 @@ export class FormDialogComponent implements OnInit {
 
   ngOnInit(): void {
     this.initialize_form();
+    console.log(DATA_PATH);
     this.load_form_data(DATA_PATH);
   }
 

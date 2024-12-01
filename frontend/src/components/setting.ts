@@ -1,6 +1,6 @@
 export const Base_URL = 'http://localhost:5001';
 
-export const DATA_PATH = '/assets/form_data.json';
+export const DATA_PATH = '/assets/form.json';
 
 export const GLOBAL_TEXTFIELD = '/Tx';
 export const GLOBAL_BUTTON = '/Btn';
