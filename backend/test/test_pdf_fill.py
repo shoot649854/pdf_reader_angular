@@ -17,11 +17,10 @@ def test_pdf_fill_save_pdf():
     with patch("pypdf.PdfWriter", return_value=mock_writer):
         for pdf_path in pdf_paths:
             pdf_fill = PDFFill(pdf_path)
-            pdf_fill.save_pdf("test_output.pdf")
+            pdf_fill.save_pdf(".log/test_output.pdf")
 
         assert mock_writer.write.call_count == len(pdf_paths), (
-            f"Expected write to be called {len(pdf_paths)} times, "
-            f"but it was called {mock_writer.write.call_count} times."
+            f"Expected write to be called {len(pdf_paths)} times, " f"but it was called {mock_writer.write.call_count} times."
         )
 
 

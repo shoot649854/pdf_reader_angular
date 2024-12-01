@@ -1,0 +1,12 @@
+Name,Statements,Miss,Cover,Missing,Total Tests
+TOTAL,472,157,66.74%,,37
+src/__init__.py,13,1,92%,11,
+src/config.py,11,0,100%,"src/controller/DataHandle/JSONFieldLoader.py      30     18    40%   19-23, 27-33, 37-42",
+src/controller/DataHandle/JSONHandler.py,31,13,58%,"12-13, 21-24, 27-31, 38-39",
+src/controller/PDF/PDFFill.py,47,31,34%,"12-45, 48-59, 67-78, 81-88",
+src/controller/PDF/PDFFormExtractor.py,163,19,88%,"122, 131, 157-158, 170, 237, 243-251, 256-276",
+src/controller/PDF/PDFManipulator.py,68,54,21%,"14-29, 32-35, 39-40, 43-50, 53-84, 87-104, 112-123",
+src/logging/Logging.py,15,0,100%,"src/model/Firestore.py                            87      8    91%   18, 24, 34-36, 136-138",
+src/model/FormHandler.py,19,0,100%,"src/model/GeneratePDF.py                          50      6    88%   27, 35, 54-58, 61-62",
+src/model/GoogleCloudStorage.py,81,28,65%,"16-22, 27-32, 60-62, 72-75, 88-90, 102-104, 114-117, 122-124",
+src/view/PDFFormFiller.py,24,11,54%,"22-25, 30-32, 37-40",
