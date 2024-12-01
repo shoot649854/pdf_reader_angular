@@ -3,7 +3,7 @@ import os
 import sys
 
 import fitz
-from pypdf import PdfReader
+from pypdf import PdfReader, generic
 
 if __name__ == "__main__":
     sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -22,6 +22,16 @@ class PDFFormExtractor_V2(PDFFormExtractor):
         self.pdf_path = pdf_path
         self.font_size_threshold = font_size_threshold
 
+    def get_fields(self):
+        """Extract form fields and link them with their sections."""
+        fields_info = []
+        with open(self.pdf_path, "rb") as doc:
+            for page_number, _ in enumerate(doc, start=1):
+                logger.info(f"Processing page {page_number}...")
+                form_fields = self._extract_form_fields(page_number)
+                fields_info.extend(form_fields)
+        return fields_info
+
     def get_fields_with_sections(self):
         """Extract form fields and link them with their sections."""
         fields_info = []
@@ -29,74 +39,11 @@ class PDFFormExtractor_V2(PDFFormExtractor):
             for page_number, page in enumerate(doc, start=1):
                 logger.info(f"Processing page {page_number}...")
                 sections = self._extract_sections(page)
-                # if sections:
-                #     print(
-                #         f"text: {sections[0]['text']} \nposition: {sections[0]['position']}"
-                #     )
                 form_fields = self._extract_form_fields(page_number)
                 form_fields = self.sorting(form_fields, page.mediabox.width)
-                # print(json.dumps(form_fields, indent=4))
-
                 linked_fields = self._link_fields_to_sections(form_fields, sections, page.mediabox.width)
-                # logger.debug(
-                #     f"Current linked field: {json.dumps(linked_fields, indent=4)}"
-                # )
-
                 fields_info.extend(linked_fields)
         return fields_info
-
-    @staticmethod
-    def sorting(form_fields, page_width):
-        """Sort form fields for left-to-right and top-to-bottom reading."""
-        half_page = page_width / 2
-
-        # Separate fields into left and right based on x-coordinate
-        left_fields = [f for f in form_fields if f["rect"][0] <= half_page]
-        right_fields = [f for f in form_fields if f["rect"][0] > half_page]
-
-        # Sort fields by y-coordinate, then by x-coordinate
-        left_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
-        right_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
-        return left_fields + right_fields
-
-    def _extract_form_fields(self, page_number):
-        """Extract form fields using PyPDF."""
-        fields_info = []
-        with open(self.pdf_path, "rb") as pdf_file:
-            pdf_reader = PdfReader(pdf_file)
-            page = pdf_reader.pages[page_number - 1]  # Page indexing starts at 0
-            if "/Annots" not in page:
-                return fields_info
-            annotations = page["/Annots"]
-            for annotation in annotations:
-                field = annotation.get_object()
-                if "/T" in field:  # Check if the field has a name
-                    field_info = {
-                        "field_name": str(field.get("/T")),
-                        "field_type": str(field.get("/FT")),
-                        "initial_value": (str(field.get("/V")) if field.get("/V") else ""),
-                        "rect": field.get("/Rect"),  # Get field coordinates
-                        "page_number": page_number,
-                    }
-                    fields_info.append(field_info)
-        return fields_info
-        # fields_info = []
-        # with fitz.open(self.pdf_path) as doc:
-        #     page = doc[page_number - 1]
-        #     widgets = page.widgets()
-
-        #     for widget in widgets:
-        #         if widget.field_name:
-        #             rect = widget.rect
-        #             field_info = {
-        #                 "field_name": widget.field_name,
-        #                 "field_type": widget.field_type,
-        #                 "initial_value": widget.field_value or "",
-        #                 "rect": [rect.x0, rect.y0, rect.x1, rect.y1],
-        #                 "page_number": page_number,
-        #             }
-        #             fields_info.append(field_info)
-        # return fields_info
 
     def _extract_sections(self, page):
         """Extract section headers based on font size and background color."""
@@ -108,7 +55,7 @@ class PDFFormExtractor_V2(PDFFormExtractor):
             if "lines" not in block:  # Skip blocks without lines
                 continue
 
-            # print(f"Position: {block['bbox']}, {block['lines'][0]['spans'][0]['text']}")
+            logger.debug(f"Position: {block['bbox']}, {block['lines'][0]['spans'][0]['text']}")
             block_rect = block.get("bbox")
             is_gray_background = self._is_within_gray_background(block_rect, drawing_blocks)
 
@@ -158,9 +105,66 @@ class PDFFormExtractor_V2(PDFFormExtractor):
     def _is_gray_background(self, color):
         """Check if a given color is a shade of gray."""
         if len(color) == 3:  # RGB color
-            r, g, b = [int(c * 255) for c in color]  # PyMuPDF colors are in [0,1] range
+            r, g, b = [int(c * 255) for c in color]
             return abs(r - g) < self.GRAY_TOLERANCE and abs(g - b) < self.GRAY_TOLERANCE and abs(r - b) < self.GRAY_TOLERANCE
         return False
+
+    def _extract_form_fields(self, page_number):
+        """Extract form fields using PyPDF, not fitz since I/O is PyPDF."""
+        fields_info = []
+        with open(self.pdf_path, "rb") as pdf_file:
+            pdf_reader = PdfReader(pdf_file)
+            page = pdf_reader.pages[page_number - 1]  # Page indexing starts at 0
+            if "/Annots" not in page:
+                return fields_info
+            annotations = page["/Annots"]
+            for annotation in annotations:
+                field = annotation.get_object()
+                if "/T" in field:  # Check if the field has a name
+                    field_type = str(field.get("/FT"))
+                    field_info = {
+                        "field_name": str(field.get("/T")),
+                        "field_type": field_type,
+                        "initial_value": (str(field.get("/V")) if field.get("/V") else ""),
+                        "rect": field.get("/Rect"),
+                        "page_number": page_number,
+                    }
+                    if field_type == "/Ch":
+                        field_info["options"] = self._get_choice_options(field)
+                    elif field_type == "/Btn":
+                        field_info["possible_values"] = self._get_button_values(field)
+                    fields_info.append(field_info)
+        return fields_info
+
+    def _get_choice_options(self, field):
+        """Retrieve options for choice fields."""
+        options = field.get("/Opt")
+        if not options:
+            logger.warning("There was no option available. ")
+            return []
+        return [(str(option[0]) if isinstance(option, generic.ArrayObject) else str(option)) for option in options]
+
+    def _get_button_values(self, field):
+        """Retrieve possible values for button fields (checkbox/radio)."""
+        if "/AP" in field:
+            appearances = field["/AP"]
+            if "/N" in appearances:
+                return [str(key) for key in appearances["/N"].keys()]
+        return []
+
+    @staticmethod
+    def sorting(form_fields, page_width):
+        """Sort form fields for left-to-right and top-to-bottom reading."""
+        half_page = page_width / 2
+
+        # Separate fields into left and right based on x-coordinate
+        left_fields = [f for f in form_fields if f["rect"][0] <= half_page]
+        right_fields = [f for f in form_fields if f["rect"][0] > half_page]
+
+        # Sort fields by y-coordinate, then by x-coordinate
+        left_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
+        right_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
+        return left_fields + right_fields
 
     def _link_fields_to_sections(self, fields, sections, page_width):
         """Link each form field to the closest section above it."""
@@ -180,10 +184,6 @@ class PDFFormExtractor_V2(PDFFormExtractor):
         left_sections.sort(key=lambda s: s["position"][1])
         right_sections.sort(key=lambda s: s["position"][1])
 
-        # Debug: Print sorted sections
-        # print("Left Sections:", left_sections)
-        # print("Right Sections:", right_sections)
-
         for field in fields:
             field_top = field["rect"][1]
             x0_field = field["rect"][0]
@@ -196,12 +196,6 @@ class PDFFormExtractor_V2(PDFFormExtractor):
                     if section_top <= field_top:
                         linked_section = section["text"]
                         break
-                    # else:
-                    #     print(
-                    #         "section['position'][1]': "
-                    #         f"{section['position'][1]} {section['text']}\n"
-                    #         f"field_top': {field_top} with {field['field_name']}"
-                    #     )
                 field["section"] = linked_section
 
             # Field is in right half
@@ -227,74 +221,51 @@ class PDFFormExtractor_V2(PDFFormExtractor):
         return fields
 
     @staticmethod
-    def connect_sandwiched_sections(fields):
-        """Connect sections for fields where the section is null (None),"""
-        for i in range(1, len(fields) - 1):
-            current_field = fields[i]
-            previous_field = fields[i - 1]
-            next_field = fields[i + 1]
-
-            if (
-                current_field["section"] is None
-                and previous_field["section"] == next_field["section"]
-                and previous_field["section"] is not None
-            ):
-                current_field["section"] = previous_field["section"]
-
-        return fields
-
-    @staticmethod
     def apply_previous_section(fields):
         """Replace null sections with the most recent non-null section."""
         previous_section = None
 
         for field in fields:
             if field["section"] is None:
-                field["section"] = previous_section  # Use the last non-null section
+                field["section"] = previous_section
             else:
-                previous_section = field["section"]  # Update to the current section
+                previous_section = field["section"]
 
         return fields
 
+    @staticmethod
+    def grouping_by_section(fields):
+        """Group fields by their sections and transform the structure."""
+        grouped_sections = {}
 
-def transform_fields_to_sections(fields):
-    """Group fields by their sections and transform the structure."""
-    grouped_sections = {}
+        for field in fields:
+            section = field.get("section", "Unknown Section")
+            if section not in grouped_sections:
+                grouped_sections[section] = {
+                    "section": section,
+                    "description": "",
+                    "question": [],
+                }
+            grouped_sections[section]["question"].append(
+                {
+                    "field_name": field["field_name"],
+                    "field_type": field["field_type"],
+                    "initial_value": field["initial_value"],
+                    "rect": field["rect"],
+                    "page_number": field["page_number"],
+                }
+            )
 
-    for field in fields:
-        section = field.get("section", "Unknown Section")
-        if section not in grouped_sections:
-            grouped_sections[section] = {
-                "section": section,
-                "description": "",
-                "question": [],
-            }
-        # Add the field to the respective section
-        grouped_sections[section]["question"].append(
-            {
-                "field_name": field["field_name"],
-                "field_type": field["field_type"],
-                "initial_value": field["initial_value"],
-                "rect": field["rect"],
-                "page_number": field["page_number"],
-            }
-        )
-
-    # Convert grouped dictionary to a list for JSON serialization
-    return list(grouped_sections.values())
+        return list(grouped_sections.values())
 
 
 if __name__ == "__main__":
     pdf_path = os.path.join(FILE_PATH, "I-140.pdf")
     extractor = PDFFormExtractor_V2(pdf_path)
     fields_with_sections = extractor.get_fields_with_sections()
-    # fields_with_sections = extractor.connect_sandwiched_sections(fields_with_sections)
-    fields_with_sections = extractor.apply_previous_section(fields_with_sections)
-    fields_with_sections = transform_fields_to_sections(fields_with_sections)
+    # fields_with_sections = extractor.apply_previous_section(fields_with_sections)
+    # fields_with_sections = extractor.grouping_by_section(fields_with_sections)
     json_output = json.dumps(fields_with_sections, indent=4)
-
-    # Print the JSON
-    # print(json_output)
 
     # Optionally, save the JSON to a file
     with open(os.path.join(FILE_PATH, "fields_with_sections.json"), "w") as json_file:
