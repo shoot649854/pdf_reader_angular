@@ -1,8 +1,8 @@
 [
     {
         "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[0].G28CheckBox[0]",
                 "field_type": "/Btn",
@@ -367,8 +367,8 @@
     },
     {
         "title": "Part 2.  Petition Type",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
                 "field_type": "/Tx",
@@ -385,8 +385,8 @@
     },
     {
         "title": "Part 3.  Information About the Person for Whom  You Are Filing",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[1].Line2a_Amend[0]",
                 "field_type": "/Btn",
@@ -739,8 +739,8 @@
     },
     {
         "title": "Part 2.  Petition Type  (continued)",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[1].Line7_StateProvinceOfBirth[0]",
                 "field_type": "/Tx",
@@ -805,8 +805,8 @@
     },
     {
         "title": "Part 4.  Processing Information",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[1].Line8_Country[0]",
                 "field_type": "/Tx",
@@ -859,8 +859,8 @@
     },
     {
         "title": "Part 4.  Processing Information  (continued)",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[2].Line1b_Country[0]",
                 "field_type": "/Tx",
@@ -1285,8 +1285,8 @@
     },
     {
         "title": "Part 5.  Additional Information About the  Petitioner",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[2].Line4_Form485[0]",
                 "field_type": "/Btn",
@@ -1459,8 +1459,8 @@
     },
     {
         "title": "Part 6.  Basic Information About the Proposed  Employment",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[3].Line2h_LaborCertification[0]",
                 "field_type": "/Tx",
@@ -1621,8 +1621,8 @@
     },
     {
         "title": "Part 5.  Additional Information About the  Petitioner  (continued)",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[3].Line7_No1[0]",
                 "field_type": "/Btn",
@@ -1783,8 +1783,8 @@
     },
     {
         "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[3].Line1a_Person1FamilyName[0]",
                 "field_type": "/Tx",
@@ -2029,8 +2029,8 @@
     },
     {
         "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[1]",
                 "field_type": "/Tx",
@@ -2731,8 +2731,8 @@
     },
     {
         "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[6].Part8_Item3_StreetNumberName[0]",
                 "field_type": "/Tx",
@@ -2953,8 +2953,8 @@
     },
     {
         "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[6].Part9_Item1a_FamilyName[0]",
                 "field_type": "/Tx",
@@ -3247,8 +3247,8 @@
     },
     {
         "title": "Part 11.  Additional Information",
-        "subtitle": "",
-        "question": [
+        "description": "",
+        "questions": [
             {
                 "field_name": "form1[0].#subform[8].Pt1Line1a_FamilyName[1]",
                 "field_type": "/Tx",
