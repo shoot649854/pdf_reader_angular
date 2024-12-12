@@ -30,7 +30,7 @@ def test_upload_file_success(mock_get_bucket, client):
         "file": (BytesIO(b"my file contents"), "test_file.txt"),
     }
 
-    response = client.post(f"/{url_prefix}/upload_file", data=data, content_type="multipart/form-data")
+    response = client.post(f"/{url_prefix}/upload/file", data=data, content_type="multipart/form-data")
     assert response.status_code == 200
     assert response.get_json() == {"message": "File 'test_file.txt' uploaded successfully."}
 
@@ -38,7 +38,7 @@ def test_upload_file_success(mock_get_bucket, client):
 @patch("src.model.GoogleCloudStorage.get_bucket", side_effect=mock_get_bucket)
 def test_upload_file_no_file(mock_get_bucket, client):
     """Test file upload with no file in request."""
-    response = client.post(f"/{url_prefix}/upload_file")
+    response = client.post(f"/{url_prefix}/upload/file")
     assert response.status_code == 400
     assert response.get_json() == {"error": "No file part in the request."}
 
@@ -50,7 +50,7 @@ def test_upload_file_empty_filename(mock_get_bucket, client):
         "file": (BytesIO(b"my file contents"), ""),
     }
 
-    response = client.post(f"{url_prefix}/upload_file", data=data, content_type="multipart/form-data")
+    response = client.post(f"{url_prefix}/upload/file", data=data, content_type="multipart/form-data")
     assert response.status_code == 400
     assert response.get_json() == {"error": "No selected file."}
 
