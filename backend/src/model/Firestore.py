@@ -65,9 +65,7 @@ def update_form_data(field_name):
         form_ref.update(updated_data)
         logger.info(f"Form data for field '{field_name}' updated in Firestore.")
         return (
-            jsonify(
-                {"message": f"Form data for field '{field_name}' updated successfully."}
-            ),
+            jsonify({"message": f"Form data for field '{field_name}' updated successfully."}),
             200,
         )
     else:
@@ -86,9 +84,7 @@ def delete_form_data(field_name):
         form_ref.delete()
         logger.info(f"Form data for field '{field_name}' deleted from Firestore.")
         return (
-            jsonify(
-                {"message": f"Form data for field '{field_name}' deleted successfully."}
-            ),
+            jsonify({"message": f"Form data for field '{field_name}' deleted successfully."}),
             200,
         )
     else:
@@ -107,16 +103,9 @@ def delete_all_form_data():
         deleted_count += 1
 
     if deleted_count > 0:
-        logger.info(
-            f"All form data deleted from Firestore. Total deleted: {deleted_count}."
-        )
+        logger.info(f"All form data deleted from Firestore. Total deleted: {deleted_count}.")
         return (
-            jsonify(
-                {
-                    "message": "All form data deleted successfully. Total deleted: "
-                    f"{deleted_count}."
-                }
-            ),
+            jsonify({"message": "All form data deleted successfully. Total deleted: " f"{deleted_count}."}),
             200,
         )
     else:

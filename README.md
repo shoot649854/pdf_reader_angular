@@ -35,17 +35,17 @@ This project is built using **Angular** and requires **Node.js** to run locally.
 
 ### Prerequisites
 
-1. **Install NodeJS**  
+1. **Install NodeJS**
    Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/en/download/).
 
-2. **Install Angular CLI**  
+2. **Install Angular CLI**
    If you do not have the Angular CLI installed, you can install it globally using npm:
 
     ```bash
     npm install -g @angular/cli
     ```
 
-3. **Install pnpm**  
+3. **Install pnpm**
    The project uses `pnpm` as the package manager. You can install it using the following command:
 
     ```bash

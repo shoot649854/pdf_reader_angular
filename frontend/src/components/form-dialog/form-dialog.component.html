@@ -10,9 +10,9 @@
         <p style="font-size: 1.5rem; color: #555; line-height: 2rem; margin-bottom: 1.5rem;">
           {{ section.subtitle }}
         </p>
-        
 
-      
+
+
         <!-- Iterate over fields within the section -->
         <div *ngFor="let field of section.fields" class="form-field">
           <!-- Text Field -->
@@ -25,12 +25,12 @@
               </mat-hint>
             </mat-form-field>
           </ng-container>
-      
+
           <!-- Checkbox Field -->
           <ng-container *ngIf="field.type === 'checkbox'">
             <mat-checkbox [formControlName]="field.name">{{ field.description }}</mat-checkbox>
           </ng-container>
-      
+
           <!-- Select Dropdown Field -->
           <ng-container *ngIf="field.type === 'select'">
             <mat-form-field appearance="outline">
@@ -45,7 +45,7 @@
               </mat-hint>
             </mat-form-field>
           </ng-container>
-      
+
           <!-- Numeric Field -->
           <ng-container *ngIf="field.type === 'number'">
             <mat-form-field appearance="outline">
@@ -56,7 +56,7 @@
               </mat-hint>
             </mat-form-field>
           </ng-container>
-      
+
           <!-- Handle Unsupported Field Types -->
           <div *ngIf="field.type === 'unsupported'">
             <p class="error-message">Unsupported field type: {{ field.field_type }}</p>

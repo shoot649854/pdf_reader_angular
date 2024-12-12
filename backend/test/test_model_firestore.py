@@ -20,11 +20,10 @@ url_prefix = "firestore"
 # save_form_data_to_firestore
 ###################################################
 def test_save_form_data_to_firestore_valid(client, mock_db):
+    # path = JSON_PATHS[0]
     for path in JSON_PATHS:
         json_object = json_handler.load_data_from_path(path)
-        response = client.post(
-            f"/{url_prefix}/save_form_data_to_firestore", json=json_object
-        )
+        response = client.post(f"/{url_prefix}/save_form_data_to_firestore", json=json_object)
 
         # Mock Firestore's set function
         collection = mock_db.collection.return_value
@@ -33,9 +32,7 @@ def test_save_form_data_to_firestore_valid(client, mock_db):
 
         # Assertions
         assert response.status_code == 200
-        assert response.get_json() == {
-            "message": "Form data saved successfully to Firestore."
-        }
+        assert response.get_json() == {"message": "Form data saved successfully to Firestore."}
 
 
 ###################################################
@@ -71,9 +68,7 @@ def test_get_form_data_not_found(mock_db, client):
 
     response = client.get(f"/{url_prefix}/get_form_data/{field_name}")
     assert response.status_code == 404
-    assert response.get_json() == {
-        "error": f"No form data found for field '{field_name}'."
-    }
+    assert response.get_json() == {"error": f"No form data found for field '{field_name}'."}
 
 
 ###################################################
@@ -87,13 +82,9 @@ def test_update_form_data_valid(mock_db, client):
     form_ref = mock_db.collection("forms").document(field_name)
     form_ref.get.return_value.exists = True
 
-    response = client.put(
-        f"/{url_prefix}/update_form_data/{field_name}", json=updated_data
-    )
+    response = client.put(f"/{url_prefix}/update_form_data/{field_name}", json=updated_data)
     assert response.status_code == 200
-    assert response.get_json() == {
-        "message": f"Form data for field '{field_name}' updated successfully."
-    }
+    assert response.get_json() == {"message": f"Form data for field '{field_name}' updated successfully."}
 
 
 @patch("src.model.Firestore.db", new_callable=lambda: MagicMock())
@@ -104,13 +95,9 @@ def test_update_form_data_not_found(mock_db, client):
     form_ref = mock_db.collection("forms").document(field_name)
     form_ref.get.return_value.exists = False
 
-    response = client.put(
-        f"/{url_prefix}/update_form_data/{field_name}", json=updated_data
-    )
+    response = client.put(f"/{url_prefix}/update_form_data/{field_name}", json=updated_data)
     assert response.status_code == 404
-    assert response.get_json() == {
-        "error": f"No form data found for field '{field_name}'."
-    }
+    assert response.get_json() == {"error": f"No form data found for field '{field_name}'."}
 
 
 ###################################################
@@ -125,9 +112,7 @@ def test_delete_form_data_valid(mock_db, client):
 
     response = client.delete(f"/{url_prefix}/delete_form_data/{field_name}")
     assert response.status_code == 200
-    assert response.get_json() == {
-        "message": f"Form data for field '{field_name}' deleted successfully."
-    }
+    assert response.get_json() == {"message": f"Form data for field '{field_name}' deleted successfully."}
 
 
 @patch("src.model.Firestore.db", new_callable=lambda: MagicMock())
@@ -139,9 +124,7 @@ def test_delete_form_data_not_found(mock_db, client):
 
     response = client.delete(f"/{url_prefix}/delete_form_data/{field_name}")
     assert response.status_code == 404
-    assert response.get_json() == {
-        "error": f"No form data found for field '{field_name}'."
-    }
+    assert response.get_json() == {"error": f"No form data found for field '{field_name}'."}
 
 
 ###################################################
@@ -157,9 +140,7 @@ def test_delete_all_form_data(mock_db, client):
 
     response = client.delete(f"/{url_prefix}/delete_all_form_data")
     assert response.status_code == 200
-    assert response.get_json() == {
-        "message": "All form data deleted successfully. Total deleted: 3."
-    }
+    assert response.get_json() == {"message": "All form data deleted successfully. Total deleted: 3."}
 
 
 @patch("src.model.Firestore.db", new_callable=lambda: MagicMock())

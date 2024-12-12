@@ -92,7 +92,6 @@ def upload_files(folder_name: str = None):
             bucket = get_bucket()
             blob = bucket.blob(gcs_path)
             blob.upload_from_file(file.stream)
-
             logger.info(f"File '{file.filename}' uploaded to bucket '{bucket.name}' " f"at '{gcs_path}'.")
 
         return jsonify({"message": "Files uploaded successfully!"}), 200
