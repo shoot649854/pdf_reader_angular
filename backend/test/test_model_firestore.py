@@ -20,19 +20,19 @@ url_prefix = "firestore"
 # save_form_data_to_firestore
 ###################################################
 def test_save_form_data_to_firestore_valid(client, mock_db):
-    # for path in JSON_PATHS:
-    path = JSON_PATHS[0]
-    json_object = json_handler.load_data_from_path(path)
-    response = client.post(f"/{url_prefix}/save_form_data_to_firestore", json=json_object)
+    # path = JSON_PATHS[0]
+    for path in JSON_PATHS:
+        json_object = json_handler.load_data_from_path(path)
+        response = client.post(f"/{url_prefix}/save_form_data_to_firestore", json=json_object)
 
-    # Mock Firestore's set function
-    collection = mock_db.collection.return_value
-    document = collection.document.return_value
-    document.set.return_value = None
+        # Mock Firestore's set function
+        collection = mock_db.collection.return_value
+        document = collection.document.return_value
+        document.set.return_value = None
 
-    # Assertions
-    assert response.status_code == 200
-    assert response.get_json() == {"message": "Form data saved successfully to Firestore."}
+        # Assertions
+        assert response.status_code == 200
+        assert response.get_json() == {"message": "Form data saved successfully to Firestore."}
 
 
 ###################################################
