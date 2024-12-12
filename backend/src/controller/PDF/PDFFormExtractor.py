@@ -107,7 +107,8 @@ class PDFFormExtractor:
         for block in drawing_blocks:
             if self._rect_within(block_rect, block):
                 return True
-        return False
+        # return False
+        return True
 
     @staticmethod
     def _rect_within(inner_rect, outer_rect):
@@ -387,7 +388,7 @@ Fields:
                 {
                     "field_name": field["field_name"],
                     "field_type": field["field_type"],
-                    "description": field["description"],
+                    # "description": field["description"],
                     "struct_parent": field["struct_parent"],
                     "tool_tip": field["tool_tip"],
                     "initial_value": field["initial_value"],
