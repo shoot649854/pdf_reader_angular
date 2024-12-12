@@ -22,13 +22,9 @@ def test_json_handler_save_data():
         handler = JSONHandler()
         handler.save_data("dummy_path.json", {"key": "value"})
         mock_file.assert_called_once_with("dummy_path.json", "w")
-        written_data = "".join(
-            call.args[0] for call in mock_file().write.call_args_list
-        )
+        written_data = "".join(call.args[0] for call in mock_file().write.call_args_list)
         expected_data = json.dumps({"key": "value"}, indent=4)
-        assert (
-            written_data == expected_data
-        ), "Written data does not match expected JSON format"
+        assert written_data == expected_data, "Written data does not match expected JSON format"
 
 
 if __name__ == "__main__":

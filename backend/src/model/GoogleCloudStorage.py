@@ -50,9 +50,7 @@ def upload_file():
             bucket = get_bucket()
             blob = bucket.blob(file.filename)
             blob.upload_from_file(file.stream)
-            logger.info(
-                f"File '{file.filename}' uploaded to GCS bucket '{bucket.name}'."
-            )
+            logger.info(f"File '{file.filename}' uploaded to GCS bucket '{bucket.name}'.")
             return (
                 jsonify({"message": f"File '{file.filename}' uploaded successfully."}),
                 200,
@@ -69,9 +67,7 @@ def download_file(filename):
         bucket = get_bucket()
         blob = bucket.blob(filename)
         if not blob.exists(client=bucket.client):
-            logger.warning(
-                f"File '{filename}' does not exist in bucket '{bucket.name}'."
-            )
+            logger.warning(f"File '{filename}' does not exist in bucket '{bucket.name}'.")
             return jsonify({"error": f"File '{filename}' does not exist."}), 404
 
         # Download blob content into memory
@@ -111,9 +107,7 @@ def delete_file(filename):
         bucket = get_bucket()
         blob = bucket.blob(filename)
         if not blob.exists(client=bucket.client):
-            logger.warning(
-                f"File '{filename}' does not exist in bucket '{bucket.name}'."
-            )
+            logger.warning(f"File '{filename}' does not exist in bucket '{bucket.name}'.")
             return jsonify({"error": f"File '{filename}' does not exist."}), 404
 
         blob.delete()

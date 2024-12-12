@@ -16,12 +16,8 @@ class PDFDataCLI:
     """Handles command-line interface for PDF form extraction."""
 
     def __init__(self):
-        self.parser = argparse.ArgumentParser(
-            description="Extract form fields from PDF files and save as JSON."
-        )
-        self.parser.add_argument(
-            "pdf_paths", nargs="+", help="Paths to one or more PDF files."
-        )
+        self.parser = argparse.ArgumentParser(description="Extract form fields from PDF files and save as JSON.")
+        self.parser.add_argument("pdf_paths", nargs="+", help="Paths to one or more PDF files.")
         self.parser.add_argument(
             "-o",
             "--output",
@@ -50,9 +46,7 @@ class PDFDataCLI:
                 fields = extractor.get_fields()
                 json_handler = JSONHandler()
                 json_handler.save_data(output_path, fields)
-                logger.debug(
-                    f"Data extracted and written to {output_path} for {pdf_path}"
-                )
+                logger.debug(f"Data extracted and written to {output_path} for {pdf_path}")
             except DependencyError as e:
                 logger.error("Dependency Error: %s", e)
             except Exception as e:

@@ -9,8 +9,7 @@ dotenv.load_dotenv()
 CREDENTIAL_PATH = os.getenv("CREDENTIAL_PATH")
 if not CREDENTIAL_PATH:
     raise EnvironmentError(
-        "The environment variable 'CREDENTIAL_PATH' is not set. Please set it in "
-        "your .env file or environment."
+        "The environment variable 'CREDENTIAL_PATH' is not set. Please set it in " "your .env file or environment."
     )
 
 ABS_CREDENTIAL_PATH = os.path.expanduser(CREDENTIAL_PATH)

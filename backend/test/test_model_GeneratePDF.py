@@ -34,17 +34,13 @@ def test_save_form_data(mock_fill_form, mock_save_pdf, client):
 
         # Invalid data format
         invalid_data = {"field_data": {"field1": "value1"}}
-        response = client.post(
-            f"/{url_prefix}/{url_prefix}/save_form_data", json=invalid_data
-        )
+        response = client.post(f"/{url_prefix}/{url_prefix}/save_form_data", json=invalid_data)
         assert response.status_code == 500
         # assert "Invalid data format" in response.json["error"]
 
         # Missing page number
         missing_page_data = [{"field_data": {"field1": "value1"}}]
-        response = client.post(
-            f"/{url_prefix}/{url_prefix}/save_form_data", json=missing_page_data
-        )
+        response = client.post(f"/{url_prefix}/{url_prefix}/save_form_data", json=missing_page_data)
         assert response.status_code == 500
         # assert "current_form_page_number" in response.json["error"]
 
@@ -67,9 +63,7 @@ def test_generate_pdf_success(mock_fill_form, client):
     with tempfile.NamedTemporaryFile(suffix=".pdf") as temp_pdf:
         with patch("src.config.OUTPUT_PDF_PATH", temp_pdf.name):
             mock_fill_form.return_value = None
-            response = client.post(
-                f"/{url_prefix}/generate_pdf/{visa_name}", json=form_data
-            )
+            response = client.post(f"/{url_prefix}/generate_pdf/{visa_name}", json=form_data)
             assert response.status_code == 200
             assert response.headers["Content-Type"] == "application/pdf"
             assert response.data  # Ensure that PDF data is returned

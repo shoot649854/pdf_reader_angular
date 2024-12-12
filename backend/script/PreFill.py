@@ -43,9 +43,7 @@ def prepopulate():
                 State = address.get("State", "")
                 ZipCode = address.get("ZipCode", "")
 
-                logger.info(
-                    "Return the extracted values as a dictionary for easier access"
-                )
+                logger.info("Return the extracted values as a dictionary for easier access")
                 return {
                     "FamilyName": FamilyName,
                     "GivenName": GivenName,
@@ -83,21 +81,14 @@ def prefill():
         # Process each field entry in DATA_PATH data
         for field in data:
             # Modify fields based on the `field_name`
-            if (
-                field.get("field_name")
-                == "form1[0].#subform[0].Pt1Line1a_FamilyName[0]"
-            ):
+            if field.get("field_name") == "form1[0].#subform[0].Pt1Line1a_FamilyName[0]":
                 field["initial_value"] = personal_info["FamilyName"]
-            elif (
-                field.get("field_name") == "form1[0].#subform[0].Pt1Line1b_GivenName[0]"
-            ):
+            elif field.get("field_name") == "form1[0].#subform[0].Pt1Line1b_GivenName[0]":
                 field["initial_value"] = personal_info["GivenName"]
             elif field.get("field_name") == "form1[0].#subform[0].Line6d_CityOrTown[0]":
                 field["initial_value"] = personal_info["City"]
             elif field.get("field_name") == "form1[0].#subform[0].Line6i_Country[0]":
-                field["initial_value"] = personal_info[
-                    "State"
-                ]  # Assuming this is where "State" goes
+                field["initial_value"] = personal_info["State"]  # Assuming this is where "State" goes
             elif field.get("field_name") == "form1[0].#subform[0].Line6g_PostalCode[0]":
                 field["initial_value"] = personal_info["ZipCode"]
 

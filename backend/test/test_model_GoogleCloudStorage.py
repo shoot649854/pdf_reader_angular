@@ -30,13 +30,9 @@ def test_upload_file_success(mock_get_bucket, client):
         "file": (BytesIO(b"my file contents"), "test_file.txt"),
     }
 
-    response = client.post(
-        f"/{url_prefix}/upload_file", data=data, content_type="multipart/form-data"
-    )
+    response = client.post(f"/{url_prefix}/upload_file", data=data, content_type="multipart/form-data")
     assert response.status_code == 200
-    assert response.get_json() == {
-        "message": "File 'test_file.txt' uploaded successfully."
-    }
+    assert response.get_json() == {"message": "File 'test_file.txt' uploaded successfully."}
 
 
 @patch("src.model.GoogleCloudStorage.get_bucket", side_effect=mock_get_bucket)
@@ -54,9 +50,7 @@ def test_upload_file_empty_filename(mock_get_bucket, client):
         "file": (BytesIO(b"my file contents"), ""),
     }
 
-    response = client.post(
-        f"{url_prefix}/upload_file", data=data, content_type="multipart/form-data"
-    )
+    response = client.post(f"{url_prefix}/upload_file", data=data, content_type="multipart/form-data")
     assert response.status_code == 400
     assert response.get_json() == {"error": "No selected file."}
 
@@ -143,9 +137,7 @@ def test_delete_file_success(mock_get_bucket, client):
 
     # Assert that the response indicates successful deletion
     assert response.status_code == 200
-    assert response.get_json() == {
-        "message": f"File '{filename}' deleted successfully."
-    }
+    assert response.get_json() == {"message": f"File '{filename}' deleted successfully."}
 
 
 @patch("src.model.GoogleCloudStorage.get_bucket", side_effect=mock_get_bucket)

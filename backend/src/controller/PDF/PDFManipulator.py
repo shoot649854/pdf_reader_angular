@@ -41,46 +41,26 @@ class PDFManipulator:
 
     def _get_field_name(self, field):
         field_name_obj = field["/T"]
-        field_name = (
-            field_name_obj
-            if isinstance(field_name_obj, str)
-            else field_name_obj.decode("utf-8", errors="ignore")
-        )
+        field_name = field_name_obj if isinstance(field_name_obj, str) else field_name_obj.decode("utf-8", errors="ignore")
         logger.debug(f"Extracted field name: {field_name}")
         return field_name
 
     def _update_field(self, field, field_type, value):
         if field_type == "/Tx":  # Text field
-            field.update(
-                {
-                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
-                        value
-                    )
-                }
-            )
+            field.update({pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value)})
         elif field_type == "/Btn":  # Checkbox or radio button
             self._update_button_field(field, value)
         elif field_type == "/Ch":  # Choice field
             field.update(
                 {
-                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
-                        value
-                    ),
-                    pypdf.generic.NameObject("/DV"): pypdf.generic.create_string_object(
-                        value
-                    ),
+                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value),
+                    pypdf.generic.NameObject("/DV"): pypdf.generic.create_string_object(value),
                 }
             )
             logger.debug(f"Updated choice field with value '{value}'.")
         else:
             # Other field types
-            field.update(
-                {
-                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(
-                        value
-                    )
-                }
-            )
+            field.update({pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value)})
             logger.debug(f"Updated other field type with value '{value}'.")
 
     def _update_button_field(self, field, value):
