@@ -20,8 +20,8 @@ if __name__ == "__main__":
     extractor = PDFFormExtractor(pdf_path, generate_res, response_parser)
     fields_with_titles = extractor.get_fields_with_titles()
     fields_with_titles = extractor.apply_previous_title(fields_with_titles)
-    fields_with_titles_description = extractor.generating_descriptions(fields_with_titles)
-    fields_with_titles = extractor.grouping_by_title(fields_with_titles)
+    # fields_with_titles_description = extractor.generating_descriptions(fields_with_titles)
+    # fields_with_titles = extractor.grouping_by_title(fields_with_titles)
 
     json_output = json.dumps(fields_with_titles, indent=4)
     file_name = "fields_with_titles_description.json"

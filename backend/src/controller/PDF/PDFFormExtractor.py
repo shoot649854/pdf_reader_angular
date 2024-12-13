@@ -51,25 +51,21 @@ class PDFFormExtractor:
 
     def _extract_titles(self, page):
         """Extract title headers based on font size and background color."""
-        # 上にy高い,　左 x低い
         titles = []
         text_blocks = page.get_text("dict").get("blocks", [])
-        drawing_blocks = self._extract_drawing_blocks(page)
+        # drawing_blocks = self._extract_drawing_blocks(page)
 
         for block in text_blocks:
-            if "lines" not in block:  # Skip blocks without lines
+            if "lines" not in block:
                 continue
 
-            # print(f"{block['lines'][0]['spans'][0]['text']}: {block['bbox']}")
             block_rect = block.get("bbox")
-            is_gray_background = self._is_within_gray_background(block_rect, drawing_blocks)
-
             title_text = ""
             title_position = block_rect
 
             for line in block["lines"]:
                 for span in line["spans"]:
-                    if is_gray_background and span["size"] > self.font_size_threshold:
+                    if span["size"] > self.font_size_threshold:
                         title_text += span["text"] + " "
 
             if title_text.strip():
@@ -81,8 +77,7 @@ class PDFFormExtractor:
                             title_position[1],
                             title_position[2],
                             title_position[3],
-                        ],  # [x0, y0, x1, y1]
-                        # Left Bottom Right Top
+                        ],
                     }
                 )
 
@@ -102,24 +97,9 @@ class PDFFormExtractor:
                     drawing_blocks.append(item["rect"])
         return drawing_blocks
 
-    def _is_within_gray_background(self, block_rect, drawing_blocks):
-        """Check if a given text block rectangle is within any gray drawing block."""
-        for block in drawing_blocks:
-            if self._rect_within(block_rect, block):
-                return True
-        # return False
-        return True
-
-    @staticmethod
-    def _rect_within(inner_rect, outer_rect):
-        """Check if inner_rect is within outer_rect."""
-        x0_inner, y0_inner, x1_inner, y1_inner = inner_rect
-        x0_outer, y0_outer, x1_outer, y1_outer = outer_rect
-        return x0_outer <= x0_inner and y0_outer <= y0_inner and x1_inner <= x1_outer and y1_inner <= y1_outer
-
     def _is_gray_background(self, color):
         """Check if a given color is a shade of gray."""
-        if len(color) == 3:  # RGB color
+        if len(color) == 3:
             r, g, b = [int(c * 255) for c in color]
             return abs(r - g) < self.GRAY_TOLERANCE and abs(g - b) < self.GRAY_TOLERANCE and abs(r - b) < self.GRAY_TOLERANCE
         return False
@@ -129,7 +109,7 @@ class PDFFormExtractor:
         fields_info = []
         with open(self.pdf_path, "rb") as pdf_file:
             pdf_reader = PdfReader(pdf_file)
-            page = pdf_reader.pages[page_number - 1]  # Page indexing starts at 0
+            page = pdf_reader.pages[page_number - 1]
             if "/Annots" not in page:
                 return fields_info
             annotations = page["/Annots"]
@@ -184,63 +164,8 @@ class PDFFormExtractor:
         right_fields.sort(key=lambda f: (f["rect"][1], f["rect"][0]), reverse=True)
         return left_fields + right_fields
 
-    # def _link_fields_to_titles(self, fields, titles, page_width):
-    #     """Link each form field to the closest title above it."""
-    #     half_page = page_width / 2
-
-    #     # Divide titles into left and right halves
-    #     left_titles = []
-    #     right_titles = []
-    #     for title in titles:
-    #         title_pos = (title["position"][0] + title["position"][1]) / 2
-    #         if title_pos <= half_page:
-    #             left_titles.append(title)
-    #         else:
-    #             right_titles.append(title)
-
-    #     # Sort titles in each half from top to bottom
-    #     left_titles.sort(key=lambda s: s["position"][1])
-    #     right_titles.sort(key=lambda s: s["position"][1])
-
-    #     for field in fields:
-    #         field_bottom = field["rect"][1]
-    #         field_x = (field["rect"][0] + field["rect"][2]) / 2
-    #         linked_title = None
-
-    #         # Field is in left half
-    #         if field_x < half_page:
-    #             for title in reversed(left_titles):
-    #                 title_top = title["position"][3]
-    #                 if title_top >= field_bottom:
-    #                     linked_title = title["text"]
-    #                     break
-    #             field["title"] = linked_title
-
-    #         # Field is in right half
-    #         elif field_x > half_page:
-    #             for title in reversed(right_titles):
-    #                 title_top = title["position"][3]
-    #                 if title_top >= field_bottom:
-    #                     linked_title = title["text"]
-    #                     break
-
-    #             # If no title above in right half, check left half
-    #             if linked_title is None:
-    #                 for title in reversed(left_titles):
-    #                     title_top = title["position"][3]
-    #                     if title_top >= field_bottom:
-    #                         linked_title = title["text"]
-    #                         break
-    #             field["title"] = linked_title
-
-    #         # Assign the title or fallback value
-    #         else:
-    #             field["title"] = linked_title
-    #     return fields
-
     def _link_fields_to_titles(self, fields, titles, page_width):
         """Link each form field to the most logical title."""
-        # Extract section identifiers from titles
         title_sections = []
         for title in titles:
             section = self._extract_section_identifier(title["text"])
@@ -386,14 +311,14 @@ Fields:
                 }
             grouped_titles[title]["questions"].append(
                 {
-                    "field_name": field["field_name"],
-                    "field_type": field["field_type"],
-                    # "description": field["description"],
-                    "struct_parent": field["struct_parent"],
-                    "tool_tip": field["tool_tip"],
-                    "initial_value": field["initial_value"],
-                    "rect": field["rect"],
-                    "page_number": field["page_number"],
+                    "field_name": field["field_name"] if field["field_name"] is not None else "",
+                    "field_type": field["field_type"] if field["field_type"] is not None else "",
+                    "description": field["description"] if field["description"] is not None else "",
+                    "struct_parent": field["struct_parent"] if field["struct_parent"] is not None else "",
+                    "tool_tip": field["tool_tip"] if field["tool_tip"] is not None else "",
+                    "initial_value": field["initial_value"] if field["initial_value"] is not None else "",
+                    "rect": field["rect"] if field["rect"] is not None else "",
+                    "page_number": field["page_number"] if field["page_number"] is not None else "",
                 }
             )
         logger.info("Grouping has completed.")
