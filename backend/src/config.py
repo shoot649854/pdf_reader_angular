@@ -14,5 +14,5 @@ FILE_JSON_PATH = os.path.join(FILE_PATH, "json")
 FILE_VALID_PATH = os.path.join(FILE_PATH, "valid")
 
 I140_PATH = os.path.join(FILE_PDF_PATH, "I-140.pdf")
-OUTPUT_PDF_PATH = os.path.join(FILE_PDF_PATH, "filled_foorm.pdf")
+OUTPUT_PDF_PATH = os.path.join(FILE_PDF_PATH, "I-140.pdf")
 I140_JSON_PATH = os.path.join(FILE_JSON_PATH, "I-140_fields.json")

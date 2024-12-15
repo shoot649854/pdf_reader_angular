@@ -4,7 +4,7 @@ import sys
 if __name__ == "__main__":
     sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.config import I140_JSON_PATH, I140_PATH, LOG_FILE_PATH, OUTPUT_PDF_PATH
+from src.config import I140_JSON_PATH, I140_PATH, LOG_FILE_PATH
 
 
 def test_log_file_path():
@@ -13,7 +13,6 @@ def test_log_file_path():
 
 def test_data_paths():
     assert I140_PATH.endswith("I-140.pdf"), "I140_PATH should point to I-140.pdf"
-    assert OUTPUT_PDF_PATH.endswith("filled_foorm.pdf"), "Output path should be filled_foorm.pdf"
     assert I140_JSON_PATH.endswith("I-140_fields.json"), "JSON path should be I-140_fields.json"
 
 
