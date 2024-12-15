@@ -1,0 +1,1493 @@
+[
+    {
+        "title": "Part 1.  Information About Attorney or  Accredited Representative",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number, if any",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. 1. Enter U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    120.064,
+                    623.999,
+                    294.074,
+                    641.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Name of Attorney or Accredited Representative. 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    569.999,
+                    293.998,
+                    587.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Name of Attorney or Accredited Representative. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    545.998,
+                    293.998,
+                    563.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Name of Attorney or Accredited Representative. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    522.0,
+                    293.998,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3a_StreetNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.074,
+                    468.003,
+                    294.075,
+                    486.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    448.002,
+                    154.0,
+                    458.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    101.999,
+                    448.002,
+                    111.999,
+                    458.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    448.002,
+                    70.001,
+                    458.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    444.002,
+                    294.075,
+                    462.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3.C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    420.001,
+                    294.075,
+                    438.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    396.0,
+                    293.998,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.073,
+                    396.0,
+                    120.073,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    119.826,
+                    372.002,
+                    293.87,
+                    390.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    119.826,
+                    348.004,
+                    293.87,
+                    366.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Address of Attorney or Accredited Representative. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.007,
+                    293.879,
+                    330.007
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line4_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Contact Information of Attorney or Accredited Representative. 4. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.075,
+                    234.006,
+                    294.075,
+                    252.006
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line6_EMail[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number, if any",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Contact Information of Attorney or Accredited Representative. 5. Enter Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.003,
+                    294.001,
+                    216.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line7_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address, if any",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Contact Information of Attorney or Accredited Representative. 6. Enter Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.003,
+                    294.001,
+                    180.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1ItemNumber7_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number, if any",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About Attorney or Accredited Representative. Contact Information of Attorney or Accredited Representative. 7. Enter Fax Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    126.0,
+                    294.001,
+                    144.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Eligibility Information for Attorney or  Accredited Representative",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. A. Select I am an attorney eligible to practice law in, and a member in good standing of, the bar of the highest courts of the following states, possessions, territories, commonwealths, or the District of Columbia. (If you need extra space to complete this section, use the space provided in Part 6. Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    625.002,
+                    352.999,
+                    635.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1a_LicensingAuthority[0]",
+                "field_type": "/Tx",
+                "description": "Enter Licensing Authority",
+                "struct_parent": 31,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. A. Enter Licensing Authority.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    528.001,
+                    576.0,
+                    546.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1b_BarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Bar Number, if applicable",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. B. Enter Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    491.998,
+                    576.0,
+                    509.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Checkbox1dAm[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information to provide an explanation",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. C. I (select only one box). Select am subject to any order suspending, enjoining, restraining, disbarring, or otherwise restricting me in the practice of law. If you are subject to any orders, use the space provided in Part 6. Additional Information to provide an explanation.",
+                "initial_value": "",
+                "rect": [
+                    490.052,
+                    475.001,
+                    500.052,
+                    485.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Checkbox1dAmNot[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information to provide an explanation",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. C. I (select only one box). Select am not subject to any order suspending, enjoining, restraining, disbarring, or otherwise restricting me in the practice of law. If you are subject to any orders, use the space provided in Part 6. Additional Information to provide an explanation.",
+                "initial_value": "",
+                "rect": [
+                    439.0,
+                    475.001,
+                    449.0,
+                    485.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1d_NameofFirmOrOrganization[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Law Firm or Organization, if applicable",
+                "struct_parent": 32,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. D. Enter Name of Law Firm or Organization, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    378.003,
+                    576.0,
+                    396.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "Select I am an accredited representative of the following qualified nonprofit religious, charitable, social service, or similar organization established in the United States and recognized by the Department of Justice in accordance with 8 Code of Federal Regulations part 12 92",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 2. A. Select I am an accredited representative of the following qualified nonprofit religious, charitable, social service, or similar organization established in the United States and recognized by the Department of Justice in accordance with 8 Code of Federal Regulations part 12 92.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    361.003,
+                    352.999,
+                    371.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2b_NameofOrganization[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Recognized Organization",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 2. B. Enter Name of Recognized Organization.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    276.001,
+                    576.0,
+                    294.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2c_DateExpires[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 2. C. Enter Date of Accreditation. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    240.001,
+                    576.221,
+                    258.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox3[0]",
+                "field_type": "/Btn",
+                "description": "Select I am associated with Name of Attorney or Representative, the attorney or accredited representative of record who previously filed Form G-28 in this case, and my appearance as an attorney or accredited representative for a limited purpose is at his or her request",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 3. Select I am associated with Name of Attorney or Representative, the attorney or accredited representative of record who previously filed Form G-28 in this case, and my appearance as an attorney or accredited representative for a limited purpose is at his or her request. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    223.001,
+                    352.999,
+                    233.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3_NameofAttorneyOrRep[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Attorney or Representative",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 3. Enter Name of Attorney or Representative.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    204.001,
+                    569.999,
+                    222.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox4[0]",
+                "field_type": "/Btn",
+                "description": ")(2)",
+                "struct_parent": 29,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 4. A. Select I am a law student or law graduate working under the direct supervision of the attorney or accredited representative of record on this form in accordance with the requirements in 8 Code of Federal Regulations (C F R) 2 92.1(A.)(2).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    139.002,
+                    352.999,
+                    149.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line4b_LawStudent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Law Student or Law Graduate",
+                "struct_parent": 30,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 4. B. Enter Name of Law Student or Law Graduate.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    65.999,
+                    576.0,
+                    83.999
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Notice of Appearance as Attorney or  Accredited Representative",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1a_USCIS[0]",
+                "field_type": "/Btn",
+                "description": "Citizenship and Immigration Services (U S C I S)",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. If you need extra space to complete this section, use the space provided in Part 6. Additional Information. This appearance relates to immigration matters before (select only one box). 1. A. Select U.S. Citizenship and Immigration Services (U S C I S).",
+                "initial_value": "",
+                "rect": [
+                    60.926,
+                    631.0,
+                    70.926,
+                    641.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line1b_ListFormNumber[0]",
+                "field_type": "/Tx",
+                "description": "List the form numbers  or specific matter in which appearance is entered",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). 1. B. List the form numbers  or specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    59.927,
+                    582.004,
+                    293.927,
+                    600.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line2a_ICE[0]",
+                "field_type": "/Btn",
+                "description": "Immigration and Customs Enforcement (ICE)",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). 2. A. Select U.S. Immigration and Customs Enforcement (ICE).",
+                "initial_value": "",
+                "rect": [
+                    61.074,
+                    565.001,
+                    71.074,
+                    575.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line2b_ListMatter[0]",
+                "field_type": "/Tx",
+                "description": "List the specific matter in which appearance is entered",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). 2. B. List the specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    60.075,
+                    527.998,
+                    294.001,
+                    545.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line3a_CBP[0]",
+                "field_type": "/Btn",
+                "description": "Customs and Border Protection (C B P)",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). Select 3. A. U.S. Customs and Border Protection (C B P).",
+                "initial_value": "",
+                "rect": [
+                    61.074,
+                    511.001,
+                    71.074,
+                    521.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line3b_ListSpecificMatter[0]",
+                "field_type": "/Tx",
+                "description": "List the specific matter in which appearance is entered",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). 3. B. List the specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    60.075,
+                    473.998,
+                    294.001,
+                    491.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Receipt Number, if any",
+                "struct_parent": 77,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. This appearance relates to immigration matters before (select only one box). 4. Enter Receipt Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    105.599,
+                    438.001,
+                    294.001,
+                    456.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line4_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Requestor",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. 5. I enter my appearance as an attorney or accredited representative at the request of the, (select only one box). Select Requestor.",
+                "initial_value": "",
+                "rect": [
+                    205.0,
+                    393.999,
+                    215.0,
+                    403.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line4_Checkbox[3]",
+                "field_type": "/Btn",
+                "description": "Select Petitioner",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. 5. I enter my appearance as an attorney or accredited representative at the request of the, (select only one box). Select Petitioner.",
+                "initial_value": "",
+                "rect": [
+                    133.0,
+                    393.996,
+                    143.0,
+                    403.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line4_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Applicant",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. 5. I enter my appearance as an attorney or accredited representative at the request of the, (select only one box). Select Applicant.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    393.993,
+                    71.0,
+                    403.993
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line4_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Select Respondent (ICE, C B P)",
+                "struct_parent": 47,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. 5. I enter my appearance as an attorney or accredited representative at the request of the, (select only one box). Select Respondent (ICE, C B P).",
+                "initial_value": "",
+                "rect": [
+                    180.999,
+                    378.997,
+                    190.999,
+                    388.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line4_Checkbox[4]",
+                "field_type": "/Btn",
+                "description": "Select Beneficiary / Derivative",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. 5. I enter my appearance as an attorney or accredited representative at the request of the, (select only one box). Select Beneficiary / Derivative.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    378.992,
+                    71.0,
+                    388.992
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    294.001,
+                    293.998,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    270.003,
+                    293.998,
+                    288.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    246.002,
+                    293.998,
+                    264.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line7a_NameOfEntity[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Entity, if applicable",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity.) 7. A. Enter Name of Entity, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    59.956,
+                    210.107,
+                    293.956,
+                    228.107
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line7b_TitleofEntity[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Authorized Signatory for Entity, if applicable",
+                "struct_parent": 76,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 7. B. Enter Title of Authorized Signatory for Entity, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    59.956,
+                    173.996,
+                    293.956,
+                    191.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line8_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Client's U S C I S Online Account Number, if any",
+                "struct_parent": 61,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 8. Enter Client's U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    119.929,
+                    137.999,
+                    294.002,
+                    155.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line9_ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 74,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Information About Client (Applicant, Petitioner, Requestor, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 9. Enter Client's Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    101.999,
+                    294.001,
+                    119.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line9_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 75,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Client's Contact Information. 10. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    684.003,
+                    576.0,
+                    702.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line10_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number, if any",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Client's Contact Information. 11. Enter Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line11_EMail[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address, if any",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Client's Contact Information. 12. Enter Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    611.997,
+                    576.0,
+                    629.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 65,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. NOTE:  Provide the client's mailing address.  Do not provide the business mailing address of the attorney or accredited representative unless it serves as the safe mailing address on the application or petition being filed with this Form G-28. 13. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    504.0,
+                    576.0,
+                    522.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 69,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    483.996,
+                    436.002,
+                    493.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 68,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    483.996,
+                    394.001,
+                    493.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 71,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    483.996,
+                    352.0,
+                    493.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 70,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    479.999,
+                    576.0,
+                    497.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 66,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    455.998,
+                    576.0,
+                    473.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 67,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    431.997,
+                    576.0,
+                    449.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 72,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    365.998,
+                    431.997,
+                    401.998,
+                    449.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 63,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    402.007,
+                    407.999,
+                    576.241,
+                    425.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 62,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    402.007,
+                    383.998,
+                    576.241,
+                    401.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line12h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 64,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney or Accredited Representative. Mailing Address of Client. 13. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    347.998,
+                    576.0,
+                    365.998
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Client's Consent to Representation and  Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line2a_CheckBox2a[0]",
+                "field_type": "/Btn",
+                "description": "business address of my attorney or accredited representative as listed in this form",
+                "struct_parent": 82,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Options Regarding Receipt of U S C I S Notices and Documents. U S C I S will send notices to both a represented party (the client) and his, her, or its attorney or accredited representative either through mail or electronic delivery.  U S C I S will send all secure identity documents and Travel Documents to the client's U.S. mailing address. If you want to have notices and/or secure identity documents sent to your attorney or accredited representative of record rather than to you, please select all applicable items below. You may change these elections through written notice to U S C I S. 1. A. Select I request that U S C I S send original notices on an application or petition to the U.S. business address of my attorney or accredited representative as listed in this form.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    534.999,
+                    71.0,
+                    544.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2b_CheckBox2b[0]",
+                "field_type": "/Btn",
+                "description": "C",
+                "struct_parent": 84,
+                "tool_tip": "Part 4.  Client's Consent to Representation and Signature. Options Regarding Receipt of U S C I S Notices and Documents. U S C I S will send notices to both a represented party (the client) and his, her, or its attorney or accredited representative either through mail or electronic delivery. U S C I S will send all secure identity documents and Travel Documents to the client's U.S. mailing address. If you want to have notices and/or secure identity documents sent to your attorney or accredited representative of record rather than to you, please select all applicable items below. You may change these elections through written notice to U S C I S. 1. B. Select I request that U S C I S send any secure identity document (Permanent Resident Card, Employment Authorization Document, or Travel Document) that I receive to the U.S. business address of my attorney or accredited representative (or to a designated military or diplomatic address in a foreign country (if permitted)). NOTE:  If your notice contains Form I-94, Arrival-Departure Record, U S C I S will send the notice to the U.S. business address of your attorney or accredited representative.  If you would rather have your Form I-94 sent directly to you, select Item Number 1. C.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    481.002,
+                    71.0,
+                    491.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2c_CheckBox2c[0]",
+                "field_type": "/Btn",
+                "description": "mailing address",
+                "struct_parent": 85,
+                "tool_tip": "Part 4.  Client's Consent to Representation and Signature. Options Regarding Receipt of U S C I S Notices and Documents. U S C I S will send notices to both a represented party (the client) and his, her, or its attorney or accredited representative either through mail or electronic delivery. U S C I S will send all secure identity documents and Travel Documents to the client's U.S. mailing address. If you want to have notices and/or secure identity documents sent to your attorney or accredited representative of record rather than to you, please select all applicable items below. You may change these elections through written notice to U S C I S. 1. C. Select I request that U S C I S send my notice containing Form I-94 to me at my U.S. mailing address.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    313.001,
+                    71.0,
+                    323.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 87,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Signature of Client or Authorized Signatory for an Entity. 2. A. Signature of Client or Authorized Signatory for an Entity. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    294.001,
+                    240.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 86,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Signature of Client or Authorized Signatory for an Entity. 2. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    203.998,
+                    198.003,
+                    294.001,
+                    216.003
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Signature of Attorney or Accredited   Representative",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 79,
+                "tool_tip": "Part 5. Signature of Attorney or Accredited Representative. I have read and understand the regulations and conditions contained in 8 C F R 1 0 3.2 and 2 92 governing appearances and representation before D H S.  I declare under penalty of perjury under the laws of the United States that the information I have provided on this form is true and correct. 1. A. Signature of Attorney or Accredited Representative. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    605.999,
+                    576.0,
+                    623.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Line3_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 83,
+                "tool_tip": "Part 5. Signature of Attorney or Accredited Representative. 1. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    485.776,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Line2_SignatureStudent[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 80,
+                "tool_tip": "Part 5. Signature of Attorney or Accredited Representative. 2. A. Signature of Law Student or Law Graduate. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    546.004,
+                    576.0,
+                    564.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt5Line2b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 81,
+                "tool_tip": "Part 5. Signature of Attorney or Accredited Representative. 2. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    485.776,
+                    522.0,
+                    576.0,
+                    540.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line5a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 3",
+                "struct_parent": 90,
+                "tool_tip": "Part 6. Additional Information.  If you need extra space to provide any additional information within this form, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this form or attach a separate sheet of paper.  Type or print your name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This field is pre-populated from Part 3.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    605.999,
+                    293.998,
+                    623.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line5b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 3",
+                "struct_parent": 91,
+                "tool_tip": "Part 6. Additional Information. 1. B. Given Name (First Name). This field is pre-populated from Part 3.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    582.001,
+                    293.998,
+                    600.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line5c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 3",
+                "struct_parent": 92,
+                "tool_tip": "Part 6. Additional Information. 1. C. Middle Name. This field is pre-populated from Part 3.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    558.0,
+                    293.998,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 95,
+                "tool_tip": "Part 6. Additional Information. 2. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    516.002,
+                    294.001,
+                    534.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 94,
+                "tool_tip": "Part 6. Additional Information. 2. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    516.002,
+                    204.001,
+                    534.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 93,
+                "tool_tip": "Part 6. Additional Information. 2. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    516.002,
+                    114.001,
+                    534.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 89,
+                "tool_tip": "Part 6. Additional Information. 2. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    294.001,
+                    510.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 99,
+                "tool_tip": "Part 6. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    269.997,
+                    294.001,
+                    287.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 98,
+                "tool_tip": "Part 6. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    269.997,
+                    204.001,
+                    287.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 97,
+                "tool_tip": "Part 6. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    269.997,
+                    114.001,
+                    287.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 96,
+                "tool_tip": "Part 6. Additional Information. 3. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    65.999,
+                    294.001,
+                    263.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 103,
+                "tool_tip": "Part 6. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    708.001,
+                    576.0,
+                    726.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 102,
+                "tool_tip": "Part 6. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.221,
+                    708.001,
+                    486.221,
+                    726.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 101,
+                "tool_tip": "Part 6. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    708.001,
+                    396.221,
+                    726.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 100,
+                "tool_tip": "Part 6. Additional Information. 4. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    504.0,
+                    576.334,
+                    702.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 111,
+                "tool_tip": "Part 6. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.782,
+                    462.002,
+                    575.782,
+                    480.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 110,
+                "tool_tip": "Part 6. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    462.002,
+                    486.0,
+                    480.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 109,
+                "tool_tip": "Part 6. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    462.002,
+                    396.221,
+                    480.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 104,
+                "tool_tip": "Part 6. Additional Information. 5. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    276.001,
+                    576.334,
+                    456.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 105,
+                "tool_tip": "Part 6. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.782,
+                    234.0,
+                    575.782,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 106,
+                "tool_tip": "Part 6. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    234.0,
+                    486.0,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 107,
+                "tool_tip": "Part 6. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    234.0,
+                    396.221,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 108,
+                "tool_tip": "Part 6. Additional Information. 6. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.221,
+                    48.002,
+                    576.334,
+                    228.002
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

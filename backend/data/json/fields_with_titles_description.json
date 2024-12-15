@@ -16,7 +16,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Mailing Address"
+        "title": "Mailing Address",
+        "description": "Select this box if Form G-28 or Form G-28 I is attached"
     },
     {
         "field_name": "form1[0].#subform[0].attyStateBarNumber[0]",
@@ -31,7 +32,8 @@
             516.002
         ],
         "page_number": 1,
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Enter Attorney State Bar Number, if applicable"
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1a_FamilyName[0]",
@@ -46,7 +48,8 @@
             396
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1b_GivenName[0]",
@@ -61,7 +64,8 @@
             372.002
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line1c_MiddleName[0]",
@@ -76,7 +80,8 @@
             348.001
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[0].Line2_CompanyName[0]",
@@ -91,7 +96,8 @@
             311.998
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Company or Organization Name"
     },
     {
         "field_name": "form1[0].#subform[0].Line6a_InCareofName[0]",
@@ -106,7 +112,8 @@
             245.996
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter In Care Of Name"
     },
     {
         "field_name": "form1[0].#subform[0].Line6b_StreetNumberName[0]",
@@ -121,7 +128,8 @@
             221.998
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[1]",
@@ -140,7 +148,8 @@
             "/ FLR ",
             "/Off"
         ],
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[0]",
@@ -159,7 +168,8 @@
             "/ STE ",
             "/Off"
         ],
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_Unit[2]",
@@ -178,7 +188,8 @@
             "/ APT ",
             "/Off"
         ],
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[0].Line6c_AptSteFlrNumber[0]",
@@ -193,7 +204,8 @@
             197.997
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[0].Line6d_CityOrTown[0]",
@@ -208,7 +220,8 @@
             173.999
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[0].Line6f_ZipCode[0]",
@@ -223,7 +236,8 @@
             149.998
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Zip Code"
     },
     {
         "field_name": "form1[0].#subform[0].Line6e_State[0]",
@@ -303,7 +317,8 @@
             "WV",
             "WY"
         ],
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Select State from List of States"
     },
     {
         "field_name": "form1[0].#subform[0].Line6h_Province[0]",
@@ -318,7 +333,8 @@
             125.997
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[0].Line6g_PostalCode[0]",
@@ -333,7 +349,8 @@
             101.999
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[0].Line6i_Country[0]",
@@ -348,7 +365,8 @@
             65.999
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[0].PDF417BarCode1[0]",
@@ -363,7 +381,8 @@
             29.999
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[0].attyUSCISOnlineNum[0]",
@@ -378,7 +397,8 @@
             516.002
         ],
         "page_number": 1,
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Enter Attorney or Accredited Representative U S C I S Online Account Number, if any"
     },
     {
         "field_name": "form1[0].#subform[0].Pt1Line3_TaxNumber[0]",
@@ -393,7 +413,8 @@
             438.001
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Must be 9 digits; no dashes"
     },
     {
         "field_name": "form1[0].#subform[0].Line4_SSN[0]",
@@ -408,7 +429,8 @@
             402.001
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Must be 9 digits; no dashes"
     },
     {
         "field_name": "form1[0].#subform[0].#area[1].Pt2Line2_USCISOnlineActNumber[0]",
@@ -423,7 +445,8 @@
             365.998
         ],
         "page_number": 1,
-        "title": "Part 1.  Information About the Person or  Organization Filing This Petition"
+        "title": "Part 1.  Information About the Person or  Organization Filing This Petition",
+        "description": "Enter U S C I S Online Account Number, if any"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[1]",
@@ -442,7 +465,8 @@
             "/Off",
             "/a"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for An alien of extraordinary ability"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[2]",
@@ -461,7 +485,8 @@
             "/Off",
             "/b"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for An outstanding professor or researcher"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[3]",
@@ -480,7 +505,8 @@
             "/Off",
             "/c"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for A multinational executive or manager"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[4]",
@@ -499,7 +525,8 @@
             "/Off",
             "/d"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for A member of the professions holding an advanced degree or an alien of exceptional ability (who is NOT seeking a National Interest Waiver (N I W))"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[0]",
@@ -518,7 +545,8 @@
             "/Off",
             "/e"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "bachelor's degree)"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[7]",
@@ -537,7 +565,8 @@
             "/Off",
             "/f"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for A skilled worker (requiring at least two years of specialized training or experience)"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[5]",
@@ -556,7 +585,8 @@
             "/Off",
             "/g"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for Any other worker (requiring less than two years of training or experience)"
     },
     {
         "field_name": "form1[0].#subform[0].prt2PetitionType[6]",
@@ -575,7 +605,8 @@
             "/Off",
             "/h"
         ],
-        "title": "Part 2.  Petition Type"
+        "title": "Part 2.  Petition Type",
+        "description": "Check this box for An alien applying for a National Interest Waiver (N I W) (who IS a member of the professions holding an advanced degree or an alien of exceptional ability)"
     },
     {
         "field_name": "form1[0].#subform[1].Line2a_Amend[0]",
@@ -594,7 +625,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 2.  Petition Type  (continued)"
+        "title": "Part 2.  Petition Type  (continued)",
+        "description": "Check this box for To amend a previously filed petition"
     },
     {
         "field_name": "form1[0].#subform[1].Line2aReceipt[0].Line2a_ReceiptNumber[0]",
@@ -609,7 +641,8 @@
             665.997
         ],
         "page_number": 2,
-        "title": "Part 2.  Petition Type  (continued)"
+        "title": "Part 2.  Petition Type  (continued)",
+        "description": "Enter Previous Petition Receipt Number"
     },
     {
         "field_name": "form1[0].#subform[1].Line2b_ScheduleA[0]",
@@ -628,7 +661,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 2.  Petition Type  (continued)"
+        "title": "Part 2.  Petition Type  (continued)",
+        "description": ", Group 1 or 2 designation"
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1a_FamilyName[0]",
@@ -643,7 +677,8 @@
             581.998
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1b_GivenName[0]",
@@ -658,7 +693,8 @@
             557.997
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[1].Pt3Line1c_MiddleName[0]",
@@ -673,7 +709,8 @@
             533.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[1].Line2a_InCareofName[0]",
@@ -688,7 +725,8 @@
             467.997
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter In Care Of Name"
     },
     {
         "field_name": "form1[0].#subform[1].Line2b_StreetNumberName[0]",
@@ -703,7 +741,8 @@
             443.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[1]",
@@ -722,7 +761,8 @@
             "/ FLR ",
             "/Off"
         ],
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[0]",
@@ -741,7 +781,8 @@
             "/ STE ",
             "/Off"
         ],
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_Unit[2]",
@@ -760,7 +801,8 @@
             "/ APT ",
             "/Off"
         ],
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[1].Line2c_AptSteFlrNumber[0]",
@@ -775,7 +817,8 @@
             419.998
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[1].Line2d_CityOrTown[0]",
@@ -790,7 +833,8 @@
             396
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[1].Line2f_ZipCode[0]",
@@ -805,7 +849,8 @@
             371.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Zip Code"
     },
     {
         "field_name": "form1[0].#subform[1].Line2e_State[0]",
@@ -885,7 +930,8 @@
             "WV",
             "WY"
         ],
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Select State from List of States"
     },
     {
         "field_name": "form1[0].#subform[1].Line2h_Province[0]",
@@ -900,7 +946,8 @@
             347.998
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[1].Line2g_PostalCode[0]",
@@ -915,7 +962,8 @@
             324
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[1].Line2i_Country[0]",
@@ -930,7 +978,8 @@
             288
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#subform[1].Line5_DateOfBirth[0]",
@@ -945,7 +994,8 @@
             234.003
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[1].Line6_CityTownOfBirth[0]",
@@ -960,7 +1010,8 @@
             198.006
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter City, Town, or Village of Birth"
     },
     {
         "field_name": "form1[0].#subform[1].Line7_StateProvinceOfBirth[0]",
@@ -975,7 +1026,8 @@
             162
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter State or Province of Birth"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[1].PDF417BarCode1[0]",
@@ -990,7 +1042,8 @@
             29.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[1].Line8_Country[0]",
@@ -1005,7 +1058,8 @@
             726.001
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[1].Line9_Country[0]",
@@ -1020,7 +1074,8 @@
             689.998
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Country of Citizenship or Nationality"
     },
     {
         "field_name": "form1[0].#subform[1].Line11_Alien[0].Pt3Line8_AlienNumber[0]",
@@ -1035,7 +1090,8 @@
             654.001
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Must be 9 digits; no dashes"
     },
     {
         "field_name": "form1[0].#subform[1].Line12_SSN[0]",
@@ -1050,7 +1106,8 @@
             630
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Must be 9 digits; no dashes"
     },
     {
         "field_name": "form1[0].#subform[1].Line13_DateOArrival[0]",
@@ -1065,7 +1122,8 @@
             533.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[1].Line14_I94Number[0].Line14a_ArrivalDeparture[0]",
@@ -1080,7 +1138,8 @@
             497.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Form I- 94 Arrival-Departure Record Number"
     },
     {
         "field_name": "form1[0].#subform[1].Line14e_ExpDate[1]",
@@ -1095,7 +1154,8 @@
             461.999
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[1].Line15_CurrentNon[0]",
@@ -1110,7 +1170,8 @@
             414
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Status on Form I-94 (for example, class of admission, or paroled, if paroled)"
     },
     {
         "field_name": "form1[0].#subform[1].Line14b_Passport[0]",
@@ -1125,7 +1186,8 @@
             378
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Passport Number"
     },
     {
         "field_name": "form1[0].#subform[1].Line14c_TravelDoc[0]",
@@ -1140,7 +1202,8 @@
             342
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Travel Document Number"
     },
     {
         "field_name": "form1[0].#subform[1].Line14d_CountryOfIssuance[0]",
@@ -1155,7 +1218,8 @@
             306
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter Country of Issuance for Passport or Travel Document"
     },
     {
         "field_name": "form1[0].#subform[1].Line14e_ExpDate[0]",
@@ -1170,7 +1234,8 @@
             270
         ],
         "page_number": 2,
-        "title": "Part 3.  Information About the Person for Whom  You Are Filing"
+        "title": "Part 3.  Information About the Person for Whom  You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_Visa[0]",
@@ -1189,7 +1254,8 @@
             "/1a",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information"
+        "title": "Part 4.  Processing Information",
+        "description": "Consulate at"
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_CityorTown[0]",
@@ -1204,7 +1270,8 @@
             144
         ],
         "page_number": 2,
-        "title": "Part 4.  Processing Information"
+        "title": "Part 4.  Processing Information",
+        "description": "is checked Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[1].Line1a_Country[0]",
@@ -1219,7 +1286,8 @@
             108
         ],
         "page_number": 2,
-        "title": "Part 4.  Processing Information"
+        "title": "Part 4.  Processing Information",
+        "description": "is checked Enter the Country"
     },
     {
         "field_name": "form1[0].#subform[1].Line1b_Status[0]",
@@ -1238,7 +1306,8 @@
             "/1b",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information"
+        "title": "Part 4.  Processing Information",
+        "description": "Check this box for Alien is in the United States and will apply for adjustment of status to that of lawful permanent resident"
     },
     {
         "field_name": "form1[0].#subform[2].Line1b_Country[0]",
@@ -1253,7 +1322,8 @@
             689.998
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "is checked, Enter Alien's current country of residence or, if now in the United States, last country of permanent residence abroad"
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_StreetNumberName[0]",
@@ -1268,7 +1338,8 @@
             636.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[1]",
@@ -1287,7 +1358,8 @@
             "/ FLR ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[0]",
@@ -1306,7 +1378,8 @@
             "/ STE ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_Unit[2]",
@@ -1325,7 +1398,8 @@
             "/ APT ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_AptSteFlrNumber[0]",
@@ -1340,7 +1414,8 @@
             612
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[2].Line2c_CityOrTown[0]",
@@ -1355,7 +1430,8 @@
             588.002
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[2].Line2e_Province[0]",
@@ -1370,7 +1446,8 @@
             564.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[2].Line2d_PostalCode[0]",
@@ -1385,7 +1462,8 @@
             540
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[2].Line2f_Country[0]",
@@ -1400,7 +1478,8 @@
             504
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#subform[2].Line3a_FamilyName2[0]",
@@ -1415,7 +1494,8 @@
             438.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[2].Line3b_GivenName2[0]",
@@ -1430,7 +1510,8 @@
             414
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[2].Line3c_MiddleName2[0]",
@@ -1445,7 +1526,8 @@
             389.999
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_InCareofName[1]",
@@ -1460,7 +1542,8 @@
             323.997
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter In Care Of Name"
     },
     {
         "field_name": "form1[0].#subform[2].Line3d_StreetNumberName[0]",
@@ -1475,7 +1558,8 @@
             299.999
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[1]",
@@ -1494,7 +1578,8 @@
             "/ FLR ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[0]",
@@ -1513,7 +1598,8 @@
             "/ STE ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_Unit[2]",
@@ -1532,7 +1618,8 @@
             "/ APT ",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[2].Line3e_AptSteFlrNumber[0]",
@@ -1547,7 +1634,8 @@
             276.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[2].Line3f_CityOrTown[0]",
@@ -1562,7 +1650,8 @@
             252
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[2].Line3h_Province[0]",
@@ -1577,7 +1666,8 @@
             227.999
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[2].Line3g_PostalCode[0]",
@@ -1592,7 +1682,8 @@
             204.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[2].Line3i_Country[0]",
@@ -1607,7 +1698,8 @@
             168.001
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_No[0]",
@@ -1626,7 +1718,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Are you filing any other petitions or applications with this Form I-1 40? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Yes[0]",
@@ -1645,7 +1738,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Are you filing any other petitions or applications with this Form I-1 40? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[2].PDF417BarCode1[0]",
@@ -1660,7 +1754,8 @@
             29.999
         ],
         "page_number": 3,
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form485[0]",
@@ -1679,7 +1774,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Form I-4 85"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form131[0]",
@@ -1698,7 +1794,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Form I-1 31"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_Form765[0]",
@@ -1717,7 +1814,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Check this box for Form I-7 65"
     },
     {
         "field_name": "form1[0].#subform[2].Line4_OtherAttach[0]",
@@ -1736,7 +1834,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Additional Information"
     },
     {
         "field_name": "form1[0].#subform[2].Line5_No[0]",
@@ -1755,7 +1854,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Is the person for whom you are filing in removal proceedings? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[2].Line5_Yes[0]",
@@ -1774,7 +1874,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Is the person for whom you are filing in removal proceedings? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[2].Line6_No[0]",
@@ -1793,7 +1894,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Has any immigrant visa petition ever been filed by or on behalf of this person? Check this box forNo"
     },
     {
         "field_name": "form1[0].#subform[2].Line6_Yes[0]",
@@ -1812,7 +1914,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Has any immigrant visa petition ever been filed by or on behalf of this person? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[2].Line7_No[0]",
@@ -1831,7 +1934,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Are you filing this petition without an original labor certification because the original labor certification was previously submitted in support of another Form I-1 40? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[2].Line7_Yes[0]",
@@ -1850,7 +1954,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Are you filing this petition without an original labor certification because the original labor certification was previously submitted in support of another Form I-1 40? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[2].Line8_No[0]",
@@ -1869,7 +1974,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Citizenship and Immigration Services (U S C I S) request a duplicate labor certification from the Department of Labor (D O L)? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[2].Line8_Yes[0]",
@@ -1888,7 +1994,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 4.  Processing Information  (continued)"
+        "title": "Part 4.  Processing Information  (continued)",
+        "description": "Citizenship and Immigration Services (U S C I S) request a duplicate labor certification from the Department of Labor (D O L)? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[2].Line1a_Employer[0]",
@@ -1907,7 +2014,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Check this box for Employer"
     },
     {
         "field_name": "form1[0].#subform[2].Line1b_Self[0]",
@@ -1926,7 +2034,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Check this box for Self"
     },
     {
         "field_name": "form1[0].#subform[2].Line1c_Other[0]",
@@ -1945,7 +2054,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "citizen or any other person filing on behalf of the alien)"
     },
     {
         "field_name": "form1[0].#subform[2].Line1c_Explain[0]",
@@ -1960,7 +2070,8 @@
             311.998
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter Other Type of Petitioner"
     },
     {
         "field_name": "form1[0].#subform[2].Line2a_TypeofBusiness[0]",
@@ -1975,7 +2086,8 @@
             245.999
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter Type of Business"
     },
     {
         "field_name": "form1[0].#subform[2].Line2b_DateEstablished[0]",
@@ -1990,7 +2102,8 @@
             222.001
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[2].Line2c_NumberofEmployees[0]",
@@ -2005,7 +2118,8 @@
             198
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Employees"
     },
     {
         "field_name": "form1[0].#subform[2].Line2d_GrossAnnualIncome[0]",
@@ -2020,7 +2134,8 @@
             173.999
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter Gross Annual Income"
     },
     {
         "field_name": "form1[0].#subform[2].Line2e_NetAnnualIncome[0]",
@@ -2035,7 +2150,8 @@
             149.998
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter Net Annual Income"
     },
     {
         "field_name": "form1[0].#subform[2].Line2f[0].Line2f_NAICSCode[0]",
@@ -2050,7 +2166,8 @@
             126
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Must be 6 digits; no dashes"
     },
     {
         "field_name": "form1[0].#subform[2].Line2g_LaborCertification[0]",
@@ -2065,7 +2182,8 @@
             89.997
         ],
         "page_number": 3,
-        "title": "Part 5.  Additional Information About the  Petitioner"
+        "title": "Part 5.  Additional Information About the  Petitioner",
+        "description": "Enter Labor Certification Department of Labor (D O L) Case Number"
     },
     {
         "field_name": "form1[0].#subform[3].Line2h_LaborCertification[0]",
@@ -2080,7 +2198,8 @@
             690.001
         ],
         "page_number": 4,
-        "title": "Part 5.  Additional Information About the  Petitioner  (continued)"
+        "title": "Part 5.  Additional Information About the  Petitioner  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[3].Line2i_LaborCertificationDate[0]",
@@ -2095,7 +2214,8 @@
             654.001
         ],
         "page_number": 4,
-        "title": "Part 5.  Additional Information About the  Petitioner  (continued)"
+        "title": "Part 5.  Additional Information About the  Petitioner  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[3].Line3a_Occupation[0]",
@@ -2110,7 +2230,8 @@
             588.002
         ],
         "page_number": 4,
-        "title": "Part 5.  Additional Information About the  Petitioner  (continued)"
+        "title": "Part 5.  Additional Information About the  Petitioner  (continued)",
+        "description": "Enter Occupation"
     },
     {
         "field_name": "form1[0].#subform[3].Line3b_AnnualIncome[0]",
@@ -2125,7 +2246,8 @@
             564.004
         ],
         "page_number": 4,
-        "title": "Part 5.  Additional Information About the  Petitioner  (continued)"
+        "title": "Part 5.  Additional Information About the  Petitioner  (continued)",
+        "description": "Enter Annual Income"
     },
     {
         "field_name": "form1[0].#subform[3].Line1_JobTitle[0]",
@@ -2140,7 +2262,8 @@
             486
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Job Title"
     },
     {
         "field_name": "form1[0].#subform[3].Line2_SOCCode2[0]",
@@ -2155,7 +2278,8 @@
             462.002
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter last 4 digits of Standard Occupational Classification (S O C) Code"
     },
     {
         "field_name": "form1[0].#subform[3].Line2_SOCCode1[0]",
@@ -2170,7 +2294,8 @@
             462.002
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter first 2 digits of Standard Occupational Classification (S O C) Code"
     },
     {
         "field_name": "form1[0].#subform[3].Line3_JobDescription[0]",
@@ -2185,7 +2310,8 @@
             425.16
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Nontechnical Job Description"
     },
     {
         "field_name": "form1[0].#subform[3].Line4_No1[0]",
@@ -2204,7 +2330,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a full-time position? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Line4_Yes1[0]",
@@ -2223,7 +2350,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a full-time position? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Line5_Hours[0]",
@@ -2238,7 +2366,8 @@
             306.003
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "is \"No,\" how many hours per week for the position? Enter Number of Hours Per Week"
     },
     {
         "field_name": "form1[0].#subform[3].Line6_No1[0]",
@@ -2257,7 +2386,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a permanent position? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Line6_Yes1[0]",
@@ -2276,7 +2406,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a permanent position? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Line7_No1[0]",
@@ -2295,7 +2426,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a new position? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Line7_Yes1[0]",
@@ -2314,7 +2446,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Is this a new position? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Line8_Per[0]",
@@ -2329,7 +2462,8 @@
             234.003
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter per (Specify hour, week, month, or year)"
     },
     {
         "field_name": "form1[0].#subform[3].Line8_Wages[0]",
@@ -2344,7 +2478,8 @@
             234.003
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Wages"
     },
     {
         "field_name": "form1[0].#subform[3].Line9a_StreetNumberName[0]",
@@ -2359,7 +2494,8 @@
             150.001
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[1]",
@@ -2378,7 +2514,8 @@
             "/ FLR ",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[0]",
@@ -2397,7 +2534,8 @@
             "/ STE ",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_Unit[2]",
@@ -2416,7 +2554,8 @@
             "/ APT ",
             "/Off"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[3].Line9b_AptSteFlrNumber[0]",
@@ -2431,7 +2570,8 @@
             126.003
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[3].Line9c_CityOrTown[0]",
@@ -2446,7 +2586,8 @@
             102.002
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[3].Line9e_ZipCode[0]",
@@ -2461,7 +2602,8 @@
             78.001
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Enter Zip Code"
     },
     {
         "field_name": "form1[0].#subform[3].Line9d_State[0]",
@@ -2542,7 +2684,8 @@
             "WV",
             "WY"
         ],
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "Select State from List of States"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[3].PDF417BarCode1[0]",
@@ -2557,7 +2700,8 @@
             29.999
         ],
         "page_number": 4,
-        "title": "Part 6.  Basic Information About the Proposed  Employment"
+        "title": "Part 6.  Basic Information About the Proposed  Employment",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[3].Line1a_Person1FamilyName[0]",
@@ -2572,7 +2716,8 @@
             594
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[3].Line1b_Person1GivenName[0]",
@@ -2587,7 +2732,8 @@
             570.002
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[3].Line1c_Person1MiddleName[0]",
@@ -2602,7 +2748,8 @@
             545.998
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[3].Line1d_Person1DateOfBirth[0]",
@@ -2617,7 +2764,8 @@
             522
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[3].Line1e_CountryOfBirth[0]",
@@ -2632,7 +2780,8 @@
             486
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[3].Line1f_Relationship[0]",
@@ -2647,7 +2796,8 @@
             461.999
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber5_CheckboxNo[0]",
@@ -2666,7 +2816,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber5_CheckboxYes[0]",
@@ -2685,7 +2836,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxNo[0]",
@@ -2704,7 +2856,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber6_CheckboxYes[0]",
@@ -2723,7 +2876,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Line2a_Person2FamilyName[0]",
@@ -2738,7 +2892,8 @@
             353.999
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[3].Line2b_Person2GivenName[0]",
@@ -2753,7 +2908,8 @@
             330.001
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[3].Line2c_Person2MiddleName[0]",
@@ -2768,7 +2924,8 @@
             306
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[3].Line2d_DateOfBirth[0]",
@@ -2783,7 +2940,8 @@
             281.999
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[3].Line2e_CountryOfBirth[0]",
@@ -2798,7 +2956,8 @@
             245.999
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[3].Line2f_Relationship[0]",
@@ -2813,7 +2972,8 @@
             222.001
         ],
         "page_number": 4,
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxNo[0]",
@@ -2832,7 +2992,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber11_CheckboxYes[0]",
@@ -2851,7 +3012,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxNo[0]",
@@ -2870,7 +3032,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[3].Pt7ItemNumber12_CheckboxYes[0]",
@@ -2889,7 +3052,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing"
+        "title": "Part 7.  Information About the Spouse and All  Children of the Person for Whom You Are Filing",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[1]",
@@ -2904,7 +3068,8 @@
             666
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[1]",
@@ -2919,7 +3084,8 @@
             642.002
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[1]",
@@ -2934,7 +3100,8 @@
             618.001
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[1]",
@@ -2949,7 +3116,8 @@
             594
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[1]",
@@ -2964,7 +3132,8 @@
             558
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[1]",
@@ -2979,7 +3148,8 @@
             533.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxNo[0]",
@@ -2998,7 +3168,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber17_CheckboxYes[0]",
@@ -3017,7 +3188,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxNo[0]",
@@ -3036,7 +3208,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber18_CheckboxYes[0]",
@@ -3055,7 +3228,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[2]",
@@ -3070,7 +3244,8 @@
             425.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[2]",
@@ -3085,7 +3260,8 @@
             402.001
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[2]",
@@ -3100,7 +3276,8 @@
             378
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[2]",
@@ -3115,7 +3292,8 @@
             353.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[4]",
@@ -3130,7 +3308,8 @@
             318.002
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[4]",
@@ -3145,7 +3324,8 @@
             294.001
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxNo[0]",
@@ -3164,7 +3344,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber23_CheckboxYes[0]",
@@ -3183,7 +3364,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxNo[0]",
@@ -3202,7 +3384,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber24_CheckboxYes[0]",
@@ -3221,7 +3404,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[4].PDF417BarCode1[0]",
@@ -3236,7 +3420,8 @@
             29.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[3]",
@@ -3251,7 +3436,8 @@
             720
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[3]",
@@ -3266,7 +3452,8 @@
             696.002
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[3]",
@@ -3281,7 +3468,8 @@
             672.001
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[3]",
@@ -3296,7 +3484,8 @@
             648
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[2]",
@@ -3311,7 +3500,8 @@
             612
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[2]",
@@ -3326,7 +3516,8 @@
             587.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxNo[0]",
@@ -3345,7 +3536,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber29_CheckboxYes[0]",
@@ -3364,7 +3556,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxNo[0]",
@@ -3383,7 +3576,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber30_CheckboxYes[0]",
@@ -3402,7 +3596,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Line2a_Person2FamilyName[4]",
@@ -3417,7 +3612,8 @@
             479.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2b_Person2GivenName[4]",
@@ -3432,7 +3628,8 @@
             456.001
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[4].Line2c_Person2MiddleName[4]",
@@ -3447,7 +3644,8 @@
             432
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Middle Name"
     },
     {
         "field_name": "form1[0].#subform[4].Line2d_DateOfBirth[4]",
@@ -3462,7 +3660,8 @@
             407.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[4].Line2e_CountryOfBirth[3]",
@@ -3477,7 +3676,8 @@
             371.999
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Country of Birth"
     },
     {
         "field_name": "form1[0].#subform[4].Line2f_Relationship[3]",
@@ -3492,7 +3692,8 @@
             347.998
         ],
         "page_number": 5,
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Enter Relationship"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxNo[0]",
@@ -3511,7 +3712,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber35_CheckboxYes[0]",
@@ -3530,7 +3732,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for adjustment of status? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxNo[0]",
@@ -3549,7 +3752,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for No"
     },
     {
         "field_name": "form1[0].#subform[4].Pt7ItemNumber36_CheckboxYes[0]",
@@ -3568,7 +3772,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)"
+        "title": "Part 7.  Information About Spouse and All  Children of the Person for Whom You Are Filing  (continued)",
+        "description": "Is he or she applying for a visa abroad? Check this box for Yes"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[1]",
@@ -3587,7 +3792,8 @@
             "/CANREAD",
             "/Off"
         ],
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Check this box for I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1_Interpreter[0]",
@@ -3606,7 +3812,8 @@
             "/CANTREAD",
             "/Off"
         ],
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "I understood all of this information as interpreted"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item1b_InterpreterName[0]",
@@ -3621,7 +3828,8 @@
             515.999
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Language"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item2_Preparer[0]",
@@ -3640,7 +3848,8 @@
             "/Off",
             "/PREP"
         ],
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "prepared this petition for me based only upon information I provided or authorized"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item2_PreparerName[0]",
@@ -3655,7 +3864,8 @@
             455.998
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Name of Preparer"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item3a_FamilyName[0]",
@@ -3670,7 +3880,8 @@
             365.998
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item3b_GivenName[0]",
@@ -3685,7 +3896,8 @@
             329.998
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item4_Title[0]",
@@ -3700,7 +3912,8 @@
             294.001
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Title"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item5_DayPhone[0]",
@@ -3715,7 +3928,8 @@
             257.998
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Daytime Telephone Number"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item6_MobilePhone[0]",
@@ -3730,7 +3944,8 @@
             221.998
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Mobile Telephone Number, if any"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item7_Email[0]",
@@ -3745,7 +3960,8 @@
             186.004
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter Authorized Signatory's Email Address, if any"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[5].PDF417BarCode1[0]",
@@ -3760,7 +3976,8 @@
             29.999
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[5].Line1a_SignatureofPetitioner[0]",
@@ -3775,7 +3992,8 @@
             395.697
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Print and Sign completed form"
     },
     {
         "field_name": "form1[0].#subform[5].Part7_Item8b_Date[0]",
@@ -3790,7 +4008,8 @@
             371.699
         ],
         "page_number": 6,
-        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature"
+        "title": "Part 8.  Statement, Contact Information,  Declaration, Certification, and Signature of the  Petitioner or Authorized Signatory and Signature",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item1a_FamilyName[0]",
@@ -3805,7 +4024,8 @@
             179.697
         ],
         "page_number": 6,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature",
+        "description": "Enter Interpreter's Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item1b_GivenName[0]",
@@ -3820,7 +4040,8 @@
             143.697
         ],
         "page_number": 6,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature",
+        "description": "Enter Interpreter's Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[5].Part8_Item2_OrgName[0]",
@@ -3835,7 +4056,8 @@
             107.702
         ],
         "page_number": 6,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature",
+        "description": "Enter Interpreter's Business or Organization Name, if any"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_StreetNumberName[0]",
@@ -3850,7 +4072,8 @@
             672.001
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[1]",
@@ -3869,7 +4092,8 @@
             "/FLR",
             "/Off"
         ],
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[0]",
@@ -3888,7 +4112,8 @@
             "/Off",
             "/STE"
         ],
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Unit[2]",
@@ -3907,7 +4132,8 @@
             "/APT",
             "/Off"
         ],
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_AptSteFlrNumber[0]",
@@ -3922,7 +4148,8 @@
             648
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_CityOrTown[0]",
@@ -3937,7 +4164,8 @@
             623.999
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_ZipCode[0]",
@@ -3952,7 +4180,8 @@
             600.001
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Zip Code"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_State[0]",
@@ -4033,7 +4262,8 @@
             "WV",
             "WY"
         ],
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Select State from List of States"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Province[0]",
@@ -4048,7 +4278,8 @@
             575.994
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_PostalCode[0]",
@@ -4063,7 +4294,8 @@
             551.999
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item3_Country[0]",
@@ -4078,7 +4310,8 @@
             516.002
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item4_DayPhone[0]",
@@ -4093,7 +4326,8 @@
             450
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Interpreter's Daytime Telephone Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item5_MobilePhone[0]",
@@ -4108,7 +4342,8 @@
             414
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Interpreter's Mobile Telephone Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item6_Email[0]",
@@ -4123,7 +4358,8 @@
             378.003
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Interpreter's Email Address, if any"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item6_Language[0]",
@@ -4138,7 +4374,8 @@
             306.003
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter Language"
     },
     {
         "field_name": "form1[0].#subform[6].Part6_Line6a_InterpretersSignature[0]",
@@ -4153,7 +4390,8 @@
             144
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Print and Sign completed form"
     },
     {
         "field_name": "form1[0].#subform[6].Part8_Item7b_Date[0]",
@@ -4168,7 +4406,8 @@
             119.999
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[6].PDF417BarCode1[0]",
@@ -4183,7 +4422,8 @@
             29.999
         ],
         "page_number": 7,
-        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)"
+        "title": "Part 9.  Interpreter's Contact Information,   Certification, and Signature  (continued)",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item1a_FamilyName[0]",
@@ -4198,7 +4438,8 @@
             623.999
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Family Name (Last Name)"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item1b_GivenName[0]",
@@ -4213,7 +4454,8 @@
             588.005
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Given Name (First Name)"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item2_OrgName[0]",
@@ -4228,7 +4470,8 @@
             552.013
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Business or Organization Name, if any"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_StreetNumberName[0]",
@@ -4243,7 +4486,8 @@
             498.002
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Street Number and Name"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[1]",
@@ -4262,7 +4506,8 @@
             "/FLR",
             "/Off"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Check this box for Floor"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[0]",
@@ -4281,7 +4526,8 @@
             "/Off",
             "/STE"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Check this box for Suite"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Unit[2]",
@@ -4300,7 +4546,8 @@
             "/APT",
             "/Off"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Check this box for Apartment"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_AptSteFlrNumber[0]",
@@ -4315,7 +4562,8 @@
             474.001
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Apartment, Suite or Floor Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_CityOrTown[0]",
@@ -4330,7 +4578,8 @@
             450
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter City or Town"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_ZipCode[0]",
@@ -4345,7 +4594,8 @@
             425.999
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Zip Code"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_State[0]",
@@ -4426,7 +4676,8 @@
             "WV",
             "WY"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Select State from List of States"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Province[0]",
@@ -4441,7 +4692,8 @@
             401.995
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Province"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_PostalCode[0]",
@@ -4456,7 +4708,8 @@
             378
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Postal Code"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Country[0]",
@@ -4471,7 +4724,8 @@
             342
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Country"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item4_DayPhone[0]",
@@ -4486,7 +4740,8 @@
             276.004
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Daytime Telephone Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_MobilePhone[0]",
@@ -4501,7 +4756,8 @@
             240.004
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Mobile Telephone Number"
     },
     {
         "field_name": "form1[0].#subform[6].Part9_Item3_Email[0]",
@@ -4516,7 +4772,8 @@
             204.004
         ],
         "page_number": 7,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual",
+        "description": "Enter Preparer's Email Address, if any"
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[0]",
@@ -4535,7 +4792,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "Check this box for I am not an attorney or accredited representative but have prepared this petition on behalf of the petitioner and with the petitioner's consent"
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7_AttorneyCB[1]",
@@ -4554,7 +4812,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "NOTE:  If you are an attorney or accredited representative, you may need to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or Form G-28 I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this petition"
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7b_NotExtend[0]",
@@ -4573,7 +4832,8 @@
             "/N",
             "/Off"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "Check this box for I am an attorney or accredited representative and my representation of the petitioner in this case does not extend beyond the preparation of this application"
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item7b_Extend[0]",
@@ -4592,7 +4852,8 @@
             "/Off",
             "/Y"
         ],
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "Check this box for I am an attorney or accredited representative and my representation of the petitioner in this case extends beyond the preparation of this application"
     },
     {
         "field_name": "form1[0].#subform[7].Part7_Line8a_InterpretersSignature[0]",
@@ -4607,7 +4868,8 @@
             306
         ],
         "page_number": 8,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "Print and Sign completed form"
     },
     {
         "field_name": "form1[0].#subform[7].Part9_Item8b_Date[0]",
@@ -4622,7 +4884,8 @@
             281.999
         ],
         "page_number": 8,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[7].PDF417BarCode1[0]",
@@ -4637,7 +4900,8 @@
             29.999
         ],
         "page_number": 8,
-        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)"
+        "title": "Part 10.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,  if Other Than the Authorized Individual  (continued)",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1a_FamilyName[1]",
@@ -4652,7 +4916,8 @@
             612
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "This field is pre-populated from Page 1"
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1b_GivenName[1]",
@@ -4667,7 +4932,8 @@
             587.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "This field is pre-populated from Page 1"
     },
     {
         "field_name": "form1[0].#subform[8].Pt1Line1c_MiddleName[1]",
@@ -4682,7 +4948,8 @@
             564.001
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "This field is pre-populated from Page 1"
     },
     {
         "field_name": "form1[0].#subform[8].#area[6].Pt1Line3_TaxNumber[1]",
@@ -4697,7 +4964,8 @@
             540
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "This field is pre-populated from Page 1"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3c_ItemNumber[0]",
@@ -4712,7 +4980,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Item Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3b_PartNumber[0]",
@@ -4727,7 +4996,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Part Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3a_PageNumber[0]",
@@ -4742,7 +5012,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Page Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line3d_AdditionalInfo[0]",
@@ -4757,7 +5028,8 @@
             474.001
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Additional Information"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4c_ItemNumber[0]",
@@ -4772,7 +5044,8 @@
             269.997
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Item Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4b_PartNumber[0]",
@@ -4787,7 +5060,8 @@
             269.997
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Part Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4a_PageNumber[0]",
@@ -4802,7 +5076,8 @@
             269.997
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Page Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line4d_AdditionalInfo[0]",
@@ -4817,7 +5092,8 @@
             245.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Additional Information"
     },
     {
         "field_name": "form1[0].#pageSet[0].Page1[8].PDF417BarCode1[0]",
@@ -4832,7 +5108,8 @@
             29.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "PDF417BarCode1"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5c_ItemNumber[0]",
@@ -4847,7 +5124,8 @@
             725.998
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Item Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5b_PartNumber[0]",
@@ -4862,7 +5140,8 @@
             725.998
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Part Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5a_PageNumber[0]",
@@ -4877,7 +5156,8 @@
             725.998
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Page Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line5d_AdditionalInfo[0]",
@@ -4892,7 +5172,8 @@
             702
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Additional Information"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[1]",
@@ -4907,7 +5188,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Item Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[1]",
@@ -4922,7 +5204,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Part Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[1]",
@@ -4937,7 +5220,8 @@
             497.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Page Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[0]",
@@ -4952,7 +5236,8 @@
             473.998
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Additional Information"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6c_ItemNumber[0]",
@@ -4967,7 +5252,8 @@
             270
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Item Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6b_PartNumber[0]",
@@ -4982,7 +5268,8 @@
             270
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Part Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6a_PageNumber[0]",
@@ -4997,7 +5284,8 @@
             270
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Page Number"
     },
     {
         "field_name": "form1[0].#subform[8].Pt9Line6d_AdditionalInfo[1]",
@@ -5012,6 +5300,7 @@
             245.999
         ],
         "page_number": 9,
-        "title": "Part 11.  Additional Information"
+        "title": "Part 11.  Additional Information",
+        "description": "Enter Additional Information"
     }
 ]
