@@ -1,0 +1,15 @@
+This will list all the buckets in your current project. You'll see the names of the storage buckets, along with additional information like their location and creation time.
+
+```bash
+gcloud storage buckets list
+gcloud storage buckets list --format="value(name)"
+```
+
+```bash
+gcloud storage buckets create gs://new-bucket-name --location=your-region
+gcloud projects describe vaulted-zodiac-253111 --format="value(projectNumber)"
+```
+
+```bash
+gcloud logs read process_pdf --region=us-central1
+```
