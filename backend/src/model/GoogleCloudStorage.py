@@ -4,24 +4,25 @@ from io import BytesIO
 from flask import Blueprint, jsonify, request, send_file
 from google.cloud import storage
 from google.oauth2 import service_account
+from src import ABS_CREDENTIAL_PATH
 from src.logging.Logging import logger
 from werkzeug.utils import secure_filename
 
 storage_bp = Blueprint("storage_bp", __name__)
 
 
-def get_gcs_client():
+def get_gcs_client() -> storage.Client:
     """Initialize and return a Google Cloud Storage client."""
     key_path = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
     if not key_path:
         logger.error("GOOGLE_APPLICATION_CREDENTIALS is not set.")
         raise EnvironmentError("GOOGLE_APPLICATION_CREDENTIALS is not set.")
 
-    credentials = service_account.Credentials.from_service_account_file(key_path)
+    credentials = service_account.Credentials.from_service_account_file(ABS_CREDENTIAL_PATH)
     return storage.Client(credentials=credentials)
 
 
-def get_bucket(bucket_name: str):
+def get_bucket(bucket_name: str) -> storage.Bucket:
     """Retrieve the GCS bucket from configuration."""
     if not bucket_name:
         logger.error("GCS_BUCKET_NAME is not set in configuration.")
@@ -101,8 +102,7 @@ def upload_files(folder_name: str = None):
         return jsonify({"error": f"Failed to upload files: {str(e)}"}), 500
 
 
-@storage_bp.route("/download_file/<string:filename>", methods=["GET"])
-def download_file(filename):
+def download_file(filename) -> BytesIO:
     """Download a file from Google Cloud Storage."""
     try:
         bucket = get_bucket()
@@ -116,14 +116,22 @@ def download_file(filename):
         blob.download_to_file(file_obj)
         file_obj.seek(0)
         logger.info(f"File '{filename}' downloaded from GCS bucket '{bucket.name}'.")
-        return send_file(
-            file_obj,
-            as_attachment=True,
-            download_name=filename,
-            mimetype=blob.content_type,
-        )
+        return file_obj
     except Exception as e:
         logger.error(f"Failed to download file '{filename}': {str(e)}")
+        raise
+
+
+@storage_bp.route("/download_file/<string:filename>", methods=["GET"])
+def route_download_file(filename):
+    """Flask route to download a file from Google Cloud Storage."""
+    try:
+        file_obj = download_file(filename)
+        return send_file(file_obj, as_attachment=True, download_name=filename, mimetype="application/pdf")
+
+    except FileNotFoundError as e:
+        return jsonify({"error": str(e)}), 404
+    except Exception as e:
         return jsonify({"error": f"Failed to download file: {str(e)}"}), 500
 
 

@@ -2,7 +2,7 @@ import io
 import os
 
 from flask import Blueprint, jsonify, request, send_file
-from src.config import FILE_PATH, OUTPUT_PDF_PATH
+from src.config import FILE_PDF_PATH, OUTPUT_PDF_PATH
 from src.controller.DataHandle.JSONFieldLoader import JSONFieldLoader
 from src.controller.DataHandle.JSONHandler import JSONHandler
 from src.controller.PDF.PDFManipulator import PDFManipulator
@@ -38,7 +38,7 @@ def save_form_data():
 
 def get_path_name_from_visa(visa_name: str):
     logger.info(visa_name)
-    return os.path.join(FILE_PATH, "I-140.pdf")
+    return os.path.join(FILE_PDF_PATH, "I-140.pdf")
 
 
 @generate_pdf_bp.route("/generate_pdf/<string:visa_name>", methods=["POST"])
@@ -71,8 +71,6 @@ def generate_pdf(visa_name: str):
 
         # Fill the PDF with the form data
         form_filler.fill_form_from_object(form_data, OUTPUT_PDF_PATH)
-
-        # Return the filled PDF file
         return send_file(
             OUTPUT_PDF_PATH,
             as_attachment=True,

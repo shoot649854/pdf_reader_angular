@@ -57,7 +57,6 @@ def test_generate_pdf_success(mock_fill_form, client):
     form_data = {
         "field1": "value1",
         "field2": "value2",
-        # Add other required fields as per your form specification
     }
 
     with tempfile.NamedTemporaryFile(suffix=".pdf") as temp_pdf:
@@ -66,7 +65,7 @@ def test_generate_pdf_success(mock_fill_form, client):
             response = client.post(f"/{url_prefix}/generate_pdf/{visa_name}", json=form_data)
             assert response.status_code == 200
             assert response.headers["Content-Type"] == "application/pdf"
-            assert response.data  # Ensure that PDF data is returned
+            assert response.data
 
 
 def test_generate_pdf_no_form_data(client):
