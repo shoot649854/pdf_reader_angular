@@ -35,21 +35,21 @@ class PDFDataCLI:
         args = self.parse_args()
 
         for pdf_path in args.pdf_paths:
+            if args.output:
+                output_path = f"{args.output}.json"
+
+            else:
+                pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
+                output_path = f"{pdf_name}_data.json"
+
             generate_res = GenerateResponse()
             response_parser = JSONFieldLoader()
             extractor = PDFFormExtractor(pdf_path, generate_res, response_parser)
 
-            if args.output:
-                output_path = f"./data/{args.output}"
-
-            else:
-                pdf_name = os.path.splitext(os.path.basename(pdf_path))[0]
-                output_path = f"./USCIS/{pdf_name}_data.json"
-
             try:
                 fields = extractor.get_fields_with_titles()
                 field = extractor.apply_previous_title(fields)
-                field = extractor.generating_descriptions(field)
+                field = extractor.add_descriptions(field)
                 field = extractor.grouping_by_title(field)
 
                 json_handler = JSONHandler()

@@ -178,7 +178,6 @@ class PDFFormExtractor:
             )
 
         for field in fields:
-            # Extract section identifier from the field's tooltip
             tooltip = field.get("tool_tip", "")
             field_section = self._extract_section_identifier(tooltip)
 
@@ -240,6 +239,26 @@ class PDFFormExtractor:
                 previous_title = field["title"]
 
         return fields
+
+    def add_descriptions(self, json_data) -> List[str]:
+        fields_by_page = self._group_fields_by_page(json_data)
+        for _, fields in fields_by_page.items():
+            for field in fields:
+                tool_tip = field.get("tool_tip", "")
+                if tool_tip:
+                    try:
+                        split_tooltip = tool_tip.strip().split(".")
+                        if len(split_tooltip) > 1:
+                            description = split_tooltip[-2].strip()
+                        else:
+                            description = tool_tip
+                    except IndexError:
+                        description = self._get_ai_response(field)
+
+                    field["description"] = description
+                else:
+                    field["description"] = "No description provided."
+        return json_data
 
     def generating_descriptions(self, json_data) -> List[str]:
         """Service for processing fields and generating descriptions"""
