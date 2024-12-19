@@ -1,0 +1,2278 @@
+[
+    {
+        "title": "Part 1.  Victim Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part1_Line1_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Victim Information. 1. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    163.998,
+                    528.001,
+                    293.998,
+                    546.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. Victim Information. 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    504.0,
+                    293.998,
+                    522.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. Victim Information. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    479.999,
+                    293.998,
+                    497.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Victim Information. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    455.998,
+                    293.998,
+                    473.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Victim Information. Other Names Used (Include maiden names, nicknames, and aliases, if applicable.) If you need extra space to provide additional names, use the space provided in Part 7. Additional Information. 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    371.999,
+                    293.998,
+                    389.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Victim Information. Other Names Used (Include maiden names, nicknames, and aliases, if applicable.) 3. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    347.998,
+                    293.998,
+                    365.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Victim Information. Other Names Used (Include maiden names, nicknames, and aliases, if applicable.) 3. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    323.997,
+                    293.998,
+                    341.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. Victim Information. 4. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    300.002,
+                    293.998,
+                    318.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_5_checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Victim Information. 5. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    157.0,
+                    280.004,
+                    167.0,
+                    290.004
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Female"
+                ]
+            },
+            {
+                "field_name": "Part1_5_checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Victim Information. 5. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    280.004,
+                    113.0,
+                    290.004
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Male"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Agency Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1_CertifyingAgency[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Certifying Agency",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. Agency Information. 1. Enter Name of Certifying Agency.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    204.001,
+                    294.001,
+                    222.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2c_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Agency Information. Name of Certifying Official. 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    162.0,
+                    293.998,
+                    180.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2c_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Agency Information. Name of Certifying Official. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    137.999,
+                    293.998,
+                    155.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Agency Information. Name of Certifying Official. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    113.998,
+                    293.998,
+                    131.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line3_TitleandDivisionOffice[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title and Division / Office of Certifying Official",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Agency Information. 3. Enter Title and Division / Office of Certifying Official.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    78.004,
+                    294.001,
+                    96.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line4a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Agency Information. Name of Head of Certifying Agency. 4. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    546.001,
+                    576.0,
+                    564.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line4a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. Agency Information. Name of Head of Certifying Agency. 4. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    522.0,
+                    576.0,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line4a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. Agency Information. Name of Head of Certifying Agency. 4. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    497.999,
+                    576.0,
+                    515.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    443.999,
+                    576.0,
+                    461.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P3_Line4c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 7,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    423.998,
+                    436.002,
+                    433.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P3_Line4c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 6,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    423.998,
+                    394.001,
+                    433.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P3_Line4c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 8,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    423.998,
+                    352.0,
+                    433.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 3,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    420.004,
+                    576.0,
+                    438.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 5,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    395.997,
+                    576.0,
+                    413.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line5_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 9,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    371.996,
+                    576.0,
+                    389.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line5_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 13,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    371.996,
+                    402.001,
+                    389.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "N/A",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt2Line5_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 11,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    347.99,
+                    575.881,
+                    365.99
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line5_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 12,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    324.0,
+                    575.878,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line5_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 10,
+                "tool_tip": "Part 2. Agency Information. Agency Address. 5. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    287.994,
+                    576.0,
+                    305.994
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line6_checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Select Local",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 6. Agency Type. Select Local.",
+                "initial_value": "",
+                "rect": [
+                    456.999,
+                    225.998,
+                    466.999,
+                    235.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Local"
+                ]
+            },
+            {
+                "field_name": "Part2_Line6_checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select State",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 6. Agency Type. Select State.",
+                "initial_value": "",
+                "rect": [
+                    402.999,
+                    225.998,
+                    412.999,
+                    235.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/State"
+                ]
+            },
+            {
+                "field_name": "Part2_Line6_checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Federal",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 6. Agency Type. Select Federal.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    225.998,
+                    352.998,
+                    235.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Federal"
+                ]
+            },
+            {
+                "field_name": "Part2_Line7_checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select Completed",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 7. Case Status. Select Completed.",
+                "initial_value": "",
+                "rect": [
+                    409.0,
+                    189.998,
+                    419.0,
+                    199.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Completed"
+                ]
+            },
+            {
+                "field_name": "Part2_Line7_checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Select On-going",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 7. Case Status. Select On-going.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    189.998,
+                    352.998,
+                    199.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/On-going"
+                ]
+            },
+            {
+                "field_name": "Part2_Line7_checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 7. Case Status. Select Other.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    171.998,
+                    352.998,
+                    181.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Other"
+                ]
+            },
+            {
+                "field_name": "Part2_Line7_Other[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Case Status",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 7. Case Status. Enter Other Case Status.",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    167.998,
+                    576.0,
+                    185.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line8_checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select Prosecutor",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 8. Certifying Agency Category. Select Prosecutor.",
+                "initial_value": "",
+                "rect": [
+                    499.0,
+                    135.998,
+                    509.0,
+                    145.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Prosecutor"
+                ]
+            },
+            {
+                "field_name": "Part2_Line8_checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Select Law Enforcement",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 8. Certifying Agency Category. Select Law Enforcement.",
+                "initial_value": "",
+                "rect": [
+                    396.998,
+                    135.998,
+                    406.998,
+                    145.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Law Enforcement"
+                ]
+            },
+            {
+                "field_name": "Part2_Line8_checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Judge",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 8. Certifying Agency Category. Select Judge.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    135.998,
+                    352.998,
+                    145.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Judge"
+                ]
+            },
+            {
+                "field_name": "Part2_Line8_checkboxes[3]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 8. Certifying Agency Category. Select Other.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    117.998,
+                    352.998,
+                    127.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Other"
+                ]
+            },
+            {
+                "field_name": "Part2_Line8_Other[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Category",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 8. Certifying Agency Category. Enter Other Category.",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    113.998,
+                    576.0,
+                    131.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line9_CaseNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Case Number",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 9. Enter Case Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    78.001,
+                    576.0,
+                    96.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line10_FBIorSIDNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter F B I Number or S I D Number, if applicable",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Agency Information. Other Agency Information. 10. Enter F B I Number or S I D Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    42.001,
+                    576.0,
+                    60.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Criminal Acts",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part3_Line1_checkboxes[25]",
+                "field_type": "/Btn",
+                "description": "Select Manslaughter",
+                "struct_parent": 77,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Manslaughter.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    619.001,
+                    197.0,
+                    629.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/22"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[9]",
+                "field_type": "/Btn",
+                "description": "Select Abduction",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Criminal Acts. If you need extra space to complete this section, use the space provided in Part 7. Additional Information. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Abduction. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    619.001,
+                    71.0,
+                    629.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[8]",
+                "field_type": "/Btn",
+                "description": "Select Murder",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Murder.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    601.001,
+                    197.0,
+                    611.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/23"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[18]",
+                "field_type": "/Btn",
+                "description": "Select Abusive Sexual Contact",
+                "struct_parent": 64,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Abusive Sexual Contact.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    601.001,
+                    71.0,
+                    611.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[17]",
+                "field_type": "/Btn",
+                "description": "Select Obstruction of Justice",
+                "struct_parent": 63,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Obstruction of Justice.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    583.001,
+                    197.0,
+                    593.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/9"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[23]",
+                "field_type": "/Btn",
+                "description": "Select Attempt to Commit Any of the Named Crimes",
+                "struct_parent": 69,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Attempt to Commit Any of the Named Crimes.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    583.001,
+                    71.0,
+                    593.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/8"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[16]",
+                "field_type": "/Btn",
+                "description": "Select Peonage",
+                "struct_parent": 62,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Peonage.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    565.001,
+                    197.0,
+                    575.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/10"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[15]",
+                "field_type": "/Btn",
+                "description": "Select Perjury",
+                "struct_parent": 61,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Perjury.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    547.001,
+                    197.0,
+                    557.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/11"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[30]",
+                "field_type": "/Btn",
+                "description": "Select Being Held Hostage",
+                "struct_parent": 84,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Being Held Hostage.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    541.0,
+                    71.0,
+                    551.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/18"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[14]",
+                "field_type": "/Btn",
+                "description": "Select Prostitution",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Prostitution.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    529.001,
+                    197.0,
+                    539.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/12"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[19]",
+                "field_type": "/Btn",
+                "description": "Select Blackmail",
+                "struct_parent": 65,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Blackmail.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    523.0,
+                    71.0,
+                    533.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[13]",
+                "field_type": "/Btn",
+                "description": "Select Rape",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Rape.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    510.791,
+                    197.0,
+                    520.791
+                ],
+                "page_number": 2,
+                "options": [
+                    "/13"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[27]",
+                "field_type": "/Btn",
+                "description": "Select Conspiracy to Commit Any of the Named Crimes",
+                "struct_parent": 79,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Conspiracy to Commit Any of the Named Crimes.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    505.0,
+                    71.0,
+                    515.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[12]",
+                "field_type": "/Btn",
+                "description": "Select Sexual Assault",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Sexual Assault.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    492.998,
+                    197.0,
+                    502.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/14"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[11]",
+                "field_type": "/Btn",
+                "description": "Select Sexual Exploitation",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Sexual Exploitation.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    474.998,
+                    197.0,
+                    484.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/15"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[20]",
+                "field_type": "/Btn",
+                "description": "Select Domestic Violence",
+                "struct_parent": 66,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Domestic Violence.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    469.0,
+                    71.0,
+                    479.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[6]",
+                "field_type": "/Btn",
+                "description": "Select Slave Trade",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Slave Trade.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    456.998,
+                    197.0,
+                    466.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/25"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[21]",
+                "field_type": "/Btn",
+                "description": "Select Extortion",
+                "struct_parent": 67,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Extortion.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    451.0,
+                    71.0,
+                    461.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[29]",
+                "field_type": "/Btn",
+                "description": "Select Solicitation to Commit Any of the Named Crimes",
+                "struct_parent": 81,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Solicitation to Commit Any of the Named Crimes.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    438.998,
+                    197.0,
+                    448.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/25"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[22]",
+                "field_type": "/Btn",
+                "description": "Select False Imprisonment",
+                "struct_parent": 68,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select False Imprisonment.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    433.0,
+                    71.0,
+                    443.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/6"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Felonious Assault",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Felonious Assault.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    415.0,
+                    71.0,
+                    425.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/7"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select Female Genital Mutilation",
+                "struct_parent": 47,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Female Genital Mutilation.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    397.0,
+                    71.0,
+                    407.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/17"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[10]",
+                "field_type": "/Btn",
+                "description": "Select Stalking",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Stalking.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    396.787,
+                    197.0,
+                    406.787
+                ],
+                "page_number": 2,
+                "options": [
+                    "/16"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[5]",
+                "field_type": "/Btn",
+                "description": "Select Torture",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Torture.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    378.79,
+                    197.0,
+                    388.79
+                ],
+                "page_number": 2,
+                "options": [
+                    "/26"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[26]",
+                "field_type": "/Btn",
+                "description": "Select Fraud in Foreign Labor Contracting",
+                "struct_parent": 78,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Fraud in Foreign Labor Contracting.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    367.004,
+                    71.0,
+                    377.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "/18"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[4]",
+                "field_type": "/Btn",
+                "description": "Select Trafficking",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Trafficking.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    360.79,
+                    197.0,
+                    370.79
+                ],
+                "page_number": 2,
+                "options": [
+                    "/27"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[3]",
+                "field_type": "/Btn",
+                "description": "Select Unlawful Criminal Restraint",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Unlawful Criminal Restraint.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    342.79,
+                    197.0,
+                    352.79
+                ],
+                "page_number": 2,
+                "options": [
+                    "/28"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[7]",
+                "field_type": "/Btn",
+                "description": "Select Incest",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Incest.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    337.002,
+                    71.0,
+                    347.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/19"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[28]",
+                "field_type": "/Btn",
+                "description": "Select Involuntary Servitude",
+                "struct_parent": 80,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Involuntary Servitude.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    319.002,
+                    71.0,
+                    329.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/20"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Select Witness Tampering",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Witness Tampering.",
+                "initial_value": "",
+                "rect": [
+                    187.0,
+                    312.791,
+                    197.0,
+                    322.791
+                ],
+                "page_number": 2,
+                "options": [
+                    "/29"
+                ]
+            },
+            {
+                "field_name": "Part3_Line1_checkboxes[24]",
+                "field_type": "/Btn",
+                "description": "Select Kidnapping",
+                "struct_parent": 76,
+                "tool_tip": "Part 3. Criminal Acts. 1. The petitioner is a victim of criminal activity involving a violation of one of the following Federal, state, or local criminal offenses (or any similar activity). (Select all applicable boxes). Select Kidnapping.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    301.002,
+                    71.0,
+                    311.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/21"
+                ]
+            },
+            {
+                "field_name": "Part3_Line2a_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 85,
+                "tool_tip": "Part 3. Criminal Acts. Provide the dates on which the criminal activity occurred. 2. A. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    252.0,
+                    239.998,
+                    270.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 86,
+                "tool_tip": "Part 3. Criminal Acts. Provide the dates on which the criminal activity occurred. 2. B. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    227.999,
+                    239.998,
+                    245.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2c_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 87,
+                "tool_tip": "Part 3. Criminal Acts. Provide the dates on which the criminal activity occurred. 2. C. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    204.001,
+                    239.998,
+                    222.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2d_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 88,
+                "tool_tip": "Part 3. Criminal Acts. Provide the dates on which the criminal activity occurred. 2. D. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    180.0,
+                    239.998,
+                    198.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line3_Citations[0]",
+                "field_type": "/Tx",
+                "description": "List the statutory citations for the criminal activity being investigated or prosecuted, or that was investigated or prosecuted",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. Criminal Acts. 3. List the statutory citations for the criminal activity being investigated or prosecuted, or that was investigated or prosecuted.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    96.001,
+                    294.001,
+                    132.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4a_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Did the criminal activity occur in the United States (including Indian country and military installations) or the territories or possessions of the United States? Select No",
+                "struct_parent": 83,
+                "tool_tip": "Part 3. Criminal Acts. 4. A. Did the criminal activity occur in the United States (including Indian country and military installations) or the territories or possessions of the United States? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    688.0,
+                    550.0,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part3_Line4a_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Did the criminal activity occur in the United States (including Indian country and military installations) or the territories or possessions of the United States? Select Yes",
+                "struct_parent": 82,
+                "tool_tip": "Part 3. Criminal Acts. 4. A. Did the criminal activity occur in the United States (including Indian country and military installations) or the territories or possessions of the United States? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    688.0,
+                    507.999,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part3_Line4b_Explanation[0]",
+                "field_type": "/Tx",
+                "description": "B",
+                "struct_parent": 75,
+                "tool_tip": "Part 3. Criminal Acts. 4. B. If you answered \"Yes,\" where did the criminal activity \roccur?",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    617.998,
+                    576.0,
+                    653.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line5a_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Did the criminal activity violate a Federal extraterritorial jurisdiction statute? Select No",
+                "struct_parent": 72,
+                "tool_tip": "Part 3. Criminal Acts. 5. A. Did the criminal activity violate a Federal extraterritorial jurisdiction statute? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    586.001,
+                    550.0,
+                    596.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part3_Line5a_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Did the criminal activity violate a Federal extraterritorial jurisdiction statute? Select Yes",
+                "struct_parent": 71,
+                "tool_tip": "Part 3. Criminal Acts. 5. A. Did the criminal activity violate a Federal extraterritorial jurisdiction statute? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    586.001,
+                    507.999,
+                    596.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part3_Line5b_Explanation[0]",
+                "field_type": "/Tx",
+                "description": "If you answered \"Yes,\" provide the statutory citation providing the authority for extraterritorial jurisdiction",
+                "struct_parent": 74,
+                "tool_tip": "Part 3. Criminal Acts. 5. B. If you answered \"Yes,\" provide the statutory citation providing the authority for extraterritorial jurisdiction.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    515.999,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line6_Explanation[0]",
+                "field_type": "/Tx",
+                "description": "Attach copies of all relevant reports and findings",
+                "struct_parent": 70,
+                "tool_tip": "Part 3. Criminal Acts. 6. Briefly describe the criminal activity being investigated and/or prosecuted and the involvement of the petitioner named in Part 1. Attach copies of all relevant reports and findings.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    246.002,
+                    576.0,
+                    462.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line7_Explanation[0]",
+                "field_type": "/Tx",
+                "description": "Attach copies of all relevant reports and findings",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Criminal Acts. 7. Provide a description of any known or documented injury to the victim. Attach copies of all relevant reports and findings.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    60.001,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Helpfulness Of The Victim",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part4_Line1_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "? Select No",
+                "struct_parent": 96,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 1. Does the victim possess information concerning the criminal activity listed in Part 3.? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    645.999,
+                    268.001,
+                    655.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part4_Line1_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "? Select Yes",
+                "struct_parent": 95,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. For the following questions, if the victim is under 16 years of age, incompetent or incapacitated, then a parent, guardian, or next friend may act on behalf of the victim. 1. Does the victim possess information concerning the criminal activity listed in Part 3.? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    645.999,
+                    226.0,
+                    655.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part4_Line2_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Has the victim been helpful, is the victim being helpful, or is the victim likely to be helpful in the investigation or prosecution of the criminal activity detailed above? Select No",
+                "struct_parent": 92,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 2. Has the victim been helpful, is the victim being helpful, or is the victim likely to be helpful in the investigation or prosecution of the criminal activity detailed above? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    586.001,
+                    268.001,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part4_Line2_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Has the victim been helpful, is the victim being helpful, or is the victim likely to be helpful in the investigation or prosecution of the criminal activity detailed above? Select Yes",
+                "struct_parent": 91,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 2. Has the victim been helpful, is the victim being helpful, or is the victim likely to be helpful in the investigation or prosecution of the criminal activity detailed above? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    586.001,
+                    226.0,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part4_Line3_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Since the initiation of cooperation, has the victim refused or failed to provide assistance reasonably requested in the investigation or prosecution of the criminal activity detailed above? Select No",
+                "struct_parent": 94,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 3. Since the initiation of cooperation, has the victim refused or failed to provide assistance reasonably requested in the investigation or prosecution of the criminal activity detailed above? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    526.0,
+                    268.001,
+                    536.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part4_Line3_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Since the initiation of cooperation, has the victim refused or failed to provide assistance reasonably requested in the investigation or prosecution of the criminal activity detailed above? Select Yes",
+                "struct_parent": 93,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 3. Since the initiation of cooperation, has the victim refused or failed to provide assistance reasonably requested in the investigation or prosecution of the criminal activity detailed above? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    526.0,
+                    226.0,
+                    536.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part4_Line3_Other[0]",
+                "field_type": "/Tx",
+                "description": "Additional Information",
+                "struct_parent": 90,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 3. If you answer \"Yes\" to Item Numbers 1. through 3., provide an explanation in the space below.  If you need extra space to complete this section, use the space provided in Part 7. Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    54.0,
+                    294.001,
+                    468.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part4_Line5_Other[0]",
+                "field_type": "/Tx",
+                "description": "Include any additional information you would like to provide",
+                "struct_parent": 97,
+                "tool_tip": "Part 4. Helpfulness Of The Victim. 4. Other.  Include any additional information you would like to provide.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    47.999,
+                    576.0,
+                    713.999
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Family Members Culpable In Criminal  Activity",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part5_Line1_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Are any of the victim's family members culpable or believed to be culpable in the criminal activity of which the petitioner is a victim? Select No",
+                "struct_parent": 100,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 1. Are any of the victim's family members culpable or believed to be culpable in the criminal activity of which the petitioner is a victim? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    663.996,
+                    268.001,
+                    673.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Part5_Line1_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Are any of the victim's family members culpable or believed to be culpable in the criminal activity of which the petitioner is a victim? Select Yes",
+                "struct_parent": 99,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 1. Are any of the victim's family members culpable or believed to be culpable in the criminal activity of which the petitioner is a victim? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    663.996,
+                    226.0,
+                    673.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Part5_Line2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 103,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. If you answered \"Yes,\" list the family members and their criminal involvement.  (If you need extra space to complete this section, use the space provided in Part 7. Additional Information.) 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    582.001,
+                    293.998,
+                    600.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 102,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    558.0,
+                    293.998,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 101,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    533.999,
+                    293.998,
+                    551.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line2_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 105,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 2. D. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    497.999,
+                    294.001,
+                    515.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line2_Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 104,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 2. E. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    462.008,
+                    294.001,
+                    479.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line3_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 110,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. If you answered \"Yes,\" list the family members and their criminal involvement.  (If you need extra space to complete this section, use the space provided in Part 7. Additional Information.) 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    432.0,
+                    293.998,
+                    450.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line3_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 109,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 3. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    407.999,
+                    293.998,
+                    425.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line3_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 108,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 3. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    383.998,
+                    293.998,
+                    401.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line3_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 107,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 3. D. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    347.998,
+                    294.001,
+                    365.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line3_Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 106,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 3. E. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.007,
+                    294.001,
+                    329.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line4_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 115,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. If you answered \"Yes,\" list the family members and their criminal involvement.  (If you need extra space to complete this section, use the space provided in Part 7. Additional Information.) 4. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    281.999,
+                    293.998,
+                    299.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line4_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 114,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 4. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    257.998,
+                    293.998,
+                    275.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line4_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 113,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 4. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    233.997,
+                    293.998,
+                    251.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line4_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 112,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 4. D. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    197.997,
+                    294.001,
+                    215.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part5_Line4_Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 111,
+                "tool_tip": "Part 5. Family Members Culpable In Criminal Activity. 4. E. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.006,
+                    294.001,
+                    179.997
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Certification",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line13_ApplicantSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 116,
+                "tool_tip": "Part 6. Certification. I am the head of the agency listed in Part 2. or I am the person in the agency who was specifically designated by the head of the agency to issue a U Nonimmigrant Status Certification on behalf of the agency.  Based upon investigation of the facts, I certify, under penalty of perjury, that the individual identified in Part 1. is or was a victim of one or more of the crimes listed in Part 3. I certify that the above information is complete, true, and correct to the best of my knowledge, and that I have made and will make no promises regarding the above victim's ability to obtain a visa from U.S. Citizenship and Immigration Services (U S C I S), based upon this certification.  I further certify that if the victim unreasonably refuses to assist in the investigation or prosecution of the qualifying criminal activity of which he or she is a victim, I will notify U S C I S. 1. Signature of Certifying Official. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    510.001,
+                    576.0,
+                    528.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part6_Line2_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 119,
+                "tool_tip": "Part 6. Certification. 2. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    486.0,
+                    576.0,
+                    504.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part6_Line3_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 117,
+                "tool_tip": "Part 6. Certification. 3. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    450.0,
+                    576.0,
+                    468.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line4_faxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 118,
+                "tool_tip": "Part 6. Certification. 4. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    414.0,
+                    576.0,
+                    432.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1_CertifyingAgency[1]",
+                "field_type": "/Tx",
+                "description": "This field auto populates from Page 1",
+                "struct_parent": 125,
+                "tool_tip": "Part 7. Additional Information. If you need extra space to complete any item within this supplement, use the space below or attach a separate sheet of paper; type or print the agency's name, petitioner's name, and the Alien Registration Number (A. Number) (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  If you need more space than what is provided, you may also make copies of this page to complete and file with this supplement. 1. Agency Name. This is a read only field. This field auto populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    569.999,
+                    294.001,
+                    587.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt1Line2a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field auto populates from Page 1",
+                "struct_parent": 128,
+                "tool_tip": "Part 7. Additional Information. Petitioner's Name. 2. A. Family Name (Last Name). This is a read only field. This field auto populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    515.999,
+                    293.998,
+                    533.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt1Line2a_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field auto populates from Page 1",
+                "struct_parent": 127,
+                "tool_tip": "Part 7. Additional Information. Petitioner's Name. 2. B. Given Name (First Name). This is a read only field. This field auto populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    491.998,
+                    293.998,
+                    509.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt1Line2a_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field auto populates from Page 1",
+                "struct_parent": 126,
+                "tool_tip": "Part 7. Additional Information. Petitioner's Name. 2. C. Middle Name. This is a read only field. This field auto populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    467.997,
+                    293.998,
+                    485.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part1_Line1_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "This field auto populates from Page 1",
+                "struct_parent": 124,
+                "tool_tip": "Part 7. Additional Information. 3. Alien Registration Number (A. Number), if any. This is a read only field. This field auto populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    164.001,
+                    432.0,
+                    294.001,
+                    450.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 131,
+                "tool_tip": "Part 7. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    389.999,
+                    294.001,
+                    407.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 130,
+                "tool_tip": "Part 7. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    389.999,
+                    204.001,
+                    407.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 129,
+                "tool_tip": "Part 7. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    389.999,
+                    114.001,
+                    407.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 121,
+                "tool_tip": "Part 7. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    59.999,
+                    294.021,
+                    383.973
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line5a_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 135,
+                "tool_tip": "Part 7. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    708.001,
+                    576.0,
+                    726.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line5a_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 136,
+                "tool_tip": "Part 7. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    708.001,
+                    486.0,
+                    726.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 137,
+                "tool_tip": "Part 7. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    708.001,
+                    396.0,
+                    726.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 122,
+                "tool_tip": "Part 7. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    450.0,
+                    576.0,
+                    702.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 134,
+                "tool_tip": "Part 7. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    407.999,
+                    576.0,
+                    425.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 133,
+                "tool_tip": "Part 7. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    407.999,
+                    486.0,
+                    425.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P8_Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 132,
+                "tool_tip": "Part 7. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    407.999,
+                    396.0,
+                    425.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part7_Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 123,
+                "tool_tip": "Part 7. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    114.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 5
+            }
+        ]
+    }
+]

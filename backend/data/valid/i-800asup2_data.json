@@ -1,0 +1,263 @@
+[
+    {
+        "title": "Supplement 2, Consent to Disclose Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "NameofAdoptionServiceProvider[0]",
+                "field_type": "/Tx",
+                "description": "Department of Homeland Security, or which USCIS may obtain as a result of the collection of my (our) biometrics information, to the following adoption service provider:\r\rEnter the Name of the Adoption Provider",
+                "struct_parent": 2,
+                "tool_tip": "Information that USCIS may have concerning your Form I-800A, Provide the below information about your primary adoption service provider who is the accredited or temporarily accredited agency, or approved person who is responsible under 22 CFR Part 96.14 for the six adoption services defined in 22 CFR Part 96.2, and for supervising and being responsible for supervised providers where used.  If a primary adoption service provider has not yet been identified, provide the name and address of the adoption service provider who is the accredited agency, as defined in 22 CFR Part 96.2, who either prepared and approved your home study, or reviewed and approved your home study, or the Public Domestic Authority who both prepared and approved your home study. Application for Determination of Suitability to Adopt a Child From a Convention Country, is protected from disclosure under the Privacy Act, 5 U.S.C. 552a.  USCIS generally may not disclose this information to your adoption service provider without your consent.  If you want USCIS to be able to disclose this information to your adoption service provider, you may give this consent by signing Form I-800A, Supplement 2.  You do not need to sign Form I-800A, Supplement 2, in order to file Form I-800A. \r\rPursuant to the Privacy Act, 5 U.S.C. 552a, and 8 CFR Part 204.302, and in order to assist USCIS in the adjudication of Form I-800A, I (we), the undersigned applicant(s) filing Form I-800A, consent to the disclosure of any record pertaining to me (us) which appears in any system of records maintained by the U.S. Department of Homeland Security, or which USCIS may obtain as a result of the collection of my (our) biometrics information, to the following adoption service provider:\r\rEnter the Name of the Adoption Provider.",
+                "initial_value": "",
+                "rect": [
+                    43.988,
+                    387.031,
+                    569.237,
+                    404.325
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PointofContact[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Point of Contact (contact person within the organization)",
+                "struct_parent": 3,
+                "tool_tip": "Enter the Point of Contact (contact person within the organization).",
+                "initial_value": "",
+                "rect": [
+                    43.988,
+                    355.807,
+                    569.237,
+                    373.101
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 4,
+                "tool_tip": "Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    43.988,
+                    322.645,
+                    516.175,
+                    339.285
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 6,
+                "tool_tip": "Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    208.715,
+                    291.804,
+                    354.722,
+                    308.103
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 5,
+                "tool_tip": "Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    43.988,
+                    291.804,
+                    201.665,
+                    308.103
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DaytimePhoneNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Fax Number",
+                "struct_parent": 16,
+                "tool_tip": "Enter the Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    235.633,
+                    260.518,
+                    342.95,
+                    276.817
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Daytime Phone Number, include that area or country code",
+                "struct_parent": 15,
+                "tool_tip": "Enter the Daytime Phone Number, include that area or country code.",
+                "initial_value": "",
+                "rect": [
+                    43.985,
+                    260.518,
+                    228.228,
+                    276.817
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 17,
+                "tool_tip": "I (We) understand that, by signing this supplement, I am (we are) authorizing USCIS to provide the adoption service provider noted above with copies of notices sent to me (us) about this case, and also to discuss my (our) case with that adoption service provider.  I (We) also understand that an adoption service provider can only provide adoption services, and cannot act as my (our) representative before USCIS with respect to my (our) case unless the adoption service provider is authorized to do so under 8 CFR part 292.  I (We) also understand that the adoption service provider cannot provide any other legal services, unless the adoption service provider is authorized to do so under the law governing the provision of legal services in the country or State in which the legal service is provided. Enter Your Signature and Printed name. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    69.905,
+                    111.175,
+                    360.0,
+                    132.775
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[1]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 18,
+                "tool_tip": "Enter your Spouse's Signature and Printed Name. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    69.905,
+                    70.398,
+                    360.0,
+                    91.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SuiteNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Suite Number, if applicable",
+                "struct_parent": 10,
+                "tool_tip": "Enter a Suite Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    523.757,
+                    322.642,
+                    569.236,
+                    338.941
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 8,
+                "tool_tip": "Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    438.761,
+                    291.804,
+                    568.8,
+                    308.444
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 9,
+                "tool_tip": "Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    362.203,
+                    291.804,
+                    432.06,
+                    308.103
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter and Email Address, if any",
+                "struct_parent": 7,
+                "tool_tip": "Enter and Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    349.447,
+                    260.521,
+                    568.718,
+                    276.567
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Your U S C I S Account Number, if any",
+                "struct_parent": 12,
+                "tool_tip": "Enter Your U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    455.227,
+                    111.175,
+                    571.447,
+                    131.694
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 11,
+                "tool_tip": "Enter Your Signature Date. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    366.738,
+                    111.175,
+                    449.067,
+                    131.694
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Your Spouse's U S C I S Account Number, if any",
+                "struct_parent": 14,
+                "tool_tip": "Enter Your Spouse's U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    455.227,
+                    70.399,
+                    571.447,
+                    90.918
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 13,
+                "tool_tip": "Enter Your Spouse's Signature Date. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    366.738,
+                    70.399,
+                    449.067,
+                    90.918
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]

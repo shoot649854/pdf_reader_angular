@@ -1,0 +1,2291 @@
+[
+    {
+        "title": "Part 1.  To Be Completed By Law Enforcement Agencies   (See instructions for specific information.)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part1_Line1_NameofLEARequestor[0]",
+                "field_type": "/Tx",
+                "description": ") / Requestor",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 1. Enter Name of Law Enforcement Agency (L E A.) / Requestor.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line2_RequestingAgent[0]",
+                "field_type": "/Tx",
+                "description": ")",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 2. Enter Requesting Agent (Special Agent in Charge, Chief of Police, etc.).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    576.0,
+                    330.001,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    53.765,
+                    522.0,
+                    455.99,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line3_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    53.765,
+                    486.0,
+                    456.004,
+                    504.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line4_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 37,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    432.0,
+                    336.002,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line4_DaytimeNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 38,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    432.0,
+                    191.999,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. A. Alien's Current Legal Name (do not provide a nickname). Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    275.992,
+                    347.585,
+                    438.182,
+                    365.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. In the space below, provide all the requested information for the alien for which adjustment of status is requested. A. Alien's Current Legal Name (do not provide a nickname). Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.32,
+                    347.585,
+                    269.886,
+                    365.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    275.992,
+                    293.585,
+                    438.182,
+                    311.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.32,
+                    293.585,
+                    269.886,
+                    311.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.32,
+                    275.332,
+                    269.886,
+                    293.581
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    275.992,
+                    275.33,
+                    438.182,
+                    293.579
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5c_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    222.001,
+                    456.222,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5c_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    282.07,
+                    186.001,
+                    360.071,
+                    204.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5c_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    248.081,
+                    186.001,
+                    276.077,
+                    204.001
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    72.323,
+                    186.001,
+                    239.981,
+                    204.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5d__AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    204.043,
+                    119.999,
+                    324.042,
+                    137.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5d_SVisaNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter S-Visa Number",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter S-Visa Number.",
+                "initial_value": "",
+                "rect": [
+                    71.813,
+                    119.999,
+                    191.747,
+                    137.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5d_PassportNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Passport Number",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Passport Number.",
+                "initial_value": "",
+                "rect": [
+                    72.519,
+                    78.004,
+                    318.232,
+                    96.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line2_ControlAgent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Control Agent",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 2. Enter Control Agent.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    576.0,
+                    575.991,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    526.0,
+                    524.001,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part1_Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    526.0,
+                    499.997,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part1_Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    526.0,
+                    475.999,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part1_Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    522.0,
+                    576.0,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    486.0,
+                    576.0,
+                    504.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 3. Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    464.008,
+                    486.0,
+                    492.004,
+                    504.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part1_Line4_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 4. Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    348.29,
+                    432.0,
+                    576.003,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. A. Alien's Current Legal Name (do not provide a nickname). Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.993,
+                    347.585,
+                    575.813,
+                    365.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.993,
+                    293.585,
+                    575.813,
+                    311.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5b2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.993,
+                    275.335,
+                    575.813,
+                    293.584
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.083,
+                    226.001,
+                    524.083,
+                    236.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part1_Line5c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    490.079,
+                    226.001,
+                    500.079,
+                    236.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part1_Line5c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    466.081,
+                    226.001,
+                    476.081,
+                    236.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part1_Line5c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    222.001,
+                    576.0,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5c_CurrentLocation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Location of Alien (City, State)",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. C. Mailing Address. Enter Current Location of Alien (City, State).",
+                "initial_value": "",
+                "rect": [
+                    365.726,
+                    186.001,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5d_PrincipalAlienI-94[0]",
+                "field_type": "/Tx",
+                "description": "Enter Form I-94 Number",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Form I-94 Number.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    119.999,
+                    497.999,
+                    137.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1_Line5d_TravelDoc[0]",
+                "field_type": "/Tx",
+                "description": "Enter Travel Document Number",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Travel Document Number.",
+                "initial_value": "",
+                "rect": [
+                    330.009,
+                    77.998,
+                    575.52,
+                    95.998
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  To be completed by Law Enforcement Agencies  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part1_Line5d_ExpDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 67,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Expiration Date for Passport or Travel Document. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    660.254,
+                    432.068,
+                    678.101
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_CountryOfIssuance[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Issuance for Passport or Travel Document",
+                "struct_parent": 68,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Issuance for Passport or Travel Document.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    660.061,
+                    287.793,
+                    677.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_PlaceOfLastEntry_CityState[0]",
+                "field_type": "/Tx",
+                "description": "(City, State)",
+                "struct_parent": 66,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Place of Last Entry into the U.S. (City, State).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    624.016,
+                    288.0,
+                    641.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    623.832,
+                    426.036,
+                    642.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_CurentImigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Immigration Status",
+                "struct_parent": 51,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Current Immigration Status.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    588.022,
+                    425.999,
+                    606.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_CountryOfCitizenship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    552.03,
+                    425.744,
+                    570.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_CountryOfCitizenship[1]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Origin",
+                "struct_parent": 52,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Origin.",
+                "initial_value": "",
+                "rect": [
+                    72.009,
+                    516.204,
+                    318.337,
+                    534.093
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    484.242,
+                    82.0,
+                    494.242
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 48,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    484.234,
+                    129.999,
+                    494.234
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Never Married",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Never Married.",
+                "initial_value": "",
+                "rect": [
+                    246.002,
+                    484.023,
+                    256.002,
+                    494.023
+                ],
+                "page_number": 2,
+                "options": [
+                    "/NeverMarried"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Married.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    484.023,
+                    196.001,
+                    494.023
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Married"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation",
+                "struct_parent": 54,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Occupation.",
+                "initial_value": "",
+                "rect": [
+                    72.003,
+                    443.999,
+                    318.232,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_DateofLastEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 69,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Date of Last Entry into the U.S. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    444.033,
+                    660.197,
+                    576.0,
+                    678.112
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_ClassOfAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Class of Admission.",
+                "initial_value": " ",
+                "rect": [
+                    438.012,
+                    624.002,
+                    575.784,
+                    642.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_CountryOfCitizenship[2]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 53,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    329.975,
+                    515.886,
+                    576.0,
+                    533.974
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Line5d_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    468.003,
+                    484.026,
+                    478.003,
+                    494.026
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Widowed"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    484.026,
+                    412.001,
+                    494.026
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Divorced"
+                ]
+            },
+            {
+                "field_name": "Part1_Line5d_MaritalStatus[4]",
+                "field_type": "/Btn",
+                "description": "Select Separated",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Marital Status. Select Separated.",
+                "initial_value": "",
+                "rect": [
+                    336.002,
+                    484.026,
+                    346.002,
+                    494.026
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Separated"
+                ]
+            },
+            {
+                "field_name": "CheckBox_Photos[0]",
+                "field_type": "/Btn",
+                "description": "Select Photo",
+                "struct_parent": 57,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Photo.",
+                "initial_value": "",
+                "rect": [
+                    508.0,
+                    447.999,
+                    518.0,
+                    457.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox_FD258[0]",
+                "field_type": "/Btn",
+                "description": "Select Form F D-2 58",
+                "struct_parent": 56,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Form F D-2 58.",
+                "initial_value": "",
+                "rect": [
+                    418.0,
+                    447.999,
+                    428.0,
+                    457.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox_G325[0]",
+                "field_type": "/Btn",
+                "description": "Select Form G-3 25",
+                "struct_parent": 55,
+                "tool_tip": "Part 1. To Be Completed By Law Enforcement Agencies (See instructions for specific information.) 5. D. Other Information. Select all documents attached. Select Form G-3 25. ",
+                "initial_value": "",
+                "rect": [
+                    334.001,
+                    447.999,
+                    344.001,
+                    457.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Certifications",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part2_SignatureofChiefofLEA[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Certifications. Attach all relevant documentation establishing (1) the information certified below and (2) the recommendations and reasons for the certified recommendations. Law Enforcement Agency (L E A.) Certification. I certify the above information is true and correct to the best of my knowledge; that no promises have been made regarding the above alien's ability to adjust status or stay permanently in the United States other than those that comport with Immigration and Nationality Act (I N A.) section 1 01(A.)(15)(S); that I have collected quarterly and annual reports detailing the above alien's whereabouts and activities and forwarded required information to the Department of Justice, Criminal Division; and that the alien has fulfilled the terms of his or her admission and classification. With this certification, I recommend the above mentioned person for adjustment of status under section 2 45(J) of the Immigration and Nationality Act (I N A.). Signature of Requesting Agent. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    239.998,
+                    299.993,
+                    257.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_TitleofCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Requesting Agent",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Name of Requesting Agent.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    203.998,
+                    299.985,
+                    221.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_SignatureofChiefofLEA[1]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Signature of Headquarters (H Q) Chief of Law Enforcement Agency (L E A). No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    162.003,
+                    299.993,
+                    180.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_TitleofCertifier[1]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Headquarters (H Q) Chief of Law Enforcement Agency (L E A)",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Name of Headquarters (H Q) Chief of Law Enforcement Agency (L E A).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    126.003,
+                    299.985,
+                    144.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_DateofCertification[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.876,
+                    240.001,
+                    575.867,
+                    258.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_PrintedName_PartC[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Requesting Agent",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Title of Requesting Agent.",
+                "initial_value": "",
+                "rect": [
+                    311.808,
+                    203.995,
+                    575.549,
+                    221.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_DateofCertification[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.876,
+                    162.003,
+                    575.867,
+                    180.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_PrintedName_PartC[1]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Certifier",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E A.) Certification. Enter Title of Certifier.",
+                "initial_value": "",
+                "rect": [
+                    311.896,
+                    126.0,
+                    575.637,
+                    144.0
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Certifications  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part2_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    35.87,
+                    671.998,
+                    576.128,
+                    689.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    35.87,
+                    636.001,
+                    456.095,
+                    654.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    35.87,
+                    600.001,
+                    456.109,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    546.001,
+                    329.987,
+                    564.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_DaytimeNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    546.001,
+                    179.997,
+                    564.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_AlienName[0]",
+                "field_type": "/Tx",
+                "description": "I certify that the alien, Enter Name",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. I certify that the alien, Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    140.394,
+                    485.989,
+                    392.995,
+                    504.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "CheckBoxS567[0]",
+                "field_type": "/Btn",
+                "description": "Select Abided by all terms and conditions of the S classification",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5, S-6, or S-7. Select Abided by all terms and conditions of the S classification.",
+                "initial_value": "",
+                "rect": [
+                    127.804,
+                    460.001,
+                    137.804,
+                    470.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "CheckBoxIFS[1]",
+                "field_type": "/Btn",
+                "description": "Select Substantially contributed information to the success of an authorized criminal investigation or the prosecution of an individual as per terms of entry",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5. Select Substantially contributed information to the success of an authorized criminal investigation or the prosecution of an individual as per terms of entry.",
+                "initial_value": "",
+                "rect": [
+                    91.813,
+                    436.997,
+                    101.813,
+                    446.997
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBoxIFS[0]",
+                "field_type": "/Btn",
+                "description": "Select Supplied the information that formed the basis of entry",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-5. Select Supplied the information that formed the basis of entry.",
+                "initial_value": "",
+                "rect": [
+                    91.855,
+                    406.001,
+                    101.855,
+                    416.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "CheckBoxIFS[2]",
+                "field_type": "/Btn",
+                "description": "person or property or the success of an authorized criminal investigation of, or the prosecution of, an individual involved in such an act of terrorism",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6. Select Substantially contributed information to the prevention or frustration of an act of terrorism against a U.S. person or property or the success of an authorized criminal investigation of, or the prosecution of, an individual involved in such an act of terrorism.",
+                "initial_value": "",
+                "rect": [
+                    91.912,
+                    381.997,
+                    101.912,
+                    391.997
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "CheckBoxS6A[2]",
+                "field_type": "/Btn",
+                "description": "If S-6 is selected, Select Supplied the information that formed the basis of entry",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Supplied the information that formed the basis of entry.",
+                "initial_value": "",
+                "rect": [
+                    127.855,
+                    340.002,
+                    137.855,
+                    350.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "CheckBoxS6A[1]",
+                "field_type": "/Btn",
+                "description": ") of the State Department Basic Authorities Act of 19 56",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Received a reward under section 36(A.) of the State Department Basic Authorities Act of 19 56.",
+                "initial_value": "",
+                "rect": [
+                    128.019,
+                    322.002,
+                    138.019,
+                    332.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "CheckBoxS6A[0]",
+                "field_type": "/Btn",
+                "description": ") limitations of the S classification",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-6 is selected, Select Abided by all specific 22 U.S.C. 27 08(A.) limitations of the S classification.",
+                "initial_value": "",
+                "rect": [
+                    128.019,
+                    304.002,
+                    138.019,
+                    314.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "CheckBoxIFS[3]",
+                "field_type": "/Btn",
+                "description": "If S-7, Select The S-5 or S-6 alien through which this alien obtained S classification through has abided by all terms, conditions of the S classification, and is recommended for adjustment",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. If S-7, Select The S-5 or S-6 alien through which this alien obtained S classification through has abided by all terms, conditions of the S classification, and is recommended for adjustment.",
+                "initial_value": "",
+                "rect": [
+                    91.761,
+                    280.01,
+                    101.761,
+                    290.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Part2_OtherComments[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Comments",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Other Comments.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    191.999,
+                    576.105,
+                    237.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Signature. No Entry. Print and Sign completed form.   ",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    156.002,
+                    299.999,
+                    174.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    119.999,
+                    299.999,
+                    137.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 95,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.236,
+                    640.001,
+                    524.236,
+                    650.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part2_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 96,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    640.001,
+                    499.997,
+                    650.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part2_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    640.001,
+                    475.999,
+                    650.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part2_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 94,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.384,
+                    636.001,
+                    575.385,
+                    654.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.384,
+                    600.001,
+                    575.385,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    464.008,
+                    600.001,
+                    492.004,
+                    618.001
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part2_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    341.816,
+                    546.001,
+                    575.946,
+                    564.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    311.839,
+                    156.002,
+                    575.58,
+                    174.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. Certifications. The Department of Justice, Criminal Division (Assistant Attorney General) Certifications. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.839,
+                    120.132,
+                    575.83,
+                    138.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2b_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 126,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    672.001,
+                    576.258,
+                    690.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    636.001,
+                    456.225,
+                    654.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    600.001,
+                    456.239,
+                    618.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 128,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    540.0,
+                    329.987,
+                    558.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_DaytimeNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 129,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    35.997,
+                    540.0,
+                    179.994,
+                    558.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Chckboxes_IS[1]",
+                "field_type": "/Btn",
+                "description": "Select Adjustment Denied",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Select Adjustment Denied.",
+                "initial_value": "",
+                "rect": [
+                    150.872,
+                    490.178,
+                    160.872,
+                    500.178
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Denied"
+                ]
+            },
+            {
+                "field_name": "P2_Chckboxes_IS[0]",
+                "field_type": "/Btn",
+                "description": "Select Adjustment Granted",
+                "struct_parent": 116,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Select Adjustment Granted.",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    490.178,
+                    46.999,
+                    500.178
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Granted"
+                ]
+            },
+            {
+                "field_name": "Part2b_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 103,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    450.0,
+                    299.999,
+                    468.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    413.997,
+                    299.999,
+                    431.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    353.999,
+                    576.258,
+                    371.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    318.002,
+                    456.225,
+                    336.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 104,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    282.002,
+                    456.239,
+                    300.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    222.004,
+                    329.987,
+                    240.004
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_DaytimeNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    35.997,
+                    222.004,
+                    179.994,
+                    240.004
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    513.766,
+                    640.001,
+                    523.766,
+                    650.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part2b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 124,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.762,
+                    640.001,
+                    499.762,
+                    650.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part2b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 125,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.764,
+                    640.001,
+                    475.764,
+                    650.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part2b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.764,
+                    636.001,
+                    575.765,
+                    654.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 120,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.764,
+                    600.001,
+                    575.765,
+                    618.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_State[0]",
+                "field_type": "/Ch",
+                "description": "Select a State from a list of States",
+                "struct_parent": 119,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select a State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.999,
+                    600.001,
+                    491.995,
+                    618.001
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part2b_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 127,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    341.867,
+                    540.0,
+                    575.997,
+                    558.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.644,
+                    450.13,
+                    575.759,
+                    468.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2b_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    311.417,
+                    413.997,
+                    575.158,
+                    431.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    513.766,
+                    322.002,
+                    523.766,
+                    332.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.762,
+                    322.002,
+                    499.762,
+                    332.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.764,
+                    322.002,
+                    475.764,
+                    332.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.764,
+                    318.002,
+                    575.765,
+                    336.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 106,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.764,
+                    282.002,
+                    575.765,
+                    300.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2c_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 105,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Mailing Information. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.772,
+                    282.002,
+                    491.768,
+                    300.002
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part2c_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Certifications. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    341.87,
+                    222.001,
+                    576.0,
+                    240.001
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

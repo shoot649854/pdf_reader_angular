@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Checklist",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_CheckBox6[0]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 11,
+                "tool_tip": "Checklist. Did you answer each question on the Form I-9 29 according to the instructions on the form?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    697.002,
+                    54.003,
+                    707.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[1]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 12,
+                "tool_tip": "Checklist. Did you sign and date Form I-9 29?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    661.002,
+                    54.003,
+                    671.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[2]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 13,
+                "tool_tip": "Checklist. Did you submit proof of your lawful permanent resident status or pending Form I-4 85 based on U-1 nonimmigrant status?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    637.001,
+                    54.003,
+                    647.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[3]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 14,
+                "tool_tip": "Checklist. Did you submit proof of relationship, including documents needing copies and / or translations?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    589.002,
+                    54.003,
+                    599.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[4]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 15,
+                "tool_tip": "Checklist. Did you submit proof of extreme hardship?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    553.002,
+                    54.003,
+                    563.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[5]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 16,
+                "tool_tip": "Checklist. Did you submit evidence to establish that discretion should be exercised?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    529.001,
+                    54.003,
+                    539.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[6]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 17,
+                "tool_tip": "Checklist. Did you submit the beneficiary's photo?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    493.001,
+                    54.003,
+                    503.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[7]",
+                "field_type": "/Btn",
+                "description": "Checklist",
+                "struct_parent": 18,
+                "tool_tip": "Checklist. Did you provide the beneficiary's address where he or she is residing now?",
+                "initial_value": "/Off",
+                "rect": [
+                    44.003,
+                    463.002,
+                    54.003,
+                    473.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/S5"
+                ]
+            }
+        ]
+    }
+]

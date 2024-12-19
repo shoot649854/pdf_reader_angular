@@ -1,0 +1,3494 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part1_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "citizen who plans to adopt or has adopted a child from a country that is party to the Hague Adoption Convention",
+                "struct_parent": 29,
+                "tool_tip": "Part1.  Basis of Filing.   See USCIS Form G-1055, Fee Schedule, available at www.uscis.gov/g-1055, for information on filing fees.  Check if You are a U.S. citizen who plans to adopt or has adopted a child from a country that is party to the Hague Adoption Convention.",
+                "initial_value": "",
+                "rect": [
+                    39.74,
+                    619.001,
+                    49.74,
+                    629.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Part1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check if You previously filed a Form I-800A; AND your marital status changed while your I-800A application was pending",
+                "struct_parent": 28,
+                "tool_tip": "Part1.  Basis of Filing.  Check if You previously filed a Form I-800A; AND your marital status changed while your I-800A application was pending.",
+                "initial_value": "",
+                "rect": [
+                    39.74,
+                    588.88,
+                    49.74,
+                    598.88
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "GivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    187.027,
+                    495.657,
+                    307.777,
+                    511.956
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyNameLastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 7,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    495.657,
+                    179.657,
+                    511.956
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Application for Determination of Suitability to Adopt   a Child from a Convention Country",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "OtherNamesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Names Used (including maiden name if appropriate)",
+                "struct_parent": 5,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Other Names Used (including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    229.842,
+                    463.385,
+                    400.482,
+                    479.945
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNamesUsed[1]",
+                "field_type": "/Tx",
+                "description": "Enter Other Names Used (including maiden name if appropriate)",
+                "struct_parent": 6,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Other Names Used (including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    51.352,
+                    463.385,
+                    222.352,
+                    479.945
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SocialSecurity[0]",
+                "field_type": "/Tx",
+                "description": "Enter a US Social Security Number, if any",
+                "struct_parent": 10,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Enter a US Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    228.249,
+                    433.479,
+                    400.258,
+                    449.778
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other USCIS Account Number",
+                "struct_parent": 8,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Other USCIS Account Number.",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    433.479,
+                    221.992,
+                    449.778
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PlaceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Place of Birth (City/Town, State/Province, Country)",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Enter the Place of Birth (City/Town, State/Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    173.174,
+                    403.707,
+                    400.257,
+                    420.006
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Enter the Date of Birth Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    403.705,
+                    166.127,
+                    420.007
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 9,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    371.797,
+                    347.649,
+                    388.059
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[1]",
+                "field_type": "/Tx",
+                "description": "State or Province",
+                "struct_parent": 12,
+                "tool_tip": "State or Province",
+                "initial_value": "",
+                "rect": [
+                    228.249,
+                    341.693,
+                    400.258,
+                    357.992
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "City",
+                "struct_parent": 11,
+                "tool_tip": "City",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    341.693,
+                    221.992,
+                    357.992
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Country",
+                "struct_parent": 14,
+                "tool_tip": "Country",
+                "initial_value": "",
+                "rect": [
+                    228.249,
+                    311.207,
+                    400.258,
+                    327.506
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Zip/Postal Code",
+                "struct_parent": 13,
+                "tool_tip": "Zip/Postal Code",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    311.207,
+                    221.992,
+                    327.506
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MailingAddress[0]",
+                "field_type": "/Tx",
+                "description": "Mailing Address (if different from home address)",
+                "struct_parent": 16,
+                "tool_tip": "Mailing Address (if different from home address)",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    278.509,
+                    347.649,
+                    295.683
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "InCareOf[0]",
+                "field_type": "/Tx",
+                "description": "Enter the In Care of Name",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Mailing Address. Enter the In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    48.002,
+                    248.462,
+                    398.835,
+                    264.761
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 4,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Mailing Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    228.249,
+                    218.925,
+                    400.258,
+                    234.935
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[1]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Mailing Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    218.925,
+                    221.992,
+                    235.224
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Mailing Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    228.249,
+                    187.701,
+                    400.258,
+                    204.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Mailing Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    49.912,
+                    187.701,
+                    221.992,
+                    204.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Conventioncountry[0]",
+                "field_type": "/Tx",
+                "description": "I intend to adopt a child habitually residing in the following Convention country:  Enter the Convention Country",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information About You (Person filing this application. 2. I intend to adopt a child habitually residing in the following Convention country:  Enter the Convention Country.",
+                "initial_value": "",
+                "rect": [
+                    52.79,
+                    149.251,
+                    400.743,
+                    168.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information About You  (Person filing this application). 1. Provide the following information about yourself. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    315.153,
+                    495.657,
+                    400.042,
+                    511.956
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment Number",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information About  You (Person filing this application). 1. Home Address. Enter the Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    354.779,
+                    371.795,
+                    400.258,
+                    388.094
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[1]",
+                "field_type": "/Tx",
+                "description": "Apartment Number",
+                "struct_parent": 20,
+                "tool_tip": "Apartment Number",
+                "initial_value": "",
+                "rect": [
+                    354.779,
+                    278.506,
+                    400.258,
+                    294.805
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FFRectangle8[0]",
+                "field_type": "/Btn",
+                "description": "FFRectangle8",
+                "struct_parent": 3,
+                "tool_tip": "FFRectangle8",
+                "initial_value": "",
+                "rect": [
+                    415.613,
+                    109.75,
+                    425.613,
+                    119.75
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "atty[0]",
+                "field_type": "/Tx",
+                "description": "ATTY State License #  ",
+                "struct_parent": 2,
+                "tool_tip": "ATTY State License #  ",
+                "initial_value": "",
+                "rect": [
+                    403.5,
+                    57.997,
+                    575.997,
+                    78.558
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_line3[0]",
+                "field_type": "/Btn",
+                "description": "I am a habitual resident of the United States as: Check this box for: A person who is domiciled in the United States",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. Information About You. 3. I am a habitual resident of the United States as: Check this box for: A person who is domiciled in the United States.",
+                "initial_value": "",
+                "rect": [
+                    50.393,
+                    694.037,
+                    60.393,
+                    704.037
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Part2_line3[1]",
+                "field_type": "/Btn",
+                "description": "I am a habitual resident of the United States as: Check this box for: A person who is domiciled in the United States, even if temporarily living outside the United States",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Information About You. 3. I am a habitual resident of the United States as: Check this box for: A person who is domiciled in the United States, even if temporarily living outside the United States.",
+                "initial_value": "",
+                "rect": [
+                    50.393,
+                    672.879,
+                    60.393,
+                    682.879
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Part2_line3[3]",
+                "field_type": "/Btn",
+                "description": "I am a habitual resident of the United States as: Check this box for: A person who will establish a domicile in the United States on or before the date of the child's admission to the United States for permanent residence as a Convention adoptee",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Information About You. 3. I am a habitual resident of the United States as: Check this box for: A person who will establish a domicile in the United States on or before the date of the child's admission to the United States for permanent residence as a Convention adoptee.",
+                "initial_value": "",
+                "rect": [
+                    50.393,
+                    653.8,
+                    60.393,
+                    663.8
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Part2_line3[2]",
+                "field_type": "/Btn",
+                "description": "citizen",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Information About You. 3. I am a habitual resident of the United States as: Check this box for: A person domiciled outside the United States who will bring the child to the United States after adoption and before the child's 18th birthday for naturalization as a U.S. citizen.",
+                "initial_value": "",
+                "rect": [
+                    50.393,
+                    625.002,
+                    60.393,
+                    635.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "prt1no4[0]",
+                "field_type": "/Btn",
+                "description": "I am: Check this box for: A citizen of the United States",
+                "struct_parent": 32,
+                "tool_tip": "Part 2. Information About You. 4. I am: Check this box for: A citizen of the United States. ",
+                "initial_value": "",
+                "rect": [
+                    52.937,
+                    571.272,
+                    62.937,
+                    581.272
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P4CitzCkbx[2]",
+                "field_type": "/Btn",
+                "description": "citizenship through: Check this box for Naturalization",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Information About You. 4. I obtained my U.S. citizenship through: Check this box for Naturalization.",
+                "initial_value": "",
+                "rect": [
+                    279.224,
+                    552.739,
+                    289.224,
+                    562.739
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "P4CitzCkbx[1]",
+                "field_type": "/Btn",
+                "description": "citizenship through: Check this box for Parents",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Information About You. 4. I obtained my U.S. citizenship through: Check this box for Parents.",
+                "initial_value": "",
+                "rect": [
+                    209.322,
+                    552.739,
+                    219.322,
+                    562.739
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P4CitzCkbx[0]",
+                "field_type": "/Btn",
+                "description": "citizenship through: Check this box for Birth in the United States",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Information About You. 4. I obtained my U.S. citizenship through: Check this box for Birth in the United States.",
+                "initial_value": "",
+                "rect": [
+                    69.795,
+                    552.739,
+                    79.795,
+                    562.739
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no4[1]",
+                "field_type": "/Btn",
+                "description": "You may not file this application (see Pages 1 to 2 of instructions for eligibility to file)",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. Information About You. 4. I am: Check this box for: Not a citizen of the United States.  \rNOTE:\rSTOP.  You may not file this application (see Pages 1 to 2 of instructions for eligibility to file).",
+                "initial_value": "",
+                "rect": [
+                    52.937,
+                    528.411,
+                    62.937,
+                    538.411
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "NameUnderWhichCertificateofCitizenshipWasIssued[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name under which Certificate of Citizenship was issued",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Information About You. 5. If you answered Yes above, provide the following information.\r\rEnter the Name under which Certificate of Citizenship was issued.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    434.46,
+                    573.08,
+                    451.634
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "DateofIssuance[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Information About You. 5. Enter the Date of Issuance. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    161.697,
+                    392.502,
+                    257.171,
+                    407.876
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofIssuance[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Issuance",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. Information About You. 5. Enter Place of Issuance.",
+                "initial_value": "",
+                "rect": [
+                    264.039,
+                    392.499,
+                    458.396,
+                    409.176
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CertificateofCitizenshipNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certificate of Citizenship Number",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. Information About You. 5. Enter the Certificate of Citizenship Number.",
+                "initial_value": "",
+                "rect": [
+                    50.59,
+                    392.496,
+                    154.621,
+                    407.219
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "NameUnderWhichCertificateofNaturalizationWasIssued[0]",
+                "field_type": "/Tx",
+                "description": "If you became a citizen by naturalization, give the following information: Enter the Name Under Which Certificate of Naturalization Was Issued",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Information About You. 6. If you became a citizen by naturalization, give the following information: Enter the Name Under Which Certificate of Naturalization Was Issued.",
+                "initial_value": "",
+                "rect": [
+                    50.59,
+                    339.791,
+                    575.671,
+                    356.965
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "DateofNaturalization[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Information About You. 6. If you became a citizen by naturalization, give the following information: Enter the Date of Naturalization. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    161.58,
+                    293.445,
+                    257.054,
+                    310.574
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofNaturalization[0]",
+                "field_type": "/Tx",
+                "description": "If you became a citizen by naturalization, give the following information: Enter the Place of Naturalization",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. Information About You. 6. If you became a citizen by naturalization, give the following information: Enter the Place of Naturalization.",
+                "initial_value": "",
+                "rect": [
+                    263.923,
+                    293.442,
+                    458.28,
+                    311.707
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "NaturalizationCertificateNumber[0]",
+                "field_type": "/Tx",
+                "description": "If you became a citizen by naturalization, give the following information: Enter the Naturalization Certificate Number",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Information About You. 6. If you became a citizen by naturalization, give the following information: Enter the Naturalization Certificate Number.",
+                "initial_value": "",
+                "rect": [
+                    50.59,
+                    293.439,
+                    154.621,
+                    310.288
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "prt1no8a[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Single, Never Married",
+                "struct_parent": 33,
+                "tool_tip": "Part 2. Information About You. 8. A. Provide the following information about your current marital status. Check this box for Single, Never Married.",
+                "initial_value": "",
+                "rect": [
+                    62.745,
+                    185.551,
+                    72.745,
+                    195.551
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no8a[3]",
+                "field_type": "/Btn",
+                "description": ")Married",
+                "struct_parent": 36,
+                "tool_tip": "Part 2. Information About You. 8. A. Check this box for: Single, with all previous marriages terminated.  (If you check this box, you must complete 8, C.)Married.",
+                "initial_value": "",
+                "rect": [
+                    62.745,
+                    167.466,
+                    72.745,
+                    177.466
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no8a[2]",
+                "field_type": "/Btn",
+                "description": "B",
+                "struct_parent": 35,
+                "tool_tip": "Part 2. Information About You. 8. A. Check this box for: Married, with no previous marriages.  (If you check this box, you must complete 8. B.)",
+                "initial_value": "",
+                "rect": [
+                    62.745,
+                    150.79,
+                    72.745,
+                    160.79
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt1no8a[1]",
+                "field_type": "/Btn",
+                "description": "B, and C",
+                "struct_parent": 34,
+                "tool_tip": "Part 2. Information About You. 8. A. Check this box for: Married, with all previous marriages terminated.  (If you check this box, you must complete 8. B, and C.)",
+                "initial_value": "",
+                "rect": [
+                    62.745,
+                    133.001,
+                    72.745,
+                    143.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "PlaceofCurrentMarriage[0]",
+                "field_type": "/Tx",
+                "description": "If married, provide the following information: Place of Current Marriage \r(City / Town, State / Province, Country)",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Information About You. 8. B. If married, provide the following information: Place of Current Marriage \r(City / Town, State / Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    178.943,
+                    66.529,
+                    576.0,
+                    84.649
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "DateofCurrentMarriage[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. Information About You. 8. B. If married, provide the following information: Enter the Date of Current Marriage. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    60.1,
+                    66.529,
+                    170.705,
+                    84.794
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "prt1no5[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. Information About You. 5. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.835,
+                    499.909,
+                    552.835,
+                    509.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "prt1no5[0]",
+                "field_type": "/Btn",
+                "description": "You may not file this application (see Pages 1 to 2 of instructions for eligibility to file)",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. Information About You. 4. I am: Check this box for: Not a citizen of the United States.  \rNOTE:\rSTOP.  You may not file this application (see Pages 1 to 2 of instructions for eligibility to file).",
+                "initial_value": "",
+                "rect": [
+                    495.202,
+                    499.909,
+                    505.202,
+                    509.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number) if known",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. Information About You. 5. Enter an Alien Registration Number (A - Number) if known.",
+                "initial_value": "",
+                "rect": [
+                    465.14,
+                    392.499,
+                    576.0,
+                    409.176
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ANumber[1]",
+                "field_type": "/Tx",
+                "description": "If you became a citizen by naturalization, give the following information: Enter an Alien Registration Number (A - Number) if known",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Information About You. 6. If you became a citizen by naturalization, give the following information: Enter an Alien Registration Number (A - Number) if known.",
+                "initial_value": "",
+                "rect": [
+                    465.14,
+                    293.442,
+                    576.0,
+                    311.874
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "prt1no7[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Information About You. 7. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    271.907,
+                    552.767,
+                    281.907
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no7[0]",
+                "field_type": "/Btn",
+                "description": "If \"Yes,\" attach a detailed explanation including date, place, and circumstances on a separate sheet of paper",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Information About You. 7.  Have you, or any person through whom you claimed citizenship, ever lost U.S. citizenship?  Check this box for Yes.\r\rIf \"Yes,\" attach a detailed explanation including date, place, and circumstances on a separate sheet of paper.",
+                "initial_value": "",
+                "rect": [
+                    495.202,
+                    271.907,
+                    505.202,
+                    281.907
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "FFField1[0]",
+                "field_type": "/Tx",
+                "description": "Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 1. Enter the Number of Previous Marriages. (Do not count current marriage). \r\rNOTE:  If you need more space to complete, use a separate sheet of paper.  Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers. ",
+                "initial_value": "",
+                "rect": [
+                    80.881,
+                    665.28,
+                    210.495,
+                    684.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "NameofPriorSpouse[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Prior Spouse",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): A. Enter the Name of Prior Spouse. ",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    600.148,
+                    405.017,
+                    618.287
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofEntryAdjustment[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. A. Provide the following information on each terminated marriage (if applicable): Enter the Date Marriage Ended. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    86.879,
+                    597.923,
+                    173.999,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "NameofPriorSpouse[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Prior Spouse",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): B. Enter the Name of Prior Spouse. ",
+                "initial_value": "",
+                "rect": [
+                    181.363,
+                    552.149,
+                    405.017,
+                    570.288
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofEntryAdjustment[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): B. Enter the Date Marriage Ended. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    88.515,
+                    551.88,
+                    173.991,
+                    570.6
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "[1]",
+                "field_type": "/Tx",
+                "description": "9",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Information About You. 9.  My contact information is (all phone numbers must include area code and country code, if applicable):",
+                "initial_value": "",
+                "rect": [
+                    187.055,
+                    454.524,
+                    315.601,
+                    473.444
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "9",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Information About You. 9.  My contact information is (all phone numbers must include area code and country code, if applicable):",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    454.524,
+                    178.946,
+                    473.444
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "prt12a[2]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Other",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): A. How Marriage Ended: Check this box for Other.",
+                "initial_value": "",
+                "rect": [
+                    533.458,
+                    605.625,
+                    543.458,
+                    615.625
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt12a[1]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Death",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): A. How Marriage Ended: Check this box for Death.",
+                "initial_value": "",
+                "rect": [
+                    482.256,
+                    605.625,
+                    492.256,
+                    615.625
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt12a[0]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Divorce",
+                "struct_parent": 66,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): A. How Marriage Ended: Check this box for Divorce.",
+                "initial_value": "",
+                "rect": [
+                    422.711,
+                    605.625,
+                    432.711,
+                    615.625
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no2b[2]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Other",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): B. How Marriage Ended: Check this box for Other.",
+                "initial_value": "",
+                "rect": [
+                    533.458,
+                    556.152,
+                    543.458,
+                    566.152
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt1no2b[1]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Death",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): B. How Marriage Ended: Check this box for Death.",
+                "initial_value": "",
+                "rect": [
+                    482.256,
+                    556.152,
+                    492.256,
+                    566.152
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no2b[0]",
+                "field_type": "/Btn",
+                "description": "How Marriage Ended: Check this box for Divorce",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. Information About You. 8. C. Information on all previous marriages, if applicable.  Begin with the most recent termination. 2. Provide the following information on each terminated marriage (if applicable): B. How Marriage Ended: Check this box for Divorce.",
+                "initial_value": "",
+                "rect": [
+                    422.711,
+                    556.152,
+                    432.711,
+                    566.152
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. Information About You. 9.  My contact information. Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    322.713,
+                    454.527,
+                    576.0,
+                    472.959
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "prt1no10a[1]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    419.774,
+                    552.764,
+                    429.774
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no10a[0]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Information About You. Each of the following questions must be answered.  See \"Duty of Disclosure\" on Page 7 of the instructions to Form I-800A concerning your ongoing duty to disclose information in answer to these questions.  If the answer is \"Yes\" to any of the questions, provide a certified copy of the documentation showing the final disposition of each incident which resulted in arrest, indictment, conviction, and/or any other judicial or administrative action and a written statement giving details, including any mitigating circumstances, about each arrest, signed under penalty of perjury under U.S. law.  The written statement must show the date of each incident; place incident occurred (city/town, State/province, country); name of police department or other law enforcement administration or other entity involved; date of incarceration and name of facility, if applicable.  Provide a description of any type of counseling, rehabilitation, or other information that you would like considered in light of this history on a separate sheet of paper.\r\r10.  Have you ever, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    419.774,
+                    505.012,
+                    429.774
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no10b[1]",
+                "field_type": "/Btn",
+                "description": "",
+                "struct_parent": 84,
+                "tool_tip": ".",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    376.344,
+                    552.764,
+                    386.344
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no10b[0]",
+                "field_type": "/Btn",
+                "description": "Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: B.  Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    376.344,
+                    505.012,
+                    386.344
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no10c[1]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    345.219,
+                    552.764,
+                    355.219
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt1no10c[0]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    345.219,
+                    505.012,
+                    355.219
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no10d[0]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    302.167,
+                    505.012,
+                    312.167
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt1no10d[1]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. Information About You. 10.  Have you ever, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.835,
+                    301.909,
+                    552.835,
+                    311.909
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "GivenNameFirstName[1]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter the Given Name (First Name)",
+                "struct_parent": 91,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    237.342,
+                    676.105,
+                    403.217,
+                    692.404
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FamilyNameLastName[1]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter the Family Name (Last Name)",
+                "struct_parent": 90,
+                "tool_tip": "Part 3.  Information About Your Spouse.  If you are married, provide the following information about your spouse: Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    676.105,
+                    230.61,
+                    692.404
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "OtherNamesUsed[3]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter Other Name Used",
+                "struct_parent": 96,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter Other Name Used.",
+                "initial_value": "",
+                "rect": [
+                    231.015,
+                    642.271,
+                    398.384,
+                    660.991
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "OtherNamesUsed[4]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter Other Name Used",
+                "struct_parent": 97,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter Other Name Used.",
+                "initial_value": "",
+                "rect": [
+                    53.28,
+                    642.271,
+                    220.649,
+                    660.991
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Information About Your Spouse",
+                "struct_parent": 98,
+                "tool_tip": "Part 3.  Information About Your Spouse.  If you are married, provide the following information about your spouse: Enter Place of BIrth (CIty / Town, State / Province, Country)",
+                "initial_value": "",
+                "rect": [
+                    174.387,
+                    610.534,
+                    576.0,
+                    626.833
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 99,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    610.532,
+                    166.615,
+                    626.834
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter and Alien Registration Number (A - Number), if any",
+                "struct_parent": 94,
+                "tool_tip": "Part 3.  Information About Your Spouse.  If you are married, provide the following information about your spouse: Enter and Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    237.342,
+                    579.16,
+                    403.217,
+                    594.77
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "SocialSecurityNumber[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 93,
+                "tool_tip": "Part 3.  Information About Your Spouse.  If you are married, provide the following information about your spouse: Enter a U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    579.16,
+                    230.61,
+                    595.459
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "StreetNumberandName[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 105,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you?  Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    487.241,
+                    523.185,
+                    504.415
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "StateorProvince[2]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Home Address. Enter the State or Province. ",
+                "initial_value": "",
+                "rect": [
+                    212.207,
+                    457.874,
+                    352.607,
+                    474.173
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City[2]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 106,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Home Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    457.874,
+                    205.506,
+                    474.173
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Originalsignaturerequired[0]",
+                "field_type": "/Tx",
+                "description": "Enter an In Care of Name",
+                "struct_parent": 104,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address. Enter an In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    428.125,
+                    523.188,
+                    445.299
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "InCareOf[1]",
+                "field_type": "/Tx",
+                "description": "Enter an In Care of Name",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address. Enter an In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    398.46,
+                    572.658,
+                    415.634
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "StateorProvince[3]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    212.207,
+                    368.54,
+                    352.607,
+                    384.839
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City[3]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    368.54,
+                    205.509,
+                    384.729
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "E-mailAddress[1]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Spouse's Contact Information. Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    229.289,
+                    296.325,
+                    576.332,
+                    314.757
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "[2]",
+                "field_type": "/Tx",
+                "description": "Enter a Daytime Phone Number with area and / or country code",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Spouse's Contact Information. Enter a Daytime Phone Number with area and / or country code.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    296.322,
+                    222.48,
+                    314.59
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "NumberofPreviousMarriages[0]",
+                "field_type": "/Tx",
+                "description": "Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers",
+                "struct_parent": 88,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married?  A. Enter the Number of Previous Marriages. Do not count current Marriage.\r\rNOTE:  If you need more space to complete, use a separate sheet of paper.  Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers.",
+                "initial_value": "",
+                "rect": [
+                    66.883,
+                    206.932,
+                    196.497,
+                    225.652
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "NameofPriorSpouse[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Prior Spouse",
+                "struct_parent": 87,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 1. Enter the Name of Prior Spouse.",
+                "initial_value": "",
+                "rect": [
+                    174.161,
+                    139.831,
+                    397.815,
+                    158.06
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateMarriageEnded[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 119,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 1. Enter the Date Marriage Ended. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    79.098,
+                    139.652,
+                    164.574,
+                    158.372
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter the Middle Name",
+                "struct_parent": 89,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter the Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    410.128,
+                    676.105,
+                    576.0,
+                    692.404
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "OtherNamesUsed[2]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter Other Name Used",
+                "struct_parent": 95,
+                "tool_tip": "Part 3.  Information About Your Spouse.  1. If you are married, provide the following information about your spouse: Enter Other Name Used.",
+                "initial_value": "",
+                "rect": [
+                    408.631,
+                    642.271,
+                    576.0,
+                    660.991
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "USCISAccountNumber[1]",
+                "field_type": "/Tx",
+                "description": "If you are married, provide the following information about your spouse: Enter a U S C I S Account Number, if any",
+                "struct_parent": 92,
+                "tool_tip": "Part 3.  Information About Your Spouse.  If you are married, provide the following information about your spouse: Enter a U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    410.128,
+                    579.16,
+                    576.0,
+                    595.459
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "prt2no1[0]",
+                "field_type": "/Btn",
+                "description": "",
+                "struct_parent": 100,
+                "tool_tip": ".",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    559.907,
+                    504.836,
+                    569.907
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "prt2no1[1]",
+                "field_type": "/Btn",
+                "description": "",
+                "struct_parent": 101,
+                "tool_tip": ".",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    559.904,
+                    552.767,
+                    569.904
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "ApartmentNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if any",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Home Address. Enter an Apartment Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    530.521,
+                    487.238,
+                    576.0,
+                    503.537
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Country[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Home Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    435.6,
+                    457.874,
+                    576.0,
+                    474.173
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ZipPostalCode[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip or Postal Code",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Home Address. Enter the Zip or Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    359.382,
+                    457.874,
+                    429.239,
+                    474.173
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ApartmentNumber[3]",
+                "field_type": "/Tx",
+                "description": "Apartment Number",
+                "struct_parent": 116,
+                "tool_tip": "Apartment Number",
+                "initial_value": "",
+                "rect": [
+                    530.521,
+                    428.122,
+                    576.0,
+                    444.421
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Country[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address.Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    435.6,
+                    368.54,
+                    576.0,
+                    384.839
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ZipPostalCode[3]",
+                "field_type": "/Tx",
+                "description": "Enter Zip or Postal Code",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Information About Your Spouse. 2. Does your spouse reside with you? Mailing Address if different from Home Address. Enter Zip or Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    359.382,
+                    368.54,
+                    429.239,
+                    384.839
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "prt2no3[1]",
+                "field_type": "/Btn",
+                "description": "Prior to your current marriage, has your spouse been previously married? Check this box for No",
+                "struct_parent": 103,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? Check this box for No. ",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    277.908,
+                    552.767,
+                    287.908
+                ],
+                "page_number": 4,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no3[0]",
+                "field_type": "/Btn",
+                "description": "",
+                "struct_parent": 102,
+                "tool_tip": ".",
+                "initial_value": "",
+                "rect": [
+                    495.015,
+                    277.908,
+                    505.015,
+                    287.908
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no3b1[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other",
+                "struct_parent": 122,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 1. How Marriage Ended. Check this box for Other. ",
+                "initial_value": "",
+                "rect": [
+                    533.458,
+                    143.924,
+                    543.458,
+                    153.924
+                ],
+                "page_number": 4,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt2no3b1[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Death",
+                "struct_parent": 121,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 1. How Marriage Ended. Check this box for Death. ",
+                "initial_value": "",
+                "rect": [
+                    482.423,
+                    143.924,
+                    492.423,
+                    153.924
+                ],
+                "page_number": 4,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no3b1[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Divorce",
+                "struct_parent": 120,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 1. How Marriage Ended. Check this box for Divorce. ",
+                "initial_value": "",
+                "rect": [
+                    422.878,
+                    143.924,
+                    432.878,
+                    153.924
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "NameofPriorSpouse[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Prior Spouse",
+                "struct_parent": 126,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 2. Enter the Name of Prior Spouse.",
+                "initial_value": "",
+                "rect": [
+                    174.379,
+                    678.059,
+                    398.033,
+                    696.288
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "DateMarriageEnded[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 125,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 2. Enter the Date Marriage Ended. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    79.319,
+                    677.88,
+                    164.795,
+                    696.6
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "prt2no4[0]",
+                "field_type": "/Btn",
+                "description": "4",
+                "struct_parent": 130,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse: Check this box for: Is a citizen of the United States through:",
+                "initial_value": "",
+                "rect": [
+                    53.266,
+                    607.747,
+                    63.266,
+                    617.747
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P2CitzCkbx[2]",
+                "field_type": "/Btn",
+                "description": "Your Spouse is a citizen of the United States through: Check this box for: Naturalization",
+                "struct_parent": 136,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse is a citizen of the United States through: Check this box for: Naturalization.",
+                "initial_value": "",
+                "rect": [
+                    279.553,
+                    589.176,
+                    289.553,
+                    599.176
+                ],
+                "page_number": 5,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "P2CitzCkbx[1]",
+                "field_type": "/Btn",
+                "description": "Your Spouse is a citizen of the United States through: Check this box for: Parents",
+                "struct_parent": 135,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse is a citizen of the United States through: Check this box for: Parents.",
+                "initial_value": "",
+                "rect": [
+                    209.651,
+                    589.176,
+                    219.651,
+                    599.176
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P2CitzCkbx[0]",
+                "field_type": "/Btn",
+                "description": "Your Spouse is a citizen of the United States through: Check this box for: Birtth in the United States",
+                "struct_parent": 134,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse is a citizen of the United States through: Check this box for: Birtth in the United States.",
+                "initial_value": "",
+                "rect": [
+                    70.124,
+                    589.176,
+                    80.124,
+                    599.176
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no4[1]",
+                "field_type": "/Btn",
+                "description": "Your Spouse: Check this box for: Is a non-citizen national of the United States",
+                "struct_parent": 131,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse: Check this box for: Is a non-citizen national of the United States.",
+                "initial_value": "",
+                "rect": [
+                    53.051,
+                    571.002,
+                    63.051,
+                    581.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no4[2]",
+                "field_type": "/Btn",
+                "description": "Your Spouse: Check this box for: Is an alien who has been lawfully admitted for permanent residence",
+                "struct_parent": 132,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse: Check this box for: Is an alien who has been lawfully admitted for permanent residence.",
+                "initial_value": "",
+                "rect": [
+                    53.051,
+                    553.0,
+                    63.051,
+                    563.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt2no4[3]",
+                "field_type": "/Btn",
+                "description": "If your spouse is an alien who does not live in the United States, provide a complete explanation",
+                "struct_parent": 133,
+                "tool_tip": "Part 3.  Information About Your Spouse. 4. Your Spouse: Check this box for: Is an alien who has not been lawfully admitted for permanent residence.  (Provide a full explanation on a separate sheet of paper.  Copies of any relevant documents relating to any other immigration status must be attached to Form I-800A.  If your spouse is an alien who does not live in the United States, provide a complete explanation.)",
+                "initial_value": "",
+                "rect": [
+                    53.051,
+                    523.001,
+                    63.051,
+                    533.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "NameUnderWhichCertificateofCitizenshipWasIssued[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter the Name Under Which Certificate of Citizenship Was Issued",
+                "struct_parent": 144,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter the Name Under Which Certificate of Citizenship Was Issued.",
+                "initial_value": "",
+                "rect": [
+                    50.618,
+                    425.463,
+                    575.699,
+                    442.637
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PlaceofIssuance[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter Place of Issuance",
+                "struct_parent": 143,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter Place of Issuance.",
+                "initial_value": "",
+                "rect": [
+                    263.951,
+                    379.114,
+                    458.308,
+                    397.546
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "DateofIssuance[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 147,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter the Date of Issuance. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    161.606,
+                    379.111,
+                    257.08,
+                    397.376
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CertificateofCitizenshipNumber[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Certificate of Citizenship Number",
+                "struct_parent": 146,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Certificate of Citizenship Number.",
+                "initial_value": "",
+                "rect": [
+                    50.618,
+                    379.111,
+                    154.649,
+                    398.031
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Originalsignaturerequired[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse became a citizen by naturalization, give the following information: Enter the Name Under Which Certificate of Citizenship Was Issued",
+                "struct_parent": 149,
+                "tool_tip": "Part 3.  Information About Your Spouse.   6.  If your spouse became a citizen by naturalization, give the following information: Enter the Name Under Which Certificate of Citizenship Was Issued.",
+                "initial_value": "",
+                "rect": [
+                    50.618,
+                    318.498,
+                    575.699,
+                    335.672
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PlaceofNaturalization[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse became a citizen by naturalization, give the following information: Enter the Place of Naturalization",
+                "struct_parent": 148,
+                "tool_tip": "Part 3.  Information About Your Spouse.    6.  If your spouse became a citizen by naturalization, give the following information: Enter the Place of Naturalization.",
+                "initial_value": "",
+                "rect": [
+                    263.951,
+                    272.149,
+                    458.308,
+                    289.611
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "DateofNaturalization[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 152,
+                "tool_tip": "Part 3.  Information About Your Spouse.    6.  If your spouse became a citizen by naturalization, give the following information: Enter the Date of Naturalization. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    161.606,
+                    272.149,
+                    257.08,
+                    290.414
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "NaturalizationCertificateNumber[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse became a citizen by naturalization, give the following information: Enter the Naturalization Certificate Number",
+                "struct_parent": 151,
+                "tool_tip": "Part 3.  Information About Your Spouse.    6.  If your spouse became a citizen by naturalization, give the following information: Enter the Naturalization Certificate Number.",
+                "initial_value": "",
+                "rect": [
+                    50.618,
+                    272.146,
+                    154.649,
+                    291.066
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "prt2no3b2[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other",
+                "struct_parent": 129,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 2. How Marriage Ended. Check this box for Other. ",
+                "initial_value": "",
+                "rect": [
+                    533.458,
+                    682.152,
+                    543.458,
+                    692.152
+                ],
+                "page_number": 5,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt2no3b2[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Death",
+                "struct_parent": 128,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 2. How Marriage Ended. Check this box for Death. ",
+                "initial_value": "",
+                "rect": [
+                    482.641,
+                    682.152,
+                    492.641,
+                    692.152
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no3b2[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Divorce",
+                "struct_parent": 127,
+                "tool_tip": "Part 3.  Information About Your Spouse 3.  Prior to your current marriage, has your spouse been previously married? B.  Provide the following information on each terminated marriage (if applicable): 2. How Marriage Ended. Check this box for Divorce. ",
+                "initial_value": "",
+                "rect": [
+                    423.097,
+                    682.152,
+                    433.097,
+                    692.152
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no5[1]",
+                "field_type": "/Btn",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Check this box for No",
+                "struct_parent": 138,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    487.907,
+                    552.767,
+                    497.907
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no5[0]",
+                "field_type": "/Btn",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Check this box for Yes",
+                "struct_parent": 137,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Check this box for Yes. If Yes, provide the following information:",
+                "initial_value": "",
+                "rect": [
+                    495.23,
+                    487.907,
+                    505.23,
+                    497.907
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter an Alien Registration Number (A - Number), if known",
+                "struct_parent": 145,
+                "tool_tip": "Part 3.  Information About Your Spouse.   5.  If your spouse derived citizenship through his or her parent(s), has he or she obtained his or her own certificate of citizenship? Enter an Alien Registration Number (A - Number), if known.",
+                "initial_value": "",
+                "rect": [
+                    465.14,
+                    379.114,
+                    576.0,
+                    397.546
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "ANumber[1]",
+                "field_type": "/Tx",
+                "description": "If your spouse became a citizen by naturalization, give the following information: Enter an Alien Registration Number (A - Number), if known",
+                "struct_parent": 150,
+                "tool_tip": "Part 3.  Information About Your Spouse.    6.  If your spouse became a citizen by naturalization, give the following information: Enter an Alien Registration Number (A - Number), if known.",
+                "initial_value": "",
+                "rect": [
+                    465.14,
+                    272.149,
+                    576.0,
+                    290.581
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "prt2no7[1]",
+                "field_type": "/Btn",
+                "description": "citizenship? Check this box for No",
+                "struct_parent": 140,
+                "tool_tip": "Part 3.  Information About Your Spouse.     7.  Has your spouse, or any person through whom he or she claimed citizenship, ever lost U.S. citizenship? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    253.904,
+                    552.767,
+                    263.904
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no7[0]",
+                "field_type": "/Btn",
+                "description": "If \"Yes,\" attach a detailed explanation on a separate sheet of paper",
+                "struct_parent": 139,
+                "tool_tip": "Part 3.  Information About Your Spouse.     7.  Has your spouse, or any person through whom he or she claimed citizenship, ever lost U.S. citizenship? Check this box for Yes. If \"Yes,\" attach a detailed explanation on a separate sheet of paper.",
+                "initial_value": "",
+                "rect": [
+                    495.23,
+                    253.904,
+                    505.23,
+                    263.904
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no8a[1]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No",
+                "struct_parent": 142,
+                "tool_tip": "Part 3.  Information About Your Spouse.     8.  Has your spouse ever, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    197.937,
+                    552.767,
+                    207.937
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no8a[0]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes",
+                "struct_parent": 141,
+                "tool_tip": "Part 3.  Information About Your Spouse.     8.  Has your spouse ever, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.23,
+                    197.937,
+                    505.23,
+                    207.937
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no1[0]",
+                "field_type": "/Btn",
+                "description": "The home study: Check this box for: Is attached to this application",
+                "struct_parent": 162,
+                "tool_tip": "Part 4. General Information. 1. The home study: Check this box for: Is attached to this application.",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    414.569,
+                    63.235,
+                    424.569
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no1[1]",
+                "field_type": "/Btn",
+                "description": "(Do not submit your Form I-800A to USCIS until the State authority is ready to send the home study to USCIS",
+                "struct_parent": 163,
+                "tool_tip": "Part 4. General Information. 1. The home study: Check this box for: Is not attached to this application because of State requirements necessitating review and documentation.  The appropriate State authority has indicated that it will submit the home study directly to USCIS.  (Do not submit your Form I-800A to USCIS until the State authority is ready to send the home study to USCIS.)",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    384.999,
+                    63.235,
+                    394.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt3no2[0]",
+                "field_type": "/Btn",
+                "description": "2, that prepared and approved your home study or reviewed and approved your home study after it was prepared by another authorized home study preparer, or the public domestic authority, as defined in 22 CFR 96",
+                "struct_parent": 172,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.   Provide the name and address of either (Check one): A. Check this box for: The adoption service provider that is responsible for your home study (either the accredited agency or temporarily accredited agency, as defined in 22 CFR 96.2, that prepared and approved your home study or reviewed and approved your home study after it was prepared by another authorized home study preparer, or the public domestic authority, as defined in 22 CFR 96.2, that both prepared and approved your home study); or",
+                "initial_value": "",
+                "rect": [
+                    63.429,
+                    330.863,
+                    73.429,
+                    340.863
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no2[1]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 173,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.   Provide the name and address of either (Check one): B. Check this box for: The primary adoption service provider who is responsible in your case, if you have already identified a primary adoption service provider.  (A primary adoption service provider is an accredited or temporarily accredited agency or approved person who is responsible under 22 CFR Part 96.14 for the six adoption services defined in 22 C F R Part 96 . 2, and for supervising and being responsible for supervised providers where used in a Convention adoption case.). ",
+                "initial_value": "",
+                "rect": [
+                    63.431,
+                    275.199,
+                    73.431,
+                    285.199
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "NameofAdoptionServiceProvider[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Adoption Service Provider",
+                "struct_parent": 164,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Name of Adoption Service Provider.",
+                "initial_value": "",
+                "rect": [
+                    79.469,
+                    203.261,
+                    576.0,
+                    220.555
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "PointofContact[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Point of Contact (contact person within the organization)",
+                "struct_parent": 170,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Point of Contact (contact person within the organization).",
+                "initial_value": "",
+                "rect": [
+                    79.846,
+                    171.374,
+                    376.35,
+                    188.548
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "StreetNumberandName[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 155,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    79.846,
+                    138.673,
+                    522.935,
+                    155.847
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "StateorProvince[4]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 166,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    229.158,
+                    106.358,
+                    362.361,
+                    122.657
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "City[4]",
+                "field_type": "/Tx",
+                "description": "Enter the Suite Number, if any",
+                "struct_parent": 165,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Suite Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    79.846,
+                    106.358,
+                    222.21,
+                    122.657
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "prt2no8b[1]",
+                "field_type": "/Btn",
+                "description": "Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for No",
+                "struct_parent": 157,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: B.  Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    705.106,
+                    552.767,
+                    715.106
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no8b[0]",
+                "field_type": "/Btn",
+                "description": "Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes",
+                "struct_parent": 156,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: B.  Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.015,
+                    705.106,
+                    505.015,
+                    715.106
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no8c[1]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No",
+                "struct_parent": 161,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    675.853,
+                    552.767,
+                    685.853
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no8c[0]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes",
+                "struct_parent": 160,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.015,
+                    675.853,
+                    505.015,
+                    685.853
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no8d[1]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No",
+                "struct_parent": 159,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    634.195,
+                    552.767,
+                    644.195
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no8d[0]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes",
+                "struct_parent": 158,
+                "tool_tip": "Part 3.  Information About Your Spouse.   8.  Has your spouse ever, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.015,
+                    634.195,
+                    505.015,
+                    644.195
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Point of Contact (contact person within the organization)",
+                "struct_parent": 171,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Point of Contact (contact person within the organization).",
+                "initial_value": "",
+                "rect": [
+                    383.757,
+                    171.371,
+                    576.0,
+                    187.67
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "SuiteNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Suite Number, if any",
+                "struct_parent": 169,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Suite Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    530.521,
+                    138.676,
+                    576.0,
+                    154.975
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Country[4]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 167,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    445.394,
+                    106.358,
+                    576.0,
+                    122.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "ZipPostalCode[4]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip or Postal Code",
+                "struct_parent": 168,
+                "tool_tip": "Part 4. General Information. 2.  Name and Address of Adoption Service Provider.  B. Enter the Zip or Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    368.963,
+                    106.358,
+                    438.82,
+                    122.657
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "WrittenDescriptionofthePreadoptionRequirements[0]",
+                "field_type": "/Tx",
+                "description": "Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers",
+                "struct_parent": 176,
+                "tool_tip": "Part 4. General Information. 3.   Provide a written description of the preadoption requirements, if any, of the State of the child's proposed residence when it is known that the child will be adopted in the United States, including a citation to the relevant State statutes and regulations.  Describe the steps that have already been taken or that are planned to comply with these requirements.  Any preadoption requirements which cannot be met at the time Form I-800A is filed because of the operation of State law must be noted and explained.\r\rNOTE:  If you need more space to complete, use a separate sheet of paper.  Write your name and USCIS Account Number, if known, at the top of each sheet of paper and indicate the part and number of the item to which the answer refers.",
+                "initial_value": "",
+                "rect": [
+                    53.28,
+                    532.131,
+                    575.855,
+                    657.329
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt3no4[0]",
+                "field_type": "/Btn",
+                "description": "To complete the proposed adoption in the Convention country",
+                "struct_parent": 178,
+                "tool_tip": "Part 4. General Information. 4. You Plan to (Check one). Check this box for A. To complete the proposed adoption in the Convention country.",
+                "initial_value": "",
+                "rect": [
+                    60.645,
+                    462.743,
+                    70.645,
+                    472.743
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no4[1]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 179,
+                "tool_tip": "Part 4. General Information. 4. You Plan to (Check one). Check this box for B. Check this box for: Obtain legal custody of the child in the Convention country and adopt the child in the United States.  (If you selected Box 4, b, make sure that you have properly completed Item 3 above.).",
+                "initial_value": "",
+                "rect": [
+                    60.645,
+                    441.163,
+                    70.645,
+                    451.163
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "TypeofApplicationPetitionFiled[0]",
+                "field_type": "/Tx",
+                "description": "If you selected Yes, provide the following: A",
+                "struct_parent": 177,
+                "tool_tip": "Part 4. General Information. 6. A. If you selected Yes, provide the following: A. Enter the Type of Application / Petition Filed",
+                "initial_value": "",
+                "rect": [
+                    66.631,
+                    265.893,
+                    576.001,
+                    284.613
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt3b[0]",
+                "field_type": "/Btn",
+                "description": "",
+                "struct_parent": 185,
+                "tool_tip": ".",
+                "initial_value": "",
+                "rect": [
+                    66.595,
+                    216.267,
+                    76.595,
+                    226.267
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "ApprovalDate[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 186,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. If you selected Approved, Enter the Approval Date. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    251.914,
+                    213.707,
+                    334.296,
+                    228.827
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt3b[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for: Denied",
+                "struct_parent": 188,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. Check this box for: Denied.",
+                "initial_value": "",
+                "rect": [
+                    66.595,
+                    196.044,
+                    76.595,
+                    206.044
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "DeniallDate[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 187,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. If you selected Denied. Enter the Denial Date. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    251.928,
+                    193.484,
+                    334.295,
+                    208.604
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt3b[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for: Other",
+                "struct_parent": 189,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. Check this box for: Other.",
+                "initial_value": "",
+                "rect": [
+                    66.583,
+                    155.441,
+                    76.583,
+                    165.441
+                ],
+                "page_number": 7,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Explain[0]",
+                "field_type": "/Tx",
+                "description": "If You selected Other, Enter an Explanation",
+                "struct_parent": 190,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. If You selected Other, Enter an Explanation.",
+                "initial_value": "",
+                "rect": [
+                    169.929,
+                    152.881,
+                    575.056,
+                    168.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt5no5[1]",
+                "field_type": "/Btn",
+                "description": ") Check this box for No",
+                "struct_parent": 181,
+                "tool_tip": "Part 4. General Information. 5. Do you plan to concurrently adopt more than one child from the same Convention country?  (Home study must contain a specific recommendation for the number of children you plan to adopt.) Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    419.894,
+                    405.374,
+                    429.894,
+                    415.374
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt5no5[0]",
+                "field_type": "/Btn",
+                "description": ") Check this box for Yes",
+                "struct_parent": 180,
+                "tool_tip": "Part 4. General Information. 5. Do you plan to concurrently adopt more than one child from the same Convention country?  (Home study must contain a specific recommendation for the number of children you plan to adopt.) Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    372.141,
+                    405.374,
+                    382.141,
+                    415.374
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "IfYeshowmany[0]",
+                "field_type": "/Tx",
+                "description": ") If Yes, Enter the number of children to concurrenlty adopt",
+                "struct_parent": 182,
+                "tool_tip": "Part 4. General Information. 5. Do you plan to concurrently adopt more than one child from the same Convention country?  (Home study must contain a specific recommendation for the number of children you plan to adopt.) If Yes, Enter the number of children to concurrenlty adopt.",
+                "initial_value": "",
+                "rect": [
+                    556.562,
+                    404.881,
+                    576.0,
+                    420.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "prt3no6[1]",
+                "field_type": "/Btn",
+                "description": "6",
+                "struct_parent": 184,
+                "tool_tip": "Part 4. General Information. 6.   Have you ever previously filed Form I-600A, Application for Advance Processing of Orphan Petition, Form I-600, Petition to Classify Orphan as an Immediate Relative, Form I-800A, Application for Determination of Suitability to Adopt a Child From a Convention Country, or Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative? Check this box for No,",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    355.002,
+                    552.764,
+                    365.002
+                ],
+                "page_number": 7,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "prt3no6[0]",
+                "field_type": "/Btn",
+                "description": "6",
+                "struct_parent": 183,
+                "tool_tip": "Part 4. General Information. 6.   Have you ever previously filed Form I-600A, Application for Advance Processing of Orphan Petition, Form I-600, Petition to Classify Orphan as an Immediate Relative, Form I-800A, Application for Determination of Suitability to Adopt a Child From a Convention Country, or Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative? Check this box for Yes,",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    355.002,
+                    504.836,
+                    365.002
+                ],
+                "page_number": 7,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 263,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 1. Enter Country of Birth. ",
+                "initial_value": "",
+                "rect": [
+                    268.645,
+                    589.445,
+                    361.418,
+                    612.236
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 262,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 1.  Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    202.643,
+                    589.445,
+                    265.811,
+                    612.236
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, (First / Middle/  Last)",
+                "struct_parent": 261,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 1.  Enter Name, (First / Middle/  Last).",
+                "initial_value": "",
+                "rect": [
+                    52.038,
+                    589.445,
+                    199.809,
+                    612.236
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 268,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 2. Enter Country of Birth. ",
+                "initial_value": "",
+                "rect": [
+                    268.645,
+                    564.449,
+                    361.418,
+                    586.611
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 267,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 2.  Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    202.643,
+                    564.449,
+                    265.811,
+                    586.611
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, (First / Middle/  Last)",
+                "struct_parent": 266,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 2.  Enter Name, (First / Middle/  Last).",
+                "initial_value": "",
+                "rect": [
+                    52.038,
+                    564.449,
+                    199.809,
+                    586.611
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 272,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 3. Enter Country of Birth. ",
+                "initial_value": "",
+                "rect": [
+                    268.645,
+                    536.103,
+                    361.418,
+                    561.615
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 271,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 3.  Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    202.643,
+                    536.103,
+                    265.811,
+                    561.615
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, (First / Middle/  Last)",
+                "struct_parent": 270,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 3.  Enter Name, (First / Middle/  Last).",
+                "initial_value": "",
+                "rect": [
+                    52.038,
+                    536.103,
+                    199.809,
+                    561.615
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 277,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 4. Enter Country of Birth. ",
+                "initial_value": "",
+                "rect": [
+                    268.645,
+                    507.757,
+                    361.418,
+                    533.269
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 276,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 4.  Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    202.643,
+                    507.757,
+                    265.811,
+                    533.269
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, (First / Middle/  Last)",
+                "struct_parent": 275,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 4.  Enter Name, (First / Middle/  Last).",
+                "initial_value": "",
+                "rect": [
+                    52.038,
+                    507.757,
+                    199.809,
+                    533.269
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 282,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 5. Enter Country of Birth. ",
+                "initial_value": "",
+                "rect": [
+                    268.645,
+                    479.411,
+                    361.418,
+                    504.923
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 281,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 5.  Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    202.643,
+                    479.411,
+                    265.811,
+                    504.923
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, (First / Middle/  Last)",
+                "struct_parent": 280,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 5.  Enter Name, (First / Middle/  Last).",
+                "initial_value": "",
+                "rect": [
+                    52.038,
+                    479.411,
+                    199.809,
+                    504.923
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "FFRectangle7[1]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in Ink",
+                "struct_parent": 194,
+                "tool_tip": "Part 5.  Certification and Signature of You, the Prospective Adoptive Parent(s) (Read the information on penalties in the instructions before completing this section.). Your Certificaiton. I certify, under penalty of perjury under the laws of the United States, that: 1.  Each answer I have given to each question on Form I-800A and attached supplement(s) is true and correct to the best of my knowledge, information, and belief; and 2.  I understand the ongoing duty to disclose information concerning my suitability as an adoptive parent, as described on Page 7 of the instructions to Form I-800A, and I agree to notify the home study preparer and USCIS of any new information that I am required to disclose. Enter Your Signature. Print this form and sign in Ink.",
+                "initial_value": "",
+                "rect": [
+                    36.703,
+                    285.84,
+                    376.917,
+                    307.44
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "FFRectangle7[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 193,
+                "tool_tip": "Part 5.  Certification and Signature of You, the Prospective Adoptive Parent(s) (Read the information on penalties in the instructions before completing this section.). Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    36.706,
+                    127.568,
+                    376.92,
+                    149.168
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "prt3no7[1]",
+                "field_type": "/Btn",
+                "description": "Other than a spouse, is there any person 18 years of age or older residing with you? Check this box for No",
+                "struct_parent": 196,
+                "tool_tip": "Part 4. General Information. 7.   Other than a spouse, is there any person 18 years of age or older residing with you? Check this box for No. ",
+                "initial_value": "",
+                "rect": [
+                    542.767,
+                    705.486,
+                    552.767,
+                    715.486
+                ],
+                "page_number": 8,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt3no7[0]",
+                "field_type": "/Btn",
+                "description": "If You selected Other, Enter an Explanation",
+                "struct_parent": 195,
+                "tool_tip": "Part 4. General Information. 6. B. If you selected Yes, provide the following:  Result - Check the box that best describes the action taken by USCIS and/or U.S. Department of State on your application and/or petition. If You selected Other, Enter an Explanation.",
+                "initial_value": "",
+                "rect": [
+                    495.015,
+                    705.486,
+                    505.015,
+                    715.486
+                ],
+                "page_number": 8,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the child's relationship to you",
+                "struct_parent": 265,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 1. Enter the child's relationship to you. ",
+                "initial_value": "",
+                "rect": [
+                    435.629,
+                    589.445,
+                    573.389,
+                    612.236
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if applicable",
+                "struct_parent": 264,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 1. Enter an Alien Registration Number (A - Number), if applicable. ",
+                "initial_value": "",
+                "rect": [
+                    364.252,
+                    589.445,
+                    432.795,
+                    612.236
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the child's relationship to you",
+                "struct_parent": 206,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 2. Enter the child's relationship to you. ",
+                "initial_value": "",
+                "rect": [
+                    435.629,
+                    564.449,
+                    573.389,
+                    586.611
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if applicable",
+                "struct_parent": 269,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 2. Enter an Alien Registration Number (A - Number), if applicable. ",
+                "initial_value": "",
+                "rect": [
+                    364.252,
+                    564.449,
+                    432.795,
+                    586.611
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the child's relationship to you",
+                "struct_parent": 274,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 3. Enter the child's relationship to you. ",
+                "initial_value": "",
+                "rect": [
+                    435.629,
+                    536.103,
+                    573.389,
+                    561.615
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if applicable",
+                "struct_parent": 273,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 3. Enter an Alien Registration Number (A - Number), if applicable. ",
+                "initial_value": "",
+                "rect": [
+                    364.252,
+                    536.103,
+                    432.795,
+                    561.615
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the child's relationship to you",
+                "struct_parent": 279,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 4. Enter the child's relationship to you. ",
+                "initial_value": "",
+                "rect": [
+                    435.629,
+                    507.757,
+                    573.389,
+                    533.269
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if applicable",
+                "struct_parent": 278,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 4. Enter an Alien Registration Number (A - Number), if applicable. ",
+                "initial_value": "",
+                "rect": [
+                    364.252,
+                    507.757,
+                    432.795,
+                    533.269
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the child's relationship to you",
+                "struct_parent": 284,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 5. Enter the child's relationship to you. ",
+                "initial_value": "",
+                "rect": [
+                    435.629,
+                    479.411,
+                    573.389,
+                    504.923
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if applicable",
+                "struct_parent": 283,
+                "tool_tip": "Part 4. General Information. 8. List all your children under 18 years of age. Also include any child under 18 years of age residing in your household even if you are not the parent of such child. Row. 5. Enter an Alien Registration Number (A - Number), if applicable. ",
+                "initial_value": "",
+                "rect": [
+                    364.252,
+                    479.411,
+                    432.795,
+                    504.923
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 222,
+                "tool_tip": "Part 5.  Certification and Signature of You, the Prospective Adoptive Parent(s) (Read the information on penalties in the instructions before completing this section.). Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    286.206,
+                    576.0,
+                    307.095
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 223,
+                "tool_tip": "Part 5.  Certification and Signature of You, the Prospective Adoptive Parent(s) (Read the information on penalties in the instructions before completing this section.)  Enter the Date of Spouse Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024. ",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    127.933,
+                    576.0,
+                    148.822
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "AttyYesNo[1]",
+                "field_type": "/Btn",
+                "description": "Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Check this box for No",
+                "struct_parent": 228,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below). Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    233.226,
+                    536.714,
+                    243.226,
+                    546.714
+                ],
+                "page_number": 9,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "AttyYesNo[0]",
+                "field_type": "/Btn",
+                "description": "Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Check this box for Yes",
+                "struct_parent": 227,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below). I declare that I prepared this application at the request of the above person(s), and it is based on all information provided to me by the person(s).  I have not knowingly withheld any material information that would affect the outcome of this application. Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    185.474,
+                    536.714,
+                    195.474,
+                    546.714
+                ],
+                "page_number": 9,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "PreparersFirmName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Firm Name, if applicable",
+                "struct_parent": 232,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below).  Enter the Preparer's Firm Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    290.937,
+                    455.117,
+                    576.0,
+                    476.003
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PreparersPrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 231,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below). Date off Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    455.117,
+                    283.89,
+                    476.003
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PreparersAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Address",
+                "struct_parent": 229,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below).  Enter the Preparer's Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    418.541,
+                    576.0,
+                    439.427
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Fax Number, with area code",
+                "struct_parent": 234,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below).  Enter the Fax Number, with area code.",
+                "initial_value": "",
+                "rect": [
+                    178.625,
+                    368.116,
+                    315.354,
+                    390.081
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Daytime Phone number with area code",
+                "struct_parent": 233,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below).  Enter the Daytime Phone number with area code.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    368.116,
+                    172.729,
+                    390.081
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Date[2]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 230,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below). Date off Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    491.544,
+                    576.0,
+                    512.433
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "E-mailAddress[2]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 226,
+                "tool_tip": "Part 6.  Signature of Person Preparing Form if Other Than Above (Sign below).  Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    320.0,
+                    368.119,
+                    576.0,
+                    391.667
+                ],
+                "page_number": 9
+            }
+        ]
+    }
+]

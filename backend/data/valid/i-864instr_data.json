@@ -1,0 +1,293 @@
+[
+    {
+        "title": "USCIS Privacy Act Statement",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 1",
+                "field_type": "/Btn",
+                "description": "You may submit this information for the most recent three tax years, pay stubs from the most recent six months, and/or a letter from your employer if you believe any of these items will help you qualify",
+                "struct_parent": 66,
+                "tool_tip": "A copy of your individual Federal income tax return, including W-2s for the most recent tax year, or a statement and/or evidence describing why you were not required to file. Also include a copy of each and every Form 1099, Schedule, and any other evidence of reported income. You may submit this information for the most recent three tax years, pay stubs from the most recent six months, and/or a letter from your employer if you believe any of these items will help you qualify.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    198.779,
+                    48.2215,
+                    211.0
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 2",
+                "field_type": "/Btn",
+                "description": "If you are currently self-employed, a copy of your Schedule C, D, E, or F from your most recent Federal income tax return which establishes your income from your business",
+                "struct_parent": 67,
+                "tool_tip": "If you are currently self-employed, a copy of your Schedule C, D, E, or F from your most recent Federal income tax return which establishes your income from your business.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    101.779,
+                    48.2215,
+                    114.0
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 5",
+                "field_type": "/Btn",
+                "description": "Copies of supporting documentation are not required for these family members",
+                "struct_parent": 68,
+                "tool_tip": "If you are sponsoring more than one intending immigrant listed on the same affidavit of support, photocopies of the original affidavit of support may be submitted for any additional intending immigrants listed. Copies of supporting documentation are not required for these family members.",
+                "initial_value": "/Off",
+                "rect": [
+                    35.8893,
+                    725.5,
+                    48.1107,
+                    737.721
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 6",
+                "field_type": "/Btn",
+                "description": "Coast Guard and are sponsoring your spouse or child using 100 percent of the Federal Poverty Guidelines, proof of your active military status",
+                "struct_parent": 69,
+                "tool_tip": "If you are the petitioning sponsor and on active duty in the U.S. Armed Forces or U.S. Coast Guard and are sponsoring your spouse or child using 100 percent of the Federal Poverty Guidelines, proof of your active military status.",
+                "initial_value": "/Off",
+                "rect": [
+                    35.8893,
+                    680.5,
+                    48.1107,
+                    692.721
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 16",
+                "field_type": "/Btn",
+                "description": "However, an intending immigrant whose income is being used needs to complete Form I-864A only if his or her spouse and/or children are immigrating with him or her",
+                "struct_parent": 70,
+                "tool_tip": "If you are using the income of persons in your household or dependents to qualify, a separate Form I-864A for each person whose income you will use. However, an intending immigrant whose income is being used needs to complete Form I-864A only if his or her spouse and/or children are immigrating with him or her.",
+                "initial_value": "/Off",
+                "rect": [
+                    35.8893,
+                    635.279,
+                    48.1107,
+                    647.5
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 17",
+                "field_type": "/Btn",
+                "description": "Proof of their residency in your household and relationship to you if they are not the intending immigrants or are not listed as dependents on your Federal income tax return for the most recent tax year",
+                "struct_parent": 71,
+                "tool_tip": "Proof of their residency in your household and relationship to you if they are not the intending immigrants or are not listed as dependents on your Federal income tax return for the most recent tax year.",
+                "initial_value": "/Off",
+                "rect": [
+                    35.3893,
+                    589.889,
+                    47.6107,
+                    602.111
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 7",
+                "field_type": "/Btn",
+                "description": "Proof that the intending immigrant\u2019s current employment will continue from the same source if his or her income is being used",
+                "struct_parent": 72,
+                "tool_tip": "Proof that the intending immigrant\u2019s current employment will continue from the same source if his or her income is being used.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    556.779,
+                    48.2215,
+                    569.0
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 8",
+                "field_type": "/Btn",
+                "description": "You may submit this information for the most recent three years if you believe it will help you qualify",
+                "struct_parent": 73,
+                "tool_tip": "A copy of their individual Federal income tax return, including W-2s and 1099s, for the most recent tax year, or evidence that they were not required to file. You may submit this information for the most recent three years if you believe it will help you qualify.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    525.0,
+                    48.2215,
+                    537.221
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 9",
+                "field_type": "/Btn",
+                "description": "Evidence of any liens or liabilities against these assets",
+                "struct_parent": 74,
+                "tool_tip": "If you use your assets or the assets of a household member to qualify, documentation of assets establishing location, ownership, date of acquisition, and value. Evidence of any liens or liabilities against these assets.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    480.0,
+                    48.2215,
+                    492.221
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 10",
+                "field_type": "/Btn",
+                "description": "A separate Form I-864A for each household member using assets other than for the intending immigrant",
+                "struct_parent": 75,
+                "tool_tip": "A separate Form I-864A for each household member using assets other than for the intending immigrant.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    447.779,
+                    48.2215,
+                    460.0
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 11",
+                "field_type": "/Btn",
+                "description": "national status",
+                "struct_parent": 76,
+                "tool_tip": "If you are a joint sponsor, substitute sponsor, or the relative of an employment-based immigrant requiring an affidavit of support, proof of your U.S. citizenship status, lawful permanent resident status, or U.S. national status.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    427.779,
+                    48.2215,
+                    440.0
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 12",
+                "field_type": "/Btn",
+                "description": "nationals, a copy of your birth certificate, passport, or certificate of naturalization or citizenship",
+                "struct_parent": 77,
+                "tool_tip": "For U.S. citizens or U.S. nationals, a copy of your birth certificate, passport, or certificate of naturalization or citizenship.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    395.779,
+                    48.2215,
+                    408.0
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 13",
+                "field_type": "/Btn",
+                "description": "For lawful permanent residents, a copy of both sides of your Form I-551, Permanent Resident Card",
+                "struct_parent": 78,
+                "tool_tip": "For lawful permanent residents, a copy of both sides of your Form I-551, Permanent Resident Card.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    364.0,
+                    48.2215,
+                    376.221
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 14",
+                "field_type": "/Btn",
+                "description": "Proof of an appointment as legal guardian of your estate; and",
+                "struct_parent": 79,
+                "tool_tip": "Proof of an appointment as legal guardian of your estate; and",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    319.0,
+                    48.2215,
+                    331.221
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 15",
+                "field_type": "/Btn",
+                "description": "A copy of an order from the appointing court or agency specifically permitting the legal guardian to make your income and assets available for the support of the sponsored immigrant",
+                "struct_parent": 80,
+                "tool_tip": "A copy of an order from the appointing court or agency specifically permitting the legal guardian to make your income and assets available for the support of the sponsored immigrant.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    299.0,
+                    48.2215,
+                    311.221
+                ],
+                "page_number": 17,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

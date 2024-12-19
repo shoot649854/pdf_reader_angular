@@ -1,0 +1,3939 @@
+[
+    {
+        "title": "Part 1.  Form Type",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "G28CheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if a Form G - 28 is attached",
+                "struct_parent": 2,
+                "tool_tip": "Select this box if a Form G - 28 is attached.",
+                "initial_value": "",
+                "rect": [
+                    168.5,
+                    505.0,
+                    178.5,
+                    515.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line1_CB[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if an Annual Certification of a Regional Center",
+                "struct_parent": 5,
+                "tool_tip": "Part 1.  Form Type. 1. Select whether the form is an Annual Certification of a Regional Center or an Amendment or Supplement to an Annual Certification of a Regional Center. Check this box if an Annual Certification of a Regional Center.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    331.002,
+                    70.001,
+                    341.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Initial"
+                ]
+            },
+            {
+                "field_name": "P1_Line1_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if an Amendment or Supplement to a Previously Filed Annual Certification of a Regional Center",
+                "struct_parent": 6,
+                "tool_tip": "Part 1.  Form Type. 1. Select whether the form is an Annual Certification of a Regional Center or an Amendment or Supplement to an Annual Certification of a Regional Center. Check this box if an Amendment or Supplement to a Previously Filed Annual Certification of a Regional Center.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    313.002,
+                    70.001,
+                    323.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Affiliated"
+                ]
+            },
+            {
+                "field_name": "P1_Line2_FiscalYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter the year as a 4-digit year",
+                "struct_parent": 7,
+                "tool_tip": "Part 1.  Form Type. 2. Enter the Federal fiscal year ending September 30th that will be used for Reporting. Enter the year as a 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    288.001,
+                    342.346,
+                    306.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Regional Center Annual Statement",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "BarNumber_Txt[0]",
+                "field_type": "/Tx",
+                "description": "Attorney State Bar Number (if applicable)",
+                "struct_parent": 3,
+                "tool_tip": "Attorney State Bar Number (if applicable)",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    474.004,
+                    384.004,
+                    492.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISNumber_Txt[0]",
+                "field_type": "/Tx",
+                "description": "Attorney or Accredited Representative U S C I S  E L I S Account Number (if any)",
+                "struct_parent": 4,
+                "tool_tip": "Attorney or Accredited Representative U S C I S  E L I S Account Number (if any).    ",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    474.001,
+                    570.01,
+                    492.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information About the Regional Center",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1_LegalNameRegCtr[0]",
+                "field_type": "/Tx",
+                "description": "Legal Name of Regional Center Entity",
+                "struct_parent": 8,
+                "tool_tip": "Part 2. Information About the Regional Center. 1. Legal Name of Regional Center Entity.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    215.784,
+                    576.0,
+                    233.784
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_RegCtrIDNum[0]",
+                "field_type": "/Tx",
+                "description": "Regional Center Identification Number",
+                "struct_parent": 9,
+                "tool_tip": "Part 2. Information About the Regional Center. 2. Regional Center Identification Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    179.784,
+                    576.0,
+                    197.784
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information About the Regional Center  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_MailingAddr[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if the mailing address is the same as the physical address",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information About the Regional Center. 3. Regional Center mailing address.  Use the physical address when possible.  Check this box if the mailing address is the same as the physical address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    669.624,
+                    46.0,
+                    679.624
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_InCareOfName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 'In care of' name (if any)",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the 'In care of' name (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    611.63,
+                    576.0,
+                    629.63
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    575.624,
+                    443.999,
+                    593.624
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    539.624,
+                    443.999,
+                    557.99
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Postal Code",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. For International Addresses. Enter the Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    503.99,
+                    378.0,
+                    521.99
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Province",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. For International Addresses. Enter the Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    503.99,
+                    222.001,
+                    521.99
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line4_DaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Telephone Number with Area Code",
+                "struct_parent": 12,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Contact Information. 4. Enter the Telephone Number with Area Code.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    437.991,
+                    293.995,
+                    455.991
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line6_Website[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Website Address (if any)",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Contact Information. 6. Enter the Website Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    401.994,
+                    293.995,
+                    419.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_CB_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.002,
+                    579.624,
+                    512.002,
+                    589.624
+                ],
+                "page_number": 2,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_CB_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.001,
+                    579.624,
+                    488.001,
+                    589.624
+                ],
+                "page_number": 2,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_CB_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.0,
+                    579.624,
+                    464.0,
+                    589.624
+                ],
+                "page_number": 2,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment, Suite, or Floor number",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the Apartment, Suite, or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    575.624,
+                    576.0,
+                    593.624
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_ZIPCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 5-digit Zip Code",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the 5-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    522.099,
+                    539.99,
+                    575.966,
+                    557.99
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select the State from the list of States",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Select the State from the list of States.",
+                "initial_value": "",
+                "rect": [
+                    450.111,
+                    539.627,
+                    516.079,
+                    557.99
+                ],
+                "page_number": 2,
+                "options": [
+                    "",
+                    " AA",
+                    " AE",
+                    " AK",
+                    " AL",
+                    " AP",
+                    " AR",
+                    " AS",
+                    " AZ",
+                    " CA",
+                    " CO",
+                    " CT",
+                    " DC",
+                    " DE",
+                    " FL",
+                    " FM",
+                    " GA",
+                    " GU",
+                    " HI",
+                    " IA",
+                    " ID",
+                    " IL",
+                    " IN",
+                    " KS",
+                    " KY",
+                    " LA",
+                    " MA",
+                    " MD",
+                    " ME",
+                    " MH",
+                    " MI",
+                    " MN",
+                    " MO",
+                    " MP",
+                    " MS",
+                    " MT",
+                    " NC",
+                    " ND",
+                    " NE",
+                    " NH",
+                    " NJ",
+                    " NM",
+                    " NV",
+                    " NY",
+                    " OH",
+                    " OK",
+                    " OR",
+                    " PA",
+                    " PR",
+                    " PW",
+                    " RI",
+                    " SC",
+                    " SD",
+                    " TN",
+                    " TX",
+                    " UT",
+                    " VA",
+                    " VI",
+                    " VT",
+                    " WA",
+                    " WI",
+                    " WV",
+                    " WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Mailing Address (and Physical Address when applicable). 3. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    504.052,
+                    576.0,
+                    521.99
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Email Address (if any)",
+                "struct_parent": 13,
+                "tool_tip": "Part 2. Information About the Regional Center. Regional Center Contact Information. 5. Enter the Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    437.991,
+                    575.994,
+                    455.991
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About the Regional Center's Operations",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line1_AlienInvestAmt[0]",
+                "field_type": "/Tx",
+                "description": "Enter the total in U S dollars",
+                "struct_parent": 28,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Accounting of All Alien Investor Capital Invested in the Regional Center. 1. Enter the Total amount of all individual alien investor capital invested in the regional center and its associated new commercial enterprise(s) and job-creating entity(ies). Enter the total in U S dollars.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    287.996,
+                    263.999,
+                    305.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line2_B_ExhibitNum[0]",
+                "field_type": "/Tx",
+                "description": "exhibit number, name of document)",
+                "struct_parent": 31,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Litigation and Bankruptcy Proceedings. 2. B. If you answered \u201cYes,\u201d please describe the documentation provided (i.e. exhibit number, name of document). ",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    113.994,
+                    576.0,
+                    155.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line2_C_Litigation[0]",
+                "field_type": "/Tx",
+                "description": "Additional Information",
+                "struct_parent": 32,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Litigation and Bankruptcy Proceedings. 2. C. If you answered \u201cNo,\u201d please describe the current and/or resolved litigation or bankruptcy proceedings in the space provided.  If you need extra space to complete this section, use the space provided in Part 8. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    41.994,
+                    576.0,
+                    83.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line2_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Have you submitted any documentation describing whether the regional center, or any NCE or affiliated JCE is the subject of any pending material litigation or bankruptcy proceedings or resolved any similar proceedings during the fiscal year? Check this box if No",
+                "struct_parent": 30,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Litigation and Bankruptcy Proceedings. 2. A. Have you submitted any documentation describing whether the regional center, or any NCE or affiliated JCE is the subject of any pending material litigation or bankruptcy proceedings or resolved any similar proceedings during the fiscal year? Check this box if No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    198.996,
+                    550.0,
+                    208.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_Line2_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "Have you submitted any documentation describing whether the regional center, or any NCE or affiliated JCE is the subject of any pending material litigation or bankruptcy proceedings or resolved any similar proceedings during the fiscal year? Check this box if Yes",
+                "struct_parent": 29,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Litigation and Bankruptcy Proceedings. 2. A. Have you submitted any documentation describing whether the regional center, or any NCE or affiliated JCE is the subject of any pending material litigation or bankruptcy proceedings or resolved any similar proceedings during the fiscal year? Check this box if Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    198.996,
+                    514.0,
+                    208.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About the Regional Center's Operations  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line3_B_ExhibitNum[0]",
+                "field_type": "/Tx",
+                "description": "exhibit number, name of document)",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Policies and Procedures in Place to Ensure Compliance with Federal Labor Laws. 3 B. If you answered \u201cYes,\u201d please describe the documentation provided (i.e. exhibit number, name of document). ",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    581.998,
+                    576.0,
+                    623.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line3_C_Policies[0]",
+                "field_type": "/Tx",
+                "description": "Additional Information",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Policies and Procedures in Place to Ensure Compliance with Federal Labor Laws. 3 C. If you answered \u201cNo,\u201d please describe the policies and procedures in the space provided.  If you need extra space to complete this section, use the space provided in Part 8. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    510.001,
+                    576.0,
+                    552.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line3_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Have you submitted any documentation describing the regional center\u2019s policies and procedures to ensure compliance to applicable Federal labor laws? Check this box if No",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Policies and Procedures in Place to Ensure Compliance with Federal Labor Laws. 3 A. Have you submitted any documentation describing the regional center\u2019s policies and procedures to ensure compliance to applicable Federal labor laws? Check this box if No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    655.001,
+                    550.0,
+                    665.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_Line3_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "Have you submitted any documentation describing the regional center\u2019s policies and procedures to ensure compliance to applicable Federal labor laws? Check this box if Yes",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Policies and Procedures in Place to Ensure Compliance with Federal Labor Laws. 3 A. Have you submitted any documentation describing the regional center\u2019s policies and procedures to ensure compliance to applicable Federal labor laws? Check this box if Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    655.001,
+                    514.0,
+                    665.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4_Attachments[0]",
+                "field_type": "/Tx",
+                "description": "How many Attachments 1s are you including with this form? Enter the number of attachments included with this form",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Information About the Regional Center's Operations.  Information about Each New Commercial Enterprise and Capital Investment Project (Form I - 9 5 6 F ). 4. How many Attachments 1s are you including with this form? Enter the number of attachments included with this form.",
+                "initial_value": "",
+                "rect": [
+                    312.001,
+                    390.002,
+                    372.002,
+                    408.002
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Required Certifications",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_Line1_CertifierFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Family Name (Last Name)",
+                "struct_parent": 39,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 1. Enter the Certifier's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    306.0,
+                    240.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line2_CertifierTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Title",
+                "struct_parent": 41,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 2. Enter the Certifier's Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    185.99,
+                    306.0,
+                    203.99
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line3_CertifierDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Daytime Telephone Number",
+                "struct_parent": 42,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 3. Enter the Certifier's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    149.998,
+                    306.0,
+                    167.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5_CertifierEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Email Address (if any)",
+                "struct_parent": 44,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 5. Enter the Certifier's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    114.001,
+                    306.0,
+                    132.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line1_CertifierGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Given Name (First Name)",
+                "struct_parent": 40,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 1. Enter the Certifier's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    221.998,
+                    576.0,
+                    239.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line4_CertifierMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Mobile Telephone Number (if any)",
+                "struct_parent": 43,
+                "tool_tip": "Part 4. Required Certifications. Certifier\u2019s Contact Information. 4. Enter the Certifier's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    150.001,
+                    576.0,
+                    168.001
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Required Certifications  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_Line6_SignatureCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 48,
+                "tool_tip": "Part 4. Required Certifications. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature. 6. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    654.001,
+                    438.007,
+                    672.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line7_CertifierFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Family Name (Last Name)",
+                "struct_parent": 50,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 7. Enter the Certifier's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    558.002,
+                    312.001,
+                    576.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line8_CertifierTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Title",
+                "struct_parent": 52,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 8. Enter the Certifier's Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    521.99,
+                    312.001,
+                    539.99
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line9_CertifierDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Daytime Telephone Number",
+                "struct_parent": 53,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 9. Enter the Certifier's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    485.999,
+                    312.001,
+                    503.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line11_CertifierEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Email Address (if any)",
+                "struct_parent": 55,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 11. Enter the Certifier's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    449.999,
+                    312.001,
+                    467.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line14_SignatureCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 56,
+                "tool_tip": "Part 4. Required Certifications. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature. 12. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    251.215,
+                    438.154,
+                    269.215
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 49,
+                "tool_tip": "Part 4. Required Certifications. 6. Certifier\u2019s Date of Signature. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    654.001,
+                    576.0,
+                    672.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line7_CertifierGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Given Name (First Name)",
+                "struct_parent": 51,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 7. Enter the Certifier's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    557.999,
+                    576.0,
+                    575.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line10_CertifierMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Mobile Telephone Number (if any)",
+                "struct_parent": 54,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Contact Information. 10. Enter the Certifier's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    485.999,
+                    576.0,
+                    503.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line14_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 57,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Signature. 14. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    251.215,
+                    576.0,
+                    269.215
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_Line13_CB[1]",
+                "field_type": "/Btn",
+                "description": "At any time in the previous fiscal year, was the regional center or any party associated with the regional center not in compliance with the securities laws of the United States or the securities laws of any State in which the securities activities were conducted? Check this box if No",
+                "struct_parent": 59,
+                "tool_tip": "Part 4. Required Certifications. 13. At any time in the previous fiscal year, was the regional center or any party associated with the regional center not in compliance with the securities laws of the United States or the securities laws of any State in which the securities activities were conducted? Check this box if No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    234.847,
+                    550.0,
+                    244.847
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P4_Line13_CB[0]",
+                "field_type": "/Btn",
+                "description": "At any time in the previous fiscal year, was the regional center or any party associated with the regional center not in compliance with the securities laws of the United States or the securities laws of any State in which the securities activities were conducted? Check this box if Yes",
+                "struct_parent": 58,
+                "tool_tip": "Part 4. Required Certifications. 13. At any time in the previous fiscal year, was the regional center or any party associated with the regional center not in compliance with the securities laws of the United States or the securities laws of any State in which the securities activities were conducted? Check this box if Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    234.847,
+                    514.0,
+                    244.847
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_Line12_SignatureCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 62,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature. 14. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    654.001,
+                    438.007,
+                    672.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line15_CertifierFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Family Name (Last Name)",
+                "struct_parent": 64,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. This section must be completed by a qualified certifier.  A qualified certifier is a person in a position of substantive authority for the management or operations of the regional center, such as a principal executive officer or principal financial officer, with knowledge of the regional center entity\u2019s policies and procedures related to compliance with the requirements under I N A 2 0 3(b)(5). 15. Enter the Certifier's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    552.087,
+                    312.001,
+                    570.087
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line16_CertifierTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter Certifier's Title",
+                "struct_parent": 66,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. 16. Enter Certifier's Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    516.075,
+                    312.001,
+                    534.075
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line17_CertifierDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Certifier's Daytime Telephone Number",
+                "struct_parent": 67,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. 17. Enter Certifier's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    480.084,
+                    312.001,
+                    498.084
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line19_CertifierEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter Certifier's Email Address (if any)",
+                "struct_parent": 69,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. 19. Enter Certifier's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    444.087,
+                    312.001,
+                    462.087
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line20_SignatureCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 70,
+                "tool_tip": "Part 4. Required Certifications. I certify, under penalty of perjury, that, to the best of my knowledge, after a due diligence investigation, that the regional center entity is in compliance with and has policies and procedures, including those related to internal and external due diligence, reasonably designed to confirm that all parties associated with the regional center are and will remain in compliance with the securities laws of the United States and any State in which the regional center entity conducts the offer, purchase, or sale of securities, in which the issuer of securities is located, or in which the regional center entity, or anyone associated with the regional center entity provided investment advice. Certifier's Signature. 20. Enter the Certifier's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    347.77,
+                    438.007,
+                    365.77
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line12_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 63,
+                "tool_tip": "Part 4. Required Certifications. Securities Laws Compliance Certification. Certifier\u2019s Signature. 12. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    654.001,
+                    576.0,
+                    672.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line15_CertifierGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Certifier's Given Name (First Name)",
+                "struct_parent": 65,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. 15. Enter Certifier's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    552.084,
+                    576.0,
+                    570.084
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line18_CertifierMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Mobile Telephone Number (if any)",
+                "struct_parent": 68,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Contact Information. 18. Enter the Certifier's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    480.084,
+                    576.0,
+                    498.084
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Line20_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 71,
+                "tool_tip": "Part 4. Required Certifications. Certifier's Signature. 20. Enter the Date of Certifier's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    347.77,
+                    576.0,
+                    365.77
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Statement, Contact Information, Declaration, and Signature of the Authorized Individual",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line1_AB_CB[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for: I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question",
+                "struct_parent": 74,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. Select the appropriate box to indicate whether you read this application yourself or whether you had an interpreter assist you.  If someone assisted you in completing the application, select the box indicating that you used a preparer. NOTE: Select the box for either Item A. or B. in Item Number 1. If applicable, select the box for Item Number 2.  1. A. Authorized Individual\u2019s Statement Regarding the Interpreter. Check this box for: I can read and understand English, and I have read and understand every question and instruction on this application and my answer to every question.",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    589.002,
+                    89.0,
+                    599.002
+                ],
+                "page_number": 6,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P5_Line1_AB_CB[1]",
+                "field_type": "/Btn",
+                "description": "has read to me every question and instruction on this application and my answer to every question in a language I am fluent, and I understood everything",
+                "struct_parent": 75,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 1 B. Check this box for: The interpreter named in Part 6. has read to me every question and instruction on this application and my answer to every question in a language I am fluent, and I understood everything.",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    559.003,
+                    89.0,
+                    569.003
+                ],
+                "page_number": 6,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P5_Line1_B_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter the language of fluency",
+                "struct_parent": 76,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 1 B. Enter the language of fluency.",
+                "initial_value": "",
+                "rect": [
+                    168.001,
+                    540.0,
+                    353.999,
+                    558.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line2_CB[0]",
+                "field_type": "/Btn",
+                "description": ", prepared this application for me based only upon information I provided or authorized",
+                "struct_parent": 77,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 2. Authorized Individual's  Statement Regarding the Preparer. Check this box for: At my request, the preparer named in Part 11., prepared this application for me based only upon information I provided or authorized. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    493.001,
+                    71.0,
+                    503.001
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line2_PreparerName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer Full Name",
+                "struct_parent": 78,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Statement. 2. Enter the Preparer Full Name.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    492.001,
+                    557.997,
+                    510.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line3_AuthorizedFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Family Name (Last Name)",
+                "struct_parent": 79,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 3. Enter the Authorized Individual's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    414.0,
+                    294.001,
+                    432.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line4_AuthorizedTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Title",
+                "struct_parent": 81,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 4. Enter the Authorized Individual's Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    378.0,
+                    294.001,
+                    396.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line5_AuthorizedDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Daytime Telephone Number",
+                "struct_parent": 82,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).  5. Enter the Authorized Individual's Daytime Telephone Number. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    323.988,
+                    294.001,
+                    341.988
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line7_AuthorizedEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Email Address (if any)",
+                "struct_parent": 84,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 7. Enter the Authorized Individual's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    287.988,
+                    293.995,
+                    305.988
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line3_AuthorizedGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Given Name (First Name)",
+                "struct_parent": 80,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 3. Enter the Authorized Individual's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    414.0,
+                    576.0,
+                    432.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Line6_AuthorizedMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Authorized Individual's Mobile Telephone Number (if any)",
+                "struct_parent": 83,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Contact Information. 6. Enter the Authorized Individual's Mobile Telephone Number (if any). ",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    323.988,
+                    576.0,
+                    341.988
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Statement, Contact Information, Declaration, and Signature of the Authorized Individual      (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line8_SignatureAuthorizedInd[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 87,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Signature. You must sign and date the application.  Every application MUST contain the signature of the petitioner or authorized signatory.  A stamped or typewritten name in place of a signature is not acceptable. NOTE TO ALL AUTHORIZED INDIVIDUALS:  If you do not completely fill out this application or fail to submit required documents listed in the Instructions, U S C I S may deny your application. 8. Authorized Individual's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    414.002,
+                    438.007,
+                    432.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_Line8_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 88,
+                "tool_tip": "Part 5. Statement, Contact Information, Declaration, and Signature of the Authorized Individual. Authorized Individual's Signature. 8. Enter the Date of the Authorized Individual's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    414.002,
+                    576.0,
+                    432.002
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Family Name (Last Name)",
+                "struct_parent": 89,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. If you used anyone as an interpreter to read the Instructions and questions on this form to you in a language in which you are fluent, the interpreter must fill out this section. Interpreter\u2019s Full Name. 1. Enter the Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    240.391,
+                    312.001,
+                    258.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Business or Organization Name (if any)",
+                "struct_parent": 91,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. 2. Enter the Interpreter's Business or Organization Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    204.4,
+                    312.001,
+                    222.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 92,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    137.979,
+                    443.999,
+                    155.979
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 97,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    101.979,
+                    443.999,
+                    119.979
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Postal Code",
+                "struct_parent": 100,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. For International Addresses. Enter the Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    65.981,
+                    378.0,
+                    83.981
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Province",
+                "struct_parent": 101,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. For International Addresses. Enter the Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    65.981,
+                    222.001,
+                    83.981
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Given Name (First Name)",
+                "struct_parent": 90,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. 1. Enter the Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    240.391,
+                    576.0,
+                    258.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 95,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.001,
+                    140.78,
+                    512.001,
+                    150.78
+                ],
+                "page_number": 7,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P6_Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 94,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.001,
+                    140.78,
+                    488.001,
+                    150.78
+                ],
+                "page_number": 7,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P6_Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 93,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.0,
+                    140.78,
+                    464.0,
+                    150.78
+                ],
+                "page_number": 7,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "P6_Line3_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment, Suite, or Floor number",
+                "struct_parent": 96,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Enter the Apartment, Suite, or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    137.982,
+                    576.0,
+                    153.581
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 5-digit Zip Code",
+                "struct_parent": 99,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Enter the 5-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    522.099,
+                    101.981,
+                    575.966,
+                    119.981
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select the State from the list of States",
+                "struct_parent": 98,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Select the State from the list of States.",
+                "initial_value": "",
+                "rect": [
+                    450.111,
+                    101.981,
+                    516.079,
+                    119.981
+                ],
+                "page_number": 7,
+                "options": [
+                    "",
+                    " AA",
+                    " AE",
+                    " AK",
+                    " AL",
+                    " AP",
+                    " AR",
+                    " AS",
+                    " AZ",
+                    " CA",
+                    " CO",
+                    " CT",
+                    " DC",
+                    " DE",
+                    " FL",
+                    " FM",
+                    " GA",
+                    " GU",
+                    " HI",
+                    " IA",
+                    " ID",
+                    " IL",
+                    " IN",
+                    " KS",
+                    " KY",
+                    " LA",
+                    " MA",
+                    " MD",
+                    " ME",
+                    " MH",
+                    " MI",
+                    " MN",
+                    " MO",
+                    " MP",
+                    " MS",
+                    " MT",
+                    " NC",
+                    " ND",
+                    " NE",
+                    " NH",
+                    " NJ",
+                    " NM",
+                    " NV",
+                    " NY",
+                    " OH",
+                    " OK",
+                    " OR",
+                    " PA",
+                    " PR",
+                    " PW",
+                    " RI",
+                    " SC",
+                    " SD",
+                    " TN",
+                    " TX",
+                    " UT",
+                    " VA",
+                    " VI",
+                    " VT",
+                    " WA",
+                    " WI",
+                    " WV",
+                    " WY"
+                ]
+            },
+            {
+                "field_name": "P6_Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 102,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address 3. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    65.979,
+                    576.0,
+                    83.979
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information, Certification, and Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line4_DaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Daytime Telephone Number",
+                "struct_parent": 105,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter the Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    660.0,
+                    293.995,
+                    678.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P6_Line6_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Email Address (if any)",
+                "struct_parent": 107,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter the Interpreter's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    624.0,
+                    293.995,
+                    642.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P6_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Language of fluency",
+                "struct_parent": 108,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and the language specified in Part 5., Item B. in Item Number 1. Enter the Language of fluency.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    551.991,
+                    378.0,
+                    569.991
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P6_Line7_SignatureInterpreter[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 109,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I have read to the authorized individual in the identified language every question and instruction on this form and his or her answer to every question.  The authorized individual informed me that he or she understands every instruction, question, and answer on the form, including the Authorized Individual's Declaration, and has verified the accuracy of every answer. 7. Enter the Interpreter Signature. This field cannot be signed electronically. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    414.001,
+                    438.007,
+                    432.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P6_Line5_MobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Mobile Telephone Number (if any)",
+                "struct_parent": 106,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter the Interpreter's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    660.0,
+                    575.994,
+                    678.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P6_Line7_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 110,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Enter the Date of the Iterpreter's Signature. Enter the Date as a 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    414.001,
+                    576.0,
+                    432.001
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other  Than the Authorized Individual",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Family Name (Last Name)",
+                "struct_parent": 111,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Authorized Individual. Provide the following information about the preparer.  If the same individual acted as your interpreter and your preparer, that person should complete both Part 6. and Part 7. Preparer's Full Name. 1. Enter the Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    281.997,
+                    312.001,
+                    300.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Business or Organization Name (if any)",
+                "struct_parent": 113,
+                "tool_tip": "Part 7. Preparer's Full Name. If the person who completed this form is associated with a business or organization, that person should complete the business or organization name and address information.  2. Enter the Preparer's Business or Organization Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    215.998,
+                    312.001,
+                    233.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 114,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    149.852,
+                    443.999,
+                    167.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 119,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    113.486,
+                    443.999,
+                    131.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Postal Code",
+                "struct_parent": 122,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. For International Addresses. Enter the Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    77.852,
+                    378.0,
+                    95.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Province",
+                "struct_parent": 123,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. For International Addresses. Enter the Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    77.852,
+                    222.001,
+                    95.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Given Name (First Name)",
+                "struct_parent": 112,
+                "tool_tip": "Part 7. Preparer's Full Name. 1. Enter the Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    282.0,
+                    576.0,
+                    300.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 117,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.002,
+                    153.852,
+                    512.002,
+                    163.852
+                ],
+                "page_number": 8,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P7_Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 116,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.001,
+                    153.852,
+                    488.001,
+                    163.852
+                ],
+                "page_number": 8,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P7_Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 115,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.0,
+                    153.852,
+                    464.0,
+                    163.852
+                ],
+                "page_number": 8,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "P7_Line3_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment, Suite, or Floor number",
+                "struct_parent": 118,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Enter the Apartment, Suite, or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    149.852,
+                    576.0,
+                    167.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 5-digit Zip Code",
+                "struct_parent": 121,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Enter the 5-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    522.099,
+                    113.852,
+                    575.966,
+                    131.852
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select the State from the list of States",
+                "struct_parent": 120,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Select the State from the list of States.",
+                "initial_value": "",
+                "rect": [
+                    450.111,
+                    113.489,
+                    516.079,
+                    131.852
+                ],
+                "page_number": 8,
+                "options": [
+                    "",
+                    " AA",
+                    " AE",
+                    " AK",
+                    " AL",
+                    " AP",
+                    " AR",
+                    " AS",
+                    " AZ",
+                    " CA",
+                    " CO",
+                    " CT",
+                    " DC",
+                    " DE",
+                    " FL",
+                    " FM",
+                    " GA",
+                    " GU",
+                    " HI",
+                    " IA",
+                    " ID",
+                    " IL",
+                    " IN",
+                    " KS",
+                    " KY",
+                    " LA",
+                    " MA",
+                    " MD",
+                    " ME",
+                    " MH",
+                    " MI",
+                    " MN",
+                    " MO",
+                    " MP",
+                    " MS",
+                    " MT",
+                    " NC",
+                    " ND",
+                    " NE",
+                    " NH",
+                    " NJ",
+                    " NM",
+                    " NV",
+                    " NY",
+                    " OH",
+                    " OK",
+                    " OR",
+                    " PA",
+                    " PR",
+                    " PW",
+                    " RI",
+                    " SC",
+                    " SD",
+                    " TN",
+                    " TX",
+                    " UT",
+                    " VA",
+                    " VI",
+                    " VT",
+                    " WA",
+                    " WI",
+                    " WV",
+                    " WY"
+                ]
+            },
+            {
+                "field_name": "P7_Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 124,
+                "tool_tip": "Part 7. Preparer's Mailing Address. 3. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    77.914,
+                    576.0,
+                    95.852
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other  Than the Authorized Individual  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Line4_DaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Daytime Telephone Number",
+                "struct_parent": 127,
+                "tool_tip": "Part 7. Preparer's Contact Information. 4. Enter the Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    648.001,
+                    293.995,
+                    666.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P7_Line6_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Email Address (if any)",
+                "struct_parent": 129,
+                "tool_tip": "Part 7. Preparer's Contact Information. 6. Enter the Preparer's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    612.001,
+                    293.995,
+                    630.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P7_Line7_AB_CB[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for: I am not an attorney or accredited representative but have prepared this form on behalf of the authorized individual of the regional center and with the authorized individual's consent",
+                "struct_parent": 130,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. A. Check this box for: I am not an attorney or accredited representative but have prepared this form on behalf of the authorized individual of the regional center and with the authorized individual's consent.",
+                "initial_value": "",
+                "rect": [
+                    84.998,
+                    564.999,
+                    94.998,
+                    574.999
+                ],
+                "page_number": 9,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P7_Line7_AB_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for: I am an attorney or accredited representative and my representation of the authorized individual in this case",
+                "struct_parent": 131,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: I am an attorney or accredited representative and my representation of the authorized individual in this case.",
+                "initial_value": "",
+                "rect": [
+                    84.998,
+                    531.999,
+                    94.998,
+                    541.999
+                ],
+                "page_number": 9,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P7_Line7_B_CB_notextends[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for: My representation of the authorized individual in this case does not extend beyond the preparation of this form",
+                "struct_parent": 133,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this form, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: My representation of the authorized individual in this case does not extend beyond the preparation of this form.",
+                "initial_value": "",
+                "rect": [
+                    156.998,
+                    517.0,
+                    166.998,
+                    527.0
+                ],
+                "page_number": 9,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P7_Line7_B_CB_extends[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for: My representation of the authorized individual in this case extends beyond the preparation of this form",
+                "struct_parent": 132,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Form, if Other Than the Authorized Individual. Preparer\u2019s Statement. 7. B. Check this box for: My representation of the authorized individual in this case extends beyond the preparation of this form.",
+                "initial_value": "",
+                "rect": [
+                    102.998,
+                    517.0,
+                    112.998,
+                    527.0
+                ],
+                "page_number": 9,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P7_Line8_SignatureInterpreter[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 134,
+                "tool_tip": "Part 7.  Anyone who helped you complete this form MUST sign and date the application.  A stamped or typewritten name in place of a signature is not acceptable.  8. Enter the Preparer's Signature. This field cannot be electronically signed. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    305.998,
+                    438.007,
+                    323.998
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P7_Line5_MobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Mobile Telephone Number (if any)",
+                "struct_parent": 128,
+                "tool_tip": "Part 7. Preparer's Contact Information. 5. Enter the Preparer's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    648.001,
+                    575.994,
+                    666.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P7_Line8_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 135,
+                "tool_tip": "Part 7. Preparer's Signature. 8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    305.998,
+                    576.0,
+                    323.998
+                ],
+                "page_number": 9
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1_LegalNameRegCtr[0]",
+                "field_type": "/Tx",
+                "description": "This field cannot be completed electronically",
+                "struct_parent": 138,
+                "tool_tip": "Part 8. Additional Information. If you need extra space to provide any additional information within this form, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this form or attach a separate sheet of paper.  Type or print the regional center entity's name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Name of the Regional Center Entity. This field cannot be completed electronically.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    630.0,
+                    576.0,
+                    648.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P2_Line2_RegCtrIDNum[0]",
+                "field_type": "/Tx",
+                "description": "This field cannot be completed electronically",
+                "struct_parent": 139,
+                "tool_tip": "Part 8. Additional Information. 2. Regional Center Identification Number. This field cannot be completed electronically.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    594.0,
+                    576.0,
+                    612.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line3_C_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Item Number",
+                "struct_parent": 142,
+                "tool_tip": "Part 8. Additional Information. 3. C. Enter the Item Number.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    558.0,
+                    312.001,
+                    576.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line3_B_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Part Number",
+                "struct_parent": 141,
+                "tool_tip": "Part 8. Additional Information. 3. B. Enter the Part Number.",
+                "initial_value": "",
+                "rect": [
+                    174.002,
+                    558.0,
+                    228.002,
+                    576.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line3_A_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Page Number",
+                "struct_parent": 140,
+                "tool_tip": "Part 8. Additional Information. 3. A. Enter the Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    558.0,
+                    137.999,
+                    576.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line3_D_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 143,
+                "tool_tip": "Part 8. Additional Information. 3. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    456.001,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line4_C_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Item Number",
+                "struct_parent": 146,
+                "tool_tip": "Part 8. Additional Information. 4. C. Enter the Item Number.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    420.001,
+                    312.001,
+                    438.001
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line4_B_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Part Number",
+                "struct_parent": 145,
+                "tool_tip": "Part 8. Additional Information. 4. B. Enter the Part Number.",
+                "initial_value": "",
+                "rect": [
+                    174.002,
+                    420.001,
+                    228.002,
+                    438.001
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line4_A_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Page Number",
+                "struct_parent": 144,
+                "tool_tip": "Part 8. Additional Information. 4. A. Enter the Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    420.001,
+                    137.999,
+                    438.001
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line4_D_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 147,
+                "tool_tip": "Part 8. Additional Information. 4. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    317.999,
+                    576.0,
+                    414.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line5_C_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Item Number",
+                "struct_parent": 150,
+                "tool_tip": "Part 8. Additional Information. 5. C. Enter the Item Number.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    282.002,
+                    312.001,
+                    300.002
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line5_B_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Part Number",
+                "struct_parent": 149,
+                "tool_tip": "Part 8. Additional Information. 5. B. Enter the Part Number.",
+                "initial_value": "",
+                "rect": [
+                    174.002,
+                    282.002,
+                    228.002,
+                    300.002
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line5_A_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Page Number",
+                "struct_parent": 148,
+                "tool_tip": "Part 8. Additional Information. 5. A. Enter the Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    282.002,
+                    137.999,
+                    300.002
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line5_D_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 151,
+                "tool_tip": "Part 8. Additional Information. 5. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    180.0,
+                    576.0,
+                    276.001
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line6_C_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Item Number",
+                "struct_parent": 154,
+                "tool_tip": "Part 8. Additional Information. 6. C. Enter the Item Number.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    144.0,
+                    312.001,
+                    162.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line6_B_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Part Number",
+                "struct_parent": 153,
+                "tool_tip": "Part 8. Additional Information. 6. B. Enter the Part Number.",
+                "initial_value": "",
+                "rect": [
+                    174.002,
+                    144.0,
+                    228.002,
+                    162.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line6_A_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Page Number",
+                "struct_parent": 152,
+                "tool_tip": "Part 8. Additional Information. 6. A. Enter the Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    144.0,
+                    137.999,
+                    162.0
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "P8_Line6_D_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 155,
+                "tool_tip": "Part 8. Additional Information. 6. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    42.001,
+                    576.0,
+                    137.999
+                ],
+                "page_number": 10
+            }
+        ]
+    },
+    {
+        "title": "Attachment 1 -   Information About Each New Commercial Enterprise and Capital Investment Project",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line1_LegalNameRegCtr[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Legal Name of Regional Center Entity",
+                "struct_parent": 158,
+                "tool_tip": "Attachment 1. Each NCE sponsored by the regional center must fill out the information below.  If there is more than one NCE, you may make copies of this page to complete and submit with Form I-956G. 1. Enter the Legal Name of Regional Center Entity.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    605.999,
+                    576.0,
+                    623.999
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line2_RegCtrIDNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Regional Identification Number",
+                "struct_parent": 159,
+                "tool_tip": "Attachment 1. 2. Enter the Regional Identification Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    569.999,
+                    576.0,
+                    587.999
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line3_FiscalYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter the year as a 4-digit year",
+                "struct_parent": 160,
+                "tool_tip": "Attachment 1. 3. Enter the Federal fiscal year ending September 30th that will be used for Reporting. Enter the year as a 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    546.001,
+                    342.346,
+                    564.001
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line4_B_LegalNameNCE[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Legal Name of the NCE",
+                "struct_parent": 162,
+                "tool_tip": "Attachment 1. 4. B. Enter the Legal Name of the NCE.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    474.001,
+                    576.0,
+                    492.001
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line4_D_LegalNameJCE[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Legal Name of the JCE (if any)",
+                "struct_parent": 164,
+                "tool_tip": "Attachment 1. 4. D. Enter the Legal Name of the JCE (if any).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    402.001,
+                    576.0,
+                    420.001
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_MailingAddr_CB[0]",
+                "field_type": "/Btn",
+                "description": "NCE Mailing Address (and Physical Address when Applicable)",
+                "struct_parent": 165,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). Check this box for Mailing Address ",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    352.174,
+                    46.0,
+                    362.174
+                ],
+                "page_number": 11,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line5_InCareOfName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the In Care of Name",
+                "struct_parent": 166,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Enter the In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.194,
+                    576.0,
+                    330.194
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line5_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 167,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.188,
+                    443.999,
+                    294.188
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line5_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 172,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    239.822,
+                    443.999,
+                    258.188
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line6_DaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Telephone Number",
+                "struct_parent": 175,
+                "tool_tip": "Attachment 1. NCE Contact Information. 6. Enter the Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    173.869,
+                    293.995,
+                    191.869
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line8_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Wedsite Address",
+                "struct_parent": 177,
+                "tool_tip": "Attachment 1. NCE Contact Information. 8. Enter the Wedsite Address.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    137.869,
+                    293.995,
+                    155.869
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line5_CB_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 170,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.002,
+                    280.188,
+                    512.002,
+                    290.188
+                ],
+                "page_number": 11,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "A1_Line5_CB_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 169,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.001,
+                    280.188,
+                    488.001,
+                    290.188
+                ],
+                "page_number": 11,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "A1_Line5_CB_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 168,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.0,
+                    280.188,
+                    464.0,
+                    290.188
+                ],
+                "page_number": 11,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "A1_Line5_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment, Suite, or Floor number",
+                "struct_parent": 171,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Enter the Apartment, Suite, or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    276.188,
+                    576.0,
+                    294.188
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line5_ZIPCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 5-digit Zip Code",
+                "struct_parent": 174,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Enter the 5-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    522.099,
+                    240.188,
+                    575.966,
+                    258.188
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line5_State[0]",
+                "field_type": "/Ch",
+                "description": "5",
+                "struct_parent": 173,
+                "tool_tip": "Attachment 1. NCE Mailing Address (and Physical Address when Applicable). 5. Select the State from the list of States",
+                "initial_value": "",
+                "rect": [
+                    450.111,
+                    239.825,
+                    516.079,
+                    258.188
+                ],
+                "page_number": 11,
+                "options": [
+                    "",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "A1_Line7_MobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Email Address",
+                "struct_parent": 176,
+                "tool_tip": "Attachment 1. NCE Contact Information. 7. Enter the Email Address.",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    173.869,
+                    575.994,
+                    191.869
+                ],
+                "page_number": 11
+            }
+        ]
+    },
+    {
+        "title": "NCE Mailing Address  (and Physical Address when applicable)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line4_A_ReceiptNum[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Receipt Number of the Associated Form I-956F",
+                "struct_parent": 161,
+                "tool_tip": "Attachment 1. 4. A. Enter the Receipt Number of the Associated Form I-956F.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    509.998,
+                    317.999,
+                    527.998
+                ],
+                "page_number": 11
+            },
+            {
+                "field_name": "A1_Line4_V_NCEIDNum[0]",
+                "field_type": "/Tx",
+                "description": "Enter the NCE Identification Number",
+                "struct_parent": 163,
+                "tool_tip": "Attachment 1. 4. C. Enter the NCE Identification Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    437.998,
+                    317.999,
+                    455.998
+                ],
+                "page_number": 11
+            }
+        ]
+    },
+    {
+        "title": "JCE Contact Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_MailingAddr_CB[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Mailing Address same as Physical Address",
+                "struct_parent": 180,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). Check this box for Mailing Address same as Physical Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    639.987,
+                    46.0,
+                    649.987
+                ],
+                "page_number": 12,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line9_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 182,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    563.987,
+                    443.999,
+                    581.987
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line9_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 187,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    527.621,
+                    443.999,
+                    545.987
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line10_DaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Telephone Number",
+                "struct_parent": 190,
+                "tool_tip": "Attachment 1. JCE Contact Information. 10. Enter the Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    462.186,
+                    293.995,
+                    480.186
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line12_Website[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Website Address",
+                "struct_parent": 192,
+                "tool_tip": "Attachment 1. JCE Contact Information. 12. Enter the Website Address.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    426.186,
+                    293.995,
+                    444.186
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line13_InvestmentAmt[0]",
+                "field_type": "/Tx",
+                "description": "in Item Number 1",
+                "struct_parent": 193,
+                "tool_tip": "Attachment 1. JCE Contact Information. 13. Enter Aggregate amount of capital invested in the NCE by alien investors for the capital investment project described in the Form I-956F listed in Item A. in Item Number 1.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    378.054,
+                    263.999,
+                    396.054
+                ],
+                "page_number": 12
+            }
+        ]
+    },
+    {
+        "title": "Attachment 1 -   Information About Each New Commercial Enterprise and Capital Investment Project   (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line9_InCareOfName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the In Care of Name",
+                "struct_parent": 181,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Enter the In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    599.992,
+                    576.0,
+                    617.992
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line14_CapitalUsed[0]",
+                "field_type": "/Tx",
+                "description": "in Item Number 4",
+                "struct_parent": 194,
+                "tool_tip": "Attachment 1. JCE Contact Information. 14. Describe how the alien investor capital is being used to execute the capital investment project described in the Form I-956F listed in Item A. in Item Number 4.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.001,
+                    576.0,
+                    347.999
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line15_B_ExhibitNum[0]",
+                "field_type": "/Tx",
+                "description": "exhibit number, name of document)",
+                "struct_parent": 197,
+                "tool_tip": "Attachment 1. JCE Contact Information. 15. B. If you answered \u201cYes,\u201d please describe the evidence provided (i.e. exhibit number, name of document).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    177.952,
+                    576.0,
+                    219.953
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line16_B_ExhibitNum[0]",
+                "field_type": "/Tx",
+                "description": "exhibit number, name of document)",
+                "struct_parent": 200,
+                "tool_tip": "Attachment 1. JCE Contact Information. 16. B. If you answered \u201cYes,\u201d please describe the evidence provided (i.e. exhibit number, name of document). ",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    87.901,
+                    576.0,
+                    129.902
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line9_CB_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 185,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.002,
+                    567.987,
+                    512.002,
+                    577.987
+                ],
+                "page_number": 12,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "A1_Line9_CB_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 184,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.001,
+                    567.987,
+                    488.001,
+                    577.987
+                ],
+                "page_number": 12,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "A1_Line9_CB_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 183,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.0,
+                    567.987,
+                    464.0,
+                    577.987
+                ],
+                "page_number": 12,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "A1_Line9_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Apartment, Suite, or Floor number",
+                "struct_parent": 186,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Enter the Apartment, Suite, or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    563.987,
+                    576.0,
+                    581.987
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line9_ZIPCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 5-digit Zip Code",
+                "struct_parent": 189,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Enter the 5-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    522.099,
+                    527.987,
+                    575.966,
+                    545.987
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line9_State[0]",
+                "field_type": "/Ch",
+                "description": "Select the State from the list of States",
+                "struct_parent": 188,
+                "tool_tip": "Attachment 1. JCE Mailing Address (and Physical Address when Applicable). 9. Select the State from the list of States.",
+                "initial_value": "",
+                "rect": [
+                    450.111,
+                    527.624,
+                    516.079,
+                    545.987
+                ],
+                "page_number": 12,
+                "options": [
+                    "",
+                    " AA",
+                    " AE",
+                    " AK",
+                    " AL",
+                    " AP",
+                    " AR",
+                    " AS",
+                    " AZ",
+                    " CA",
+                    " CO",
+                    " CT",
+                    " DC",
+                    " DE",
+                    " FL",
+                    " FM",
+                    " GA",
+                    " GU",
+                    " HI",
+                    " IA",
+                    " ID",
+                    " IL",
+                    " IN",
+                    " KS",
+                    " KY",
+                    " LA",
+                    " MA",
+                    " MD",
+                    " ME",
+                    " MH",
+                    " MI",
+                    " MN",
+                    " MO",
+                    " MP",
+                    " MS",
+                    " MT",
+                    " NC",
+                    " ND",
+                    " NE",
+                    " NH",
+                    " NJ",
+                    " NM",
+                    " NV",
+                    " NY",
+                    " OH",
+                    " OK",
+                    " OR",
+                    " PA",
+                    " PR",
+                    " PW",
+                    " RI",
+                    " SC",
+                    " SD",
+                    " TN",
+                    " TX",
+                    " UT",
+                    " VA",
+                    " VI",
+                    " VT",
+                    " WA",
+                    " WI",
+                    " WV",
+                    " WY"
+                ]
+            },
+            {
+                "field_name": "A1_Line11_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Email Address",
+                "struct_parent": 191,
+                "tool_tip": "Attachment 1. JCE Contact Information. 11. Enter the Email Address.",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    462.186,
+                    575.994,
+                    480.186
+                ],
+                "page_number": 12
+            },
+            {
+                "field_name": "A1_Line15_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 196,
+                "tool_tip": "Attachment 1. JCE Contact Information. 15. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    251.003,
+                    550.0,
+                    261.003
+                ],
+                "page_number": 12,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line15_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "in Item Number 4",
+                "struct_parent": 195,
+                "tool_tip": "Attachment 1. JCE Contact Information. 15. A. Have you provided evidence that 100 percent of the alien investor capital has been committed to the capital investment project described in the Form I-956F listed in Item A. in Item Number 4.?",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    251.003,
+                    514.0,
+                    261.003
+                ],
+                "page_number": 12,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line16_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 199,
+                "tool_tip": "Attachment 1. JCE Contact Information. 16. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    160.955,
+                    550.0,
+                    170.955
+                ],
+                "page_number": 12,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line16_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "in Item Number 4",
+                "struct_parent": 198,
+                "tool_tip": "Attachment 1. JCE Contact Information. 16. A. Have you provided detailed evidence of the progress made toward the completion of the capital investment project described in the Form I-956F listed in Item A. in Item Number 4.? ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    160.955,
+                    514.0,
+                    170.955
+                ],
+                "page_number": 12,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line17_AggNumJobs[0]",
+                "field_type": "/Tx",
+                "description": "in Item Number 4",
+                "struct_parent": 203,
+                "tool_tip": "Attachment 1. JCE Contact Information. 17. Enter the Aggregate number of direct jobs created or preserved by the capital investment project described in Form I-956F listed in Item A. in Item Number 4.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    648.0,
+                    132.001,
+                    666.0
+                ],
+                "page_number": 13
+            },
+            {
+                "field_name": "A1_Line18_A_DescFeesCollect[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Description, including the amount, of all fees collected",
+                "struct_parent": 204,
+                "tool_tip": "Attachment 1. JCE Contact Information. 18. To the best of the regional center\u2019s knowledge, for all fees, including administrative fees, loan monitoring fees, loan management fees, commissions and similar transaction-based compensation, collected from alien investors by the regional center, the new commercial enterprise, any affiliated job-creating entity, any affiliated issuer of securities intended to be offered to alien investors, or any promoter, finder, broker-dealer, or other entity engaged by any of the aforementioned entities to locate individual investors. A. Enter the Description, including the amount, of all fees collected.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    522.0,
+                    576.0,
+                    564.001
+                ],
+                "page_number": 13
+            },
+            {
+                "field_name": "A1_Line18_B_EntityAccounting[0]",
+                "field_type": "/Tx",
+                "description": "Enter an accounting of the entities that received such fee",
+                "struct_parent": 205,
+                "tool_tip": "Attachment 1. JCE Contact Information. 18. B. Enter an accounting of the entities that received such fee.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    461.999,
+                    576.0,
+                    504.0
+                ],
+                "page_number": 13
+            },
+            {
+                "field_name": "A1_Line18_C_FeePurpose[0]",
+                "field_type": "/Tx",
+                "description": "The purpose for which such fees were collected",
+                "struct_parent": 206,
+                "tool_tip": "Attachment 1. JCE Contact Information. 18. C. The purpose for which such fees were collected.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    401.998,
+                    576.0,
+                    443.999
+                ],
+                "page_number": 13
+            },
+            {
+                "field_name": "A1_Line19_B_ExhibitNum[0]",
+                "field_type": "/Tx",
+                "description": "exhibit number, name of document)",
+                "struct_parent": 209,
+                "tool_tip": "Attachment 1. JCE Contact Information. 19. B. If you answered \u201cYes,\u201d please provide that documentation and describe the documentation provided (i.e. exhibit number, name of document).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    288.002,
+                    576.0,
+                    330.003
+                ],
+                "page_number": 13
+            },
+            {
+                "field_name": "A1_Line19_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 207,
+                "tool_tip": "Attachment 1. JCE Contact Information. 19. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    385.006,
+                    550.0,
+                    395.006
+                ],
+                "page_number": 13,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line19_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "? Check this box for Yes",
+                "struct_parent": 208,
+                "tool_tip": "Attachment 1. JCE Contact Information. 19. A. Has there been any material change during the preceding fiscal year to any documentation or disclosures referred to in INA section 203(b)(5)(F)(i)(IV) associated with Form I-956F listed in Item A. in Item Number 4.? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    385.006,
+                    514.0,
+                    395.006
+                ],
+                "page_number": 13,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line20_CertifierGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Given Name (First Name)",
+                "struct_parent": 213,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. 20. Enter the Certifier's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    545.998,
+                    576.0,
+                    563.998
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line23_CertifierMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Mobile Telephone Number (if any)",
+                "struct_parent": 217,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. 23. Enter the Certifier's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    347.44,
+                    474.001,
+                    576.0,
+                    492.001
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line25_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the date a a 2-digit month, 2-digit day, and 4-digit year",
+                "struct_parent": 219,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. Certifier's Signature. 25. Enter the Date of the Signature. Enter the date a a 2-digit month, 2-digit day, and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    336.005,
+                    576.0,
+                    354.005
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 221,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    293.04,
+                    550.0,
+                    303.04
+                ],
+                "page_number": 14,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line26_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "? Check this box for Yes",
+                "struct_parent": 220,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. A. Have you provided detailed evidence of the progress made toward the completion of the capital investment project described in the Form I-956F listed in Item A. in Item Number 1.? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    293.04,
+                    514.0,
+                    303.04
+                ],
+                "page_number": 14,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line26B_AcctNum1[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Account Number for the account",
+                "struct_parent": 223,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 1. Enter the Account Number for the account.",
+                "initial_value": "",
+                "rect": [
+                    371.996,
+                    204.042,
+                    575.997,
+                    222.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_AcctNum2[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Account Number for the account",
+                "struct_parent": 225,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 2. Enter the Account Number for the account.",
+                "initial_value": "",
+                "rect": [
+                    371.996,
+                    186.042,
+                    575.997,
+                    204.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_AcctNum3[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Account Number for the account",
+                "struct_parent": 227,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 3. Enter the Account Number for the account.",
+                "initial_value": "",
+                "rect": [
+                    371.996,
+                    168.042,
+                    575.997,
+                    186.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_AcctNum4[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Account Number for the account",
+                "struct_parent": 229,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 4. Enter the Account Number for the account.",
+                "initial_value": "",
+                "rect": [
+                    371.996,
+                    150.042,
+                    575.997,
+                    168.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_AcctNum5[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Account Number for the account",
+                "struct_parent": 231,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 5. Enter the Account Number for the account.",
+                "initial_value": "",
+                "rect": [
+                    371.996,
+                    132.042,
+                    575.997,
+                    150.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line27C_FundAdminFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 239,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. C. Provide the full legal name and contact information for the fund administrator. Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    558.0,
+                    324.0,
+                    576.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line27C_FundAdminDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Daytime Telephone Number",
+                "struct_parent": 241,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. C. Enter the Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    522.0,
+                    324.0,
+                    540.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line27C_FundAdminEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Email Address (if any)",
+                "struct_parent": 243,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. C. Enter the Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    486.0,
+                    324.0,
+                    504.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line27_D_FundAdminInfo[0]",
+                "field_type": "/Tx",
+                "description": "Provide the title, relevant certification, bar, and/or registration number of the fund administrator",
+                "struct_parent": 238,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. D. Provide the title, relevant certification, bar, and/or registration number of the fund administrator.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    425.996,
+                    576.0,
+                    467.997
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28B_InvstAdviserFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 247,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. B. Provide the full legal name and contact information for the registered investment adviser or broker-dealer. Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    342.0,
+                    324.0,
+                    360.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28B_InvstAdviserDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Daytime Telephone Number",
+                "struct_parent": 249,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. B. Enter the Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    306.0,
+                    324.0,
+                    324.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28B_InvstAdviserEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Email Address (if any)",
+                "struct_parent": 251,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. B. Enter the Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    270.0,
+                    324.0,
+                    288.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28_C_RegInvestAdviserTitle[0]",
+                "field_type": "/Tx",
+                "description": "Provide the title and registration number of the registered investment adviser or broker-dealer",
+                "struct_parent": 246,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. C. Provide the title and registration number of the registered investment adviser or broker-dealer.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    209.996,
+                    576.0,
+                    251.997
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line27_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 235,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    655.001,
+                    550.0,
+                    665.001
+                ],
+                "page_number": 15,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line27_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "Has the NCE and/or affiliated JCE retained a fund administrator to administer all investment capital deposited and maintained in the separate account(s)? Check this box for Yes",
+                "struct_parent": 234,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. A. Has the NCE and/or affiliated JCE retained a fund administrator to administer all investment capital deposited and maintained in the separate account(s)? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    655.001,
+                    514.0,
+                    665.001
+                ],
+                "page_number": 15,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line27_B_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 237,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. B. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    625.002,
+                    550.0,
+                    635.002
+                ],
+                "page_number": 15,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line27_B_CB[0]",
+                "field_type": "/Btn",
+                "description": "Is the fund administrator a certified public accountant, attorney, or broker-dealer or investment adviser registered with the Securities and Exchange Commission? Check this box for Yes",
+                "struct_parent": 236,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. B. Is the fund administrator a certified public accountant, attorney, or broker-dealer or investment adviser registered with the Securities and Exchange Commission? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    625.002,
+                    514.0,
+                    635.002
+                ],
+                "page_number": 15,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line27C_FundAdminGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Given Name (First Name)",
+                "struct_parent": 240,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. C. Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    558.0,
+                    576.0,
+                    576.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line27C_FundAdminMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Mobile Telephone Number (if any)",
+                "struct_parent": 242,
+                "tool_tip": "Attachment 1. Separate Account Information. 27. C. Enter the Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    521.997,
+                    576.0,
+                    539.997
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28_A_CB[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 245,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. A. Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    408.999,
+                    550.0,
+                    418.999
+                ],
+                "page_number": 15,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "A1_Line28_A_CB[0]",
+                "field_type": "/Btn",
+                "description": "Is the NCE and/or affiliated JCE controlled by or under common control of an investment adviser or broker-dealer that is registered with the Securities and Exchange Commission? Check this box for Yes",
+                "struct_parent": 244,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. A. Is the NCE and/or affiliated JCE controlled by or under common control of an investment adviser or broker-dealer that is registered with the Securities and Exchange Commission? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    408.999,
+                    514.0,
+                    418.999
+                ],
+                "page_number": 15,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "A1_Line28B_InvstAdviserGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Given Name (First Name)",
+                "struct_parent": 248,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. B. Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    342.0,
+                    576.0,
+                    360.0
+                ],
+                "page_number": 15
+            },
+            {
+                "field_name": "A1_Line28B_InvstAdviserMobileTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Mobile Telephone Number (if any)",
+                "struct_parent": 250,
+                "tool_tip": "Attachment 1. Separate Account Information. 28. B. Enter the Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    305.997,
+                    576.0,
+                    323.997
+                ],
+                "page_number": 15
+            }
+        ]
+    },
+    {
+        "title": "Separate Account Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line20_CertifierFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Family Name (Last Name)",
+                "struct_parent": 212,
+                "tool_tip": "Attachment 1. Required Certification. This section must be completed by a qualified certifier for the regional center.  A qualified certifier is a person in a position of substantive authority for the management or operations of a regional center, such as a principal executive officer or principal financial officer, with knowledge of the regional center entity\u2019s policies and procedures related to compliance with the Regional Center Program. Certifier\u2019s Contact Information. 20. Enter the Certifier's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    312.001,
+                    564.001
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line21_CertifierTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Title",
+                "struct_parent": 214,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. 21. Enter the Certifier's Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    509.99,
+                    312.001,
+                    527.99
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line22_CertifierDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Daytime Telephone Number",
+                "struct_parent": 216,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. 22. Enter the Certifier's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    474.001,
+                    312.001,
+                    492.001
+                ],
+                "page_number": 14
+            }
+        ]
+    },
+    {
+        "title": "Certifier\u2019s Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line24_CertifierEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Certifier's Enter the Certifier's Email Address (if any)",
+                "struct_parent": 215,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. 24. Enter the Certifier's Enter the Certifier's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    438.004,
+                    312.001,
+                    456.004
+                ],
+                "page_number": 14
+            }
+        ]
+    },
+    {
+        "title": "Certifier\u2019s Contact Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line25_SignatureCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 218,
+                "tool_tip": "Attachment 1. Certifier\u2019s Contact Information. I certify, under penalty of perjury, that the information provided under Item Numbers 13. - 19. are accurate, to the best of my knowledge, after a due diligence investigation. Certifier's Signature. 25. Enter the Certifier's Signature. This field cannot be signed electronically. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.854,
+                    336.005,
+                    438.007,
+                    354.005
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_NameOfBank1[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Bank or Other Financial Institution",
+                "struct_parent": 222,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. If you answered \u201cYes,\u201d provide the name of the bank (or other financial institution) and account number for each separate account set up by the NCE and/or affiliated JCE. Row 1. Enter the Name of Bank or Other Financial Institution.",
+                "initial_value": "",
+                "rect": [
+                    83.996,
+                    204.042,
+                    371.996,
+                    222.042
+                ],
+                "page_number": 14
+            }
+        ]
+    },
+    {
+        "title": "Required Certification",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "A1_Line26B_NameOfBank2[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Bank or Other Financial Institution",
+                "struct_parent": 224,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 2. Enter the Name of Bank or Other Financial Institution.",
+                "initial_value": "",
+                "rect": [
+                    83.996,
+                    186.042,
+                    371.996,
+                    204.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_NameOfBank3[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Bank or Other Financial Institution",
+                "struct_parent": 226,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 3. Enter the Name of Bank or Other Financial Institution.",
+                "initial_value": "",
+                "rect": [
+                    83.996,
+                    168.042,
+                    371.996,
+                    186.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_NameOfBank4[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Bank or Other Financial Institution",
+                "struct_parent": 228,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 4. Enter the Name of Bank or Other Financial Institution.",
+                "initial_value": "",
+                "rect": [
+                    83.996,
+                    150.042,
+                    371.996,
+                    168.042
+                ],
+                "page_number": 14
+            },
+            {
+                "field_name": "A1_Line26B_NameOfBack5[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Bank or Other Financial Institution",
+                "struct_parent": 230,
+                "tool_tip": "Attachment 1. Separate Account Information. 26. B. Row 5. Enter the Name of Bank or Other Financial Institution.",
+                "initial_value": "",
+                "rect": [
+                    83.996,
+                    132.042,
+                    371.996,
+                    150.042
+                ],
+                "page_number": 14
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 11",
+                "field_type": "/Btn",
+                "description": "I have included the appropriate filing fee and biometric services fee (if applicable), if not exempted or waived",
+                "struct_parent": 122,
+                "tool_tip": "I have included the appropriate filing fee and biometric services fee (if applicable), if not exempted or waived.\r",
+                "initial_value": "/Off",
+                "rect": [
+                    38.8893,
+                    90.6107,
+                    51.1107,
+                    102.832
+                ],
+                "page_number": 18,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 13",
+                "field_type": "/Btn",
+                "description": "I have read these Instructions and the following Additional Instructions (if any) relating to my specific immigrant category",
+                "struct_parent": 123,
+                "tool_tip": "I have read these Instructions and the following Additional Instructions (if any) relating to my specific immigrant category.",
+                "initial_value": "/Off",
+                "rect": [
+                    38.8893,
+                    72.6107,
+                    51.1107,
+                    84.8322
+                ],
+                "page_number": 18,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Person admitted to the United States as a fianc\u00e9(e) or child of a fianc\u00e9(e) of a U.S. citizen (Form I-129F)  (K-1/K-2 nonimmigrant)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 15",
+                "field_type": "/Btn",
+                "description": "I have read these Instructions and the following Additional Instructions (if any) relating to my specific immigrant category",
+                "struct_parent": 124,
+                "tool_tip": "I have read these Instructions and the following Additional Instructions (if any) relating to my specific immigrant category.",
+                "initial_value": "/Off",
+                "rect": [
+                    41.7785,
+                    725.779,
+                    54.0,
+                    738.0
+                ],
+                "page_number": 19,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

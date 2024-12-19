@@ -1,0 +1,1343 @@
+[
+    {
+        "title": "Part 1.  Information About Attorney",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number, if any",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About Attorney. 1. Enter U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    641.999,
+                    294.009,
+                    659.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About Attorney. Name of Attorney. 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    587.999,
+                    293.998,
+                    605.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About Attorney. Name of Attorney. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    563.998,
+                    293.998,
+                    581.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About Attorney. Name of Attorney. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    540.0,
+                    293.998,
+                    558.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    486.0,
+                    294.001,
+                    504.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. B. Select Floor.",
+                "initial_value": "/Off",
+                "rect": [
+                    144.0,
+                    466.002,
+                    154.0,
+                    476.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. B. Select Suite.",
+                "initial_value": "/Off",
+                "rect": [
+                    101.999,
+                    466.002,
+                    111.999,
+                    476.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. B. Select Apartment.",
+                "initial_value": "/Off",
+                "rect": [
+                    60.001,
+                    466.002,
+                    70.001,
+                    476.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About Attorney.  Address of Attorney. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    462.002,
+                    294.001,
+                    480.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3c_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    438.001,
+                    293.791,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3d_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. D. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    414.0,
+                    293.664,
+                    432.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3e_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. E. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    389.999,
+                    293.664,
+                    407.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3f_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About Attorney. Address of Attorney. 3. F. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    353.999,
+                    294.001,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About Attorney. Contact Information of Attorney. 4. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    288.0,
+                    294.001,
+                    306.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_MobileTelephoneNum[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number, if any",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About Attorney. Contact Information of Attorney. 5. Enter Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    252.003,
+                    294.001,
+                    270.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address, if any",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information About Attorney. Contact Information of Attorney. 6. Enter Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    215.994,
+                    294.001,
+                    233.994
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line7_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number, if any",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About Attorney. Contact Information of Attorney. 7. Enter Fax Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    180.0,
+                    294.001,
+                    198.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Eligibility Information for Attorney",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 1. A. Select I am an attorney licensed to practice law in, and in good standing of, a court of general jurisdiction in the following country where I reside and I am regularly engaged in such practice. If you need extra space to complete this section, use the space provided in Part 6. Additional Information. ",
+                "initial_value": "/Off",
+                "rect": [
+                    343.291,
+                    643.002,
+                    353.291,
+                    653.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt2Line1a_LicensingAuthority[0]",
+                "field_type": "/Tx",
+                "description": "Enter Licensing Authority",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Eligibility Information for Attorney or Accredited Representative. Select all applicable items. 1. A. Enter Licensing Authority.",
+                "initial_value": "",
+                "rect": [
+                    341.997,
+                    546.001,
+                    576.244,
+                    564.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1b_LicenseNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter License Number, if applicable",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 1. B. Enter License Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    510.001,
+                    576.0,
+                    528.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Checkbox1d_Am[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information to provide an explanation",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 1. C. I (select only one box) am subject to any order suspending, enjoining, restraining, disbarring, or otherwise restricting me in the practice of law.  If you are subject to any orders, use the space provided in Part 6. Additional Information to provide an explanation.",
+                "initial_value": "/Off",
+                "rect": [
+                    492.986,
+                    493.001,
+                    502.986,
+                    503.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Checkbox1d_AmNot[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information to provide an explanation",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 1. C. I (select only one box) am not subject to any order suspending, enjoining, restraining, disbarring, or otherwise restricting me in the practice of law.  If you are subject to any orders, use the space provided in Part 6. Additional Information to provide an explanation.",
+                "initial_value": "/Off",
+                "rect": [
+                    438.986,
+                    493.001,
+                    448.986,
+                    503.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt2Line1b_BarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Law Firm or Organization, if applicable",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 1. D. Enter Name of Law Firm or Organization, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    396.0,
+                    576.0,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2[1]",
+                "field_type": "/Btn",
+                "description": "Select I am associated with the attorney of record who previously filed Form G-28 I in this case, and my appearance as an attorney for a limited purpose is at his or her request",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 2. Select I am associated with the attorney of record who previously filed Form G-28 I in this case, and my appearance as an attorney for a limited purpose is at his or her request. ",
+                "initial_value": "/Off",
+                "rect": [
+                    342.999,
+                    379.0,
+                    352.999,
+                    389.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "PtLine2a_NameofAtty[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Attorney",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Eligibility Information for Attorney. Select all applicable items. 2. Enter Name of Attorney.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    359.997,
+                    572.0,
+                    377.997
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Notice of Appearance as Attorney  Admitted to Practice Outside the United States",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1a_USCIS[0]",
+                "field_type": "/Btn",
+                "description": "Citizenship and Immigration Services (U S C I S)",
+                "struct_parent": 26,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. If you need extra space to complete this section, use the space provided in Part 6. Additional Information. This appearance relates to immigration matters before (select only one box). 1. A. Select U.S. Citizenship and Immigration Services (U S C I S).",
+                "initial_value": "/Off",
+                "rect": [
+                    342.999,
+                    199.003,
+                    352.999,
+                    209.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Line1b_ListFormNumber[0]",
+                "field_type": "/Tx",
+                "description": "List the form numbers or specific matter in which appearance is entered",
+                "struct_parent": 27,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. This appearance relates to immigration matters before (select only one box). 1. B. List the form numbers or specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    150.004,
+                    576.0,
+                    168.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2a_ICE[0]",
+                "field_type": "/Btn",
+                "description": "Immigration and Customs Enforcement (ICE)",
+                "struct_parent": 28,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. This appearance relates to immigration matters before (select only one box). 2. A. Select U.S. Immigration and Customs Enforcement (ICE).",
+                "initial_value": "/Off",
+                "rect": [
+                    342.999,
+                    133.001,
+                    352.999,
+                    143.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Line2b_ListMatter[0]",
+                "field_type": "/Tx",
+                "description": "List the specific matter in which appearance is entered",
+                "struct_parent": 29,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. This appearance relates to immigration matters before (select only one box). 2. B. List the specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    95.995,
+                    576.0,
+                    113.995
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Notice of Appearance as Attorney  Admitted to Practice Outside the United States  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line3a_CBP[0]",
+                "field_type": "/Btn",
+                "description": "Customs and Border Protection (C B P)",
+                "struct_parent": 31,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. This appearance relates to immigration matters before (select only one box). 3. A. Select U.S. Customs and Border Protection (C B P).",
+                "initial_value": "/Off",
+                "rect": [
+                    61.0,
+                    673.001,
+                    71.0,
+                    683.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Line3b_ListSpecificMatter[0]",
+                "field_type": "/Tx",
+                "description": "List the specific matter in which appearance is entered",
+                "struct_parent": 32,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. This appearance relates to immigration matters before (select only one box). 3. B. List the specific matter in which appearance is entered.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    636.004,
+                    294.001,
+                    654.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Receipt Number, if any",
+                "struct_parent": 33,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. 4. Enter Receipt Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    105.599,
+                    600.004,
+                    294.001,
+                    618.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4_CheckboxPET[0]",
+                "field_type": "/Btn",
+                "description": "Select Petitioner",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. 5. I enter my appearance as an attorney at the request of the (select only one box). Select Petitioner.",
+                "initial_value": "/Off",
+                "rect": [
+                    133.0,
+                    556.002,
+                    143.0,
+                    566.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_CheckboxAPP[0]",
+                "field_type": "/Btn",
+                "description": "Select Applicant",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. 5. I enter my appearance as an attorney at the request of the (select only one box). Select Applicant.",
+                "initial_value": "/Off",
+                "rect": [
+                    61.0,
+                    556.002,
+                    71.0,
+                    566.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_CheckboxRES[0]",
+                "field_type": "/Btn",
+                "description": "Select Respondent (ICE, C B P)",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. 5. I enter my appearance as an attorney at the request of the (select only one box). Select Respondent (ICE, C B P).",
+                "initial_value": "/Off",
+                "rect": [
+                    180.999,
+                    541.003,
+                    190.999,
+                    551.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_CheckboxBEN[0]",
+                "field_type": "/Btn",
+                "description": "Select Beneficiary / Derivative",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. 5. I enter my appearance as an attorney at the request of the (select only one box). Select Beneficiary / Derivative.",
+                "initial_value": "/Off",
+                "rect": [
+                    61.0,
+                    541.003,
+                    71.0,
+                    551.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. A. Enter Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    456.012,
+                    293.998,
+                    474.012
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line6b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 40,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. B. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    432.014,
+                    293.998,
+                    450.014
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line6c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 39,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 6. C. Enter Middle Name. ",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    408.013,
+                    293.998,
+                    426.013
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line6_NameOfCompany[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Entity, if applicable",
+                "struct_parent": 42,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 7. A. Enter Name of Entity, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    372.01,
+                    294.001,
+                    390.01
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line7b_TitleofEntity[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Authorized Signatory for Entity, if applicable",
+                "struct_parent": 44,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 7. B. Enter Title of Authorized Signatory for Entity, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    336.013,
+                    294.001,
+                    354.013
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line8_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Client's U S C I S Online Account Number, if any",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 8. Enter Client's U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    300.013,
+                    294.009,
+                    318.013
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line9_ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 43,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Information About Client (Applicant, Petitioner, Beneficiary or Derivative, Respondent, or Authorized Signatory for an Entity). 9. Enter Client's Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    264.013,
+                    294.001,
+                    282.013
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line10_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Client's Contact Information. 10. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.003,
+                    294.001,
+                    216.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line11_MobilePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number, if any",
+                "struct_parent": 47,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Client's Contact Information. 11. Enter Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.003,
+                    294.001,
+                    180.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12_EMail[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address, if any",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Client's Contact Information. 12. Enter Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    126.003,
+                    294.001,
+                    144.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. NOTE: Provide the client's mailing address.  Do not provide the business mailing address of the attorney unless it serves as the safe mailing address on the application or petition being filed with this Form G-28 I. 13. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    641.999,
+                    576.0,
+                    659.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. B. Select Floor.",
+                "initial_value": "/Off",
+                "rect": [
+                    425.999,
+                    622.001,
+                    435.999,
+                    632.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P3Line13b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. B. Select Suite.",
+                "initial_value": "/Off",
+                "rect": [
+                    383.998,
+                    622.001,
+                    393.998,
+                    632.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P3Line13b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. B. Select Apartment.",
+                "initial_value": "/Off",
+                "rect": [
+                    341.997,
+                    622.001,
+                    351.997,
+                    632.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P3Line13b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    618.001,
+                    576.0,
+                    636.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13c_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    593.997,
+                    576.17,
+                    611.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13d_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. D. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    569.993,
+                    576.17,
+                    587.993
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13e_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. E. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    545.998,
+                    576.17,
+                    563.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3Line13f_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Notice of Appearance as Attorney Admitted to Practice Outside the United States. Mailing Address of Client. 13. F. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    509.998,
+                    576.0,
+                    527.998
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Client's Consent to Representation and  Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox2a[0]",
+                "field_type": "/Btn",
+                "description": "Select I request that U S C I S send original notices on an application or petition to the business address of my attorney as listed in this form",
+                "struct_parent": 57,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Consent to Representation and Release of Information. I have requested the representation of and consented to being represented by the attorney named in Part 1. of this form.  According to the Privacy Act of 1974 and U.S. Department of Homeland Security (D H S) policy, I also consent to the disclosure to the named attorney of any record pertaining to me that appears in any system of records of U S C I S, ICE, or C B P. Options Regarding Receipt of U S C I S Notices. U S C I S will send notices to both a represented party (the client) and his, her, or its attorney or accredited representative either through mail or electronic delivery.  If you want to have notices sent to your attorney rather than to you, please select Item Number 1. below.  You may change this election through written notice to U S C I S. 1. Select I request that U S C I S send original notices on an application or petition to the business address of my attorney as listed in this form.",
+                "initial_value": "/Off",
+                "rect": [
+                    342.999,
+                    223.004,
+                    352.999,
+                    233.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 58,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Signature of Client or Authorized Signatory for an Entity. 2. A. Signature of Client or Authorized Signatory for an Entity. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    120.002,
+                    576.0,
+                    138.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line3b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 59,
+                "tool_tip": "Part 4. Client's Consent to Representation and Signature. Signature of Client or Authorized Signatory for an Entity. 2. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    485.997,
+                    96.001,
+                    575.997,
+                    114.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Signature of Attorney",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 61,
+                "tool_tip": "Part 5. Signature of Attorney. I have read and understand the regulations and conditions contained in 8 Code of Federal Regulation (C F R) 1 03.2 and 2 92 governing appearances and representation before D H S. I declare under penalty of perjury under the laws of the United States that the information I have provided on this form is true and correct. 1. A. Signature of Attorney. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    618.004,
+                    294.001,
+                    636.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Line1b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 62,
+                "tool_tip": "Part 5. Signature of Attorney. 1. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    594.003,
+                    294.001,
+                    612.003
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line2a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 64,
+                "tool_tip": "Part 6. Additional Information  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.061,
+                    605.999,
+                    294.06,
+                    623.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 65,
+                "tool_tip": "Part 6. Additional Information. 1. B. Given Name (First Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.061,
+                    581.998,
+                    294.06,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 66,
+                "tool_tip": "Part 6. Additional Information. 1. C. Middle Name. This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.061,
+                    558.0,
+                    294.06,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 69,
+                "tool_tip": "Part 6. Additional Information. 2. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.842,
+                    516.002,
+                    293.842,
+                    534.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 68,
+                "tool_tip": "Part 6. Additional Information. 2. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.842,
+                    515.999,
+                    203.842,
+                    533.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 67,
+                "tool_tip": "Part 6. Additional Information. 2. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.842,
+                    515.999,
+                    113.842,
+                    533.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line2d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 85,
+                "tool_tip": "Part 6. Additional Information. 2. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    294.001,
+                    294.114,
+                    510.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 72,
+                "tool_tip": "Part 6. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.842,
+                    252.0,
+                    293.842,
+                    270.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 71,
+                "tool_tip": "Part 6. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.842,
+                    252.0,
+                    203.842,
+                    270.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 70,
+                "tool_tip": "Part 6. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.842,
+                    252.0,
+                    113.842,
+                    270.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 86,
+                "tool_tip": "Part 6. Additional Information. 3. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    48.002,
+                    294.114,
+                    246.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 76,
+                "tool_tip": "Part 6. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.841,
+                    707.998,
+                    575.841,
+                    725.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 75,
+                "tool_tip": "Part 6. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.062,
+                    707.998,
+                    486.062,
+                    725.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 74,
+                "tool_tip": "Part 6. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    707.998,
+                    396.062,
+                    725.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 73,
+                "tool_tip": "Part 6. Additional Information. 4. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    486.0,
+                    576.175,
+                    702.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 84,
+                "tool_tip": "Part 6. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.623,
+                    443.999,
+                    575.623,
+                    461.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 83,
+                "tool_tip": "Part 6. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.841,
+                    443.999,
+                    485.841,
+                    461.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 82,
+                "tool_tip": "Part 6. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    443.999,
+                    396.062,
+                    461.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 77,
+                "tool_tip": "Part 6. Additional Information. 5. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    276.001,
+                    576.175,
+                    438.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 78,
+                "tool_tip": "Part 6. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.623,
+                    234.0,
+                    575.623,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 79,
+                "tool_tip": "Part 6. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.841,
+                    234.0,
+                    485.841,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 80,
+                "tool_tip": "Part 6. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    234.0,
+                    396.062,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line6d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 81,
+                "tool_tip": "Part 6. Additional Information. 6. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    342.062,
+                    48.002,
+                    576.175,
+                    228.002
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

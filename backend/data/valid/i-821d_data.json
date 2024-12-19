@@ -1,0 +1,4279 @@
+[
+    {
+        "title": "Full Legal Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "G28_Attached[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G-28 is attached to represent the requestor",
+                "struct_parent": 2,
+                "tool_tip": "To Be Completed by an Attorney or Accredited Representative, if any. Select this box if Form G-28 is attached to represent the requestor.",
+                "initial_value": "",
+                "rect": [
+                    253.736,
+                    570.973,
+                    263.736,
+                    580.973
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (For Initial and   Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part1_CB[1]",
+                "field_type": "/Btn",
+                "description": "I am not in immigration detention",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). I am not in immigration detention. Check box",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    493.001,
+                    46.999,
+                    503.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/AM NOT"
+                ]
+            },
+            {
+                "field_name": "Part1_CB[0]",
+                "field_type": "/Btn",
+                "description": "I am in immigration detention",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). I am in immigration detention. Check box",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    475.001,
+                    46.999,
+                    485.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/AM"
+                ]
+            },
+            {
+                "field_name": "P1_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check box",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). 1. Initial Request - Consideration of Deferred Action for Childhood Arrivals. Check box. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    439.001,
+                    71.0,
+                    449.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/I"
+                ]
+            },
+            {
+                "field_name": "P1_Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check box",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). 2. Renewal Request - Consideration of Deferred Action for Childhood Arrivals. Check box. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    396.884,
+                    71.0,
+                    406.884
+                ],
+                "page_number": 1,
+                "options": [
+                    "/R"
+                ]
+            },
+            {
+                "field_name": "P1_Line2_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). 2. For this Renewal request, my most recent period of Deferred Action for Childhood Arrivals expires on. Enter Date. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    324.0,
+                    294.001,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3a_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Full Legal Name. 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    275.998,
+                    294.001,
+                    293.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3b_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Full Legal Name. 3. B. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    252.0,
+                    294.001,
+                    270.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3c_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Full Legal Name. 3. C. Enter Middle Name. ",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    227.999,
+                    294.001,
+                    245.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4a_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if applicable",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. A. Enter In Care Of Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    474.001,
+                    576.0,
+                    492.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4b_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    449.997,
+                    576.0,
+                    467.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    450.998,
+                    424.001,
+                    460.998,
+                    434.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_Line4c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    366.999,
+                    423.998,
+                    376.999,
+                    433.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line4c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    409.0,
+                    423.995,
+                    419.0,
+                    433.995
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_Line4c_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    419.995,
+                    576.0,
+                    437.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    395.997,
+                    576.0,
+                    413.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    467.997,
+                    372.025,
+                    576.0,
+                    390.025
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). U.S. Mailing Address (Enter the same address on Form I-7 65). 4. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    365.998,
+                    372.025,
+                    401.998,
+                    390.025
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line5_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Are you NOW or have you EVER been in removal proceedings, or do you have a removal order issued in any other context (for example, at the border or within the United States by an immigration agent)? Select No",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. 5. Are you NOW or have you EVER been in removal proceedings, or do you have a removal order issued in any other context (for example, at the border or within the United States by an immigration agent)? Select No. ",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    274.006,
+                    550.0,
+                    284.006
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line5_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Are you NOW or have you EVER been in removal proceedings, or do you have a removal order issued in any other context (for example, at the border or within the United States by an immigration agent)? Select Yes",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. 5. Are you NOW or have you EVER been in removal proceedings, or do you have a removal order issued in any other context (for example, at the border or within the United States by an immigration agent)? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    274.006,
+                    514.0,
+                    284.006
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Removal Proceedings Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttyLicenseNum[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if any",
+                "struct_parent": 20,
+                "tool_tip": "To Be Completed by an Attorney or Accredited Representative, if any. Enter Attorney State Bar Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    563.998,
+                    570.002,
+                    578.999
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (For Initial and   Renewal Requests) (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line6_CB[0]",
+                "field_type": "/Btn",
+                "description": "Select Currently in Proceedings (Active)",
+                "struct_parent": 70,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. If you answered \"Yes\" to Item Number 5., you must select a box below indicating your current status or outcome of your removal proceedings. Status or outcome. 6. A. Select Currently in Proceedings (Active).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    637.002,
+                    70.001,
+                    647.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Active"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select Currently in Proceedings (Administratively Closed)",
+                "struct_parent": 71,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. Status or outcome.  6. B. Select Currently in Proceedings (Administratively Closed).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    619.125,
+                    70.001,
+                    629.125
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Closed"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_CB[2]",
+                "field_type": "/Btn",
+                "description": "Select Terminated",
+                "struct_parent": 72,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. Status or outcome. 6. C. Select Terminated. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    601.001,
+                    70.001,
+                    611.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Terminated"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_CB[3]",
+                "field_type": "/Btn",
+                "description": "Select Subject to a Final Order",
+                "struct_parent": 73,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. Status or outcome. 6. D. Select Subject to a Final Order. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    583.079,
+                    70.001,
+                    593.079
+                ],
+                "page_number": 2,
+                "options": [
+                    "/FinalOrder"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_CB[4]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 76,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. Status or outcome. 6. E. Select Other. Explain in Part 8. Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    565.045,
+                    70.001,
+                    575.045
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Other"
+                ]
+            },
+            {
+                "field_name": "P1_Line6f_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 75,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. 6. F. Enter Most Recent Date of Proceedings. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    528.001,
+                    294.001,
+                    546.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line6g_Location[0]",
+                "field_type": "/Tx",
+                "description": "Enter Location of Proceedings",
+                "struct_parent": 74,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Removal Proceedings Information. 6. G. Enter Location of Proceedings.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    492.004,
+                    294.001,
+                    510.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7_ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 7. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    165.104,
+                    425.996,
+                    294.114,
+                    443.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line8_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 37,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 8. Enter U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    164.889,
+                    389.996,
+                    293.899,
+                    407.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line9_DOB[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 9. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    197.867,
+                    365.998,
+                    293.808,
+                    383.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line10_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 10. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    155.866,
+                    345.997,
+                    165.866,
+                    355.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "P1_Line10_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 10. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    107.867,
+                    345.997,
+                    117.867,
+                    355.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "P1_Line11a_CityBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City, Town or Village of Birth",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 11. A. Enter City, Town or Village of Birth.",
+                "initial_value": "",
+                "rect": [
+                    60.185,
+                    305.994,
+                    294.001,
+                    323.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line11b_CountryBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 11. B. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.0,
+                    294.001,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line12_CountryRes[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Country of Residence",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 12. Enter Current Country of Residence.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    234.0,
+                    294.001,
+                    252.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line13_CountryCitz[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 13. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.0,
+                    294.001,
+                    216.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line14_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 14. Marital Status. Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    166.0,
+                    232.001,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "P1_Line14_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Single",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 14. Marital Status. Select Single.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    166.0,
+                    183.999,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/S"
+                ]
+            },
+            {
+                "field_name": "P1_Line14_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 14. Marital Status. Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    114.001,
+                    166.0,
+                    124.001,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/W"
+                ]
+            },
+            {
+                "field_name": "P1_Line14_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Information. 14. Marital Status. Select Married.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    166.0,
+                    70.001,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "P1_Line15a_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 77,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Names Used, if applicable. If you need additional space, use Part 8. Additional Information. 15. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    671.998,
+                    576.0,
+                    689.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line15b_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 78,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Names Used, if applicable. 15. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line15c_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 79,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Other Names Used, if applicable. 15. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    623.999,
+                    576.0,
+                    641.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line16_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Hispanic or Latino",
+                "struct_parent": 69,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 16. Ethnicity (Select only one box). Select Hispanic or Latino.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    568.001,
+                    352.999,
+                    578.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/H"
+                ]
+            },
+            {
+                "field_name": "P1_Line16_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Not Hispanic or Latino",
+                "struct_parent": 68,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 16. Ethnicity (Select only one box). Select Not Hispanic or Latino.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    553.002,
+                    352.999,
+                    563.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line17_Race_White[0]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 65,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 17. Race (Select all applicable boxes). Select White.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    520.002,
+                    352.999,
+                    530.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line17_Race_Asian[0]",
+                "field_type": "/Btn",
+                "description": "Select Asian",
+                "struct_parent": 66,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 17. Race (Select all applicable boxes). Select Asian.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    505.003,
+                    352.999,
+                    515.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line17_Race_Black[0]",
+                "field_type": "/Btn",
+                "description": "Select Black or African American",
+                "struct_parent": 67,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 17. Race (Select all applicable boxes). Select Black or African American.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    490.003,
+                    352.999,
+                    500.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line17_Race_AmIndian[0]",
+                "field_type": "/Btn",
+                "description": "Select American Indian or Alaska Native",
+                "struct_parent": 64,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 17. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    475.001,
+                    352.999,
+                    485.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line17_Race_NativeHaw[0]",
+                "field_type": "/Btn",
+                "description": "Select Native Hawaiian or Other Pacific Islander",
+                "struct_parent": 63,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 17. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    460.001,
+                    352.999,
+                    470.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line18_Height-In[0]",
+                "field_type": "/Ch",
+                "description": "Select the Inches from the drop down list",
+                "struct_parent": 48,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 18. Height. Select the Inches from the drop down list.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    432.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ]
+            },
+            {
+                "field_name": "P1_Line18_Height-Ft[0]",
+                "field_type": "/Ch",
+                "description": "Select the Feet from the drop down list",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 18. Height. Select the Feet from the drop down list.",
+                "initial_value": "",
+                "rect": [
+                    480.002,
+                    432.0,
+                    510.001,
+                    450.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ]
+            },
+            {
+                "field_name": "P1_Line19_Weight[2]",
+                "field_type": "/Tx",
+                "description": "Enter third digit of three digits",
+                "struct_parent": 51,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 19. Weight in Pounds. Enter third digit of three digits.",
+                "initial_value": "",
+                "rect": [
+                    564.001,
+                    408.002,
+                    576.0,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line19_Weight[1]",
+                "field_type": "/Tx",
+                "description": "Enter second digit of three digits",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 19. Weight in Pounds. Enter second digit of three digits.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    408.002,
+                    558.0,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line19_Weight[0]",
+                "field_type": "/Tx",
+                "description": "Enter first digit of three digits",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 19. Weight in Pounds. Enter first digit of three digits.",
+                "initial_value": "",
+                "rect": [
+                    528.001,
+                    408.002,
+                    540.0,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[6]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 58,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    480.998,
+                    372.999,
+                    490.998,
+                    382.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BRO"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Blue",
+                "struct_parent": 52,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Blue.",
+                "initial_value": "",
+                "rect": [
+                    408.998,
+                    372.999,
+                    418.998,
+                    382.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLU"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[7]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 59,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    372.999,
+                    352.999,
+                    382.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Select Hazel",
+                "struct_parent": 54,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Hazel.",
+                "initial_value": "",
+                "rect": [
+                    480.998,
+                    357.996,
+                    490.998,
+                    367.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/HAZ"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[5]",
+                "field_type": "/Btn",
+                "description": "Select Green",
+                "struct_parent": 57,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Green.",
+                "initial_value": "",
+                "rect": [
+                    408.998,
+                    357.996,
+                    418.998,
+                    367.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRN"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 53,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    357.996,
+                    352.999,
+                    367.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[8]",
+                "field_type": "/Btn",
+                "description": "Select Unknown / Other",
+                "struct_parent": 60,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Unknown / Other.",
+                "initial_value": "",
+                "rect": [
+                    480.998,
+                    342.997,
+                    490.998,
+                    352.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/UNK"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[3]",
+                "field_type": "/Btn",
+                "description": "Select Pink",
+                "struct_parent": 55,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Pink.",
+                "initial_value": "",
+                "rect": [
+                    409.001,
+                    342.997,
+                    419.001,
+                    352.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/PNK"
+                ]
+            },
+            {
+                "field_name": "P1_Line20_Checkbox[4]",
+                "field_type": "/Btn",
+                "description": "Select Maroon",
+                "struct_parent": 56,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 20. Eye Color (Select only one box). Select Maroon.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    342.997,
+                    352.999,
+                    352.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/MAR"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Blond",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Blond.",
+                "initial_value": "",
+                "rect": [
+                    504.999,
+                    307.0,
+                    514.999,
+                    317.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLN"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[8]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    432.999,
+                    307.0,
+                    442.999,
+                    317.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Bald (No hair)",
+                "struct_parent": 38,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Bald (No hair).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    307.0,
+                    352.999,
+                    317.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BAL"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[6]",
+                "field_type": "/Btn",
+                "description": "Select Red",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Red.",
+                "initial_value": "",
+                "rect": [
+                    504.999,
+                    292.0,
+                    514.999,
+                    302.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/RED"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    432.999,
+                    292.0,
+                    442.999,
+                    302.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[7]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    292.0,
+                    352.999,
+                    302.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BRO"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[4]",
+                "field_type": "/Btn",
+                "description": "Select Unknown / Other",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Unknown / Other.",
+                "initial_value": "",
+                "rect": [
+                    504.999,
+                    277.001,
+                    514.999,
+                    287.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/UNK"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[5]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select White.",
+                "initial_value": "",
+                "rect": [
+                    433.002,
+                    277.001,
+                    443.002,
+                    287.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/WHI"
+                ]
+            },
+            {
+                "field_name": "P1_Line21_Checkbox[3]",
+                "field_type": "/Btn",
+                "description": "Select Sandy",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You (For Initial and Renewal Requests). Processing Information. 21. Hair Color (Select only one box). Select Sandy.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    277.001,
+                    352.999,
+                    287.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/SDY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Residence and Travel Information  (For  Initial and Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1_checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). 1. I have been continuously residing in the U.S. since at least June 15, 2007, up to the present time. Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    178.005,
+                    550.0,
+                    188.005
+                ],
+                "page_number": 2,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P2_Line1_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). 1. I have been continuously residing in the U.S. since at least June 15, 2007, up to the present time. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    178.002,
+                    514.0,
+                    188.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Residence and Travel Information  (For  Initial and Renewal Requests) (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line2a_Date_From[0]",
+                "field_type": "/Tx",
+                "description": "Enter the From Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 96,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests) (continued). Present Address. 2. A. Dates at this residence (mm/dd/yyyy). Enter the From Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    450.006,
+                    174.002,
+                    468.006
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2b_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    426.008,
+                    294.001,
+                    444.008
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    85.0,
+                    406.007,
+                    95.0,
+                    416.007
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    168.999,
+                    406.004,
+                    178.999,
+                    416.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    127.001,
+                    406.004,
+                    137.001,
+                    416.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line2c_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    402.004,
+                    294.001,
+                    420.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    378.006,
+                    294.001,
+                    396.006
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 95,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    186.313,
+                    354.008,
+                    294.001,
+                    372.008
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 94,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Present Address. 2. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    354.008,
+                    119.999,
+                    372.008
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line3a_Date_To[0]",
+                "field_type": "/Tx",
+                "description": "Enter the To Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. A. Dates at this residence. Enter the To Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    294.007,
+                    294.001,
+                    312.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3a_Date_From[0]",
+                "field_type": "/Tx",
+                "description": "Enter the From Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. A. Dates at this residence. Enter the From Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    294.007,
+                    174.002,
+                    312.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3b_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    270.009,
+                    294.001,
+                    288.009
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    85.0,
+                    250.008,
+                    95.0,
+                    260.008
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line3c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    168.999,
+                    250.005,
+                    178.999,
+                    260.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line3c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    127.001,
+                    250.005,
+                    137.001,
+                    260.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line3c_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    246.005,
+                    294.001,
+                    264.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    222.007,
+                    294.001,
+                    240.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2_Line3f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    198.009,
+                    294.001,
+                    216.009
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address One. 3. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    198.009,
+                    119.999,
+                    216.009
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line4a_Date_To[0]",
+                "field_type": "/Tx",
+                "description": "Enter the To Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 106,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. A. Dates at this residence. Enter the To Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    138.005,
+                    294.001,
+                    156.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4a_Date_From[0]",
+                "field_type": "/Tx",
+                "description": "Enter the From Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 105,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. A. Dates at this residence. Enter the From Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    138.005,
+                    174.002,
+                    156.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4b_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    114.007,
+                    294.001,
+                    132.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    85.0,
+                    94.006,
+                    95.0,
+                    104.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    168.999,
+                    94.003,
+                    178.999,
+                    104.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    127.001,
+                    94.003,
+                    137.001,
+                    104.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    90.003,
+                    294.001,
+                    108.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    66.005,
+                    294.001,
+                    84.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 104,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    185.998,
+                    42.007,
+                    294.001,
+                    60.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 103,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Two. 4. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    42.007,
+                    119.999,
+                    60.007
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line5a_Date_To[0]",
+                "field_type": "/Tx",
+                "description": "Enter the To Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 128,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. A. Dates at this residence. Enter the To Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    695.999,
+                    576.0,
+                    713.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5a_Date_From[0]",
+                "field_type": "/Tx",
+                "description": "Enter the From Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 127,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. A. Dates at this residence. Enter the From Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    378.0,
+                    695.999,
+                    456.001,
+                    713.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5b_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 126,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    672.001,
+                    576.0,
+                    690.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 130,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    450.998,
+                    652.0,
+                    460.998,
+                    662.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line5c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 131,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    409.0,
+                    652.0,
+                    419.0,
+                    662.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line5c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 132,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    366.999,
+                    652.0,
+                    376.999,
+                    662.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line5c_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 129,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    623.999,
+                    576.0,
+                    641.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 125,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    467.997,
+                    600.001,
+                    576.0,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line5e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 124,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Address Three. 5. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    365.998,
+                    600.001,
+                    401.998,
+                    618.001
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line6a_DepDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Departure Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. For Initial Requests:  List all of your absences from the United States since June 15, 2007.  For Renewal Requests:  List only your absences from the United States since you submitted your last Form I-8 21 D that was approved. If you require additional space, use Part 8. Additional Information. Departure One. 6. A. Enter Departure Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    425.996,
+                    576.0,
+                    443.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line6b_RetDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Return Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. Departure One. 6. B. Enter Return Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    401.995,
+                    576.0,
+                    419.995
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line6c_Reason[0]",
+                "field_type": "/Tx",
+                "description": "Enter Reason for Departure",
+                "struct_parent": 120,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. Departure One. 6. C. Enter Reason for Departure.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    365.992,
+                    576.0,
+                    383.992
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line7a_DeptDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Departure Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. Departure Two. 7. A. Enter Departure Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    317.996,
+                    576.0,
+                    335.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line7b_RetDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Return Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. Departure Two. 7. B. Enter Return Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    293.995,
+                    576.0,
+                    311.995
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line7c_Reason[0]",
+                "field_type": "/Tx",
+                "description": "Enter Reason for Departure",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. Departure Two. 7. C. Enter Reason for Departure.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    257.995,
+                    576.0,
+                    275.995
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line8_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you left the United States without advance parole on or after August 15, 2012? Select No",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 8. Have you left the United States without advance parole on or after August 15, 2012? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    220.0,
+                    556.001,
+                    230.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P2_Line8_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Have you left the United States without advance parole on or after August 15, 2012? Select Yes",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 8. Have you left the United States without advance parole on or after August 15, 2012? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    219.997,
+                    514.0,
+                    229.997
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P2_Line9a_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter What country issued your last passport",
+                "struct_parent": 116,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 9. A. Enter What country issued your last passport. ",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    179.997,
+                    576.0,
+                    197.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line9b_Passport[0]",
+                "field_type": "/Tx",
+                "description": "Enter Passport Number",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 9. B. Enter Passport Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    143.997,
+                    576.0,
+                    161.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line9c_ExpDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Passport Expiration Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 9. C. Enter Passport Expiration Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    107.997,
+                    576.0,
+                    125.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_BorderCard[0]",
+                "field_type": "/Tx",
+                "description": "Enter Border Crossing Card Number, if any",
+                "struct_parent": 119,
+                "tool_tip": "Part 2. Residence and Travel Information (For Initial and Renewal Requests). Travel Information. 10. Enter Border Crossing Card Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    72.0,
+                    576.0,
+                    90.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  For Initial Requests Only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line1_checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 169,
+                "tool_tip": "Part 3. For Initial Requests Only. 1. I initially arrived and established residence in the U.S. prior to 16 years of age. Select No.",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    694.001,
+                    274.002,
+                    704.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P3_Line1_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 168,
+                "tool_tip": "Part 3. For Initial Requests Only. 1. I initially arrived and established residence in the U.S. prior to 16 years of age. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    694.001,
+                    232.001,
+                    704.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line2_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Initial Entry into the United States (on or about) as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 170,
+                "tool_tip": "Part 3. For Initial Requests Only. 2. Enter Date of Initial Entry into the United States (on or about) as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    653.998,
+                    294.001,
+                    671.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line3_Place[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Initial Entry into the United States",
+                "struct_parent": 171,
+                "tool_tip": "Part 3. For Initial Requests Only. 3. Enter Place of Initial Entry into the United States.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    618.001,
+                    293.817,
+                    636.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line4_ImmStatus[0]",
+                "field_type": "/Ch",
+                "description": "Enter Immigration Status on June 15, 2012 (for example, No Lawful Status, Status Expired, Parole Expired) from the drop down list",
+                "struct_parent": 167,
+                "tool_tip": "Part 3. For Initial Requests Only. 4. Enter Immigration Status on June 15, 2012 (for example, No Lawful Status, Status Expired, Parole Expired) from the drop down list.",
+                "initial_value": "",
+                "rect": [
+                    62.001,
+                    569.999,
+                    294.001,
+                    587.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3"
+                ]
+            },
+            {
+                "field_name": "P3_Line5a_I94[1]",
+                "field_type": "/Btn",
+                "description": "Were you EVER issued an Arrival-Departure Record (Form I-94, I-94 W, or I-95)? Select No",
+                "struct_parent": 137,
+                "tool_tip": "Part 3. For Initial Requests Only. 5. A. Were you EVER issued an Arrival-Departure Record (Form I-94, I-94 W, or I-95)? Select No.",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    538.002,
+                    274.002,
+                    548.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_Line5a_I94[0]",
+                "field_type": "/Btn",
+                "description": "Were you EVER issued an Arrival-Departure Record (Form I-94, I-94 W, or I-95)? Select Yes",
+                "struct_parent": 136,
+                "tool_tip": "Part 3. For Initial Requests Only. 5. A. Were you EVER issued an Arrival-Departure Record (Form I-94, I-94 W, or I-95)? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    538.002,
+                    232.001,
+                    548.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line5b_I94Number[0]",
+                "field_type": "/Tx",
+                "description": ", provide your Form I-94, I-94 W, or I-95 number (if available)",
+                "struct_parent": 138,
+                "tool_tip": "Part 3. For Initial Requests Only. 5. B. If you answered \"Yes\" to Item Number 5. A., provide your Form I-94, I-94 W, or I-95 number (if available).",
+                "initial_value": "",
+                "rect": [
+                    133.109,
+                    486.0,
+                    293.828,
+                    504.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line5c_I94Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 135,
+                "tool_tip": "Part 3. For Initial Requests Only. 5. C. If you answered \"Yes\" to Item Number 5. A., provide the date your authorized stay expired, as shown on Form I-94, I-94 W, or I-95 (if available). Enter Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    198.003,
+                    426.002,
+                    294.001,
+                    444.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line6_Education[0]",
+                "field_type": "/Tx",
+                "description": "Indicate how you meet the education guideline (for example, Graduated from high school, Received a general educational development (G E D) certificate or equivalent state-authorized exam, Currently in school)",
+                "struct_parent": 139,
+                "tool_tip": "Part 3. For Initial Requests Only. Education Information. 6. Indicate how you meet the education guideline (for example, Graduated from high school, Received a general educational development (G E D) certificate or equivalent state-authorized exam, Currently in school).",
+                "initial_value": "",
+                "rect": [
+                    60.185,
+                    324.0,
+                    294.001,
+                    342.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line7_School[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name, City, and State of School Currently Attending or Where Education Received",
+                "struct_parent": 140,
+                "tool_tip": "Part 3. For Initial Requests Only. Education Information. 7. Enter Name, City, and State of School Currently Attending or Where Education Received.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.001,
+                    294.001,
+                    294.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line8_GradDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 141,
+                "tool_tip": "Part 3. For Initial Requests Only. Education Information. 8. Enter Date of Graduation (for example, Receipt of a Certificate of Completion, G E D certificate, other equivalent state-authorized exam) or, if currently in school, date of last attendance. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    192.696,
+                    215.994,
+                    294.003,
+                    233.994
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line9_Military[0]",
+                "field_type": "/Btn",
+                "description": "Coast Guard? Select Yes",
+                "struct_parent": 144,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. 9. Were you a member of the U.S. Armed Forces or U.S. Coast Guard? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    154.001,
+                    232.001,
+                    164.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line9_Military[1]",
+                "field_type": "/Btn",
+                "description": "Coast Guard? Select No",
+                "struct_parent": 145,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. 9. Were you a member of the U.S. Armed Forces or U.S. Coast Guard? Select No.",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    153.998,
+                    274.002,
+                    163.998
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_Line9a_Branch[0]",
+                "field_type": "/Ch",
+                "description": "Select Military Branch from the drop down list",
+                "struct_parent": 146,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. If you answered \"Yes\" to Item Number 9., you must provide responses to Item Numbers 9. A. through 9. D.  9. A. Select Military Branch from the drop down list.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    89.997,
+                    294.001,
+                    107.997
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "Army ",
+                    "Marine Corps ",
+                    "Navy ",
+                    "Air Force ",
+                    "National Guard ",
+                    "Coast Guard"
+                ]
+            },
+            {
+                "field_name": "P3_Line9b_SvcDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Service Start Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 142,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. 9. B. Enter Service Start Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    65.999,
+                    294.001,
+                    83.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line9c_DischgDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter Discharge Date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 143,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. 9. C. Enter Discharge Date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    41.751,
+                    294.001,
+                    59.995
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line9d_Discharge[0]",
+                "field_type": "/Ch",
+                "description": "Select Type of Discharge from the drop down list",
+                "struct_parent": 172,
+                "tool_tip": "Part 3. For Initial Requests Only. Military Service Information. 9. D. Select Type of Discharge from the drop down list.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    713.999,
+                    576.0,
+                    731.999
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "Bad Conduct (BCD)",
+                    "Clemency Discharge",
+                    "Dishonorable",
+                    "Entry level separation (ELS)",
+                    "General",
+                    "Honorable",
+                    "Other Than Honorable (OTH)",
+                    "Not Applicable"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Criminal, National Security, and Public  Safety Information  (For Initial and Renewal  Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_Line1_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 152,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 1. Have you EVER been arrested for, charged with, or convicted of a felony or misdemeanor, including incidents handled in juvenile court, in the United States?  Do not include minor traffic violations unless they were alcohol- or drug-related. Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    537.999,
+                    556.001,
+                    547.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", for each arrest, unless disclosure is prohibited under state law",
+                "struct_parent": 151,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). If any of the following questions apply to you, use Part 8. Additional Information to describe the circumstances and include a full explanation. 1. Have you EVER been arrested for, charged with, or convicted of a felony or misdemeanor, including incidents handled in juvenile court, in the United States?  Do not include minor traffic violations unless they were alcohol- or drug-related. Select Yes. If you answered \u201cYes,\u201d you must include a certified court disposition, arrest record, charging document, sentencing record, etc., for each arrest, unless disclosure is prohibited under state law.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    537.999,
+                    514.0,
+                    547.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line2_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been arrested for, charged with, or convicted of a crime in any country other than the United States? Select No",
+                "struct_parent": 154,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 2. Have you EVER been arrested for, charged with, or convicted of a crime in any country other than the United States? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    429.996,
+                    556.001,
+                    439.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", for each arrest",
+                "struct_parent": 153,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 2. Have you EVER been arrested for, charged with, or convicted of a crime in any country other than the United States? Select Yes. If you answered \"Yes,\" you must include a certified court disposition, arrest record, charging document, sentencing record, etc., for each arrest. ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    429.996,
+                    514.0,
+                    439.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in, do you continue to engage in, or plan to engage in terrorist activities? Select No",
+                "struct_parent": 147,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 3. Have you EVER engaged in, do you continue to engage in, or plan to engage in terrorist activities? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    334.003,
+                    556.001,
+                    344.003
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in, do you continue to engage in, or plan to engage in terrorist activities? Select Yes",
+                "struct_parent": 148,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 3. Have you EVER engaged in, do you continue to engage in, or plan to engage in terrorist activities? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    334.003,
+                    514.0,
+                    344.003
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line4_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Are you NOW or have you EVER been a member of a gang? Select No",
+                "struct_parent": 149,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 4. Are you NOW or have you EVER been a member of a gang? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    297.992,
+                    556.001,
+                    307.992
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line4_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Are you NOW or have you EVER been a member of a gang? Select Yes",
+                "struct_parent": 150,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 4. Are you NOW or have you EVER been a member of a gang? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    297.992,
+                    514.0,
+                    307.992
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line5a_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Acts involving torture, genocide, or human trafficking? Select No",
+                "struct_parent": 156,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. A. Acts involving torture, genocide, or human trafficking? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    231.988,
+                    556.001,
+                    241.988
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line5a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Acts involving torture, genocide, or human trafficking? Select Yes",
+                "struct_parent": 155,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. A. Acts involving torture, genocide, or human trafficking? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    231.988,
+                    514.0,
+                    241.988
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line5b_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Killing any person? Select No",
+                "struct_parent": 158,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. B. Killing any person? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    207.99,
+                    556.001,
+                    217.99
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line5b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Killing any person? Select Yes",
+                "struct_parent": 157,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. B. Killing any person? Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    207.99,
+                    514.0,
+                    217.99
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line5c_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Severely injuring any person? Select No",
+                "struct_parent": 160,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. C. Severely injuring any person? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    183.99,
+                    556.001,
+                    193.99
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line5c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Severely injuring any person? Select Yes",
+                "struct_parent": 159,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. C. Severely injuring any person? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    183.99,
+                    514.0,
+                    193.99
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line5d_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Any kind of sexual contact or relations with any person who was being forced or threatened? Select No",
+                "struct_parent": 162,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. D. Any kind of sexual contact or relations with any person who was being forced or threatened? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    147.989,
+                    556.001,
+                    157.989
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line5d_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Any kind of sexual contact or relations with any person who was being forced or threatened? Select Yes",
+                "struct_parent": 161,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 5. Have you EVER engaged in, ordered, incited, assisted, or otherwise participated in any of the following: 5. D. Any kind of sexual contact or relations with any person who was being forced or threatened? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    147.989,
+                    514.0,
+                    157.989
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line6_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER recruited, enlisted, conscripted, or used any person to serve in or help an armed force or group while such person was under age 15? Select No",
+                "struct_parent": 163,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 6. Have you EVER recruited, enlisted, conscripted, or used any person to serve in or help an armed force or group while such person was under age 15? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    99.995,
+                    556.001,
+                    109.995
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line6_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER recruited, enlisted, conscripted, or used any person to serve in or help an armed force or group while such person was under age 15? Select Yes",
+                "struct_parent": 164,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 6. Have you EVER recruited, enlisted, conscripted, or used any person to serve in or help an armed force or group while such person was under age 15? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    99.995,
+                    514.0,
+                    109.995
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line7_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER used any person under age 15 to take part in hostilities, or to help or provide services to people in combat? Select No",
+                "struct_parent": 165,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 7. Have you EVER used any person under age 15 to take part in hostilities, or to help or provide services to people in combat? Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    51.996,
+                    556.001,
+                    61.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P4_Line7_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER used any person under age 15 to take part in hostilities, or to help or provide services to people in combat? Select Yes",
+                "struct_parent": 166,
+                "tool_tip": "Part 4. Criminal, National Security, and Public Safety Information (For Initial and Renewal Requests). 7. Have you EVER used any person under age 15 to take part in hostilities, or to help or provide services to people in combat? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    51.996,
+                    514.0,
+                    61.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Statement, Certification, Signature, and  Contact Information of the Requestor   (For Initial  and Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line1a_1b_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select I can read and understand English, and have read and understand each and every question and instruction on this form, as well as my answer to each question",
+                "struct_parent": 179,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). NOTE:  Select the box for either Item Number 1. A. or 1. B.  1. A. Select I can read and understand English, and have read and understand each and every question and instruction on this form, as well as my answer to each question.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    661.002,
+                    71.0,
+                    671.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P5_Line1a_1b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "I understand each and every question and instruction on this form as translated to me by my interpreter, and have provided true and correct responses in the language indicated above",
+                "struct_parent": 175,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). NOTE:  Select the box for either Item Number 1. A. or 1. B.  1. B. Select The interpreter named in Part 6. has read to me each and every question and instruction on this form, as well as my answer to each question, in a language in which I am fluent.  I understand each and every question and instruction on this form as translated to me by my interpreter, and have provided true and correct responses in the language indicated above.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    619.001,
+                    71.0,
+                    629.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P5_Line1b_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 176,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). 1. B. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    576.0,
+                    288.0,
+                    594.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_Line2a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the requestor can not be typewritten into this space",
+                "struct_parent": 178,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). Requestor's Certification. I certify, under penalty of perjury under the laws of the United States of America, that the foregoing is true and correct and that copies of documents submitted are exact photocopies of unaltered original documents.  I understand that I may be required to submit original documents to U.S. Citizenship and Immigration Services (U S C I S) at a later date.  I also understand that knowingly and willfully providing materially false information on this form is a federal felony punishable by a fine, imprisonment up to 5 years, or both, under 18 United States Code (U.S.C.) section 1 0 0 1.  Furthermore, I authorize the release of any information from my records that U S C I S may need to reach a determination on my deferred action request. 2. A. Requestor's Signature. This form can not be signed electronically. The name of the requestor can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    714.002,
+                    576.0,
+                    732.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_Line2b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 177,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). Requestor's Certification. 2. B. Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    690.001,
+                    576.003,
+                    708.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_Line3_DayPhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Daytime Telephone Number",
+                "struct_parent": 180,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). Requestor's Contact Information. 3. Enter Requestor's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    624.002,
+                    576.0,
+                    642.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_Line4_MobilePhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Mobile Telephone Number",
+                "struct_parent": 182,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). Requestor's Contact Information. 4. Enter Requestor's Mobile Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    588.002,
+                    576.0,
+                    606.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Email Address",
+                "struct_parent": 181,
+                "tool_tip": "Part 5. Statement, Certification, Signature, and Contact Information of the Requestor (For Initial and Renewal Requests). Requestor's Contact Information. 5. Enter Requestor's Email Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    552.005,
+                    576.0,
+                    570.005
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Contact Information, Certification, and  Signature of the Interpreter  (For Initial and   Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line1a_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 196,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Full Name. Provide the following information concerning the interpreter. 1. A. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    407.999,
+                    576.0,
+                    425.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line1b_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 195,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    371.996,
+                    576.0,
+                    389.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line2_Organization[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name, if any",
+                "struct_parent": 183,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    335.999,
+                    576.0,
+                    353.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3a_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 185,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    281.999,
+                    576.0,
+                    299.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 189,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    366.999,
+                    262.001,
+                    376.999,
+                    272.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P6_Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 187,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    450.998,
+                    261.998,
+                    460.998,
+                    271.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P6_Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 186,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    409.0,
+                    261.998,
+                    419.0,
+                    271.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P6_Line3b_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 188,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    257.998,
+                    576.0,
+                    275.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 184,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    234.0,
+                    576.0,
+                    252.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 191,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    209.999,
+                    576.0,
+                    227.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 192,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    209.999,
+                    402.001,
+                    227.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P6_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 190,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    185.998,
+                    575.881,
+                    203.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 194,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    161.994,
+                    575.881,
+                    179.994
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 193,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    125.997,
+                    576.0,
+                    143.997
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Contact Information, Certification, and  Signature of the Interpreter  (For Initial and   Renewal Requests)   (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line4_DayPhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 221,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    630.0,
+                    293.998,
+                    648.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P6_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address",
+                "struct_parent": 220,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Contact Information. 5. Enter Interpreter's Email Address.",
+                "initial_value": "",
+                "rect": [
+                    60.004,
+                    594.0,
+                    294.004,
+                    612.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P6_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 222,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Certification.  I certify that: I am fluent in English and another language which is the same language provided in Part 5., Item Number 1. B. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    528.001,
+                    270.0,
+                    546.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P6_Line6a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the interpreter can not be typewritten into this space",
+                "struct_parent": 200,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Certification. I have read to this requestor each and every question and instruction on this form, as well as the answer to each question, in the language provided in Part 5., Item Number 1. B.; and The requestor has informed me that he or she understands each and every instruction and question on the form, as well as the answer to each question. 6. A. Interpreter's Signature. This form can not be signed electronically.  The name of the interpreter can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    396.003,
+                    294.001,
+                    414.003
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P6Line6b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 199,
+                "tool_tip": "Part 6. Contact Information, Certification, and Signature of the Interpreter (For Initial and Renewal Requests). Interpreter's Certification. 6. B. Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    372.002,
+                    294.004,
+                    390.002
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 7.    Contact Information, Declaration, and  Signature of the Person Preparing this Request,  If Other than the Requestor  (For Initial and   Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Line1a_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 218,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Full Name. Provide the following information concerning the preparer. 1. A. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    209.996,
+                    293.998,
+                    227.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line1b_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 219,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    173.996,
+                    294.001,
+                    191.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line2_Organization[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name",
+                "struct_parent": 217,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    137.999,
+                    294.001,
+                    155.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3a_Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 207,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    702.0,
+                    576.0,
+                    720.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 211,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    366.999,
+                    682.002,
+                    376.999,
+                    692.002
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 209,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    450.998,
+                    681.999,
+                    460.998,
+                    691.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 208,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    409.0,
+                    681.999,
+                    419.0,
+                    691.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 210,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    677.999,
+                    576.0,
+                    695.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 206,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    654.001,
+                    576.0,
+                    672.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 213,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    630.0,
+                    576.0,
+                    648.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 214,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    630.0,
+                    402.001,
+                    648.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P7_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 212,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    605.999,
+                    575.881,
+                    623.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 216,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    581.995,
+                    575.881,
+                    599.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 215,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    545.998,
+                    576.0,
+                    563.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line4_DayPhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 202,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    479.999,
+                    576.0,
+                    497.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line5_MobilePhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Fax Number",
+                "struct_parent": 203,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Contact Information. 5. Enter Preparer's Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    437.998,
+                    576.0,
+                    455.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line6_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address",
+                "struct_parent": 201,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Contact Information. 6. Enter Preparer's Email Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    401.998,
+                    576.0,
+                    419.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line7a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the preparer can not be typewritten into this space",
+                "struct_parent": 204,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Declaration. I declare that I prepared this Form I-8 21 D at the requestor's behest, and it is based on all the information of which I have knowledge. 7. A. Preparer's Signature. This form can not be signed electronically.  The name of the preparer can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    294.001,
+                    576.0,
+                    312.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line7b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 205,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing this Request, If Other than the Requestor (For Initial and Renewal Requests). Preparer's Declaration. 7. B. Enter Date of Signature as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    269.997,
+                    576.003,
+                    287.997
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information  (For Initial and   Renewal Requests)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line3a_Name[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populates from Page 1",
+                "struct_parent": 232,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). Full Legal Name. 1. A. Family Name (Last Name). This is a read only field. It pre-populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    570.002,
+                    293.998,
+                    588.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line3b_Name[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populates from Page 1",
+                "struct_parent": 233,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). Full Legal Name. 1. B. Given Name (First Name). This is a read only field. It pre-populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    546.001,
+                    293.998,
+                    564.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line3c_Name[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populates from Page 1",
+                "struct_parent": 234,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). Full Legal Name. 1. C. Middle Name. This is a read only field. It pre-populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    522.0,
+                    293.998,
+                    540.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line7_ANumber[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populates from Page 1",
+                "struct_parent": 235,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 2. Alien Registration Number (A. Number), if any. This is a read only field. It pre-populates from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    165.118,
+                    485.985,
+                    294.128,
+                    503.651
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3c_Item[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 227,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    228.013,
+                    437.998,
+                    282.013,
+                    455.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3b_Part[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 226,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    437.998,
+                    198.014,
+                    455.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3a_Page[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 225,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.015,
+                    437.998,
+                    114.015,
+                    456.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3d_Narrative[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 240,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.021,
+                    144.0,
+                    294.021,
+                    432.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4c_Item[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 230,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    510.024,
+                    714.002,
+                    564.024,
+                    732.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4b_Part[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 229,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    426.016,
+                    714.002,
+                    480.016,
+                    732.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4a_Page[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 228,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.014,
+                    714.002,
+                    396.014,
+                    732.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4d_Narrative[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 231,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.014,
+                    420.001,
+                    576.014,
+                    708.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5c_Item[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 238,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    510.015,
+                    372.002,
+                    564.015,
+                    390.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5b_Part[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 237,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    426.013,
+                    372.002,
+                    480.013,
+                    390.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5a_Page[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 236,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.014,
+                    372.002,
+                    396.014,
+                    390.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5d_Narrative[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 239,
+                "tool_tip": "Part 8. Additional Information (For Initial and Renewal Requests). 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.02,
+                    114.001,
+                    576.02,
+                    366.001
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

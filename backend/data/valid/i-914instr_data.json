@@ -1,0 +1,299 @@
+[
+    {
+        "title": "Checklist",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 21",
+                "field_type": "/Btn",
+                "description": "Select I completely filled out and signed the form",
+                "struct_parent": 27,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 1. Select I completely filled out and signed the form.",
+                "initial_value": "/Off",
+                "rect": [
+                    40.3696,
+                    500.195,
+                    52.5911,
+                    512.416
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 22",
+                "field_type": "/Btn",
+                "description": "2",
+                "struct_parent": 28,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 2. Select I have attached evidence that:",
+                "initial_value": "/Off",
+                "rect": [
+                    40.5089,
+                    481.584,
+                    52.7304,
+                    493.805
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 23",
+                "field_type": "/Btn",
+                "description": "Select I am or have been a victim of a severe form of trafficking",
+                "struct_parent": 29,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 2. I have attached evidence that: A. Select I am or have been a victim of a severe form of trafficking.",
+                "initial_value": "/Off",
+                "rect": [
+                    80.3089,
+                    463.139,
+                    92.5304,
+                    475.361
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 34",
+                "field_type": "/Btn",
+                "description": "Select I am physically present in the United States, American Samoa, or the Commonwealth of the Northern Mariana Islands, or at a port of entry, on account of trafficking, or I have been allowed entry into the United States to participate in investigative or judicial processes associated with the an act or perpetrator of trafficking",
+                "struct_parent": 30,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 2. I have attached evidence that: B. Select I am physically present in the United States, American Samoa, or the Commonwealth of the Northern Mariana Islands, or at a port of entry, on account of trafficking, or I have been allowed entry into the United States to participate in investigative or judicial processes associated with the an act or perpetrator of trafficking.",
+                "initial_value": "/Off",
+                "rect": [
+                    80.3089,
+                    443.139,
+                    92.5304,
+                    455.361
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 35",
+                "field_type": "/Btn",
+                "description": "I have attached evidence that: C",
+                "struct_parent": 31,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 2. I have attached evidence that: C. Select I am cooperating with Federal, State, or local law enforcement authorities in the investigation or prosecution of the trafficker(s) (unless under 18 years of age or I am unable to cooperate with such requests due to physical or psychological trauma); and",
+                "initial_value": "/Off",
+                "rect": [
+                    79.5696,
+                    383.639,
+                    91.7911,
+                    395.861
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 24",
+                "field_type": "/Btn",
+                "description": "Select I would suffer extreme hardship involving unusual and severe harm upon removal from the United States",
+                "struct_parent": 32,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 2. I have attached evidence that: D. Select I would suffer extreme hardship involving unusual and severe harm upon removal from the United States.",
+                "initial_value": "/Off",
+                "rect": [
+                    78.8,
+                    340.111,
+                    91.0215,
+                    352.332
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 25",
+                "field_type": "/Btn",
+                "description": "Select I have included a personal narrative statement",
+                "struct_parent": 33,
+                "tool_tip": "Checklist. Fill out the checkboxes. This will ensure that you have completed the form properly. 3. Select I have included a personal narrative statement.",
+                "initial_value": "/Off",
+                "rect": [
+                    39.8,
+                    307.0,
+                    52.0215,
+                    319.221
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 26",
+                "field_type": "/Btn",
+                "description": "Select I have completed Form I-914, Supplement A for each family member for whom I am now applying and, if he or she is in the United States, each family member has signed that Form I-914, Supplement A",
+                "struct_parent": 34,
+                "tool_tip": "Checklist.  If I am applying for one or more family members: 1. Select I have completed Form I-914, Supplement A for each family member for whom I am now applying and, if he or she is in the United States, each family member has signed that Form I-914, Supplement A.",
+                "initial_value": "/Off",
+                "rect": [
+                    39.8,
+                    262.0,
+                    52.0215,
+                    274.221
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Paperwork Reduction Act",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 33",
+                "field_type": "/Btn",
+                "description": "2",
+                "struct_parent": 35,
+                "tool_tip": "Checklist. 2. Select I have submitted the required evidence, including evidence of: ",
+                "initial_value": "/Off",
+                "rect": [
+                    39.8,
+                    230.0,
+                    52.0215,
+                    242.221
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 27",
+                "field_type": "/Btn",
+                "description": "I have submitted the required evidence, including evidence of: A",
+                "struct_parent": 36,
+                "tool_tip": "Checklist. 2. I have submitted the required evidence, including evidence of: A. Select My relationship to the family member for whom I am applying;",
+                "initial_value": "/Off",
+                "rect": [
+                    77.7785,
+                    211.779,
+                    90.0,
+                    224.0
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 28",
+                "field_type": "/Btn",
+                "description": "I have submitted the required evidence, including evidence of: B",
+                "struct_parent": 37,
+                "tool_tip": "Checklist. 2. I have submitted the required evidence, including evidence of: B. Select My age, if I am applying for my parent or unmarried sibling under the age of 18;",
+                "initial_value": "/Off",
+                "rect": [
+                    77.7785,
+                    192.779,
+                    90.0,
+                    205.0
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 29",
+                "field_type": "/Btn",
+                "description": "I have submitted the required evidence, including evidence of: C",
+                "struct_parent": 38,
+                "tool_tip": "Checklist. 2. I have submitted the required evidence, including evidence of: C. Select My child's age, if I am applying for my child;",
+                "initial_value": "/Off",
+                "rect": [
+                    77.7785,
+                    173.6,
+                    90.0,
+                    185.821
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 30",
+                "field_type": "/Btn",
+                "description": "I have submitted the required evidence, including evidence of: D",
+                "struct_parent": 39,
+                "tool_tip": "Checklist. 2. I have submitted the required evidence, including evidence of: D. Select My sibling's age, if I am applying for my unmarried sibling; and",
+                "initial_value": "/Off",
+                "rect": [
+                    77.7785,
+                    153.6,
+                    90.0,
+                    165.821
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 32",
+                "field_type": "/Btn",
+                "description": "Select If applicable, present danger of retaliation as a result of my escape from trafficking or my cooperation with law enforcement",
+                "struct_parent": 40,
+                "tool_tip": "Checklist. 2. I have submitted the required evidence, including evidence of: E. Select If applicable, present danger of retaliation as a result of my escape from trafficking or my cooperation with law enforcement.",
+                "initial_value": "/Off",
+                "rect": [
+                    77.7785,
+                    134.6,
+                    90.0,
+                    147.821
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 31",
+                "field_type": "/Btn",
+                "description": "Select I will or have filed Form I-765 with the appropriate fee or request for fee waiver, for each family member requesting an Employment Authorization Document (EAD)",
+                "struct_parent": 41,
+                "tool_tip": "Checklist. 3. Select I will or have filed Form I-765 with the appropriate fee or request for fee waiver, for each family member requesting an Employment Authorization Document (EAD).",
+                "initial_value": "/Off",
+                "rect": [
+                    38.7785,
+                    102.6,
+                    51.0,
+                    114.821
+                ],
+                "page_number": 16,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

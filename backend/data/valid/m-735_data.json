@@ -1,0 +1,356 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 3,
+                "tool_tip": "All checks or money orders are signed and made payable to the \u201cU.S. Department of Homeland Security.\u201d  If the petition is submitted with the wrong filing fee, USCIS will reject it as improperly filed.  NOTE:  This optional checklist is provided to assist H-1B petitioners in completing Form I-129.  It is not a substitution for or alteration of statutory or regulatory requirements.  USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129.",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    618.498,
+                    53.626,
+                    629.498
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[2]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 4,
+                "tool_tip": "Proper fees are enclosed:  NOTE:  This optional checklist is provided to assist H-1B petitioners in completing Form I-129.  It is not a substitution for or alteration of statutory or regulatory requirements.  USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129.",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    570.499,
+                    53.626,
+                    581.499
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[3]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 5,
+                "tool_tip": "Proper fees are enclosed: For Base Fee (see Form I-129 instructions for amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129.  ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    546.498,
+                    71.626,
+                    557.498
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 1,
+                "tool_tip": "Proper fees are enclosed: For Base Fee (see Form I-129 instructions for amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129.  ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    522.5,
+                    71.626,
+                    533.5
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[4]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 6,
+                "tool_tip": "Proper fees are enclosed: American Competitiveness and Workforce Improvement Act of 1998 (ACWIA) fee, if/as applicable (see Form I-129 instructions for amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition. NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    498.5,
+                    71.626,
+                    509.5
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[5]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 7,
+                "tool_tip": "Proper fees are enclosed: Fraud Prevention and Detection fee, if applicable (see Form I-129 instructions for amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition. NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    462.502,
+                    71.626,
+                    473.502
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[6]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 8,
+                "tool_tip": "Proper fees are enclosed: Public Law 114-113 fee, if applicable (see Form I-129 instructions for amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition. NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    438.501,
+                    71.626,
+                    449.501
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[10]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 12,
+                "tool_tip": "Proper fees are enclosed: Premium Processing Service fee, if applicable (see Form I-907 instructions amount).  We prefer that you submit a separate check for each fee. For example, if you are required to pay the base filing fee, the ACWIA fee, and the premium processing fee, you should submit three separate checks. If you only submit one check as combined payment for all applicable fees and certain fees do not apply or are incorrect, we will reject your H-1B petition. NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    60.626,
+                    414.503,
+                    71.626,
+                    425.503
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[7]",
+                "field_type": "/Btn",
+                "description": "Signatures must comply with requirements described in the USCIS Policy Manual",
+                "struct_parent": 9,
+                "tool_tip": "Petition includes all necessary original signatures. Signatures must comply with requirements described in the USCIS Policy Manual.",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    330.502,
+                    53.626,
+                    341.502
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[8]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 10,
+                "tool_tip": "All sections of Form I-129, H Classification Supplement to Form I-129, and H-1B and H-1B1 Data Collection and Filing Fee Exemption Supplement, are completed and all required pages are enclosed.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    288.504,
+                    53.626,
+                    299.504
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[9]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 11,
+                "tool_tip": "If you are eligible for premium processing and applying for premium processing at the same time you are submitting your H-1B petition, submit a completed Form I-907, Request for Premium Processing Service. It must be signed with an original signature and enclosed with the H-1B petition. NOTE: If you are signing Form I-907 as an attorney or accredited representative for the petitioner, you must include a properly completed and signed Form G-28 with the petition.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    246.502,
+                    53.626,
+                    257.502
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[11]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 13,
+                "tool_tip": "A corresponding Labor Condition Application (LCA) that has been certified by the Department of Labor (DOL) and signed by the petitioner and attorney/representative, if applicable, is enclosed.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    156.5,
+                    53.626,
+                    167.5
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[12]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 14,
+                "tool_tip": "You are mailing the petition with appropriate labels to the appropriate service center, according to the filing jurisdictions and instructions listed at www.uscis.gov-i-129-addresses.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    114.499,
+                    53.626,
+                    125.499
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Chile/Singapore H-1B1 Cap",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[15]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 19,
+                "tool_tip": "H-1B Regular Cap.  1. Requested start date must be on or after October 1 of the applicable fiscal year and within six months of the filing date. 2. If you are filing an H-1B cap petition for a fiscal year that H-1B registration is required, you must provide a valid Beneficiary Confirmation Number for the beneficiary, along with a copy of the H-1B Registration Selection Notice.\r3. May include a current H-1B beneficiary that was previously cap exempt and is now seeking to change to cap-subject employment. NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    726.498,
+                    53.626,
+                    737.498
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[14]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 18,
+                "tool_tip": "H-1B Advanced Degree Exemption.  1. Requested start date must be on or after October 1 of the applicable fiscal year and within six months of the filing date. 2.  Beneficiary has earned a master's (or higher) degree from a U.S. institution of higher education. 3. If you are filing an H-1B cap petition for a fiscal year that H-1B registration is required, you must provide a valid Beneficiary Confirmation Number for the beneficiary, along with a copy of the H-1B Registration Selection Notice.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    558.498,
+                    53.626,
+                    569.498
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Cap-Gap Petitions",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[13]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 17,
+                "tool_tip": "Cap-Gap Petitions.  1. Beneficiary's current status is F-1 (academic student) and he or she has not violated the terms or conditions of his or her F-1 status. 2. Requested start date on the I-129 cap subject petition must be October 1 of the applicable fiscal year and within six months of the filing date.\r3. Must be requesting a change of status from F-1 to H-1B. If you are filing a cap-gap petition, indicate that the beneficiary is eligible for cap-gap by printing \"Cap-Gap\" at thetop of the first page of Form I-129. For more information regarding cap-gap, see our Extension of Post Completion Optional Practical Training (OPT) and F-1 Status for Eligible Students under the H-1B Cap-Gap Regulations page.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    414.501,
+                    53.626,
+                    425.501
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "H-1B Advanced Degree Exemption",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[16]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 22,
+                "tool_tip": "Chile/Singapore H-1B1 Cap.  1.\tRequested start date must be on or after October 1 of the applicable fiscal year and within six months of the filing date.  2. Beneficiary is a national of Chile or Singapore.  3.  Select the box for Item C. in Item Number 1. on Section 3 of the H-1B and H-1B1 Data Collection and Filing Fee Exemption Supplement.  4.  Complete and submit Trade Agreement Supplement to Form I-129.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    42.625,
+                    240.499,
+                    53.625,
+                    251.499
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "H-1B Cap-Exempt or Non-Cap H-1B Extension of Stay",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[17]",
+                "field_type": "/Btn",
+                "description": "USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129",
+                "struct_parent": 24,
+                "tool_tip": "H-1B Cap-Exempt or Non-Cap H-1B Extension of Stay.  1.\tIf the petitioner is cap-exempt or the H-1B petition is otherwise not subject to the cap, select the box for Item D. in Item Number 1. on Section 3 of the H-1B and H-1B1 Data Collection and Filing Fee Exemption Supplement.  2.  Includes current H-1Bs that were previously counted towards the cap.  3.  Includes amended petitions where the petitioner is seeking to notify USCIS of a change in the terms or conditions of employment, training, or eligibility of a current H-1B beneficiary.  NOTE: This optional checklist is provided to assist H-1B petitioners in completing Form I-129. It is not a substitution for or alteration of statutory or regulatory requirements. USCIS recommends that you review the relevant statutory and regulatory requirements, as well as the appropriate form instructions, before completing and submitting Form I-129. ",
+                "initial_value": "",
+                "rect": [
+                    36.625,
+                    732.5,
+                    47.625,
+                    743.5
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1322 @@
+[
+    {
+        "title": "Part 1.  Information About You  (Requestor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    582.001,
+                    294.001,
+                    600.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    558.003,
+                    294.001,
+                    576.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    533.999,
+                    293.998,
+                    551.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. A. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    468.0,
+                    294.106,
+                    486.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. B. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    443.999,
+                    294.001,
+                    461.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2c_unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    423.998,
+                    70.999,
+                    433.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    423.995,
+                    154.998,
+                    433.995
+                ],
+                "page_number": 1,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    423.995,
+                    113.0,
+                    433.995
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    419.995,
+                    294.001,
+                    437.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    395.997,
+                    294.001,
+                    413.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    371.996,
+                    294.001,
+                    389.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    371.996,
+                    120.002,
+                    389.996
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line2g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    348.001,
+                    293.879,
+                    366.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    324.0,
+                    293.879,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    287.997,
+                    294.001,
+                    305.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_DaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Daytime Telephone Number",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 3. Enter Requestor's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    294.001,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_MobileTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Mobile Telephone Number, if any",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 4. Enter Requestor's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    186.001,
+                    294.001,
+                    204.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Email Address, if any",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 5. Enter Requestor's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    150.001,
+                    294.001,
+                    168.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "The name of the requestor can not be typewritten into this space",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Certification. By my signature, I consent to pay all costs incurred for search, duplication, and review of documents up to 20 dollars. See Form G - 10 41 Instructions for more information. 6. A. Requestor's Signature. This form can not be signed electronically. The name of the requestor can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    558.0,
+                    576.0,
+                    576.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6b_RequesterSignDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Certification. 6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    533.999,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information Needed to Release a  Historical Record",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_chbx1ayesno[1]",
+                "field_type": "/Btn",
+                "description": "Is the file information provided below the result of a previous Genealogy Index Search Request? Select No",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. 1. A. Is the file information provided below the result of a previous Genealogy Index Search Request? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.999,
+                    445.002,
+                    552.999,
+                    455.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P2_chbx1ayesno[0]",
+                "field_type": "/Btn",
+                "description": "If you answered \"Yes,\" provide the Genealogy Index Search Request case numbers in Item Number 1 B",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. 1. A. Is the file information provided below the result of a previous Genealogy Index Search Request? Select Yes. If you answered \"Yes,\" provide the Genealogy Index Search Request case numbers in Item Number 1 B.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    445.002,
+                    507.999,
+                    455.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P4_Line1b_Medical_License_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Genealogy Index Search Case Number",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. 1. B. Enter Genealogy Index Search Case Number.",
+                "initial_value": "",
+                "rect": [
+                    341.892,
+                    377.935,
+                    575.892,
+                    396.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    324.0,
+                    576.003,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    300.005,
+                    576.0,
+                    318.005
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Full Name of the Immigrant. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    276.004,
+                    575.997,
+                    294.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line3a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    168.001,
+                    576.003,
+                    186.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line3b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    144.0,
+                    576.003,
+                    162.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line3c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 29,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Names Used by the Immigrant. List all other names immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information. 3. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    120.002,
+                    575.997,
+                    138.002
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information Needed to Release a  Historical Record  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line4a_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "See the Who Should Use Form G-1041A section of these Instructions for examples of acceptable documentary proof of death",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. A. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year.  IMPORTANT:  If the immigrant's date of birth is less than 100 years prior to the date of this request, you must attach documentary proof of death to the request form.  Do not attach original records because we will not return them.  See the Who Should Use Form G-1041A section of these Instructions for examples of acceptable documentary proof of death. ",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    653.97,
+                    294.001,
+                    671.97
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4b_estimated[0]",
+                "field_type": "/Btn",
+                "description": "Is this date actual or estimated? Select Estimated",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. B. Is this date actual or estimated? Select Estimated.",
+                "initial_value": "",
+                "rect": [
+                    230.434,
+                    625.0,
+                    240.434,
+                    635.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4b_actual[0]",
+                "field_type": "/Btn",
+                "description": "Is this date actual or estimated? Select Actual",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. 4. B. Is this date actual or estimated? Select Actual.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    625.0,
+                    190.0,
+                    635.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P2_Line5a_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter Town or Village",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. A. Enter Town or Village.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    569.999,
+                    294.001,
+                    587.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line5b_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. B. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    545.998,
+                    293.879,
+                    563.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line5c_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Information Needed to Release a Historical Record. Other Information for the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 5. C. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    509.995,
+                    294.001,
+                    527.995
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Identification of Requested Record",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line1a_Cert-Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Certificate Number",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. A. Enter Certificate Number. ",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    221.851,
+                    294.018,
+                    239.851
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line1b_DateOfNat[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. B. Enter Date of Naturalization. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    186.004,
+                    294.001,
+                    204.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line1c_Court[0]",
+                "field_type": "/Tx",
+                "description": "Enter Court",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. C. Enter Court.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    149.995,
+                    294.001,
+                    167.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line1d_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. D. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    114.001,
+                    294.001,
+                    132.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line1d_County[0]",
+                "field_type": "/Tx",
+                "description": "Enter County",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Identification of Requested Record. Naturalization Certificate File (1906 through 1956). 1. E. Enter County.",
+                "initial_value": "",
+                "rect": [
+                    60.185,
+                    77.998,
+                    294.001,
+                    95.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_line1f_chbx[1]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Hard Copy)",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Identification of Requested Record.  Naturalization Certificate File (1906 through 1956). 1. F. Fee (Select all appropriate boxes). Select 80 dollars (Hard Copy). ",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    706.0,
+                    496.0,
+                    716.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P3_line1f_chbx[0]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Microfilm)",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Identification of Requested Record.  Naturalization Certificate File (1906 through 1956). 1. F. Fee (Select all appropriate boxes). Select 80 dollars (Microfilm).",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    706.0,
+                    406.0,
+                    716.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line2a_Cert-Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Number as Shown on Certificate",
+                "struct_parent": 39,
+                "tool_tip": "Part 3. Identification of Requested Record. Non-standard C-Files (B, D, O M, O S, A., A. A., O L). 2. A. Enter Number as Shown on Certificate. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    635.854,
+                    576.017,
+                    653.854
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line2b_DateOfIssu[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 40,
+                "tool_tip": "Part 3. Identification of Requested Record. Non-standard C-Files (B, D, O M, O S, A., A. A., O L).  2. B. Enter Date of Issuance. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line1_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "R",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Identification of Requested Record.  Alien Registration Record (A. R-2) (1940 to 1944). 3. A. Enter Alien Registration Number (A. Number). A. or A. R.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    546.001,
+                    575.958,
+                    564.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line3b_Fee[0]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Copy Format - Microfilm)",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Identification of Requested Record.  Alien Registration Record (A. R-2) (1940 to 1944). 3. B. Fee. Select 80 dollars (Copy Format - Microfilm).",
+                "initial_value": "",
+                "rect": [
+                    366.009,
+                    526.0,
+                    376.009,
+                    536.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_A-File_Number[0]",
+                "field_type": "/Tx",
+                "description": "A",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Identification of Requested Record. A. File numbered below 8 million. 4. A. Enter A. File Number. A.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    467.853,
+                    576.017,
+                    485.853
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line4b_Fee[0]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Copy Format - Hard Copy)",
+                "struct_parent": 42,
+                "tool_tip": "Part 3. Identification of Requested Record. A. File numbered below 8 million. 4. B. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    448.002,
+                    376.001,
+                    458.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line5a_Visa_Number[0]",
+                "field_type": "/Tx",
+                "description": "Enter Visa Number",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. A. Enter Visa Number.",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    389.937,
+                    575.892,
+                    408.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line5b_DateOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. B. Enter Date of Entry. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    366.004,
+                    576.0,
+                    384.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line5c_PortOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter Port of Entry",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. C. Enter Port of Entry.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    329.998,
+                    576.0,
+                    347.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line5d_Ship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Ship (seaport arrivals only)",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. D. Enter Ship (seaport arrivals only).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    294.004,
+                    576.0,
+                    312.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line5e_chbx[0]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Copy Format - Hard Copy)",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Identification of Requested Record. Visa File (1924 to 1944). 5. E. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    274.0,
+                    376.001,
+                    284.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line6a_RegistryFile[0]",
+                "field_type": "/Tx",
+                "description": "R",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6. A. Enter Registry File Number. R.",
+                "initial_value": "",
+                "rect": [
+                    488.999,
+                    215.858,
+                    576.017,
+                    233.858
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line6b_chbx[0]",
+                "field_type": "/Btn",
+                "description": "Select 80 dollars (Copy Format - Hard Copy)",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6. B. Fee. Select 80 dollars (Copy Format - Hard Copy).",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    196.005,
+                    376.001,
+                    206.005
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_Line6_TotalFees[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Fees Due / Attached",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Identification of Requested Record. Registry File (1929 to 1944). 6 B. Enter Total Fees Due / Attached.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    168.004,
+                    576.0,
+                    186.004
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 63,
+                "tool_tip": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1.  1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    623.999,
+                    294.001,
+                    641.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line1b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 64,
+                "tool_tip": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    599.998,
+                    293.998,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line1c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 65,
+                "tool_tip": "Part 4. Additional Information. No Entry, data populated from Page 1, Part 1. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    575.997,
+                    293.998,
+                    593.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line2c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 74,
+                "tool_tip": "Part 4. Additional Information. 2. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    533.999,
+                    294.001,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line2b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 76,
+                "tool_tip": "Part 4. Additional Information. 2. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    151.475,
+                    533.999,
+                    205.475,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line2a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 75,
+                "tool_tip": "Part 4. Additional Information. 2. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    533.999,
+                    114.001,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line2d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 77,
+                "tool_tip": "Part 4. Additional Information. 2. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.992,
+                    384.001,
+                    294.02,
+                    528.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 67,
+                "tool_tip": "Part 4. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    342.0,
+                    114.001,
+                    360.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 66,
+                "tool_tip": "Part 4. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.998,
+                    341.997,
+                    293.998,
+                    359.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 68,
+                "tool_tip": "Part 4. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    151.472,
+                    341.997,
+                    205.472,
+                    359.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 69,
+                "tool_tip": "Part 4. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.009,
+                    191.999,
+                    294.02,
+                    335.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 70,
+                "tool_tip": "Part 4. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.011,
+                    707.998,
+                    576.011,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 72,
+                "tool_tip": "Part 4. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.485,
+                    707.998,
+                    487.485,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 71,
+                "tool_tip": "Part 4. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.003,
+                    707.998,
+                    396.003,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 73,
+                "tool_tip": "Part 4. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.02,
+                    558.0,
+                    576.023,
+                    702.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 79,
+                "tool_tip": "Part 4. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.014,
+                    515.996,
+                    576.014,
+                    533.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 81,
+                "tool_tip": "Part 4. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.488,
+                    515.996,
+                    487.488,
+                    533.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 80,
+                "tool_tip": "Part 4. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    515.996,
+                    396.006,
+                    533.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 78,
+                "tool_tip": "Part 4. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.023,
+                    365.998,
+                    576.026,
+                    509.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 83,
+                "tool_tip": "Part 4. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.011,
+                    323.997,
+                    576.011,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 85,
+                "tool_tip": "Part 4. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.485,
+                    323.997,
+                    487.485,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 84,
+                "tool_tip": "Part 4. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.003,
+                    323.997,
+                    396.003,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_Line5d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 82,
+                "tool_tip": "Part 4. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.02,
+                    173.999,
+                    576.023,
+                    317.999
+                ],
+                "page_number": 3
+            }
+        ]
+    }
+]

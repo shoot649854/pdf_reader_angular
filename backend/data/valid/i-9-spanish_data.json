@@ -1,0 +1,2213 @@
+[
+    {
+        "title": "Verificaci\u00f3n de Elegibilidad de Empleo",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Middle Initial if any",
+                "field_type": "/Tx",
+                "description": "Inicial de Segundo Nombre (si alguno)",
+                "struct_parent": 294,
+                "tool_tip": "Inicial de Segundo Nombre (si alguno)",
+                "initial_value": "",
+                "rect": [
+                    299.68,
+                    586.764,
+                    437.731,
+                    601.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "First Name Given Name",
+                "field_type": "/Tx",
+                "description": "Primer Nombre (Nombre de Pila)",
+                "struct_parent": 293,
+                "tool_tip": "Primer Nombre (Nombre de Pila)",
+                "initial_value": "",
+                "rect": [
+                    173.728,
+                    586.764,
+                    294.058,
+                    601.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Last Name Family Name",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia)",
+                "struct_parent": 292,
+                "tool_tip": "Apellido (Nombre de Familia)",
+                "initial_value": "",
+                "rect": [
+                    41.4626,
+                    586.742,
+                    167.685,
+                    601.98
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Apt Number if any",
+                "field_type": "/Tx",
+                "description": "N\u00famero de Apartamento (si corresponde)",
+                "struct_parent": 297,
+                "tool_tip": "N\u00famero de Apartamento (si corresponde)",
+                "initial_value": "",
+                "rect": [
+                    222.162,
+                    561.607,
+                    372.838,
+                    575.157
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Address Street Number and Name",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n (N\u00famero y Nombre de la Calle)",
+                "struct_parent": 296,
+                "tool_tip": "Direcci\u00f3n (N\u00famero y Nombre de la Calle)",
+                "initial_value": "",
+                "rect": [
+                    41.8813,
+                    561.605,
+                    216.009,
+                    575.159
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date of Birth mmddyyyy",
+                "field_type": "/Tx",
+                "description": "Fecha de Nacimiento (mm/dd/aaaa)",
+                "struct_parent": 299,
+                "tool_tip": "Fecha de Nacimiento (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    42.1075,
+                    535.372,
+                    143.783,
+                    549.21
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "US Social Security Number",
+                "field_type": "/Tx",
+                "description": "UU",
+                "struct_parent": 300,
+                "tool_tip": "N\u00famero de Seguro Social de EE. UU.",
+                "initial_value": "",
+                "rect": [
+                    168.045,
+                    535.119,
+                    273.045,
+                    548.881
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Employees Email Address",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n de Correo Electr\u00f3nico del Empleado",
+                "struct_parent": 301,
+                "tool_tip": "Direcci\u00f3n de Correo Electr\u00f3nico del Empleado",
+                "initial_value": "",
+                "rect": [
+                    287.639,
+                    535.045,
+                    438.251,
+                    548.882
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CB_1",
+                "field_type": "/Btn",
+                "description": "Ciudadano de Estados Unidos",
+                "struct_parent": 303,
+                "tool_tip": "Ciudadano de Estados Unidos",
+                "initial_value": "",
+                "rect": [
+                    181.68,
+                    505.32,
+                    191.16,
+                    514.8
+                ],
+                "page_number": 1,
+                "options": [
+                    "/On"
+                ]
+            },
+            {
+                "field_name": "CB_2",
+                "field_type": "/Btn",
+                "description": "Ciudadano de Estados Unidos",
+                "struct_parent": 304,
+                "tool_tip": "Ciudadano de Estados Unidos",
+                "initial_value": "",
+                "rect": [
+                    181.68,
+                    493.844,
+                    191.16,
+                    502.8
+                ],
+                "page_number": 1,
+                "options": [
+                    "/On"
+                ]
+            },
+            {
+                "field_name": "CB_3",
+                "field_type": "/Btn",
+                "description": "Ciudadano de Estados Unidos",
+                "struct_parent": 305,
+                "tool_tip": "Ciudadano de Estados Unidos",
+                "initial_value": "",
+                "rect": [
+                    181.68,
+                    481.32,
+                    191.16,
+                    490.8
+                ],
+                "page_number": 1,
+                "options": [
+                    "/On"
+                ]
+            },
+            {
+                "field_name": "CB_4",
+                "field_type": "/Btn",
+                "description": "Ciudadano de Estados Unidos",
+                "struct_parent": 306,
+                "tool_tip": "Ciudadano de Estados Unidos",
+                "initial_value": "",
+                "rect": [
+                    182.204,
+                    463.32,
+                    191.16,
+                    472.8
+                ],
+                "page_number": 1,
+                "options": [
+                    "/On"
+                ]
+            },
+            {
+                "field_name": "Formulario I-94 N\u00famero de Admisi\u00f3n",
+                "field_type": "/Tx",
+                "description": "Formulario I-94 N\u00famero de Admisi\u00f3n",
+                "struct_parent": 309,
+                "tool_tip": "Formulario I-94 N\u00famero de Admisi\u00f3n",
+                "initial_value": "",
+                "rect": [
+                    264.6,
+                    420.24,
+                    389.4,
+                    431.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCIS ANumber",
+                "field_type": "/Tx",
+                "description": "USCIS/N\u00famero A",
+                "struct_parent": 308,
+                "tool_tip": "USCIS/N\u00famero A",
+                "initial_value": "",
+                "rect": [
+                    174.291,
+                    420.24,
+                    251.527,
+                    431.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Signature of Employee",
+                "field_type": "/Tx",
+                "description": "Firma del Empleado",
+                "struct_parent": 311,
+                "tool_tip": "Firma del Empleado",
+                "initial_value": "",
+                "rect": [
+                    42.0764,
+                    396.8,
+                    365.28,
+                    409.718
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Other Last Names Used if any",
+                "field_type": "/Tx",
+                "description": "Otros Apellidos Utilizados (si alguno)",
+                "struct_parent": 295,
+                "tool_tip": "Otros Apellidos Utilizados (si alguno)",
+                "initial_value": "",
+                "rect": [
+                    444.335,
+                    586.764,
+                    576.121,
+                    601.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "State",
+                "field_type": "/Ch",
+                "description": "Estado",
+                "struct_parent": 383,
+                "tool_tip": "Estado",
+                "initial_value": " ",
+                "rect": [
+                    456.249,
+                    561.716,
+                    497.424,
+                    575.266
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AK",
+                    "AL",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY",
+                    "CAN",
+                    "MEX"
+                ]
+            },
+            {
+                "field_name": "ZIP Code",
+                "field_type": "/Tx",
+                "description": "C\u00f3digo Postal",
+                "struct_parent": 298,
+                "tool_tip": "C\u00f3digo Postal",
+                "initial_value": "",
+                "rect": [
+                    509.593,
+                    561.698,
+                    574.989,
+                    575.248
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City or Town",
+                "field_type": "/Tx",
+                "description": "Ciudad o Pueblo",
+                "struct_parent": 164,
+                "tool_tip": "Ciudad o Pueblo",
+                "initial_value": "",
+                "rect": [
+                    378.302,
+                    561.607,
+                    450.462,
+                    575.157
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "EmployeeTelephoneNumber",
+                "field_type": "/Tx",
+                "description": "N\u00famero de Tel\u00e9fono del Empleado",
+                "struct_parent": 302,
+                "tool_tip": "N\u00famero de Tel\u00e9fono del Empleado",
+                "initial_value": "",
+                "rect": [
+                    443.746,
+                    534.909,
+                    576.362,
+                    549.019
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "A lawful permanent resident Enter USCIS or ANumber",
+                "field_type": "/Tx",
+                "description": "Residente permanente legal (Ingrese el N\u00famero de Registro de Extranjero, N\u00famero A",
+                "struct_parent": 174,
+                "tool_tip": "Residente permanente legal (Ingrese el N\u00famero de Registro de Extranjero, N\u00famero A. o N\u00famero de USCIS:",
+                "initial_value": "",
+                "rect": [
+                    391.582,
+                    475.004,
+                    576.502,
+                    486.164
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Exp Date mmddyyyy",
+                "field_type": "/Tx",
+                "description": "Fecha de expiraci\u00f3n, si alguna, mm/dd/aaaa",
+                "struct_parent": 307,
+                "tool_tip": "Fecha de expiraci\u00f3n, si alguna, mm/dd/aaaa",
+                "initial_value": "",
+                "rect": [
+                    474.991,
+                    457.288,
+                    534.318,
+                    470.204
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Foreign Passport Number and Country of Issuance",
+                "field_type": "/Tx",
+                "description": "N\u00famero de pasaporte extranjero y pa\u00eds de emisi\u00f3n",
+                "struct_parent": 310,
+                "tool_tip": "N\u00famero de pasaporte extranjero y pa\u00eds de emisi\u00f3n",
+                "initial_value": "",
+                "rect": [
+                    402.6,
+                    420.24,
+                    575.4,
+                    431.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "List B Document Title 1",
+                "field_type": "/Tx",
+                "description": "Lista B",
+                "struct_parent": 326,
+                "tool_tip": "Lista B. T\u00edtulo del Documento",
+                "initial_value": "",
+                "rect": [
+                    276.822,
+                    627.083,
+                    425.18,
+                    644.404
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Document Title 1",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento 1",
+                "struct_parent": 313,
+                "tool_tip": "T\u00edtulo del Documento 1",
+                "initial_value": "",
+                "rect": [
+                    126.822,
+                    626.913,
+                    263.262,
+                    643.953
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List B Issuing Authority 1",
+                "field_type": "/Tx",
+                "description": "Lista B",
+                "struct_parent": 327,
+                "tool_tip": "Lista B. Autoridad Emisora",
+                "initial_value": "",
+                "rect": [
+                    276.822,
+                    609.73,
+                    425.067,
+                    626.77
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Issuing Authority",
+                "field_type": "/Tx",
+                "description": "Autoridad Emisora",
+                "struct_parent": 314,
+                "tool_tip": "Autoridad Emisora",
+                "initial_value": "",
+                "rect": [
+                    126.822,
+                    609.24,
+                    263.262,
+                    626.28
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List B Document Number 1",
+                "field_type": "/Tx",
+                "description": "Lista B",
+                "struct_parent": 328,
+                "tool_tip": "Lista B. N\u00famero de Documento (si corresponde)",
+                "initial_value": "",
+                "rect": [
+                    277.167,
+                    591.823,
+                    425.385,
+                    608.863
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Document Number if any",
+                "field_type": "/Tx",
+                "description": "N\u00famero de Documento (si corresponde)",
+                "struct_parent": 315,
+                "tool_tip": "N\u00famero de Documento (si corresponde)",
+                "initial_value": "",
+                "rect": [
+                    127.167,
+                    591.24,
+                    263.607,
+                    608.16
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List B Expiration Date 1",
+                "field_type": "/Tx",
+                "description": "Lista B",
+                "struct_parent": 329,
+                "tool_tip": "Lista B. Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    276.84,
+                    573.889,
+                    425.058,
+                    590.929
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Expiration Date if any",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "struct_parent": 316,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    573.72,
+                    263.28,
+                    590.16
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Document Title 2 if any",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento 2",
+                "struct_parent": 317,
+                "tool_tip": "T\u00edtulo del Documento 2",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    555.24,
+                    263.28,
+                    571.92
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Issuing Authority_2",
+                "field_type": "/Tx",
+                "description": "Autoridad Emisora",
+                "struct_parent": 318,
+                "tool_tip": "Autoridad Emisora",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    537.24,
+                    263.28,
+                    554.16
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Expiration Date if any_2",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "struct_parent": 320,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    501.807,
+                    263.28,
+                    518.487
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Document Title 3 if any",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento 3",
+                "struct_parent": 321,
+                "tool_tip": "T\u00edtulo del Documento 3",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    483.24,
+                    263.28,
+                    499.92
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Issuing Authority_3",
+                "field_type": "/Tx",
+                "description": "Autoridad Emisora",
+                "struct_parent": 322,
+                "tool_tip": "Autoridad Emisora",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    465.24,
+                    263.28,
+                    482.16
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Additional Information",
+                "field_type": "/Tx",
+                "description": "Informaci\u00f3n Adicional",
+                "struct_parent": 202,
+                "tool_tip": "Informaci\u00f3n Adicional",
+                "initial_value": "",
+                "rect": [
+                    264.44,
+                    444.24,
+                    575.44,
+                    560.498
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CB_AltProcedureUsed",
+                "field_type": "/Btn",
+                "description": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos",
+                "struct_parent": 334,
+                "tool_tip": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos.",
+                "initial_value": "",
+                "rect": [
+                    269.509,
+                    432.204,
+                    278.991,
+                    441.686
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Expiration Date if any_3",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "struct_parent": 324,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    126.84,
+                    429.24,
+                    263.28,
+                    446.16
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Last Name First Name and Title of Employer or Authorized Representative",
+                "field_type": "/Tx",
+                "description": "Apellido, Nombre y Cargo del Empleador o Representante Autorizado",
+                "struct_parent": 337,
+                "tool_tip": "Apellido, Nombre y Cargo del Empleador o Representante Autorizado",
+                "initial_value": "",
+                "rect": [
+                    36.6116,
+                    364.641,
+                    287.881,
+                    384.238
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Signature of Employer or Authorized Representative",
+                "field_type": "/Tx",
+                "description": "Firma del Empleador o Represente Autorizado",
+                "struct_parent": 338,
+                "tool_tip": "Firma del Empleador o Represente Autorizado",
+                "initial_value": "",
+                "rect": [
+                    294.284,
+                    364.639,
+                    480.32,
+                    384.238
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Employers Business or Organization Name",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n de la Empresa u Organizaci\u00f3n del Empleador (N\u00famero y Nombre de la Calle) Ciudad o Pueblo, Estado y C\u00f3digo Postal ",
+                "struct_parent": 340,
+                "tool_tip": "Direcci\u00f3n de la Empresa u Organizaci\u00f3n del Empleador (N\u00famero y Nombre de la Calle) Ciudad o Pueblo, Estado y C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    36.6926,
+                    328.038,
+                    215.871,
+                    341.744
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Employers Business or Organization Address",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n de la Empresa u Organizaci\u00f3n del Empleador (N\u00famero y Nombre de la Calle) Ciudad o Pueblo, Estado y C\u00f3digo Postal ",
+                "struct_parent": 341,
+                "tool_tip": "Direcci\u00f3n de la Empresa u Organizaci\u00f3n del Empleador (N\u00famero y Nombre de la Calle) Ciudad o Pueblo, Estado y C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    222.82,
+                    328.035,
+                    574.98,
+                    341.744
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List C Document Title 1",
+                "field_type": "/Tx",
+                "description": "Lista C",
+                "struct_parent": 330,
+                "tool_tip": "Lista C. T\u00edtulo del Documento",
+                "initial_value": "",
+                "rect": [
+                    425.749,
+                    627.084,
+                    575.403,
+                    644.124
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List C Issuing Authority 1",
+                "field_type": "/Tx",
+                "description": "Lista C",
+                "struct_parent": 331,
+                "tool_tip": "Lista C. Autoridad Emisora",
+                "initial_value": "",
+                "rect": [
+                    425.749,
+                    609.4,
+                    575.403,
+                    626.47
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List C Document Number 1",
+                "field_type": "/Tx",
+                "description": "Lista C",
+                "struct_parent": 332,
+                "tool_tip": "Lista C. N\u00famero de Documento (si corresponde)",
+                "initial_value": "",
+                "rect": [
+                    425.767,
+                    591.823,
+                    575.421,
+                    608.863
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "List C Expiration Date 1",
+                "field_type": "/Tx",
+                "description": "Lista C",
+                "struct_parent": 333,
+                "tool_tip": "Lista C. Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa)",
+                "initial_value": "",
+                "rect": [
+                    425.767,
+                    573.889,
+                    575.421,
+                    590.929
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "First Day Employed mmddyyyy",
+                "field_type": "/Tx",
+                "description": "Primer d\u00eda de trabajo del empleado (mm/dd/aaaa): ",
+                "struct_parent": 335,
+                "tool_tip": "Primer d\u00eda de trabajo del empleado (mm/dd/aaaa): ",
+                "initial_value": "",
+                "rect": [
+                    461.55,
+                    396.051,
+                    546.646,
+                    411.395
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Suplemento A,  Certificaci\u00f3n del Preparador y/o Traductor de la Secci\u00f3n 1",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Last Name Family Name from Section 1",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) como en la Secci\u00f3n 1",
+                "struct_parent": 213,
+                "tool_tip": "Apellido (Nombre de Familia) como en la Secci\u00f3n 1.",
+                "initial_value": "",
+                "rect": [
+                    41.4836,
+                    650.121,
+                    227.564,
+                    669.758
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "First Name Given Name from Section 1",
+                "field_type": "/Tx",
+                "description": "Nombre (Nombre de Pila) como en la Secci\u00f3n 1",
+                "struct_parent": 214,
+                "tool_tip": "Nombre (Nombre de Pila) como en la Secci\u00f3n 1. ",
+                "initial_value": "",
+                "rect": [
+                    234.484,
+                    650.118,
+                    402.564,
+                    669.752
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Signature of Preparer or Translator_1",
+                "field_type": "/Tx",
+                "description": "Firma del Preparador o Traductor ",
+                "struct_parent": 216,
+                "tool_tip": "Firma del Preparador o Traductor ",
+                "initial_value": "",
+                "rect": [
+                    39.3218,
+                    529.8,
+                    413.16,
+                    552.718
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "First Name Given Name_1",
+                "field_type": "/Tx",
+                "description": "Nombre (Nombre de Pila) ",
+                "struct_parent": 219,
+                "tool_tip": "Nombre (Nombre de Pila) ",
+                "initial_value": "",
+                "rect": [
+                    237.728,
+                    499.804,
+                    426.806,
+                    515.802
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Last Name Family Name_1",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 218,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    39.6422,
+                    499.8,
+                    234.16,
+                    515.798
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Address Street Number and Name_1",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "struct_parent": 221,
+                "tool_tip": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "initial_value": "",
+                "rect": [
+                    38.9618,
+                    471.24,
+                    293.28,
+                    487.239
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City or Town_1",
+                "field_type": "/Tx",
+                "description": "Cuidad o Pueblo ",
+                "struct_parent": 222,
+                "tool_tip": "Cuidad o Pueblo ",
+                "initial_value": "",
+                "rect": [
+                    297.888,
+                    470.718,
+                    449.926,
+                    486.716
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Signature of Preparer or Translator_2",
+                "field_type": "/Tx",
+                "description": "Firma del Preparador o Traductor ",
+                "struct_parent": 225,
+                "tool_tip": "Firma del Preparador o Traductor ",
+                "initial_value": "",
+                "rect": [
+                    39.1615,
+                    404.081,
+                    413.16,
+                    426.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Last Name Family Name_2",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 227,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    39.6432,
+                    374.888,
+                    234.158,
+                    390.886
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "First Name Given Name_2",
+                "field_type": "/Tx",
+                "description": "Nombre (Nombre de Pila) ",
+                "struct_parent": 228,
+                "tool_tip": "Nombre (Nombre de Pila) ",
+                "initial_value": "",
+                "rect": [
+                    237.728,
+                    373.841,
+                    426.806,
+                    389.839
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City or Town_2",
+                "field_type": "/Tx",
+                "description": "Cuidad o Pueblo ",
+                "struct_parent": 231,
+                "tool_tip": "Cuidad o Pueblo ",
+                "initial_value": "",
+                "rect": [
+                    297.245,
+                    345.242,
+                    449.28,
+                    361.24
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Address Street Number and Name_2",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "struct_parent": 230,
+                "tool_tip": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "initial_value": "",
+                "rect": [
+                    38.9592,
+                    345.24,
+                    292.32,
+                    361.238
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Signature of Preparer or Translator_3",
+                "field_type": "/Tx",
+                "description": "Firma del Preparador o Traductor ",
+                "struct_parent": 234,
+                "tool_tip": "Firma del Preparador o Traductor ",
+                "initial_value": "",
+                "rect": [
+                    39.1615,
+                    277.8,
+                    413.16,
+                    300.718
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "First Name Given Name_3",
+                "field_type": "/Tx",
+                "description": "Nombre (Nombre de Pila) ",
+                "struct_parent": 237,
+                "tool_tip": "Nombre (Nombre de Pila) ",
+                "initial_value": "",
+                "rect": [
+                    237.082,
+                    247.68,
+                    425.88,
+                    263.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Last Name Family Name_3",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 236,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    39.3629,
+                    247.68,
+                    233.88,
+                    263.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City or Town_3",
+                "field_type": "/Tx",
+                "description": "Cuidad o Pueblo ",
+                "struct_parent": 240,
+                "tool_tip": "Cuidad o Pueblo ",
+                "initial_value": "",
+                "rect": [
+                    296.965,
+                    219.12,
+                    451.64,
+                    235.119
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Address Street Number and Name_3",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "struct_parent": 239,
+                "tool_tip": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "initial_value": "",
+                "rect": [
+                    38.679,
+                    219.12,
+                    292.04,
+                    235.119
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Signature of Preparer or Translator_4",
+                "field_type": "/Tx",
+                "description": "Firma del Preparador o Traductor ",
+                "struct_parent": 243,
+                "tool_tip": "Firma del Preparador o Traductor ",
+                "initial_value": "",
+                "rect": [
+                    39.1608,
+                    151.8,
+                    413.16,
+                    174.718
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "First Name Given Name_4",
+                "field_type": "/Tx",
+                "description": "Nombre (Nombre de Pila) ",
+                "struct_parent": 246,
+                "tool_tip": "Nombre (Nombre de Pila) ",
+                "initial_value": "",
+                "rect": [
+                    237.082,
+                    121.68,
+                    426.16,
+                    137.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Last Name Family Name_4",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 245,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    39.3624,
+                    121.68,
+                    234.16,
+                    137.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Address Street Number and Name_4",
+                "field_type": "/Tx",
+                "description": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "struct_parent": 248,
+                "tool_tip": "Direcci\u00f3n (N\u00famero de Calle y Nombre) ",
+                "initial_value": "",
+                "rect": [
+                    38.9592,
+                    93.4764,
+                    293.28,
+                    109.475
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City or Town_4",
+                "field_type": "/Tx",
+                "description": "Cuidad o Pueblo ",
+                "struct_parent": 249,
+                "tool_tip": "Cuidad o Pueblo ",
+                "initial_value": "",
+                "rect": [
+                    297.245,
+                    93.24,
+                    449.28,
+                    109.239
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Middle initial if any from Section 1",
+                "field_type": "/Tx",
+                "description": "Los empleadores deben conservar las hojas suplementarias completadas con el Formulario I-9 completado del empleado",
+                "struct_parent": 215,
+                "tool_tip": "Inicial del Segundo Nombre (si alguno) como en la Secci\u00f3n 1.  Instrucciones: Este suplemento debe ser completado por cualquier preparador y/o traductor que ayude a un empleado a completar la Secci\u00f3n 1 del Formulario I-9. El preparador y/o traductor debe ingresar el nombre del empleado en los espacios proporcionados. Cada preparador o traductor debe completar, firmar y fechar un \u00e1rea de certificaci\u00f3n separada. Los empleadores deben conservar las hojas suplementarias completadas con el Formulario I-9 completado del empleado. ",
+                "initial_value": "",
+                "rect": [
+                    409.484,
+                    650.118,
+                    576.564,
+                    669.752
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date mmddyyyy_1",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 217,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    417.562,
+                    529.799,
+                    565.495,
+                    552.717
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Middle Initial if any_1",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si alguno) ",
+                "struct_parent": 220,
+                "tool_tip": "Inicial del Segundo Nombre (si alguno) ",
+                "initial_value": "",
+                "rect": [
+                    428.728,
+                    499.804,
+                    574.806,
+                    515.802
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ZIP Code_1",
+                "field_type": "/Tx",
+                "description": "C\u00f3digo Postal ",
+                "struct_parent": 224,
+                "tool_tip": "C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    496.643,
+                    471.242,
+                    575.28,
+                    487.24
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "State1",
+                "field_type": "/Ch",
+                "description": "Estado ",
+                "struct_parent": 223,
+                "tool_tip": "Estado ",
+                "initial_value": " ",
+                "rect": [
+                    453.118,
+                    471.242,
+                    491.492,
+                    487.24
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AK",
+                    "AL",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY",
+                    "CAN",
+                    "MEX"
+                ]
+            },
+            {
+                "field_name": "Date mmddyyyy_2",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 226,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    417.402,
+                    404.08,
+                    565.333,
+                    426.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Middle Initial if any_2",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si alguno) ",
+                "struct_parent": 229,
+                "tool_tip": "Inicial del Segundo Nombre (si alguno) ",
+                "initial_value": "",
+                "rect": [
+                    429.895,
+                    373.84,
+                    575.976,
+                    389.838
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ZIP Code_2",
+                "field_type": "/Tx",
+                "description": "C\u00f3digo Postal ",
+                "struct_parent": 233,
+                "tool_tip": "C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    496.642,
+                    345.242,
+                    575.28,
+                    361.24
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "State2",
+                "field_type": "/Ch",
+                "description": "Estado ",
+                "struct_parent": 232,
+                "tool_tip": "Estado ",
+                "initial_value": " ",
+                "rect": [
+                    453.118,
+                    345.242,
+                    491.5,
+                    361.24
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AK",
+                    "AL",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY",
+                    "CAN",
+                    "MEX"
+                ]
+            },
+            {
+                "field_name": "Date mmddyyyy_3",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 235,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    417.562,
+                    277.799,
+                    565.493,
+                    300.717
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Middle Initial if any_3",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si alguno) ",
+                "struct_parent": 238,
+                "tool_tip": "Inicial del Segundo Nombre (si alguno) ",
+                "initial_value": "",
+                "rect": [
+                    429.615,
+                    247.68,
+                    575.696,
+                    263.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "State3",
+                "field_type": "/Ch",
+                "description": "Estado ",
+                "struct_parent": 241,
+                "tool_tip": "Estado ",
+                "initial_value": " ",
+                "rect": [
+                    453.403,
+                    219.283,
+                    491.785,
+                    235.281
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AK",
+                    "AL",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY",
+                    "CAN",
+                    "MEX"
+                ]
+            },
+            {
+                "field_name": "ZIP Code_3",
+                "field_type": "/Tx",
+                "description": "C\u00f3digo Postal ",
+                "struct_parent": 242,
+                "tool_tip": "C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    496.361,
+                    219.12,
+                    575.0,
+                    235.119
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date mmddyyyy_4",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 244,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    417.564,
+                    151.8,
+                    565.495,
+                    174.718
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Middle Initial if any_4",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si alguno) ",
+                "struct_parent": 247,
+                "tool_tip": "Inicial del Segundo Nombre (si alguno) ",
+                "initial_value": "",
+                "rect": [
+                    429.09,
+                    121.68,
+                    575.452,
+                    137.679
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "State4",
+                "field_type": "/Ch",
+                "description": "Estado ",
+                "struct_parent": 250,
+                "tool_tip": "Estado ",
+                "initial_value": " ",
+                "rect": [
+                    453.15,
+                    93.436,
+                    491.252,
+                    109.434
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AK",
+                    "AL",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY",
+                    "CAN",
+                    "MEX"
+                ]
+            },
+            {
+                "field_name": "ZIP Code_4",
+                "field_type": "/Tx",
+                "description": "C\u00f3digo Postal ",
+                "struct_parent": 251,
+                "tool_tip": "C\u00f3digo Postal ",
+                "initial_value": "",
+                "rect": [
+                    496.642,
+                    93.24,
+                    575.28,
+                    109.239
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Suplemento B,  Reverificacion y Recontrataciones (Secci\u00f3n 3)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Last Name Family Name from Section 2",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre Familiar) como en la Secci\u00f3n 1 ",
+                "struct_parent": 348,
+                "tool_tip": "Apellido (Nombre Familiar) como en la Secci\u00f3n 1 ",
+                "initial_value": "",
+                "rect": [
+                    37.4836,
+                    660.121,
+                    257.564,
+                    679.758
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "First Name Given Name from Section 2",
+                "field_type": "/Tx",
+                "description": "Primer Nombre (Nombre de pila) como en la Secci\u00f3n 1 ",
+                "struct_parent": 349,
+                "tool_tip": "Primer Nombre (Nombre de pila) como en la Secci\u00f3n 1 ",
+                "initial_value": "",
+                "rect": [
+                    259.484,
+                    660.118,
+                    437.564,
+                    679.752
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Last Name Family Name_5",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 352,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    161.749,
+                    552.735,
+                    300.16,
+                    571.39
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date mmddyyyy_5",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 351,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    42.8424,
+                    552.089,
+                    144.266,
+                    570.743
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Document Number if any_1",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento ",
+                "struct_parent": 355,
+                "tool_tip": "T\u00edtulo del Documento ",
+                "initial_value": "",
+                "rect": [
+                    239.956,
+                    504.062,
+                    420.28,
+                    517.49
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Document Title_1",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento ",
+                "struct_parent": 354,
+                "tool_tip": "T\u00edtulo del Documento ",
+                "initial_value": "",
+                "rect": [
+                    41.7491,
+                    504.062,
+                    233.28,
+                    517.491
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Name of Employer or Authorized Representative_1",
+                "field_type": "/Tx",
+                "description": "Nombre del Empleador o Representante Autorizado ",
+                "struct_parent": 357,
+                "tool_tip": "Nombre del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    40.4945,
+                    445.895,
+                    238.113,
+                    464.549
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Signature of Employer or Authorized Representative_1",
+                "field_type": "/Tx",
+                "description": "Firma del Empleador o Representante Autorizado ",
+                "struct_parent": 358,
+                "tool_tip": "Firma del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    246.076,
+                    445.893,
+                    467.16,
+                    464.548
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Additional Information Initial and date each notation_1",
+                "field_type": "/Tx",
+                "description": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "struct_parent": 360,
+                "tool_tip": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "initial_value": "",
+                "rect": [
+                    41.0073,
+                    410.734,
+                    443.349,
+                    433.603
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "First Name Given Name_6",
+                "field_type": "/Tx",
+                "description": "Primer Nombre (Nombre de pila) ",
+                "struct_parent": 364,
+                "tool_tip": "Primer Nombre (Nombre de pila) ",
+                "initial_value": "",
+                "rect": [
+                    303.876,
+                    366.994,
+                    441.96,
+                    385.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Last Name Family Name_6",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 363,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    159.549,
+                    366.994,
+                    297.96,
+                    385.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date mmddyyyy_6",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 362,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    39.9965,
+                    366.994,
+                    141.423,
+                    385.648
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Document Title_2",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento ",
+                "struct_parent": 366,
+                "tool_tip": "T\u00edtulo del Documento ",
+                "initial_value": "",
+                "rect": [
+                    39.5492,
+                    318.321,
+                    231.08,
+                    331.75
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Name of Employer or Authorized Representative_2",
+                "field_type": "/Tx",
+                "description": "Nombre del Empleador o Representante Autorizado ",
+                "struct_parent": 369,
+                "tool_tip": "Nombre del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    39.3419,
+                    260.154,
+                    236.96,
+                    278.808
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Signature of Employer or Authorized Representative_2",
+                "field_type": "/Tx",
+                "description": "Firma del Empleador o Representante Autorizado ",
+                "struct_parent": 370,
+                "tool_tip": "Firma del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    243.876,
+                    260.152,
+                    464.96,
+                    278.807
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Additional Information Initial and date each notation_2",
+                "field_type": "/Tx",
+                "description": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "struct_parent": 371,
+                "tool_tip": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "initial_value": "",
+                "rect": [
+                    38.8074,
+                    224.993,
+                    441.151,
+                    247.862
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "First Name Given Name_7",
+                "field_type": "/Tx",
+                "description": "Primer Nombre (Nombre de pila) ",
+                "struct_parent": 375,
+                "tool_tip": "Primer Nombre (Nombre de pila) ",
+                "initial_value": "",
+                "rect": [
+                    305.522,
+                    181.994,
+                    443.606,
+                    200.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Last Name Family Name_7",
+                "field_type": "/Tx",
+                "description": "Apellido (Nombre de Familia) ",
+                "struct_parent": 374,
+                "tool_tip": "Apellido (Nombre de Familia) ",
+                "initial_value": "",
+                "rect": [
+                    160.549,
+                    181.994,
+                    298.96,
+                    200.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date mmddyyyy_7",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 373,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    40.9965,
+                    181.994,
+                    142.423,
+                    200.648
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Document Title_3",
+                "field_type": "/Tx",
+                "description": "T\u00edtulo del Documento ",
+                "struct_parent": 377,
+                "tool_tip": "T\u00edtulo del Documento ",
+                "initial_value": "",
+                "rect": [
+                    40.5492,
+                    132.675,
+                    232.08,
+                    146.104
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Name of Employer or Authorized Representative_3",
+                "field_type": "/Tx",
+                "description": "Nombre del Empleador o Representante Autorizado ",
+                "struct_parent": 380,
+                "tool_tip": "Nombre del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    40.3419,
+                    75.1544,
+                    237.96,
+                    93.8084
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Signature of Employer or Authorized Representative_3",
+                "field_type": "/Tx",
+                "description": "Firma del Empleador o Representante Autorizado ",
+                "struct_parent": 381,
+                "tool_tip": "Firma del Empleador o Representante Autorizado ",
+                "initial_value": "",
+                "rect": [
+                    244.876,
+                    75.1524,
+                    465.96,
+                    93.8074
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Additional Information Initial and date each notation_3",
+                "field_type": "/Tx",
+                "description": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "struct_parent": 290,
+                "tool_tip": "Informaci\u00f3n Adicional (Inicial y fecha en cada anotaci\u00f3n) ",
+                "initial_value": "",
+                "rect": [
+                    39.8074,
+                    39.9934,
+                    442.151,
+                    62.8624
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Middle initial if any from Section 2",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si tiene) ",
+                "struct_parent": 350,
+                "tool_tip": "Inicial del Segundo Nombre (si tiene) ",
+                "initial_value": "",
+                "rect": [
+                    438.96,
+                    660.118,
+                    575.04,
+                    679.752
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Middle Initial_1",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si tiene) ",
+                "struct_parent": 256,
+                "tool_tip": "Inicial del Segundo Nombre (si tiene) ",
+                "initial_value": "",
+                "rect": [
+                    450.749,
+                    552.735,
+                    574.16,
+                    571.39
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "First Name Given Name_5",
+                "field_type": "/Tx",
+                "description": "Primer Nombre (Nombre de pila) ",
+                "struct_parent": 353,
+                "tool_tip": "Primer Nombre (Nombre de pila) ",
+                "initial_value": "",
+                "rect": [
+                    306.076,
+                    552.735,
+                    444.16,
+                    571.39
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Expiration Date if any mmddyyyy_1",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "struct_parent": 356,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    426.284,
+                    504.062,
+                    574.28,
+                    517.49
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Todays Date mmddyyyy_1",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 359,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    473.749,
+                    445.893,
+                    567.829,
+                    464.548
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CB_ALT_1",
+                "field_type": "/Btn",
+                "description": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos",
+                "struct_parent": 361,
+                "tool_tip": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos. ",
+                "initial_value": "",
+                "rect": [
+                    447.258,
+                    421.44,
+                    456.741,
+                    430.923
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Middle Initial_2",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si tiene) ",
+                "struct_parent": 365,
+                "tool_tip": "Inicial del Segundo Nombre (si tiene) ",
+                "initial_value": "",
+                "rect": [
+                    448.549,
+                    366.994,
+                    571.96,
+                    385.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Expiration Date if any mmddyyyy_2",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "struct_parent": 368,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    424.084,
+                    318.321,
+                    572.08,
+                    331.749
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Todays Date mmddyyyy_2",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 277,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    472.195,
+                    260.152,
+                    566.277,
+                    278.807
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CB_ALT_2",
+                "field_type": "/Btn",
+                "description": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos",
+                "struct_parent": 372,
+                "tool_tip": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos. ",
+                "initial_value": "",
+                "rect": [
+                    447.707,
+                    234.122,
+                    456.544,
+                    243.605
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Middle Initial_3",
+                "field_type": "/Tx",
+                "description": "Inicial del Segundo Nombre (si tiene) ",
+                "struct_parent": 376,
+                "tool_tip": "Inicial del Segundo Nombre (si tiene) ",
+                "initial_value": "",
+                "rect": [
+                    449.549,
+                    181.994,
+                    572.96,
+                    200.649
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Expiration Date if any mmddyyyy_3",
+                "field_type": "/Tx",
+                "description": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "struct_parent": 379,
+                "tool_tip": "Fecha de Expiraci\u00f3n (si alguna) (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    425.084,
+                    133.321,
+                    573.08,
+                    146.749
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Todays Date mmddyyyy_3",
+                "field_type": "/Tx",
+                "description": "Fecha de Hoy (mm/dd/aaaa) ",
+                "struct_parent": 382,
+                "tool_tip": "Fecha de Hoy (mm/dd/aaaa) ",
+                "initial_value": "",
+                "rect": [
+                    472.549,
+                    75.1524,
+                    566.631,
+                    93.8074
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CB_ALT_3",
+                "field_type": "/Btn",
+                "description": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos",
+                "struct_parent": 291,
+                "tool_tip": "Marque aqu\u00ed si us\u00f3 un procedimiento alterno autorizado por DHS para examinar documentos. ",
+                "initial_value": "",
+                "rect": [
+                    446.415,
+                    51.1219,
+                    456.544,
+                    60.6049
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,653 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "GivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": ") 1",
+                "struct_parent": 7,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter the Given Name (First Name)",
+                "initial_value": "",
+                "rect": [
+                    187.736,
+                    541.009,
+                    308.486,
+                    557.308
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyNameLastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.). Notice to the Adult Member of the Household:  By signing Form I-800A, Supplement 1, you agree that USCIS may disclose to the applicant or the applicant's adoption service provider information that USCIS may obtain about you that is relevant to the adjudication of the applicant's Form I-800A, even if the Privacy Act, 5 U.S.C. 552a, might otherwise prevent disclosure of the information. 1. Provide the following information about the adult member of the household:. Enter the Family Name (Last Name).  ",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    541.009,
+                    180.145,
+                    557.308
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Supplement 1, Listing of Adult Member of the Household",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "OtherNamesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Enter Other Name Used (incouding maiden name, if appropriate)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter Other Name Used (incouding maiden name, if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    230.55,
+                    509.474,
+                    401.19,
+                    526.034
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNamesUsed[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Enter Other Name Used (incouding maiden name, if appropriate)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter Other Name Used (incouding maiden name, if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    51.84,
+                    509.474,
+                    222.84,
+                    526.034
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PlaceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Enter your Place of Birth (City / Town, State / Province, Country)",
+                "struct_parent": 9,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter your Place of Birth (City / Town, State / Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    173.883,
+                    477.277,
+                    400.966,
+                    493.576
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 10,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter your Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    477.275,
+                    166.615,
+                    493.287
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SocialSecurityNumber[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 6,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter a U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    228.957,
+                    444.928,
+                    400.966,
+                    461.227
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Enter an Alien Registration Number (A - Number), if any",
+                "struct_parent": 5,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter an Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    444.928,
+                    222.48,
+                    461.227
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MailingAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 12,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    412.857,
+                    523.188,
+                    430.031
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "InCareOf[0]",
+                "field_type": "/Tx",
+                "description": "Enter an In Care of Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter an In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    382.371,
+                    575.059,
+                    399.545
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 14,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    212.207,
+                    353.273,
+                    352.607,
+                    369.572
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Mailing Address",
+                "struct_parent": 13,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter the City",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    353.273,
+                    205.509,
+                    369.572
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about the adult member of the household: Enter Middle Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    315.862,
+                    541.009,
+                    400.751,
+                    557.308
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if applicable",
+                "struct_parent": 17,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter an Apartment Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    530.521,
+                    412.854,
+                    576.0,
+                    429.153
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 15,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    435.6,
+                    353.273,
+                    576.0,
+                    369.572
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 16,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 1.  Provide the following information about the adult member of the household: Mailing Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    359.382,
+                    353.273,
+                    429.239,
+                    369.572
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "a[1]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No",
+                "struct_parent": 19,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.835,
+                    313.636,
+                    552.835,
+                    323.636
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "a[0]",
+                "field_type": "/Btn",
+                "description": "Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes",
+                "struct_parent": 18,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: A.  Been arrested, cited, charged, indicted, convicted, fined, or imprisoned for breaking or violating any law or ordinance, excluding traffic violations, but including driving or operating a vehicle while intoxicated or while impaired by or under the influence of alcohol or other intoxicant? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    313.491,
+                    505.012,
+                    323.491
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "b[1]",
+                "field_type": "/Btn",
+                "description": "Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for No",
+                "struct_parent": 25,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: B.  Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    273.177,
+                    552.764,
+                    283.177
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "b[0]",
+                "field_type": "/Btn",
+                "description": "Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes",
+                "struct_parent": 24,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: B.  Been the beneficiary of a pardon, amnesty, rehabilitation decree, other act of clemency, or similar action? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    273.177,
+                    505.012,
+                    283.177
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "c[1]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No",
+                "struct_parent": 23,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    254.947,
+                    552.764,
+                    264.947
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "c[0]",
+                "field_type": "/Btn",
+                "description": "Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes",
+                "struct_parent": 22,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: C.  Received a suspended sentence, been placed on probation or parole, or in an alternative sentencing or rehabilitation program, such as diversion, deferred prosecution, deferred or withheld adjudication, or expungement of a criminal charge? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    254.947,
+                    505.012,
+                    264.947
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "d[1]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No",
+                "struct_parent": 21,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    214.86,
+                    552.764,
+                    224.86
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "d[0]",
+                "field_type": "/Btn",
+                "description": "At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes",
+                "struct_parent": 20,
+                "tool_tip": "Part 1.  Information About an Adult Member of the Household.  (You must complete Form I-800A, Supplement 1, for each adult member of the household age 18 and older.  However, if you are married, you do not need to complete one for your spouse.) 2.  Has the adult member of the household, whether in or outside the United States: D.  At any time been the subject of any investigation by any child welfare agency, court, or other official authority in any State or foreign country concerning the abuse or neglect of any child, other than an investigation that has been completed and formally closed based on a finding that the allegation of abuse or neglect was unfounded or unsubstantiated? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    214.86,
+                    505.012,
+                    224.86
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 43,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). I declare that I completed Form I-800A, Supplement 1, Part 1 and it is based on all information of which I have knowledge.  I have not knowingly withheld any material information that would affect the outcome of this application. Enter Your Signature (Applicant). Print this form and sign in ink.  ",
+                "initial_value": "",
+                "rect": [
+                    60.548,
+                    619.679,
+                    374.4,
+                    641.279
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ApplicantGivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Applicant Given Name (First Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter the Applicant Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    213.528,
+                    583.251,
+                    383.78,
+                    604.137
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ApplicantFamilyNameLastName[0]",
+                "field_type": "/Tx",
+                "description": ") Enter the Applicant Family Name (Last Name)",
+                "struct_parent": 33,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter the Applicant Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    583.251,
+                    206.252,
+                    603.847
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "OtherNamesUsed[2]",
+                "field_type": "/Tx",
+                "description": "(Including maiden name if appropriate)",
+                "struct_parent": 29,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter Other Name Used. (Including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    216.499,
+                    543.367,
+                    383.868,
+                    566.24
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "OtherNamesUsed[4]",
+                "field_type": "/Tx",
+                "description": "(Including maiden name if appropriate)",
+                "struct_parent": 31,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter Other Name Used. (Including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    38.88,
+                    543.367,
+                    206.249,
+                    566.24
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth (City / Town, State / Province, Country)",
+                "struct_parent": 36,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter Place of Birth (City / Town, State / Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    159.262,
+                    507.45,
+                    575.482,
+                    528.335
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "DateofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 37,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    507.45,
+                    152.215,
+                    528.336
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ANumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number), if any",
+                "struct_parent": 40,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter an Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    213.528,
+                    471.056,
+                    383.78,
+                    491.942
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "SocialSecurityNumber[1]",
+                "field_type": "/Tx",
+                "description": "S Social Security Number, if any",
+                "struct_parent": 39,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter a U.S Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    471.056,
+                    206.252,
+                    491.942
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[1]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 44,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Certification of the adult member of the household: 1.  Each answer I have given to each question on Form I-800A and attached supplement(s) is true and correct to the best of my knowledge, information, and belief; and 2.  I understand the ongoing duty to disclose any change in circumstance, as described on Page 7 of the instructions to Form I-800A.  I agree to notify the applicant of any new information that I am required to disclose. Pursuant to the Privacy Act, 5 U.S.C. 552a, I also authorize USCIS to disclose information about me which may appear in any system of records maintained by the U.S. Department of Homeland Security, or which USCIS may obtain as a result of the collection of my biometrics information, to the applicant(s) who have filed Form I-800A, or to the applicant's adoption service provider, in order to assist USCIS in adjudicating Form I-800A. Adult Member of Household's Signature. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.548,
+                    253.259,
+                    374.4,
+                    274.859
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 28,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    250.886,
+                    199.415,
+                    576.0,
+                    222.014
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Daytime Phone Number, including area code",
+                "struct_parent": 42,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter a Daytime Phone Number, including area code.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    199.412,
+                    241.183,
+                    221.377
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 32,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    619.679,
+                    576.0,
+                    640.568
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ApplicantMiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant Middle Name",
+                "struct_parent": 34,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter Applicant Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    391.55,
+                    583.251,
+                    576.0,
+                    604.137
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "OtherNamesUsed[3]",
+                "field_type": "/Tx",
+                "description": "(Including maiden name if appropriate)",
+                "struct_parent": 30,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter Other Name Used. (Including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    392.658,
+                    543.364,
+                    576.0,
+                    566.24
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": ") Enter a U S C I S Account Number, if any",
+                "struct_parent": 38,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.) Enter a U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    471.875,
+                    574.449,
+                    492.761
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 41,
+                "tool_tip": "Part 2.  Signature of You, the Prospective Adoptive Parent (Applicant) and Signature and Certification of the Adult Member of the Household  (Read the information on penalties on Page 10 of the instructions before completing this section.). Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    249.871,
+                    575.498,
+                    270.76
+                ],
+                "page_number": 2
+            }
+        ]
+    }
+]

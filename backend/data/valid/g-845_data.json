@@ -1,0 +1,1727 @@
+[
+    {
+        "title": "Part 1.  Information From the Registered Agency",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_USCIS-SAVE-ProgStatus[0]",
+                "field_type": "/Tx",
+                "description": "Print clearly since U S C I S may use agency address below with a Number 10 window envelope",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information From the Registered Agency. NOTE: Only the Registered Agency should complete this information. To: U.S. Citizenship and Immigration Services (U S C I S). Attention: U S C I S SAVE Program Status Verification Office. Stamp, type, or print the name, address, and ZIP Code of the Registered Agency. Print clearly since U S C I S may use agency address below with a Number 10 window envelope.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    515.999,
+                    293.998,
+                    587.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_NameAddressZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter From Address",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information From the Registered Agency. Enter From Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    366.001,
+                    293.998,
+                    437.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1a_AlienRegistrationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A-Number)",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. A. Enter Alien Registration Number (A-Number).",
+                "initial_value": "",
+                "rect": [
+                    163.63,
+                    276.001,
+                    292.64,
+                    294.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1b_194ArrivalDeparture[0]",
+                "field_type": "/Tx",
+                "description": "Enter Form I - 94 Number (Arrival-Departure Record)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. B. Enter Form I - 94 Number (Arrival-Departure Record).",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    240.001,
+                    292.518,
+                    258.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1c_OtherImmigrationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Immigration Number",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. C. Enter Other Immigration Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    204.001,
+                    294.001,
+                    222.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1d_NameOfFormNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name or Form Number of Document Containing the Other Immigration Number",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. D. Enter Name or Form Number of Document Containing the Other Immigration Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    156.002,
+                    294.001,
+                    174.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2a_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. A. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    96.001,
+                    294.001,
+                    114.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2b_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. B. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    72.0,
+                    294.001,
+                    90.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    48.002,
+                    294.001,
+                    66.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Case Verification Number",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 3. Enter Case Verification Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 4. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    623.999,
+                    576.0,
+                    641.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 5. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    444.28,
+                    587.999,
+                    576.281,
+                    605.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6_StudentExchange[0]",
+                "field_type": "/Tx",
+                "description": "Enter Student and Exchange Visitor Information System (SEVIS) Number",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 6. Enter Student and Exchange Visitor Information System (SEVIS) Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    540.0,
+                    576.0,
+                    558.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7_CitizeshipOrNat[0]",
+                "field_type": "/Tx",
+                "description": "Enter Citizenship or Nationality",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 7. Enter Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    504.003,
+                    576.0,
+                    522.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line8a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "If the immigration document is printed on both sides, attach a copy of the front and back",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 8. A. Check this box for Photocopy of most recently issued immigration document attached.  Ensure copies are legible and made from an original document.  If the immigration document is printed on both sides, attach a copy of the front and back.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    463.005,
+                    352.999,
+                    473.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other Information Attached (Specify Documents)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 8. B. Check this box for Other Information Attached (Specify Documents).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    397.003,
+                    352.999,
+                    407.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Explanation[0]",
+                "field_type": "/Tx",
+                "description": "If Other Information Attached is checked, Specify Documents",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Documents Attached (Select all that apply). 8. B. If Other Information Attached is checked, Specify Documents.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    360.003,
+                    576.0,
+                    396.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line9a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Background Check",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. A. Check this box for Background Check.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    319.005,
+                    352.999,
+                    329.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Driver's License / I D",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. B. Check this box for Driver's License / I D.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    301.005,
+                    352.999,
+                    311.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Education Grant / Loan / Work Study",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. C. Check this box for Education Grant / Loan / Work Study.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    283.005,
+                    352.999,
+                    293.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9d_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Employment Authorization",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. D. Check this box for Employment Authorization.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    265.005,
+                    352.999,
+                    275.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9e_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Food Stamps",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. E. Check this box for Food Stamps.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    247.005,
+                    352.999,
+                    257.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9f_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Housing Assistance",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. F. Check this box for Housing Assistance.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    229.005,
+                    352.999,
+                    239.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9g_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Medicaid / Medical Assistance",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. G. Check this box for Medicaid / Medical Assistance.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    211.005,
+                    352.999,
+                    221.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9h_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Social Security Number",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. H. Check this box for Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    193.005,
+                    352.999,
+                    203.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9i_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for S S I or R S D I",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. I. Check this box for S S I or R S D I.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    175.005,
+                    352.999,
+                    185.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9j_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "N F",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. J. Check this box for T A. N F.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    157.005,
+                    352.999,
+                    167.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9k_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Unemployment Insurance",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. K. Check this box for Unemployment Insurance.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    139.005,
+                    352.999,
+                    149.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9l_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other (Specify)",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. L. Check this box for Other (Specify).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    121.005,
+                    352.999,
+                    131.005
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9l_Other[0]",
+                "field_type": "/Tx",
+                "description": "If Other is checked, specify",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Benefits Sought. 9. L. If Other is checked, specify.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    102.005,
+                    576.0,
+                    120.005
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  USCIS Responses",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2b_FirstName[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 52,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    726.001,
+                    396.0,
+                    744.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 71,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    725.998,
+                    575.83,
+                    743.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Lawful Permanent Resident of the United States",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. U S C I S Responses. NOTE:  Only U S C I S should complete this information. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 1. Check this box for Lawful Permanent Resident of the United States.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    619.001,
+                    352.999,
+                    629.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Conditional Permanent Resident of the United States",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 2. Check this box for Conditional Permanent Resident of the United States.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    601.001,
+                    352.999,
+                    611.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is employment authorized in the United States as indicated",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Check this box for Applicant is employment authorized in the United States as indicated.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    577.0,
+                    352.999,
+                    587.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_Checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for No Expiration Date (Indefinite)",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for No Expiration Date (Indefinite).",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    546.998,
+                    370.083,
+                    556.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P2_Line3_Checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Expiration Date",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for Expiration Date.",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    528.998,
+                    370.083,
+                    538.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/E"
+                ]
+            },
+            {
+                "field_name": "P2_Line3b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Enter Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    509.998,
+                    576.0,
+                    527.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_Checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Previous Employment Authorization Dates",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Check this box for Previous Employment Authorization Dates.",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    492.998,
+                    370.083,
+                    502.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/P"
+                ]
+            },
+            {
+                "field_name": "P2_Line3c_EndDate1[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line One. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    450.0,
+                    574.999,
+                    468.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3c_StartDate1[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line One. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    378.113,
+                    450.0,
+                    473.113,
+                    468.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3c_EndDate2[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Two. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    432.0,
+                    574.999,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3c_StartDate2[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Two. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    378.113,
+                    432.0,
+                    473.113,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3c_EndDate3[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Three. Enter End Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    414.0,
+                    574.999,
+                    432.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3c_StartDate3[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 3. Applicant is employment authorized in the United States as indicated. Previous Employment Authorization Dates. Line Three. Enter Start Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    378.113,
+                    414.0,
+                    473.113,
+                    432.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line4_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is not employment authorized in the United States",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 4. Check this box for Applicant is not employment authorized in the United States.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    390.999,
+                    352.999,
+                    400.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line5_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant has an application pending for the following U S C I S benefit",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 5. Check this box for Applicant has an application pending for the following U S C I S benefit.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    361.0,
+                    352.999,
+                    371.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line5_USCISBenefit[0]",
+                "field_type": "/Tx",
+                "description": "If Applicant has an application pending for the following U S C I S benefit is selected, Enter U S C I S benefit",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 5. If Applicant has an application pending for the following U S C I S benefit is selected, Enter U S C I S benefit.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    329.998,
+                    576.0,
+                    347.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line6_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant was granted asylum or refugee status in the United States",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 6. Check this box for Applicant was granted asylum or refugee status in the United States.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    313.001,
+                    352.999,
+                    323.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line7_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Check this box for Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    282.999,
+                    352.999,
+                    292.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line7_Checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for No Expiration Date (Indefinite)",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for No Expiration Date (Indefinite).",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    240.998,
+                    370.083,
+                    250.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P2_Line7_Checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Parole Granted Date",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for Parole Granted Date.",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    222.998,
+                    370.083,
+                    232.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/G"
+                ]
+            },
+            {
+                "field_name": "P2_Line7b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Enter Parole Granted Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    203.998,
+                    576.221,
+                    221.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line7_Checkboxes[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Parole Expiration Date",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Check this box for Parole Expiration Date.",
+                "initial_value": "",
+                "rect": [
+                    360.083,
+                    186.998,
+                    370.083,
+                    196.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/E"
+                ]
+            },
+            {
+                "field_name": "P2_Line7c_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 7. Applicant was paroled into the United States under section 2 12 of the Immigration and Nationality Act (I N A.). Enter Parole Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    167.998,
+                    576.221,
+                    185.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line8_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Conditional entrant of the United States",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 8. Check this box for Conditional entrant of the United States. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    150.998,
+                    352.999,
+                    160.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Nonimmigrant (Specify type or class and expiration date)",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. Check this box for Nonimmigrant (Specify type or class and expiration date).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    132.998,
+                    352.999,
+                    142.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_TypeOrClass[0]",
+                "field_type": "/Tx",
+                "description": "If Nonimmigrant is selected, Specify Type or Class",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. If Nonimmigrant is selected, Specify Type or Class.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    83.999,
+                    576.0,
+                    101.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line9_ExpireDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 9. If Nonimmigrant is selected, Enter Expiration Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    59.998,
+                    575.779,
+                    77.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line10_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Citizen",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 10. Check this box for U.S. Citizen.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    43.001,
+                    352.999,
+                    53.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line2b_FirstName[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 75,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    726.001,
+                    396.0,
+                    744.001
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Registered Agency Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 53,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    726.001,
+                    209.999,
+                    744.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information From the Registered Agency  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line10_RegAgencyCaseNum[0]",
+                "field_type": "/Tx",
+                "description": "Enter Registered Agency Case Number",
+                "struct_parent": 68,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 10. Enter Registered Agency Case Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    612.0,
+                    294.001,
+                    630.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line11a_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 67,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 11. A. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    564.001,
+                    294.001,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line11b_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 66,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 11. B. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    540.003,
+                    294.001,
+                    558.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line12_TitleOfAgency[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Agency Official",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 12. Enter Title of Agency Official.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    504.0,
+                    294.001,
+                    522.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line13a_DaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Agency Official's Daytime Telephone Number (Include Area Code)",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 13. A. Enter Agency Official's Daytime Telephone Number (Include Area Code).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    468.0,
+                    294.001,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line13b_ExtnsionNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Agency Official's Extension Number, if applicable",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 13. B. Enter Agency Official's Extension Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    432.0,
+                    294.001,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line14_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Agency Official's Fax Number, if any (Include Area Code)",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 14. Enter Agency Official's Fax Number, if any (Include Area Code).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    396.0,
+                    294.001,
+                    414.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line15_DateOfRequest[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 15. Enter Date Request Completed. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    360.0,
+                    294.001,
+                    378.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line16_RegAgencyComments[0]",
+                "field_type": "/Tx",
+                "description": "Enter Registered Agency Comments, if any",
+                "struct_parent": 37,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 16. Enter Registered Agency Comments, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    54.0,
+                    294.001,
+                    342.0
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  USCIS Comments",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 76,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    726.001,
+                    209.999,
+                    744.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Resubmit request",
+                "struct_parent": 102,
+                "tool_tip": "Part 3. U S C I S Comments. NOTE: Only U S C I S should complete this information. 1. Check this box for Unable to process request without an original consent of disclosure statement signed by the applicant.  Resubmit request.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    114.998,
+                    71.0,
+                    124.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Submit a new request",
+                "struct_parent": 103,
+                "tool_tip": "Part 3. U S C I S Comments. 2. Check this box for No determination can be made because insufficient information was submitted. Obtain a copy of the applicant's most recently issued immigration document. Submit a new request.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    73.0,
+                    71.0,
+                    83.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 104,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    725.998,
+                    575.83,
+                    743.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Attach copies (front and back) of the applicant's most recently issued immigration document and submit a new request",
+                "struct_parent": 96,
+                "tool_tip": "Part 3. U S C I S Comments. 3. Check this box for No determination can be made without seeing both sides of the applicant's immigration document. Attach copies (front and back) of the applicant's most recently issued immigration document and submit a new request.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    691.001,
+                    352.999,
+                    701.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Submit a new request with legible documents",
+                "struct_parent": 95,
+                "tool_tip": "Part 3. U S C I S Comments. 4. Check this box for Copy provided of applicant's immigration document is illegible. Submit a new request with legible documents.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    625.002,
+                    352.999,
+                    635.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line5_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "If this is the applicant's most recently issued immigration document, refer the applicant to the document issuing authority",
+                "struct_parent": 94,
+                "tool_tip": "Part 3. U S C I S Comments. 5. Check this box for Unable to verify status based on the document provided. If this is the applicant's most recently issued immigration document, refer the applicant to the document issuing authority.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    583.001,
+                    352.999,
+                    593.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line6_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. U S C I S Comments. 6. Check this box for Other.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    529.001,
+                    352.999,
+                    539.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6_SpecifyOther[0]",
+                "field_type": "/Tx",
+                "description": "If Other is selected, Enter Explanation",
+                "struct_parent": 74,
+                "tool_tip": "Part 3. U S C I S Comments. 6. If Other is selected, Enter Explanation. ",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    234.003,
+                    576.0,
+                    522.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  USCIS Responses  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line11_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Cuban / Haitian entrant of the United States",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 11. Check this box for Cuban / Haitian entrant of the United States.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    667.0,
+                    71.0,
+                    677.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "2 89 apply",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 12. Check this box for American Indian born in Canada to whom the provisions of I N A. 2 89 apply. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    649.0,
+                    71.0,
+                    659.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_DateStatusRec[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 12. If American Indian born in Canada to whom the provisions of I N A. 2 89 apply is selected, Enter Date Status Recognized. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    599.998,
+                    294.001,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line13_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Mexican Born Member of the Texas or Oklahoma Band of Kickapoo Indians",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 13. Check this box for Mexican Born Member of the Texas or Oklahoma Band of Kickapoo Indians. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    582.998,
+                    71.0,
+                    592.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line13a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for I - 8 72 Issuance Date",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. U S C I S Responses. 13. A. Check this box for I - 8 72 Issuance Date. ",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    552.999,
+                    106.084,
+                    562.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line13a_IssuanceDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. U S C I S Responses. 13. A. Enter I - 8 72 Issuance Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    533.999,
+                    294.001,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line13a_COA[0]",
+                "field_type": "/Tx",
+                "description": "(K I C or KIP)",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. U S C I S Responses. 13. A. Enter C O A. (K I C or KIP).",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    497.999,
+                    293.638,
+                    515.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line13B_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other foreign born American Indian Date of Entry",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. U S C I S Responses. 13. B. Check this box for Other foreign born American Indian Date of Entry.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    480.999,
+                    106.084,
+                    490.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line13B_OtherForeignDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. U S C I S Responses. 13. B. Enter Other foreign born American Indian Date of Entry. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    449.997,
+                    294.001,
+                    467.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line13b_COA[0]",
+                "field_type": "/Tx",
+                "description": "Enter C O A",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. U S C I S Responses. 13. B. Enter C O A.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    414.0,
+                    293.638,
+                    432.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line14_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 14. Check this box for Deferred Action for Childhood Arrivals (D A. C A.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    397.0,
+                    71.0,
+                    407.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line15_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Temporary Protected Status (T P S)",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 15. Check this box for Temporary Protected Status (T P S).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    379.0,
+                    71.0,
+                    389.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line16_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Deferred Action Status",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 16. Check this box for Deferred Action Status.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    361.0,
+                    71.0,
+                    371.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line17_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Self-Petitioner",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 17. Check this box for V A. W A. Self-Petitioner.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    343.0,
+                    71.0,
+                    353.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line17_CheckboxYesNo[0]",
+                "field_type": "/Btn",
+                "description": "self-petition",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. U S C I S Responses. 17. A. Check this box for Pending prima facie V A. W A. self-petition.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    325.0,
+                    106.084,
+                    335.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/a"
+                ]
+            },
+            {
+                "field_name": "P2_Line17_CheckboxYesNo[1]",
+                "field_type": "/Btn",
+                "description": "self-petition",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. U S C I S Responses. 17. B. Check this box for Approved V A. W A. self-petition.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    307.0,
+                    106.084,
+                    317.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/b"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2a[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Withholding of Removal",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 18. Check this box for Withholding of Removal.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    289.0,
+                    71.0,
+                    299.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2a[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for U S C I S is searching indices for further information",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 19. Check this box for U S C I S is searching indices for further information.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    271.0,
+                    71.0,
+                    281.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2a[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for This document is not valid because it appears to be: (Select all that apply)",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. U S C I S Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. 20. Check this box for This document is not valid because it appears to be: (Select all that apply).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    253.0,
+                    71.0,
+                    263.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line17a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for This document is not valid because it appears to be Expired",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. U S C I S Responses. 20. A. Check this box for This document is not valid because it appears to be Expired.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    223.001,
+                    106.084,
+                    233.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line17b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for This document is not valid because it appears to be Altered",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. U S C I S Responses. 20. B. Check this box for This document is not valid because it appears to be Altered.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    205.001,
+                    106.084,
+                    215.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line17c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for This document is not valid because it appears to be Counterfeit",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. U S C I S Responses. 20. C. Check this box for This document is not valid because it appears to be Counterfeit.",
+                "initial_value": "",
+                "rect": [
+                    96.084,
+                    187.001,
+                    106.084,
+                    197.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    }
+]

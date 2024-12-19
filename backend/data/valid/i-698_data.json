@@ -1,0 +1,4209 @@
+[
+    {
+        "title": "Part 1.  Information About You",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You. 1. Full Legal Name. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    474.001,
+                    263.999,
+                    492.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You 1. Full Legal Name. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    473.834,
+                    432.0,
+                    491.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    419.998,
+                    432.0,
+                    437.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    419.995,
+                    263.999,
+                    437.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_3_DifferenceInName[0]",
+                "field_type": "/Tx",
+                "description": ")",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). B. Provide the reason for a difference in the names, if any  (marriage, divorce, etc.).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    384.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    329.998,
+                    432.0,
+                    347.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    329.995,
+                    263.999,
+                    347.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    293.998,
+                    432.0,
+                    311.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    293.995,
+                    263.999,
+                    311.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L53_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    239.998,
+                    263.999,
+                    257.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L53_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    239.967,
+                    432.0,
+                    257.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L54_NativeAlphabet[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language of Your Native Alphabet",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About You. 4. B. Enter Language of Your Native Alphabet.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    203.998,
+                    576.0,
+                    221.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_InCareOfName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter In Care Of Name.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    149.998,
+                    576.0,
+                    167.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    113.998,
+                    438.001,
+                    131.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    77.998,
+                    438.001,
+                    95.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You. 1. Full Legal Name. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    473.834,
+                    576.0,
+                    491.834
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You. 2. Name as it Appears on Your Employment Authorization Document (Form I-7 6 6). A. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    419.995,
+                    576.0,
+                    437.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. A. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    329.995,
+                    576.0,
+                    347.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You. 3. Any Other Names Used. B. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    293.995,
+                    576.0,
+                    311.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L53_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You. 4. A. If your native alphabet does not use Roman letters, type or print your name in your native alphabet. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    239.998,
+                    576.0,
+                    257.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.053,
+                    117.998,
+                    512.053,
+                    127.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.049,
+                    117.998,
+                    488.049,
+                    127.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.051,
+                    117.998,
+                    464.051,
+                    127.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    113.998,
+                    576.0,
+                    131.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    78.001,
+                    576.0,
+                    96.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You. 5. U. S.  Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    78.001,
+                    486.0,
+                    96.001
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "physical address in Item Number 7",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You. 6. Is your current U.S. mailing address the same as your U.S. physical address. Select No. If you answered \"No,\" provide your U.S. physical address in Item Number 7.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    61.001,
+                    550.0,
+                    71.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About You. 6. Is your current U.S. mailing address the same as your U.S. physical address. Select Yes.  ",
+                "initial_value": "",
+                "rect": [
+                    498.002,
+                    61.001,
+                    508.002,
+                    71.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_L6_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 106,
+                "tool_tip": "Part 1. Information About You. 7. U.S. Physical Address. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    666.0,
+                    438.001,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L6_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 103,
+                "tool_tip": "Part 1. Information About You. 7. U.S. Physical Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    630.0,
+                    438.001,
+                    648.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_8_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Information About You. 9. Enter U. S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    287.994,
+                    594.0,
+                    432.093,
+                    612.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Information About You. 8. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    84.044,
+                    594.0,
+                    252.173,
+                    612.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L10_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. Information About You. 11. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    562.0,
+                    255.999,
+                    572.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "P1_L10_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. Information About You. 11. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    561.657,
+                    208.0,
+                    571.657
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "P1_9_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You. 10. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    558.0,
+                    168.001,
+                    576.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L11_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or Foreign State",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You. 12. Place of Birth. Enter Province or Foreign State.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    504.0,
+                    371.999,
+                    522.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L11_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information About You. 12. Place of Birth. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    503.997,
+                    209.999,
+                    522.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L13_CountryOfNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 111,
+                "tool_tip": "Part 1. Information About You. 13. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    468.062,
+                    227.999,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_13_MothersFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mother's First Name",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You. 14. Enter Mother's First Name.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    468.0,
+                    402.001,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_15_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Divorced or Separated",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. Information About You. 16. Marital Status. Select Divorced or Separated.",
+                "initial_value": "",
+                "rect": [
+                    306.0,
+                    451.0,
+                    316.0,
+                    461.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Divorced"
+                ]
+            },
+            {
+                "field_name": "P1_15_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 37,
+                "tool_tip": "Part 1. Information About You. 16. Marital Status. Select Married. ",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    451.0,
+                    255.999,
+                    461.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Married"
+                ]
+            },
+            {
+                "field_name": "P1_15_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Single (Never Married)",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You. 16. Marital Status. Select Single (Never Married).",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    451.0,
+                    136.0,
+                    461.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Never Married"
+                ]
+            },
+            {
+                "field_name": "P1_L23A_PurposeOfTrip[0]",
+                "field_type": "/Tx",
+                "description": "Enter Purpose of Trip",
+                "struct_parent": 80,
+                "tool_tip": "Part 1. Information About You. 17. Line One. Enter Purpose of Trip. ",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    348.001,
+                    360.003,
+                    366.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23A_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 79,
+                "tool_tip": "Part 1. Information About You. 17. List absences from the United States since becoming a temporary resident.  List the most recent absence first.  If you have a single absence that exceeded 30 days or if the total of all of your absences exceeds 90 days, explain using the space provided in Part 8. Additional Information or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of the sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. Line One. Enter Country. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    348.001,
+                    191.999,
+                    366.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23B_PurposeOfTrip[0]",
+                "field_type": "/Tx",
+                "description": "Enter Purpose of Trip",
+                "struct_parent": 85,
+                "tool_tip": "Part 1. Information About You. 17. Line Two. Enter Purpose of Trip. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    330.001,
+                    360.0,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23B_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 84,
+                "tool_tip": "Part 1. Information About You. 17. Line Two. Enter Country. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    330.001,
+                    191.999,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23C_PurposeOfTrip[0]",
+                "field_type": "/Tx",
+                "description": "Enter Purpose of Trip",
+                "struct_parent": 94,
+                "tool_tip": "Part 1. Information About You. 17. Line Three. Enter Purpose of Trip. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    312.001,
+                    360.0,
+                    330.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23C_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 93,
+                "tool_tip": "Part 1. Information About You. 17. Line Three. Enter Country. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    312.001,
+                    191.999,
+                    330.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_PurposeOfTrip[0]",
+                "field_type": "/Tx",
+                "description": "Enter Purpose of Trip",
+                "struct_parent": 77,
+                "tool_tip": "Part 1. Information About You. 17. Line Four. Enter Purpose of Trip. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    294.001,
+                    360.0,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 89,
+                "tool_tip": "Part 1. Information About You. 17. Line Four. Enter Country. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    294.001,
+                    191.999,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_PurposeOfTrip[1]",
+                "field_type": "/Tx",
+                "description": "Enter Purpose of Trip",
+                "struct_parent": 98,
+                "tool_tip": "Part 1. Information About You. 17. Line Five. Enter Purpose of Trip. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    276.001,
+                    360.0,
+                    294.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_Country[1]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 97,
+                "tool_tip": "Part 1. Information About You. 17. Line Five. Enter Country. ",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    276.001,
+                    191.999,
+                    294.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L6_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 108,
+                "tool_tip": "Part 1. Information About You. 7. U. S.  Physical Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.053,
+                    670.0,
+                    512.053,
+                    680.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_L6_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 109,
+                "tool_tip": "Part 1. Information About You. 7. U. S.  Physical Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.049,
+                    670.0,
+                    488.049,
+                    680.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_L6_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 110,
+                "tool_tip": "Part 1. Information About You. 7. U. S.  Physical Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.051,
+                    670.0,
+                    464.051,
+                    680.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_L6_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 107,
+                "tool_tip": "Part 1. Information About You. 7. U.S. Physical Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    666.0,
+                    576.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L6_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 105,
+                "tool_tip": "Part 1. Information About You. 7. U.S. Physical Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    630.0,
+                    576.0,
+                    648.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L6_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 104,
+                "tool_tip": "Part 1. Information About You. 7. U.S. Physical Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    630.0,
+                    486.0,
+                    648.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_L11_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. Information About You. 12. Place of Birth. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    504.062,
+                    576.0,
+                    522.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_14_FathersFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Father's First Name",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You. 15. Enter Father's First Name.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    468.0,
+                    576.0,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_15_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 38,
+                "tool_tip": "Part 1. Information About You. 16. Marital Status. Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    451.0,
+                    430.001,
+                    461.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Widowed"
+                ]
+            },
+            {
+                "field_name": "P1_L23A_DaysAbsent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Days Absent",
+                "struct_parent": 81,
+                "tool_tip": "Part 1. Information About You. 17. Line One. Enter Total Days Absent. ",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    348.001,
+                    576.0,
+                    366.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23A_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 82,
+                "tool_tip": "Part 1. Information About You. 17. Line One. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    348.001,
+                    516.002,
+                    366.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23A_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 78,
+                "tool_tip": "Part 1. Information About You. 17. Line One. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    348.001,
+                    438.001,
+                    366.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23B_DaysAbsent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Days Absent",
+                "struct_parent": 86,
+                "tool_tip": "Part 1. Information About You. 17. Line Two. Enter Total Days Absent. ",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    330.001,
+                    576.0,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23B_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 87,
+                "tool_tip": "Part 1. Information About You. 17. Line Two. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    330.001,
+                    516.002,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23B_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 83,
+                "tool_tip": "Part 1. Information About You. 17. Line Two. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    330.001,
+                    438.001,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23C_DaysAbsent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Days Absent",
+                "struct_parent": 95,
+                "tool_tip": "Part 1. Information About You. 17. Line Three. Enter Total Days Absent. ",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    312.001,
+                    576.0,
+                    330.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23C_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 96,
+                "tool_tip": "Part 1. Information About You. 17. Line Three. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    312.001,
+                    516.002,
+                    330.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23C_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 92,
+                "tool_tip": "Part 1. Information About You. 17. Line Three. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    312.001,
+                    438.001,
+                    330.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DaysAbsent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Days Absent",
+                "struct_parent": 90,
+                "tool_tip": "Part 1. Information About You. 17. Line Four. Enter Total Days Absent. ",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    294.001,
+                    576.0,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 91,
+                "tool_tip": "Part 1. Information About You. 17. Line Four. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    294.001,
+                    516.002,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 88,
+                "tool_tip": "Part 1. Information About You. 17. Line Four. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    294.001,
+                    438.001,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DaysAbsent[1]",
+                "field_type": "/Tx",
+                "description": "Enter Total Days Absent",
+                "struct_parent": 101,
+                "tool_tip": "Part 1. Information About You. 17. Line Five. Enter Total Days Absent. ",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    276.001,
+                    576.0,
+                    294.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DateTo[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 100,
+                "tool_tip": "Part 1. Information About You. 17. Line Five. Enter Date To. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    276.001,
+                    516.002,
+                    294.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L23D_DateFrom[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 99,
+                "tool_tip": "Part 1. Information About You. 17. Line Five. Enter Date From. Enter as 2-digit Month, 2-digit Day and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    276.001,
+                    438.001,
+                    294.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Biographic Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_L1_Ethnicity[0]",
+                "field_type": "/Btn",
+                "description": "Select Not Hispanic or Latino",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Select Not Hispanic or Latino. ",
+                "initial_value": "",
+                "rect": [
+                    301.998,
+                    223.001,
+                    311.998,
+                    233.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/NH"
+                ]
+            },
+            {
+                "field_name": "P2_L1_Ethnicity[1]",
+                "field_type": "/Btn",
+                "description": "Select Hispanic or Latino",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Biographic Information. 1. Ethnicity (Select only one box). Select Hispanic or Latino. ",
+                "initial_value": "",
+                "rect": [
+                    194.001,
+                    223.001,
+                    204.001,
+                    233.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/H"
+                ]
+            },
+            {
+                "field_name": "Race_Black[0]",
+                "field_type": "/Btn",
+                "description": "Select Black or African American",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Black or African American.",
+                "initial_value": "",
+                "rect": [
+                    211.998,
+                    187.001,
+                    221.998,
+                    197.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Race_Asian[0]",
+                "field_type": "/Btn",
+                "description": "Select Asian",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Asian.",
+                "initial_value": "",
+                "rect": [
+                    163.999,
+                    187.001,
+                    173.999,
+                    197.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Race_American[0]",
+                "field_type": "/Btn",
+                "description": "Select American Indian or Alaska Native",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+                "initial_value": "",
+                "rect": [
+                    55.999,
+                    187.001,
+                    65.999,
+                    197.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/I"
+                ]
+            },
+            {
+                "field_name": "P2_L3_HeightInches[0]",
+                "field_type": "/Ch",
+                "description": "Select the number of Inches",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Biographic Information. 3. Height. Inches. Select the number of Inches.",
+                "initial_value": "",
+                "rect": [
+                    185.998,
+                    150.001,
+                    215.997,
+                    168.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ]
+            },
+            {
+                "field_name": "P2_L3_HeightFeet[0]",
+                "field_type": "/Ch",
+                "description": "Select the number of feet",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Biographic Information. 3. Height. Feet. Select the number of feet.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    150.001,
+                    149.998,
+                    168.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[6]",
+                "field_type": "/Btn",
+                "description": "Select Green",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Green.",
+                "initial_value": "",
+                "rect": [
+                    260.181,
+                    115.001,
+                    270.181,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRN"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[1]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    212.001,
+                    115.001,
+                    222.001,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[0]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    157.998,
+                    115.001,
+                    167.998,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BRN"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[7]",
+                "field_type": "/Btn",
+                "description": "Select Blue",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Blue.",
+                "initial_value": "",
+                "rect": [
+                    109.999,
+                    115.001,
+                    119.999,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLU"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[8]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    55.999,
+                    115.001,
+                    65.999,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[2]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 66,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    296.0,
+                    79.001,
+                    306.0,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[7]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    235.999,
+                    79.001,
+                    245.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BRN"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[1]",
+                "field_type": "/Btn",
+                "description": "Select Blond",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Blond.",
+                "initial_value": "",
+                "rect": [
+                    181.999,
+                    79.001,
+                    191.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BND"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[8]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    127.999,
+                    79.001,
+                    137.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[0]",
+                "field_type": "/Btn",
+                "description": "(No Hair)",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Bald. (No Hair).",
+                "initial_value": "",
+                "rect": [
+                    55.999,
+                    79.001,
+                    65.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/BLD"
+                ]
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 43,
+                "tool_tip": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    456.497,
+                    720.0,
+                    576.0,
+                    738.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Race_White[0]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select White.",
+                "initial_value": "",
+                "rect": [
+                    422.0,
+                    187.001,
+                    432.0,
+                    197.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/W"
+                ]
+            },
+            {
+                "field_name": "Race_Hawaiian[0]",
+                "field_type": "/Btn",
+                "description": "Select Native Hawaiian or Other Pacific Islander",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. Biographic Information. 2. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+                "initial_value": "",
+                "rect": [
+                    307.999,
+                    187.001,
+                    317.999,
+                    197.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/H"
+                ]
+            },
+            {
+                "field_name": "P2_L4_Pound3[0]",
+                "field_type": "/Tx",
+                "description": "Enter the third digit of a three digit number",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the third digit of a three digit number.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    150.001,
+                    371.999,
+                    168.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_L4_Pound2[0]",
+                "field_type": "/Tx",
+                "description": "Enter the second digit of a three digit number",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the second digit of a three digit number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    150.001,
+                    353.999,
+                    168.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_L4_Pound1[0]",
+                "field_type": "/Tx",
+                "description": "Enter the first digit of a three digit number",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Biographic Information. 4. Enter Weight in Pounds. Enter the first digit of a three digit number.",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    150.001,
+                    335.999,
+                    168.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_L5_EyeColor[3]",
+                "field_type": "/Btn",
+                "description": "Select Unknown or Other",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Unknown or Other.",
+                "initial_value": "",
+                "rect": [
+                    476.0,
+                    115.001,
+                    486.0,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/OTH"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[4]",
+                "field_type": "/Btn",
+                "description": "Select Pink",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Pink.",
+                "initial_value": "",
+                "rect": [
+                    428.001,
+                    115.001,
+                    438.001,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/PNK"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[2]",
+                "field_type": "/Btn",
+                "description": "Select Maroon",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Maroon.",
+                "initial_value": "",
+                "rect": [
+                    368.0,
+                    115.001,
+                    378.0,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/MRN"
+                ]
+            },
+            {
+                "field_name": "P2_L5_EyeColor[5]",
+                "field_type": "/Btn",
+                "description": "Select Hazel",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Biographic Information. 5. Eye Color (Select only one box). Select Hazel.",
+                "initial_value": "",
+                "rect": [
+                    314.0,
+                    115.001,
+                    324.0,
+                    125.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/HZL"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[4]",
+                "field_type": "/Btn",
+                "description": "Select Unknown or Other",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Unknown or Other.",
+                "initial_value": "",
+                "rect": [
+                    505.999,
+                    79.001,
+                    515.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/OTH"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[5]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select White.",
+                "initial_value": "",
+                "rect": [
+                    451.999,
+                    79.001,
+                    461.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/WHT"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[3]",
+                "field_type": "/Btn",
+                "description": "Select Sandy",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Sandy.",
+                "initial_value": "",
+                "rect": [
+                    397.999,
+                    79.001,
+                    407.999,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/SDY"
+                ]
+            },
+            {
+                "field_name": "P2_L6_HairColor[6]",
+                "field_type": "/Btn",
+                "description": "Select Red",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. Biographic Information. 6. Hair Color (Select only one box). Select Red.",
+                "initial_value": "",
+                "rect": [
+                    350.0,
+                    79.001,
+                    360.0,
+                    89.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/RED"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Eligibility Standards",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_L1A_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "I will satisfy these requirements through:  Select An examination at the time of interview for permanent residence",
+                "struct_parent": 151,
+                "tool_tip": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. A. I will satisfy these requirements through:  Select An examination at the time of interview for permanent residence.",
+                "initial_value": "",
+                "rect": [
+                    72.999,
+                    655.001,
+                    82.999,
+                    665.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_L1A_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "I will satisfy these requirements through:  Select  Satisfactory pursuit of a course of study recognized by the Secretary of Homeland Security",
+                "struct_parent": 152,
+                "tool_tip": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. A. I will satisfy these requirements through:  Select  Satisfactory pursuit of a course of study recognized by the Secretary of Homeland Security.",
+                "initial_value": "",
+                "rect": [
+                    72.999,
+                    637.001,
+                    82.999,
+                    647.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P3_L1B_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "(Attach appropriate documentation",
+                "struct_parent": 118,
+                "tool_tip": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. B. I have satisfied these requirements by: Select  satisfactory pursuit of a course of study recognized by the Secretary of DHS. (Attach appropriate documentation.)",
+                "initial_value": "",
+                "rect": [
+                    72.999,
+                    601.001,
+                    82.999,
+                    611.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P3_L1B_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "(If you are physically unable to comply, explain and attach relevant documentation",
+                "struct_parent": 117,
+                "tool_tip": "Part 3. Eligibility Standards. 1. You are required to have a minimal understanding of standard English and a knowledge and understanding of the history and Government of the United States. Select the appropriate box in Item. A. or B. below. B. I have satisfied these requirements by: Select An exemption because you are 65 years of age or older, under 16 years of age, or you are physically unable to comply.  (If you are physically unable to comply, explain and attach relevant documentation.)",
+                "initial_value": "",
+                "rect": [
+                    72.999,
+                    583.001,
+                    82.999,
+                    593.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P3_L11B_NameOfRecipient1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name of Recipient (Family Name, Given Name, Middle Name)",
+                "struct_parent": 141,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. If \"Yes,\" provide the names of the recipients and their U.S. Social Security Numbers below. Line One. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    209.999,
+                    443.999,
+                    227.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L11B_NameOfRecipient2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name of Recipient (Family Name, Given Name, Middle Name)",
+                "struct_parent": 142,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. Line Two. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    191.999,
+                    443.999,
+                    209.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L11B_NameOfRecipient3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name of Recipient (Family Name, Given Name, Middle Name)",
+                "struct_parent": 120,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. Line Three. Enter Full Name of Recipient (Family Name, Given Name, Middle Name). ",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    173.999,
+                    443.999,
+                    191.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[2]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 119,
+                "tool_tip": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    456.497,
+                    720.0,
+                    576.0,
+                    738.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L2_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select No",
+                "struct_parent": 137,
+                "tool_tip": "Part 3. Eligibility Standards. 2. Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    493.001,
+                    550.0,
+                    503.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L2_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select Yes",
+                "struct_parent": 138,
+                "tool_tip": "Part 3. Eligibility Standards. Answer Item Numbers 2. through 29.  If you answer \"Yes\" to any of the questions, provide a complete explanation using the space provided in Part 8. Additional Information or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  Answering \"Yes\" does not necessarily mean that you are not entitled to adjust status or register for lawful permanent residence. 2. Have you EVER assisted in the persecution of any person or persons on account of race, religion, political opinion, nationality, or membership in a particular social group? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    493.001,
+                    507.999,
+                    503.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L3_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select No",
+                "struct_parent": 128,
+                "tool_tip": "Part 3. Eligibility Standards. 3. Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    463.01,
+                    550.0,
+                    473.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L3_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select Yes",
+                "struct_parent": 127,
+                "tool_tip": "Part 3. Eligibility Standards. 3. Have you EVER been treated for a mental disorder, drug addiction, or alcoholism? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    463.01,
+                    507.999,
+                    473.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L4_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER committed a crime or offense for which you were not arrested? Select No",
+                "struct_parent": 132,
+                "tool_tip": "Part 3. Eligibility Standards. 4. Have you EVER committed a crime or offense for which you were not arrested? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    445.01,
+                    550.0,
+                    455.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L4_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER committed a crime or offense for which you were not arrested? Select Yes",
+                "struct_parent": 131,
+                "tool_tip": "Part 3. Eligibility Standards. 4. Have you EVER committed a crime or offense for which you were not arrested? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    445.01,
+                    507.999,
+                    455.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L5_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select No",
+                "struct_parent": 129,
+                "tool_tip": "Part 3. Eligibility Standards. 5. Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    427.002,
+                    550.0,
+                    437.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L5_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select Yes",
+                "struct_parent": 130,
+                "tool_tip": "Part 3. Eligibility Standards. 5. Have you EVER been arrested, cited, or detained by any law enforcement officer (including Immigration and Customs Enforcement (ICE), Customs and Border Protection (CBP), former Immigration and Naturalization Service (I N S), and/or military officers) for any reason? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    427.002,
+                    507.999,
+                    437.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L6_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been charged with committing any crime or offense? Select No",
+                "struct_parent": 134,
+                "tool_tip": "Part 3. Eligibility Standards. 6. Have you EVER been charged with committing any crime or offense? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    385.01,
+                    550.0,
+                    395.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L6_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been charged with committing any crime or offense? Select Yes",
+                "struct_parent": 133,
+                "tool_tip": "Part 3. Eligibility Standards. 6. Have you EVER been charged with committing any crime or offense? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    385.01,
+                    507.999,
+                    395.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L7_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been convicted of a crime or offense? Select No",
+                "struct_parent": 136,
+                "tool_tip": "Part 3. Eligibility Standards. 7. Have you EVER been convicted of a crime or offense? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    367.01,
+                    550.0,
+                    377.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L7_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been convicted of a crime or offense? Select Yes",
+                "struct_parent": 135,
+                "tool_tip": "Part 3. Eligibility Standards. 7. Have you EVER been convicted of a crime or offense? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    367.01,
+                    507.999,
+                    377.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L8_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been in jail or prison? Select No",
+                "struct_parent": 126,
+                "tool_tip": "Part 3. Eligibility Standards. 8. Have you EVER been in jail or prison? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    349.001,
+                    550.0,
+                    359.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L8_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been in jail or prison? Select Yes",
+                "struct_parent": 125,
+                "tool_tip": "Part 3. Eligibility Standards. 8. Have you EVER been in jail or prison? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    349.001,
+                    507.999,
+                    359.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L9_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select No",
+                "struct_parent": 124,
+                "tool_tip": "Part 3. Eligibility Standards. 9. Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    331.001,
+                    550.0,
+                    341.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L9_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select Yes",
+                "struct_parent": 123,
+                "tool_tip": "Part 3. Eligibility Standards. 9. Have you EVER been placed in an alternative sentencing or a rehabilitative program (for example, diversion, deferred prosecution, withheld adjudication, deferred adjudication)? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    331.001,
+                    507.999,
+                    341.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L10_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select No",
+                "struct_parent": 122,
+                "tool_tip": "Part 3. Eligibility Standards. 10. Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    301.01,
+                    550.0,
+                    311.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L10_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select Yes",
+                "struct_parent": 121,
+                "tool_tip": "Part 3. Eligibility Standards. 10. Have you EVER received a suspended sentence, been placed on probation, or been paroled? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    301.01,
+                    507.999,
+                    311.01
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L11_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Government, any state, county, city, or municipality?  Select No",
+                "struct_parent": 139,
+                "tool_tip": "Part 3. Eligibility Standards. 11. A. Have you, or a dependent member of your immediate family, EVER received public assistance from any source, including, but not limited to, the U.S. Government, any state, county, city, or municipality?  Select No.       ",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    283.002,
+                    550.0,
+                    293.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L11_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Government, any state, county, city, or municipality?  Select Yes",
+                "struct_parent": 140,
+                "tool_tip": "Part 3. Eligibility Standards. 11. A. Have you, or a dependent member of your immediate family, EVER received public assistance from any source, including, but not limited to, the U.S. Government, any state, county, city, or municipality?  Select Yes.       ",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    283.002,
+                    507.999,
+                    293.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L11B_SSN1[0]",
+                "field_type": "/Tx",
+                "description": "9 Characters",
+                "struct_parent": 114,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. Line One. Enter U.S. Social Security Number. 9 Characters.",
+                "initial_value": "",
+                "rect": [
+                    444.231,
+                    209.999,
+                    576.246,
+                    227.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L11B_SSN2[0]",
+                "field_type": "/Tx",
+                "description": "9 Characters",
+                "struct_parent": 115,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. Line Two. Enter U.S. Social Security Number. 9 Characters. ",
+                "initial_value": "",
+                "rect": [
+                    444.231,
+                    191.999,
+                    576.246,
+                    209.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L11B_SSN3[0]",
+                "field_type": "/Tx",
+                "description": "9 Characters",
+                "struct_parent": 116,
+                "tool_tip": "Part 3. Eligibility Standards. 11. B. Line Three. Enter U.S. Social Security Number. 9 Characters.",
+                "initial_value": "",
+                "rect": [
+                    444.231,
+                    173.999,
+                    576.246,
+                    191.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L12A_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select No",
+                "struct_parent": 144,
+                "tool_tip": "Part 3. Eligibility Standards. 12. A. Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    139.005,
+                    550.0,
+                    149.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L12A_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select Yes",
+                "struct_parent": 143,
+                "tool_tip": "Part 3. Eligibility Standards. 12. A. Have you EVER within the past 10 years been a prostitute, procured anyone for prostitution, or intend to engage in such activities in the future? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    139.005,
+                    507.999,
+                    149.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L12B_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select No",
+                "struct_parent": 150,
+                "tool_tip": "Part 3. Eligibility Standards. 12. B. Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    109.006,
+                    550.0,
+                    119.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L12B_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select Yes",
+                "struct_parent": 149,
+                "tool_tip": "Part 3. Eligibility Standards. 12. B. Have you EVER engaged in any unlawful commercialized vice, including, but not limited to, illegal gambling? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    109.006,
+                    507.999,
+                    119.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L12C_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select No",
+                "struct_parent": 148,
+                "tool_tip": "Part 3. Eligibility Standards. 12. C. Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    91.006,
+                    550.0,
+                    101.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L12C_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select Yes",
+                "struct_parent": 147,
+                "tool_tip": "Part 3. Eligibility Standards. 12. C. Have you EVER knowingly encouraged, induced, assisted, abetted, or aided any alien to try to enter the United States illegally? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    91.006,
+                    507.999,
+                    101.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L12D_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select No",
+                "struct_parent": 146,
+                "tool_tip": "Part 3. Eligibility Standards. 12. D. Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    61.004,
+                    550.0,
+                    71.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_L12D_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select Yes",
+                "struct_parent": 145,
+                "tool_tip": "Part 3. Eligibility Standards. 12. D. Have you EVER illicitly trafficked in any controlled substance or knowingly assisted, abetted, or colluded in the illicit trafficking of any controlled substance? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    61.004,
+                    507.999,
+                    71.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[3]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 155,
+                "tool_tip": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    456.497,
+                    720.0,
+                    576.0,
+                    738.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Eligibility Standards  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_L36_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select No",
+                "struct_parent": 194,
+                "tool_tip": "Part 3. Eligibility Standards. 13. Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    702.997,
+                    550.0,
+                    712.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L36_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select Yes",
+                "struct_parent": 195,
+                "tool_tip": "Part 3. Eligibility Standards. 13. Have you EVER engaged in, conspired to engage in, do you intend to engage in, or have you EVER solicited membership or funds for, or have you EVER through any means assisted or provided any type of material support to any person or organization that has EVER engaged or conspired to engage in sabotage, kidnapping, political assassination, hijacking, or any other form of terrorist activity? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    702.997,
+                    507.999,
+                    712.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L37A_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 156,
+                "tool_tip": "Part 3. Eligibility Standards. 14. A. Do you intend to engage in the United States in Espionage. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    631.0,
+                    507.999,
+                    641.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L37A_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 157,
+                "tool_tip": "Part 3. Eligibility Standards. 14. A. Do you intend to engage in the United States in Espionage. Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    630.997,
+                    550.0,
+                    640.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L37B_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select No",
+                "struct_parent": 161,
+                "tool_tip": "Part 3. Eligibility Standards. 14. B.  Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    613.0,
+                    550.0,
+                    623.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L37B_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select Yes",
+                "struct_parent": 160,
+                "tool_tip": "Part 3. Eligibility Standards. 14. B. Do you intend to engage in the United States in any activity, a purpose of which, is opposition to, or the control or overthrow of, the Government of the United States, by force, violence, or other unlawful means? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    613.0,
+                    507.999,
+                    623.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L37C_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select No",
+                "struct_parent": 159,
+                "tool_tip": "Part 3. Eligibility Standards. 14. C. Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    583.001,
+                    550.0,
+                    593.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L37C_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select Yes",
+                "struct_parent": 158,
+                "tool_tip": "Part 3. Eligibility Standards. 14. C. Do you intend to engage in the United States in any activity to violate or evade any law prohibiting the export from the United States of goods, technology, or sensitive information? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    583.001,
+                    507.999,
+                    593.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L38_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select No",
+                "struct_parent": 163,
+                "tool_tip": "Part 3. Eligibility Standards. 15. Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    552.999,
+                    550.0,
+                    562.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L38_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select Yes",
+                "struct_parent": 162,
+                "tool_tip": "Part 3. Eligibility Standards. 15. Have you EVER been a member of, or in any way affiliated with, a Communist Party or any other totalitarian party? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    552.999,
+                    507.999,
+                    562.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L39_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion? Select No",
+                "struct_parent": 165,
+                "tool_tip": "Part 3. Eligibility Standards. 16. Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    522.997,
+                    550.0,
+                    532.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L39_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion?  Select Yes",
+                "struct_parent": 164,
+                "tool_tip": "Part 3. Eligibility Standards. 16. Did you EVER, during the period from March 23, 1933 to May 8, 1945, in association with either the Nazi Government of Germany or any organization or government associated or allied with the Nazi Government of Germany, order, incite, assist, or otherwise participate in the persecution of any person because of race, religion, national origin, or political opinion?  Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    522.997,
+                    507.999,
+                    532.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L40_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER claimed to be a United States citizen in writing or any other way?  Select No",
+                "struct_parent": 169,
+                "tool_tip": "Part 3. Eligibility Standards. 17. Have you EVER claimed to be a United States citizen in writing or any other way?  Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    469.0,
+                    550.0,
+                    479.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L40_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER claimed to be a United States citizen in writing or any other way?  Select Yes",
+                "struct_parent": 168,
+                "tool_tip": "Part 3. Eligibility Standards. 17. Have you EVER claimed to be a United States citizen in writing or any other way?  Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    469.0,
+                    507.999,
+                    479.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L41_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select No",
+                "struct_parent": 167,
+                "tool_tip": "Part 3. Eligibility Standards. 18. Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    451.0,
+                    550.0,
+                    461.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L41_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select Yes",
+                "struct_parent": 166,
+                "tool_tip": "Part 3. Eligibility Standards. 18. Have you EVER been deported from the United States, removed from the United States at government expense, excluded within the past year, or are you NOW, or have you EVER been in exclusion, deportation, removal, or rescission proceedings? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    451.0,
+                    507.999,
+                    461.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L42_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": ") for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select No",
+                "struct_parent": 171,
+                "tool_tip": "Part 3. Eligibility Standards. 19. Are you NOW under a final order of civil penalty for violating section 274C of the Immigration and Nationality Act (I N. A.) for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    408.999,
+                    550.0,
+                    418.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L42_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": ") for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select Yes",
+                "struct_parent": 170,
+                "tool_tip": "Part 3. Eligibility Standards. 19. Are you NOW under a final order of civil penalty for violating section 274C of the Immigration and Nationality Act (I N. A.) for use of fraudulent documents or have you EVER, by fraud or willful misrepresentation of a material fact, sought to procure or procured a visa, other documentation, entry into the United States, or any immigration benefit? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    408.999,
+                    507.999,
+                    418.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L43_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Armed Forces? Select No",
+                "struct_parent": 187,
+                "tool_tip": "Part 3. Eligibility Standards. 20. Have you EVER left the United States to avoid being drafted into the U.S. Armed Forces? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    354.999,
+                    550.0,
+                    364.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L43_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Armed Forces? Select Yes",
+                "struct_parent": 186,
+                "tool_tip": "Part 3. Eligibility Standards. 20. Have you EVER left the United States to avoid being drafted into the U.S. Armed Forces? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    354.999,
+                    507.999,
+                    364.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L44_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select No",
+                "struct_parent": 189,
+                "tool_tip": "Part 3. Eligibility Standards. 21. Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    336.999,
+                    550.0,
+                    346.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L44_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select Yes",
+                "struct_parent": 188,
+                "tool_tip": "Part 3. Eligibility Standards. 21. Have you EVER been a J nonimmigrant exchange visitor who was subject to the 2-year foreign residence requirement and have not yet complied with that requirement or obtained a waiver? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    336.999,
+                    507.999,
+                    346.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L45_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "citizen child outside the United States from a person granted custody of the child? Select No",
+                "struct_parent": 185,
+                "tool_tip": "Part 3. Eligibility Standards. 22. Are you NOW withholding custody of a U.S. citizen child outside the United States from a person granted custody of the child? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    307.0,
+                    550.0,
+                    317.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L45_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "citizen child outside the United States from a person granted custody of the child? Select Yes",
+                "struct_parent": 184,
+                "tool_tip": "Part 3. Eligibility Standards. 22. Are you NOW withholding custody of a U.S. citizen child outside the United States from a person granted custody of the child? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    306.997,
+                    507.999,
+                    316.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L46_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Do you plan to practice polygamy in the United States? Select No",
+                "struct_parent": 183,
+                "tool_tip": "Part 3. Eligibility Standards. 23. Do you plan to practice polygamy in the United States? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    276.998,
+                    550.0,
+                    286.998
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L46_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Do you plan to practice polygamy in the United States? Select Yes",
+                "struct_parent": 182,
+                "tool_tip": "Part 3. Eligibility Standards. 23. Do you plan to practice polygamy in the United States? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    276.998,
+                    507.999,
+                    286.998
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L47A_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select No",
+                "struct_parent": 181,
+                "tool_tip": "Part 3. Eligibility Standards. 24. A. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    241.001,
+                    550.0,
+                    251.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L47A_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select Yes",
+                "struct_parent": 180,
+                "tool_tip": "Part 3. Eligibility Standards. 24. A. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in acts involving torture or genocide? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    241.001,
+                    507.999,
+                    251.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L47B_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 179,
+                "tool_tip": "Part 3. Eligibility Standards. 24. B. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in killing any person. Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    223.001,
+                    550.0,
+                    233.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L47B_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 178,
+                "tool_tip": "Part 3. Eligibility Standards. 24. B. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in killing any person. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    223.001,
+                    507.999,
+                    233.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L47C_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select No",
+                "struct_parent": 177,
+                "tool_tip": "Part 3. Eligibility Standards. 24. C. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    205.001,
+                    550.0,
+                    215.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L47C_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select Yes",
+                "struct_parent": 176,
+                "tool_tip": "Part 3. Eligibility Standards. 24. C. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in Intentionally and severely injuring any person? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    205.001,
+                    507.999,
+                    215.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L47D_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select No",
+                "struct_parent": 175,
+                "tool_tip": "Part 3. Eligibility Standards. 24. D. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    187.001,
+                    550.0,
+                    197.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L47D_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select Yes",
+                "struct_parent": 174,
+                "tool_tip": "Part 3. Eligibility Standards. 24. D. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in engaging in any kind of sexual contact or relations with any person who was being forced or threatened? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    187.001,
+                    507.999,
+                    197.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L47E_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select No",
+                "struct_parent": 173,
+                "tool_tip": "Part 3. Eligibility Standards. 24. E. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    156.993,
+                    550.0,
+                    166.993
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L47E_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select Yes",
+                "struct_parent": 172,
+                "tool_tip": "Part 3. Eligibility Standards. 24. E. Have you EVER ordered, incited, called for, committed, assisted, helped with, or otherwise participated in limiting or denying any person's ability to exercise religious beliefs? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    156.993,
+                    507.999,
+                    166.993
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L48A_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select No",
+                "struct_parent": 193,
+                "tool_tip": "Part 3. Eligibility Standards. 25. A. Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    121.002,
+                    550.0,
+                    131.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L48A_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select Yes",
+                "struct_parent": 192,
+                "tool_tip": "Part 3. Eligibility Standards. 25. A. Have you EVER served in, been a member of, assisted in, or participated in any military unit, paramilitary unit, police unit, self-defense unit, vigilante unit, rebel group, guerrilla group, militia, or insurgent organization? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    121.002,
+                    507.999,
+                    131.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L48B_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select No",
+                "struct_parent": 191,
+                "tool_tip": "Part 3. Eligibility Standards. 25. B. Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    91.003,
+                    550.0,
+                    101.003
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L48B_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select Yes",
+                "struct_parent": 190,
+                "tool_tip": "Part 3. Eligibility Standards. 25. B. Have you EVER served in any prison, jail, prison camp, detention facility, labor camp, or any other situation that involved detaining persons? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    91.003,
+                    507.999,
+                    101.003
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L49_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select No",
+                "struct_parent": 204,
+                "tool_tip": "Part 3. Eligibility Standards. 26. Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    703.0,
+                    550.0,
+                    713.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L49_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select Yes",
+                "struct_parent": 203,
+                "tool_tip": "Part 3. Eligibility Standards. 26. Have you EVER been a member of, assisted in, or participated in any group, unit, or organization of any kind in which you or other persons used any type of weapon against any person or threatened to do so? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    702.997,
+                    507.999,
+                    712.997
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L50_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select No",
+                "struct_parent": 206,
+                "tool_tip": "Part 3. Eligibility Standards. 27. Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    673.001,
+                    550.0,
+                    683.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L50_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select Yes",
+                "struct_parent": 205,
+                "tool_tip": "Part 3. Eligibility Standards. 27. Have you EVER assisted or participated in selling, providing, or transporting weapons to any person who, to your knowledge, used them against another person? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    673.001,
+                    507.999,
+                    683.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L51_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER received any type of military, paramilitary or weapons training? Select No",
+                "struct_parent": 208,
+                "tool_tip": "Part 3. Eligibility Standards. 28. Have you EVER received any type of military, paramilitary or weapons training? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    643.002,
+                    550.0,
+                    653.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L51_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER received any type of military, paramilitary or weapons training? Select Yes",
+                "struct_parent": 207,
+                "tool_tip": "Part 3. Eligibility Standards. 28. Have you EVER received any type of military, paramilitary or weapons training? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    643.002,
+                    507.999,
+                    653.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L52A_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select No",
+                "struct_parent": 202,
+                "tool_tip": "Part 3. Eligibility Standards. 29. A. Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    607.002,
+                    550.0,
+                    617.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L52A_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select Yes",
+                "struct_parent": 201,
+                "tool_tip": "Part 3. Eligibility Standards. 29. A. Have you EVER recruited, enlisted, conscripted, or used any person under 15 years of age to serve in or help an armed force or group? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    607.002,
+                    507.999,
+                    617.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L52B_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select No",
+                "struct_parent": 200,
+                "tool_tip": "Part 3. Eligibility Standards. 29. B.  Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    577.003,
+                    550.0,
+                    587.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_L52B_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select Yes",
+                "struct_parent": 199,
+                "tool_tip": "Part 3. Eligibility Standards. 29. B. Have you EVER used any person under 15 years of age to take part in hostilities, or to help or provide services to people in combat? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    577.003,
+                    507.999,
+                    587.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_L4_MobileTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Mobile Telephone Number (if any)",
+                "struct_parent": 211,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    444.002,
+                    576.0,
+                    462.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_L2b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 213,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature.  6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    263.999,
+                    576.0,
+                    281.999
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Applicant's Certification and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_L3_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Daytime Telephone Number",
+                "struct_parent": 210,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 1. Enter Applicant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    444.002,
+                    299.999,
+                    462.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_L5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Email Address",
+                "struct_parent": 209,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Email Address.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    408.019,
+                    299.999,
+                    426.002
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Applicant's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_L2a_ApplicantsSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 212,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature. Applicant's Certification and Signature. 6. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    263.86,
+                    432.0,
+                    281.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[4]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 198,
+                "tool_tip": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    456.497,
+                    720.0,
+                    576.0,
+                    738.0
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If  Other Than the Applicant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_L1A_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 217,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    653.995,
+                    312.001,
+                    671.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L2_BusOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name (if any)",
+                "struct_parent": 219,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    617.998,
+                    576.0,
+                    635.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L4_DaytimeTelePhoneNumber1[1]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number (if any)",
+                "struct_parent": 225,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    551.999,
+                    456.001,
+                    569.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L4_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 222,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    551.999,
+                    234.0,
+                    569.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's E-Mail Address (if any)",
+                "struct_parent": 223,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's E-Mail Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    516.016,
+                    312.001,
+                    533.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L5_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 224,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the application and Instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that they understood every instruction, question, and answer on the application. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    300.002,
+                    468.0,
+                    569.999,
+                    486.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L6a_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 220,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature.  6. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    407.758,
+                    432.0,
+                    425.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L1B_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 218,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    653.995,
+                    576.0,
+                    671.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L6b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 221,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Enter Date of Signature. Enter 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    407.999,
+                    576.0,
+                    425.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_L1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 226,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    293.998,
+                    576.0,
+                    311.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_L5_FaxNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number (if any)",
+                "struct_parent": 231,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information.  4. Enter Preparer's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    341.175,
+                    191.999,
+                    576.0,
+                    209.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_L8B_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 233,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Certification and Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    444.002,
+                    42.001,
+                    576.0,
+                    60.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line1_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 240,
+                "tool_tip": "Part 8. Additional Information. 1. Given Name (First Name). This is a read only field. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    630.0,
+                    434.999,
+                    648.0
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Certification and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_L1A_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 227,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    293.998,
+                    312.001,
+                    311.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_L2_BusOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name",
+                "struct_parent": 228,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    258.001,
+                    576.0,
+                    276.001
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Contact Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_L4_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 230,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    191.999,
+                    312.009,
+                    209.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Full Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_L6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's E-Mail Address (if any)",
+                "struct_parent": 229,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's E-Mail Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    156.016,
+                    312.009,
+                    173.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_L2_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 232,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Certification and Signature. 6. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    41.76,
+                    432.0,
+                    60.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[5]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 216,
+                "tool_tip": "Alien Registration Number (A. Number). This field is read only. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    456.356,
+                    720.0,
+                    575.859,
+                    738.0
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 241,
+                "tool_tip": "Part 8. Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Include your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Family Name (Last Name). This is a read only field. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    630.0,
+                    262.001,
+                    648.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[6]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 251,
+                "tool_tip": "Part 8. Additional Information. Alien Registration Number (A. Number), if any. This is a read only field. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    174.002,
+                    600.001,
+                    303.012,
+                    618.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 238,
+                "tool_tip": "Part 8. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    558.0,
+                    366.001,
+                    576.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 237,
+                "tool_tip": "Part 8. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    557.997,
+                    258.001,
+                    575.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 236,
+                "tool_tip": "Part 8. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    557.994,
+                    150.001,
+                    575.994
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P14_Line3_D_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 252,
+                "tool_tip": "Part 8. Additional Information. 3. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    71.994,
+                    479.999,
+                    576.252,
+                    551.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 244,
+                "tool_tip": "Part 8. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    437.995,
+                    366.001,
+                    455.995
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 242,
+                "tool_tip": "Part 8. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    437.995,
+                    150.001,
+                    455.995
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 243,
+                "tool_tip": "Part 8. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    437.992,
+                    258.001,
+                    455.992
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P14_Line3_D_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 253,
+                "tool_tip": "Part 8. Additional Information. 4. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    360.0,
+                    576.258,
+                    432.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2c_ItemNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 247,
+                "tool_tip": "Part 8. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    317.993,
+                    366.001,
+                    335.993
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2b_PartNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 246,
+                "tool_tip": "Part 8. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    317.993,
+                    258.001,
+                    335.993
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2a_PageNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 245,
+                "tool_tip": "Part 8. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    317.993,
+                    150.001,
+                    335.993
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P14_Line3_D_AdditionalInfo[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 254,
+                "tool_tip": "Part 8. Additional Information. 5. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    240.001,
+                    576.258,
+                    312.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2c_ItemNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 250,
+                "tool_tip": "Part 8. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    197.991,
+                    366.001,
+                    215.991
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2b_PartNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 249,
+                "tool_tip": "Part 8. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    197.991,
+                    258.001,
+                    215.991
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2a_PageNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 248,
+                "tool_tip": "Part 8. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    197.991,
+                    150.001,
+                    215.991
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P14_Line3_D_AdditionalInfo[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Additional Information",
+                "struct_parent": 255,
+                "tool_tip": "Part 8. Additional Information. 6. D. Enter the Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    119.999,
+                    576.258,
+                    191.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "It pre-populated from the first page",
+                "struct_parent": 239,
+                "tool_tip": "Part 8. Additional Information. 1. Middle Name. This is a read only field. It pre-populated from the first page.",
+                "initial_value": "",
+                "rect": [
+                    444.002,
+                    630.0,
+                    576.003,
+                    648.0
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+    {
+        "title": "Part 1.  Your Full Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Your Full Name. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    587.999,
+                    294.001,
+                    605.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Your Full Name. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    564.001,
+                    294.001,
+                    582.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Your Full Name. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    540.0,
+                    294.001,
+                    558.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Financial Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1_IndividualAnnualIncome[0]",
+                "field_type": "/Tx",
+                "description": "Enter Amount",
+                "struct_parent": 5,
+                "tool_tip": "Part 2. Financial Information. 1. My current annual income is. Enter Amount.",
+                "initial_value": "",
+                "rect": [
+                    215.875,
+                    479.999,
+                    294.001,
+                    497.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2_IndividualAnnualExpense[0]",
+                "field_type": "/Tx",
+                "description": "Enter Amount",
+                "struct_parent": 6,
+                "tool_tip": "Part 2. Financial Information. 2. My current annual expenses are. Enter Amount.",
+                "initial_value": "",
+                "rect": [
+                    215.875,
+                    455.998,
+                    294.001,
+                    473.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3_TotalAssets[0]",
+                "field_type": "/Tx",
+                "description": "Enter Amount",
+                "struct_parent": 7,
+                "tool_tip": "Part 2. Financial Information. 3. The total current value of my assets is. Enter Amount.",
+                "initial_value": "",
+                "rect": [
+                    215.875,
+                    420.001,
+                    294.001,
+                    438.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Explanation",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Statement_From_Applicant[0]",
+                "field_type": "/Tx",
+                "description": "Space 1 of 2",
+                "struct_parent": 8,
+                "tool_tip": "Part 3. Explanation. If you would like to provide an explanation regarding your current financial information or your economic need for employment authorization, use the space below. Enter Explanation. Space 1 of 2.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    54.0,
+                    294.114,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Statement_From_Applicant[1]",
+                "field_type": "/Tx",
+                "description": "(Continuation of Space 2 of 2",
+                "struct_parent": 9,
+                "tool_tip": "Part 3. Explanation. If you would like to provide an explanation regarding your current financial information or your economic need for employment authorization, use the space below. Enter Explanation. (Continuation of Space 2 of 2.)",
+                "initial_value": "",
+                "rect": [
+                    318.056,
+                    54.0,
+                    576.17,
+                    630.0
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]

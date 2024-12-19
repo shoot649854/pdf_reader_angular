@@ -1,0 +1,299 @@
+[
+    {
+        "title": "Supplement 1, Consent to Disclose Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "NameofPrimaryAdoptionServiceProvider[0]",
+                "field_type": "/Tx",
+                "description": "Department of Homeland Security, or which USCIS may obtain as a result of the collection of my (our) biometrics information to the following primary adoption service provider: Enter the Name of Primary Adoption Service Provider",
+                "struct_parent": 3,
+                "tool_tip": "Information that USCIS may have concerning your Form I-800, Petition to Classify Convention Adoptee as an Immediate Relative, is protected from disclosure under the Privacy Act, 5 U.S.C. 552a.  USCIS generally may not disclose this information to your adoption service provider without your consent.  If you want USCIS to be able to disclose this information to your primary adoption service provider, you may give this consent by signing Form I-800, Supplement 1.  You do not need to sign Form I-800, Supplement 1, in order to file Form I-800.  Note: Your primary adoption service provider is the accredited or temporarily accredited agency, or approved person who is responsible under 22 CFR Part 96.14 for the six adoption services defined in 22 CFR Part 96.2, and for supervising and being responsible for supervised providers where used.  Pursuant to the Privacy Act, 5 U.S.C. 552a, and 8 CFR 204.302, and in order to assist USCIS in the adjudication of Form I-800, I (we), the undersigned petitioner(s) filing Form I-800, consent to the disclosure of any record pertaining to me (us) which appears in any system of records maintained by the U.S. Department of Homeland Security, or which USCIS may obtain as a result of the collection of my (our) biometrics information to the following primary adoption service provider: Enter the Name of Primary Adoption Service Provider.",
+                "initial_value": "",
+                "rect": [
+                    44.167,
+                    452.554,
+                    569.767,
+                    468.853
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PointofContact[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Point of Contact (contact person within the organization)",
+                "struct_parent": 4,
+                "tool_tip": "Enter the Point of Contact (contact person within the organization).",
+                "initial_value": "",
+                "rect": [
+                    44.167,
+                    423.541,
+                    569.767,
+                    439.84
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 2,
+                "tool_tip": "Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    44.388,
+                    393.709,
+                    502.512,
+                    410.883
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 6,
+                "tool_tip": "Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    206.195,
+                    363.605,
+                    346.595,
+                    379.904
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 5,
+                "tool_tip": "Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    44.388,
+                    363.605,
+                    184.788,
+                    379.904
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Fax Number, inculding area code, if any",
+                "struct_parent": 13,
+                "tool_tip": "Enter a Fax Number, inculding area code, if any.",
+                "initial_value": "",
+                "rect": [
+                    231.214,
+                    332.819,
+                    371.441,
+                    348.829
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Daytime Phone Number, including area code",
+                "struct_parent": 12,
+                "tool_tip": "Enter a Daytime Phone Number, including area code.",
+                "initial_value": "",
+                "rect": [
+                    44.388,
+                    332.819,
+                    225.318,
+                    348.829
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Select for: Yes, I am (we are) withdrawing all prior consents to disclose",
+                "struct_parent": 17,
+                "tool_tip": "SPECIFY whether you are withdrawing the consent to disclosure that you gave on a prior Form I-800A, Supplement 2, Consent to Disclose Information, or Form I-800, Supplement 1, Consent to Disclose Information. Select for: Yes, I am (we are) withdrawing all prior consents to disclose.",
+                "initial_value": "",
+                "rect": [
+                    45.692,
+                    182.311,
+                    55.692,
+                    192.311
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "Select for: No, U S C I S may continue to disclose information to any adoption service provider included on any prior Form I- 800 A, Supplement 2, or Form I - 800, Supplement 1",
+                "struct_parent": 18,
+                "tool_tip": "SPECIFY whether you are withdrawing the consent to disclosure that you gave on a prior Form I-800A, Supplement 2, Consent to Disclose Information, or Form I-800, Supplement 1, Consent to Disclose Information. Select for: No, U S C I S may continue to disclose information to any adoption service provider included on any prior Form I- 800 A, Supplement 2, or Form I - 800, Supplement 1. ",
+                "initial_value": "",
+                "rect": [
+                    45.692,
+                    160.344,
+                    55.692,
+                    170.344
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 19,
+                "tool_tip": "I (We) understand that, by signing this supplement, I am (we are) authorizing USCIS to provide the primary adoption service provider noted above with copies of notices sent to me (us) about this case, and also to discuss all aspects of my (our) case, including the prior Form I-800A proceeding as well as this Form I-800 proceeding.\r\rI (We) also understand that an adoption service provider can only provide adoption services, and cannot act as my (our) representative before USCIS with respect to my (our) case unless the adoption service provider is authorized to do so under 8 CFR Part 292.  I (We) also understand that the adoption service provider cannot provide any other legal services, unless the adoption service provider is authorized to do so under the law governing the provision of legal services in the country or State in which the legal service is provided. \r\rYour Signature and Printed Name. Enter Signature and printed name. This form cannot be signed electronically. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    65.812,
+                    105.384,
+                    338.4,
+                    124.824
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[1]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 20,
+                "tool_tip": "Signature of Spouse and Printed Name, if you are married. Enter Signature and printed name. This form cannot be signed electronically. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    65.812,
+                    66.365,
+                    338.4,
+                    85.805
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SuiteNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an office Suite Number, if applicable",
+                "struct_parent": 11,
+                "tool_tip": "Enter an office Suite Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    508.36,
+                    393.706,
+                    569.767,
+                    410.005
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 7,
+                "tool_tip": "Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    429.367,
+                    363.605,
+                    569.767,
+                    379.904
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip or Postal Code",
+                "struct_parent": 10,
+                "tool_tip": "Enter the Zip or Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    353.37,
+                    363.605,
+                    423.227,
+                    379.904
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 9,
+                "tool_tip": "Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    376.985,
+                    332.73,
+                    569.766,
+                    349.029
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter your U S C I S Account Number, if any",
+                "struct_parent": 8,
+                "tool_tip": "Enter your U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    454.425,
+                    105.718,
+                    570.093,
+                    124.297
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 14,
+                "tool_tip": "Enter the Date of Your Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    346.465,
+                    105.384,
+                    447.942,
+                    124.297
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter your Spoouse's U S C I S Account Number, if any",
+                "struct_parent": 15,
+                "tool_tip": "Enter your Spoouse's U S C I S Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    454.425,
+                    66.699,
+                    570.093,
+                    85.278
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 16,
+                "tool_tip": "Enter the Date of Spouse Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    346.465,
+                    66.365,
+                    447.942,
+                    85.278
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]

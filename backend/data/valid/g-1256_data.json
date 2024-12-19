@@ -1,0 +1,458 @@
+[
+    {
+        "title": "Declaration for Interpreted USCIS Interview",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "IntervieweeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interviewee's Name",
+                "struct_parent": 1,
+                "tool_tip": "Enter Interviewee's Name.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    659.999,
+                    576.0,
+                    677.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "IntervieweeAlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interviewee's Alien Registration Number (A-Number) (if any)",
+                "struct_parent": 2,
+                "tool_tip": "Enter Interviewee's Alien Registration Number (A-Number) (if any). ",
+                "initial_value": "",
+                "rect": [
+                    256.116,
+                    641.999,
+                    576.045,
+                    659.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "IntervieweeNativeLanguage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interviewee's Native Language or Languages",
+                "struct_parent": 3,
+                "tool_tip": "Enter Interviewee's Native Language or Languages.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    623.999,
+                    576.0,
+                    641.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "InterpreterName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Name",
+                "struct_parent": 4,
+                "tool_tip": "Enter Interpreter's Name.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    605.999,
+                    576.0,
+                    623.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "InterpreterAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Address",
+                "struct_parent": 5,
+                "tool_tip": "Enter Interpreter's Address.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    587.999,
+                    576.0,
+                    605.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "InterpreterTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Telephone Number",
+                "struct_parent": 10,
+                "tool_tip": "Enter Interpreter's Telephone Number",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    569.999,
+                    576.0,
+                    587.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "LanguagesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Enter Languages Used by Interpreter",
+                "struct_parent": 8,
+                "tool_tip": "Enter Languages Used by Interpreter.",
+                "initial_value": "English and ",
+                "rect": [
+                    240.001,
+                    533.999,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "IntervieweeSignature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 9,
+                "tool_tip": "Interviewee's Signature. This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    263.999,
+                    576.0,
+                    281.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DocumentAttached[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 7,
+                "tool_tip": "Check this box for No. ",
+                "initial_value": "",
+                "rect": [
+                    402.038,
+                    555.752,
+                    412.038,
+                    565.752
+                ],
+                "page_number": 1,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "DocumentAttached[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Yes",
+                "struct_parent": 6,
+                "tool_tip": " Check this box for Yes. ",
+                "initial_value": "",
+                "rect": [
+                    329.97,
+                    555.752,
+                    339.97,
+                    565.752
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Yes"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Withdrawal of Interpreter",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "InterpreterSignature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 27,
+                "tool_tip": "Interpreter's Signature. This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    666.0,
+                    396.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISOfficerSignature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 13,
+                "tool_tip": "USCIS Officer's Declaration. USCIS Officer's Signature. This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    587.999,
+                    576.0,
+                    605.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISPrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter USCIS Officer's Typed or Printed Name",
+                "struct_parent": 14,
+                "tool_tip": "USCIS Officer's Declaration. Enter USCIS Officer's Typed or Printed Name. ",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    564.001,
+                    576.0,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FieldLocation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Field Office Location",
+                "struct_parent": 29,
+                "tool_tip": "USCIS Officer's Declaration. Enter Field Office Location.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    540.0,
+                    576.0,
+                    558.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "The interpreter was disqualified for the following reasons: Enter the reason",
+                "struct_parent": 15,
+                "tool_tip": "Interpreter's Disqualification. The interpreter was disqualified for the following reasons: Enter the reason. ",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    420.001,
+                    576.0,
+                    492.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Disqualification",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "IntervieweeName[1]",
+                "field_type": "/Tx",
+                "description": "I understand that I may request that my interview be rescheduled for the purposes of finding a qualified interpreter",
+                "struct_parent": 16,
+                "tool_tip": "Interpreter's Disqualification. I, Enter Applicant or Interviewee Name, the applicant/interviewee, understand that my interpreter has been disqualified by USCIS.  I understand that I may request that my interview be rescheduled for the purposes of finding a qualified interpreter.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    396.0,
+                    299.999,
+                    414.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISOffSingature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 19,
+                "tool_tip": "Interpreter's Disqualification. USCIS Officer's Signature.  This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    329.998,
+                    402.001,
+                    347.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISTypedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter USCIS Officer's Typed or Printed Name",
+                "struct_parent": 20,
+                "tool_tip": "Interpreter's Disqualification. Enter USCIS Officer's Typed or Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    305.997,
+                    576.0,
+                    323.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "SupervisorySignature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 21,
+                "tool_tip": "Interpreter's Disqualification. Supervisory USCIS Officer's Signature.  This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    281.996,
+                    402.001,
+                    299.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "SupervisoryPrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Supervisory USCIS Officer's Typed or Printed Name",
+                "struct_parent": 22,
+                "tool_tip": "Interpreter's Disqualification. Enter Supervisory USCIS Officer's Typed or Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    257.998,
+                    576.0,
+                    275.995
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "USCIS Officer's Declaration",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "USCISSignature[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 23,
+                "tool_tip": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. USCIS Officer's Signature. This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    185.998,
+                    402.001,
+                    203.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISTypePrintName[0]",
+                "field_type": "/Tx",
+                "description": "Enter USCIS Officer's Typed or Printed Name",
+                "struct_parent": 24,
+                "tool_tip": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Enter USCIS Officer's Typed or Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    161.997,
+                    576.0,
+                    179.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "IntervieweeSig[0]",
+                "field_type": "/Tx",
+                "description": "This form can not be electronically signed",
+                "struct_parent": 25,
+                "tool_tip": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Interviewee's Signature. This form can not be electronically signed. ",
+                "initial_value": "",
+                "rect": [
+                    137.999,
+                    137.999,
+                    402.001,
+                    155.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "IntervieweeTypePrintName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interviewee's Typed or Printed Name",
+                "struct_parent": 26,
+                "tool_tip": "Withdrawal of Interpreter. The applicant or interviewee has opted to continue the interview without the assistance of his or her chosen interpreter. Enter Interviewee's Typed or Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    113.998,
+                    576.0,
+                    131.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "InterpreterSigDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 28,
+                "tool_tip": "Date of Signature. Enter 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    666.0,
+                    576.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 12,
+                "tool_tip": "USCIS Officer's Declaration. The applicant or interviewee and the interpreter both signed this document in my presence on Date. Enter 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    612.0,
+                    492.001,
+                    630.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Reschedule[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for No",
+                "struct_parent": 18,
+                "tool_tip": "Interpreter's Disqualification. I request that USCIS reschedule my interview so that I may retain the services of a qualified interpreter. Check this box for No. ",
+                "initial_value": "",
+                "rect": [
+                    542.999,
+                    355.002,
+                    552.999,
+                    365.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "Reschedule[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Yes",
+                "struct_parent": 17,
+                "tool_tip": "Interpreter's Disqualification. I request that USCIS reschedule my interview so that I may retain the services of a qualified interpreter. Check this box for Yes. ",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    355.002,
+                    507.999,
+                    365.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

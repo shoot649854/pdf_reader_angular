@@ -1,0 +1,1298 @@
+[
+    {
+        "title": "Part 1.  Information About You  (Requestor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    587.999,
+                    294.001,
+                    605.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    564.001,
+                    294.001,
+                    582.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Full Name. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    540.0,
+                    293.998,
+                    558.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. A. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    473.998,
+                    294.106,
+                    491.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. B. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    449.997,
+                    294.001,
+                    467.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    429.996,
+                    70.999,
+                    439.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    429.993,
+                    154.998,
+                    439.993
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    429.993,
+                    113.0,
+                    439.993
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    425.993,
+                    294.001,
+                    443.993
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    401.995,
+                    294.001,
+                    419.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    377.994,
+                    294.001,
+                    395.994
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    86.002,
+                    377.994,
+                    120.002,
+                    395.994
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line2g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    353.999,
+                    293.879,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    330.001,
+                    293.879,
+                    348.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You (Requestor).  Requestor's Mailing Address. 2. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    293.995,
+                    294.001,
+                    311.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_DaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Daytime Telephone Number",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 3. Enter Requestor's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    227.999,
+                    294.001,
+                    245.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_MobileTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Mobile Telephone Number, if any",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 4. Enter Requestor's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    294.001,
+                    209.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Email Address, if any",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Contact Information. 5. Enter Requestor's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    155.999,
+                    294.001,
+                    173.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "The name of the Requestor can not be typewritten into this space",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Certification. By my signature, I consent to pay all costs incurred for search, duplication, and review of documents up to $80.  (See Form G-10 41 Instructions for more information.) 6. A. Requestor's Signature. This form can not be signed electronically. The name of the Requestor can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    564.001,
+                    576.0,
+                    582.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6b_RequesterSignDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You (Requestor). Requestor's Certification. 6. B. Date of Signature. Enter date as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    539.997,
+                    576.0,
+                    557.997
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Immigrant's Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    455.998,
+                    576.003,
+                    473.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    432.003,
+                    576.0,
+                    450.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Immigrant's Information. Full Name of the Immigrant. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    408.002,
+                    575.997,
+                    426.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Immigrant's Information. Other Names Used by the Immigrant. List all other names the immigrant has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 4. Additional Information.  2. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    300.002,
+                    576.003,
+                    318.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Immigrant's Information. Other Names Used by the Immigrant.  2. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    276.001,
+                    576.003,
+                    294.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Immigrant's Information. Other Names Used by the Immigrant. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    252.003,
+                    575.997,
+                    270.003
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Immigrant's Information  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line3a_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. A. Date of Birth. Enter date as 2 digit Month, 2 digit Day, and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    666.0,
+                    294.001,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3b_estimated[0]",
+                "field_type": "/Btn",
+                "description": "Is this date actual or estimated? Select Estimated",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. B. Is this date actual or estimated? Select Estimated.",
+                "initial_value": "",
+                "rect": [
+                    230.434,
+                    637.002,
+                    240.434,
+                    647.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt2Line3b_actual[0]",
+                "field_type": "/Btn",
+                "description": "Is this date actual or estimated? Select Actual",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. 3. B. Is this date actual or estimated? Select Actual.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    637.002,
+                    190.0,
+                    647.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4a_TownOrVillage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Town or Village",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. A. Enter Town or Village.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    581.998,
+                    294.001,
+                    599.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4b_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. B. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    557.997,
+                    293.879,
+                    575.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4c_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Immigrant's Information. Other Information About the Immigrant. Place of Birth (Include Town or Village, Province, and Country, if known). 4. C. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    521.997,
+                    294.001,
+                    539.997
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Other Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1_DateArrival[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 31,
+                "tool_tip": "Part 3. Other Information. 1. Date of immigrant's exact arrival in the United States. Enter date as 2 digit Month, 2 digit Day and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    449.974,
+                    294.001,
+                    468.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line2a_DateBefore1906[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 32,
+                "tool_tip": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. A. Before 1906. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    119.982,
+                    395.971,
+                    251.983,
+                    413.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line2b_Date1906to1924[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. B. 1906 to 1924. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    119.883,
+                    371.97,
+                    251.884,
+                    389.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line2c_Date1924to1940[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 33,
+                "tool_tip": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. C. 1924 to 1940. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    347.808,
+                    252.003,
+                    365.834
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line2d_DateAfter1940[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Other Information. NOTE:  If you are unsure of the date range, or it is unknown select an additional choice in Item Numbers 2. A. through 2. D. 2. D. After 1940. Enter Date as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    119.883,
+                    323.971,
+                    251.884,
+                    341.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. A. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    275.998,
+                    294.001,
+                    293.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    255.997,
+                    70.999,
+                    265.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt3Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 39,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    255.994,
+                    154.998,
+                    265.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    255.994,
+                    113.0,
+                    265.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 40,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    251.994,
+                    294.001,
+                    269.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 42,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    227.996,
+                    294.001,
+                    245.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    85.999,
+                    204.001,
+                    119.999,
+                    222.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 44,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    203.995,
+                    294.001,
+                    221.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3f_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 43,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. F. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    180.0,
+                    293.879,
+                    198.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3g_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 3. G. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    143.997,
+                    294.001,
+                    161.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4a_DateofBirthFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 47,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 4. A. Enter Date From. Enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    168.148,
+                    119.999,
+                    293.998,
+                    137.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4b_DateofBirthTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day and 4 digit Year",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Other Information. Where did the immigrant live in the United States? 4. B. Enter Date To. Enter as 2 digit Month, 2 digit Day and 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    168.148,
+                    95.975,
+                    293.998,
+                    114.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "List additional information about residences and dates below, if any",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Other Information. 5. List additional information about residences and dates below, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    474.001,
+                    575.776,
+                    707.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line6_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Other information about the immigrant that may prove useful in the index search (For example, name of spouse and / or children, date of immigrant's death, military service, date of naturalization, date of female immigrant's marriage, occupation)",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Other Information. 6. Other information about the immigrant that may prove useful in the index search (For example, name of spouse and / or children, date of immigrant's death, military service, date of naturalization, date of female immigrant's marriage, occupation).",
+                "initial_value": "",
+                "rect": [
+                    342.009,
+                    251.997,
+                    575.785,
+                    395.997
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 70,
+                "tool_tip": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    623.999,
+                    294.001,
+                    641.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line1b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 71,
+                "tool_tip": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    599.998,
+                    293.998,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line1c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 72,
+                "tool_tip": "Part 4. Additional Information. No Entry, populated from Page 1, Part 1. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    575.997,
+                    293.998,
+                    593.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 62,
+                "tool_tip": "Part 4. Additional Information. 2. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    533.996,
+                    288.0,
+                    551.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 64,
+                "tool_tip": "Part 4. Additional Information. 2. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    145.474,
+                    533.996,
+                    199.474,
+                    551.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 63,
+                "tool_tip": "Part 4. Additional Information. 2. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    533.996,
+                    114.001,
+                    551.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line2d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 65,
+                "tool_tip": "Part 4. Additional Information. 2. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    383.998,
+                    294.021,
+                    527.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 67,
+                "tool_tip": "Part 4. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.004,
+                    342.0,
+                    114.004,
+                    360.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 66,
+                "tool_tip": "Part 4. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    341.997,
+                    288.0,
+                    359.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 68,
+                "tool_tip": "Part 4. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    145.474,
+                    341.997,
+                    199.474,
+                    359.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 69,
+                "tool_tip": "Part 4. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    294.021,
+                    335.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 58,
+                "tool_tip": "Part 4. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.986,
+                    707.998,
+                    575.986,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 60,
+                "tool_tip": "Part 4. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.46,
+                    707.998,
+                    487.46,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 59,
+                "tool_tip": "Part 4. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    707.998,
+                    396.0,
+                    725.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 61,
+                "tool_tip": "Part 4. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    558.0,
+                    576.02,
+                    702.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 74,
+                "tool_tip": "Part 4. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.986,
+                    515.999,
+                    575.986,
+                    533.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 76,
+                "tool_tip": "Part 4. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.46,
+                    515.999,
+                    487.46,
+                    533.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 75,
+                "tool_tip": "Part 4. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    515.999,
+                    396.0,
+                    533.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 73,
+                "tool_tip": "Part 4. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    366.001,
+                    576.02,
+                    510.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 78,
+                "tool_tip": "Part 4. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.986,
+                    323.997,
+                    575.986,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 80,
+                "tool_tip": "Part 4. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    433.46,
+                    323.997,
+                    487.46,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 79,
+                "tool_tip": "Part 4. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    323.997,
+                    396.0,
+                    341.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 77,
+                "tool_tip": "Part 4. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    173.999,
+                    576.02,
+                    317.999
+                ],
+                "page_number": 3
+            }
+        ]
+    }
+]

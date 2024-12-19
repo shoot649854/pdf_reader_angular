@@ -1,0 +1,4478 @@
+[
+    {
+        "title": "Part 1.  To be completed by Law Enforcement Agencies  (See instructions for specific information.)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1_NameofLEARequestor[0]",
+                "field_type": "/Tx",
+                "description": ") or Requestor",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 1. Enter Name of Law Enforcement Agency (L E. A.) or Requestor.",
+                "initial_value": "",
+                "rect": [
+                    53.994,
+                    611.357,
+                    576.0,
+                    629.357
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2_RequestingAgent[0]",
+                "field_type": "/Tx",
+                "description": ")",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 2. Enter Requesting Agent (Special Agent in Charge, Chief of Police, etc.).",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    576.0,
+                    324.0,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    53.773,
+                    522.0,
+                    455.998,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    53.773,
+                    486.0,
+                    456.012,
+                    504.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    432.0,
+                    342.0,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    432.0,
+                    197.991,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Checkbox5[0]",
+                "field_type": "/Btn",
+                "description": "Select all applicable boxes",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select As a result of providing information, the alien will be placed in danger: ",
+                "initial_value": "",
+                "rect": [
+                    56.002,
+                    397.0,
+                    66.002,
+                    407.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5[1]",
+                "field_type": "/Btn",
+                "description": "Select The alien poses no danger to people or property of the United States",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select The alien poses no danger to people or property of the United States.",
+                "initial_value": "",
+                "rect": [
+                    56.002,
+                    379.001,
+                    66.002,
+                    389.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5[2]",
+                "field_type": "/Btn",
+                "description": "Select If the alien poses a danger, the danger posed by the alien is outweighed by the assistance the alien will furnish",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select If the alien poses a danger, the danger posed by the alien is outweighed by the assistance the alien will furnish.",
+                "initial_value": "",
+                "rect": [
+                    56.002,
+                    360.998,
+                    66.002,
+                    370.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5[5]",
+                "field_type": "/Btn",
+                "description": "Select United States Attorney involvement",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select United States Attorney involvement.",
+                "initial_value": "",
+                "rect": [
+                    242.0,
+                    343.006,
+                    252.0,
+                    353.006
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5[4]",
+                "field_type": "/Btn",
+                "description": "Select Prosecution",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select Prosecution.",
+                "initial_value": "",
+                "rect": [
+                    152.0,
+                    343.006,
+                    162.0,
+                    353.006
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5[3]",
+                "field_type": "/Btn",
+                "description": "Select Investigation",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. Select Investigation.",
+                "initial_value": "",
+                "rect": [
+                    56.002,
+                    343.006,
+                    66.002,
+                    353.006
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[2]",
+                "field_type": "/Btn",
+                "description": "Select S-7",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Select S-7.",
+                "initial_value": "",
+                "rect": [
+                    140.004,
+                    303.999,
+                    150.004,
+                    313.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/S7"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[1]",
+                "field_type": "/Btn",
+                "description": "Select S-6",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Select S-6.",
+                "initial_value": "",
+                "rect": [
+                    98.003,
+                    303.996,
+                    108.003,
+                    313.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/S6"
+                ]
+            },
+            {
+                "field_name": "P1_CheckBox6[0]",
+                "field_type": "/Btn",
+                "description": "Select S-5",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). NOTE:  Provide a clear statement of the operations that form the basis of the request (e.g., Grand Jury subpoena), the objective of the request, and any bargain the L E. A. wishes to make or has made with the alien. Attach a complete criminal history, F B I Number, and U.S. Social Security Number (if applicable).  Include any security concerns and special instructions regarding security precautions. 6. Type of Requests. (Attach legal basis for request.). Select S-5.",
+                "initial_value": "",
+                "rect": [
+                    56.002,
+                    303.996,
+                    66.002,
+                    313.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/S5"
+                ]
+            },
+            {
+                "field_name": "P1_L7a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. A. Alien's Current Legal Name (do not provide a nickname). Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    269.827,
+                    173.589,
+                    432.017,
+                    191.838
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. In the space below, provide all the requested information for the alien for whom an S classification is requested. A. Alien's Current Legal Name (do not provide a nickname). Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.145,
+                    173.589,
+                    264.229,
+                    191.838
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    269.827,
+                    119.583,
+                    432.017,
+                    137.832
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    72.031,
+                    119.583,
+                    264.186,
+                    137.832
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    269.827,
+                    101.169,
+                    432.017,
+                    119.418
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    72.031,
+                    101.169,
+                    264.186,
+                    119.418
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2_ControlAgent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Control Agent",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 2. Enter Control Agent.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    576.0,
+                    576.0,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    526.0,
+                    524.001,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_L3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    526.0,
+                    499.997,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_L3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    526.0,
+                    475.999,
+                    536.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_L3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    522.0,
+                    576.0,
+                    540.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    486.0,
+                    576.0,
+                    504.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 3. Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.999,
+                    486.0,
+                    491.995,
+                    504.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line4_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 4. Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    354.005,
+                    432.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Checkbox5a_AB[0]",
+                "field_type": "/Btn",
+                "description": "As a result of providing information, the alien will be placed in danger: Select abroad",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. As a result of providing information, the alien will be placed in danger: Select abroad.",
+                "initial_value": "",
+                "rect": [
+                    475.77,
+                    397.009,
+                    485.77,
+                    407.009
+                ],
+                "page_number": 1,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P1_Checkbox5a_US[0]",
+                "field_type": "/Btn",
+                "description": "As a result of providing information, the alien will be placed in danger: Select in the United States",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 5. Select all applicable boxes. As a result of providing information, the alien will be placed in danger: Select in the United States.",
+                "initial_value": "",
+                "rect": [
+                    361.999,
+                    397.0,
+                    371.999,
+                    407.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_Consular[0]",
+                "field_type": "/Tx",
+                "description": "Enter Consular post at which visa will be sought",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 6. Type of Requests. (Attach legal basis for request.). Enter Consular post at which visa will be sought.",
+                "initial_value": "",
+                "rect": [
+                    371.999,
+                    299.996,
+                    575.994,
+                    317.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. A. Alien's Current Legal Name (do not provide a nickname). Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    438.012,
+                    173.753,
+                    575.892,
+                    192.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line One. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    438.012,
+                    119.747,
+                    575.892,
+                    137.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L7b2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. B. Other Names Alien Has Used Since Birth (include nicknames, aliases, and maiden name, if applicable). Line Two. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    438.012,
+                    101.333,
+                    575.892,
+                    119.582
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  To be completed by Law Enforcement Agencies  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_L7c_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 63,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    71.912,
+                    672.001,
+                    455.992,
+                    690.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7c_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 70,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    293.99,
+                    636.001,
+                    371.991,
+                    654.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7c_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 69,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    260.001,
+                    636.001,
+                    287.997,
+                    654.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_L7c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 68,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    72.037,
+                    636.001,
+                    251.864,
+                    654.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7d_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 76,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    204.043,
+                    569.999,
+                    323.328,
+                    587.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_SVisaNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter S-Visa Number",
+                "struct_parent": 62,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter S-Visa Number.",
+                "initial_value": "",
+                "rect": [
+                    72.119,
+                    569.804,
+                    192.09,
+                    587.92
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_PassportNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Passport Number",
+                "struct_parent": 53,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Passport Number.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    528.004,
+                    318.399,
+                    546.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_ExpDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 54,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Expiration Date for Passport or Travel Document. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    480.254,
+                    431.827,
+                    498.101
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_CountryOfIssuance[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Issuance for Passport or Travel Document",
+                "struct_parent": 55,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Issuance for Passport or Travel Document.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    480.064,
+                    288.0,
+                    498.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_PlaceOfLastEntry_CityState[0]",
+                "field_type": "/Tx",
+                "description": "(City, State)",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Place of Last Entry into the U.S. (City, State).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    444.016,
+                    288.0,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 48,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    443.86,
+                    432.048,
+                    462.013
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_CurentImigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Immigration Status",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Current Immigration Status.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    408.042,
+                    432.269,
+                    426.022
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_PlaceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    372.039,
+                    432.006,
+                    389.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_CountryOfOrigin[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Origin",
+                "struct_parent": 56,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Origin.",
+                "initial_value": "",
+                "rect": [
+                    72.045,
+                    336.201,
+                    317.769,
+                    354.09
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7d_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    304.194,
+                    82.0,
+                    314.194
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    304.185,
+                    129.999,
+                    314.185
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Never Married",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Never Married.",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    303.975,
+                    255.999,
+                    313.975
+                ],
+                "page_number": 2,
+                "options": [
+                    "/NeverMarried"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Married.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    303.975,
+                    196.001,
+                    313.975
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Married"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation",
+                "struct_parent": 58,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Occupation.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    263.951,
+                    318.229,
+                    281.951
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line8a_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 75,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing?  If \u201cYes,\u201d explain below. Select No.",
+                "initial_value": "",
+                "rect": [
+                    122.614,
+                    177.999,
+                    132.614,
+                    187.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line8a_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 74,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing?  If \u201cYes,\u201d explain below. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    73.858,
+                    177.999,
+                    83.858,
+                    187.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line8a_DetailStatement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Explanation",
+                "struct_parent": 73,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. A. Has the alien ever committed, ordered, incited, assisted, or otherwise participated in genocide; the use, conscription, or recruitment of a child soldier; Nazi persecution; or while outside of the United States, committed torture or extrajudicial killing?  If \u201cYes,\u201d explain below. Enter Explanation. ",
+                "initial_value": "",
+                "rect": [
+                    72.017,
+                    49.804,
+                    575.952,
+                    171.044
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 65,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    513.845,
+                    676.001,
+                    523.845,
+                    686.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_Line7c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 66,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.833,
+                    676.001,
+                    499.833,
+                    686.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_Line7c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 67,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.835,
+                    676.001,
+                    475.835,
+                    686.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line7c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 64,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.832,
+                    672.001,
+                    575.833,
+                    690.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7c_CurrentLocation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Location of Alien (City, State)",
+                "struct_parent": 71,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. C. Mailing Address. Enter Current Location of Alien (City, State).",
+                "initial_value": "",
+                "rect": [
+                    378.36,
+                    636.001,
+                    575.938,
+                    654.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7d_PrincipalAlienI-94[0]",
+                "field_type": "/Tx",
+                "description": "Enter I-94 Number",
+                "struct_parent": 72,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter I-94 Number.",
+                "initial_value": "",
+                "rect": [
+                    336.098,
+                    570.903,
+                    497.999,
+                    587.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_TravelDoc[0]",
+                "field_type": "/Tx",
+                "description": "Enter Travel Document Number",
+                "struct_parent": 52,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Travel Document Number.",
+                "initial_value": "",
+                "rect": [
+                    330.009,
+                    527.998,
+                    569.743,
+                    545.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_DateofLastEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 51,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Date of Last Entry into the U.S. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.752,
+                    480.008,
+                    576.0,
+                    498.005
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_ClassOfAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Class of Admission.",
+                "initial_value": " ",
+                "rect": [
+                    443.883,
+                    443.999,
+                    575.875,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_L7d_CountryOfCitizenship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 57,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    330.474,
+                    335.84,
+                    575.699,
+                    353.928
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line7d_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    303.978,
+                    478.0,
+                    313.978
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Widowed"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    303.978,
+                    411.998,
+                    313.978
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Divorced"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_MaritalStatus[4]",
+                "field_type": "/Btn",
+                "description": "Select Separated",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Marital Status. Select Separated.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    303.978,
+                    345.999,
+                    313.978
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Separated"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_CheckBox_FD258[0]",
+                "field_type": "/Btn",
+                "description": "Select Form F D-2 58",
+                "struct_parent": 60,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Form F D-2 58.",
+                "initial_value": "",
+                "rect": [
+                    418.0,
+                    267.954,
+                    428.0,
+                    277.954
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_CheckBox_Photos[0]",
+                "field_type": "/Btn",
+                "description": "Select Photos",
+                "struct_parent": 61,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Photos.",
+                "initial_value": "",
+                "rect": [
+                    508.0,
+                    267.951,
+                    518.0,
+                    277.951
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line7d_CheckBox_G325[0]",
+                "field_type": "/Btn",
+                "description": "Select Form G-3 25",
+                "struct_parent": 59,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 7. D. Other Information. Select all documents attached. Select Form G-3 25.",
+                "initial_value": "",
+                "rect": [
+                    333.998,
+                    267.951,
+                    343.998,
+                    277.951
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[3]",
+                "field_type": "/Btn",
+                "description": ")(1)]",
+                "struct_parent": 82,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12( A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Crime involving moral turpitude [2 12(A.)(2)(A.)(1)].",
+                "initial_value": "",
+                "rect": [
+                    73.869,
+                    670.0,
+                    83.869,
+                    680.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")(10)(C)]",
+                "struct_parent": 79,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select International child abduction  [2 12(A.)(10)(C)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    652.0,
+                    83.855,
+                    662.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[4]",
+                "field_type": "/Btn",
+                "description": ")(2)(B)]",
+                "struct_parent": 83,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Multiple criminal convictions [2 12(A.)(2)(B)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    634.0,
+                    83.855,
+                    644.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": ")(2)(D)]",
+                "struct_parent": 80,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Engage in unlawful commercialized vice [2 12(A.)(2)(D)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    615.997,
+                    83.855,
+                    625.997
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[5]",
+                "field_type": "/Btn",
+                "description": ")(1)]",
+                "struct_parent": 84,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Involved in espionage, sabotage or laws relating to technology [2 12(A.)(3)(A.)(1)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    586.001,
+                    83.855,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": ")(3)]",
+                "struct_parent": 81,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Coming to overthrow the U.S. Government [2 12(A.)(3)(A.)(3)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    556.002,
+                    83.855,
+                    566.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[6]",
+                "field_type": "/Btn",
+                "description": ")(2)(1)]",
+                "struct_parent": 85,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Money laundering [2 12(A.)(2)(1)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    526.003,
+                    83.855,
+                    536.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[8]",
+                "field_type": "/Btn",
+                "description": "Select Previously removed-aggravated felony [2 12(A)(9)(A)(1)]",
+                "struct_parent": 87,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Previously removed-aggravated felony [2 12(A)(9)(A)(1)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    508.003,
+                    83.855,
+                    518.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[9]",
+                "field_type": "/Btn",
+                "description": ")(7)(B)(2)]",
+                "struct_parent": 88,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Nonimmigrant without a valid passport or visas [2 12(A.)(7)(B)(2)].",
+                "initial_value": "",
+                "rect": [
+                    73.883,
+                    478.001,
+                    83.883,
+                    488.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[12]",
+                "field_type": "/Btn",
+                "description": ")]",
+                "struct_parent": 91,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Previously excluded and deported or removed [2 12(A.)(9)(A.)].",
+                "initial_value": "",
+                "rect": [
+                    73.864,
+                    448.002,
+                    83.864,
+                    458.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[10]",
+                "field_type": "/Btn",
+                "description": ")(6)(E)]",
+                "struct_parent": 89,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Alien smuggler [2 12(A.)(6)(E)].",
+                "initial_value": "",
+                "rect": [
+                    73.864,
+                    418.0,
+                    83.864,
+                    428.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[13]",
+                "field_type": "/Btn",
+                "description": ")(1)(2)]",
+                "struct_parent": 92,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Convicted of law pertaining to controlled substance [2 12(A.)(2)(A.)(1)(2)].",
+                "initial_value": "",
+                "rect": [
+                    73.855,
+                    400.0,
+                    83.855,
+                    410.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8c_DetailStatementfor[0]",
+                "field_type": "/Tx",
+                "description": "Number, if any, at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet",
+                "struct_parent": 104,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. C. Briefly explain below each ground of inadmissibility you selected or other grounds of inadmissibility not included in the list above. If you need extra space to complete this item, attach a separate sheet of paper; type or print the alien's name and. A. Number, if any, at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.",
+                "initial_value": "",
+                "rect": [
+                    72.006,
+                    59.999,
+                    575.941,
+                    314.991
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[24]",
+                "field_type": "/Btn",
+                "description": ")(2)(D)]",
+                "struct_parent": 103,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Prostitute and/or procurer of prostitution [2 12(A.)(2)(D)].",
+                "initial_value": "",
+                "rect": [
+                    325.841,
+                    670.0,
+                    335.841,
+                    680.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[21]",
+                "field_type": "/Btn",
+                "description": ")]",
+                "struct_parent": 100,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Unlawful activity related to national security [2 12(A.)(3)(A.)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    652.0,
+                    335.855,
+                    662.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[23]",
+                "field_type": "/Btn",
+                "description": ")(3)(B)]",
+                "struct_parent": 102,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Terrorist activities [2 12(A.)(3)(B)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    622.001,
+                    335.855,
+                    632.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[22]",
+                "field_type": "/Btn",
+                "description": ")(3)(D)]",
+                "struct_parent": 101,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Communist Party member [2 12(A.)(3)(D)].",
+                "initial_value": "",
+                "rect": [
+                    325.844,
+                    603.998,
+                    335.844,
+                    613.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[15]",
+                "field_type": "/Btn",
+                "description": "Select Fraud / Misrepresentation [2 12(A)(6)(C)(1)]",
+                "struct_parent": 94,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Fraud / Misrepresentation [2 12(A)(6)(C)(1)].",
+                "initial_value": "",
+                "rect": [
+                    325.841,
+                    585.998,
+                    335.841,
+                    595.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[16]",
+                "field_type": "/Btn",
+                "description": ")(7)]",
+                "struct_parent": 95,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Immigrant without a visa [2 12(A.)(7)].",
+                "initial_value": "",
+                "rect": [
+                    325.861,
+                    567.998,
+                    335.861,
+                    577.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[17]",
+                "field_type": "/Btn",
+                "description": ")(2)(H)]",
+                "struct_parent": 96,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Human trafficking [2 12(A.)(2)(H)].",
+                "initial_value": "",
+                "rect": [
+                    325.861,
+                    549.998,
+                    335.861,
+                    559.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[18]",
+                "field_type": "/Btn",
+                "description": ")(3)(E)]",
+                "struct_parent": 97,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Ordered, incited, assisted or otherwise participated in the commission of acts of torture or extra judicial killing [2 12(A.)(3)(E)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    531.998,
+                    335.855,
+                    541.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[14]",
+                "field_type": "/Btn",
+                "description": ")(2)(C)]",
+                "struct_parent": 93,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Controlled substance trafficker [2 12(A.)(2)(C)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    490.0,
+                    335.855,
+                    500.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[7]",
+                "field_type": "/Btn",
+                "description": "Select Engaged in conduct relating to severed violations of religious freedoms [2 12(A)(2)(G)]",
+                "struct_parent": 86,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Engaged in conduct relating to severed violations of religious freedoms [2 12(A)(2)(G)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    472.0,
+                    335.855,
+                    482.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[11]",
+                "field_type": "/Btn",
+                "description": ")(4)]",
+                "struct_parent": 90,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Drug abuser or addict [2 12(A.)(1)(A.)(4)].",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    442.001,
+                    335.855,
+                    452.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[19]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 98,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select Other.",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    424.001,
+                    335.855,
+                    434.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line8b_Checkbox[20]",
+                "field_type": "/Btn",
+                "description": "Select No waivers are requested / needed",
+                "struct_parent": 99,
+                "tool_tip": "Part 1. To be completed by Law Enforcement Agencies (See instructions for specific information.). 8. You must provide the following information for each alien named in Item Number 7. B. For the above named alien, I request waivers for any grounds of inadmissibility that may exist. Below is a non-exhaustive list for possible grounds of inadmissibility. Refer to Immigration and Nationality Act (I N. A.) 2 12(A.) for a complete list.  (Specify all individual events in which the above named alien was arrested, cited, charged, indicted, convicted, fined or imprisoned, or for which the alien has committed, but did not have involvement with any law enforcement entity.). Select No waivers are requested / needed.",
+                "initial_value": "",
+                "rect": [
+                    325.855,
+                    406.001,
+                    335.855,
+                    416.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Certifications",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). I certify under penalty of perjury that I have reviewed with the Law Enforcement Agency (L E. A.) all the information in Part 1., disclosed all information to the best of my ability, and disclosed all reasons for which I may be inadmissible to the United States or for which I may be removed from the United States; that I shall report at least every three months my whereabouts and activities as the Law Enforcement Agency (L E. A.) shall require; that I understand I am subject to removal for any grounds of inadmissibility (conduct or condition) or removability not disclosed at this time or for conduct committed after admission to the United States; that I shall abide by all conditions, limitations, and restrictions imposed upon my entry; that the classification I seek is temporary and will terminate within three years; that I am restricted by the terms of my admission to very specific means by which I will be able to remain permanently in the United States; that I will pay Social Security and all applicable taxes on all employment in the United States; that I understand that such ability to remain in the United States is not guaranteed or promised by the Law Enforcement Agency (L E. A.); and that I hereby waive my right to a removal hearing and to contest, other than on the basis of a form for withholding of removal, any action for deportation instituted against me. I also certify that I have read and understand all the questions and statements on this form. If I do not understand English, I further acknowledge that this has been read to me in a language I do understand.  The answers I have furnished are true and correct to the best of my knowledge and belief. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    492.001,
+                    299.999,
+                    510.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_NameofPrincipal[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Principal Alien",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Principal Alien.",
+                "initial_value": "",
+                "rect": [
+                    36.113,
+                    455.998,
+                    300.234,
+                    473.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_SignatureLEA[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Signature of Law Enforcement Agency (L E. A.) Witness. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    413.997,
+                    299.999,
+                    431.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_LEAName[0]",
+                "field_type": "/Tx",
+                "description": ") Witness",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Law Enforcement Agency (L E. A.) Witness.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    377.997,
+                    300.005,
+                    395.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P1_CheckBox_Interpreter[0]",
+                "field_type": "/Btn",
+                "description": "Select Interpreter Services Used (This serves to verify the alien's certification of interpretation)",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Select Interpreter Services Used (This serves to verify the alien's certification of interpretation).",
+                "initial_value": "",
+                "rect": [
+                    37.872,
+                    352.001,
+                    47.872,
+                    362.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P2_SignatureTrans[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Signature of Interpreter. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.003,
+                    311.998,
+                    300.002,
+                    329.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_NameInterpreter[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Interpreter",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Name of Interpreter.",
+                "initial_value": "",
+                "rect": [
+                    36.009,
+                    275.998,
+                    300.008,
+                    293.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_AlienDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    312.009,
+                    492.131,
+                    576.0,
+                    510.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_LEADate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    414.127,
+                    576.0,
+                    431.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    312.259,
+                    377.997,
+                    576.0,
+                    395.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_InterpreterDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    312.128,
+                    576.0,
+                    329.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language Used",
+                "struct_parent": 116,
+                "tool_tip": "Part 2. Certifications. Alien Certification (S classification request). Enter Language Used.",
+                "initial_value": "",
+                "rect": [
+                    312.259,
+                    275.998,
+                    576.0,
+                    293.998
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Certifications  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_SignatureofRequestingAgent[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. I certify the above information is true and correct to the best of my knowledge; that I may make, have made, and will make no promises regarding the above alien's ability to adjust status or stay permanently in the United States, other than those that comport with section 1 01(A.)(15)(S) of the Immigration and Nationality Act (I N. A.); that I will, upon approval of S nonimmigrant status and until adjustment of status is granted or the S nonimmigrant status expires or terminates, collect quarterly and annual reports, pursuant to 8 Code of Federal Regulations (C F R) section 2 14.2(T), which detail the above alien's whereabouts and activities, and that I will forward required information to my headquarters entity, from which point it will be forwarded to the Department of Justice, Criminal Division; that I will immediately report to my headquarters, Department of Homeland Security, U.S. Immigration and Customs Enforcement, Homeland Security Investigations, and the Department of Justice, Criminal Division if this alien fails to report quarterly or fails to comply or to cooperate with the terms and conditions of admission or if the alien commits any removable activity after the date of admission. I further certify that I assume complete law enforcement responsibility for control and continued stay in lawful status of the alien, including necessary monitoring, travel arrangements for arrival and departure, safety precautions and specified conditions of stay or departure; that I have provided a sworn declaration as to the basis of this form and checked all available databases for derogatory information on the above alien; and that I have carefully reviewed the above statements with the alien to ensure that all terms and conditions are understood. Signature of Requesting Agent. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.003,
+                    689.998,
+                    299.996,
+                    707.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_TitleofCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Requesting Agent",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Name of Requesting Agent.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    653.998,
+                    299.985,
+                    671.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_SignatureofChiefofLEA[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 126,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Signature of Headquarters (H Q) Chief of Law Enforcement Agency (L E. A.). No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.009,
+                    612.0,
+                    300.002,
+                    630.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_NameofChief[0]",
+                "field_type": "/Tx",
+                "description": ")",
+                "struct_parent": 127,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Name of Headquarters (H Q) Chief of Law Enforcement Agency (L E. A.).",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    576.0,
+                    299.991,
+                    594.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 137,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    515.996,
+                    576.258,
+                    533.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 132,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    479.999,
+                    456.225,
+                    497.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 129,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    443.999,
+                    456.225,
+                    461.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 139,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    384.001,
+                    329.987,
+                    402.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 140,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    384.001,
+                    179.997,
+                    402.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_DateofSignatureRequestAgent[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    312.009,
+                    690.001,
+                    576.0,
+                    708.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_TitleofRequestingAgent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Requesting Agent",
+                "struct_parent": 124,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Title of Requesting Agent.",
+                "initial_value": "",
+                "rect": [
+                    311.927,
+                    653.995,
+                    575.668,
+                    671.995
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_DateofSignatureHeadquartersChief[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 125,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    312.009,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_TitleCertifier[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Certifier",
+                "struct_parent": 128,
+                "tool_tip": "Part 2. Certifications. Law Enforcement Agency (L E. A.) Certification. Enter Title of Certifier.",
+                "initial_value": "",
+                "rect": [
+                    312.015,
+                    575.997,
+                    575.756,
+                    593.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 134,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    483.999,
+                    524.001,
+                    493.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 135,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.762,
+                    483.999,
+                    499.762,
+                    493.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 136,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.764,
+                    483.999,
+                    475.764,
+                    493.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 133,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.764,
+                    479.999,
+                    575.765,
+                    497.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 131,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.764,
+                    443.999,
+                    575.765,
+                    461.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 130,
+                "tool_tip": "Part 2. Certifications. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.772,
+                    443.999,
+                    491.768,
+                    461.999
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 138,
+                "tool_tip": "Part 2. Certifications. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.269,
+                    384.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  For U.S. Attorney Use Only  (if applicable)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_SignatureOfAttorney[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 141,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Because the alien's presence is essential to the success of a Federal or state investigation or prosecution, the U.S. Attorney recommends the above request be granted and further certifies that there has not been and will not be any promises at all regarding the above alien's ability to adjust status or stay permanently in the United States, other than those that comply with Immigration and Nationality Act (I N. A.) section 1 01(A.)(15)(S). Signature of U.S. Attorney. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    264.002,
+                    299.996,
+                    282.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_PrintedNameAttorney[0]",
+                "field_type": "/Tx",
+                "description": "Attorney",
+                "struct_parent": 142,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Enter Name of U.S. Attorney.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    228.002,
+                    299.999,
+                    246.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 152,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    168.001,
+                    576.258,
+                    186.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 147,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    132.004,
+                    456.225,
+                    150.004
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 144,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    96.004,
+                    456.239,
+                    114.004
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 143,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    312.355,
+                    264.002,
+                    576.0,
+                    282.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 149,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    136.004,
+                    524.001,
+                    146.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 150,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    136.004,
+                    499.997,
+                    146.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 151,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    136.004,
+                    475.999,
+                    146.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 148,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    132.004,
+                    575.637,
+                    150.004
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 146,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    498.135,
+                    96.004,
+                    575.637,
+                    114.004
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 145,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    464.008,
+                    96.004,
+                    492.004,
+                    114.004
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  For United States Attorney Use Only  (if applicable) (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 156,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    672.001,
+                    329.987,
+                    690.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P3_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 157,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    672.001,
+                    179.997,
+                    690.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P3_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 155,
+                "tool_tip": "Part 3. For U.S. Attorney Use Only, if applicable. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.009,
+                    672.001,
+                    576.0,
+                    690.001
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  For U.S. Department of State/Rewards Committee - S6 Classification use only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_CheckBox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 158,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. After checking all information, the U.S. Department of State. Select Certifies the alien is eligible to receive an award under 22 U.S.C 27 08(A.).",
+                "initial_value": "",
+                "rect": [
+                    37.858,
+                    609.999,
+                    47.858,
+                    619.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P4_CheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Select Certifies the alien is not eligible for such award",
+                "struct_parent": 159,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. After checking all information, the U.S. Department of State. Select Certifies the alien is not eligible for such award.",
+                "initial_value": "",
+                "rect": [
+                    37.858,
+                    591.999,
+                    47.858,
+                    601.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P4_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 173,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S Classification use only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    546.001,
+                    299.999,
+                    564.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 174,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.111,
+                    509.998,
+                    300.11,
+                    527.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 168,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    449.997,
+                    576.258,
+                    467.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 163,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    414.0,
+                    456.225,
+                    432.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 160,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    378.0,
+                    456.239,
+                    396.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 170,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    192.005,
+                    318.002,
+                    329.993,
+                    336.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 171,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    318.002,
+                    180.003,
+                    336.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 172,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S Classification use only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    546.131,
+                    576.0,
+                    564.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 175,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    311.896,
+                    509.998,
+                    575.637,
+                    527.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 165,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    513.766,
+                    418.0,
+                    523.766,
+                    428.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 166,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.762,
+                    418.0,
+                    499.762,
+                    428.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 167,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.764,
+                    418.0,
+                    475.764,
+                    428.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 164,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.764,
+                    414.0,
+                    575.765,
+                    432.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_State[0]",
+                "field_type": "/Ch",
+                "description": "Select a State from a list of States",
+                "struct_parent": 161,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Select a State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.772,
+                    378.0,
+                    491.768,
+                    396.0
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P4_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 162,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    377.49,
+                    576.0,
+                    395.49
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P4_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 169,
+                "tool_tip": "Part 4. For U.S. Department of State / Rewards Committee - S 6 Classification use only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    318.002,
+                    576.006,
+                    336.002
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  For Department of Justice, Criminal Division Use Only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_CheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Citizenship and Immigration Services for approval",
+                "struct_parent": 176,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. After checking and evaluating all waivers and other information available, the Department of Justice, Criminal Division:. Select Certifies that, pursuant to Immigration and Nationality Act (I N. A.) section 101(A.)(15)(S) and the request of the above Law Enforcement Agency (L E. A.), the above alien is recommended for the S classification requested, that the above requests for waivers of inadmissibility appear to warrant approval, that this request falls within the numerical limitation for an S visa, and that, therefore, this request is forwarded to the Director of U.S. Citizenship and Immigration Services for approval.",
+                "initial_value": "",
+                "rect": [
+                    37.855,
+                    249.999,
+                    47.855,
+                    259.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P5_CheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Select Denies request",
+                "struct_parent": 177,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. After checking and evaluating all waivers and other information available, the Department of Justice, Criminal Division. Select Denies request.",
+                "initial_value": "",
+                "rect": [
+                    37.855,
+                    195.999,
+                    47.855,
+                    205.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P5_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 181,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.184,
+                    156.002,
+                    300.183,
+                    174.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 179,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.062,
+                    119.999,
+                    300.061,
+                    137.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 178,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    312.001,
+                    156.002,
+                    576.0,
+                    174.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P5_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 180,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    312.114,
+                    119.999,
+                    576.0,
+                    137.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  For Department of Justice, Criminal Division Use Only  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 192,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    671.998,
+                    576.258,
+                    689.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 187,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    636.001,
+                    456.225,
+                    654.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 184,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    600.001,
+                    456.239,
+                    618.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 210,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    192.005,
+                    540.0,
+                    329.993,
+                    558.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 211,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    540.0,
+                    180.003,
+                    558.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 189,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    640.001,
+                    524.001,
+                    650.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P5_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 190,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    640.001,
+                    499.997,
+                    650.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P5_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 191,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    640.001,
+                    475.999,
+                    650.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P5_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 188,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.509,
+                    636.001,
+                    575.51,
+                    654.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 186,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    498.01,
+                    600.001,
+                    575.512,
+                    618.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P5_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 185,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    464.008,
+                    600.001,
+                    492.004,
+                    618.001
+                ],
+                "page_number": 7,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 209,
+                "tool_tip": "Part 5. For Department of Justice, Criminal Division Use Only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    540.0,
+                    576.0,
+                    558.0
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  For U.S. Citizenship and Immigration Services Use Only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Chckboxes[1]",
+                "field_type": "/Btn",
+                "description": ") Request: Select Forwarded to Department of State (D O S) / Visa Office (V O)",
+                "struct_parent": 194,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Forwarded to Department of State (D O S) / Visa Office (V O).",
+                "initial_value": "",
+                "rect": [
+                    175.854,
+                    490.0,
+                    185.854,
+                    500.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "P6_Chckboxes[0]",
+                "field_type": "/Btn",
+                "description": ") Request: Select Granted",
+                "struct_parent": 193,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Granted.",
+                "initial_value": "",
+                "rect": [
+                    109.484,
+                    490.0,
+                    119.484,
+                    500.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/G"
+                ]
+            },
+            {
+                "field_name": "P6_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 208,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.156,
+                    450.0,
+                    300.155,
+                    468.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 206,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.391,
+                    413.997,
+                    300.39,
+                    431.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 204,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    353.35,
+                    576.258,
+                    371.35
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 199,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    317.999,
+                    456.225,
+                    335.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 196,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    281.999,
+                    456.239,
+                    299.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 213,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    192.005,
+                    222.001,
+                    329.993,
+                    240.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 214,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    222.001,
+                    180.003,
+                    240.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Chckboxes[2]",
+                "field_type": "/Btn",
+                "description": ") Request: Select Denied",
+                "struct_parent": 195,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Law Enforcement Agency (L E. A.) Request: Select Denied.",
+                "initial_value": "",
+                "rect": [
+                    355.854,
+                    490.0,
+                    365.854,
+                    500.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "P6_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 205,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    450.0,
+                    576.0,
+                    468.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 207,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    312.001,
+                    413.997,
+                    575.742,
+                    431.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 201,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    321.999,
+                    524.001,
+                    331.999
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P6_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 202,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    321.999,
+                    499.997,
+                    331.999
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P6_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 203,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    321.999,
+                    475.999,
+                    331.999
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P6_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 200,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.361,
+                    317.999,
+                    575.362,
+                    335.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 198,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    281.999,
+                    576.113,
+                    299.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P6_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 197,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.999,
+                    281.999,
+                    491.995,
+                    299.999
+                ],
+                "page_number": 7,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 212,
+                "tool_tip": "Part 6. For U.S. Citizenship and Immigration Services Use Only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    221.981,
+                    576.0,
+                    239.981
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  For Department of State/Visa Office Use Only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Chckboxes[1]",
+                "field_type": "/Btn",
+                "description": "Select Not Forwarded",
+                "struct_parent": 218,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Select Not Forwarded.",
+                "initial_value": "",
+                "rect": [
+                    259.856,
+                    706.003,
+                    269.856,
+                    716.003
+                ],
+                "page_number": 8,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P7_Chckboxes[0]",
+                "field_type": "/Btn",
+                "description": "Select Forwarded to Consul by Visa Office (V O) for Visa Approval",
+                "struct_parent": 217,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Select Forwarded to Consul by Visa Office (V O) for Visa Approval.",
+                "initial_value": "",
+                "rect": [
+                    37.855,
+                    706.003,
+                    47.855,
+                    716.003
+                ],
+                "page_number": 8,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P7_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 231,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.17,
+                    666.003,
+                    300.169,
+                    684.003
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 229,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    630.0,
+                    299.999,
+                    648.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_OfficeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 227,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    569.999,
+                    576.258,
+                    587.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 222,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    534.002,
+                    456.225,
+                    552.002
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 219,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    498.002,
+                    456.239,
+                    516.002
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 248,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    438.001,
+                    329.987,
+                    456.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 249,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    438.001,
+                    180.003,
+                    456.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Chckboxes_Visas[1]",
+                "field_type": "/Btn",
+                "description": "Select Visa Denied",
+                "struct_parent": 243,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Select Visa Denied.",
+                "initial_value": "",
+                "rect": [
+                    127.529,
+                    411.999,
+                    137.529,
+                    421.999
+                ],
+                "page_number": 8,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P7_Chckboxes_Visas[0]",
+                "field_type": "/Btn",
+                "description": "Select Visa Granted",
+                "struct_parent": 242,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Select Visa Granted.",
+                "initial_value": "",
+                "rect": [
+                    37.855,
+                    411.999,
+                    47.855,
+                    421.999
+                ],
+                "page_number": 8,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P7_Signature[1]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 244,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    36.215,
+                    371.999,
+                    300.214,
+                    389.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Name[1]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 245,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    36.454,
+                    335.996,
+                    300.453,
+                    353.996
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_OfficeName2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Office Name",
+                "struct_parent": 240,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Office Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    275.998,
+                    576.258,
+                    293.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_StreetName2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 235,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    240.001,
+                    456.225,
+                    258.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_City2[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 232,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    204.001,
+                    456.239,
+                    222.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_FaxNumber2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 251,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    192.005,
+                    144.0,
+                    330.001,
+                    162.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_DaytimeTelephoneNumber2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 252,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    36.006,
+                    144.0,
+                    180.0,
+                    162.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 228,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    666.133,
+                    576.0,
+                    684.003
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Title[0]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 230,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    312.001,
+                    630.0,
+                    575.742,
+                    648.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 224,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    537.999,
+                    524.001,
+                    547.999
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P7_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 225,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    537.999,
+                    499.997,
+                    547.999
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P7_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 226,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    537.999,
+                    475.999,
+                    547.999
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P7_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 223,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    533.999,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 221,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    497.999,
+                    576.0,
+                    515.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 220,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.999,
+                    497.999,
+                    492.14,
+                    515.999
+                ],
+                "page_number": 8,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P7_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 247,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    438.001,
+                    576.0,
+                    456.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Date[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 241,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    311.885,
+                    372.129,
+                    576.0,
+                    389.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Title[1]",
+                "field_type": "/Tx",
+                "description": "Enter Title",
+                "struct_parent": 246,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Enter Title.",
+                "initial_value": "",
+                "rect": [
+                    312.001,
+                    335.996,
+                    575.742,
+                    353.996
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_Unit2[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 237,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    514.001,
+                    244.001,
+                    524.001,
+                    254.001
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P7_Unit2[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 238,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    489.997,
+                    244.001,
+                    499.997,
+                    254.001
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P7_Unit2[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 239,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    465.999,
+                    244.001,
+                    475.999,
+                    254.001
+                ],
+                "page_number": 8,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P7_AptSteFlrNumber2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 236,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    533.999,
+                    240.001,
+                    576.0,
+                    258.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_ZipCode2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 234,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    204.001,
+                    576.0,
+                    222.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P7_State2[0]",
+                "field_type": "/Ch",
+                "description": "Select State from a list of States",
+                "struct_parent": 233,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Name and Mailing Address. Select State from a list of States.",
+                "initial_value": "",
+                "rect": [
+                    463.999,
+                    204.001,
+                    492.015,
+                    222.001
+                ],
+                "page_number": 8,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P7_EmailAddress2[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-Mail Address",
+                "struct_parent": 250,
+                "tool_tip": "Part 7. For Department of State / Visa Use Only. Office Contact Information. Enter E-Mail Address.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    144.0,
+                    576.0,
+                    162.0
+                ],
+                "page_number": 8
+            }
+        ]
+    }
+]

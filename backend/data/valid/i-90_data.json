@@ -1,0 +1,3413 @@
+[
+    {
+        "title": "Part 1.  Information About You",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number)",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You. 1. Enter Alien Registration Number. (A. Number). ",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    480.002,
+                    291.01,
+                    498.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2_AcctIdentifier[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number, if any",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You. 2. Enter U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    443.999,
+                    294.009,
+                    461.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You. Your Full Name. NOTE: Your card will be issued in this name. 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    371.999,
+                    294.001,
+                    389.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 3. B. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    348.001,
+                    294.001,
+                    366.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 3. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    324.0,
+                    294.001,
+                    342.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_checkbox4[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select Yes. (Proceed to Item Numbers 5. A. through 5. C.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    277.001,
+                    71.0,
+                    287.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[1]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select No (Proceed to Item Numbers 6. A. through 6. I.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    256.0,
+                    71.0,
+                    266.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[2]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select Not Applicable - I never received my previous card. (Proceed to Item Numbers 6. A. through 6. I.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    234.999,
+                    71.0,
+                    244.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/NA"
+                ]
+            },
+            {
+                "field_name": "P1_Line5a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You. Provide your name exactly as it is printed on your current Permanent Resident Card. NOTE:  Attach all evidence of your legal name change with this application. 5. A. Enter Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    120.01,
+                    131.998,
+                    294.009,
+                    149.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You. Provide your name exactly as it is printed on your current Permanent Resident Card. 5. B. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    120.01,
+                    108.0,
+                    294.009,
+                    126.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You. Provide your name exactly as it is printed on your current Permanent Resident Card. 5. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.01,
+                    83.999,
+                    294.009,
+                    101.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. A. Enter In Care Of Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    479.999,
+                    576.0,
+                    497.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number\rand Name",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. B. Enter Street Number\rand Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    455.998,
+                    576.0,
+                    473.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_checkbox6c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    427.0,
+                    435.997,
+                    437.0,
+                    445.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_checkbox6c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.999,
+                    435.997,
+                    394.999,
+                    445.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_checkbox6c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    435.997,
+                    352.998,
+                    445.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line6c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite, or Floor Number",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. C. Enter Apartment, Suite, or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    431.997,
+                    576.0,
+                    449.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    407.999,
+                    576.0,
+                    425.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. F. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    383.998,
+                    576.0,
+                    401.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    383.998,
+                    402.001,
+                    401.998
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line6g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    359.997,
+                    576.0,
+                    377.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    335.999,
+                    576.0,
+                    353.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 6. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    299.999,
+                    576.0,
+                    317.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You. Physical Address. Provide this information only if different than mailing address. 7. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    228.002,
+                    576.0,
+                    246.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_checkbox7b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.997,
+                    208.001,
+                    436.997,
+                    218.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_checkbox7b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.999,
+                    208.001,
+                    394.999,
+                    218.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_checkbox7b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    208.001,
+                    352.998,
+                    218.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line7b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    204.004,
+                    576.0,
+                    222.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    180.003,
+                    576.0,
+                    198.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    156.002,
+                    576.0,
+                    174.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7 D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    365.998,
+                    156.002,
+                    401.998,
+                    174.002
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line7f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    132.001,
+                    576.0,
+                    150.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    108.003,
+                    576.0,
+                    126.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About You. Physical Address. 7. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    72.003,
+                    576.0,
+                    90.003
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line8_female[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 56,
+                "tool_tip": "Part 1. Information About You. Additional Information. 8. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    155.812,
+                    669.997,
+                    165.812,
+                    679.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line8_male[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 55,
+                "tool_tip": "Part 1. Information About You. Additional Information. 8. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    107.813,
+                    669.997,
+                    117.813,
+                    679.997
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line9_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You. Additional Information. 9. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    197.813,
+                    641.999,
+                    293.814,
+                    659.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line10_CityTownOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City / Town / Village of Birth",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You. Additional Information. 10. Enter City / Town / Village of Birth.",
+                "initial_value": "",
+                "rect": [
+                    59.998,
+                    605.996,
+                    293.814,
+                    623.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line11_CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You. Additional Information. 11. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    59.814,
+                    569.996,
+                    293.814,
+                    587.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line12_MotherGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. Information About You. Additional Information. Mother's Name. 12. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.996,
+                    522.0,
+                    293.814,
+                    540.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line13_FatherGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 51,
+                "tool_tip": "Part 1. Information About You. Additional Information. Father's Name. 13. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    119.996,
+                    468.0,
+                    293.814,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line14_ClassOfAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You. Additional Information. 14. Enter Class of Admission.",
+                "initial_value": "",
+                "rect": [
+                    59.814,
+                    419.998,
+                    293.814,
+                    437.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line15_DateOfAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. Information About You. Additional Information. 15. Enter Date of Admission. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    192.509,
+                    384.001,
+                    293.814,
+                    402.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line16_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You. Additional Information. 16. Enter U. S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    164.761,
+                    348.001,
+                    293.771,
+                    366.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Application Type",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_checkbox1[0]",
+                "field_type": "/Btn",
+                "description": "(Proceed to Section A",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. Application Type. NOTE:  If your conditional permanent resident status (for example:  C R 1, C R 2, C F 1, C F 2) is expiring within the next 90 days, then do not file this application.  (See the What is the Purpose of This Application section of the Form I-90 Instructions for further information.) My status is (Select only one box). 1. A. Select Lawful Permanent Resident. (Proceed to Section A.)",
+                "initial_value": "",
+                "rect": [
+                    60.66,
+                    211.189,
+                    70.66,
+                    221.189
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1a"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox1[1]",
+                "field_type": "/Btn",
+                "description": "(Proceed to Section A",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Application Type. My status is (Select only one box). 1. B. Select Permanent Resident - In Commuter Status. (Proceed to Section A.)",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    193.002,
+                    71.0,
+                    203.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1b"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox1[2]",
+                "field_type": "/Btn",
+                "description": "(Proceed to Section B",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Application Type. My status is (Select only one box). 1. C. Select Conditional Permanent Resident. (Proceed to Section B.)",
+                "initial_value": "",
+                "rect": [
+                    60.66,
+                    163.19,
+                    70.66,
+                    173.19
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1c"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[5]",
+                "field_type": "/Btn",
+                "description": "Select My previous card has been lost, stolen, or destroyed",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. A. Select My previous card has been lost, stolen, or destroyed.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    661.186,
+                    352.999,
+                    671.186
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2a"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[6]",
+                "field_type": "/Btn",
+                "description": "Select My previous card was issued but never received",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. B. Select My previous card was issued but never received. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    643.186,
+                    352.999,
+                    653.186
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2b"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[7]",
+                "field_type": "/Btn",
+                "description": "Select My existing card has been mutilated",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. C. Select My existing card has been mutilated. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    625.183,
+                    352.999,
+                    635.183
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2c"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[4]",
+                "field_type": "/Btn",
+                "description": "(Attach your existing card with incorrect data along with this application",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. D. Select My existing card has incorrect data because of Department of Homeland Security (D H S) error. (Attach your existing card with incorrect data along with this application.)  ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    607.186,
+                    352.999,
+                    617.186
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2d"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[0]",
+                "field_type": "/Btn",
+                "description": "Select My name or other biographic information has been legally changed since issuance of my existing card",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. E. Select My name or other biographic information has been legally changed since issuance of my existing card.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    553.186,
+                    352.999,
+                    563.186
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2e"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[1]",
+                "field_type": "/Btn",
+                "description": "Select My existing card has already expired or will expire within six months",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. F. Select My existing card has already expired or will expire within six months. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    523.187,
+                    352.999,
+                    533.187
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2f"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[2]",
+                "field_type": "/Btn",
+                "description": "f",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. G. 1. Select I have reached my 14th birthday and am registering as required. My existing card will expire AFTER my 16th birthday. NOTE: If you are filing this application before your\r14th birthday, or more than 30 days after your 14th\rbirthday, you must select reason 2.j. However, if\ryour card has expired, you must select reason 2.f.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    493.185,
+                    352.999,
+                    503.185
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2g1"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[3]",
+                "field_type": "/Btn",
+                "description": "F",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. G. 2. Select I have reached my 14th birthday and am registering as required. My existing card will expire BEFORE my 16th birthday. NOTE:  If you are filing this application before your 14th birthday, or more than 30 days after your 14th birthday, you must select reason 2. J. However, if your card has expired, you must select reason 2. F.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    436.183,
+                    352.999,
+                    446.183
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2g2"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[11]",
+                "field_type": "/Btn",
+                "description": "Select I am a permanent resident who is taking up commuter status",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. H. 1. Select I am a permanent resident who is taking up commuter status. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    325.187,
+                    352.999,
+                    335.187
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2h1"
+                ]
+            },
+            {
+                "field_name": "P2_Line2h1_CityandState[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town and State",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. H. 1. A. My Port of Entry (P O E) into the United States will be.  Enter City or Town and State.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    258.188,
+                    576.0,
+                    276.188
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_checkbox2[9]",
+                "field_type": "/Btn",
+                "description": "Select I am a commuter who is taking up actual residence in the United States",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. H. 2. Select I am a commuter who is taking up actual residence in the United States. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    241.188,
+                    352.999,
+                    251.188
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2h2"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[10]",
+                "field_type": "/Btn",
+                "description": "Select I have been automatically converted to lawful permanent resident status",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.) 2. I. Select I have been automatically converted to lawful permanent resident status.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    211.189,
+                    352.999,
+                    221.189
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2i"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox2[8]",
+                "field_type": "/Btn",
+                "description": "Select I have a prior edition of the Alien Registration Card, or I am applying to replace my current Permanent Resident Card for a reason that is not specified above",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section A. (To be used only by a lawful permanent resident or a permanent resident in commuter status.). 2. J. Select I have a prior edition of the Alien Registration Card, or I am applying to replace my current Permanent Resident Card for a reason that is not specified above.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    181.187,
+                    352.999,
+                    191.187
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2j"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Application Type  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_checkbox3[4]",
+                "field_type": "/Btn",
+                "description": "Select My previous card has been lost, stolen, or destroyed",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section B. (To be used only by a conditional permanent resident.) 3. A. Select My previous card has been lost, stolen, or destroyed.",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    679.002,
+                    70.98,
+                    689.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3a"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox3[0]",
+                "field_type": "/Btn",
+                "description": "Select My previous card was issued but never received",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section B. (To be used only by a conditional permanent resident.) 3. B. Select My previous card was issued but never received.",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    661.002,
+                    70.98,
+                    671.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3b"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox3[1]",
+                "field_type": "/Btn",
+                "description": "Select My existing card has been mutilated",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section B. (To be used only by a conditional permanent resident.) 3. C. Select My existing card has been mutilated. ",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    643.002,
+                    70.98,
+                    653.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3c"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox3[2]",
+                "field_type": "/Btn",
+                "description": "(Attach your existing permanent resident card with incorrect data along with this application",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section B. (To be used only by a conditional permanent resident.) 3. D. Select My existing card has incorrect data because of Department of Homeland Security (D H S) error. (Attach your existing permanent resident card with incorrect data along with this application.)",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    625.002,
+                    70.98,
+                    635.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3d"
+                ]
+            },
+            {
+                "field_name": "P2_checkbox3[3]",
+                "field_type": "/Btn",
+                "description": "Select My name or other biographical information has legally changed since the issuance of my existing card",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Application Type. Reason for Application (select only one box). Section B. (To be used only by a conditional permanent resident.) 3. E. Select My name or other biographical information has legally changed since the issuance of my existing card. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    583.001,
+                    71.0,
+                    593.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3e"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Processing Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line1_LocationAppliedVisa[0]",
+                "field_type": "/Tx",
+                "description": "Enter Location where you applied for an immigrant visa or adjustment of status",
+                "struct_parent": 67,
+                "tool_tip": "Part 3. Processing Information. 1. Enter Location where you applied for an immigrant visa or adjustment of status.",
+                "initial_value": "",
+                "rect": [
+                    59.981,
+                    486.006,
+                    293.981,
+                    504.006
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line2_LocationIssuedVisa[0]",
+                "field_type": "/Tx",
+                "description": "Enter Location where your immigrant visa was issued or U S C I S office where you were granted adjustment of status",
+                "struct_parent": 68,
+                "tool_tip": "Part 3. Processing Information. 2. Enter Location where your immigrant visa was issued or U S C I S office where you were granted adjustment of status.",
+                "initial_value": "",
+                "rect": [
+                    59.981,
+                    438.004,
+                    293.981,
+                    456.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line3a_Destination[0]",
+                "field_type": "/Tx",
+                "description": "Enter Destination in the United States at time of admission",
+                "struct_parent": 100,
+                "tool_tip": "Part 3. Processing Information. Complete Item Numbers 3. A. and 3. A. 1. if you entered the United States with an immigrant visa. (If you were granted adjustment of status, proceed to Item Number 4.) 3. A. Enter Destination in the United States at time of admission.",
+                "initial_value": "",
+                "rect": [
+                    59.981,
+                    360.003,
+                    293.981,
+                    378.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line3a1_CityandState[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town and State",
+                "struct_parent": 99,
+                "tool_tip": "Part 3. Processing Information. Complete Item Numbers 3. A. and 3. A. 1. if you entered the United States with an immigrant visa. (If you were granted adjustment of status, proceed to Item Number 4.) 3. A. 1. Port of Entry where admitted to the United States. Enter City or Town and State.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    294.001,
+                    330.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_checkbox4[0]",
+                "field_type": "/Btn",
+                "description": "Have you ever been in exclusion, deportation, or removal proceedings or ordered removed from the United States? Select No",
+                "struct_parent": 69,
+                "tool_tip": "Part 3. Processing Information. Complete Item Numbers 3. A. and 3. A. 1. if you entered the United States with an immigrant visa. (If you were granted adjustment of status, proceed to Item Number 4.) 4. Have you ever been in exclusion, deportation, or removal proceedings or ordered removed from the United States? Select No.",
+                "initial_value": "",
+                "rect": [
+                    259.75,
+                    261.998,
+                    269.75,
+                    271.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox4[1]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 70,
+                "tool_tip": "Part 3. Processing Information. Complete Item Numbers 3. A. and 3. A. 1. if you entered the United States with an immigrant visa. (If you were granted adjustment of status, proceed to Item Number 4.) 4. Have you ever been in exclusion, deportation, or removal proceedings or ordered removed from the United States? Select Yes. NOTE:  If you answered \"Yes\" to Item Numbers 4. or 5. above, provide a detailed explanation in the space provided in Part 8. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    215.535,
+                    261.998,
+                    225.535,
+                    271.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox5[0]",
+                "field_type": "/Btn",
+                "description": "Since you were granted permanent residence, have you ever filed Form I-4 07, Abandonment by Alien of Status as Lawful Permanent Resident, or otherwise been judged to have abandoned your status? Select No",
+                "struct_parent": 71,
+                "tool_tip": "Part 3. Processing Information. 5. Since you were granted permanent residence, have you ever filed Form I-4 07, Abandonment by Alien of Status as Lawful Permanent Resident, or otherwise been judged to have abandoned your status? Select No.",
+                "initial_value": "",
+                "rect": [
+                    259.75,
+                    202.0,
+                    269.75,
+                    212.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox5[1]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 72,
+                "tool_tip": "Part 3. Processing Information. 5. Since you were granted permanent residence, have you ever filed Form I-4 07, Abandonment by Alien of Status as Lawful Permanent Resident, or otherwise been judged to have abandoned your status? Select Yes. NOTE:  If you answered \"Yes\" to Item Numbers 4. or 5. above, provide a detailed explanation in the space provided in Part 8. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    215.535,
+                    202.0,
+                    225.535,
+                    212.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox6[1]",
+                "field_type": "/Btn",
+                "description": "Select Hispanic or Latino",
+                "struct_parent": 84,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 6. Ethnicity (Select only one box). Select Hispanic or Latino.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    681.415,
+                    353.999,
+                    691.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/H"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox6[0]",
+                "field_type": "/Btn",
+                "description": "Select Not Hispanic or Latino",
+                "struct_parent": 83,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 6. Ethnicity (Select only one box). Select Not Hispanic or Latino.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    666.416,
+                    353.999,
+                    676.416
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox7_White[0]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 87,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 7. Race (Select all applicable boxes). Select White.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    633.416,
+                    353.999,
+                    643.416
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox7_Asian[0]",
+                "field_type": "/Btn",
+                "description": "Select Asian",
+                "struct_parent": 88,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 7. Race (Select all applicable boxes). Select Asian.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    618.417,
+                    353.999,
+                    628.417
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox7_Black[0]",
+                "field_type": "/Btn",
+                "description": "Select Black or African American",
+                "struct_parent": 89,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 7. Race (Select all applicable boxes). Select Black or African American.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    603.417,
+                    353.999,
+                    613.417
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox7_Indian[0]",
+                "field_type": "/Btn",
+                "description": "Select American Indian or Alaska Native",
+                "struct_parent": 86,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 7. Race (Select all applicable boxes). Select American Indian or Alaska Native.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    588.415,
+                    353.999,
+                    598.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox7_Hawaiian[0]",
+                "field_type": "/Btn",
+                "description": "Select Native Hawaiian or Other Pacific Islander",
+                "struct_parent": 85,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 7. Race (Select all applicable boxes). Select Native Hawaiian or Other Pacific Islander.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    573.415,
+                    353.999,
+                    583.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line8_HeightInches[0]",
+                "field_type": "/Ch",
+                "description": "Select Number of Inches from List",
+                "struct_parent": 74,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 8. Height. Inches. Select Number of Inches from List.",
+                "initial_value": "",
+                "rect": [
+                    540.003,
+                    545.414,
+                    576.0,
+                    563.414
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ]
+            },
+            {
+                "field_name": "P3_Line8_HeightFeet[0]",
+                "field_type": "/Ch",
+                "description": "Select Number of Feet from List",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 8. Height. Feet. Select Number of Feet from List.",
+                "initial_value": "",
+                "rect": [
+                    468.184,
+                    545.414,
+                    504.181,
+                    563.414
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                ]
+            },
+            {
+                "field_name": "P3_Line9_HeightInches3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Third Digit of Weight in Pounds",
+                "struct_parent": 82,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 9. Weight. Pounds. Enter Third Digit of Weight in Pounds.",
+                "initial_value": "",
+                "rect": [
+                    564.001,
+                    521.416,
+                    576.0,
+                    539.416
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line9_HeightInches2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Second Digit of Weight in Pounds",
+                "struct_parent": 81,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 9. Weight. Pounds. Enter Second Digit of Weight in Pounds.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    521.416,
+                    558.0,
+                    539.416
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_Line9_HeightInches1[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Digit of Weight in Pounds",
+                "struct_parent": 80,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 9. Weight. Pounds. Enter First Digit of Weight in Pounds.",
+                "initial_value": "",
+                "rect": [
+                    528.001,
+                    521.416,
+                    540.0,
+                    539.416
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_checkbox10[5]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 95,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    469.999,
+                    486.413,
+                    479.999,
+                    496.413
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BRO"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[0]",
+                "field_type": "/Btn",
+                "description": "Select Blue",
+                "struct_parent": 90,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Blue.",
+                "initial_value": "",
+                "rect": [
+                    409.998,
+                    486.413,
+                    419.998,
+                    496.413
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BLU"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[6]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 96,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    486.413,
+                    353.999,
+                    496.413
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[8]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 98,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    471.413,
+                    353.999,
+                    481.413
+                ],
+                "page_number": 3,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[2]",
+                "field_type": "/Btn",
+                "description": "Select Hazel",
+                "struct_parent": 92,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Hazel.",
+                "initial_value": "",
+                "rect": [
+                    469.999,
+                    471.41,
+                    479.999,
+                    481.41
+                ],
+                "page_number": 3,
+                "options": [
+                    "/HAZ"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[1]",
+                "field_type": "/Btn",
+                "description": "Select Green",
+                "struct_parent": 91,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Green.",
+                "initial_value": "",
+                "rect": [
+                    409.998,
+                    471.41,
+                    419.998,
+                    481.41
+                ],
+                "page_number": 3,
+                "options": [
+                    "/GRN"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[7]",
+                "field_type": "/Btn",
+                "description": "Select Unknown / Other",
+                "struct_parent": 97,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Unknown / Other.",
+                "initial_value": "",
+                "rect": [
+                    469.999,
+                    456.411,
+                    479.999,
+                    466.411
+                ],
+                "page_number": 3,
+                "options": [
+                    "/UNK"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[3]",
+                "field_type": "/Btn",
+                "description": "Select Pink",
+                "struct_parent": 93,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Pink.",
+                "initial_value": "",
+                "rect": [
+                    410.001,
+                    456.411,
+                    420.001,
+                    466.411
+                ],
+                "page_number": 3,
+                "options": [
+                    "/PNK"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox10[4]",
+                "field_type": "/Btn",
+                "description": "Select Maroon",
+                "struct_parent": 94,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 10. Eye Color (Select only one box). Select Maroon.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    456.411,
+                    353.999,
+                    466.411
+                ],
+                "page_number": 3,
+                "options": [
+                    "/MAR"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[1]",
+                "field_type": "/Btn",
+                "description": "Select Blond",
+                "struct_parent": 102,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Blond.",
+                "initial_value": "",
+                "rect": [
+                    487.999,
+                    420.414,
+                    497.999,
+                    430.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BLN"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[8]",
+                "field_type": "/Btn",
+                "description": "Select Black",
+                "struct_parent": 109,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Black.",
+                "initial_value": "",
+                "rect": [
+                    433.999,
+                    420.414,
+                    443.999,
+                    430.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BLK"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[0]",
+                "field_type": "/Btn",
+                "description": "Select Bald (No hair)",
+                "struct_parent": 101,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Bald (No hair).",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    420.414,
+                    353.999,
+                    430.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BAL"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[6]",
+                "field_type": "/Btn",
+                "description": "Select Red",
+                "struct_parent": 107,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Red.",
+                "initial_value": "",
+                "rect": [
+                    487.999,
+                    405.414,
+                    497.999,
+                    415.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/RED"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[2]",
+                "field_type": "/Btn",
+                "description": "Select Gray",
+                "struct_parent": 103,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Gray.",
+                "initial_value": "",
+                "rect": [
+                    433.999,
+                    405.414,
+                    443.999,
+                    415.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/GRY"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[7]",
+                "field_type": "/Btn",
+                "description": "Select Brown",
+                "struct_parent": 108,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Brown.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    405.414,
+                    353.999,
+                    415.414
+                ],
+                "page_number": 3,
+                "options": [
+                    "/BRO"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[4]",
+                "field_type": "/Btn",
+                "description": "Select Unknown / Other",
+                "struct_parent": 105,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Unknown / Other.",
+                "initial_value": "",
+                "rect": [
+                    487.999,
+                    390.415,
+                    497.999,
+                    400.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/UNK"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[5]",
+                "field_type": "/Btn",
+                "description": "Select White",
+                "struct_parent": 106,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select White.",
+                "initial_value": "",
+                "rect": [
+                    434.002,
+                    390.415,
+                    444.002,
+                    400.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/WHI"
+                ]
+            },
+            {
+                "field_name": "P3_checkbox11[3]",
+                "field_type": "/Btn",
+                "description": "Select Sandy",
+                "struct_parent": 104,
+                "tool_tip": "Part 3. Processing Information. Biographic Information. 11. Hair Color (Select only one box). Select Sandy.",
+                "initial_value": "",
+                "rect": [
+                    343.999,
+                    390.415,
+                    353.999,
+                    400.415
+                ],
+                "page_number": 3,
+                "options": [
+                    "/SDY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Accommodations for Individuals with  Disabilities and/or Impairments  (Read the  information in the Form I-90 Instructions before  completing this part.)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_checkbox1[0]",
+                "field_type": "/Btn",
+                "description": "Are you requesting an accommodation because of a disabilities and/or impairments? Select No",
+                "struct_parent": 110,
+                "tool_tip": "Part 4. Accommodations for Individuals with Disabilities and/or Impairments. (Read the information in the Form I-90 instructions before completing this part.) 1. Are you requesting an accommodation because of a disabilities and/or impairments? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.344,
+                    252.102,
+                    552.344,
+                    262.102
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P4_checkbox1[1]",
+                "field_type": "/Btn",
+                "description": "Are you requesting an accommodation because of your disabilities and/or impairments? Select Yes",
+                "struct_parent": 111,
+                "tool_tip": "Part 4. Accommodations for Individuals with Disabilities and/or Impairments. (Read the information in the Form I-90 instructions before completing this part.) NOTE:  If you need extra space to complete this section, use the space provided in Part 8. Additional Information. 1. Are you requesting an accommodation because of your disabilities and/or impairments? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    500.343,
+                    252.102,
+                    510.343,
+                    262.102
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_checkbox1a[0]",
+                "field_type": "/Btn",
+                "description": ", American Sign Language))",
+                "struct_parent": 112,
+                "tool_tip": "Part 4. Accommodations for Individuals with Disabilities and/or Impairments. (Read the information in the Form I-90 instructions before completing this part.) If you answered \"Yes,\" select any applicable boxes. 1. A. Select I am deaf or hard of hearing and request the following accommodation (if you are requesting a sign-language interpreter, indicate for which language (e. g., American Sign Language)).",
+                "initial_value": "",
+                "rect": [
+                    343.183,
+                    213.1,
+                    353.183,
+                    223.1
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_Line1a_AccomodationRequested[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 113,
+                "tool_tip": "Part 4. Accommodations for Individuals With Disabilities and Impairments. (Read the information in the Form I-90 instructions before completing this part.) 1. A. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    104.097,
+                    576.0,
+                    176.097
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Accommodations for Individuals with  Disabilities and/or Impairments  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_checkbox1b[0]",
+                "field_type": "/Btn",
+                "description": "Select I am blind or have low vision and request the following accommodation",
+                "struct_parent": 116,
+                "tool_tip": "Part 4. Accommodations for Individuals With Disabilities and Impairments. (Read the information in the Form I-90 instructions before completing this part.) If you answered \"Yes,\" select any applicable boxes. 1. B. Select I am blind or have low vision and request the following accommodation.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    684.994,
+                    71.0,
+                    694.994
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_Line1b_AccomodationRequested[0]",
+                "field_type": "/Tx",
+                "description": "Enter Accommodation Requested",
+                "struct_parent": 117,
+                "tool_tip": "Part 4. Accommodations for Individuals With Disabilities and Impairments. (Read the information in the Form I-90 instructions before completing this part.) 1. B. Enter Accommodation Requested.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    599.992,
+                    294.001,
+                    671.992
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_checkbox1c[0]",
+                "field_type": "/Btn",
+                "description": "Select I have another type of disability and/or impairment (describe the nature of your disability and/or impairment and the accommodation you are requesting)",
+                "struct_parent": 118,
+                "tool_tip": "Part 4. Accommodations for Individuals With Disabilities and Impairments. (Read the information in the Form I-90 instructions before completing this part.) If you answered \"Yes,\" select any applicable boxes. 1. C. Select I have another type of disability and/or impairment (describe the nature of your disability and/or impairment and the accommodation you are requesting). ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    577.0,
+                    71.0,
+                    587.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_Line1c_AccomodationRequested[0]",
+                "field_type": "/Tx",
+                "description": "Enter Description of Disability and/or Impairment and the Accommodations Requested",
+                "struct_parent": 119,
+                "tool_tip": "Part 4. Accommodations for Individuals With Disabilities and Impairments. (Read the information in the Form I-90 instructions before completing this part.) 1. C. Enter Description of Disability and/or Impairment and the Accommodations Requested.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    467.997,
+                    294.001,
+                    539.997
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Applicant's Statement, Contact  Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Checkbox1a[0]",
+                "field_type": "/Btn",
+                "description": "Select I can read and understand English, and I have read and understand every question and instruction on this application, and my answer to every question",
+                "struct_parent": 122,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. NOTE: Read the Penalties section of the Form I-90 instructions before completing this part. Applicant's Statement. NOTE: Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 1. A. Select I can read and understand English, and I have read and understand every question and instruction on this application, and my answer to every question.  ",
+                "initial_value": "",
+                "rect": [
+                    61.02,
+                    307.0,
+                    71.02,
+                    317.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Checkbox1b[0]",
+                "field_type": "/Btn",
+                "description": "has read to me every question and instruction on this application and my answer to every question in a language in which I am fluent and I understood everything",
+                "struct_parent": 120,
+                "tool_tip": "Part 5.  Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Statement. NOTE: Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 1. B. Select The interpreter named in Part 6. has read to me every question and instruction on this application and my answer to every question in a language in which I am fluent and I understood everything.",
+                "initial_value": "",
+                "rect": [
+                    61.02,
+                    258.998,
+                    71.02,
+                    268.998
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line1b_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 121,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Statement. 1. B. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    78.021,
+                    209.999,
+                    288.02,
+                    227.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Checkbox2[0]",
+                "field_type": "/Btn",
+                "description": "prepared this application for me based only upon information I provided or authorized",
+                "struct_parent": 123,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Statement. NOTE: Select the box for either Item Number 1. A. or 1. B.  If applicable, select the box for Item Number 2. 2. Select At my request, the preparer named in Part 7. prepared this application for me based only upon information I provided or authorized.",
+                "initial_value": "",
+                "rect": [
+                    61.02,
+                    163.0,
+                    71.02,
+                    173.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line2_NameofRepresentative[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Preparer",
+                "struct_parent": 124,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Statement. 2. Enter Name of Preparer.",
+                "initial_value": "",
+                "rect": [
+                    78.021,
+                    140.695,
+                    288.02,
+                    158.695
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line3_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Daytime Telephone Number",
+                "struct_parent": 126,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 3. Enter Applicant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    684.0,
+                    576.0,
+                    702.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line4_MobilePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Mobile Telephone Number (if any)",
+                "struct_parent": 127,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 4. Enter Applicant's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Email Address (if any)",
+                "struct_parent": 125,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Contact Information. 5. Enter Applicant's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 129,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 6. A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.241,
+                    158.703,
+                    576.241,
+                    176.703
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_Line6b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 128,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Signature. 6. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    492.483,
+                    134.702,
+                    576.485,
+                    152.702
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line1a_InterpretersFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 133,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    59.811,
+                    623.999,
+                    293.811,
+                    641.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line1b_InterpretersGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 132,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    59.811,
+                    587.999,
+                    293.811,
+                    605.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line2_NameofBusinessor[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name (if any)",
+                "struct_parent": 134,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.811,
+                    551.996,
+                    293.811,
+                    569.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 136,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    125.81,
+                    497.999,
+                    293.811,
+                    515.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_checkbox3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 145,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.808,
+                    477.998,
+                    154.808,
+                    487.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P6_checkbox3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 144,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.81,
+                    477.998,
+                    112.81,
+                    487.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P6_checkbox3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 143,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.809,
+                    477.998,
+                    70.809,
+                    487.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P6_Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite, or Floor Number",
+                "struct_parent": 137,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite, or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    185.811,
+                    473.998,
+                    293.811,
+                    491.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3c_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 135,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    125.81,
+                    449.997,
+                    293.811,
+                    467.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 139,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    191.809,
+                    425.999,
+                    293.811,
+                    443.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 140,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.809,
+                    425.999,
+                    119.809,
+                    443.999
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P6_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 138,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    125.81,
+                    401.998,
+                    293.811,
+                    419.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 142,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    125.81,
+                    377.997,
+                    293.811,
+                    395.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 141,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    59.984,
+                    341.994,
+                    293.984,
+                    359.994
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line4_InterpretersDaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 147,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    59.984,
+                    275.998,
+                    293.984,
+                    293.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line4_InterpretersDaytimePhoneNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number (if any)",
+                "struct_parent": 148,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.987,
+                    239.998,
+                    293.987,
+                    257.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line5_InterpretersEmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, (if any)",
+                "struct_parent": 146,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, (if any).",
+                "initial_value": "",
+                "rect": [
+                    59.791,
+                    203.998,
+                    293.791,
+                    221.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 149,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and (another language), which is the same language provided in Part 5., Item Number 1. B., and I have read to this applicant in the identified language every question and instruction on this application and his or her answer to every question.  The applicant informed me that he or she understands every instruction, question, and answer on the application, including the Applicant's Certification, and has verified the accuracy of every answer. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    139.292,
+                    137.999,
+                    288.0,
+                    155.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line6a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 151,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    677.999,
+                    576.0,
+                    695.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6_Line6b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 150,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    492.35,
+                    656.697,
+                    576.352,
+                    674.697
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and  Signature of the Person Preparing this  Application, if Other Than the Applicant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 152,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    342.349,
+                    509.397,
+                    576.346,
+                    527.397
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line1b_PreparersGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 153,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Full Name. 1.B. Enter Preparer's Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    342.346,
+                    473.397,
+                    576.346,
+                    491.397
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line2_NameofBusinessor[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name (if any)",
+                "struct_parent": 154,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.346,
+                    437.397,
+                    576.346,
+                    455.397
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 156,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    408.351,
+                    384.596,
+                    576.352,
+                    402.596
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_checkbox3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 165,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    427.349,
+                    364.595,
+                    437.349,
+                    374.595
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P7_checkbox3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 164,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    385.351,
+                    364.595,
+                    395.351,
+                    374.595
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P7_checkbox3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 163,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    343.35,
+                    364.595,
+                    353.35,
+                    374.595
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite, or Floor Number",
+                "struct_parent": 157,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. B. Enter Apartment, Suite, or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    360.0,
+                    576.0,
+                    378.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3c_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 155,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    335.999,
+                    576.003,
+                    353.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 159,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.35,
+                    312.596,
+                    576.349,
+                    330.596
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 160,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. D. Select State from List of States. ",
+                "initial_value": "",
+                "rect": [
+                    366.35,
+                    312.596,
+                    402.35,
+                    330.596
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P7_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 158,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. F. Enter Province. ",
+                "initial_value": "",
+                "rect": [
+                    408.351,
+                    288.595,
+                    576.233,
+                    306.595
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 162,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    408.351,
+                    264.597,
+                    576.233,
+                    282.597
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 161,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.524,
+                    228.594,
+                    576.524,
+                    246.594
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line4_PreparersDaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 167,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.351,
+                    158.698,
+                    576.351,
+                    176.698
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line5_PreparersFaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number (if any)",
+                "struct_parent": 168,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    119.999,
+                    576.0,
+                    137.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line6_PreparersEmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address (if any)",
+                "struct_parent": 166,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Contact Information. 6. Enter Preparer's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.351,
+                    86.698,
+                    576.351,
+                    104.698
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and  Signature of the Person Preparing this  Application, if Other Than the Applicant  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_checkbox7[0]",
+                "field_type": "/Btn",
+                "description": "Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent",
+                "struct_parent": 171,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this application on behalf of the applicant and with the applicant's consent.",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    631.003,
+                    70.98,
+                    641.003
+                ],
+                "page_number": 6,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P7_checkbox7[1]",
+                "field_type": "/Btn",
+                "description": "NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this application, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application",
+                "struct_parent": 172,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends / does not extend beyond the preparation of this application. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this application, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this application. ",
+                "initial_value": "",
+                "rect": [
+                    60.98,
+                    585.705,
+                    70.98,
+                    595.705
+                ],
+                "page_number": 6,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P7_checkbox7Extend[1]",
+                "field_type": "/Btn",
+                "description": "Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application",
+                "struct_parent": 174,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case does not extend beyond the preparation of this application.",
+                "initial_value": "",
+                "rect": [
+                    129.98,
+                    560.703,
+                    139.98,
+                    570.703
+                ],
+                "page_number": 6,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "P7_checkbox7Extend[0]",
+                "field_type": "/Btn",
+                "description": "Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application",
+                "struct_parent": 173,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the applicant in this case extends beyond the preparation of this application.",
+                "initial_value": "",
+                "rect": [
+                    81.981,
+                    560.601,
+                    91.981,
+                    570.601
+                ],
+                "page_number": 6,
+                "options": [
+                    "/E"
+                ]
+            },
+            {
+                "field_name": "P7_Line8a_SignatureofPreparer[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 175,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant. Preparer's Signature. 8. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    59.978,
+                    240.001,
+                    293.978,
+                    258.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 176,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing This Application, If Other Than the Applicant.  Preparer's Signature. 8. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    209.979,
+                    216.003,
+                    293.981,
+                    234.003
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line3a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field pre-populates from page 1",
+                "struct_parent": 191,
+                "tool_tip": "Part 8. Additional Information. If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Include your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. Your Full Name. 1. A. Family Name (Last Name). This is a read only field. This field pre-populates from page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    564.001,
+                    293.998,
+                    582.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line3b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field pre-populates from page 1",
+                "struct_parent": 192,
+                "tool_tip": "Part 8. Additional Information. Your Full Name. 1. B. Given Name (First Name). This is a read only field. This field pre-populates from page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    540.0,
+                    293.998,
+                    558.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line3c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field pre-populates from page 1",
+                "struct_parent": 193,
+                "tool_tip": "Part 8. Additional Information. Your Full Name. 1. C. Middle Name. This is a read only field. This field pre-populates from page 1.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    515.999,
+                    293.998,
+                    533.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P1_Line1_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "Number)",
+                "struct_parent": 202,
+                "tool_tip": "Part 1. Information About You. 1. Enter Alien Registration Number. (A. Number). ",
+                "initial_value": "",
+                "rect": [
+                    164.988,
+                    479.999,
+                    293.998,
+                    497.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 187,
+                "tool_tip": "Part 8. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    438.001,
+                    294.001,
+                    456.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 186,
+                "tool_tip": "Part 8. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.995,
+                    438.001,
+                    203.995,
+                    456.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 185,
+                "tool_tip": "Part 8. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    438.001,
+                    113.995,
+                    456.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 179,
+                "tool_tip": "Part 8. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    251.898,
+                    294.015,
+                    431.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 196,
+                "tool_tip": "Part 8. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.97,
+                    210.002,
+                    293.97,
+                    228.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 195,
+                "tool_tip": "Part 8. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.97,
+                    210.002,
+                    203.97,
+                    228.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 194,
+                "tool_tip": "Part 8. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.97,
+                    210.002,
+                    113.97,
+                    228.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 197,
+                "tool_tip": "Part 8. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.975,
+                    42.001,
+                    294.001,
+                    204.004
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 190,
+                "tool_tip": "Part 8. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.994,
+                    708.001,
+                    575.994,
+                    726.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 189,
+                "tool_tip": "Part 8. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.994,
+                    708.001,
+                    485.994,
+                    726.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 188,
+                "tool_tip": "Part 8. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    708.001,
+                    395.994,
+                    726.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 184,
+                "tool_tip": "Part 8. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    522.0,
+                    575.994,
+                    702.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 182,
+                "tool_tip": "Part 8. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.994,
+                    479.999,
+                    575.994,
+                    497.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 181,
+                "tool_tip": "Part 8. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.994,
+                    479.999,
+                    485.994,
+                    497.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 180,
+                "tool_tip": "Part 8. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.994,
+                    479.999,
+                    395.994,
+                    497.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 183,
+                "tool_tip": "Part 8. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    294.001,
+                    576.02,
+                    474.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5c_ItemNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 200,
+                "tool_tip": "Part 8. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.969,
+                    252.0,
+                    575.969,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5b_PartNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 199,
+                "tool_tip": "Part 8. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.969,
+                    252.0,
+                    485.969,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5a_PageNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 198,
+                "tool_tip": "Part 8. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.969,
+                    252.0,
+                    395.969,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P8_Line5d_AdditionalInfo[2]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 201,
+                "tool_tip": "Part 8. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.974,
+                    66.002,
+                    575.994,
+                    246.002
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

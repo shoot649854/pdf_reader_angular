@@ -1,0 +1,170 @@
+[
+    {
+        "title": "Paperwork Reduction Act",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "1",
+                "struct_parent": 30,
+                "tool_tip": "Check List. 1. Did you answer each question on Form I-7 30 according to the instructions on the form? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    397.0,
+                    341.0,
+                    407.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "2",
+                "struct_parent": 31,
+                "tool_tip": "Check List. 2. Did you sign and date Form I-7 30? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    367.001,
+                    341.0,
+                    377.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[2]",
+                "field_type": "/Btn",
+                "description": "3",
+                "struct_parent": 32,
+                "tool_tip": "Check List. 3. Did you submit proof of your status as a refugee or asylee in the United States? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    349.001,
+                    341.0,
+                    359.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[3]",
+                "field_type": "/Btn",
+                "description": "4",
+                "struct_parent": 33,
+                "tool_tip": "Check List. 4. Did you submit documented proof of relationship, including copies and translations? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    319.002,
+                    341.0,
+                    329.002
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[4]",
+                "field_type": "/Btn",
+                "description": "5",
+                "struct_parent": 34,
+                "tool_tip": "Check List. 5. Did you submit the beneficiary's photo? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    289.0,
+                    341.0,
+                    299.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[5]",
+                "field_type": "/Btn",
+                "description": "6",
+                "struct_parent": 35,
+                "tool_tip": "Check List. 6. Did you provide the beneficiary's address where he or she is residing now? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    271.0,
+                    341.0,
+                    281.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[6]",
+                "field_type": "/Btn",
+                "description": "7",
+                "struct_parent": 36,
+                "tool_tip": "Check List. 7. Did you provide the beneficiary's name and address as written in the language of his or her country of residence? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    241.001,
+                    341.0,
+                    251.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[7]",
+                "field_type": "/Btn",
+                "description": "8",
+                "struct_parent": 37,
+                "tool_tip": "Check List. 8. If your beneficiary is currently residing in the United States, did he or she review the information on this petition for accuracy? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    199.0,
+                    341.0,
+                    209.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[8]",
+                "field_type": "/Btn",
+                "description": "9",
+                "struct_parent": 38,
+                "tool_tip": "Check List. 9. If your beneficiary is currently residing in the United States, did he or she read the certification statement, sign it, and date it? ",
+                "initial_value": "",
+                "rect": [
+                    331.0,
+                    157.002,
+                    341.0,
+                    167.002
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    }
+]
