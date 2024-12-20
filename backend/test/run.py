@@ -16,7 +16,7 @@ FolderYear = datetime.datetime.now().strftime("%Y")
 FolderDate = datetime.datetime.now().strftime("%m-%d")
 LogFileName = f"{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv"
 
-DATALOG_FILE_PATH = f"test_log/{LogFileName}"
+DATALOG_FILE_PATH = f"./results/{LogFileName}"
 os.makedirs(os.path.dirname(DATALOG_FILE_PATH), exist_ok=True)
 
 

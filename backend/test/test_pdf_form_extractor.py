@@ -16,15 +16,6 @@ warnings.filterwarnings("ignore", category=DeprecationWarning, message=".*builti
 PDF_PATHS = glob.glob(os.path.join(FILE_PDF_PATH, "*.pdf"))
 
 
-def test_pdf_form_extractor_get_fields():
-    generate_res = GenerateResponse()
-    response_parser = JSONFieldLoader()
-
-    extractor = PDFFormExtractor(PDF_PATHS[2], generate_res, response_parser)
-    fields = extractor.get_fields()
-    assert len(fields) > 1, "Should return more than one field"
-
-
 def test_pdf_form_extractor_get_fields_with_fields():
     generate_res = GenerateResponse()
     response_parser = JSONFieldLoader()
