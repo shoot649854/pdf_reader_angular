@@ -1,0 +1,542 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "FEE_NUMBER[0]",
+                "field_type": "/Tx",
+                "description": "File Number",
+                "struct_parent": 7,
+                "tool_tip": "File Number",
+                "initial_value": "",
+                "rect": [
+                    269.263,
+                    643.606,
+                    584.249,
+                    656.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MY_NAME_IS_FIRST[0]",
+                "field_type": "/Tx",
+                "description": "FIRST NAME",
+                "struct_parent": 9,
+                "tool_tip": "FIRST NAME",
+                "initial_value": "",
+                "rect": [
+                    252.142,
+                    618.86,
+                    403.512,
+                    631.616
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "APPLICATION FOR WAIVER  OF PASSPORT AND/OR VISA",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "MY_NAME_IS_LAST[0]",
+                "field_type": "/Tx",
+                "description": "LAST NAME",
+                "struct_parent": 8,
+                "tool_tip": "LAST NAME",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    618.86,
+                    244.49,
+                    631.616
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MY_UNITED_STATES_DESTINATION[0]",
+                "field_type": "/Tx",
+                "description": "MY UNITED STATES DESTINATION IS:     (NUMBER AND STREET, APARTMENT NUMBER, CITY, STATE, ZIP CODE) ",
+                "struct_parent": 11,
+                "tool_tip": "MY UNITED STATES DESTINATION IS:     (NUMBER AND STREET, APARTMENT NUMBER, CITY, STATE, ZIP CODE) ",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    594.085,
+                    585.045,
+                    606.841
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MY_PERMANENT_ADDRESS_ABROAD[0]",
+                "field_type": "/Tx",
+                "description": "MY PERMANENT ADDRESS ABROAD IS",
+                "struct_parent": 12,
+                "tool_tip": "MY PERMANENT ADDRESS ABROAD IS",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    569.338,
+                    585.077,
+                    582.094
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "THE_COUNTRY_OF_WHICH_I_AM_A_CITIZEN_SUBJECT_OR_NATIONA[0]",
+                "field_type": "/Tx",
+                "description": "THE COUNTRY OF WHICH I AM A CITIZEN, SUBJECT OR NATIONAL IS",
+                "struct_parent": 13,
+                "tool_tip": "THE COUNTRY OF WHICH I AM A CITIZEN, SUBJECT OR NATIONAL IS",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    544.62,
+                    585.077,
+                    557.376
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PLACE_OF_BIRTH[0]",
+                "field_type": "/Tx",
+                "description": "PLACE OF BIRTH",
+                "struct_parent": 29,
+                "tool_tip": "PLACE OF BIRTH",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    522.113,
+                    369.754,
+                    534.869
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Port_Of_Arrival[0]",
+                "field_type": "/Tx",
+                "description": "PORT OF ARRIVAL",
+                "struct_parent": 14,
+                "tool_tip": "PORT OF ARRIVAL",
+                "initial_value": "",
+                "rect": [
+                    226.489,
+                    499.606,
+                    584.25,
+                    512.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_Of_Arrival[0]",
+                "field_type": "/Tx",
+                "description": "DATE OF ARRIVAL    Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 30,
+                "tool_tip": "DATE OF ARRIVAL    Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    33.732,
+                    499.606,
+                    98.985,
+                    512.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Manner_Of_Arrival[0]",
+                "field_type": "/Tx",
+                "description": "MANNER OF ARRIVAL (NAME OF VESSEL, AIRLINE, ETCETERA)",
+                "struct_parent": 16,
+                "tool_tip": "MANNER OF ARRIVAL (NAME OF VESSEL, AIRLINE, ETCETERA)",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    476.334,
+                    583.515,
+                    489.09
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Previous_Number[0]",
+                "field_type": "/Tx",
+                "description": "VISA NUMBER",
+                "struct_parent": 19,
+                "tool_tip": "VISA NUMBER",
+                "initial_value": "",
+                "rect": [
+                    288.737,
+                    454.138,
+                    355.519,
+                    466.894
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_Of_Previous_Issue[0]",
+                "field_type": "/Tx",
+                "description": "DATE VISA ISSUED   Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 18,
+                "tool_tip": "DATE VISA ISSUED   Enter 2-digit month, 2-digit day and 4-digit year. ",
+                "initial_value": "",
+                "rect": [
+                    217.502,
+                    454.138,
+                    282.755,
+                    466.894
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Place_Visa_Previously_Issued[0]",
+                "field_type": "/Tx",
+                "description": "PLACE VISA PREVIOUSLY ISSUED",
+                "struct_parent": 17,
+                "tool_tip": "PLACE VISA PREVIOUSLY ISSUED",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    454.138,
+                    198.739,
+                    466.894
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Number_Passport[0]",
+                "field_type": "/Tx",
+                "description": "PASSPORT NUMBER",
+                "struct_parent": 23,
+                "tool_tip": "PASSPORT NUMBER",
+                "initial_value": "",
+                "rect": [
+                    288.737,
+                    427.606,
+                    444.756,
+                    440.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_Passport[0]",
+                "field_type": "/Tx",
+                "description": "PASSPORT ISSUE DATE    Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 22,
+                "tool_tip": "PASSPORT ISSUE DATE    Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    217.503,
+                    427.606,
+                    282.756,
+                    440.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Place_Passport_Issued[0]",
+                "field_type": "/Tx",
+                "description": "PLACE PASSPORT ISSUED",
+                "struct_parent": 21,
+                "tool_tip": "PLACE PASSPORT ISSUED",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    427.606,
+                    198.725,
+                    440.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "VISA",
+                "struct_parent": 2,
+                "tool_tip": "VISA",
+                "initial_value": "",
+                "rect": [
+                    297.162,
+                    415.361,
+                    307.162,
+                    425.361
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "PASSPORT",
+                "struct_parent": 1,
+                "tool_tip": "PASSPORT",
+                "initial_value": "",
+                "rect": [
+                    224.0,
+                    415.361,
+                    234.0,
+                    425.361
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Reason_No_Passport_Visa[0]",
+                "field_type": "/Tx",
+                "description": "THE REASON I AM NOT IN POSSESSION OF PASSPORT / VISA IS AS FOLLOWS",
+                "struct_parent": 34,
+                "tool_tip": "THE REASON I AM NOT IN POSSESSION OF PASSPORT / VISA IS AS FOLLOWS",
+                "initial_value": "",
+                "rect": [
+                    30.755,
+                    363.176,
+                    582.746,
+                    413.405
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "DATE OF THIS APPLICATION    Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 31,
+                "tool_tip": "DATE OF THIS APPLICATION    Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    32.258,
+                    338.343,
+                    97.511,
+                    351.099
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_State_Applicant[0]",
+                "field_type": "/Tx",
+                "description": "CITY AND STATE",
+                "struct_parent": 24,
+                "tool_tip": "CITY AND STATE",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    315.099,
+                    297.017,
+                    327.855
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Preparer_Signature[0]",
+                "field_type": "/Tx",
+                "description": "This is a protected field",
+                "struct_parent": 26,
+                "tool_tip": "Signature of Preparer. This is a protected field.",
+                "initial_value": "",
+                "rect": [
+                    32.261,
+                    246.189,
+                    218.239,
+                    258.945
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Preparer_Address[0]",
+                "field_type": "/Tx",
+                "description": "Address of Preparer",
+                "struct_parent": 27,
+                "tool_tip": "Address of Preparer",
+                "initial_value": "",
+                "rect": [
+                    222.01,
+                    245.452,
+                    457.512,
+                    258.208
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "APPLICATION APPROVED",
+                "struct_parent": 3,
+                "tool_tip": "APPLICATION APPROVED.  WAIVER GRANTED",
+                "initial_value": "",
+                "rect": [
+                    31.244,
+                    196.47,
+                    41.244,
+                    206.47
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[3]",
+                "field_type": "/Btn",
+                "description": "UNDER SECTION 211(b) by authority of  ",
+                "struct_parent": 5,
+                "tool_tip": "UNDER SECTION 211(b) by authority of  ",
+                "initial_value": "",
+                "rect": [
+                    65.742,
+                    182.211,
+                    75.742,
+                    192.211
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[4]",
+                "field_type": "/Btn",
+                "description": "UNDER SECTION 212(d) (4) by authority of",
+                "struct_parent": 6,
+                "tool_tip": "UNDER SECTION 212(d) (4) by authority of",
+                "initial_value": "",
+                "rect": [
+                    65.77,
+                    148.082,
+                    75.77,
+                    158.082
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "MY_NAME_IS_MIDDLE[0]",
+                "field_type": "/Tx",
+                "description": "MIDDLE NAME",
+                "struct_parent": 10,
+                "tool_tip": "MIDDLE NAME",
+                "initial_value": "",
+                "rect": [
+                    410.996,
+                    618.86,
+                    584.25,
+                    631.616
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_Of_Birth[0]",
+                "field_type": "/Tx",
+                "description": "DATE OF BIRTH (MM/DD/YYYY)   Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 15,
+                "tool_tip": "DATE OF BIRTH (MM/DD/YYYY)   Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    380.239,
+                    522.113,
+                    445.492,
+                    534.869
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Valid_To[0]",
+                "field_type": "/Tx",
+                "description": "VISA VALID TO   Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 32,
+                "tool_tip": "VISA VALID TO   Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    466.129,
+                    454.138,
+                    531.382,
+                    466.894
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Previous_Classification[0]",
+                "field_type": "/Tx",
+                "description": "VISA CLASSIFICATION",
+                "struct_parent": 20,
+                "tool_tip": "VISA CLASSIFICATION",
+                "initial_value": "",
+                "rect": [
+                    365.216,
+                    454.138,
+                    459.014,
+                    466.894
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Passport_Valid_To[0]",
+                "field_type": "/Tx",
+                "description": "PASSPORT VALID TO    Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 33,
+                "tool_tip": "PASSPORT VALID TO    Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    466.129,
+                    427.606,
+                    531.382,
+                    440.362
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Signature_Of_Applicant[0]",
+                "field_type": "/Tx",
+                "description": "SIGNATURE OF APPLICANT    This is a protected field",
+                "struct_parent": 25,
+                "tool_tip": "SIGNATURE OF APPLICANT    This is a protected field.",
+                "initial_value": "",
+                "rect": [
+                    306.737,
+                    331.597,
+                    578.239,
+                    344.353
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_Of_Preparation[0]",
+                "field_type": "/Tx",
+                "description": "Date Document Prepared    Enter 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 28,
+                "tool_tip": "Date Document Prepared    Enter 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    487.502,
+                    246.189,
+                    552.755,
+                    258.945
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox1[2]",
+                "field_type": "/Btn",
+                "description": "Application Disapproved",
+                "struct_parent": 4,
+                "tool_tip": "Application Disapproved",
+                "initial_value": "",
+                "rect": [
+                    396.517,
+                    197.178,
+                    406.517,
+                    207.178
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    }
+]

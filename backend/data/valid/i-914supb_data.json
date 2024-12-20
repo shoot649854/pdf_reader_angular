@@ -1,0 +1,1355 @@
+[
+    {
+        "title": "Supplement B, Delaration of Law Enforcement Officer for  Victim of Trafficking in Persons",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "MiddleNameifany[0]",
+                "field_type": "/Tx",
+                "description": "Full Legal Name, Enter Middle Name",
+                "struct_parent": 1,
+                "tool_tip": "PART 1. Victim Information.  1. Full Legal Name, Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    295.574,
+                    587.999,
+                    403.205,
+                    606.661
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Full Legal Name, Enter Given Name (First Name)",
+                "struct_parent": 2,
+                "tool_tip": "PART 1. Victim Information. 1.  Full Legal Name, Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    177.851,
+                    587.999,
+                    291.089,
+                    605.953
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenNameFirstName[1]",
+                "field_type": "/Tx",
+                "description": "Full Legal Name, Enter Family Name (Last Name)",
+                "struct_parent": 3,
+                "tool_tip": "START HERE  - Type or print in ink.  This form should be completed by Federal, state, local, or tribal law enforcement agencies for victims under the Victims of Trafficking and Violence Protection Act (VTVPA), Public Law 1 0 6 - 3 86, as amended. PART 1. Victim Information. 1.  Full Legal Name, Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.129,
+                    587.999,
+                    172.245,
+                    606.825
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameMiddle1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 6,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information.    Row 1.  Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    306.0,
+                    492.004,
+                    402.001,
+                    510.663
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameFirst1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 7,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information.  Row 1.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    180.232,
+                    492.004,
+                    300.01,
+                    510.663
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameLastName1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 8,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Row 1.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    492.004,
+                    173.999,
+                    510.663
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameMiddle2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 9,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Row 2.  Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    306.0,
+                    473.344,
+                    402.001,
+                    492.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameFirst2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 10,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information. Row 2.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    180.232,
+                    473.344,
+                    300.01,
+                    492.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNameLastName2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 11,
+                "tool_tip": "PART 1. Victim Information.  2. Other Names Used.  Provide any other names you have used since birth, including aliases, maiden names, and nicknames.  If you need extra space to complete this section, use the space provided in Part 9. Additional Information.  Row 2.             Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    473.344,
+                    173.999,
+                    492.004
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 4,
+                "tool_tip": "PART 1. Victim Information.  4.  Gender or Sex. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    266.837,
+                    442.001,
+                    276.837,
+                    452.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_Line2_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 14,
+                "tool_tip": "PART 1. Victim Information. 3.  Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    438.001,
+                    192.002,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part3_Line6_AlienRegistrationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number) (if any",
+                "struct_parent": 12,
+                "tool_tip": "PART 1. Victim Information. 5.  Enter Alien Registration Number (A. Number) (if any.)",
+                "initial_value": "",
+                "rect": [
+                    90.0,
+                    396.0,
+                    219.01,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P3_Line5_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number (if any)",
+                "struct_parent": 13,
+                "tool_tip": "PART 1. Victim Information. 6.  Enter Social Security Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    360.0,
+                    201.01,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenNameFirstName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Certifying Agency",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Agency Information. 1.  Enter Name of Certifying Agency.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    294.001,
+                    402.001,
+                    311.66
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenNameFirstName[3]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Certifying Official",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Agency Information. 2.  Enter Name of Certifying Official.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    258.001,
+                    402.001,
+                    275.66
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenNameFirstName[4]",
+                "field_type": "/Tx",
+                "description": "Enter Title of Certifying Official",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Agency Information. 3. Enter Title of Certifying Official.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    402.004,
+                    239.66
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DivisionOfficeofCertifyingOfficial[0]",
+                "field_type": "/Tx",
+                "description": "Enter Division / Office of Certifying Official",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Agency Information.  4.  Enter Division / Office of Certifying Official.",
+                "initial_value": "",
+                "rect": [
+                    59.998,
+                    186.001,
+                    402.001,
+                    203.66
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Agency Information.  5. Agency Mailing Address.  Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    132.001,
+                    450.0,
+                    150.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    96.001,
+                    456.001,
+                    114.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "HomeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "6",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Agency Information. 6. Enter Daytime Telephone Number ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    60.001,
+                    294.001,
+                    78.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "gender[2]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 30,
+                "tool_tip": "PART A1 Victim Information.  4. Gender or Sex. Select Other.",
+                "initial_value": "",
+                "rect": [
+                    362.835,
+                    442.001,
+                    372.835,
+                    452.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 5,
+                "tool_tip": "PART 1. Victim Information. 4.  Gender or Sex. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    308.835,
+                    442.001,
+                    318.835,
+                    452.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for Floor",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address.  Check this box for Floor.",
+                "initial_value": "",
+                "rect": [
+                    496.507,
+                    136.001,
+                    506.507,
+                    146.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_Line6_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for Suite",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address.  Check this box for Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.507,
+                    136.001,
+                    488.507,
+                    146.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_Line6_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Apartment",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address.  Check this box for Apartment.",
+                "initial_value": "",
+                "rect": [
+                    460.507,
+                    136.001,
+                    470.507,
+                    146.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_Line6__AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor number",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address. Enter Apartment, Suite or Floor number.",
+                "initial_value": "",
+                "rect": [
+                    516.002,
+                    131.998,
+                    570.002,
+                    149.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the list of States",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address.  Select State from the list of States.",
+                "initial_value": "",
+                "rect": [
+                    456.001,
+                    96.001,
+                    510.001,
+                    114.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "",
+                    "N/A",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_Line6_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Agency Information. 5.  Agency Mailing Address.   Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    516.002,
+                    95.998,
+                    570.002,
+                    113.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "HomeTelephoneNumber[1]",
+                "field_type": "/Tx",
+                "description": "7",
+                "struct_parent": 29,
+                "tool_tip": "Part 2. Agency Information. 7.   Enter Fax Number",
+                "initial_value": "",
+                "rect": [
+                    336.002,
+                    60.001,
+                    570.002,
+                    78.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "agency[3]",
+                "field_type": "/Btn",
+                "description": "Select Tribal",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Agency Information.  8.  Agency Type. Select Tribal.",
+                "initial_value": "",
+                "rect": [
+                    266.834,
+                    688.0,
+                    276.834,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "agency[0]",
+                "field_type": "/Btn",
+                "description": "Select Local",
+                "struct_parent": 34,
+                "tool_tip": "Part 2.  Agency Information  8.  Agency Type. Select Local.",
+                "initial_value": "",
+                "rect": [
+                    200.835,
+                    688.0,
+                    210.835,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "agency[1]",
+                "field_type": "/Btn",
+                "description": "Select State",
+                "struct_parent": 35,
+                "tool_tip": "Part 2. Agency Information. 8.  Agency Type. Select State.",
+                "initial_value": "",
+                "rect": [
+                    134.836,
+                    688.0,
+                    144.836,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "agency[2]",
+                "field_type": "/Btn",
+                "description": "Select Federal",
+                "struct_parent": 36,
+                "tool_tip": "Part 2. Agency Information.  8. Agency Type. Select Federal.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    688.0,
+                    72.836,
+                    698.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "caseStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Completed",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. Agency Information. 9.  Case Status. Select Completed.",
+                "initial_value": "",
+                "rect": [
+                    134.836,
+                    652.0,
+                    144.836,
+                    662.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "caseStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select On-going",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Agency Information. 9.  Case Status. Select On-going.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    652.0,
+                    72.836,
+                    662.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "certAgency[2]",
+                "field_type": "/Btn",
+                "description": "Select Prosecutor",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. Agency Information. 10. Certifying Agency Category. Select Prosecutor.",
+                "initial_value": "",
+                "rect": [
+                    230.834,
+                    616.0,
+                    240.834,
+                    626.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "certAgency[0]",
+                "field_type": "/Btn",
+                "description": "Select Law Enforcement",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Agency Information. 10.  Certifying Agency Category. Select Law Enforcement.",
+                "initial_value": "",
+                "rect": [
+                    122.834,
+                    616.0,
+                    132.834,
+                    626.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "certAgency[1]",
+                "field_type": "/Btn",
+                "description": "Select Judge",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. Agency Information.   10. Certifying Agency Category. Select Judge.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    616.0,
+                    72.836,
+                    626.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "GivenNameFirstName[5]",
+                "field_type": "/Tx",
+                "description": "Enter F B I or  S I D Number",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. Agency Information. 12.  Enter F B I or  S I D Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    576.0,
+                    449.881,
+                    592.833
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "GivenNameFirstName[6]",
+                "field_type": "/Tx",
+                "description": "Enter Case Number",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. Agency Information. 11.  Enter Case Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    576.0,
+                    236.344,
+                    593.659
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Yes[0]",
+                "field_type": "/Btn",
+                "description": "Sex trafficking means the recruitment, harboring, transportation, provision, obtaining, patronizing, or soliciting  of a person for the purpose of a commercial sex act",
+                "struct_parent": 32,
+                "tool_tip": "Part 3. Statement of Claim. 1. The applicant is or has been a victim of a severe form of trafficking in persons.  Specifically, he or she is a victim of: (Select all that apply. Base your analysis on the victimization the applicant experienced, rather than on the specific violations charged, the counts on which convictions were obtained, or whether any prosecution resulted in convictions. Note that the definitions that control this analysis are not the elements of criminal offenses, but are those set forth at 8 Code of Federal Regulations 2 14.11(a).)  Select Sex trafficking in which a commercial sex act was induced by force, fraud, or coercion. Sex trafficking means the recruitment, harboring, transportation, provision, obtaining, patronizing, or soliciting  of a person for the purpose of a commercial sex act.",
+                "initial_value": "",
+                "rect": [
+                    62.623,
+                    463.099,
+                    72.623,
+                    473.099
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Yes[1]",
+                "field_type": "/Btn",
+                "description": ")   Select Sex trafficking and the victim is under 18 years of age",
+                "struct_parent": 33,
+                "tool_tip": "Part 3. Statement of Claim. 1. The applicant is or has been a victim of a severe form of trafficking in persons.  Specifically, he or she is a victim of: (Select all that apply.  Base your analysis on the victimization the applicant experienced rather than on the specific violations charged, the counts on which convictions were obtained, or whether any prosecution resulted in convictions.  Note that the definitions that control this analysis are not the elements of criminal offenses, but are those set forth at 8 CFR 214.11(a).)   Select Sex trafficking and the victim is under 18 years of age.",
+                "initial_value": "",
+                "rect": [
+                    62.623,
+                    432.984,
+                    72.623,
+                    442.984
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Yes[2]",
+                "field_type": "/Btn",
+                "description": ")   Select The recruitment, harboring transportation, provision, or obtaining of a person for labor or services through the use of force, fraud, or coercion for subjection to involuntary servitude, peonage, debt bondage, or slavery",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Statement of Claim. 1.  The applicant is or has been a victim of a severe form of trafficking in persons.  Specifically, he or she is a victim of: (Select all that apply.  Base your analysis on the victimization the applicant experienced rather than on the specific violations charged, the counts on which convictions were obtained, or whether any prosecution resulted in convictions.  Note that the definitions that control this analysis are not the elements of criminal offenses, but are those set forth at 8 CFR 214.11(a).)   Select The recruitment, harboring transportation, provision, or obtaining of a person for labor or services through the use of force, fraud, or coercion for subjection to involuntary servitude, peonage, debt bondage, or slavery.",
+                "initial_value": "",
+                "rect": [
+                    62.623,
+                    408.999,
+                    72.623,
+                    418.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Yes[3]",
+                "field_type": "/Btn",
+                "description": ")  Select Other, specify on attached additional sheets",
+                "struct_parent": 47,
+                "tool_tip": "Part 3.  Statement of Claim 1.    The applicant is or has been a victim of a severe form of trafficking in persons.  Specifically, he or she is a victim of: (Select all that apply.  Base your analysis on the victimization the applicant experienced rather than on the specific violations charged, the counts on which convictions were obtained, or whether any prosecution resulted in convictions.  Note that the definitions that control this analysis are not the elements of criminal offenses, but are those set forth at 8 CFR 214.11(a).)  Select Other, specify on attached additional sheets.",
+                "initial_value": "",
+                "rect": [
+                    62.623,
+                    384.985,
+                    72.623,
+                    394.985
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "partc_other[0]",
+                "field_type": "/Tx",
+                "description": "Attach additional sheets, if necessary",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Statement of Claim. 2. Please describe the victimization the applicant's claim is based on  and identify the relationship between that victimization and the crime  investigated or prosecuted. Attach the results of any name or database inquiry performed in the investigation of the case, as well as any relevant reports and findings. Include relevant dates, etc. Attach additional sheets, if necessary.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    238.226,
+                    576.0,
+                    342.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "partc_other[1]",
+                "field_type": "/Tx",
+                "description": "Attach additional sheets, if necessary",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Statement of Claim. 3. Has the applicant expressed any fear of retaliation or revenge if removed from the United States? If yes, explain. Attach additional sheets, if necessary. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    100.227,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "certAgency[3]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 43,
+                "tool_tip": "Part B. Agency Information. Certifying Agency Category. Select Other.",
+                "initial_value": "",
+                "rect": [
+                    308.835,
+                    616.0,
+                    318.835,
+                    626.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Other[0]",
+                "field_type": "/Tx",
+                "description": "Select Other",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Agency Information. 10.  Certifying Agency Category.  Select Other.",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    612.737,
+                    440.399,
+                    630.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Date[3]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Statement of Claim. 4. Provide the date or dates on which the acts of trafficking occurred. Enter Date Two. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    189.711,
+                    674.998,
+                    314.591,
+                    691.619
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Statement of Claim. 4. Provide the date or dates on which the acts of trafficking occurred. Enter Date One. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    59.788,
+                    674.998,
+                    184.668,
+                    691.962
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FFField1[0]",
+                "field_type": "/Tx",
+                "description": "List the statutory citation or citations for the acts of trafficking being investigated or prosecuted, or that were investigated or prosecuted",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Statement of Claim. 5. List the statutory citation or citations for the acts of trafficking being investigated or prosecuted, or that were investigated or prosecuted. ",
+                "initial_value": "",
+                "rect": [
+                    61.441,
+                    635.576,
+                    576.0,
+                    659.577
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[4]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Statement of Claim. 6. Provide the date on which the investigation or prosecution was initiated. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    587.574,
+                    187.736,
+                    603.876
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[5]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Statement of Claim. 7. Provide the date on which the investigation or prosecution was completed. Enter Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    539.204,
+                    187.736,
+                    555.506
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "prtD[0]",
+                "field_type": "/Btn",
+                "description": ", provide an explanation below in Item 2",
+                "struct_parent": 59,
+                "tool_tip": "Part 4. Cooperation of Victim 1. The applicant: A.  Select Has complied with requests for assistance in the investigation / prosecution of the crime of trafficking. If you select Item A., provide an explanation below in Item 2.",
+                "initial_value": "",
+                "rect": [
+                    80.643,
+                    469.0,
+                    90.643,
+                    479.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prtD[1]",
+                "field_type": "/Btn",
+                "description": "provide an explanation below in Item Number 2",
+                "struct_parent": 60,
+                "tool_tip": "Part 4. Cooperation of Victim 1. The applicant: B.  Select Has failed to comply with requests to assist in the investigation / prosecution of the crime of trafficking. (If you select Item B. provide an explanation below in Item Number 2.",
+                "initial_value": "",
+                "rect": [
+                    80.643,
+                    439.001,
+                    90.643,
+                    449.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prtD[2]",
+                "field_type": "/Btn",
+                "description": "The applicant: Select Has not been requested to assist in the investigation / prosecution of any crime of trafficking",
+                "struct_parent": 61,
+                "tool_tip": "Part 4. Cooperation of Victim. 1.  The applicant: Select Has not been requested to assist in the investigation / prosecution of any crime of trafficking.",
+                "initial_value": "",
+                "rect": [
+                    80.643,
+                    414.984,
+                    90.643,
+                    424.984
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prtD[3]",
+                "field_type": "/Btn",
+                "description": "Select Has not yet attained the age of 18",
+                "struct_parent": 62,
+                "tool_tip": "Part 4. Cooperation of Victim. 1.  The applicant: D. Select Has not yet attained the age of 18.",
+                "initial_value": "",
+                "rect": [
+                    80.643,
+                    396.984,
+                    90.643,
+                    406.984
+                ],
+                "page_number": 3,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "prtD[4]",
+                "field_type": "/Btn",
+                "description": "Select Other, specify on attached additional sheets",
+                "struct_parent": 63,
+                "tool_tip": "Part 4. Cooperation of Victim. 1.  The applicant:  E.  Select Other, specify on attached additional sheets.",
+                "initial_value": "",
+                "rect": [
+                    80.643,
+                    378.984,
+                    90.643,
+                    388.984
+                ],
+                "page_number": 3,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Pt4Item2_Explain[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Explanation",
+                "struct_parent": 64,
+                "tool_tip": "Part 4. Cooperation of Victim. 2.  If you selected Item A. or B. above, provide an explanation for your selection.  Enter Other Explanation.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.0,
+                    576.0,
+                    360.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 68,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative One. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    184.257,
+                    136.296,
+                    324.371,
+                    164.642
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FullName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name",
+                "struct_parent": 67,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative One. Enter Full Name.",
+                "initial_value": "",
+                "rect": [
+                    61.441,
+                    136.296,
+                    182.817,
+                    164.642
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 71,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Two. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    184.257,
+                    107.95,
+                    324.371,
+                    136.296
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FullName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name",
+                "struct_parent": 70,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Two. Enter Full Name.",
+                "initial_value": "",
+                "rect": [
+                    61.441,
+                    107.95,
+                    182.817,
+                    136.296
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 74,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Three. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    184.257,
+                    79.604,
+                    324.371,
+                    107.95
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FullName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name",
+                "struct_parent": 73,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Three. Enter Full Name.",
+                "initial_value": "",
+                "rect": [
+                    61.441,
+                    79.604,
+                    182.817,
+                    107.95
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 77,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative One. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    184.257,
+                    51.258,
+                    324.371,
+                    79.604
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FullName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name",
+                "struct_parent": 76,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Four. Enter Full Name.",
+                "initial_value": "",
+                "rect": [
+                    61.441,
+                    51.258,
+                    182.817,
+                    79.604
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Statement of Claim. 4. Provide the date or dates on which the acts of trafficking occurred. Enter Date Four. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    450.459,
+                    675.46,
+                    575.339,
+                    691.762
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[2]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Statement of Claim. 4. Provide the date or dates on which the acts of trafficking occurred. Enter Date Three. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    319.637,
+                    674.998,
+                    444.517,
+                    691.3
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "CheckBox1_No[0]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 65,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. 1.  Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If you answered \"Yes\" to Item Number 1., list the relative(s) and describe the involvement. Attach additional sheets if necessary.  Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.835,
+                    217.003,
+                    552.835,
+                    227.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "CheckBox1_Yes[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 66,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. 1.  Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If you answered \"Yes\" to Item Number 1., list the relative(s) and describe the involvement. Attach additional sheets if necessary. Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    506.835,
+                    216.833,
+                    516.835,
+                    226.833
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 69,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative One. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    325.811,
+                    136.296,
+                    576.001,
+                    164.642
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 72,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Two. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    325.811,
+                    107.95,
+                    576.001,
+                    136.296
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 75,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Three. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    325.811,
+                    79.604,
+                    576.001,
+                    107.95
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Involvement[0]",
+                "field_type": "/Tx",
+                "description": "Enter Involvement",
+                "struct_parent": 78,
+                "tool_tip": "Part 5. Family Members Implicated In Trafficking. Are any of the applicant's family members believed to have been involved in his or her trafficking to the United States? If  you answered \"Yes,\" to Item Number 1.,  list the relative or relatives and describe the involvement. Attach additional sheets if necessary. Relative Four. Enter Involvement.",
+                "initial_value": "",
+                "rect": [
+                    325.811,
+                    51.258,
+                    576.001,
+                    79.604
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line13_ApplicantSignature[1]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 84,
+                "tool_tip": "Part 6. Attestation. Based upon investigation of the facts, I certify, under penalty of perjury, that the above noted individual is or has been a victim of a severe form of trafficking in persons as defined by the V T V P. A.  I certify that the above information is true and correct to the best of my knowledge, and that I have made, and will make, no promises regarding the above victim's ability to obtain a visa from U.S. Citizenship and Immigration Services U S C I S, based upon this certification.  I further certify that if the victim refuses to comply with reasonable requests for assistance in the investigation or prosecution of the acts of trafficking of which he/she is a victim, I will notify U S C I S. 1.  Signature of Law Enforcement Officer (identified in Part 2). This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    606.566,
+                    402.001,
+                    624.566
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line13_ApplicantSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 83,
+                "tool_tip": "Part 6.  Attestation. 2.  Signature of Supervisor of Certifying Officer. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    568.604,
+                    402.001,
+                    586.604
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Printed Name of Supervisor",
+                "struct_parent": 82,
+                "tool_tip": "Part 6. Attestation. 3.  Enter Printed Name of Supervisor.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    533.603,
+                    402.001,
+                    550.544
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date[6]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 80,
+                "tool_tip": "Part 6. Attestation. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    605.999,
+                    576.0,
+                    622.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date[7]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 81,
+                "tool_tip": "Part 6. Attestation.  2. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    569.999,
+                    576.0,
+                    585.615
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

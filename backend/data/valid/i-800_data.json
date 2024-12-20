@@ -1,0 +1,3638 @@
+[
+    {
+        "title": "NOTICE",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_checkbox4[0]",
+                "field_type": "/Btn",
+                "description": "You filed Form I-800A and it was approved and remains valid, and you are filing Form I-800 for: Select for: One Child",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Basis of Filing. Select the appropriate option below. See USCIS Form G-1055, Fee Schedule, available at www.uscis.gov/g-1055, for information on filing fees. You filed Form I-800A and it was approved and remains valid, and you are filing Form I-800 for: Select for: One Child. ",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    589.002,
+                    46.999,
+                    599.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[1]",
+                "field_type": "/Btn",
+                "description": "This petition is for the first sibling",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Basis of Filing. Select for: Multiple children who are birth siblings. This petition is for the first sibling.",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    571.002,
+                    46.999,
+                    581.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[2]",
+                "field_type": "/Btn",
+                "description": "This petition is for an additional sibling",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select Yes. (Proceed to Item Numbers 5. A. through Part 1. Basis of Filing. Select for: Multiple children who are birth siblings. This petition is for an additional sibling.",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    553.002,
+                    46.999,
+                    563.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[3]",
+                "field_type": "/Btn",
+                "description": "This petition is for the first child",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select Yes. (Proceed to Item Numbers 5. A. through Part 1. Basis of Filing. Select for: Multiple children who are not birth siblings. This petition is for the first child.",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    535.002,
+                    46.999,
+                    545.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "P1_checkbox4[4]",
+                "field_type": "/Btn",
+                "description": "This petition is for an additional child",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. Your Full Name. 4. Has your name legally changed since the issuance of your Permanent Resident Card? Select Yes. (Proceed to Item Numbers 5. A. through Part 1. Basis of Filing. Select for: Multiple children who are not birth siblings. This petition is for an additional child.",
+                "initial_value": "",
+                "rect": [
+                    36.999,
+                    517.002,
+                    46.999,
+                    527.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "GivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter the Given Name (First Name)",
+                "struct_parent": 10,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    187.515,
+                    293.431,
+                    308.265,
+                    309.73
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyNameLastName[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter the Family Name (Last Name)",
+                "struct_parent": 9,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). You may not submit Form I-800 if there have been certain changes in your circumstances since your last home study was completed and your Form I-800A, Application for Determination of Suitability to Adopt a Child from a Convention Country, was last approved or extended.  If there has been a change, STOP.  See instructions for Form I-800 for more information on the type of changes requiring the filing of a new Form I-800A or  Form I-800A, Supplement 3. NOTE:  If you need more space to complete an answer, use a separate sheet of paper.  Write your name, your USCIS Account Number, and the child's current legal name at the top of each sheet of paper and indicate the part and number of the item to which the answer refers. 1. Provide the following information about yourself: Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    293.431,
+                    180.145,
+                    309.73
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Petition to Classify Convention Adoptee as an  Immediate Relative",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "OtherNamesUsed[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter Other Name Used (including maiden name if appropriate)",
+                "struct_parent": 13,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter Other Name Used (including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    230.329,
+                    261.159,
+                    400.969,
+                    277.719
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNamesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter Other Name Used (including maiden name if appropriate)",
+                "struct_parent": 12,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter Other Name Used (including maiden name if appropriate).",
+                "initial_value": "",
+                "rect": [
+                    51.84,
+                    261.159,
+                    222.84,
+                    277.719
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SocialSecurityNumber[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 15,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter a U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    228.736,
+                    231.253,
+                    400.745,
+                    247.552
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter a U S C I S Account Number",
+                "struct_parent": 14,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter a U S C I S Account Number.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    231.253,
+                    222.48,
+                    247.552
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PlaceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Place of Birth (City / Town, State / Province, Country)",
+                "struct_parent": 17,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the Place of Birth (City / Town, State / Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    173.662,
+                    201.481,
+                    400.745,
+                    217.78
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 16,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    201.479,
+                    166.615,
+                    218.837
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "HomeAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 18,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    169.571,
+                    348.137,
+                    186.745
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 21,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    228.736,
+                    139.467,
+                    400.745,
+                    155.766
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 20,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    139.467,
+                    222.48,
+                    155.766
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 23,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    228.736,
+                    108.98,
+                    400.745,
+                    125.279
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 22,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    108.98,
+                    222.48,
+                    125.279
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Enter a Middle Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Enter a Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    315.641,
+                    293.431,
+                    400.53,
+                    309.73
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number if applicable",
+                "struct_parent": 19,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Home Address. Enter an Apartment Number if applicable.",
+                "initial_value": "",
+                "rect": [
+                    355.266,
+                    169.568,
+                    400.745,
+                    185.867
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "G28Attached_CB[0]",
+                "field_type": "/Btn",
+                "description": "Select for: G-28 is attached",
+                "struct_parent": 2,
+                "tool_tip": "To be completed by an Attorney or Representative, if any. Select for: G-28 is attached.",
+                "initial_value": "",
+                "rect": [
+                    416.333,
+                    66.153,
+                    426.333,
+                    76.153
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "AttorneyStateLicenseNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Attorney State License Number",
+                "struct_parent": 3,
+                "tool_tip": "To be completed by an Attorney or Representative, if any. Enter the Attorney State License Number.",
+                "initial_value": "",
+                "rect": [
+                    485.719,
+                    46.979,
+                    573.876,
+                    63.539
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MailingAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 27,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    692.461,
+                    522.0,
+                    709.635
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "InCareOf[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number if applicable",
+                "struct_parent": 34,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter an Apartment Number if applicable.",
+                "initial_value": "",
+                "rect": [
+                    50.471,
+                    662.709,
+                    575.634,
+                    679.008
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "City[1]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 28,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    50.471,
+                    632.877,
+                    308.058,
+                    649.176
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ZipPostalCode[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 30,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    50.471,
+                    601.653,
+                    308.058,
+                    618.293
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter digits only",
+                "struct_parent": 35,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Contact Information: Enter a Daytime Telephone Number, include area code. Enter digits only.",
+                "initial_value": "",
+                "rect": [
+                    50.471,
+                    537.911,
+                    308.455,
+                    554.76
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "GivenNameFirstName[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about your spouse: Enter the Given Name (First Name)",
+                "struct_parent": 41,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    237.288,
+                    434.888,
+                    403.163,
+                    451.187
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FamilyNameLastName[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about your spouse: Enter the Family Name (Last Name)",
+                "struct_parent": 40,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    64.854,
+                    434.888,
+                    230.729,
+                    451.187
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "SocialSecurityNumber[1]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 44,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter a U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    171.887,
+                    390.019,
+                    272.687,
+                    408.451
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISAccountNumber[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about your spouse: Enter a U S C I S Account Number",
+                "struct_parent": 43,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter a U S C I S Account Number.",
+                "initial_value": "",
+                "rect": [
+                    64.854,
+                    390.019,
+                    165.654,
+                    408.451
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "DateofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 45,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter a Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    278.892,
+                    390.007,
+                    346.736,
+                    407.978
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "HomeAddress[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 47,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    312.434,
+                    522.97,
+                    329.608
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "StateorProvince[2]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 49,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    210.557,
+                    283.067,
+                    351.674,
+                    299.366
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "City[2]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 48,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    283.067,
+                    203.621,
+                    299.366
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MailingAddress[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 53,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    253.318,
+                    522.97,
+                    270.492
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "InCareOf[1]",
+                "field_type": "/Tx",
+                "description": "Enter the In Care of Name",
+                "struct_parent": 54,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    222.831,
+                    575.878,
+                    240.005
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "StateorProvince[3]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 56,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    210.557,
+                    193.733,
+                    351.674,
+                    210.032
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "City[3]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 55,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    193.733,
+                    203.621,
+                    210.032
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "E-mailAddress[1]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 61,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Contact Information. Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    242.133,
+                    134.872,
+                    415.021,
+                    153.304
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "[1]",
+                "field_type": "/Tx",
+                "description": "Enter digits only",
+                "struct_parent": 60,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Contact Information. Enter ad Daytime Phone Number, with area code. Enter digits only.",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    134.869,
+                    235.463,
+                    151.718
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ApartmentNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter an In Care of Name",
+                "struct_parent": 33,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter an In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    528.001,
+                    692.461,
+                    576.0,
+                    708.76
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "StateorProvince[1]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 29,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    317.421,
+                    632.877,
+                    574.9,
+                    649.176
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Country[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 31,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Mailing Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    317.421,
+                    601.653,
+                    574.9,
+                    617.952
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about yourself: Contact Information: Enter an Email Address, if any",
+                "struct_parent": 32,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 1. Provide the following information about yourself: Contact Information: Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    317.908,
+                    537.913,
+                    575.708,
+                    556.3
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "pg1no2[1]",
+                "field_type": "/Btn",
+                "description": "Is the daytime phone number the same as the one provided on Form I-800A? Select for No",
+                "struct_parent": 37,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 2. Is the daytime phone number the same as the one provided on Form I-800A? Select for No.",
+                "initial_value": "",
+                "rect": [
+                    542.588,
+                    517.909,
+                    552.588,
+                    527.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no2[0]",
+                "field_type": "/Btn",
+                "description": "Is the daytime phone number the same as the one provided on Form I-800A? Select for Yes",
+                "struct_parent": 36,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 2. Is the daytime phone number the same as the one provided on Form I-800A? Select for Yes.",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    517.909,
+                    504.836,
+                    527.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no3[1]",
+                "field_type": "/Btn",
+                "description": "Is the e-mail address (if any) the same as the one provided on Form I-800A? Select for No",
+                "struct_parent": 39,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 3. Is the e-mail address (if any) the same as the one provided on Form I-800A? Select for No.",
+                "initial_value": "",
+                "rect": [
+                    542.588,
+                    499.909,
+                    552.588,
+                    509.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no3[0]",
+                "field_type": "/Btn",
+                "description": "Is the e-mail address (if any) the same as the one provided on Form I-800A? Select for Yes",
+                "struct_parent": 38,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 3. Is the e-mail address (if any) the same as the one provided on Form I-800A? Select for Yes.",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    499.909,
+                    504.836,
+                    509.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about your spouse: Enter a Middle Name",
+                "struct_parent": 42,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter a Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    410.074,
+                    434.888,
+                    575.946,
+                    451.187
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Provide the following information about your spouse: Enter the Place of Birth",
+                "struct_parent": 46,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. A. Provide the following information about your spouse: Enter the Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    353.058,
+                    390.019,
+                    575.946,
+                    408.451
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "pg2nob[1]",
+                "field_type": "/Btn",
+                "description": "NOTE: If you are still legally married but separated from your spouse, you cannot file this petition unless your spouse will join in the submission of Form I-800 and the adoption of the child",
+                "struct_parent": 63,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Select No. If \"No,\" provide the following information.  NOTE: If you are still legally married but separated from your spouse, you cannot file this petition unless your spouse will join in the submission of Form I-800 and the adoption of the child.",
+                "initial_value": "",
+                "rect": [
+                    421.404,
+                    373.909,
+                    431.404,
+                    383.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg2nob[0]",
+                "field_type": "/Btn",
+                "description": "Does your spouse reside with you? Select Yes",
+                "struct_parent": 62,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    373.408,
+                    373.909,
+                    383.408,
+                    383.909
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "ApartmentNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if applicable",
+                "struct_parent": 52,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter an Apartment Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    530.498,
+                    312.431,
+                    576.209,
+                    328.73
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Country[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 50,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    435.093,
+                    283.067,
+                    576.21,
+                    299.366
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ZipPostalCode[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 51,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Home Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    358.483,
+                    283.067,
+                    428.697,
+                    299.366
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ApartmentNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if applicable",
+                "struct_parent": 59,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter an Apartment Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    530.498,
+                    253.315,
+                    576.209,
+                    269.614
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Country[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 57,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    435.093,
+                    193.733,
+                    576.21,
+                    210.032
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "ZipPostalCode[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 58,
+                "tool_tip": "Part 2.  Information About You (Person filing this petition). 4. If you are married, complete \"A\" and \"B\" below. B. Does your spouse reside with you? Mailing Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    358.483,
+                    193.733,
+                    428.697,
+                    210.032
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "USCISReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter a U S C I S Receipt Number",
+                "struct_parent": 69,
+                "tool_tip": "Part 3.  Processing Information. 1.  Provide the following information on your previously approved Form I-800A. Enter a U S C I S Receipt Number.",
+                "initial_value": "",
+                "rect": [
+                    50.502,
+                    661.864,
+                    248.502,
+                    680.296
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 67,
+                "tool_tip": "Part 3.  Processing Information. 1.  Provide the following information on your previously approved Form I-800A. Enter the Date of Approval. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    256.272,
+                    661.853,
+                    412.512,
+                    679.824
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "prt2no2[1]",
+                "field_type": "/Btn",
+                "description": "citizen petitioner",
+                "struct_parent": 70,
+                "tool_tip": "Part 3.  Processing Information. 2.  Check \"a,\" \"b,\" or \"c.\"  (If none of the below options apply, STOP.  You cannot file this petition.). A. The child will seek an immigrant visa, if Form I-800 is approved, because the child will reside in the United States with me, the U.S. citizen petitioner, after the child's admission to the United States on the basis of the proposed adoption. NOTE:  If you, the U.S. citizen petitioner, are domiciled in the United States, but are posted abroad temporarily under official orders as a member of the Uniformed Services as defined in 5 U.S.C. 2101, or as a civilian officer or employee of the U.S. Government, the child will be deemed to be coming to the United States to reside in the United States with you, the U.S. citizen petitioner. ",
+                "initial_value": "",
+                "rect": [
+                    60.29,
+                    619.001,
+                    70.29,
+                    629.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt2no2[0]",
+                "field_type": "/Btn",
+                "description": "You must complete the adoption abroad to use this option",
+                "struct_parent": 66,
+                "tool_tip": "Part 3.  Processing Information. 2.  Check \"a,\" \"b,\" or \"c.\"  (If none of the below options apply, STOP.  You cannot file this petition.). B. The child will seek a nonimmigrant visa, in order to travel to the United States to obtain naturalization under section 322 of the Immigration and Nationality Act (INA), because I (we), the U.S. citizen petitioner and spouse (if married), intend to complete the adoption abroad, and I (we) will continue to reside abroad with the child immediately following the adoption, rather than residing in the United States. NOTE:  This option is not available if the child will be adopted in the United States.  You must complete the adoption abroad to use this option.",
+                "initial_value": "",
+                "rect": [
+                    60.29,
+                    523.0,
+                    70.29,
+                    533.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt2no2[2]",
+                "field_type": "/Btn",
+                "description": "citizen petitioner to adopt or obtain custody of the child",
+                "struct_parent": 77,
+                "tool_tip": "Part 3.  Processing Information. 2.  Check \"a,\" \"b,\" or \"c.\"  (If none of the below options apply, STOP.  You cannot file this petition.). C. The child will seek adjustment of status because the child is already present in the United States in a status that does not preclude the child\u2019s adjustment of status, and I (we), the U.S. citizen petitioner and spouse (if married), will either adopt the child in the country of the child\u2019s habitual residence or adopt the child in the United States after obtaining custody of the child in that country for purposes of emigration and adoption. NOTE:  This option is not available if the country of the child\u2019s habitual residence requires the child's return to that country in order for the U.S. citizen petitioner to adopt or obtain custody of the child. ",
+                "initial_value": "",
+                "rect": [
+                    62.504,
+                    439.001,
+                    72.504,
+                    449.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "CityinForeignCountry[0]",
+                "field_type": "/Tx",
+                "description": "Enter City in Foreign Country",
+                "struct_parent": 72,
+                "tool_tip": "Part 3.  Processing Information. 3.  If you checked Item 2, a, or Item 2, b, provide the location of the U.S. Embassy or consulate outside the United States where you intend to submit the child's application for a visa. Enter City in Foreign Country.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    319.181,
+                    309.166,
+                    335.48
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 68,
+                "tool_tip": "Part 3.  Processing Information. 1.  Provide the following information on your previously approved Form I-800A. Enter the Date Approval / Extension Expires. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    419.757,
+                    661.853,
+                    575.997,
+                    679.824
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "ForeignCountry[0]",
+                "field_type": "/Tx",
+                "description": "Enter Foreign Country",
+                "struct_parent": 71,
+                "tool_tip": "Part 3.  Processing Information. 3.  If you checked Item 2, a, or Item 2, b, provide the location of the U.S. Embassy or consulate outside the United States where you intend to submit the child's application for a visa. Enter Foreign Country.",
+                "initial_value": "",
+                "rect": [
+                    317.208,
+                    319.181,
+                    575.997,
+                    335.48
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "pg1no4[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 74,
+                "tool_tip": "Part 3.  Processing Information. 4.  Are you filing more than one Form I-800 on behalf of a child from a Convention Country within the validity period of your approved I-800A?  If  \"Yes,\" go to Question 5. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    297.938,
+                    552.764,
+                    307.938
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no4[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 73,
+                "tool_tip": "Part 3.  Processing Information. 4.  Are you filing more than one Form I-800 on behalf of a child from a Convention Country within the validity period of your approved I-800A?  If  \"Yes,\" go to Question 5. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    297.938,
+                    505.012,
+                    307.938
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no5[1]",
+                "field_type": "/Btn",
+                "description": "If you are filing more than one Form I-800, are the children already siblings prior to the proposed adoption? Select No",
+                "struct_parent": 76,
+                "tool_tip": "Part 3.  Processing Information. 5.  If you are filing more than one Form I-800, are the children already siblings prior to the proposed adoption? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    266.445,
+                    552.764,
+                    276.445
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no5[0]",
+                "field_type": "/Btn",
+                "description": "If you are filing more than one Form I-800, are the children already siblings prior to the proposed adoption? Select Yes",
+                "struct_parent": 75,
+                "tool_tip": "Part 3.  Processing Information. 5.  If you are filing more than one Form I-800, are the children already siblings prior to the proposed adoption? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    266.445,
+                    505.012,
+                    276.445
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "GivenNameFirstName[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Given Name (First Name)",
+                "struct_parent": 82,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 1.  Give the following information about the child's current name. Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    227.497,
+                    677.228,
+                    398.497,
+                    693.527
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FamilyNameLastName[2]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 81,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 1.  Give the following information about the child's current name. Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    50.136,
+                    677.228,
+                    221.136,
+                    693.527
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "GivenNameFirstName[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Given Name (First Name)",
+                "struct_parent": 85,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 2.  Give the following information about the child's name at the time of birth, if known. Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    227.497,
+                    623.401,
+                    398.497,
+                    639.411
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FamilyNameLastName[3]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 84,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 2.  Give the following information about the child's name at the time of birth, if known. Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    50.136,
+                    623.401,
+                    221.136,
+                    639.59
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "GivenNameFirstName[4]",
+                "field_type": "/Tx",
+                "description": "Give any other name that the child is or was known as: Enter the Given Name (First Name)",
+                "struct_parent": 88,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 3.  Give any other name that the child is or was known as: Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    227.497,
+                    569.573,
+                    398.497,
+                    585.872
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FamilyNameLastName[4]",
+                "field_type": "/Tx",
+                "description": "Give any other name that the child is or was known as: Enter the Family Name (Last Name)",
+                "struct_parent": 87,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 3.  Give any other name that the child is or was known as: Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    50.136,
+                    569.573,
+                    221.136,
+                    585.872
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofBirth[2]",
+                "field_type": "/Tx",
+                "description": "(City / Town, State /  Province, Country)",
+                "struct_parent": 89,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 4.  Give the following information about the child's birth. Enter the Place of Birth. (City / Town, State /  Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    173.537,
+                    513.117,
+                    463.051,
+                    530.909
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateofBirth[2]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 90,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 4.  Give the following information about the child's birth. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.136,
+                    513.117,
+                    166.351,
+                    530.91
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Givethenameofthecountryinwhichthechildisahabitualresident[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of the Country",
+                "struct_parent": 93,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 5.  Give the name of the country in which the child is a habitual resident (as provided for in 8 C F R Part 2 0 4 . 3 0 3). Enter the Name of the Country.",
+                "initial_value": "",
+                "rect": [
+                    51.576,
+                    471.175,
+                    575.736,
+                    489.895
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Whoiscurrentlythelegalcustodianofthechild[0]",
+                "field_type": "/Tx",
+                "description": "Who is currently the legal custodian of the child? Enter the Legal Guardian Name",
+                "struct_parent": 94,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 6.  Who is currently the legal custodian of the child? Enter the Legal Guardian Name.",
+                "initial_value": "",
+                "rect": [
+                    53.016,
+                    428.088,
+                    575.736,
+                    446.808
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "prt3no7[0]",
+                "field_type": "/Btn",
+                "description": "(This includes any child welfare agency, orphanage, or other individual or entity that has custody of the child, a legal guardian, or any person(s) who is (are) the child\u2019s parent(s) based on a prior adoption",
+                "struct_parent": 95,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 7.  The child\u2019s legal custodian is (Check only one box): Select An individual or entity other than the child\u2019s birth parents.  (This includes any child welfare agency, orphanage, or other individual or entity that has custody of the child, a legal guardian, or any person(s) who is (are) the child\u2019s parent(s) based on a prior adoption.)",
+                "initial_value": "",
+                "rect": [
+                    53.209,
+                    376.077,
+                    63.209,
+                    386.077
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no7[1]",
+                "field_type": "/Btn",
+                "description": "The child\u2019s legal custodian is (Check only one box): Select The child\u2019s living birth parents, each of whom has consented to the adoption and who are incapable of providing proper care to the child",
+                "struct_parent": 96,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 7.  The child\u2019s legal custodian is (Check only one box): Select The child\u2019s living birth parents, each of whom has consented to the adoption and who are incapable of providing proper care to the child.",
+                "initial_value": "",
+                "rect": [
+                    53.209,
+                    340.117,
+                    63.209,
+                    350.117
+                ],
+                "page_number": 4,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt3no7[2]",
+                "field_type": "/Btn",
+                "description": "3 0 1)",
+                "struct_parent": 97,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 7.  The child\u2019s legal custodian is (Check only one box): Select The child\u2019s surviving birth parent, because the other birth parent is dead, and the child has not acquired another parent (as defined in 8 C F R Part 2 0 4 . 3 0 1).",
+                "initial_value": "",
+                "rect": [
+                    52.472,
+                    310.119,
+                    62.472,
+                    320.119
+                ],
+                "page_number": 4,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt3no7[3]",
+                "field_type": "/Btn",
+                "description": "3 0 1)",
+                "struct_parent": 98,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 7.  The child\u2019s legal custodian is (Check only one box): Select The child\u2019s sole birth parent, because the competent authority has determined that the child's other birth parent has abandoned or deserted the child, or has disappeared from the child\u2019s life, and the child has not acquired another parent (as defined in 8 C F R Part 2 0 4 . 3 0 1).",
+                "initial_value": "",
+                "rect": [
+                    52.472,
+                    274.173,
+                    62.472,
+                    284.173
+                ],
+                "page_number": 4,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "prt3no8[0]",
+                "field_type": "/Btn",
+                "description": "Select In the United States at the following address",
+                "struct_parent": 103,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. The child will reside with me (Choose one): A. Select In the United States at the following address.  ",
+                "initial_value": "",
+                "rect": [
+                    60.804,
+                    217.649,
+                    70.804,
+                    227.649
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "no8aStreet[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Name and Number",
+                "struct_parent": 102,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. U.S. Address. Enter the Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    80.748,
+                    181.896,
+                    575.997,
+                    197.906
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "no8aState[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State",
+                "struct_parent": 100,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. U.S. Address. Enter the State.",
+                "initial_value": "",
+                "rect": [
+                    267.48,
+                    152.532,
+                    447.48,
+                    168.831
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "no8aCity[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 99,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. U.S. Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    80.745,
+                    152.532,
+                    260.745,
+                    168.831
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName[2]",
+                "field_type": "/Tx",
+                "description": "Enter a Middle Name",
+                "struct_parent": 80,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 1.  Give the following information about the child's current name. Enter a Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    405.278,
+                    676.882,
+                    576.261,
+                    693.181
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName[3]",
+                "field_type": "/Tx",
+                "description": "Enter a Middle Name",
+                "struct_parent": 83,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 2.  Give the following information about the child's name at the time of birth, if known. Enter a Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    404.753,
+                    623.401,
+                    575.736,
+                    639.7
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName[4]",
+                "field_type": "/Tx",
+                "description": "Give any other name that the child is or was known as: Enter a Middle Name",
+                "struct_parent": 86,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 3.  Give any other name that the child is or was known as: Enter a Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    404.753,
+                    569.573,
+                    575.736,
+                    585.872
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 92,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 4.  Give the following information about the child's birth. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    529.234,
+                    517.92,
+                    539.234,
+                    527.92
+                ],
+                "page_number": 4,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 91,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 4.  Give the following information about the child's birth. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    481.247,
+                    517.92,
+                    491.247,
+                    527.92
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "no8aZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip Code",
+                "struct_parent": 101,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. U.S. Address. Enter the Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    454.983,
+                    152.532,
+                    575.997,
+                    168.831
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "prt3no8[1]",
+                "field_type": "/Btn",
+                "description": "Select for: Outside the United States at the following address:  (The child will seek a nonimmigrant visa, in order to travel to the United States to obtain citizenship under section 322 of the Immigration and Nationality Act (INA))",
+                "struct_parent": 119,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. The child will reside with me (Choose one): B. Select for: Outside the United States at the following address:  (The child will seek a nonimmigrant visa, in order to travel to the United States to obtain citizenship under section 322 of the Immigration and Nationality Act (INA)).",
+                "initial_value": "",
+                "rect": [
+                    60.804,
+                    703.0,
+                    70.804,
+                    713.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "no8bStreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Name and Number",
+                "struct_parent": 110,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. Outside of U.S. Address. Enter the Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    80.748,
+                    662.706,
+                    575.997,
+                    679.005
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "no8bStateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 107,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. Outside of U.S. Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    206.308,
+                    630.354,
+                    324.0,
+                    648.395
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "no8bCity[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 106,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. Outside of U.S. Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    80.745,
+                    630.354,
+                    198.0,
+                    648.759
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "prt3no13[0]",
+                "field_type": "/Btn",
+                "description": "Select for: If the legal custodian is an individual or entity other than the child\u2019s birth parents, the legal basis of custody and the circumstances leading to the grant of custody",
+                "struct_parent": 126,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 13.  The Article 16 report or child's background information includes evidence/verification of one of the following as it relates to the child you intend to adopt and the child's legal custodian:  (You must select one box unless one or both of the report(s) are not yet available and you responded \"Yes\" to both Item 10 and Item 11.). A. Select for: If the legal custodian is an individual or entity other than the child\u2019s birth parents, the legal basis of custody and the circumstances leading to the grant of custody.",
+                "initial_value": "",
+                "rect": [
+                    61.617,
+                    192.991,
+                    71.617,
+                    202.991
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no13[1]",
+                "field_type": "/Btn",
+                "description": "Select for: If the legal custodians are both the child\u2019s birth parents, the factual basis for concluding that they are incapable of providing proper care",
+                "struct_parent": 127,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 13.  The Article 16 report or child's background information includes evidence/verification of one of the following as it relates to the child you intend to adopt and the child's legal custodian:  (You must select one box unless one or both of the report(s) are not yet available and you responded \"Yes\" to both Item 10 and Item 11.). B. Select for: If the legal custodians are both the child\u2019s birth parents, the factual basis for concluding that they are incapable of providing proper care.",
+                "initial_value": "",
+                "rect": [
+                    61.617,
+                    162.812,
+                    71.617,
+                    172.812
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "prt3no13[3]",
+                "field_type": "/Btn",
+                "description": "Select for: If the legal custodian is the child\u2019s surviving birth parent, proof of the other birth parent\u2019s death",
+                "struct_parent": 129,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 13.  The Article 16 report or child's background information includes evidence/verification of one of the following as it relates to the child you intend to adopt and the child's legal custodian:  (You must select one box unless one or both of the report(s) are not yet available and you responded \"Yes\" to both Item 10 and Item 11.). C. Select for: If the legal custodian is the child\u2019s surviving birth parent, proof of the other birth parent\u2019s death.",
+                "initial_value": "",
+                "rect": [
+                    61.62,
+                    138.616,
+                    71.62,
+                    148.616
+                ],
+                "page_number": 5,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "prt3no13[2]",
+                "field_type": "/Btn",
+                "description": "Select for: If the legal custodian is one of the child\u2019s birth parents, verification of the circumstances leading to the competent authority\u2019s determination that the other birth parent has abandoned or deserted the child, or has disappeared from the child\u2019s life",
+                "struct_parent": 128,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 13.  The Article 16 report or child's background information includes evidence/verification of one of the following as it relates to the child you intend to adopt and the child's legal custodian:  (You must select one box unless one or both of the report(s) are not yet available and you responded \"Yes\" to both Item 10 and Item 11.). D. Select for: If the legal custodian is one of the child\u2019s birth parents, verification of the circumstances leading to the competent authority\u2019s determination that the other birth parent has abandoned or deserted the child, or has disappeared from the child\u2019s life. ",
+                "initial_value": "",
+                "rect": [
+                    61.62,
+                    109.004,
+                    71.62,
+                    119.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "no8bCountry[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 109,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. Outside of U.S. Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    456.919,
+                    630.354,
+                    576.0,
+                    648.759
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "no8bzip[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 108,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 8. A. Outside of U.S. Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    331.631,
+                    630.354,
+                    450.0,
+                    648.759
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "pg1no9a[0]",
+                "field_type": "/Btn",
+                "description": "If \"Yes,\" to either 9, a, or 9, b, go to Question 12",
+                "struct_parent": 111,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 9. Are you submitting with Form I-800: A. The report as required under Article 16 of the Convention?  (See Form I-800 instructions, Pages 4 to 5, for information on Article 16 report.) Select Yes. If \"Yes,\" to either 9, a, or 9, b, go to Question 12.",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    589.909,
+                    504.836,
+                    599.909
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "pg1no9a[1]",
+                "field_type": "/Btn",
+                "description": ") Select No",
+                "struct_parent": 112,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 9. Are you submitting with Form I-800: A. The report as required under Article 16 of the Convention?  (See Form I-800 instructions, Pages 4 to 5, for information on Article 16 report.) Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    589.654,
+                    552.764,
+                    599.654
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no9b[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 114,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 9. Are you submitting with Form I-800: B. The child's background information as provided for under 22 CFR Part 96.49?  (See Form I-800 instructions, Pages 4 to 5, for information on 22 C F R Part 96 . 49.). Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    559.547,
+                    552.764,
+                    569.547
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no9b[0]",
+                "field_type": "/Btn",
+                "description": "If \"Yes,\" to either 9, a, or 9, b, go to Question 12",
+                "struct_parent": 113,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 9. Are you submitting with Form I-800: B. The child's background information as provided for under 22 CFR Part 96.49?  (See Form I-800 instructions, Pages 4 to 5, for information on 22 C F R Part 96 . 49.). Select Yes. If \"Yes,\" to either 9, a, or 9, b, go to Question 12.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    559.547,
+                    505.012,
+                    569.547
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "pg1no10[1]",
+                "field_type": "/Btn",
+                "description": "If you answered \"No\" to either Question 9, a, or Question 9, b, was this because the Central Authority of the child's country of habitual residence placed the child for adoption more than 6 months after the child's 15th birthday but before the child's 16th birthday, and the report that must accompany Form I-800 is not yet available? Select No",
+                "struct_parent": 116,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 10. If you answered \"No\" to either Question 9, a, or Question 9, b, was this because the Central Authority of the child's country of habitual residence placed the child for adoption more than 6 months after the child's 15th birthday but before the child's 16th birthday, and the report that must accompany Form I-800 is not yet available? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    506.993,
+                    552.764,
+                    516.993
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no10[0]",
+                "field_type": "/Btn",
+                "description": "If you answered \"No\" to either Question 9, a, or Question 9, b, was this because the Central Authority of the child's country of habitual residence placed the child for adoption more than 6 months after the child's 15th birthday but before the child's 16th birthday, and the report that must accompany Form I-800 is not yet available? Select Yes",
+                "struct_parent": 115,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 10. If you answered \"No\" to either Question 9, a, or Question 9, b, was this because the Central Authority of the child's country of habitual residence placed the child for adoption more than 6 months after the child's 15th birthday but before the child's 16th birthday, and the report that must accompany Form I-800 is not yet available? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    506.993,
+                    505.012,
+                    516.993
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "pg1no11[1]",
+                "field_type": "/Btn",
+                "description": "If you answered \"Yes\" to Question 10, are you submitting a declaration from the primary provider, signed under penalty of perjury, verifying that the Central Authority did in fact make the decision to place the child for adoption before the child's 16th birthday?  Select No",
+                "struct_parent": 118,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 11.  If you answered \"Yes\" to Question 10, are you submitting a declaration from the primary provider, signed under penalty of perjury, verifying that the Central Authority did in fact make the decision to place the child for adoption before the child's 16th birthday?  Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    445.909,
+                    552.764,
+                    455.909
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no11[0]",
+                "field_type": "/Btn",
+                "description": "If you answered Yes to Question 10 and Questions 11, go to Question 16",
+                "struct_parent": 117,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 11.  If you answered \"Yes\" to Question 10, are you submitting a declaration from the primary provider, signed under penalty of perjury, verifying that the Central Authority did in fact make the decision to place the child for adoption before the child's 16th birthday?  Select Yes. If you answered Yes to Question 10 and Questions 11, go to Question 16.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    445.909,
+                    505.012,
+                    455.909
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "pg1no12[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 121,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: A.  A copy of the child's birth certificate or secondary evidence of the child's age. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    367.698,
+                    552.764,
+                    377.698
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no12[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 120,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: A.  A copy of the child's birth certificate or secondary evidence of the child's age. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    367.698,
+                    505.012,
+                    377.698
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no12b[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 123,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: C.  A statement, signed under penalty of perjury by the primary provider (or an authorized representative if the primary provider is an agency or other juridical person), certifying that the report is a true, correct, and complete copy of the report obtained from the Central Authority of the Convention country. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    350.299,
+                    552.764,
+                    360.299
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no12b[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 122,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: B.  A copy of the irrevocable consent(s) signed by the legal custodian(s) identified in Item 6, and any other individual or entity who must consent to the child's adoption (or, if the law of the country of the child's habitual residence provides that their identities may not be disclosed, the Central Authority's certification that the required documents exist and that they establish the child's age and availability for adoption). Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    350.299,
+                    505.012,
+                    360.299
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no12c[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 125,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: C.  A statement, signed under penalty of perjury by the primary provider (or an authorized representative if the primary provider is an agency or other juridical person), certifying that the report is a true, correct, and complete copy of the report obtained from the Central Authority of the Convention country. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    285.666,
+                    552.764,
+                    295.666
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no12c[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 124,
+                "tool_tip": "Part 4.  Information About the Beneficiary (Convention adoptee). 12.  The Article 16 report is accompanied by: C.  A statement, signed under penalty of perjury by the primary provider (or an authorized representative if the primary provider is an agency or other juridical person), certifying that the report is a true, correct, and complete copy of the report obtained from the Central Authority of the Convention country. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    285.666,
+                    505.012,
+                    295.666
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "no17a[0]",
+                "field_type": "/Btn",
+                "description": "Select for: The first contact occurred after USCIS approved my Form I-800A and after the Central Authority of the child's country determined that the child was eligible for intercountry adoption",
+                "struct_parent": 140,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17.  If your answer to Question 16 is \"Yes,\" check each block that applies to your case: A. Select for: The first contact occurred after USCIS approved my Form I-800A and after the Central Authority of the child's country determined that the child was eligible for intercountry adoption. ",
+                "initial_value": "",
+                "rect": [
+                    61.172,
+                    503.95,
+                    71.172,
+                    513.95
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "no17b[0]",
+                "field_type": "/Btn",
+                "description": "(You must include a statement from the Central Authority of the child's country establishing this claim",
+                "struct_parent": 132,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. B. Select for: The Central Authority of the child's country of habitual residence permitted the earlier contact.  (You must include a statement from the Central Authority of the child's country establishing this claim.)",
+                "initial_value": "",
+                "rect": [
+                    61.172,
+                    469.0,
+                    71.172,
+                    479.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "no17c[0]",
+                "field_type": "/Btn",
+                "description": "3 0 9(b)(2)(iii))",
+                "struct_parent": 141,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. C. Select for: I am or my spouse (if married) is already related to the child's parent(s) or legal custodian (as specified in 8 C F R Part 2 0 4 . 3 0 9(b)(2)(iii)).  ",
+                "initial_value": "",
+                "rect": [
+                    62.576,
+                    444.701,
+                    72.576,
+                    454.701
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "RelatedInFollowingManner[0]",
+                "field_type": "/Tx",
+                "description": "is selected Enter how you or my spouse, (if married), is related to the child's parent(s) or legal custodian",
+                "struct_parent": 142,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. C. If 17. C. is selected Enter how you or my spouse, (if married), is related to the child's parent(s) or legal custodian.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    340.909,
+                    576.0,
+                    420.76
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "no17d[0]",
+                "field_type": "/Btn",
+                "description": "Select for: Neither Box \"A,\" nor Box \"B\", nor Box \"C\" applies to my case",
+                "struct_parent": 143,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. D. Select for: Neither Box \"A,\" nor Box \"B\", nor Box \"C\" applies to my case.",
+                "initial_value": "",
+                "rect": [
+                    62.58,
+                    325.47,
+                    72.58,
+                    335.47
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "DeailsContact[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 144,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. D. ff you selected 17. D., Enter the date and circumstances regarding any contact with the parent(s) or legal custodian of the child you are seeking to adopt. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    234.04,
+                    576.0,
+                    312.917
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "pg1no14[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 134,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 14.  Does the child's background information include a statement concerning whether, from any examination (as described in 22 CFR Part 96.49(e)) or for any other reason, there is reason to believe that the child has any medical condition that makes the child inadmissible under section 212(a)(1) of the INA?  (NOTE:  For information on medical inadmissibility issues, see Page 5 of Form I-800 instructions.). Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    709.905,
+                    552.764,
+                    719.905
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no14[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 133,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 14.  Does the child's background information include a statement concerning whether, from any examination (as described in 22 CFR Part 96.49(e)) or for any other reason, there is reason to believe that the child has any medical condition that makes the child inadmissible under section 212(a)(1) of the INA?  (NOTE:  For information on medical inadmissibility issues, see Page 5 of Form I-800 instructions.). Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    709.905,
+                    505.012,
+                    719.905
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no15[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 136,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 15.  Are you filing Form I-601, Application for Waiver of Grounds of Inadmissibility, with Form I-800?   (NOTE:  This is not limited to medical inadmissibility, but may be for any ground of inadmissibility that may apply to the child and for which a waiver is available.  If you do not file the waiver application with Form I-800, you may have to file it later in order for the child to be able to immigrate.). Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    649.059,
+                    552.764,
+                    659.059
+                ],
+                "page_number": 6,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no15[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 135,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 15.  Are you filing Form I-601, Application for Waiver of Grounds of Inadmissibility, with Form I-800?   (NOTE:  This is not limited to medical inadmissibility, but may be for any ground of inadmissibility that may apply to the child and for which a waiver is available.  If you do not file the waiver application with Form I-800, you may have to file it later in order for the child to be able to immigrate.). Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    649.059,
+                    505.012,
+                    659.059
+                ],
+                "page_number": 6,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no16[1]",
+                "field_type": "/Btn",
+                "description": "If \"No,\" go to Question 18",
+                "struct_parent": 138,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 16.  Have you or your spouse (if married) had any contact with the parent(s), legal custodian, or other individual or entity responsible for the care of the child you are seeking to adopt? Select No. If \"No,\" go to Question 18.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    576.215,
+                    552.764,
+                    586.215
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no16[0]",
+                "field_type": "/Btn",
+                "description": "Have you or your spouse (if married) had any contact with the parent(s), legal custodian, or other individual or entity responsible for the care of the child you are seeking to adopt? Select Yes",
+                "struct_parent": 137,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 16.  Have you or your spouse (if married) had any contact with the parent(s), legal custodian, or other individual or entity responsible for the care of the child you are seeking to adopt? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    576.215,
+                    505.012,
+                    586.215
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "DateofThisFirstContact[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 139,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 17. If 17. A. is selected enter the Date of this first contact. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    478.814,
+                    488.526,
+                    575.997,
+                    507.246
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "pg1no18[1]",
+                "field_type": "/Btn",
+                "description": "If \"No,\" go to Question 20",
+                "struct_parent": 146,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 18.  Have you already adopted the child or have you or an individual or entity acting on your behalf obtained custody of the child for purposes of the child's emigration and adoption in the United States? Select No. If \"No,\" go to Question 20.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    211.064,
+                    552.764,
+                    221.064
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no18[0]",
+                "field_type": "/Btn",
+                "description": "Have you already adopted the child or have you or an individual or entity acting on your behalf obtained custody of the child for purposes of the child's emigration and adoption in the United States? Select Yes",
+                "struct_parent": 145,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 18.  Have you already adopted the child or have you or an individual or entity acting on your behalf obtained custody of the child for purposes of the child's emigration and adoption in the United States? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    211.064,
+                    505.012,
+                    221.064
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "pg1no19[1]",
+                "field_type": "/Btn",
+                "description": "You may not file this petition, and it cannot be approved unless the order is vacated, annulled, or otherwise terminated so that you may adopt the child after complying with the requirements of the Convention",
+                "struct_parent": 148,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 19.  If your answer to Question 18 is \"Yes,\" has the adoption or custody order been vacated, annulled, or otherwise terminated so that the order no longer has any legal effect, and you and your spouse (if married) will adopt the child anew after complying with the requirements of the Convention?  Select No. (If \"No,\" STOP. You may not file this petition, and it cannot be approved unless the order is vacated, annulled, or otherwise terminated so that you may adopt the child after complying with the requirements of the Convention.) ",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    164.026,
+                    552.764,
+                    174.026
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "pg1no19[0]",
+                "field_type": "/Btn",
+                "description": "If your answer to Question 18 is \"Yes,\" has the adoption or custody order been vacated, annulled, or otherwise terminated so that the order no longer has any legal effect, and you and your spouse (if married) will adopt the child anew after complying with the requirements of the Convention? Select Yes",
+                "struct_parent": 147,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 19.  If your answer to Question 18 is \"Yes,\" has the adoption or custody order been vacated, annulled, or otherwise terminated so that the order no longer has any legal effect, and you and your spouse (if married) will adopt the child anew after complying with the requirements of the Convention? Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    164.026,
+                    505.012,
+                    174.026
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "prt3no20[0]",
+                "field_type": "/Btn",
+                "description": "If you check this box, go to Item 22",
+                "struct_parent": 155,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 20.  My spouse and I jointly (if married), or I, as the unmarried petitioner: A. Select for: Intend to adopt the child in the Convention country.  If you check this box, go to Item 22.",
+                "initial_value": "",
+                "rect": [
+                    63.409,
+                    693.818,
+                    73.409,
+                    703.818
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "prt3no20[1]",
+                "field_type": "/Btn",
+                "description": "If you check this box, go to Item 21",
+                "struct_parent": 156,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 20.  My spouse and I jointly (if married), or I, as the unmarried petitioner: B. Select for: Intend to adopt the child in the United States after acquiring custody of the child in the Convention country.  If you check this box, go to Item 21.",
+                "initial_value": "",
+                "rect": [
+                    63.111,
+                    667.0,
+                    73.111,
+                    677.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Explain[1]",
+                "field_type": "/Tx",
+                "description": "is \"Yes,\" enter the name of the State of the child's proposed residence and describe the preadoption requirements that have been met",
+                "struct_parent": 154,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 21.  A. If your answer in 21. is \"Yes,\" enter the name of the State of the child's proposed residence and describe the preadoption requirements that have been met.",
+                "initial_value": "",
+                "rect": [
+                    63.587,
+                    546.14,
+                    575.997,
+                    594.924
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Explain[0]",
+                "field_type": "/Tx",
+                "description": "is \"No,\" will the preadoption requirements be met at a later date?  If your answer is \"Yes,\" describe the requirements and indicate when the preadoption requirements will be met",
+                "struct_parent": 151,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 21.  B. If your answer in 21. is \"No,\" will the preadoption requirements be met at a later date?  If your answer is \"Yes,\" describe the requirements and indicate when the preadoption requirements will be met.",
+                "initial_value": "",
+                "rect": [
+                    63.587,
+                    465.545,
+                    575.997,
+                    514.332
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "NameofPrimaryAdoptionServiceProvider[0]",
+                "field_type": "/Tx",
+                "description": ") Enter the Name of Primary Adoption Service Provider",
+                "struct_parent": 157,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Name and address of your primary adoption service provider in the United States.  (Your primary adoption service provider is the accredited or temporarily accredited agency, or approved person who is responsible under 22 C F R Part 96 . 1 4 for the six adoption services defined in 22 C F R Part 96 . 2, and for supervising and being responsible for supervised providers where used.) Enter the Name of Primary Adoption Service Provider.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    390.356,
+                    574.826,
+                    407.53
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "PointofContact[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Point of Contact (contact person with the organization)",
+                "struct_parent": 158,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter the Point of Contact (contact person with the organization).",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    360.606,
+                    574.826,
+                    377.78
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "StreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 159,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    330.857,
+                    574.826,
+                    348.031
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "State[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State",
+                "struct_parent": 161,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter the State.",
+                "initial_value": "",
+                "rect": [
+                    267.985,
+                    301.107,
+                    479.676,
+                    318.281
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "City[4]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 160,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    301.107,
+                    262.088,
+                    318.281
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter digits only",
+                "struct_parent": 165,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter a Fax Number with area code. Enter digits only.",
+                "initial_value": "",
+                "rect": [
+                    193.022,
+                    257.553,
+                    329.751,
+                    274.402
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "[2]",
+                "field_type": "/Tx",
+                "description": "Enter digits only",
+                "struct_parent": 164,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter a Phone Number with area code. Enter digits only.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    257.553,
+                    187.126,
+                    274.402
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "pg1no21[1]",
+                "field_type": "/Btn",
+                "description": "21",
+                "struct_parent": 153,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 21.  If you selected Item 20, b, have the preadoption requirements, if any, of the child's proposed State of residence been met? Select No",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    637.843,
+                    552.764,
+                    647.843
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no21[0]",
+                "field_type": "/Btn",
+                "description": "If you selected Item 20, b, have the preadoption requirements, if any, of the child's proposed State of residence been met? Select Yes",
+                "struct_parent": 152,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 21.  If you selected Item 20, b, have the preadoption requirements, if any, of the child's proposed State of residence been met? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    637.843,
+                    505.012,
+                    647.843
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip Code",
+                "struct_parent": 162,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter the Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    485.742,
+                    301.107,
+                    574.826,
+                    318.281
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "E-mailAddress[2]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 163,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    335.163,
+                    257.556,
+                    574.827,
+                    275.988
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "pg1no22a[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 166,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  The above named primary adoption service provider is one of the following: A. An accredited or temporarily accredited agency in the United States. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    494.836,
+                    223.908,
+                    504.836,
+                    233.908
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no22a[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 167,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  The above named primary adoption service provider is one of the following: A. An accredited or temporarily accredited agency in the United States. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    223.602,
+                    552.764,
+                    233.602
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no22b[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 169,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  The above named primary adoption service provider is one of the following: B. An approved person in the United States. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    205.466,
+                    552.764,
+                    215.466
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no22b[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 168,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 22.  The above named primary adoption service provider is one of the following: B. An approved person in the United States. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    205.466,
+                    505.012,
+                    215.466
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no23[1]",
+                "field_type": "/Btn",
+                "description": "4 8) verifying that all pre-placement counseling has been completed, accompany Form I-800? Select No",
+                "struct_parent": 171,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 23.  Does the primary adoption service provider's statement (as provided for in 22 C F R Part 96 . 4 8) verifying that all pre-placement counseling has been completed, accompany Form I-800? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    183.5,
+                    552.764,
+                    193.5
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no23[0]",
+                "field_type": "/Btn",
+                "description": "4 8) verifying that all pre-placement counseling has been completed, accompany Form I-800? Select Yes",
+                "struct_parent": 170,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 23.  Does the primary adoption service provider's statement (as provided for in 22 C F R Part 96 . 4 8) verifying that all pre-placement counseling has been completed, accompany Form I-800? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    183.5,
+                    505.012,
+                    193.5
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no24[2]",
+                "field_type": "/Btn",
+                "description": "50)? Select No",
+                "struct_parent": 174,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 24.  If the child will be adopted in the United States, do you have the primary adoption service provider's written report, signed under penalty of perjury by the primary adoption service provider (or an authorized representative if the primary adoption service provider is an agency or other juridical person) detailing the primary adoption service provider's plan for post-placement duties (as specified in 22 CFR Part 96.50)? Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    149.439,
+                    552.764,
+                    159.439
+                ],
+                "page_number": 7,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no24[0]",
+                "field_type": "/Btn",
+                "description": "50)? Select Yes",
+                "struct_parent": 172,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 24.  If the child will be adopted in the United States, do you have the primary adoption service provider's written report, signed under penalty of perjury by the primary adoption service provider (or an authorized representative if the primary adoption service provider is an agency or other juridical person) detailing the primary adoption service provider's plan for post-placement duties (as specified in 22 CFR Part 96.50)? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    149.439,
+                    505.012,
+                    159.439
+                ],
+                "page_number": 7,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no24[1]",
+                "field_type": "/Btn",
+                "description": "50)? Select Not Applicable (Child will be adopted outside the United States)",
+                "struct_parent": 173,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 24.  If the child will be adopted in the United States, do you have the primary adoption service provider's written report, signed under penalty of perjury by the primary adoption service provider (or an authorized representative if the primary adoption service provider is an agency or other juridical person) detailing the primary adoption service provider's plan for post-placement duties (as specified in 22 CFR Part 96.50)? Select Not Applicable (Child will be adopted outside the United States).",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    134.095,
+                    505.012,
+                    144.095
+                ],
+                "page_number": 7,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "NameofPersonorInstitution[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of Person or Institution",
+                "struct_parent": 180,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the Name of Person or Institution.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    677.939,
+                    574.826,
+                    695.113
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "StreetNumberandName[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 181,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    648.19,
+                    574.826,
+                    665.364
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "StateorProvince[4]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 179,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    227.653,
+                    617.555,
+                    399.013,
+                    634.729
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City / Town",
+                "struct_parent": 177,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the City / Town.",
+                "initial_value": "",
+                "rect": [
+                    50.397,
+                    617.555,
+                    221.757,
+                    634.729
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "ZipPostalCode[4]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 182,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    229.334,
+                    586.477,
+                    401.343,
+                    603.773
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "[3]",
+                "field_type": "/Tx",
+                "description": "Enter digits only",
+                "struct_parent": 183,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter a Phone Number, with area / contry code. Enter digits only.",
+                "initial_value": "",
+                "rect": [
+                    50.618,
+                    586.477,
+                    221.978,
+                    603.942
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Explain[2]",
+                "field_type": "/Tx",
+                "description": "If the child is living with a person and not living in an institution, enter information about the person's relationship to the child",
+                "struct_parent": 184,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 26.  If the child is living with a person and not living in an institution, enter information about the person's relationship to the child.",
+                "initial_value": "",
+                "rect": [
+                    51.695,
+                    528.032,
+                    575.855,
+                    562.995
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 191,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.95,
+                    308.233,
+                    325.265,
+                    360.839
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 190,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Payee Name.",
+                "initial_value": "",
+                "rect": [
+                    120.478,
+                    308.233,
+                    238.116,
+                    360.839
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date of Payment",
+                "struct_parent": 189,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 1. Information on payments already made:  As of the date of the signing of Form I-800, I (or, for a married petitioner, we) have made the following payments, including in-kind contributions, in relation to the adoption of the child identified in Form I-800.  The following table includes all fees, expenses, in-kind contributions, and other compensation that I (we) have made, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient. Row 1. Enter the Date of Payment.",
+                "initial_value": "",
+                "rect": [
+                    50.638,
+                    308.233,
+                    117.644,
+                    360.839
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 196,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.95,
+                    252.793,
+                    325.265,
+                    305.399
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 195,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Payee Name.",
+                "initial_value": "",
+                "rect": [
+                    120.478,
+                    252.793,
+                    238.116,
+                    305.399
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date of Payment",
+                "struct_parent": 194,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 1. Information on payments already made:  As of the date of the signing of Form I-800, I (or, for a married petitioner, we) have made the following payments, including in-kind contributions, in relation to the adoption of the child identified in Form I-800.  The following table includes all fees, expenses, in-kind contributions, and other compensation that I (we) have made, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient. Row 2. Enter the Date of Payment.",
+                "initial_value": "",
+                "rect": [
+                    50.638,
+                    252.793,
+                    117.644,
+                    305.399
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 201,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.95,
+                    197.353,
+                    325.265,
+                    249.959
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 200,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Payee Name.",
+                "initial_value": "",
+                "rect": [
+                    120.478,
+                    197.353,
+                    238.116,
+                    249.959
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date of Payment",
+                "struct_parent": 199,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 1. Information on payments already made:  As of the date of the signing of Form I-800, I (or, for a married petitioner, we) have made the following payments, including in-kind contributions, in relation to the adoption of the child identified in Form I-800.  The following table includes all fees, expenses, in-kind contributions, and other compensation that I (we) have made, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient. Row 3. Enter the Date of Payment.",
+                "initial_value": "",
+                "rect": [
+                    50.638,
+                    197.353,
+                    117.644,
+                    249.959
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 206,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.95,
+                    141.76,
+                    325.265,
+                    194.519
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 205,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Payee Name.",
+                "initial_value": "",
+                "rect": [
+                    120.478,
+                    141.76,
+                    238.116,
+                    194.519
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Date of Payment",
+                "struct_parent": 204,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 1. Information on payments already made:  As of the date of the signing of Form I-800, I (or, for a married petitioner, we) have made the following payments, including in-kind contributions, in relation to the adoption of the child identified in Form I-800.  The following table includes all fees, expenses, in-kind contributions, and other compensation that I (we) have made, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient. Row 4. Enter the Date of Payment.",
+                "initial_value": "",
+                "rect": [
+                    50.638,
+                    141.76,
+                    117.644,
+                    194.519
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Country[4]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 178,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 25.  Give the following information about the person with whom or institution where the child is currently living. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    404.637,
+                    617.555,
+                    575.997,
+                    634.729
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "pg1no27a[1]",
+                "field_type": "/Btn",
+                "description": "A properly completed Form I-864, Affidavit of Support Under Section 213A of the Act; Select No",
+                "struct_parent": 186,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 27.  Select which of the following you are filing with your Form I-800: A.  A properly completed Form I-864, Affidavit of Support Under Section 213A of the Act; Select No. OR",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    487.992,
+                    552.764,
+                    497.992
+                ],
+                "page_number": 8,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no27a[0]",
+                "field_type": "/Btn",
+                "description": "A properly completed Form I-864, Affidavit of Support Under Section 213A of the Act; Select Yes",
+                "struct_parent": 185,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 27.  Select which of the following you are filing with your Form I-800: A.  A properly completed Form I-864, Affidavit of Support Under Section 213A of the Act; Select Yes. OR",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    487.992,
+                    505.012,
+                    497.992
+                ],
+                "page_number": 8,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "pg1no27b[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 188,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 27.  Select which of the following you are filing with your Form I-800: B.  A properly completed Form I-864W, Intending Immigrant's Affidavit of Support Exemption. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.764,
+                    469.856,
+                    552.764,
+                    479.856
+                ],
+                "page_number": 8,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "pg1no27b[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 187,
+                "tool_tip": "Part 4.  Information About the Beneficiary. 27.  Select which of the following you are filing with your Form I-800: B.  A properly completed Form I-864W, Intending Immigrant's Affidavit of Support Exemption. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    495.012,
+                    469.856,
+                    505.012,
+                    479.856
+                ],
+                "page_number": 8,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 193,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.996,
+                    308.233,
+                    573.929,
+                    360.839
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 192,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.099,
+                    308.233,
+                    427.162,
+                    360.839
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 198,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.996,
+                    252.793,
+                    573.929,
+                    305.399
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 197,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.099,
+                    252.793,
+                    427.162,
+                    305.399
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 203,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.996,
+                    197.353,
+                    573.929,
+                    249.959
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 202,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.099,
+                    197.353,
+                    427.162,
+                    249.959
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 208,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.996,
+                    141.76,
+                    573.929,
+                    194.519
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 207,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.099,
+                    141.76,
+                    427.162,
+                    194.519
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 213,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.953,
+                    598.986,
+                    325.268,
+                    651.592
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 212,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Payee Name. ",
+                "initial_value": "",
+                "rect": [
+                    120.481,
+                    598.986,
+                    238.119,
+                    651.592
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "AnticipatedDateofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 211,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 2.  Information on anticipated future payments:  The following table includes all fees, expenses, in kind contributions, and other compensation as of the date of the signing of Form I-800, that I (we) reasonably expect to make, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.  Row 1. Enter the Anticipated Date of Payment. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.641,
+                    598.986,
+                    117.647,
+                    651.592
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 218,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.953,
+                    543.546,
+                    325.268,
+                    596.152
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 217,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Payee Name. ",
+                "initial_value": "",
+                "rect": [
+                    120.481,
+                    543.546,
+                    238.119,
+                    596.152
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "AnticipatedDateofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 216,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 2.  Information on anticipated future payments:  The following table includes all fees, expenses, in kind contributions, and other compensation as of the date of the signing of Form I-800, that I (we) reasonably expect to make, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.  Row 2. Enter the Anticipated Date of Payment. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.641,
+                    543.546,
+                    117.647,
+                    596.152
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 223,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.953,
+                    488.106,
+                    325.268,
+                    540.712
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 222,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Payee Name. ",
+                "initial_value": "",
+                "rect": [
+                    120.481,
+                    488.106,
+                    238.119,
+                    540.712
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "AnticipatedDateofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 221,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 2.  Information on anticipated future payments:  The following table includes all fees, expenses, in kind contributions, and other compensation as of the date of the signing of Form I-800, that I (we) reasonably expect to make, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.  Row 3. Enter the Anticipated Date of Payment. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.641,
+                    488.106,
+                    117.647,
+                    540.712
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "RelationshiptoChild[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Relationship to Child, if any",
+                "struct_parent": 228,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Relationship to Child, if any.",
+                "initial_value": "",
+                "rect": [
+                    240.953,
+                    432.666,
+                    325.268,
+                    485.272
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Payee[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Payee Name",
+                "struct_parent": 227,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Payee Name. ",
+                "initial_value": "",
+                "rect": [
+                    120.481,
+                    432.666,
+                    238.119,
+                    485.272
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "AnticipatedDateofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 226,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. 2.  Information on anticipated future payments:  The following table includes all fees, expenses, in kind contributions, and other compensation as of the date of the signing of Form I-800, that I (we) reasonably expect to make, either directly or indirectly, to any individual, agency, entity, governmental authority, or other payee or recipient.  Row 4. Enter the Anticipated Date of Payment. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    50.641,
+                    432.666,
+                    117.647,
+                    485.272
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PetitionerSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 231,
+                "tool_tip": "Part 6.  Certification and Signature of You, the Prospective Adoptive Parent(s)(Read the information on penalties in the instructions before completing this section.). Your certification: I certify, under penalty of perjury under the laws of the United States, that: 1.  Each answer I have given to each question on Form I-800 is true and correct to the best of my knowledge, information, and belief; and 2.  That I (and my spouse, if married) have not paid, given, or transferred any money or any other thing of value to any individual or entity as compensation or inducement for that person\u2019s consent to the child\u2019s adoption, and I (and my spouse, if married) have not authorized, permitted, or in any way condoned any such payment, gift, or transfer by any individual or entity acting on my (or our) behalf. Signature of the Prospective Adoptive Parent. This field cannot be signed electronically. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    35.864,
+                    191.999,
+                    443.129,
+                    209.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 215,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    598.986,
+                    573.932,
+                    651.592
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 214,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 1. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.102,
+                    598.986,
+                    427.165,
+                    651.592
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 220,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    543.546,
+                    573.932,
+                    596.152
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 219,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 2. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.102,
+                    543.546,
+                    427.165,
+                    596.152
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 225,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    488.106,
+                    573.932,
+                    540.712
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 224,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 3. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.102,
+                    488.106,
+                    427.165,
+                    540.712
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Amountofpayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Amount of payment (or description and value in kind consideration)",
+                "struct_parent": 230,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Amount of payment (or description and value in kind consideration).",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    432.666,
+                    573.932,
+                    485.272
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "PurposeofPayment[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Purpose of Payment",
+                "struct_parent": 229,
+                "tool_tip": "Part 5.  Information About Fees, Expenses and Other Compensation. Row 4. Enter the Purpose of Payment.",
+                "initial_value": "",
+                "rect": [
+                    328.102,
+                    432.666,
+                    427.165,
+                    485.272
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Date[2]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 232,
+                "tool_tip": "Part 6.  Certification and Signature of You, the Prospective Adoptive Parent(s). Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    459.913,
+                    191.634,
+                    576.128,
+                    212.331
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "SpouseSignatue[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 236,
+                "tool_tip": "Part 6.  Certification and Signature of You, the Prospective Adoptive Parent(s)(Read the information on penalties in the instructions before completing this section.). Certification of your spouse (if you are married): I certify, under penalty of perjury under the laws of the United States, that: 1. Each answer I have given to each question on Form I-800 is true and correct to the best of my knowledge, information, and belief; and 2. That my spouse and I have not paid, given, or transferred any money or any other thing of value to any individual or entity as compensation or inducement for that person\u2019s consent to the child\u2019s adoption, and we have not authorized, permitted, or in any way condoned any such payment, gift, or transfer by any individual or entity acting on my (or our) behalf. Signature of Spouse of the Prospective Adoptive Parent. This field cannot be signed electronically. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    578.038,
+                    450.0,
+                    596.038
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "attorney[1]",
+                "field_type": "/Btn",
+                "description": "In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select No",
+                "struct_parent": 239,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Attorney or Representative Only. In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select No. ",
+                "initial_value": "",
+                "rect": [
+                    230.834,
+                    372.968,
+                    240.834,
+                    382.968
+                ],
+                "page_number": 10,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "attorney[0]",
+                "field_type": "/Btn",
+                "description": "In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select Yes",
+                "struct_parent": 238,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Attorney or Representative Only. In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    184.833,
+                    372.968,
+                    194.833,
+                    382.968
+                ],
+                "page_number": 10,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "PreparerSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 243,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Preparer's Signature. I declare that I prepared this petition at the request of the above person(s), and it is based on all information provided to me by the person(s). I have not knowingly withheld any material information that would affect the outcome of this petition. Enter the Preparer's Signature. This field cannot be signed electronically. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    36.706,
+                    339.897,
+                    378.085,
+                    357.608
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "PreparersFirmName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Firm Name",
+                "struct_parent": 240,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Firm Name.",
+                "initial_value": "",
+                "rect": [
+                    290.937,
+                    306.068,
+                    576.0,
+                    323.025
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "PreparersPrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Printed Name",
+                "struct_parent": 244,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    306.068,
+                    283.89,
+                    323.025
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "PreparersAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Address",
+                "struct_parent": 241,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    270.068,
+                    576.0,
+                    287.12
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "[4]",
+                "field_type": "/Tx",
+                "description": "Enter a Daytime Phone Number, including area code",
+                "struct_parent": 246,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter a Daytime Phone Number, including area code.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    221.564,
+                    172.729,
+                    237.922
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "[1]",
+                "field_type": "/Tx",
+                "description": "Enter a Fax Number, including area code",
+                "struct_parent": 235,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter a Fax Number, including area code.",
+                "initial_value": "",
+                "rect": [
+                    178.625,
+                    221.561,
+                    315.354,
+                    237.639
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "Date[3]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 237,
+                "tool_tip": "Part 6.  Certification and Signature of You, the Prospective Adoptive Parent(s). Enter the Date of Signature. nter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    459.785,
+                    576.831,
+                    576.0,
+                    597.528
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "Date[4]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 242,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Preparer's Signature. Enter the Date of Signature. nter the Date as a 2-digit month, 2-digit day, and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    340.305,
+                    576.0,
+                    357.391
+                ],
+                "page_number": 10
+            },
+            {
+                "field_name": "E-mailAddress[3]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 245,
+                "tool_tip": "Part 7.  Signature of Person Preparing Form if Other Than Above. Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    320.0,
+                    221.561,
+                    576.0,
+                    239.225
+                ],
+                "page_number": 10
+            }
+        ]
+    }
+]

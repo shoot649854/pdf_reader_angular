@@ -22,8 +22,18 @@ def get_gcs_client() -> storage.Client:
     return storage.Client(credentials=credentials)
 
 
-def get_bucket(bucket_name: str) -> storage.Bucket:
+# def get_bucket(bucket_name) -> storage.Bucket:
+#     """Retrieve the GCS bucket from configuration."""
+#     if not bucket_name:
+#         logger.error("GCS_BUCKET_NAME is not set in configuration.")
+#         raise EnvironmentError("GCS_BUCKET_NAME is not set in configuration.")
+#     client = get_gcs_client()
+#     return client.bucket(bucket_name)
+
+
+def get_bucket() -> storage.Bucket:
     """Retrieve the GCS bucket from configuration."""
+    bucket_name = os.getenv("GCS_BUCKET_NAME")
     if not bucket_name:
         logger.error("GCS_BUCKET_NAME is not set in configuration.")
         raise EnvironmentError("GCS_BUCKET_NAME is not set in configuration.")

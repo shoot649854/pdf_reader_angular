@@ -1,0 +1,505 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if any)",
+                "struct_parent": 4,
+                "tool_tip": "Applicant's / Petitioner's / Requester's Information (Full Legal Name).  Enter Middle Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    215.997,
+                    333.998,
+                    359.997,
+                    348.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Applicant's / Petitioner's / Requester's Information (Full Legal Name).  Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    40.808,
+                    333.998,
+                    202.808,
+                    348.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CCHolderMiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Middle Name (if any) as it appears on the Credit Card",
+                "struct_parent": 5,
+                "tool_tip": "Credit Card Billing Information.  Enter the Middle Name (if any) as it appears on the Credit Card.",
+                "initial_value": "",
+                "rect": [
+                    215.997,
+                    285.948,
+                    359.997,
+                    300.949
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CCHolderGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name) as it appears on the Credit Card",
+                "struct_parent": 6,
+                "tool_tip": "Credit Card Billing Information.  Enter Given Name (First Name) as it appears on the Credit Card.",
+                "initial_value": "",
+                "rect": [
+                    40.215,
+                    285.948,
+                    202.215,
+                    300.949
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 8,
+                "tool_tip": "Credit Card Billing Information. Credit Card Holder's Billing Address.  Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    40.81,
+                    237.801,
+                    394.812,
+                    252.802
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 13,
+                "tool_tip": "Credit Card Billing Information. Credit Card Holder's Billing Address.  Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    40.81,
+                    205.852,
+                    394.812,
+                    219.852
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Authorization for Credit Card Transactions",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "SignatureOfApplicant[0]",
+                "field_type": "/Tx",
+                "description": "The name of the Credit Card Holder can not be typewritten into this space",
+                "struct_parent": 27,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Signature and Contact Information.  Credit Card Holder's Signature.  Please sign the form.  This form can not be signed electronically.  The name of the Credit Card Holder can not be typewritten into this space.  ",
+                "initial_value": "",
+                "rect": [
+                    168.579,
+                    159.999,
+                    572.051,
+                    177.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Credit Card Holder's Email Address",
+                "struct_parent": 17,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Signature and Contact Information.  Enter Credit Card Holder's Email Address.",
+                "initial_value": "",
+                "rect": [
+                    268.523,
+                    128.002,
+                    574.523,
+                    142.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Credit Card Holder's Daytime Telephone Number including area code",
+                "struct_parent": 16,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Signature and Contact Information.  Enter Credit Card Holder's Daytime Telephone Number including area code.",
+                "initial_value": "",
+                "rect": [
+                    40.263,
+                    128.002,
+                    256.263,
+                    142.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CreditCardNumber_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter the last 4 digits of your credit card number",
+                "struct_parent": 22,
+                "tool_tip": "Credit Card Information. Enter the last 4 digits of your credit card number.",
+                "initial_value": "",
+                "rect": [
+                    170.308,
+                    77.998,
+                    210.308,
+                    92.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CreditCardNumber_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter the third 4 digits of your credit card number",
+                "struct_parent": 21,
+                "tool_tip": "Credit Card Information. Enter the third 4 digits of your credit card number.",
+                "initial_value": "",
+                "rect": [
+                    126.729,
+                    77.998,
+                    166.729,
+                    92.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CreditCardNumber_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter the second 4 digits of your credit card number",
+                "struct_parent": 20,
+                "tool_tip": "Credit Card Information. Enter the second 4 digits of your credit card number.",
+                "initial_value": "",
+                "rect": [
+                    83.151,
+                    77.998,
+                    123.151,
+                    92.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CreditCardNumber_1[0]",
+                "field_type": "/Tx",
+                "description": "Enter the first 4 digits of your credit card number",
+                "struct_parent": 19,
+                "tool_tip": "Credit Card Information. Enter the first 4 digits of your credit card number.",
+                "initial_value": "",
+                "rect": [
+                    40.414,
+                    77.998,
+                    80.414,
+                    92.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ExpirationDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter the date as 2 digit for Month and 4 digits for Year",
+                "struct_parent": 23,
+                "tool_tip": "Credit Card Information.  Credit Card Expiration Date.  Enter the date as 2 digit for Month and 4 digits for Year.",
+                "initial_value": "",
+                "rect": [
+                    88.214,
+                    40.331,
+                    154.213,
+                    55.332
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 2,
+                "tool_tip": "Applicant's / Petitioner's / Requester's Information (Full Legal Name).  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    371.999,
+                    333.0,
+                    575.997,
+                    348.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CCHolderFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name) as it appears on the Credit Card",
+                "struct_parent": 7,
+                "tool_tip": "Credit Card Billing Information.  Enter the Family Name (Last Name) as it appears on the Credit Card.",
+                "initial_value": "",
+                "rect": [
+                    371.999,
+                    285.948,
+                    575.997,
+                    300.949
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CCHolderAptSteFlr_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select this box for a designated floor",
+                "struct_parent": 11,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Billing Address.  Select this box for a designated floor.",
+                "initial_value": "",
+                "rect": [
+                    447.999,
+                    240.302,
+                    457.999,
+                    250.302
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "CCHolderAptSteFlr_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select this box for a suite (S t e)",
+                "struct_parent": 9,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Billing Address.  Select this box for a suite (S t e).  ",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    240.302,
+                    439.999,
+                    250.302
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "CCHolderAptSteFlr_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select this box for apartment (APT)",
+                "struct_parent": 10,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Billing Address.  Select this box for apartment (APT).",
+                "initial_value": "",
+                "rect": [
+                    411.999,
+                    240.302,
+                    421.999,
+                    250.302
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "CCHolderAptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the apartment, suite or floor number here",
+                "struct_parent": 12,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Billing Address.  Enter the apartment, suite or floor number here.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    237.801,
+                    569.999,
+                    252.802
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the ZIP Code",
+                "struct_parent": 15,
+                "tool_tip": "Credit Card Billing Information.  Credit Card Holder's Billing Address.  Enter the ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    205.852,
+                    569.928,
+                    219.852
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "State[0]",
+                "field_type": "/Ch",
+                "description": "You will be making a selection from the drop down list containing the 2 letter abbreviations of state names",
+                "struct_parent": 14,
+                "tool_tip": "Credit Card Billing Information. Credit Card Holder's Billing Address.  Select the State.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+                "initial_value": "",
+                "rect": [
+                    409.999,
+                    205.852,
+                    464.0,
+                    219.852
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "CreditCardTypeChBx[0]",
+                "field_type": "/Btn",
+                "description": "Select this box for Visa",
+                "struct_parent": 18,
+                "tool_tip": "Credit Card Information. Credit Card Type. Select this box for Visa.",
+                "initial_value": "",
+                "rect": [
+                    314.836,
+                    94.002,
+                    324.836,
+                    104.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/V"
+                ]
+            },
+            {
+                "field_name": "CreditCardTypeChBx[1]",
+                "field_type": "/Btn",
+                "description": "Select this box for Master Card",
+                "struct_parent": 24,
+                "tool_tip": "Credit Card Information. Credit Card Type.  Select this box for Master Card.",
+                "initial_value": "",
+                "rect": [
+                    314.836,
+                    78.0,
+                    324.836,
+                    88.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/MC"
+                ]
+            },
+            {
+                "field_name": "AuthorizedPaymentAmt[0]",
+                "field_type": "/Tx",
+                "description": "Credit Card Information",
+                "struct_parent": 28,
+                "tool_tip": "Credit Card Information.  Enter the authorized payment amount in dollars no cents (for example, 1234 or 1,234)",
+                "initial_value": "",
+                "rect": [
+                    427.833,
+                    77.975,
+                    475.203,
+                    92.976
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CreditCardTypeChBx[2]",
+                "field_type": "/Btn",
+                "description": "Select this box for American Express",
+                "struct_parent": 25,
+                "tool_tip": "Credit Card Information. Credit Card Type. Select this box for American Express.",
+                "initial_value": "",
+                "rect": [
+                    314.836,
+                    62.002,
+                    324.836,
+                    72.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "CreditCardTypeChBx[3]",
+                "field_type": "/Btn",
+                "description": "Select this box for Discover",
+                "struct_parent": 26,
+                "tool_tip": "Credit Card Information. Credit Card Type. Select this box for Discover.",
+                "initial_value": "",
+                "rect": [
+                    314.836,
+                    44.999,
+                    324.836,
+                    54.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/D"
+                ]
+            }
+        ]
+    }
+]

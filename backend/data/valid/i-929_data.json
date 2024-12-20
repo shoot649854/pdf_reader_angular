@@ -1,0 +1,4936 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Filing[0]",
+                "field_type": "/Btn",
+                "description": "Select Spouse",
+                "struct_parent": 28,
+                "tool_tip": "I am filing for my: (Select one). Select Spouse.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    481.563,
+                    57.999,
+                    491.563
+                ],
+                "page_number": 1,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Filing[1]",
+                "field_type": "/Btn",
+                "description": "Child: Select Biological Child",
+                "struct_parent": 29,
+                "tool_tip": "I am filing for my: (Select one). Child: Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    236.597,
+                    481.002,
+                    246.597,
+                    491.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Filing[2]",
+                "field_type": "/Btn",
+                "description": "Child: Select Stepchild",
+                "struct_parent": 30,
+                "tool_tip": "I am filing for my: (Select one). Child: Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    236.597,
+                    466.001,
+                    246.597,
+                    476.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "Filing[3]",
+                "field_type": "/Btn",
+                "description": "Child: Select Adopted Child",
+                "struct_parent": 31,
+                "tool_tip": "I am filing for my: (Select one). Child: Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    236.597,
+                    451.0,
+                    246.597,
+                    461.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    378.003,
+                    281.999,
+                    395.403
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    342.003,
+                    281.999,
+                    359.403
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    306.003,
+                    281.999,
+                    323.403
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You. Current Address. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    252.0,
+                    282.002,
+                    269.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. Current Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    252.0,
+                    222.001,
+                    269.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Zip[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You. Current Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    216.0,
+                    281.999,
+                    233.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You. Current Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    216.0,
+                    221.998,
+                    233.4
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AL",
+                    "AK",
+                    "AZ",
+                    "AR",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DE",
+                    "DC",
+                    "FL",
+                    "GA",
+                    "HI",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "IA",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "ME",
+                    "MD",
+                    "MA",
+                    "MI",
+                    "MN",
+                    "MS",
+                    "MO",
+                    "MT",
+                    "NE",
+                    "NV",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NY",
+                    "NC",
+                    "ND",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VT",
+                    "VA",
+                    "WA",
+                    "WV",
+                    "WI",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You. Current Address. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    216.0,
+                    180.0,
+                    233.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You. Safe Mailing Address If Other Than Above. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    120.002,
+                    281.999,
+                    137.402
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information About You. Safe Mailing Address If Other Than Above. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    120.002,
+                    222.001,
+                    137.402
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You. Safe Mailing Address If Other Than Above. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    84.002,
+                    281.999,
+                    101.402
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "State[1]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You. Safe Mailing Address If Other Than Above. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    84.002,
+                    222.001,
+                    101.402
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AL",
+                    "AK",
+                    "AZ",
+                    "AR",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DE",
+                    "DC",
+                    "FL",
+                    "GA",
+                    "HI",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "IA",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "ME",
+                    "MD",
+                    "MA",
+                    "MI",
+                    "MN",
+                    "MS",
+                    "MO",
+                    "MT",
+                    "NE",
+                    "NV",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NY",
+                    "NC",
+                    "ND",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VT",
+                    "VA",
+                    "WA",
+                    "WV",
+                    "WI",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "City[2]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You. Safe Mailing Address If Other Than Above. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    84.002,
+                    180.0,
+                    101.402
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Number)",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You. Enter Alien Registration Number. (A. Number).",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    48.002,
+                    281.999,
+                    65.402
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_of_Birth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    48.002,
+                    180.0,
+                    65.402
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Petition for Qualifying Family Member   of a U-1 Nonimmigrant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Filing[4]",
+                "field_type": "/Btn",
+                "description": "Parent: Select Biological Parent",
+                "struct_parent": 32,
+                "tool_tip": "I am filing for my: (Select one). Parent: Select Biological Parent.",
+                "initial_value": "",
+                "rect": [
+                    440.597,
+                    481.0,
+                    450.597,
+                    491.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/E"
+                ]
+            },
+            {
+                "field_name": "Filing[5]",
+                "field_type": "/Btn",
+                "description": "Parent: Select Stepparent",
+                "struct_parent": 33,
+                "tool_tip": "I am filing for my: (Select one). Parent: Select Stepparent.",
+                "initial_value": "",
+                "rect": [
+                    440.597,
+                    466.001,
+                    450.597,
+                    476.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Filing[6]",
+                "field_type": "/Btn",
+                "description": "Parent: Parent who adopted me",
+                "struct_parent": 34,
+                "tool_tip": "I am filing for my: (Select one). Parent: Parent who adopted me.",
+                "initial_value": "",
+                "rect": [
+                    440.597,
+                    451.003,
+                    450.597,
+                    461.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/G"
+                ]
+            },
+            {
+                "field_name": "LastName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 5,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    378.0,
+                    569.999,
+                    395.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FirstName[1]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 6,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    342.0,
+                    569.999,
+                    359.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 7,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    306.0,
+                    569.999,
+                    323.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    510.001,
+                    252.0,
+                    569.999,
+                    269.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetNumberandName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 13,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    252.0,
+                    510.001,
+                    269.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter State and or Province",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter State and or Province.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    216.0,
+                    569.999,
+                    233.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[1]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    216.0,
+                    486.0,
+                    233.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PostalZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal/Zip Code",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter Postal/Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    180.0,
+                    569.999,
+                    197.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Current Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    180.0,
+                    486.0,
+                    197.4
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherMailingAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mailing Address If Other Than Above",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Mailing Address If Other Than Above.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    83.999,
+                    569.999,
+                    155.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ANumber[1]",
+                "field_type": "/Tx",
+                "description": "Number)",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Alien Registration Number (A. Number).",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    47.999,
+                    569.999,
+                    65.399
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date_of_Birth[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    47.999,
+                    468.0,
+                    65.399
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SocialSecurityNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    677.999,
+                    282.002,
+                    695.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    677.999,
+                    180.0,
+                    695.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CountryofCitizenshipNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship/Nationality",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You. Enter Country of Citizenship/Nationality.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    641.999,
+                    281.999,
+                    659.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 82,
+                "tool_tip": "Part 1. Information About You. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    625.002,
+                    208.0,
+                    635.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part1_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 81,
+                "tool_tip": "Part 1. Information About You. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    136.877,
+                    624.999,
+                    146.877,
+                    634.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "FirstName[2]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 1. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    564.001,
+                    281.999,
+                    581.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 1. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    564.001,
+                    173.999,
+                    581.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 1. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    528.001,
+                    173.999,
+                    545.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FirstName[4]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 2. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    480.002,
+                    281.999,
+                    497.402
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[4]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 48,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 2. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    480.002,
+                    173.999,
+                    497.402
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[4]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 2. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    444.002,
+                    173.999,
+                    461.402
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FirstName[3]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 3. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    396.0,
+                    281.999,
+                    413.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[3]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 3. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    396.0,
+                    173.999,
+                    413.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[3]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. Information About You. If you ever used other names, provide them below: Name 3. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    360.0,
+                    173.999,
+                    377.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part1_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 75,
+                "tool_tip": "Part 1. Information About You. Marital Status. (Select one). Select Married.",
+                "initial_value": "",
+                "rect": [
+                    188.342,
+                    319.002,
+                    198.342,
+                    329.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Part1_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Single (Never Married)",
+                "struct_parent": 73,
+                "tool_tip": "Part 1. Information About You. Marital Status. (Select one). Select Single (Never Married).",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    319.002,
+                    57.999,
+                    329.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/S"
+                ]
+            },
+            {
+                "field_name": "Part1_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 76,
+                "tool_tip": "Part 1. Information About You. Marital Status. (Select one). Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    188.34,
+                    304.004,
+                    198.34,
+                    314.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "/W"
+                ]
+            },
+            {
+                "field_name": "Part1_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 74,
+                "tool_tip": "Part 1. Information About You. Marital Status. (Select one). Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    304.004,
+                    57.999,
+                    314.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "FirstName1[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 61,
+                "tool_tip": "Part 1. Information About You. Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    240.001,
+                    281.999,
+                    257.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName1[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 60,
+                "tool_tip": "Part 1. Information About You. Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    240.001,
+                    173.999,
+                    257.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName1[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: Enter Middle Name",
+                "struct_parent": 62,
+                "tool_tip": "Part 1. Information About You. Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    204.001,
+                    173.999,
+                    221.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofMarriage1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 66,
+                "tool_tip": "Part 1. Information About You. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    168.001,
+                    281.999,
+                    185.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "SocialSecurityNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    677.999,
+                    569.999,
+                    695.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CountryofBirth[1]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    677.999,
+                    468.0,
+                    695.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CountryOfCitizehsipNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship/Nationality",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Country of Citizenship/Nationality.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    641.999,
+                    569.999,
+                    659.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    483.715,
+                    624.996,
+                    493.715,
+                    634.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part2_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    425.492,
+                    624.996,
+                    435.492,
+                    634.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "FirstName[5]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 1. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    564.001,
+                    569.999,
+                    581.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[5]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 1. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    564.001,
+                    461.999,
+                    581.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[5]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 1. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    528.001,
+                    461.999,
+                    545.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FirstName[7]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 2. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    479.999,
+                    569.999,
+                    497.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[7]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 2. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    479.999,
+                    461.999,
+                    497.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[7]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 2. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    443.999,
+                    461.999,
+                    461.399
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "FirstName[6]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 3. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    396.0,
+                    569.999,
+                    413.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName[6]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 3. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    396.0,
+                    461.999,
+                    413.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName[6]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. Information About Your Alien Relative. If alien relative ever used other names, provide them below: Name 3. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    360.0,
+                    461.999,
+                    377.4
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Marital Status: (Select One). Select Married.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    319.002,
+                    484.001,
+                    329.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Part2_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Single (Never Married)",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Marital Status: (Select One). Select Single (Never Married).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    319.002,
+                    345.999,
+                    329.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/S"
+                ]
+            },
+            {
+                "field_name": "Part2_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Marital Status: (Select One). Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    303.999,
+                    484.001,
+                    313.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/W"
+                ]
+            },
+            {
+                "field_name": "Part2_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Marital Status: (Select One). Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    303.999,
+                    345.999,
+                    313.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "FirstName2[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: First Name (Given Name)",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse's Name: First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    240.001,
+                    569.999,
+                    257.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "LastName2[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    240.001,
+                    461.999,
+                    257.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "MiddleName2[0]",
+                "field_type": "/Tx",
+                "description": "Spouse's Name: Enter Middle Name",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    204.001,
+                    461.999,
+                    221.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "PlaceofMarriage2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    168.001,
+                    569.999,
+                    185.401
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "NumberTimeMarried[0]",
+                "field_type": "/Tx",
+                "description": "Enter Number of marriages including current marriage",
+                "struct_parent": 85,
+                "tool_tip": "Part 1. Information About You. Enter Number of marriages including current marriage.",
+                "initial_value": "",
+                "rect": [
+                    246.325,
+                    695.999,
+                    281.999,
+                    713.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FirstName3[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 87,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    587.999,
+                    281.999,
+                    605.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "LastName3[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 86,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    587.999,
+                    173.999,
+                    605.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofMarriage3[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 91,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    551.999,
+                    281.999,
+                    569.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "MiddleName3[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 88,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    551.999,
+                    173.999,
+                    569.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceofMarriage3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 89,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Place of Marriage as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    515.999,
+                    281.999,
+                    533.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceTerminated3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 90,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    479.999,
+                    281.999,
+                    497.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateTerminated3[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 92,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    479.999,
+                    126.0,
+                    497.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part1_Reason1[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 117,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    445.002,
+                    172.0,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason1[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 116,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    108.0,
+                    445.002,
+                    118.0,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason1[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 115,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    445.002,
+                    57.999,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason1[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 118,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    429.999,
+                    57.999,
+                    439.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[0]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 119,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    425.999,
+                    281.999,
+                    440.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FirstName4[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 102,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    360.0,
+                    281.999,
+                    377.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "LastName4[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 101,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    360.0,
+                    173.999,
+                    377.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofMarriage4[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 106,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    324.0,
+                    281.999,
+                    341.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "MiddleName4[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 103,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    324.0,
+                    173.999,
+                    341.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceofMarriage4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 104,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Place of Marriage as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    288.0,
+                    281.999,
+                    305.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceTerminated4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 105,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    252.0,
+                    281.999,
+                    269.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateTerminated4[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 107,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    252.0,
+                    126.0,
+                    269.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part1_Reason2[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 127,
+                "tool_tip": "Part 1. Information About You. Spouse 2. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    217.0,
+                    172.0,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason2[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 126,
+                "tool_tip": "Part 1. Information About You. Spouse 2. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    108.0,
+                    217.0,
+                    118.0,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason2[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 125,
+                "tool_tip": "Part 1. Information About You. Spouse 2. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    217.0,
+                    57.999,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason2[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 128,
+                "tool_tip": "Part 1. Information About You. Spouse 2. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    202.0,
+                    57.999,
+                    212.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[2]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 129,
+                "tool_tip": "Part 1. Information About You. Spouse 2. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    198.0,
+                    281.999,
+                    213.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "TextField2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Number of marriages including current marriage",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Enter Number of marriages including current marriage.",
+                "initial_value": "",
+                "rect": [
+                    534.325,
+                    695.999,
+                    569.999,
+                    713.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FirstName5[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 95,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    587.999,
+                    569.999,
+                    605.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "LastName5[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 94,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    587.999,
+                    461.999,
+                    605.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateoMarriage5[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    551.999,
+                    569.999,
+                    569.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "MiddleName5[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 96,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    551.999,
+                    461.999,
+                    569.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceofMarriage5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    515.999,
+                    569.999,
+                    533.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceTerminated5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    479.999,
+                    569.999,
+                    497.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateTerminated5[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 1. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    479.999,
+                    414.0,
+                    497.399
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Reason1[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 1. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    445.002,
+                    460.0,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason1[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 1. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    445.002,
+                    406.0,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason1[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 120,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 1. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    445.002,
+                    345.999,
+                    455.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason1[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 1. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    429.999,
+                    345.999,
+                    439.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[1]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 124,
+                "tool_tip": "Part 1. Information About You. Spouse 1. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    425.999,
+                    569.999,
+                    440.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FirstName6[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    360.0,
+                    569.999,
+                    377.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "LastName6[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    360.0,
+                    461.999,
+                    377.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateoMarriage6[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    324.0,
+                    569.999,
+                    341.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "MiddleName6[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    324.0,
+                    461.999,
+                    341.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceofMarriage6[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    288.0,
+                    569.999,
+                    305.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "PlaceTerminated6[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    252.0,
+                    569.999,
+                    269.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateTerminated6[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 2. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    252.0,
+                    414.0,
+                    269.4
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part2_Reason2[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 133,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 2. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    217.0,
+                    460.0,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason2[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 131,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 2. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    217.0,
+                    406.0,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason2[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 130,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 2. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    217.0,
+                    345.999,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason2[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 132,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 2. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    202.0,
+                    345.999,
+                    212.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[3]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 134,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 2. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    198.0,
+                    569.999,
+                    213.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "FirstName7[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 170,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    659.999,
+                    281.999,
+                    677.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "LastName7[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 169,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    659.999,
+                    173.999,
+                    677.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateofMarriage[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 174,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    623.999,
+                    281.999,
+                    641.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName7[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 171,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    623.999,
+                    173.999,
+                    641.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofMarriage7[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 172,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    587.999,
+                    281.999,
+                    605.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceTerminated7[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 173,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    551.999,
+                    281.999,
+                    569.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateTerminated[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 175,
+                "tool_tip": "Part 1. Information About You. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    551.999,
+                    126.0,
+                    569.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part1_Reason3[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 185,
+                "tool_tip": "Part 1. Information About You. Spouse 3. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    516.999,
+                    172.0,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason3[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 184,
+                "tool_tip": "Part 1. Information About You. Spouse 3. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    108.0,
+                    516.999,
+                    118.0,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason3[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 183,
+                "tool_tip": "Part 1. Information About You. Spouse 3. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    516.999,
+                    57.999,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part1_Reason3[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 186,
+                "tool_tip": "Part 1. Information About You. Spouse 3. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    501.999,
+                    57.999,
+                    511.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[4]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 187,
+                "tool_tip": "Part 1. Information About You. Spouse 3. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    96.001,
+                    497.999,
+                    281.999,
+                    512.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part1_CheckOne[0]",
+                "field_type": "/Btn",
+                "description": "Select One: Select I am a Lawful Permanent Resident",
+                "struct_parent": 161,
+                "tool_tip": "Part 1. Information About You. Select One: Select I am a Lawful Permanent Resident.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    463.002,
+                    57.999,
+                    473.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/LPR"
+                ]
+            },
+            {
+                "field_name": "DateObtained[0]",
+                "field_type": "/Tx",
+                "description": "If I am a Lawful Permanent Resident is Selected, Enter Date you obtained Lawful Permanent Residence on as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 138,
+                "tool_tip": "Part 1. Information About You. If I am a Lawful Permanent Resident is Selected, Enter Date you obtained Lawful Permanent Residence on as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    438.001,
+                    281.999,
+                    456.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part1_CheckOne[1]",
+                "field_type": "/Btn",
+                "description": "Select My Form I-4 85 is currently pending",
+                "struct_parent": 162,
+                "tool_tip": "Part 1. Information About You. Select My Form I-4 85 is currently pending.",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    421.001,
+                    57.999,
+                    431.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/PEN"
+                ]
+            },
+            {
+                "field_name": "ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "If May Form I-4 85 is currently pending is Selected, Enter Receipt Number",
+                "struct_parent": 137,
+                "tool_tip": "Part 1. Information About You. If May Form I-4 85 is currently pending is Selected, Enter Receipt Number.",
+                "initial_value": "",
+                "rect": [
+                    65.999,
+                    384.001,
+                    281.999,
+                    402.805
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FirstName_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 144,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    299.999,
+                    413.997,
+                    317.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "LastName_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 145,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    299.999,
+                    222.001,
+                    317.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofBirth_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 147,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    258.001,
+                    311.998,
+                    275.401
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date_of_Birth_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 146,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    258.001,
+                    114.001,
+                    275.401
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ApartmentNumber_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 150,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    216.0,
+                    330.001,
+                    233.4
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "StreetNumberName_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 149,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    216.0,
+                    263.999,
+                    233.4
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PostalZipCode_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 152,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    173.999,
+                    324.0,
+                    191.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Country_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 153,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    173.999,
+                    227.999,
+                    191.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FirstName9[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 163,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Mother. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    119.999,
+                    414.0,
+                    137.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "LastName9[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 165,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Mother. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    119.999,
+                    222.001,
+                    137.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FirstName10[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 167,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Father. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    65.999,
+                    414.0,
+                    83.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "LastName10[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 168,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Father. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    65.999,
+                    222.001,
+                    83.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FirstName8[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter First Name (Given Name)",
+                "struct_parent": 177,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    659.999,
+                    569.999,
+                    677.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "LastName8[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Last Name (Family Name)",
+                "struct_parent": 176,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    659.999,
+                    461.999,
+                    677.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateoMarriage8[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 181,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Date of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    623.999,
+                    569.999,
+                    641.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName8[0]",
+                "field_type": "/Tx",
+                "description": "Prior Spouse's Name: Enter Middle Name",
+                "struct_parent": 178,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Prior Spouse's Name: Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    623.999,
+                    461.999,
+                    641.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofMarriage8[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Marriage",
+                "struct_parent": 179,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    587.999,
+                    569.999,
+                    605.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceTerminated8[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Termination of Marriage",
+                "struct_parent": 180,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    414.0,
+                    551.999,
+                    569.999,
+                    569.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateTerminated8[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 182,
+                "tool_tip": "Part 2. Information About Your Alien Relative. List any previous marriages beginning with the most recent.  If you need more space, attach an additional sheet of paper. Spouse 3. Enter Date of Termination of Marriage. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    551.999,
+                    414.0,
+                    569.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part2_Reason3[3]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Annulment",
+                "struct_parent": 191,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 3. Reason for Termination: Select Annulment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    516.999,
+                    460.0,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/AN"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason3[1]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Death",
+                "struct_parent": 189,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 3. Reason for Termination: Select Death.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    516.999,
+                    406.0,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/DE"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason3[0]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Divorce",
+                "struct_parent": 188,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 3. Reason for Termination: Select Divorce.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    516.999,
+                    345.999,
+                    526.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/DI"
+                ]
+            },
+            {
+                "field_name": "Part2_Reason3[2]",
+                "field_type": "/Btn",
+                "description": "Reason for Termination: Select Other",
+                "struct_parent": 190,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 3. Reason for Termination: Select Other.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    501.999,
+                    345.999,
+                    511.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/OT"
+                ]
+            },
+            {
+                "field_name": "Other[5]",
+                "field_type": "/Tx",
+                "description": "Reason for Termination: If Other is Checked, Enter Explanation",
+                "struct_parent": 192,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Spouse 3. Reason for Termination: If Other is Checked, Enter Explanation.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    497.999,
+                    569.999,
+                    512.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PlaceofAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Admission",
+                "struct_parent": 139,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Complete if your relative is in the United States. Enter Place of Admission.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    438.001,
+                    569.999,
+                    455.72
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateofAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 140,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Complete if your relative is in the United States. Enter Date of Admission. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    438.001,
+                    407.999,
+                    455.72
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "DateAuthorizedtoStay[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 142,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Complete if your relative is in the United States. Enter Date Authorized to Stay. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    402.001,
+                    569.999,
+                    419.72
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ClassofAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission",
+                "struct_parent": 141,
+                "tool_tip": "Part 2. Information About Your Alien Relative. Complete if your relative is in the United States. Enter Class of Admission.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    402.001,
+                    468.0,
+                    419.72
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 143,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    299.999,
+                    576.0,
+                    317.718
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Part3_Child[2]",
+                "field_type": "/Btn",
+                "description": "Select Adopted Child",
+                "struct_parent": 158,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    280.001,
+                    502.001,
+                    290.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/AC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child[1]",
+                "field_type": "/Btn",
+                "description": "Select Stepchild",
+                "struct_parent": 157,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    280.001,
+                    430.001,
+                    290.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/SC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child[0]",
+                "field_type": "/Btn",
+                "description": "Select Biological Child",
+                "struct_parent": 156,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    280.001,
+                    327.999,
+                    290.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/BC"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 160,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    262.001,
+                    484.001,
+                    272.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 159,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    262.001,
+                    430.001,
+                    272.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "StateProvince_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter State / Province",
+                "struct_parent": 148,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter State / Province.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    216.0,
+                    576.0,
+                    233.4
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "City_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 151,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    216.0,
+                    474.001,
+                    233.4
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "CountryofBirth_Child1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 155,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    173.999,
+                    576.0,
+                    191.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "ANumber_Child1[0]",
+                "field_type": "/Tx",
+                "description": "-Number)",
+                "struct_parent": 154,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Enter Alien Registration Number (A. -Number).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    173.999,
+                    414.0,
+                    191.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName9[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 164,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Mother. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    119.999,
+                    576.0,
+                    137.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "MiddleName10[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 166,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 1. Name of Father. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    65.999,
+                    576.0,
+                    83.399
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "FirstName_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 196,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    677.999,
+                    413.997,
+                    695.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 197,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    677.999,
+                    222.001,
+                    695.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PlaceofBirth_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 199,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    636.001,
+                    311.998,
+                    653.401
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date_of_Birth_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 198,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    636.001,
+                    114.001,
+                    653.401
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "ApartmentNumber_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 202,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    594.0,
+                    330.001,
+                    611.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "StreetNumberName__Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 201,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    594.0,
+                    263.999,
+                    611.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PostalZipCode_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 204,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    551.999,
+                    324.0,
+                    569.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Country_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 205,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    551.999,
+                    227.999,
+                    569.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName11[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 213,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Mother. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    497.999,
+                    414.0,
+                    515.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName11[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 215,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Mother. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    497.999,
+                    222.001,
+                    515.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName12[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 217,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Father. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    443.999,
+                    414.0,
+                    461.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName12[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 218,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Father. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    443.999,
+                    222.001,
+                    461.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName13[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 220,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    389.999,
+                    413.997,
+                    408.644
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName13[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 221,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    389.999,
+                    222.001,
+                    407.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PlaceofBirth_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 223,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    348.001,
+                    311.998,
+                    365.401
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date_of_Birth_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 222,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    348.001,
+                    114.001,
+                    365.401
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "ApartmentNumber_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 226,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    306.0,
+                    330.001,
+                    323.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "StreetNumberName_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 225,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    306.0,
+                    263.999,
+                    323.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PostalZipCode_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 228,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    263.999,
+                    324.0,
+                    281.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Country_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 229,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    263.999,
+                    227.999,
+                    281.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName14[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 238,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Mother. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    209.999,
+                    414.0,
+                    227.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName14[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 230,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Mother. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    209.999,
+                    222.001,
+                    227.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName15[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 241,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Father. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    155.999,
+                    414.0,
+                    173.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName15[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 242,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Father. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    155.999,
+                    222.001,
+                    173.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "FirstName16[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 243,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    102.002,
+                    413.997,
+                    119.402
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "LastName16[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 245,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    102.002,
+                    222.001,
+                    119.402
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "PlaceofBirth_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 247,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    60.004,
+                    311.998,
+                    77.404
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Date_of_Birth_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 246,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    60.004,
+                    114.001,
+                    77.404
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 195,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    677.999,
+                    576.0,
+                    695.718
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part3_Child2[2]",
+                "field_type": "/Btn",
+                "description": "Select Adopted Child",
+                "struct_parent": 210,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    658.001,
+                    502.001,
+                    668.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/AC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child2[1]",
+                "field_type": "/Btn",
+                "description": "Select Stepchild",
+                "struct_parent": 209,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    658.001,
+                    430.001,
+                    668.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/SC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child2[0]",
+                "field_type": "/Btn",
+                "description": "Select Biological Child",
+                "struct_parent": 208,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    658.001,
+                    327.999,
+                    668.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/BC"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender2[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 212,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    640.001,
+                    484.001,
+                    650.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender2[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 211,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    640.001,
+                    430.001,
+                    650.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "StateProvince_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter State / Province",
+                "struct_parent": 200,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter State / Province.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    594.0,
+                    576.0,
+                    611.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "City__Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 203,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    594.0,
+                    474.001,
+                    611.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CountryofBirth_Child2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 207,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    551.999,
+                    576.0,
+                    569.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "ANumber_Child2[0]",
+                "field_type": "/Tx",
+                "description": "-Number)",
+                "struct_parent": 206,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Enter Alien Registration Number (A. -Number).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    551.999,
+                    414.0,
+                    569.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName11[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 214,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Mother. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    497.999,
+                    576.0,
+                    515.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName12[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 216,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 2. Name of Father. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    443.999,
+                    576.0,
+                    461.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName13[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 219,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    389.999,
+                    576.0,
+                    407.718
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part3_Child3[2]",
+                "field_type": "/Btn",
+                "description": "Select Adopted Child",
+                "struct_parent": 235,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    370.001,
+                    502.001,
+                    380.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/AC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child3[1]",
+                "field_type": "/Btn",
+                "description": "Select Stepchild",
+                "struct_parent": 234,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    370.001,
+                    430.001,
+                    380.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/SC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child3[0]",
+                "field_type": "/Btn",
+                "description": "Select Biological Child",
+                "struct_parent": 233,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    370.001,
+                    327.999,
+                    380.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/BC"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender3[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 237,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    352.001,
+                    484.001,
+                    362.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender3[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 236,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    352.001,
+                    430.001,
+                    362.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "StateProvince_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter State / Province",
+                "struct_parent": 224,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter State / Province.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    306.0,
+                    576.0,
+                    323.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "City_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 227,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    306.0,
+                    474.001,
+                    323.4
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "CountryofBirth_Child3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 232,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    263.999,
+                    576.0,
+                    281.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "ANumber_Child3[0]",
+                "field_type": "/Tx",
+                "description": "-Number)",
+                "struct_parent": 231,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Enter Alien Registration Number (A. -Number).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    263.999,
+                    414.0,
+                    281.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName14[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 239,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Mother. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    209.999,
+                    576.0,
+                    227.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName15[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 240,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 3. Name of Father. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    155.999,
+                    576.0,
+                    173.399
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "MiddleName16[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 244,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    102.002,
+                    576.0,
+                    119.721
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Part3_Child4[2]",
+                "field_type": "/Btn",
+                "description": "Select Adopted Child",
+                "struct_parent": 250,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    82.004,
+                    502.001,
+                    92.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/AC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child4[1]",
+                "field_type": "/Btn",
+                "description": "Select Stepchild",
+                "struct_parent": 249,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    82.004,
+                    430.001,
+                    92.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/SC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child4[0]",
+                "field_type": "/Btn",
+                "description": "Select Biological Child",
+                "struct_parent": 248,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    82.004,
+                    327.999,
+                    92.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/BC"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender4[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 252,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    64.004,
+                    484.001,
+                    74.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender4[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 251,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    64.004,
+                    430.001,
+                    74.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "ApartmentNumber_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 266,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    677.999,
+                    330.001,
+                    695.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "StreetNumberName_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 265,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    677.999,
+                    263.999,
+                    695.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "PostalZipCode_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 268,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    635.998,
+                    324.0,
+                    653.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Country_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 269,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    635.998,
+                    227.999,
+                    653.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName17[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 272,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Mother. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    581.998,
+                    414.0,
+                    599.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName17[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 274,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Mother. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    581.998,
+                    222.001,
+                    599.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName18[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 276,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Father. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    528.001,
+                    414.0,
+                    545.401
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName18[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 277,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Father. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    527.998,
+                    222.001,
+                    545.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName19[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 279,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    473.998,
+                    413.997,
+                    491.332
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName19[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 280,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    473.998,
+                    222.001,
+                    491.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "PlaceofBirth_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Birth",
+                "struct_parent": 282,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Place of Birth.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    432.0,
+                    311.998,
+                    449.4
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Date_of_Birth_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 281,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    432.0,
+                    114.001,
+                    449.4
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "ApartmentNumber_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 285,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    389.999,
+                    330.001,
+                    407.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "StreetNumberName_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 284,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    389.999,
+                    263.999,
+                    407.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "PostalZipCode_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 287,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    347.998,
+                    324.0,
+                    365.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Country_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 288,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    347.998,
+                    227.999,
+                    365.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName20[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 296,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Mother. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    293.998,
+                    414.0,
+                    311.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName20[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 298,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Mother. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    293.998,
+                    222.001,
+                    311.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName21[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 300,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Father. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    239.998,
+                    414.0,
+                    257.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName21[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 301,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Father. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    239.998,
+                    222.001,
+                    257.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "FirstName_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name (Given Name)",
+                "struct_parent": 256,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter First Name (Given Name).",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    168.001,
+                    414.0,
+                    185.401
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "LastName_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name (Family Name)",
+                "struct_parent": 257,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Last Name (Family Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    168.001,
+                    222.001,
+                    185.401
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Street[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 259,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    126.0,
+                    510.001,
+                    143.4
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "CO[0]",
+                "field_type": "/Tx",
+                "description": "Enter C/O (In Care Of) Name",
+                "struct_parent": 260,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter C/O (In Care Of) Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    126.0,
+                    240.001,
+                    143.4
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Country_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 262,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    84.002,
+                    461.999,
+                    101.402
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "CityProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter City / State or Province",
+                "struct_parent": 263,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter City / State or Province.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    84.002,
+                    263.999,
+                    101.402
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "StateProvince_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter State / Province",
+                "struct_parent": 264,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter State / Province.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    677.999,
+                    576.0,
+                    695.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "City_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 267,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    677.999,
+                    474.001,
+                    695.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "CountryofBirth_Child4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 271,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    635.998,
+                    576.0,
+                    653.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "ANumber_Child4[0]",
+                "field_type": "/Tx",
+                "description": "-Number)",
+                "struct_parent": 270,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Enter Alien Registration Number (A. -Number).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    635.998,
+                    414.0,
+                    653.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName17[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 273,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Mother. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    581.998,
+                    576.0,
+                    599.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName18[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 275,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 4. Name of Father. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    527.998,
+                    576.0,
+                    545.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName19[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 278,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    473.998,
+                    576.0,
+                    491.717
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Part3_Child5[2]",
+                "field_type": "/Btn",
+                "description": "Select Adopted Child",
+                "struct_parent": 293,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Select Adopted Child.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    454.0,
+                    502.001,
+                    464.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/AC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child5[1]",
+                "field_type": "/Btn",
+                "description": "Select Stepchild",
+                "struct_parent": 292,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Select Stepchild.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    454.0,
+                    430.001,
+                    464.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/SC"
+                ]
+            },
+            {
+                "field_name": "Part3_Child5[0]",
+                "field_type": "/Btn",
+                "description": "Select Biological Child",
+                "struct_parent": 291,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Select Biological Child.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    454.0,
+                    327.999,
+                    464.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/BC"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender5[1]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 295,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Gender: (Select one). Select Female.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    436.0,
+                    484.001,
+                    446.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Part3_Gender5[0]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 294,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Gender: (Select one). Select Male.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    436.0,
+                    430.001,
+                    446.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "StateProvince_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter State / Province",
+                "struct_parent": 283,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter State / Province.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    389.999,
+                    576.0,
+                    407.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "City_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 286,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    389.999,
+                    474.001,
+                    407.399
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "CountryofBirth_Child5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 290,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    347.998,
+                    576.0,
+                    365.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "ANumber_Child5[0]",
+                "field_type": "/Tx",
+                "description": "-Number)",
+                "struct_parent": 289,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Enter Alien Registration Number (A. -Number).",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    347.998,
+                    414.0,
+                    365.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName20[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 297,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Mother. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    293.998,
+                    576.0,
+                    311.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName21[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 299,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Child 5. Name of Father. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    239.998,
+                    576.0,
+                    257.398
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "MiddleName_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 255,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    168.001,
+                    576.0,
+                    185.401
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Apt[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment Number",
+                "struct_parent": 258,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Apartment Number.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    126.0,
+                    576.0,
+                    143.4
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Postal[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 261,
+                "tool_tip": "Part 3. Information About Your Alien Relative's Children. Name and address of your alien relative in the language written in the country where he/she currently resides. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    84.002,
+                    576.0,
+                    101.402
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Part4_Line1[0]",
+                "field_type": "/Btn",
+                "description": "Select The person named in Part 2 is now in the United States",
+                "struct_parent": 317,
+                "tool_tip": "Part 4. Processing Information. 1. Select one: A. Select The person named in Part 2 is now in the United States.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    685.0,
+                    82.0,
+                    695.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Part4_Line1[1]",
+                "field_type": "/Btn",
+                "description": "Embassy or consulate your relative will apply for a visa",
+                "struct_parent": 318,
+                "tool_tip": "Part 4. Processing Information. 1. Select one: B. Select The person named in Part 2 is now outside the United States.  (Indicate below at which U. S. Embassy or consulate your relative will apply for a visa.)",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    655.002,
+                    82.0,
+                    665.002
+                ],
+                "page_number": 7,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "CityCountry[0]",
+                "field_type": "/Tx",
+                "description": "Embassy or consulate at: Enter City and Country",
+                "struct_parent": 304,
+                "tool_tip": "Part 4. Processing Information. 1. B. U. S. Embassy or consulate at: Enter City and Country.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    623.733,
+                    576.0,
+                    638.399
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part4_Line2[0]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 319,
+                "tool_tip": "Part 4. Processing Information. 2. Is the person named in Part 2 or has this person ever been in deportation or removal proceedings in the United States? A. Select No.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    565.001,
+                    82.0,
+                    575.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Part4_Line2[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes (Indicate when and where)",
+                "struct_parent": 320,
+                "tool_tip": "Part 4. Processing Information. 2. Is the person named in Part 2 or has this person ever been in deportation or removal proceedings in the United States? B. Select Yes (Indicate when and where).",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    541.0,
+                    82.0,
+                    551.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "WhenWhere[0]",
+                "field_type": "/Tx",
+                "description": "If Yes is Selected, Enter When and Where",
+                "struct_parent": 305,
+                "tool_tip": "Part 4. Processing Information. 2. B. If Yes is Selected, Enter When and Where.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    540.0,
+                    576.0,
+                    554.4
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "PrintFullName[0]",
+                "field_type": "/Tx",
+                "description": "Print Your Full Name",
+                "struct_parent": 306,
+                "tool_tip": "Part 5. Signature.  I certify, or if outside the United States, I swear or affirm, under penalty of perjury under the laws of the United States of America, that this petition and the evidence submitted with it, is all true and correct. I authorize the release of any information from my record that U. S. Citizenship and Immigration Services needs to determine eligibility for the benefit I am seeking. Print Your Full Name.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    420.001,
+                    497.999,
+                    438.128
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "TextField3[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 308,
+                "tool_tip": "Part 5.  Signature. I certify, or if outside the United States, I swear or affirm, under penalty of perjury under the laws of the United States of America, that this petition and the evidence submitted with it, is all true and correct.  I authorize the release of any information from my record that U.S. Citizenship and Immigration Services needs to determine eligibility for the benefit I am seeking. Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    420.001,
+                    263.999,
+                    438.21
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "PrintFullName[1]",
+                "field_type": "/Tx",
+                "description": "Print Your Full Name",
+                "struct_parent": 309,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. I declare that I prepared this petition at the request of the above person, and it is based on all the information that I have knowledge. Print Your Full Name.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    324.0,
+                    497.999,
+                    342.127
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "StreetNumberName_Preparer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 312,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    281.999,
+                    510.001,
+                    300.126
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "FirmName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Firm Name",
+                "struct_parent": 313,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Firm Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    281.999,
+                    263.999,
+                    300.126
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "CityStateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter City / State or Province",
+                "struct_parent": 316,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter City / State or Province.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    239.998,
+                    366.001,
+                    258.125
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 307,
+                "tool_tip": "Part 5. Signature. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    420.001,
+                    576.0,
+                    438.128
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "DateSign[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 310,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.  ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    324.0,
+                    576.0,
+                    342.127
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "SuiteNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Suite Number",
+                "struct_parent": 311,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Suite Number.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    281.999,
+                    576.0,
+                    300.126
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "TelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Telephone Number",
+                "struct_parent": 314,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    240.001,
+                    576.0,
+                    258.128
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "PostalZipCode_Preparer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal / Zip Code",
+                "struct_parent": 315,
+                "tool_tip": "Part 6. Preparer's Information, If Other Than Person Signing Above. Enter Postal / Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    371.999,
+                    240.001,
+                    474.001,
+                    258.128
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

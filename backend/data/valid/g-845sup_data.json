@@ -1,0 +1,2538 @@
+[
+    {
+        "title": "Part 1.  Information From the Registered Agency",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_USCIS-SAVE-ProgStatus[0]",
+                "field_type": "/Tx",
+                "description": "Print clearly since U S C I S may use agency address below with a Number 10 window envelope",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information From the Registered Agency. NOTE: Only the Registered Agency should complete this information. To:  U.S. Citizenship and Immigration Services (U S C I S). Attention: U S C I S SAVE Program Status Verification Office. Stamp, type, or print the name, address, and ZIP Code of the Registered Agency. Print clearly since U S C I S may use agency address below with a Number 10 window envelope.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    534.005,
+                    294.001,
+                    588.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_NameAddressZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter From Address",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information From the Registered Agency. Enter From Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    414.0,
+                    294.001,
+                    468.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1a_AlienRegistrationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A-Number)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information From the Registered Agency. NOTE: You may only submit a completed Form G - 8 45 Supplement with a completed Form G - 8 45 to request verification. You may not submit Form G - 8 45 Supplement alone. The information on this request concerns eligibility for certain Federal, state, and local public benefits. Applicant Information. Immigration Document Number. 1. A. Enter Alien Registration Number (A-Number). ",
+                "initial_value": "",
+                "rect": [
+                    163.63,
+                    263.999,
+                    292.64,
+                    281.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1b_194ArrivalDeparture[0]",
+                "field_type": "/Tx",
+                "description": "Enter Form I - 94 Number (Arrival-Departure Record)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. B. Enter Form I - 94 Number (Arrival-Departure Record).",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    227.999,
+                    292.518,
+                    245.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1c_OtherImmigrationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Immigration Number",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. C. Enter Other Immigration Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    294.001,
+                    209.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line1d_NameOfFormNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name or Form Number of Document Containing the Other Immigration Number",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Immigration Document Number. 1. D. Enter Name or Form Number of Document Containing the Other Immigration Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    144.0,
+                    294.001,
+                    162.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2a_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. A. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    89.997,
+                    294.001,
+                    107.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2b_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. B. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    65.999,
+                    294.001,
+                    83.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line2c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Applicant's Full Name as Shown on the Immigration Document. 2. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    41.998,
+                    294.001,
+                    59.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Case Verification Number",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 3. Enter Case Verification Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    641.999,
+                    576.0,
+                    659.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line4_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 4. Enter Date of Birth. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    618.001,
+                    576.0,
+                    636.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line5_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. 5. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    446.947,
+                    594.003,
+                    575.957,
+                    612.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line6a_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Immigration Status",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. A. Check this box for Immigration Status.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    541.003,
+                    352.999,
+                    551.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6b_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Citizenship Status",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. B. Check this box for Citizenship Status.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    523.003,
+                    352.999,
+                    533.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6c_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Special Benefit Provision for Certain Victims of Abuse",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. C. Check this box for Special Benefit Provision for Certain Victims of Abuse. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    505.003,
+                    352.999,
+                    515.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6d_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Affidavit of Support",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. D. Check this box for Affidavit of Support.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    475.001,
+                    352.999,
+                    485.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6e_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for U S C I S to verify Cuban / Haitian entrants by filling out Part 3",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. E. Check this box for U S C I S to verify Cuban / Haitian entrants by filling out Part 3. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    457.001,
+                    352.999,
+                    467.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6f_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Use only for applicants with proceedings pending with E O I R",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. F. Check this box for Form S S A. - 85 10, Authorization for the Social Security Administration to Obtain Personal Information, or other agency's equivalent release form, attached. Use only for applicants with proceedings pending with E O I R.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    427.002,
+                    352.999,
+                    437.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6g_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "in Part 2",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. G. Check this box for For S S A. only: Retirement, Survivors, and Disability Insurance (R S D I) Claim. U S C I S completes Item Numbers 4. A. through 4. D. in Part 2. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    361.003,
+                    352.999,
+                    371.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line6h_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "in Part 3",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information From the Registered Agency. Applicant Information. Information Requested by the Registered Agency (Select all applicable boxes). 6. H. Check this box for Status of this applicant as of August 22, 1996 is required (U S C I S completes Item Numbers 1. A. through 1. B. in Part 3.) ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    319.002,
+                    352.999,
+                    329.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line7a_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 7. A. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    222.001,
+                    576.0,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line7b_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. Full Name of Agency Official. 7. B. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    198.003,
+                    576.0,
+                    216.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line8a_DaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number (Include Area Code)",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 8. A. Enter Daytime Telephone Number (Include Area Code).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    162.003,
+                    576.0,
+                    180.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line8b_ExtensionNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Extension Number, if applicable",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 8. B. Enter Extension Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    126.0,
+                    576.0,
+                    144.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line9_DateOfRequest[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information From the Registered Agency. Registered Agency Information. 9. Enter Date Request Competed. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    90.0,
+                    576.0,
+                    108.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  USCIS Responses",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2b_FirstName[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 27,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    738.0,
+                    396.0,
+                    756.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 30,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    737.997,
+                    575.83,
+                    755.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "(The Registered Agency must select only one date necessary to make their benefit determination",
+                "struct_parent": 32,
+                "tool_tip": "Part 2. U S C I S Responses. NOTE: Only U S C I S should complete this information, unless otherwise indicated. Upon review of these documents, information submitted, and our records, we find the following for the applicant. Current Immigration Status (Select all applicable boxes). 1. A. Check this box for Lawful Permanent Resident (L P R) of the United States. (The Registered Agency must select only one date necessary to make their benefit determination.) ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    595.0,
+                    352.999,
+                    605.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1a_EffectiveDateOfLPR[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 31,
+                "tool_tip": "Part 2. U S C I S Responses. 1. A. Enter Effective Date of L P R Status / Rollback. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    533.999,
+                    576.0,
+                    551.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1a_DateAdjToLPR[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 33,
+                "tool_tip": "Part 2. U S C I S Responses. 1. A. Enter Date Adjustment to L P R Approved. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    497.999,
+                    576.0,
+                    515.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Refugee admitted to the United States under section 2 0 7 of the Immigration and Nationality Act (I N A)",
+                "struct_parent": 34,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. B. Check this box for Refugee admitted to the United States under section 2 0 7 of the Immigration and Nationality Act (I N A). ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    421.086,
+                    352.999,
+                    431.086
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1b_DateOfAdmission[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 35,
+                "tool_tip": "Part 2. U S C I S Responses. 1. B. Enter Date of Admission as a Refugee. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    372.169,
+                    576.0,
+                    390.169
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Asylee under section 2 0 8 of the I N A",
+                "struct_parent": 36,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. C. Check this box for Asylee under section 2 0 8 of the I N A. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    355.087,
+                    352.999,
+                    365.087
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1c_DateAsylumGRanted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. U S C I S Responses. 1. C. Enter Date Asylum Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    318.084,
+                    576.0,
+                    336.084
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1d_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant whose deportation has been withheld under I N A 2 43 (h) (as in effect prior to April 1, 1997) or whose removal has been withheld under                        I N A 2 41 (b) (3)",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. D. Check this box for Applicant whose deportation has been withheld under I N A 2 43 (h) (as in effect prior to April 1, 1997) or whose removal has been withheld under                        I N A 2 41 (b) (3). ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    301.087,
+                    352.999,
+                    311.087
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1d_DateOfDeportation[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. U S C I S Responses. 1. D. Enter Date Deportation or Removal Ordered Withheld. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    228.084,
+                    576.0,
+                    246.084
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1e_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant paroled into the United States under I N A 2 12 (d) (5) for a period of at least 1 year",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. E. Check this box for Applicant paroled into the United States under I N A 2 12 (d) (5) for a period of at least 1 year.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    211.087,
+                    352.999,
+                    221.087
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1e_DateParoleGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. U S C I S Responses. Enter Date Parole Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    162.082,
+                    576.0,
+                    180.082
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1e_DateParoleExpires[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. U S C I S Responses. Enter Date Parole Expires. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    126.082,
+                    576.0,
+                    144.082
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1f_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Conditional entrant under I N A 2 0 3 (a) (7) prior to April 1, 1980",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. F. Check this box for Conditional entrant under I N A 2 0 3 (a) (7) prior to April 1, 1980.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    109.088,
+                    352.999,
+                    119.088
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1f_DateStatusGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. U S C I S Responses. 1. F. Enter Date Status Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    60.086,
+                    576.0,
+                    78.086
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 28,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    738.0,
+                    209.999,
+                    756.0
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information From the Registered Agency  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line10_RegisteredAgency[0]",
+                "field_type": "/Tx",
+                "description": "Enter Registered Agency Comments, if any",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information From the Registered Agency. Additional Information. 10. Enter Registered Agency Comments, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.358,
+                    42.001,
+                    294.086,
+                    635.998
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Affidavit of Support",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2b_FirstName[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 46,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.012,
+                    738.0,
+                    396.011,
+                    756.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 48,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.013,
+                    737.997,
+                    575.841,
+                    755.997
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Citizenship Status",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[2]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 47,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    738.0,
+                    209.999,
+                    756.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  USCIS Responses  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1g_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for American Indian born in Canada to whom the provisions of I N A 2 89 apply",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. G. Check this box for American Indian born in Canada to whom the provisions of I N A 2 89 apply. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    679.002,
+                    71.0,
+                    689.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1g_DateStatusRec[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. U S C I S Responses. 1. G. Enter Date Status Recognized. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    630.0,
+                    293.998,
+                    648.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1h_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Cuban / Haitian entrant as defined in section 5 0 1 (e) of the Refugee Education Assistance Act of 1980",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. H. Check this box for Cuban / Haitian entrant as defined in section 5 0 1 (e) of the Refugee Education Assistance Act of 1980. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    613.0,
+                    71.0,
+                    623.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1i_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Amerasian immigrant under section 5 84 of the Foreign Operations, Export Financing, and Related Programs Appropriations Act of 1988",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. I. Check this box for Amerasian immigrant under section 5 84 of the Foreign Operations, Export Financing, and Related Programs Appropriations Act of 1988. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    583.001,
+                    71.0,
+                    593.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1i_DateOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. U S C I S Responses. 1. I. Enter Date of Entry. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    521.997,
+                    293.998,
+                    539.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1j_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant classified as an Iraqi / Afghan special immigrant admitted under I N A 1 0 1 (a) (27)",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. J. Check this box for Applicant classified as an Iraqi / Afghan special immigrant admitted under I N A 1 0 1 (a) (27). ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    505.0,
+                    71.0,
+                    515.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1j_DateOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. U S C I S Responses. 1. J. Enter Date of Entry. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    455.998,
+                    293.998,
+                    473.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1j_DateStatusGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. U S C I S Responses. 1. J. Enter Date Status Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    419.998,
+                    293.998,
+                    437.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1j_COA[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission (C O A)",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. U S C I S Responses. 1. J. Enter Class of Admission (C O A).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    384.001,
+                    294.001,
+                    402.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1k_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other (Indicate Status)",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. U S C I S Responses. Current Immigration Status (Select all applicable boxes). PRIOR STATUS: If the applicant adjusted to L P R in the past 7 years from a status listed below in Item Numbers 1. B., 1. C., 1. D., 1. G., 1. H., 1. I., or 1. J., select the appropriate prior status and provide dates and class of admission where indicated. 1. K. Check this box for Other (Indicate Status).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    367.001,
+                    71.0,
+                    377.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line1k_Other[0]",
+                "field_type": "/Tx",
+                "description": "If Other is selected, indicate status",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. U S C I S Responses. 1. K. If Other is selected, indicate status.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    348.001,
+                    294.001,
+                    366.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1k_DateStatusGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. U S C I S Responses. 1. K. Enter Date Status Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    311.998,
+                    293.998,
+                    329.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line1k_COA[0]",
+                "field_type": "/Tx",
+                "description": "Enter Class of Admission (C O A), if applicable",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. U S C I S Responses. 1. K. Enter Class of Admission (C O A), if applicable.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    276.001,
+                    294.001,
+                    294.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Citizen",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. A. Check this box for U.S. Citizen.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    228.999,
+                    71.0,
+                    238.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line2b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Citizen",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. B. Check this box for Not a U.S. Citizen.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    210.999,
+                    71.0,
+                    220.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line2c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "only: Status Dates for R S D I Claims (Registered Agency representative provides dates)",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. C. Check this box for For S S A. only: Status Dates for R S D I Claims (Registered Agency representative provides dates).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    192.999,
+                    71.0,
+                    202.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line2c_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. C. For SSA only: Status Dates for RSDI Claims (Registered Agency representative provides dates). Enter Date From. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    155.999,
+                    293.998,
+                    173.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2c_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. C. For SSA only: Status Dates for RSDI Claims (Registered Agency representative provides dates). Enter Date To. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    131.998,
+                    293.998,
+                    149.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line2c_Response[0]",
+                "field_type": "/Tx",
+                "description": "Enter Response",
+                "struct_parent": 66,
+                "tool_tip": "Part 2. U S C I S Responses. Citizenship Status. 2. C. Enter Response.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    95.998,
+                    294.001,
+                    113.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "citizen",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. U S C I S Responses. Special Benefit Provision for Certain Victims of Abuse or Status as a Widow(er). 3. A. Check this box for Applicant obtained lawful (or conditional) permanent resident status as the spouse, child, or widow(er) of a U.S. citizen.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    667.0,
+                    352.999,
+                    677.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line3a_DateStatusGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. U S C I S Responses. Special Benefit Provision for Certain Victims of Abuse or Status as a Widow(er). 3. A. Enter Date Status Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    605.999,
+                    576.0,
+                    623.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant obtained lawful (or conditional) permanent resident status as the spouse, child, or unmarried son or daughter of a lawful permanent resident",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. U S C I S Responses. Special Benefit Provision for Certain Victims of Abuse or Status as a Widow(er). 3. B. Check this box for Applicant obtained lawful (or conditional) permanent resident status as the spouse, child, or unmarried son or daughter of a lawful permanent resident.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    588.999,
+                    352.999,
+                    598.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line3b_DateStatusGranted[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. U S C I S Responses. Special Benefit Provision for Certain Victims of Abuse or Status as a Widow(er). 3. B. Enter Date Status Granted. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    528.001,
+                    576.0,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line3c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "B",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. U S C I S Responses. Special Benefit Provision for Certain Victims of Abuse or Status as a Widow(er). 3. C. Check this box for Applicant did not obtain status described in Item Number 3. A. or 3. B.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    511.004,
+                    352.999,
+                    521.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line4a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant was not sponsored on Form I - 8 64",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. A. Check this box for Applicant was not sponsored on Form I - 8 64.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    451.0,
+                    352.999,
+                    461.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line4a_ReceiptDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. A. Enter Receipt Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    413.994,
+                    576.0,
+                    431.994
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "2 13 A",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. B. Check this box for Applicant was sponsored on Form I - 8 64, Affidavit of Support, under I N A. 2 13 A.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    396.994,
+                    352.999,
+                    406.994
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line4b_ReceiptDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. B. Enter Receipt Date. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    347.995,
+                    576.0,
+                    365.995
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    305.997,
+                    576.0,
+                    323.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    281.999,
+                    576.0,
+                    299.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    257.998,
+                    576.0,
+                    275.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    446.947,
+                    233.997,
+                    575.957,
+                    251.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    209.999,
+                    576.0,
+                    227.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    427.0,
+                    190.001,
+                    437.0,
+                    200.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    189.998,
+                    352.998,
+                    199.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.999,
+                    189.995,
+                    394.999,
+                    199.995
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    471.09,
+                    185.995,
+                    576.0,
+                    203.995
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    161.997,
+                    576.0,
+                    179.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    477.091,
+                    137.996,
+                    576.0,
+                    155.996
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    368.001,
+                    137.996,
+                    425.999,
+                    155.996
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line4c_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    113.998,
+                    576.0,
+                    131.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    89.997,
+                    576.0,
+                    107.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line4c_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. C. Sponsor's Information. Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    53.997,
+                    576.0,
+                    71.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P1_Line2b_FirstName[3]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 94,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    738.0,
+                    396.0,
+                    756.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Last Name",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Enter Last Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    654.001,
+                    294.001,
+                    672.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    630.003,
+                    294.001,
+                    648.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    606.002,
+                    294.001,
+                    624.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Social Security Number",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Enter Social Security Number.",
+                "initial_value": "",
+                "rect": [
+                    164.948,
+                    582.001,
+                    293.958,
+                    600.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    558.0,
+                    294.001,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 106,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    537.999,
+                    70.999,
+                    547.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line4d_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 104,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    537.996,
+                    154.998,
+                    547.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line4d_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 103,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    537.996,
+                    113.0,
+                    547.996
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line4d_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 105,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    189.091,
+                    533.996,
+                    294.001,
+                    551.996
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    509.998,
+                    294.001,
+                    527.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    195.092,
+                    485.997,
+                    294.001,
+                    503.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    86.002,
+                    485.997,
+                    144.0,
+                    503.997
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line4d_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    461.996,
+                    294.001,
+                    479.996
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    437.998,
+                    294.001,
+                    455.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4d_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. D. Joint Sponsor's Information. Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    401.998,
+                    294.001,
+                    419.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line4e_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Information on additional joint sponsors attached",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. U S C I S Responses. Affidavit of Support. 4. E. Check this box for Information on additional joint sponsors attached.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    385.001,
+                    71.0,
+                    395.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  USCIS Additional Responses",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[3]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 95,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    738.0,
+                    209.999,
+                    756.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line1a_NA[0]",
+                "field_type": "/Tx",
+                "description": "Type or print \"N / A,\" as appropriate",
+                "struct_parent": 125,
+                "tool_tip": "Part 3. U S C I S Additional Responses. NOTE: Only U S C I S should complete this information, unless otherwise indicated.  Please do not preselect Department of Homeland Security (D H S) responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. Immigration status as of August 22, 1996. 1. A. Type or print \"N / A,\" as appropriate.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    294.001,
+                    240.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line1b_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Immigration status at initial entry",
+                "struct_parent": 126,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Upon review of these documents, information submitted, and our records, we find the following for the applicant. Immigration status as of August 22, 1996. 1. B. Enter Immigration status at initial entry.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    186.004,
+                    294.001,
+                    204.004
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2a_Checkboxes[1]",
+                "field_type": "/Btn",
+                "description": "If you answered \"NO,\" do not process form any further",
+                "struct_parent": 128,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. A. Is the applicant a Cuban or Haitian national as indicated by the document provided by the applicant? Check this box for No. If you answered \"NO,\" do not process form any further. ",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    127.006,
+                    273.999,
+                    137.006
+                ],
+                "page_number": 4,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "P3_Line2a_Checkboxes[0]",
+                "field_type": "/Btn",
+                "description": "Is the applicant a Cuban or Haitian national as indicated by the document provided by the applicant? Check this box for Yes",
+                "struct_parent": 127,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. A. Is the applicant a Cuban or Haitian national as indicated by the document provided by the applicant? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    127.006,
+                    232.001,
+                    137.006
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[3]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 96,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    737.997,
+                    575.83,
+                    755.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 113,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. B. Check this box for Applicant paroled into the United States as a Cuban / Haitian entrant (status pending) as defined in section 5 0 1 (e) of the Refugee Education Assistance Act of 1980, on or after April 21, 1980 (Category 1. A.), or a Cuban / Haitian entrant paroled on or after October 10, 1980.  (Category 1. B.). ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    703.0,
+                    352.999,
+                    713.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2b_FromDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 114,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. B. Status Dates (Registered Agency representative provides dates). Enter Date From. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    587.999,
+                    576.0,
+                    605.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2b_ToDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 115,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. B. Status Dates (Registered Agency representative provides dates). Enter Date To. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    563.998,
+                    576.0,
+                    581.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2b_Response[0]",
+                "field_type": "/Tx",
+                "description": "Enter Response",
+                "struct_parent": 116,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. B. Enter Response.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    528.001,
+                    576.0,
+                    546.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 117,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. C. Check this box for Applicant paroled into the United States who has not acquired any other status under the I N A.                 (Category 2. A.).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    511.001,
+                    352.999,
+                    521.001
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2c_FromDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 118,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. C. Status Dates (Registered Agency representative provides dates). Enter Date From. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    432.003,
+                    576.0,
+                    450.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2c_ToDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 119,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. C. Status Dates (Registered Agency representative provides dates). Enter Date To. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    408.002,
+                    576.0,
+                    426.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2c_Response[0]",
+                "field_type": "/Tx",
+                "description": "Enter Response",
+                "struct_parent": 120,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. C. Enter Response.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    372.005,
+                    576.0,
+                    390.005
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2d_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant paroled into the United States in the custody of Federal, state, or local enforcement authorities for law enforcement purposes",
+                "struct_parent": 121,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. D. Check this box for Applicant paroled into the United States in the custody of Federal, state, or local enforcement authorities for law enforcement purposes. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    355.002,
+                    352.999,
+                    365.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2d_DateOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 122,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. D. Enter Date of Entry. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    294.001,
+                    576.0,
+                    312.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2e_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 123,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. E. Check this box for Applicant's asylum application was filed under I N A. 2 0 8 and is pending with D H S. (Category 2. C.).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    276.998,
+                    352.999,
+                    286.998
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2e_DateAsylumApp[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 124,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. E. Enter Date Asylum Application Filed. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    227.996,
+                    576.0,
+                    245.996
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P3_Line2f_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "- 85 10, or other agency's equivalent release form",
+                "struct_parent": 129,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. F. Check this box for Applicant's asylum application was filed under I N A. 2 0 8 and is pending with E O I R. (Category 2. B.). NOTE: Registered Agency must attach Form S S A. - 85 10, or other agency's equivalent release form.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    211.002,
+                    352.999,
+                    221.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2f_DateAsylumAppRef[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 130,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. F. Enter Date Asylum Application Referred to E O I R. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    132.001,
+                    576.0,
+                    150.001
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  USCIS Comments",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2b_FirstName[4]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 132,
+                "tool_tip": "Applicant's First Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    738.0,
+                    396.0,
+                    756.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P1_Line3_CaseVerificationNumber[4]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 134,
+                "tool_tip": "Case Verification Number. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    408.002,
+                    737.997,
+                    575.83,
+                    755.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P4_Narrative[0]",
+                "field_type": "/Tx",
+                "description": "Enter Comments",
+                "struct_parent": 148,
+                "tool_tip": "Part 4. U S C I S Comments. NOTE: Only U S C I S should complete this information. Enter Comments.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    245.999,
+                    576.252,
+                    677.999
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  USCIS Additional Responses  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line2a_LastName[4]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 133,
+                "tool_tip": "Applicant's Last Name. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    738.0,
+                    209.999,
+                    756.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Line2g_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 135,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. G. Check this box for Applicant who is in removal proceedings for whom a final, non-appealable, legally enforceable order of removal has NOT been entered. (Category 2. B.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    679.002,
+                    71.0,
+                    689.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line2g_DatePlaced[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 136,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. G. Enter Date Placed Into Proceedings. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    192.22,
+                    618.001,
+                    294.219,
+                    636.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Line2h_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant does not meet any of the categories described above",
+                "struct_parent": 137,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Immigration Status of Cuban / Haitian Nationals. 2. H. Check this box for Applicant does not meet any of the categories described above. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    600.995,
+                    71.0,
+                    610.995
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line3a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is subject to an order of removal that is final, non-appealable, and legally enforceable",
+                "struct_parent": 139,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Removal Proceedings. 3. A. Check this box for Applicant is subject to an order of removal that is final, non-appealable, and legally enforceable.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    546.995,
+                    71.0,
+                    556.995
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line3a_DateOrderFinal[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 138,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Removal Proceedings. 3. A. Enter Date Order Became Final. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    192.22,
+                    497.999,
+                    294.219,
+                    515.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Line3b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is subject to an order of supervision after an order of removal",
+                "struct_parent": 141,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Removal Proceedings. 3. B. Check this box for Applicant is subject to an order of supervision after an order of removal.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    480.991,
+                    71.0,
+                    490.991
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line3b_DateOfOrder[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 140,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Removal Proceedings. 3. B. Enter Date of Order. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    432.003,
+                    293.998,
+                    450.003
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Line3c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is NOT subject to an order of removal that is final, non-appealable, and legally enforceable",
+                "struct_parent": 142,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Removal Proceedings. 3. C. Check this box for Applicant is NOT subject to an order of removal that is final, non-appealable, and legally enforceable.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    414.992,
+                    71.0,
+                    424.992
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under",
+                "struct_parent": 143,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Check this box for Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    360.997,
+                    71.0,
+                    370.997
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_CheckboxNicaraguan[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 144,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under: Check this box for Nicaraguan Adjustment and Central American Relief Act  (N A. C A. R A.).",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    318.996,
+                    89.0,
+                    328.996
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_CheckboxHaitian[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 145,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under: Check this box for Haitian Refugee Immigration Fairness Act (H R I F A.).",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    288.997,
+                    89.0,
+                    298.997
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_CheckboxIRCA[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 146,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under: Check this box for Immigration Reform and Control Act of 1986 (I R C A.).",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    258.995,
+                    89.0,
+                    268.995
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_CheckboxCAA[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 147,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Cuban or Haitian national (or citizen) as indicated on the document provided by the applicant who adjusted status under: Check this box for Cuban Adjustment Act of 1966  (C A. A.).",
+                "initial_value": "",
+                "rect": [
+                    79.0,
+                    228.996,
+                    89.0,
+                    238.996
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P3_Line4a_DateFormApprvd[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit Month, 2 digit Day, and 4 digit Year",
+                "struct_parent": 149,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Enter Date Form I - 4 85 Approved. Enter as 2 digit Month, 2 digit Day, and 4 digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    192.22,
+                    191.999,
+                    294.219,
+                    209.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Line3_Nationality[0]",
+                "field_type": "/Tx",
+                "description": ")",
+                "struct_parent": 150,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. A. Enter Class of Admission (C O A.).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    155.996,
+                    294.001,
+                    173.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P3_Line4b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Applicant is NOT an L P R or adjusted under a different section of law",
+                "struct_parent": 151,
+                "tool_tip": "Part 3. U S C I S Additional Responses. Adjusted to Lawful Permanent Resident Status. 4. B. Check this box for Applicant is NOT an L P R or adjusted under a different section of law.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    138.999,
+                    71.0,
+                    148.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    }
+]

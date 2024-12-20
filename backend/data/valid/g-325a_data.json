@@ -1,0 +1,1982 @@
+[
+    {
+        "title": "G-325A, Biographic Information  (for Deferred Action)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 127,
+                "tool_tip": "Select Male.",
+                "initial_value": "",
+                "rect": [
+                    305.954,
+                    693.086,
+                    313.954,
+                    701.086
+                ],
+                "page_number": 1,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 126,
+                "tool_tip": "Select Female.",
+                "initial_value": "",
+                "rect": [
+                    305.952,
+                    672.672,
+                    313.952,
+                    680.672
+                ],
+                "page_number": 1,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 3,
+                "tool_tip": "Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    234.782,
+                    668.458,
+                    299.284,
+                    683.578
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter First Name",
+                "struct_parent": 2,
+                "tool_tip": "Enter First Name.",
+                "initial_value": "",
+                "rect": [
+                    145.604,
+                    668.458,
+                    230.553,
+                    683.578
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name",
+                "struct_parent": 1,
+                "tool_tip": "Enter Family Name.",
+                "initial_value": "",
+                "rect": [
+                    38.37,
+                    668.458,
+                    141.327,
+                    683.578
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_and_CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City and Country of Birth",
+                "struct_parent": 7,
+                "tool_tip": "Enter City and Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    295.931,
+                    639.337,
+                    467.87,
+                    654.457
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNamesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Enter All Other Names Used (include names by previous marriages)",
+                "struct_parent": 6,
+                "tool_tip": "Enter All Other Names Used (include names by previous marriages).",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    638.881,
+                    291.631,
+                    654.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Father_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 11,
+                "tool_tip": "Enter Father's Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    272.0,
+                    598.371,
+                    330.001,
+                    613.491
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Father_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Father's First Name",
+                "struct_parent": 9,
+                "tool_tip": "Enter Father's First Name.",
+                "initial_value": "",
+                "rect": [
+                    199.31,
+                    598.371,
+                    265.567,
+                    613.491
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Father_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Father's Family Name",
+                "struct_parent": 8,
+                "tool_tip": "Enter Father's Family Name.",
+                "initial_value": "",
+                "rect": [
+                    93.998,
+                    598.292,
+                    192.001,
+                    613.491
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Mother_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 15,
+                "tool_tip": "Enter Mother's Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    272.0,
+                    579.067,
+                    330.001,
+                    594.187
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MotherMaidenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mother's Family Name (Maiden Name)",
+                "struct_parent": 13,
+                "tool_tip": "Enter Mother's Family Name (Maiden Name).",
+                "initial_value": "",
+                "rect": [
+                    93.998,
+                    579.067,
+                    192.129,
+                    594.187
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Mother_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mother's First Name",
+                "struct_parent": 14,
+                "tool_tip": "Enter Mother's First Name.",
+                "initial_value": "",
+                "rect": [
+                    200.16,
+                    578.88,
+                    266.647,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Spouse_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 20,
+                "tool_tip": "Enter Current Husband or Wife Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    285.16,
+                    540.351,
+                    338.84,
+                    553.471
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Spouse_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "For wife, give maiden name",
+                "struct_parent": 18,
+                "tool_tip": "Enter Current Husband or Wife Family Name. If none, type or print \"none\". For wife, give maiden name.",
+                "initial_value": "",
+                "rect": [
+                    41.216,
+                    540.351,
+                    207.055,
+                    553.471
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Spouse_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Husband or Wife First Name",
+                "struct_parent": 19,
+                "tool_tip": "Enter Current Husband or Wife First Name.",
+                "initial_value": "",
+                "rect": [
+                    213.16,
+                    540.067,
+                    277.574,
+                    553.187
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 118,
+                "tool_tip": "Line One. Enter Former Husbands or Wives Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    287.161,
+                    498.999,
+                    340.841,
+                    510.194
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives First Name",
+                "struct_parent": 116,
+                "tool_tip": "Line One. Enter Former Husbands or Wives First Name.",
+                "initial_value": "",
+                "rect": [
+                    213.16,
+                    497.074,
+                    277.574,
+                    510.194
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "For wife, give maiden name",
+                "struct_parent": 124,
+                "tool_tip": "Line One. Enter Former Husbands or Wives Family Name. If none,  type or print \"none\". For wife, give maiden name.",
+                "initial_value": "",
+                "rect": [
+                    41.097,
+                    495.881,
+                    206.936,
+                    509.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_DateofBirth2[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 119,
+                "tool_tip": "Line Two. Enter Former Husbands or Wives Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    287.161,
+                    481.0,
+                    340.841,
+                    492.946
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_FirstName2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives First Name",
+                "struct_parent": 117,
+                "tool_tip": "Line Two. Enter Former Husbands or Wives First Name.",
+                "initial_value": "",
+                "rect": [
+                    213.16,
+                    480.466,
+                    277.586,
+                    493.586
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Former_Spouse_FamilyName2[0]",
+                "field_type": "/Tx",
+                "description": "For wife, give maiden name",
+                "struct_parent": 125,
+                "tool_tip": "Line Two. Enter Former Husbands or Wives Family Name. If none,  type or print \"none\". For wife, give maiden name.",
+                "initial_value": "",
+                "rect": [
+                    41.097,
+                    480.463,
+                    206.936,
+                    493.583
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ProvinceorState[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 26,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    243.17,
+                    423.398,
+                    310.699,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 25,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.433,
+                    423.398,
+                    238.01,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetandNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 24,
+                "tool_tip": "Applicant's residence last five years. List present address first. Line One. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.16,
+                    423.398,
+                    165.273,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ProvinceorState_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 33,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    243.17,
+                    406.903,
+                    310.699,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 32,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.433,
+                    406.903,
+                    238.01,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetandNumber_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 31,
+                "tool_tip": "Applicant's residence last five years. List present address first. Line Two. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.16,
+                    406.903,
+                    165.273,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ProvinceorState_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 42,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    243.17,
+                    391.057,
+                    310.699,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 41,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.433,
+                    391.057,
+                    238.01,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetandNumber_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 40,
+                "tool_tip": "Applicant's residence last five years. List present address first. Line Three. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.16,
+                    391.057,
+                    165.273,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ProvinceorState_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 51,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    243.17,
+                    375.211,
+                    310.699,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 50,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.433,
+                    375.211,
+                    238.01,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetandNumber_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 49,
+                "tool_tip": "Applicant's residence last five years. List present address first. Line Four. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.16,
+                    375.211,
+                    165.273,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ProvinceorState_5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 60,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    243.17,
+                    358.716,
+                    310.699,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City_5[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 59,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.433,
+                    358.716,
+                    238.01,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StreetandNumber_5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 58,
+                "tool_tip": "Applicant's residence last five years. List present address first. Line Five. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.16,
+                    358.716,
+                    165.273,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_ProvinceorState[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State",
+                "struct_parent": 69,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Enter Province or State.",
+                "initial_value": "",
+                "rect": [
+                    246.765,
+                    304.721,
+                    310.967,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City",
+                "struct_parent": 68,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Enter City.",
+                "initial_value": "",
+                "rect": [
+                    170.405,
+                    304.721,
+                    241.605,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_StreetandNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 67,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    38.132,
+                    304.721,
+                    166.085,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 77,
+                "tool_tip": "Applicant's employment last five years.  (If none,  type or print \"none\".) List present employment first. Line One. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    302.063,
+                    251.254,
+                    425.478,
+                    265.749
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 76,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".) List present employment first. Line One. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    39.555,
+                    251.254,
+                    297.743,
+                    265.749
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 81,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Two. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    302.063,
+                    235.258,
+                    425.478,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line2_FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 80,
+                "tool_tip": "Applicant's employment last five years.  (If none,  type or print \"none\".) List present employment first. Line Two. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    39.555,
+                    235.258,
+                    297.743,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 87,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Three. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    302.063,
+                    219.412,
+                    425.478,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line3_FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 86,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Three. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    39.555,
+                    219.412,
+                    297.743,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line4_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 93,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    302.063,
+                    203.566,
+                    425.478,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line4_FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 92,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    39.555,
+                    203.566,
+                    297.743,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line5_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 99,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    302.063,
+                    187.72,
+                    425.478,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line5_FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 98,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    39.555,
+                    187.72,
+                    297.743,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Occupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Occupation (Specify)",
+                "struct_parent": 114,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Enter Occupation (Specify).",
+                "initial_value": "",
+                "rect": [
+                    304.16,
+                    155.001,
+                    423.839,
+                    167.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FullName_and_AddressofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Full Name and Address of Employer",
+                "struct_parent": 109,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Enter Full Name and Address of Employer.",
+                "initial_value": "",
+                "rect": [
+                    38.954,
+                    154.848,
+                    292.793,
+                    167.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FormStatus[0]",
+                "field_type": "/Btn",
+                "description": "This form is submitted for: Deferred Action Request",
+                "struct_parent": 115,
+                "tool_tip": "This form is submitted for: Deferred Action Request.",
+                "initial_value": "/NAT",
+                "rect": [
+                    41.626,
+                    124.567,
+                    50.626,
+                    133.567
+                ],
+                "page_number": 1,
+                "options": [
+                    "/NAT"
+                ]
+            },
+            {
+                "field_name": "NativeAlphabetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 105,
+                "tool_tip": "If your native alphabet is in other than Roman letters, write your name in your native alphabet below. Enter Name.",
+                "initial_value": "",
+                "rect": [
+                    40.431,
+                    93.273,
+                    573.84,
+                    103.272
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApplicantGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name",
+                "struct_parent": 106,
+                "tool_tip": "Applicant: Print your name and Alien Registration Number in the box outlined by heavy border below. Complete This Box. Enter Given Name.",
+                "initial_value": "",
+                "rect": [
+                    212.159,
+                    35.235,
+                    333.839,
+                    50.355
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApplicantFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name",
+                "struct_parent": 107,
+                "tool_tip": "Penalties: Severe penalties are provided by law for knowingly and willfully falsifying or concealing a material fact. Applicant: Print your name and Alien Registration Number in the box outlined by heavy border below. Complete This Box. Enter Family Name.",
+                "initial_value": "",
+                "rect": [
+                    40.124,
+                    35.235,
+                    195.84,
+                    50.355
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Citizenship_or_Nationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Citizenship or Nationality",
+                "struct_parent": 5,
+                "tool_tip": "Enter Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    668.88,
+                    495.0,
+                    684.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration File Number",
+                "struct_parent": 128,
+                "tool_tip": "Enter Alien Registration File Number.",
+                "initial_value": "",
+                "rect": [
+                    513.961,
+                    668.744,
+                    573.798,
+                    683.6
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 4,
+                "tool_tip": "Enter Date of Birth. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    354.552,
+                    668.46,
+                    414.72,
+                    683.58
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "SSN1[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S Social Security Number, if any",
+                "struct_parent": 129,
+                "tool_tip": "Enter U S Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    477.564,
+                    639.533,
+                    573.84,
+                    654.653
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FatherCityandCountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Father's City, and Country of Birth, if known",
+                "struct_parent": 12,
+                "tool_tip": "Enter Father's City, and Country of Birth, if known.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    597.634,
+                    450.0,
+                    612.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FatherCityandCountryofResidence[0]",
+                "field_type": "/Tx",
+                "description": "Enter Father's City and Country of Residence",
+                "struct_parent": 10,
+                "tool_tip": "Enter Father's City and Country of Residence.",
+                "initial_value": "",
+                "rect": [
+                    452.738,
+                    596.88,
+                    576.0,
+                    612.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MotherCityandCountryofResidence[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mother's City and Country of Residence",
+                "struct_parent": 17,
+                "tool_tip": "Enter Mother's City and Country of Residence.",
+                "initial_value": "",
+                "rect": [
+                    452.738,
+                    579.067,
+                    576.0,
+                    594.187
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MotherCityandCountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mother's City, and Country of Birth, if known",
+                "struct_parent": 16,
+                "tool_tip": "Enter Mother's City, and Country of Birth, if known.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    579.067,
+                    450.0,
+                    594.187
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Spouse_CityandCountry_of_Birth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Husband or Wife City and Country of Birth",
+                "struct_parent": 21,
+                "tool_tip": "Enter Current Husband or Wife City and Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    347.159,
+                    541.008,
+                    420.837,
+                    554.009
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofMarriage[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 22,
+                "tool_tip": "Enter Current Husband or Wife Date of Marriage. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    429.16,
+                    540.354,
+                    490.842,
+                    554.435
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Place_of_Marriage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Husband or Wife Place of Marriage",
+                "struct_parent": 23,
+                "tool_tip": "Enter Current Husband or Wife Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    500.159,
+                    538.743,
+                    573.84,
+                    562.357
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FormerSpouse_DateandTermin_of_Marriage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives Date and Place of Termination of Marriage",
+                "struct_parent": 122,
+                "tool_tip": "Line One. Enter Former Husbands or Wives Date and Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    460.159,
+                    497.074,
+                    572.839,
+                    510.194
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FormerSpouse_DateandPlace_of_Marriage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives Date and Place of Marriage",
+                "struct_parent": 120,
+                "tool_tip": "Line One. Enter Former Husbands or Wives Date and Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    352.159,
+                    497.074,
+                    450.839,
+                    510.194
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FormerSpouse_DateandTermin_of_Marriage2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives Date and Place of Termination of Marriage",
+                "struct_parent": 123,
+                "tool_tip": "Line Two. Enter Former Husbands or Wives Date and Place of Termination of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    460.159,
+                    480.466,
+                    572.839,
+                    493.586
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FormerSpouse_DateandPlace_of_Marriage2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Former Husbands or Wives Date and Place of Marriage",
+                "struct_parent": 121,
+                "tool_tip": "Line Two. Enter Former Husbands or Wives Date and Place of Marriage.",
+                "initial_value": "",
+                "rect": [
+                    352.159,
+                    480.466,
+                    450.839,
+                    493.586
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 27,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.116,
+                    423.815,
+                    360.247,
+                    438.797
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 30,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.484,
+                    423.398,
+                    506.338,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 29,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.881,
+                    423.398,
+                    472.164,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 28,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line One. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    363.824,
+                    423.398,
+                    435.721,
+                    439.214
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 34,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.116,
+                    407.32,
+                    360.247,
+                    420.981
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_2[1]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 39,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    541.651,
+                    406.903,
+                    575.845,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_2[1]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 38,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    510.658,
+                    406.903,
+                    537.331,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 37,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.484,
+                    406.903,
+                    506.338,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_2[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 36,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.881,
+                    406.903,
+                    472.164,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country_2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 35,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Two. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    363.824,
+                    406.903,
+                    435.721,
+                    421.398
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 43,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.116,
+                    391.474,
+                    360.247,
+                    404.486
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_3[1]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 48,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    541.651,
+                    391.057,
+                    575.845,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_3[1]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 47,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    510.658,
+                    391.057,
+                    537.331,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 46,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.484,
+                    391.057,
+                    506.338,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_3[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 45,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.881,
+                    391.057,
+                    472.164,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country_3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 44,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Three. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    363.824,
+                    391.057,
+                    435.721,
+                    404.903
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 52,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.116,
+                    375.628,
+                    360.247,
+                    388.64
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_4[1]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 57,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    541.651,
+                    375.211,
+                    575.845,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_4[1]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 56,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    510.658,
+                    375.211,
+                    537.331,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 55,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.484,
+                    375.211,
+                    506.338,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_4[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 54,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.881,
+                    375.211,
+                    472.164,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country_4[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 53,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Four. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    363.824,
+                    375.211,
+                    435.721,
+                    389.057
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 61,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.116,
+                    359.133,
+                    360.247,
+                    372.794
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_5[1]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 66,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    541.651,
+                    358.716,
+                    575.845,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_5[1]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 65,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    510.658,
+                    358.716,
+                    537.331,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year_5[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 64,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.484,
+                    358.716,
+                    506.338,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Month_5[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 63,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.881,
+                    358.716,
+                    472.164,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country_5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 62,
+                "tool_tip": "Applicant's residence last five years.  List present address first. Line Five. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    363.824,
+                    358.716,
+                    435.721,
+                    373.211
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "#field[3]",
+                "field_type": "/Tx",
+                "description": "Enter five digit zip code/postal code",
+                "struct_parent": 70,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Enter five digit zip code/postal code.",
+                "initial_value": "",
+                "rect": [
+                    315.384,
+                    305.138,
+                    361.258,
+                    318.799
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_To_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 75,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    546.456,
+                    304.721,
+                    575.568,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_To_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 74,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    505.623,
+                    304.721,
+                    542.136,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 73,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    476.834,
+                    304.721,
+                    501.303,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 72,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    440.435,
+                    304.721,
+                    472.514,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 71,
+                "tool_tip": "Applicant's last address outside the United States of more than 1 year. Line One. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    364.835,
+                    304.721,
+                    435.275,
+                    319.216
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 79,
+                "tool_tip": "Applicant's employment last five years.  (If none,  type or print \"none\".) List present employment first. Line One. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.878,
+                    251.254,
+                    495.367,
+                    265.749
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line2_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 78,
+                "tool_tip": "Applicant's employment last five years.  (If none,  type or print \"none\".) List present employment first. Line One. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    429.798,
+                    251.254,
+                    464.558,
+                    265.749
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line2_To_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 85,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Two. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    546.727,
+                    235.258,
+                    573.216,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_Line2_To_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 84,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Two. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    499.687,
+                    235.258,
+                    542.407,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line2_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 83,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Two. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.878,
+                    235.258,
+                    495.367,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line3_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 82,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none.\") List present employment first. Line Two. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    429.798,
+                    235.258,
+                    464.558,
+                    249.254
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line3_To_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 91,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Three. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    546.727,
+                    219.412,
+                    573.216,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_Line3_To_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 90,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Three. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    499.687,
+                    219.412,
+                    542.407,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line3_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 89,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Three. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.878,
+                    219.412,
+                    495.367,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line3_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 88,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Three. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    429.798,
+                    219.412,
+                    464.558,
+                    233.258
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line4_To_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 97,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    546.727,
+                    203.566,
+                    573.216,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_Line4_To_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 96,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    499.687,
+                    203.566,
+                    542.407,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line4_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 95,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.878,
+                    203.566,
+                    495.367,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line4_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 94,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Four. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    429.798,
+                    203.566,
+                    464.558,
+                    217.412
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line5_To_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 103,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    546.727,
+                    187.72,
+                    573.216,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table2_Line5_To_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 102,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    499.687,
+                    187.72,
+                    542.407,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line5_From_Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 101,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.878,
+                    187.72,
+                    495.367,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Table3_Line5_From_Month[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 100,
+                "tool_tip": "Applicant's employment last five years.  (If none, type or print \"none\".)  List present employment first. Line Five. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    429.798,
+                    187.72,
+                    464.558,
+                    201.566
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ToYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 110,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Date To. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    548.351,
+                    154.289,
+                    573.84,
+                    167.409
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ToMonth[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 111,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Date To. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    501.545,
+                    154.289,
+                    544.031,
+                    167.409
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Year[0]",
+                "field_type": "/Tx",
+                "description": "Enter 4 digit Year",
+                "struct_parent": 112,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Date From. Enter 4 digit Year.",
+                "initial_value": "",
+                "rect": [
+                    470.954,
+                    154.289,
+                    497.225,
+                    167.409
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FromMonth[0]",
+                "field_type": "/Tx",
+                "description": "3 characters available",
+                "struct_parent": 113,
+                "tool_tip": "Last occupation abroad if not shown above. Include all information requested above. Line One. Date From. Enter Month. 3 characters available.",
+                "initial_value": "",
+                "rect": [
+                    431.359,
+                    154.289,
+                    466.633,
+                    167.409
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit month, 2-digit day and 4-digit year",
+                "struct_parent": 104,
+                "tool_tip": "Enter Date of Signature. Enter as 2-digit month, 2-digit day and 4-digit year.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    123.316,
+                    576.0,
+                    138.436
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign",
+                "struct_parent": 131,
+                "tool_tip": "Signature of Applicant. Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    123.299,
+                    492.001,
+                    138.419
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ANumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number",
+                "struct_parent": 130,
+                "tool_tip": "Applicant: Print your name and Alien Registration Number in the box outlined by heavy border below. Complete This Box. Enter Alien Registration Number.",
+                "initial_value": "",
+                "rect": [
+                    476.161,
+                    36.113,
+                    573.84,
+                    51.233
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApplicantMiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 108,
+                "tool_tip": "Applicant: Print your name and Alien Registration Number in the box outlined by heavy border below. Complete This Box. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    350.161,
+                    35.235,
+                    447.832,
+                    50.355
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]

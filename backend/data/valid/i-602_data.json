@@ -1,0 +1,3664 @@
+[
+    {
+        "title": "Your Full Legal Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G - 28 or Form G - 28 I is attached",
+                "struct_parent": 2,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any.  Select this box if Form G - 28 or Form G - 28 I is attached.",
+                "initial_value": "",
+                "rect": [
+                    156.501,
+                    487.0,
+                    166.501,
+                    497.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Mailing Address",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 3,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    264.005,
+                    456.001,
+                    384.007,
+                    474.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISELISAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 12 digits",
+                "struct_parent": 4,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. Enter 12 digits.",
+                "initial_value": "",
+                "rect": [
+                    396.003,
+                    456.001,
+                    570.013,
+                    474.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You. Your full Legal Name. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    335.999,
+                    294.001,
+                    353.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You. Your full Legal Name. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    299.999,
+                    294.001,
+                    317.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You. Your full Legal Name.  1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    263.996,
+                    294.001,
+                    281.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. Place of Birth. 2. A. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.0,
+                    294.001,
+                    216.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_CountryOfBirth[1]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province of birth",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You. Place of Birth. 2. B. Enter State or Province of birth.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.0,
+                    294.001,
+                    180.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_CountryOfBirth[2]",
+                "field_type": "/Tx",
+                "description": "Enter Country of birth",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You. Place of Birth.  2.C. Enter Country of birth.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    126.0,
+                    294.001,
+                    144.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name (if any)",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. A. Enter In Care Of Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.003,
+                    366.001,
+                    576.003,
+                    384.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You. Mailing Address.  Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    342.0,
+                    576.003,
+                    360.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (Petitioner). Mailing Address. 3. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    322.002,
+                    394.001,
+                    332.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (Petitioner). Mailing Address. 3. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.003,
+                    322.002,
+                    352.003,
+                    332.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    294.001,
+                    576.003,
+                    312.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.004,
+                    270.0,
+                    576.003,
+                    288.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.004,
+                    270.0,
+                    402.004,
+                    288.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    396.19,
+                    246.002,
+                    575.796,
+                    264.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    396.266,
+                    222.001,
+                    575.872,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. I.  Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.003,
+                    186.001,
+                    576.003,
+                    204.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", provide your physical address",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 3. Is your current mailing address the same as your physical address? Select No. If you answered \"No\" to Item Number 3., provide your physical address.",
+                "initial_value": "",
+                "rect": [
+                    542.16,
+                    154.001,
+                    552.16,
+                    164.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Is your current mailing address the same as your physical address? Select Yes",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About You. Mailing Address. 4. Is your current mailing address the same as your physical address? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    500.159,
+                    154.001,
+                    510.159,
+                    164.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "For USCIS Use Only",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Information About You (Petitioner). Mailing Address. 3. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.005,
+                    322.002,
+                    436.005,
+                    332.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 15,
+                "tool_tip": "3. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.003,
+                    318.002,
+                    576.003,
+                    336.002
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line5_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 34,
+                "tool_tip": "Part 1. Information About You (continued). If you answered \"No\" to Item Number 4., provide your physical address in Item Numbers 5. A. - 5. H.   Physical Address. 5. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    666.0,
+                    294.001,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 38,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    645.999,
+                    154.0,
+                    655.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line5_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 37,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. B. Select Suite.  ",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    645.999,
+                    112.002,
+                    655.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line5_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 36,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    645.999,
+                    70.001,
+                    655.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line5_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 35,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    641.993,
+                    294.001,
+                    659.993
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 33,
+                "tool_tip": "Part 1. Information About You). Physical Address. 5. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    617.995,
+                    294.001,
+                    635.995
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    594.0,
+                    294.001,
+                    612.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    594.0,
+                    120.002,
+                    612.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line5_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 32,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    120.163,
+                    570.002,
+                    293.876,
+                    588.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    120.163,
+                    546.004,
+                    293.876,
+                    564.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. Information About You. Physical Address. 5. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    510.004,
+                    294.001,
+                    528.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 9 digits",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You. Other Infromation. 6. Enter Alien Registration Number (A. Number), if any. Enter 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    164.976,
+                    443.999,
+                    293.986,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line2_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 12 digits",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You. Other Information. 7. Enter U S C I S Online Account Number (if any). Enter 12 digits.",
+                "initial_value": "",
+                "rect": [
+                    119.996,
+                    407.999,
+                    294.006,
+                    425.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You. Other Information. 8. Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    384.001,
+                    294.001,
+                    402.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter  Country of Citizenship or Nationality",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You. Other Information. 9. Enter  Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    347.998,
+                    294.001,
+                    365.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[4]",
+                "field_type": "/Btn",
+                "description": "Check box for I am a principal refugee applicant currently outside the United States selected",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. Information About You. Other Information. 10. Current Status. Check box for I am a principal refugee applicant currently outside the United States selected.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    313.001,
+                    71.0,
+                    323.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[3]",
+                "field_type": "/Btn",
+                "description": "Check box for I am a derivative refugee applicant outside the United States selected",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. Information About You. Other Information. 10. Current Status. Check box for I am a derivative refugee applicant outside the United States selected.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    283.002,
+                    71.0,
+                    293.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check box for I am a derivative refugee applicant inside the United States selected",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. Information About You. Other Information. 10. Current Status. Check box for I am a derivative refugee applicant inside the United States selected.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    253.0,
+                    71.0,
+                    263.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Check box for I am a refugee currently present in the United States seeking adjustment of status selected",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. Information About You. Other Information. 10. Current Status. Check box for I am a refugee currently present in the United States seeking adjustment of status selected.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    223.001,
+                    71.0,
+                    233.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Check box for I am an asylee currently present in the United States seeking adjustment of status selected",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You. Other Information. 10. Current Status. Check box for I am an asylee currently present in the United States seeking adjustment of status selected. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    193.002,
+                    71.0,
+                    203.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/E"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Reasons for Inadmissibility",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "(The Form I- 6 02 Instructions has a list of communicable diseases of public health significance",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Reason for Inadmissibility. I believe or I was told that I am inadmissible because (select all grounds that you believe apply to you). 1. Check box selected for I have a communicable disease of public health significance.  See I N A section 2 12(a)(1)(A)(i).  (The Form I- 6 02 Instructions has a list of communicable diseases of public health significance.)",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    498.999,
+                    352.999,
+                    508.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt2Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(1)(A)(ii)",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 2. Check box selected for I seek an exemption from the vaccination requirement because vaccinations are against my religious beliefs or moral convictions.  See I N A section 2 12(a)(1)(A)(ii).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    445.002,
+                    352.999,
+                    455.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt2Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(1)(A)(iii)",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 3. Check box selected for I have or had a physical or mental disorder and behavior (or history of behavior that is likely to recur) associated with the disorder which has posed or may pose a threat to the property, safety, or welfare of myself or others.  \rSee I N A section 2 12(a)(1)(A)(iii).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    391.002,
+                    352.999,
+                    401.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section \r2 12 (a)(1)(A)(i v); 42 C F R 32",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 4. Check box selected for I am a drug abuser or drug addict as described in U.S. Department of Health and Human Services (H H S) regulations.  See I N A section \r2 12 (a)(1)(A)(i v); 42 C F R 32. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    313.001,
+                    352.999,
+                    323.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Pt2Line5_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section \r2 12(a)(2)(A)(i)(I)",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 5. Check box selected for I have been convicted of or admitted to the essential elements of a crime of moral turpitude (other than a purely political offense).  See I N A section \r2 12(a)(2)(A)(i)(I).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    259.001,
+                    352.999,
+                    269.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(A)(i)(II)",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 6. Check box selected for I have been convicted of or admitted to the essential elements of a violation of (or I have attempted or conspired to violate) any controlled substance law or regulation of a U.S. state, the United States, or a foreign country.  See I N A section 2 12(a)(2)(A)(i)(II).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    205.001,
+                    352.999,
+                    215.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/6"
+                ]
+            },
+            {
+                "field_name": "Pt2Line7_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(B)",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 7. Check box selected for I have been convicted of two or more offenses (other than purely political offenses) for which the combined sentences to confinement were five years or more.  See I N A section 2 12(a)(2)(B).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    139.002,
+                    352.999,
+                    149.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/7"
+                ]
+            },
+            {
+                "field_name": "Pt2Line8_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(D)(i)",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 8. Check box selected for I have engaged in prostitution in the past 10 years or am coming to the United States to engage in prostitution.  See I N A section 2 12(a)(2)(D)(i). ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    85.002,
+                    352.999,
+                    95.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/8"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Reasons for Inadmissibility  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line9_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(D)(ii)",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Reason for Inadmissibility (continued). 9. Check box selected for I directly or indirectly procure or import (or attempt to procure or import) prostitutes or persons for the purpose of prostitution (including receiving any proceeds or money from prostitution), or I have done so in the past 10 years. \rSee I N A section 2 12(a)(2)(D)(ii).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    703.0,
+                    71.0,
+                    713.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/9"
+                ]
+            },
+            {
+                "field_name": "Pt2Line10_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(D)(iii)",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 10. Check box selected for I came to the United States or I am coming to the United States to engage in any other commercialized vice, such as illegal gambling, prostitution, bootlegging, narcotics, or the sale of child pornography.  See I N A section 2 12(a)(2)(D)(iii).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    624.999,
+                    71.0,
+                    634.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/10"
+                ]
+            },
+            {
+                "field_name": "Pt2Line11_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(E)",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 11. Check box selected for I have exercised immunity (diplomatic or otherwise) to avoid being prosecuted for a serious criminal offense in the United States.  \rSee I N A section 2 12(a)(2)(E).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    559.0,
+                    71.0,
+                    569.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/11"
+                ]
+            },
+            {
+                "field_name": "Pt2Line12_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(H)",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 12. Check box selected for I have been involved in human trafficking activity inside or outside the United States, or I am the spouse, son, or daughter of a person involved in human trafficking activity and have obtained some benefit from that activity within the last five years.  See I N A section 2 12(a)(2)(H).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    505.0,
+                    71.0,
+                    515.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/12"
+                ]
+            },
+            {
+                "field_name": "Pt2Line13_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(2)(I)",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 13. Check box selected for I engage, have engaged, or intend to engage in a money laundering offense as described in 18 U.S.C. section 1956 or 1957.  See I N A section 2 12(a)(2)(I).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    426.999,
+                    71.0,
+                    436.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/13"
+                ]
+            },
+            {
+                "field_name": "Pt2Line14Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(3)(D)",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 14. Check box selected for I am or I have been a member of or affiliated with the Communist or any other totalitarian party (or subdivision or affiliate of the party), domestic or foreign.  See I N A section 2 12(a)(3)(D).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    384.998,
+                    71.0,
+                    394.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/14"
+                ]
+            },
+            {
+                "field_name": "Pt2Line15_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(3)(G)",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 15. Check box selected for I have used or recruited child soldiers in violation of 18 U. S. C. section 24 42.  \rSee I N A section 2 12(a)(3)(G). ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    330.998,
+                    71.0,
+                    340.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/15"
+                ]
+            },
+            {
+                "field_name": "Pt2Line16_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(A)",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 16. Check box selected for I am present in the United States without being admitted or paroled.  See I N A section 2 12(a)(6)(A).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    289.0,
+                    71.0,
+                    299.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/16"
+                ]
+            },
+            {
+                "field_name": "Pt2Line17_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(B)",
+                "struct_parent": 66,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 17. Check box selected for I did not attend or did not remain at a removal proceeding to determine my inadmissibility or deportability.  See I N A section 2 12(a)(6)(B).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    258.998,
+                    71.0,
+                    268.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/17"
+                ]
+            },
+            {
+                "field_name": "Pt2Line18_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(C)(i)",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 18. Check box selected for I have sought to obtain an immigration benefit by fraud or by concealing or misrepresenting a material fact.  See I N A section 2 12(a)(6)(C)(i).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    217.0,
+                    71.0,
+                    227.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/18"
+                ]
+            },
+            {
+                "field_name": "Pt2Line19_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(C)(ii)",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 19. Check box selected for I falsely claimed to be a U.S. citizen.  See I N A section 2 12(a)(6)(C)(ii).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    175.002,
+                    71.0,
+                    185.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/19"
+                ]
+            },
+            {
+                "field_name": "Pt2Line20_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(D)",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 20. Check box selected for I have been a stowaway on a vessel or aircraft arriving in the United States.  \rSee I N A section 2 12(a)(6)(D). ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    145.0,
+                    71.0,
+                    155.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/20"
+                ]
+            },
+            {
+                "field_name": "Pt2Line21_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(E)(i)",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 21. Check box selected for I have knowingly encouraged, induced, assisted, abetted, or aided any foreign national to enter or try to enter the United States illegally (alien smuggling).  See I N A section 2 12(a)(6)(E)(i).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    103.002,
+                    71.0,
+                    113.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/21"
+                ]
+            },
+            {
+                "field_name": "Pt2Line22_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(6)(F)",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 22. Check box selected for I am subject to a civil penalty because I was the subject of a final order for violation of I N A section 27 4 C (document fraud).  \rSee I N A section 2 12(a)(6)(F).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    727.001,
+                    352.999,
+                    737.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/22"
+                ]
+            },
+            {
+                "field_name": "Pt2Line23_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A sections 2 12(a)(6)(G) and 2 14(l)",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 23. Check box selected for I violated a term or condition of my student visa status.  See I N A sections 2 12(a)(6)(G) and 2 14(l).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    673.001,
+                    352.999,
+                    683.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/23"
+                ]
+            },
+            {
+                "field_name": "Pt2Line24_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A sections 2 12(a)(8)(A) and 1 01(a)(19)",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 24. Check box selected for I am permanently ineligible for U.S. citizenship because I evaded military service.  \rSee I N A sections 2 12(a)(8)(A) and 1 01(a)(19).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    643.002,
+                    352.999,
+                    653.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/24"
+                ]
+            },
+            {
+                "field_name": "Pt2Line25_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(8)(B)",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 25. Check box selected for I departed from or remained outside the United States to avoid or evade training or service in the armed forces in a time of war or national emergency.  See I N A section 2 12(a)(8)(B).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    601.001,
+                    352.999,
+                    611.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/25"
+                ]
+            },
+            {
+                "field_name": "Pt2Line26_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(9)(A)",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 26. Check box selected for I was previously removed from the United States.  See I N A section 2 12(a)(9)(A).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    547.001,
+                    352.999,
+                    557.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/26"
+                ]
+            },
+            {
+                "field_name": "Pt2Line27_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(9)(B)(i)(I)",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 27. Check box selected for I am subject to the 3-year bar to admissibility because I was unlawfully present in the United States for more than 180 days before departing the United States.  See I N A section 2 12(a)(9)(B)(i)(I) .",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    517.002,
+                    352.999,
+                    527.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/27"
+                ]
+            },
+            {
+                "field_name": "Pt2Line28_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(9)(B)(i)(II)",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 28. Check box selected for I am subject to the 10-year bar to admissibility because I was unlawfully present in the United States for one year or more before departing the United States.  See I N A section 2 12(a)(9)(B)(i)(II).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    463.002,
+                    352.999,
+                    473.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/28"
+                ]
+            },
+            {
+                "field_name": "Pt2Line29_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(9)(C)",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 29. Check box selected for I have been ordered removed or I have been unlawfully present in the United States for more than one year in the aggregate, and I subsequently reentered or attempted to reenter without being admitted.  See I N A section 2 12(a)(9)(C).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    409.002,
+                    352.999,
+                    419.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/29"
+                ]
+            },
+            {
+                "field_name": "Pt2Line30_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(10)(A)",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 30. Check box selected for I have practiced polygamy since I entered the United States or I intend to practice polygamy in the United States.  See I N A section 2 12(a)(10)(A).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    343.0,
+                    352.999,
+                    353.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/30"
+                ]
+            },
+            {
+                "field_name": "Pt2Line31_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(10)(B)",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 31. Check box selected for I am accompanying another person who is inadmissible after being certified to be helpless under I N A section 2 32(c) and I am inadmissible because that other person requires my protection or guardianship.  See I N A section 2 12(a)(10)(B).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    301.002,
+                    352.999,
+                    311.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/31"
+                ]
+            },
+            {
+                "field_name": "Pt2Line32_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(10)(C)",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 32. Check box selected for I have been involved in detaining, retaining, or withholding a U.S. citizen child outside the United States from a person who has been granted custody of the child, or I am the spouse, parent, sibling, or agent of someone who has detained, retained, or withheld such a child.  See I N A section 2 12(a)(10)(C).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    235.0,
+                    352.999,
+                    245.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/32"
+                ]
+            },
+            {
+                "field_name": "Pt2Line33_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(10)(D)",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 33. Check box selected for I voted in violation of a Federal, state, or local constitutional provision, statute, ordinance, or regulation.  See I N A section 2 12(a)(10)(D).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    157.002,
+                    352.999,
+                    167.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/33"
+                ]
+            },
+            {
+                "field_name": "Pt2Line34_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "See I N A section 2 12(a)(10)(E)",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 34. Check box selected for I am a former citizen of the United States who renounced my citizenship to avoid paying taxes in the United States.  See I N A section 2 12(a)(10)(E).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    115.004,
+                    352.999,
+                    125.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/34"
+                ]
+            },
+            {
+                "field_name": "Pt2Line35_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Check box selected for Other (specify)",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 35. Check box selected for Other (specify).",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    73.003,
+                    352.999,
+                    83.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/35"
+                ]
+            },
+            {
+                "field_name": "Pt2Line35_Specify[0]",
+                "field_type": "/Tx",
+                "description": "fillable field for Other (specify)",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. Reason for Inadmissibility. 35. fillable field for Other (specify). ",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    53.997,
+                    576.0,
+                    71.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt9Line4_Summary[0]",
+                "field_type": "/Tx",
+                "description": "Fillable Field",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. Reason for Inadmissibility. Your Inadmissibility Statement. In the space provided in Item Number 36., provide a statement and full explanation of the acts, convictions, and/or medical conditions that you believe or you were told make you inadmissible. Your statement must indicate when you engaged in the acts that you believe make you inadmissible, the date of all convictions, or the date of any medical diagnosis.  You must provide this information even if the information is also in the documents that you submit with your application. If you need extra space to complete your statement, use the space provided in Part 8. Additional Information or attach a separate letter.  If you include a separate letter, indicate in Item Number 36. below that you are attaching a letter.  36. Fillable Field.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    456.001,
+                    294.001,
+                    510.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line37_Humanitarian[0]",
+                "field_type": "/Btn",
+                "description": ") Check box selected For Humanitarian Reasons",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. Reasons for Inadmissibility. Your Inadmissibility Statement. 37. I request a waiver of the grounds of inadmissibility listed above for the following reasons (select all applicable boxes and provide an explanation in Item Number 38.) Check box selected For Humanitarian Reasons.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    396.997,
+                    71.0,
+                    406.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt2Line37_FamilyUnity[0]",
+                "field_type": "/Btn",
+                "description": ") Check box selected for To Assure Family Unity",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. Reasons for Inadmissibility. Your Inadmissibility Statement.  37. I request a waiver of the grounds of inadmissibility listed above for the following reasons (select all applicable boxes and provide an explanation in Item Number 38.) Check box selected for To Assure Family Unity.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    379.0,
+                    71.0,
+                    389.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt2Line37_PublicInterest[0]",
+                "field_type": "/Btn",
+                "description": ") Check box selected for In the Public Interest",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. Reasons for Inadmissibility. Your Inadmissibility Statement. 37. I request a waiver of the grounds of inadmissibility listed above for the following reasons (select all applicable boxes and provide an explanation in Item Number 38.) Check box selected for In the Public Interest.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    361.0,
+                    71.0,
+                    371.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Pt9Line4_Summary[1]",
+                "field_type": "/Tx",
+                "description": "Fillable Field",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. Reasons for Inadmissibility. Your Inadmissibility Statement. In the space provided in Item Number 38., provide an explanation for why you are requesting a waiver on the grounds indicated in Item Number 37.  If you need extra space to complete this section, use the space provided in Part 8. Additional Information. 38. Fillable Field.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    216.0,
+                    294.001,
+                    288.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt9Line4_Summary[2]",
+                "field_type": "/Tx",
+                "description": "What is the purpose of your stay in the United States? Explain fully below",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Information About You. Travel Information. 14. What is the purpose of your stay in the United States? Explain fully below.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    41.998,
+                    294.001,
+                    113.998
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Physician's or Health Facility's Statement",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 95,
+                "tool_tip": "This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    432.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Applicant Who Have or Had a Physical  or Mental Disorder and Behavior Associated with  the Disorder",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part8_Line3b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 94,
+                "tool_tip": "Part 3. Applicant Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Applicant's Signature. 1. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    408.002,
+                    575.997,
+                    426.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "pt3Checkbox2a[0]",
+                "field_type": "/Btn",
+                "description": "Check box selected for Local Health Department Outpatient Clinic",
+                "struct_parent": 99,
+                "tool_tip": "Part 3.  Applicant Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's or Health Facility's Statement.   2. A. Check box selected for Local Health Department Outpatient Clinic.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    235.0,
+                    352.999,
+                    245.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "pt3Line2a_NameofHealthDepartment[0]",
+                "field_type": "/Tx",
+                "description": "Enter Local Health Department Outpatient Clinic",
+                "struct_parent": 98,
+                "tool_tip": "Part 3.  Applicant Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's or Health Facility's Statement.   2. A. Enter Local Health Department Outpatient Clinic.",
+                "initial_value": "",
+                "rect": [
+                    360.006,
+                    216.0,
+                    575.791,
+                    234.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "pt3Checkbox2b[0]",
+                "field_type": "/Btn",
+                "description": "Check box selected for Other Public or Private Health Facility",
+                "struct_parent": 96,
+                "tool_tip": "Part 3.  Applicant Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's or Health Facility's Statement.   2. B. Check box selected for Other Public or Private Health Facility.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    199.0,
+                    352.999,
+                    209.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "pt3Checkbox2c[0]",
+                "field_type": "/Btn",
+                "description": "Check box selected for Private Practice",
+                "struct_parent": 97,
+                "tool_tip": "Part 3.  Applicant Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's or Health Facility's Statement.   2. C. Check box selected for Private Practice.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    181.0,
+                    352.999,
+                    191.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/C"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Applicants Who Have or Had a Physical  or Mental Disorder and Behavior Associated with  the Disorder  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line3_FacilityName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Facility",
+                "struct_parent": 113,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 3. Enter Name of Facility. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    624.008,
+                    294.001,
+                    642.008
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 103,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    600.001,
+                    294.001,
+                    618.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 104,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. B. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.003,
+                    580.0,
+                    154.003,
+                    590.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 105,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    580.0,
+                    112.002,
+                    590.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 107,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    580.0,
+                    70.001,
+                    590.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 106,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    576.0,
+                    294.001,
+                    594.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 102,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    552.002,
+                    294.001,
+                    570.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 109,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    528.001,
+                    294.001,
+                    546.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 110,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    528.001,
+                    120.002,
+                    546.001
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt3Line4_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 108,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    119.934,
+                    504.0,
+                    293.902,
+                    522.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 112,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    479.996,
+                    293.902,
+                    497.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line4_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 111,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder (continued). Physician's or Health Facility's Physical Address. 4. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    443.999,
+                    294.001,
+                    461.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line5_DaytimePhoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Daytime Telephone Number",
+                "struct_parent": 115,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Contact Information. 5. Enter Physician's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    378.003,
+                    294.001,
+                    396.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Email Address (if any)",
+                "struct_parent": 114,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Contact Information. 6. Enter Physician's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    342.003,
+                    294.001,
+                    360.003
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line7a_PhysicianFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Family Name (Last Name)",
+                "struct_parent": 116,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Signature. 7. A. Enter Physician's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    275.998,
+                    293.998,
+                    293.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line7b_PhysicianGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Given Name (First Name)",
+                "struct_parent": 117,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Signature. 7. B. Enter Physician's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    239.998,
+                    294.001,
+                    257.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line8a_SignatureofPhysician[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 119,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Signature. 7. B. Physician's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    204.001,
+                    294.001,
+                    222.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt3Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 118,
+                "tool_tip": "Part 3. Applicants Who Have or Had a Physical or Mental Disorder and Behavior Associated with the Disorder. Physician's Signature.  6. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    180.003,
+                    293.998,
+                    198.003
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Applicant with a Class A Tuberculosis  Condition (As Defined by HHS Regulations)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line1a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 121,
+                "tool_tip": "Part 4.  Applicant with a Class A Tuberculosis Condition (As Defined by HHS Regulations). 1. A. Applicant's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    468.0,
+                    576.0,
+                    486.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line1b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 120,
+                "tool_tip": "Part 4.  Applicant with a Class A Tuberculosis Condition (As Defined by HHS Regulations). 1. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    444.002,
+                    575.997,
+                    462.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "pt4Line2a_HealthDept[0]",
+                "field_type": "/Btn",
+                "description": "Select City Health Department",
+                "struct_parent": 122,
+                "tool_tip": "Part 4. Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations).  Local (City or County) Health Department Statement. NOTE: This statement must be completed by the physician at the local health department in the area where the applicant plans to reside. I agree to supply any treatment or observation necessary to properly manage and provide continued care of the applicant's tuberculosis condition. Within 30 days of the applicant reporting for care, I agree to submit a summary of my initial evaluation of the applicant's condition, indicate the presumptive diagnosis, and provide test results and plans for the applicant's future care to the state health department official named in the State Health Department Official's Endorsement section and to the Division of Global Migration and Quarantine (E 03), Centers for Disease Control and Prevention (C D C), Atlanta, Georgia 3 0 3 3 3. I also agree to report the applicant if he or she has not reported within 30 days after receiving notice from the Division of Global Migration and Quarantine, C D C. I represent (select the appropriate box and provide the complete name, address, contact information, and signature of the health department).  2. A. Select City Health Department.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    115.001,
+                    352.999,
+                    125.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "pt4Line2b_CntyHealthDept[0]",
+                "field_type": "/Btn",
+                "description": "Select County Health Department",
+                "struct_parent": 123,
+                "tool_tip": "Part 4. Applicants With a Class A. Tuberculosis Condition (As Defined By H H S Regulations).  Local (City or County) Health Department Statement. NOTE: This statement must be completed by the physician at the local health department in the area where the applicant plans to reside. I agree to supply any treatment or observation necessary to properly manage and provide continued care of the applicant's tuberculosis condition. Within 30 days of the applicant reporting for care, I agree to submit a summary of my initial evaluation of the applicant's condition, indicate the presumptive diagnosis, and provide test results and plans for the applicant's future care to the state health department official named in the State Health Department Official's Endorsement section and to the Division of Global Migration and Quarantine (E 03), Centers for Disease Control and Prevention (C D C), Atlanta, Georgia 3 0 3 3 3. I also agree to report the applicant if he or she has not reported within 30 days after receiving notice from the Division of Global Migration and Quarantine, C D C. I represent (select the appropriate box and provide the complete name, address, contact information, and signature of the health department).  2. B. Select County Health Department.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    97.001,
+                    352.999,
+                    107.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Applicants with a Class A Tuberculosis  Condition (As Defined by HHS Regulations)  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line3_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Local City or County Health Department",
+                "struct_parent": 134,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address. 3. Enter Name of Local City or County Health Department . ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    612.0,
+                    294.106,
+                    630.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line4_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 127,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    587.999,
+                    294.001,
+                    605.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 130,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    567.998,
+                    154.0,
+                    577.998
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt4Line4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 131,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    567.998,
+                    70.001,
+                    577.998
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt4Line4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 129,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    567.995,
+                    112.002,
+                    577.995
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt4Line4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 126,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    563.995,
+                    294.001,
+                    581.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line4_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 128,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    539.997,
+                    294.001,
+                    557.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line4_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 132,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    515.999,
+                    293.998,
+                    533.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line4_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 133,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Local City or County Health Department's Name and Physical Address.  4. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    515.996,
+                    120.002,
+                    533.996
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt4Line5_DaytimePhoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 136,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Contact Information. 5. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    450.003,
+                    294.001,
+                    468.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address (if any)",
+                "struct_parent": 135,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Contact Information. 6. Enter Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    414.003,
+                    294.001,
+                    432.003
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line7a_PhysicianFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Family Name (Last Name)",
+                "struct_parent": 137,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Signature. 7. A. Enter Physician's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    347.998,
+                    293.998,
+                    365.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line7b_PhysicianGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Physician's Given Name (First Name)",
+                "struct_parent": 138,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Signature. 7. B. Enter Physician's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    311.998,
+                    294.001,
+                    329.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line8a_SignatureofPhysician[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 140,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Signature. 8. A. Physician's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.001,
+                    294.001,
+                    294.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 139,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Physician's Signature. 8. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    252.003,
+                    293.998,
+                    270.003
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line9_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 142,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  9. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    581.998,
+                    576.0,
+                    599.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line9_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 145,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  9. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    425.999,
+                    561.997,
+                    435.999,
+                    571.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt4Line9_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 146,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  9. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    561.997,
+                    352.0,
+                    571.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt4Line9_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 144,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  9. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    561.994,
+                    394.001,
+                    571.994
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt4Line9_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 141,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    557.994,
+                    576.0,
+                    575.994
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line9_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 143,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States.  9. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    533.996,
+                    576.0,
+                    551.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line9_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 147,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States. 9. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    473.998,
+                    509.998,
+                    575.997,
+                    527.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line9_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 148,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). Arrangement for Medical Care by the Applicant or His or Her Sponsor. Provide the following information. Address where you (the sponsor) or the applicant plan to reside in the United States. 9. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    509.995,
+                    402.001,
+                    527.995
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt4Line12_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of State Health Department",
+                "struct_parent": 163,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address. 12. Enter Name of State Health Department. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    612.0,
+                    294.106,
+                    630.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line13a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 156,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    587.999,
+                    294.001,
+                    605.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line13b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 159,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    567.998,
+                    154.0,
+                    577.998
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt4Line13b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 160,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    567.998,
+                    70.001,
+                    577.998
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt4Line13b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 158,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    567.995,
+                    112.002,
+                    577.995
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt4Line13b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 155,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    563.995,
+                    294.001,
+                    581.995
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line13c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 157,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    119.999,
+                    539.997,
+                    294.001,
+                    557.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line13e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 161,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    515.999,
+                    293.998,
+                    533.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line13d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 162,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition. State Health Department Official's Name and Physical Address.  13. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    515.996,
+                    120.002,
+                    533.996
+                ],
+                "page_number": 7,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt4Line14_DaytimePhoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 165,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). State Health Department Official's Contact Information. 14. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    438.001,
+                    294.001,
+                    455.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line15_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter  Email Address, if any",
+                "struct_parent": 164,
+                "tool_tip": "Part 4.  Applicants with a Class A Tuberculosis Condition (As Defined by HHS Regulations). State Health Department Official's Contact Information. 15. Enter  Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    402.001,
+                    294.001,
+                    420.001
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Arrangement for Medical Care by the Applicant or  His or Her Sponsor",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line10a_PhysicianFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter State Health Department Official's Family Name, Last Name",
+                "struct_parent": 151,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. 10. A. Enter State Health Department Official's Family Name, Last Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    281.999,
+                    575.997,
+                    299.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line10b_PhysicianGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter State Health Department Official's Physician's Given Name, First Name",
+                "struct_parent": 152,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. State Health Department Official's Signature. 10. B. Enter State Health Department Official's Physician's Given Name, First Name. ",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    234.0,
+                    576.0,
+                    252.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line11a_SignatureofSHDOfficial[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 150,
+                "tool_tip": "11. A. Signature of State Health Department Official. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line11b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 149,
+                "tool_tip": "Part 5. Applicant's Statement, Contact Information, Declaration, Certification, and Signature. State Health Department Official's Signature. 11. B. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year. ",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    173.999,
+                    575.997,
+                    191.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Applicant's Contact Information,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line1_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Daytime Telephone Number",
+                "struct_parent": 169,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information.    Provide your daytime telephone number, mobile telephone number (if any), and email address (if any).                   1. Enter Applicant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    252.0,
+                    294.001,
+                    269.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt5Line2_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Mobile Telephone Number (if any)",
+                "struct_parent": 170,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information.  2. Enter Applicant's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    215.997,
+                    294.001,
+                    233.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt5Line3_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Email Address (if any)",
+                "struct_parent": 168,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information. 3. Enter Applicant's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    180.003,
+                    294.001,
+                    198.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt5Line4_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 166,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature.  Applicant's Certification and Signature. 4. Applicant's Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    533.999,
+                    575.906,
+                    551.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt5Line4_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 167,
+                "tool_tip": "Part 5.  Applicant's Contact Information, Certification, and Signature.  Applicant's Certification and Signature. 4. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    510.001,
+                    576.006,
+                    528.001
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information ,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt6Line1_InterpretersFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 171,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    389.999,
+                    575.997,
+                    407.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line1_InterpretersGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 173,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    353.999,
+                    576.0,
+                    371.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line2_IntrpretersBusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name",
+                "struct_parent": 172,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature. 2. Enter Interpreter's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    318.005,
+                    576.0,
+                    336.005
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line3_InterpretersDaytimeTelephoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 174,
+                "tool_tip": "Part 6. Interpreter's Contact Information,  Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    252.0,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line4_InterpretersDaytimeTelephoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number, if any",
+                "struct_parent": 176,
+                "tool_tip": "Part 6. Interpreter's Contact Information,  Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    216.0,
+                    576.0,
+                    234.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "5 Enter Interpreter's Email Address, if any",
+                "struct_parent": 175,
+                "tool_tip": "Part 6. Interpreter's Contact Information,  Certification, and Signature.  Interpreter's Contact Information.  5 Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    180.003,
+                    576.0,
+                    198.003
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information ,  Certification, and Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt6_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 187,
+                "tool_tip": "Part 6.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Certification and Signature.  I certify, under penalty or perjury, that I am fluent in English and language specified and I have interpreted every question on the application and instruction and interpreted the applicant's answers to the questions in that language, and the applicant informed me that he or she understands every instruction, question, and answer on the application.  Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    54.0,
+                    636.001,
+                    288.0,
+                    654.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt6Line6_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 179,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and  Signature.  6.  Interpreter's Signature.  No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    540.0,
+                    294.001,
+                    558.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt6Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 180,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature.  Interpreter's Certification and  Signature.   6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    515.999,
+                    294.004,
+                    533.999
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and  Signature of the Person Preparing this  Application, if Other Than the Applicant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt7Line1_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 181,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Provide the following information about the preparer. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    384.001,
+                    293.998,
+                    402.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line1_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 182,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    348.001,
+                    294.001,
+                    366.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line2_BusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name, if any",
+                "struct_parent": 183,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    294.001,
+                    330.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line3_PreparersDaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 186,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information.  3. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    245.999,
+                    294.001,
+                    263.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line4_PreparersMobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number",
+                "struct_parent": 185,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    209.999,
+                    294.001,
+                    227.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 184,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 5. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    173.999,
+                    294.001,
+                    191.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line6_PreparersSignature[0]",
+                "field_type": "/Tx",
+                "description": "Print and Sign completed form",
+                "struct_parent": 188,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 6. Preparer's Signature. No Entry. Print and Sign completed form.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt7Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 189,
+                "tool_tip": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    558.0,
+                    576.003,
+                    576.0
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "The following field is pre-populated from Part 1",
+                "struct_parent": 200,
+                "tool_tip": "Part 8.  Additional Information.  If you need extra space to provide any additional information within this request, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.  Include your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). The following field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    294.01,
+                    600.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt1Line1_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "The following field is pre-populated from Part 1",
+                "struct_parent": 201,
+                "tool_tip": "Part 8.  Additional Information. 1. B. Given Name (First Name). The following field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    294.01,
+                    564.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "The following field is pre-populated from Part 1",
+                "struct_parent": 202,
+                "tool_tip": "Part 8.  Additional Information. 1. C. Middle Name. The following field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    510.001,
+                    294.004,
+                    528.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt1Line6_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "The following field is pre-populated from Part 1",
+                "struct_parent": 203,
+                "tool_tip": "Part 8.  Additional Information. 2. Alien Registration Number (A. Number). The following field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    164.962,
+                    486.0,
+                    293.972,
+                    504.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 194,
+                "tool_tip": "Part 8.  Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    444.002,
+                    294.001,
+                    462.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 193,
+                "tool_tip": "Part 8.  Additional Information. 3. B. Enter Part Number. ",
+                "initial_value": "",
+                "rect": [
+                    150.024,
+                    444.002,
+                    209.778,
+                    462.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 192,
+                "tool_tip": "Part 8.  Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    444.002,
+                    120.002,
+                    462.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 195,
+                "tool_tip": "Part 8.  Additional Information. 3. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.001,
+                    294.001,
+                    438.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 198,
+                "tool_tip": "Part 8.  Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    234.0,
+                    234.003,
+                    294.001,
+                    252.003
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 197,
+                "tool_tip": "Part 8.  Additional Information. 4. B. Enter Part Number. ",
+                "initial_value": "",
+                "rect": [
+                    150.007,
+                    234.003,
+                    210.008,
+                    252.003
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 196,
+                "tool_tip": "Part 8.  Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    234.003,
+                    120.002,
+                    252.003
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 199,
+                "tool_tip": "Part 8.  Additional Information. 4. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    48.002,
+                    294.001,
+                    228.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 206,
+                "tool_tip": "Part 8. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.977,
+                    708.001,
+                    575.977,
+                    726.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 205,
+                "tool_tip": "Part 8. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.977,
+                    708.001,
+                    485.977,
+                    726.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 204,
+                "tool_tip": "Part 8. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.977,
+                    708.001,
+                    395.977,
+                    726.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 211,
+                "tool_tip": "Part 8. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.997,
+                    522.0,
+                    576.017,
+                    702.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 209,
+                "tool_tip": "Part 8. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.983,
+                    480.002,
+                    575.983,
+                    498.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 208,
+                "tool_tip": "Part 8. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.983,
+                    480.002,
+                    485.983,
+                    498.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 207,
+                "tool_tip": "Part 8. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.983,
+                    480.002,
+                    395.983,
+                    498.002
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 210,
+                "tool_tip": "Part 8. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.989,
+                    294.001,
+                    576.009,
+                    474.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line7c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 214,
+                "tool_tip": "Part 8. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    252.0,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line7b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 213,
+                "tool_tip": "Part 8. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    252.0,
+                    486.0,
+                    270.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line7a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 212,
+                "tool_tip": "Part 8. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    252.0,
+                    396.0,
+                    270.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt8Line7d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 215,
+                "tool_tip": "Part 8. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    47.999,
+                    576.026,
+                    245.999
+                ],
+                "page_number": 9
+            }
+        ]
+    }
+]

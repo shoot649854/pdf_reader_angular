@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Checklist",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CB 3",
+                "field_type": "/Btn",
+                "description": "You may submit this information for the most recent three tax years, pay stubs from the most recent six months, and/or a letter from your employer if you believe any of these items will help you qualify",
+                "struct_parent": 35,
+                "tool_tip": "A copy of your individual Federal income tax return, including W-2s for the most recent tax year, or a statement and/or evidence describing why you were not required to file.  Also include a copy of each and every Form 1099, Schedule, and any other evidence of reported income.  You may submit this information for the most recent three tax years, pay stubs from the most recent six months, and/or a letter from your employer if you believe any of these items will help you qualify.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    648.779,
+                    48.2215,
+                    661.0
+                ],
+                "page_number": 10,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 5",
+                "field_type": "/Btn",
+                "description": "Proof of the appointment as legal guardian of your estate; and ",
+                "struct_parent": 36,
+                "tool_tip": "Proof of the appointment as legal guardian of your estate; and ",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    532.014,
+                    48.2215,
+                    544.236
+                ],
+                "page_number": 10,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "CB 4",
+                "field_type": "/Btn",
+                "description": "A copy of an order from the appointing court or agency specifically permitting the legal guardian to make your income and assets available for the support of the sponsored immigrant",
+                "struct_parent": 37,
+                "tool_tip": "A copy of an order from the appointing court or agency specifically permitting the legal guardian to make your income and assets available for the support of the sponsored immigrant. ",
+                "initial_value": "/Off",
+                "rect": [
+                    36.0,
+                    511.514,
+                    48.2215,
+                    523.736
+                ],
+                "page_number": 10,
+                "options": [
+                    "/Off",
+                    "/Yes"
+                ]
+            }
+        ]
+    }
+]

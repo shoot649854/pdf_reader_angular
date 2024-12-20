@@ -1,0 +1,104 @@
+[
+    {
+        "title": "Requirements for the Petitioner",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Checkbox_1[0]",
+                "field_type": "/Btn",
+                "description": "Department of State",
+                "struct_parent": 1,
+                "tool_tip": "Requirements for the Petitioner. Check Form I-1 29, including the R-1 Supplement signed by the petitioner: 1. If the petitioner has its own individual Internal Revenue Code (I R C) 5 01(c)(3) letter, provide a currently valid determination letter from the Internal Revenue Service (I R S) establishing that the petitioning organization is a tax-exempt organization; or 2. If the petitioner is recognized as tax-exempt under a group tax-exemption, provide an Internal Revenue Service (I R S) group tax exemption determination letter; or 3. If the petitioner is affiliated with the religious denomination, provide: A. Currently valid determination letter from Internal Revenue Service (I R S); B. Documentation that establishes the religious nature and purpose of the organization; C. Organizational literature; and D. Religious denomination certification. 4. Submit the original and a duplicate copy of the petition and all supporting documents if the beneficiary is applying for an R-1 visa.  U S C I S will not make a second copy if one is not included.  Failure to submit a duplicate copy may result in a delay in issuance of a nonimmigrant visa abroad from the U. S. Department of State. ",
+                "initial_value": "/Off",
+                "rect": [
+                    36.999,
+                    558.998,
+                    46.999,
+                    568.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Checkbox_2[0]",
+                "field_type": "/Btn",
+                "description": "Copies of the beneficiary's bank records, budgets documenting the sources of self-support (including personal or family savings, room and board with host families in the United States, donations from the denomination's churches), or other verifiable evidence acceptable to U S C I S",
+                "struct_parent": 2,
+                "tool_tip": "Requirements for the Petitioner. Check Salaried or non-salaried compensation: 1. Verifiable evidence of how the petitioner intends to compensate the beneficiary, including specific monetary or in-kind compensation, or whether the beneficiary intends to be self-supporting. Example: Past evidence of compensation for similar positions; budgets showing monies set aside for salaries, leases, etcetera; verifiable documentation that room and board will be provided; or other evidence acceptable to U S C I S. If Internal Revenue Service (I R S) documentation, such as Internal Revenue Service (I R S) Form W-2 or certified tax returns, is available, it must be provided. If Internal Revenue Service (I R S) documentation is not available, an explanation for its absence must be provided, along with comparable, verifiable documentation. 2. If the beneficiary will be self-supporting, provide: A. Documentation establishing that the position that the beneficiary will hold is part of an established program for temporary, uncompensated missionary work, which is part of a broader international program of missionary work sponsored by the denomination; B. Evidence demonstrating that the petitioner has an established program for temporary, uncompensated missionary work; C. Evidence demonstrating that the denomination maintains missionary programs both in the United States and abroad; D. Evidence of the beneficiary's acceptance into the missionary program; E. Evidence demonstrating the religious duties and responsibilities associated with the traditionally uncompensated missionary work; and F. Copies of the beneficiary's bank records, budgets documenting the sources of self-support (including personal or family savings, room and board with host families in the United States, donations from the denomination's churches), or other verifiable evidence acceptable to U S C I S. ",
+                "initial_value": "/Off",
+                "rect": [
+                    36.999,
+                    373.0,
+                    46.999,
+                    383.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/2"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Requirements for the Beneficiary",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Checkbox_3[0]",
+                "field_type": "/Btn",
+                "description": "If the beneficiary received no salary but provided for his or her own support and that of any dependents, provide verifiable documents to show how support was maintained, such as audited financial statements, financial institution records, brokerage account statements, trust documents signed by an attorney, or other evidence acceptable to U S C I S",
+                "struct_parent": 4,
+                "tool_tip": "Requirements for the Petitioner. Check For extension of stay as an R-1, provide initial evidence of previous R-1 employment. 1. If the beneficiary received salaried compensation, provide Internal Revenue Service (I R S) documentation that the beneficiary received a salary, such as an Internal Revenue Service (I R S) Form W-2 or certified copies of filed income tax returns reflecting such work and compensation for the previous R-1 employment. 2. If the beneficiary received non-salaried compensation: A. If Internal Revenue Service (I R S) documentation is available, provide Internal Revenue Service (I R S) documentation of the non-salaried compensation. B. If Internal Revenue Service (I R S) documentation is not available, provide an explanation for the absence of Internal Revenue Service (I R S) documentation and verifiable evidence of all financial support, including stipends, room and board, or other support for the beneficiary with a description of the location where the beneficiary lived, a lease to establish where the beneficiary lived, or other evidence acceptable to U S C I S. C. If the beneficiary received no salary but provided for his or her own support and that of any dependents, provide verifiable documents to show how support was maintained, such as audited financial statements, financial institution records, brokerage account statements, trust documents signed by an attorney, or other evidence acceptable to U S C I S.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.999,
+                    733.0,
+                    46.999,
+                    743.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Checkbox_4[0]",
+                "field_type": "/Btn",
+                "description": "Check Evidence of membership in a religious denomination having a bona fide non-profit religious organization in the United States for at least 2 years immediately preceding the filing of the petition",
+                "struct_parent": 5,
+                "tool_tip": "Requirements for the Beneficiary. Check Evidence of membership in a religious denomination having a bona fide non-profit religious organization in the United States for at least 2 years immediately preceding the filing of the petition.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.999,
+                    492.999,
+                    46.999,
+                    502.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Checkbox_5[0]",
+                "field_type": "/Btn",
+                "description": "Beneficiary's completion of the denomination's requirements for ordination",
+                "struct_parent": 6,
+                "tool_tip": "Requirements for the Beneficiary. Check If the beneficiary is a minister, provide: 1. Copy of the beneficiary's certificate of ordination or similar documents; and 2. Documents reflecting acceptance of the beneficiary's qualifications as a minister in the religious denomination, as well as evidence that the beneficiary has completed any course of prescribed theological education at an accredited theological institution normally required or recognized by that religious denomination. Include transcripts, curriculum, and documentation that establishes that the theological institution is accredited by the denomination; or 3. If the denominations do not require a prescribed theological education, provide: A. Denomination's requirements for ordination to minister; B. Duties allowed to be performed by virtue of ordination; C. Denomination's levels of ordination, if any; and D. Beneficiary's completion of the denomination's requirements for ordination.",
+                "initial_value": "/Off",
+                "rect": [
+                    36.999,
+                    463.0,
+                    46.999,
+                    473.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            }
+        ]
+    }
+]

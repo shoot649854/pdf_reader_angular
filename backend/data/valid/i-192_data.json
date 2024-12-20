@@ -1,0 +1,3484 @@
+[
+    {
+        "title": "Application for Advance Permission to Enter  as a Nonimmigrant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G - 28 or Form G - 2 81 is attached",
+                "struct_parent": 2,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any.  Select this box if Form G - 28 or Form G - 2 81 is attached.",
+                "initial_value": "",
+                "rect": [
+                    42.503,
+                    300.999,
+                    52.503,
+                    310.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 4,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    270.0,
+                    384.001,
+                    288.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "VolagNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Volag Number, if any",
+                "struct_parent": 3,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Volag Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    270.0,
+                    251.997,
+                    288.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Application Type",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select Status as a victim of trafficking (T nonimmigrant status) or \ra victim of qualifying criminal activity (U nonimmigrant status)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1.  Application Type. I am applying to the Secretary of Homeland Security for permission to enter the United States temporarily under the provisions of the Immigration and Nationality Act (INA) section 212(d)(3)(A)(ii), 212(d)(13), or 212(d)(14). 1. I am seeking this permission so that I may obtain (select only one box). Select Status as a victim of trafficking (T nonimmigrant status) or \ra victim of qualifying criminal activity (U nonimmigrant status).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    163.0,
+                    71.0,
+                    173.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P1_Line1_CB[0]",
+                "field_type": "/Btn",
+                "description": "and then skip to Item Number 26",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Application Type. Select Admission as a nonimmigrant (other than as a T or U nonimmigrant). NOTE: If filing this form concurrently with a USCIS Form I-914 or Form I-918 (T or U nonimmigrant, respectively) or in relation to one that you previously filed, you should complete Item Numbers 1.-3., 5.-7., 10. and then skip to Item Number 26.",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    132.998,
+                    71.0,
+                    142.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 12 digits",
+                "struct_parent": 5,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. Enter 12 digits.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    270.0,
+                    570.01,
+                    288.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information About You",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 11,
+                "tool_tip": "Part 2. Information About You. 1. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    666.0,
+                    438.001,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 10,
+                "tool_tip": "Part 2. Information About You. 1. Your Full Legal Name (Do not provide a nickname). Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    666.0,
+                    270.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line2_A_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (Firstst Name)",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Information About You. 2. Row A. Enter Given Name (Firstst Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    582.001,
+                    438.001,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line2_A_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 13,
+                "tool_tip": "Part 2. Information About You. 2. Other Names Used (if any). Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. Row A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    270.0,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line2_B_FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (Firstst Name)",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information About You. 2. Row B. Enter Given Name (Firstst Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    564.001,
+                    438.001,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line2_B_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Information About You. 2. Other Names Used (if any). Provide all other names you have ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. Row B. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    564.001,
+                    270.0,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line3_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A Number, if any)",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Information About You. Other Information. 3. Enter Alien Registration Number (A Number, if any).",
+                "initial_value": "",
+                "rect": [
+                    90.0,
+                    497.999,
+                    219.01,
+                    515.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line5_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Information About You. Other Information. 5. Enter your Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    461.999,
+                    186.001,
+                    479.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line6_CityorTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    59.998,
+                    408.002,
+                    317.999,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line6_CountryOfBirth[1]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    372.002,
+                    318.002,
+                    390.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line7_CountryOfCitizenship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Information About You. Other Information. 7. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    335.999,
+                    317.999,
+                    353.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line8_Gender[2]",
+                "field_type": "/Btn",
+                "description": "Select for Another Gender Identity",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Information About You. Other Information. 8. Gender. Select for Another Gender Identity.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    301.002,
+                    172.0,
+                    311.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/AGI"
+                ]
+            },
+            {
+                "field_name": "P2_Line8_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select for Female",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Information About You. Other Information. 8. Gender. Select for Female.",
+                "initial_value": "",
+                "rect": [
+                    108.0,
+                    301.002,
+                    118.0,
+                    311.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "P2_Line8_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select for Male",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information About You. Other Information. 8. Gender. Select for Male.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    301.002,
+                    70.001,
+                    311.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name (if any)",
+                "struct_parent": 29,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Mailing Address (Safe address, if applicable) Please provide an address where you can safely receive correspondence from USCIS. Enter In Care Of Name (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    227.999,
+                    576.0,
+                    245.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 30,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    444.002,
+                    209.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 35,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    155.999,
+                    443.999,
+                    173.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Postal Code",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. For International Address enter the Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    119.999,
+                    348.001,
+                    137.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_Province[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Province",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. For International Address enter the Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    119.999,
+                    216.0,
+                    137.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 12,
+                "tool_tip": "Part 2. Information About You. 1. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    666.0,
+                    576.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line_A_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information About You. 2. Row A. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line_B_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Information About You. 2. Row B. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    564.001,
+                    576.0,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line4_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter a U S C I S Online Account Number (if any)",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Information About You. Other Information. 4. Enter a U S C I S Online Account Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    359.997,
+                    497.999,
+                    534.007,
+                    515.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line6_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Information About You. Other Information. 6. Place of Birth. Enter State or Province.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    408.002,
+                    576.0,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 33,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    195.999,
+                    496.0,
+                    205.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 32,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    195.999,
+                    478.0,
+                    205.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 31,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    195.999,
+                    460.0,
+                    205.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line9_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 34,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    191.999,
+                    576.0,
+                    209.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the ZIP Code",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Enter the ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    155.999,
+                    575.674,
+                    173.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Line9_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the list of States and Protectorates",
+                "struct_parent": 36,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. Select State from the list of States and Protectorates.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    155.999,
+                    510.001,
+                    173.999
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line9_Country[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Country",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Information About You. Other Information. 9. For International Address enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    119.999,
+                    576.0,
+                    137.999
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information About You  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line10_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number\rand Name",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Street Number\rand Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    600.001,
+                    444.002,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    564.001,
+                    444.002,
+                    582.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 50,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    528.001,
+                    348.001,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 49,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    528.001,
+                    216.0,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "No Entry",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Information About You. Address History. Dates of Residence. To Date. Present. No Entry.",
+                "initial_value": "PRESENT",
+                "rect": [
+                    222.001,
+                    474.001,
+                    348.001,
+                    492.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 55,
+                "tool_tip": "Part 2. Information About You. Address History. Dates of Residence. Enter From Date. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    474.001,
+                    186.001,
+                    492.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 56,
+                "tool_tip": "Part 2. Information About You. Address History. Provide physical addresses for everywhere you have lived during the last five years, whether inside or outside the United States.  Provide your current address first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 10. Physical Address 2 (current address). Enter the Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    420.001,
+                    444.002,
+                    438.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 61,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    384.001,
+                    444.002,
+                    402.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Postal Code",
+                "struct_parent": 63,
+                "tool_tip": "Part 2. Information About You. Address History. 11. For International Address enter the Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    347.998,
+                    348.001,
+                    365.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_Province[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Province",
+                "struct_parent": 62,
+                "tool_tip": "Part 2. Information About You. Address History. 11. For International Address enter the Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    347.998,
+                    216.0,
+                    365.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 67,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Dates of Residence. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    293.998,
+                    348.001,
+                    311.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 68,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Dates of Residence. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    293.998,
+                    186.001,
+                    311.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[2]",
+                "field_type": "/Btn",
+                "description": "Select Widowed",
+                "struct_parent": 71,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Widowed.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    229.002,
+                    298.0,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[0]",
+                "field_type": "/Btn",
+                "description": "Select Divorced",
+                "struct_parent": 69,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Divorced.",
+                "initial_value": "",
+                "rect": [
+                    227.999,
+                    229.002,
+                    237.999,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[3]",
+                "field_type": "/Btn",
+                "description": "Select Married",
+                "struct_parent": 72,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Married.",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    229.002,
+                    183.999,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[1]",
+                "field_type": "/Btn",
+                "description": "What is your current marital status? Select Single, Never Married",
+                "struct_parent": 70,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. What is your current marital status? Select Single, Never Married.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    229.002,
+                    70.001,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[6]",
+                "field_type": "/Btn",
+                "description": "Select Other",
+                "struct_parent": 75,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Other.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    208.004,
+                    70.001,
+                    218.004
+                ],
+                "page_number": 3,
+                "options": [
+                    "/7"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_Other[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other marital status",
+                "struct_parent": 76,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Enter Other marital status. ",
+                "initial_value": "",
+                "rect": [
+                    108.0,
+                    204.004,
+                    365.998,
+                    222.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line14_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 79,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 14. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    78.004,
+                    437.998,
+                    96.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line14_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 78,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). If you are currently married, provide the following information about your current spouse. 14. Current Spouse's Legal Name. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    78.004,
+                    270.0,
+                    96.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 45,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    604.001,
+                    478.0,
+                    614.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line10_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 44,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    604.001,
+                    460.0,
+                    614.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line10_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Physical Address One, current address",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select Floor",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    603.998,
+                    496.0,
+                    613.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line10_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "If Apartment, Suite or Floor selected, please enter Number",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. If Apartment, Suite or Floor selected, please enter Number.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    599.998,
+                    576.0,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter five-digit Zip Code",
+                "struct_parent": 51,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter five-digit Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    564.001,
+                    575.745,
+                    582.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line10_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the List of States",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Select State from the List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    564.001,
+                    510.001,
+                    582.001
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line10_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Information About You. Address History. 10. Physical Address One, current address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    528.001,
+                    576.0,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 59,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    424.001,
+                    496.0,
+                    434.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line11_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 58,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    424.001,
+                    478.0,
+                    434.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line11_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 57,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    424.001,
+                    460.0,
+                    434.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line11_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 60,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    420.001,
+                    576.0,
+                    438.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the ZIP Code",
+                "struct_parent": 64,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Enter the ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    384.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line11_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the list of States and Protectorates",
+                "struct_parent": 65,
+                "tool_tip": "Part 2. Information About You. Address History. 11. Select State from the list of States and Protectorates.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    384.001,
+                    510.001,
+                    402.001
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line11_Country[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter the Country",
+                "struct_parent": 66,
+                "tool_tip": "Part 2. Information About You. Address History. 11. For International Address enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    347.998,
+                    576.0,
+                    365.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[5]",
+                "field_type": "/Btn",
+                "description": "Select Marriage Annulled",
+                "struct_parent": 74,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Marriage Annulled.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    229.002,
+                    453.999,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/6"
+                ]
+            },
+            {
+                "field_name": "P2_Line12_MaritalStatus[4]",
+                "field_type": "/Btn",
+                "description": "Select Legally Separated",
+                "struct_parent": 73,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 12. Select Legally Separated.",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    229.002,
+                    358.001,
+                    239.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "P2_Line13_TimesMarried[0]",
+                "field_type": "/Tx",
+                "description": "13",
+                "struct_parent": 77,
+                "tool_tip": "Part 2. Information About You. Information About Your Marital History. 13. How many times have you been married (including annulled marriages and marriages to the same person)?",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    180.003,
+                    576.0,
+                    198.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line14_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 80,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 14. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    78.004,
+                    576.0,
+                    96.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line15_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Spouse's Alien Registration Number (A Number) (if any)",
+                "struct_parent": 81,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 15. Enter Spouse's Alien Registration Number (A Number) (if any).",
+                "initial_value": "",
+                "rect": [
+                    329.998,
+                    54.003,
+                    455.998,
+                    72.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P2_Line16_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 16. Enter Spouse's Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    695.999,
+                    270.0,
+                    713.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line18_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Place of Birth. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    641.999,
+                    318.002,
+                    659.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line18_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    606.002,
+                    317.999,
+                    624.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line19_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Place of Marriage. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    552.002,
+                    318.002,
+                    570.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line19_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    516.002,
+                    317.999,
+                    534.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line20_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any). 20. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    390.002,
+                    438.001,
+                    408.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line20_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any). If you have been married before, anywhere in the world, provide the information requested in Item Numbers 20. - 25. about your prior marriage.  If you have had more than one previous marriage, use the space provided in Part 6. Additional Information to provide the answers to Item Numbers 20. - 25. for each additional marriage. 20. Prior Spouse's Legal Name (provided family name before marriage). Enter Family Name (Last Name). ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    390.002,
+                    270.0,
+                    408.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line21_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 95,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any). 21. Enter Prior Spouse's Date of Birth. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    366.001,
+                    270.0,
+                    384.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line23_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Place of Marriage. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.004,
+                    318.002,
+                    330.004
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line23_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.001,
+                    317.999,
+                    294.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line24_LegalMarriageEndDate[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 103,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  24. Enter Date Marriage Legally Ended. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    252.003,
+                    335.999,
+                    270.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line25_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter City or Town. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.003,
+                    317.999,
+                    216.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line25_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.003,
+                    317.999,
+                    180.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line26_GroundsofInadmissibility[0]",
+                "field_type": "/Tx",
+                "description": "P2_Line26_GroundsofInadmissibility",
+                "struct_parent": 104,
+                "tool_tip": "P2_Line26_GroundsofInadmissibility",
+                "initial_value": "",
+                "rect": [
+                    60.194,
+                    54.0,
+                    576.193,
+                    108.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line17_Marriage[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 17. Enter Date of Marriage. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    450.003,
+                    695.999,
+                    540.003,
+                    713.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line18_StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 18. Enter State or Province.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    641.999,
+                    576.0,
+                    659.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line19_StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. Information About You. Information About Your Current Marriage (including if you are legally separated). 19. Enter State or Province.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    552.002,
+                    576.0,
+                    570.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line20_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 94,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any). 20. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    390.002,
+                    576.0,
+                    408.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line22_DateOfMarriage[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 96,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any). 22. Enter Date of Marriage. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    450.003,
+                    366.001,
+                    540.003,
+                    384.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line23_StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  23. Enter State or Province.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    312.001,
+                    576.0,
+                    330.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line25_StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. Information About You. Information About Prior Marriages (if any).  25. Place Where Marriage Legally Ended. Enter State or Province. ",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    198.003,
+                    576.0,
+                    216.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P2_Line28_DateAppFiled[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 28. Enter the Date Application Filed. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    636.001,
+                    317.999,
+                    654.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line29_USCISOffPortEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter the U S C I S Office or Port of Entry",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 29. Location where you filed your application (for example, USCIS Office or Port of Entry). Enter the U S C I S Office or Port of Entry.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.004,
+                    317.999,
+                    600.004
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line29_StateProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    317.999,
+                    564.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line29_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Receipt Number (if available)",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 29. Enter a Receipt Number (if available).",
+                "initial_value": "",
+                "rect": [
+                    201.6,
+                    522.003,
+                    390.002,
+                    540.003
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line32_ApplicationorPetitionFiled[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Type of application or petition filed",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. If you have (or somebody else on your behalf has) filed multiple applications or petitions for immigration benefits with the U.S. Government, use the space provided in Part 6. Additional Information to provide the answers to Item Numbers 32. - 34. for each of your additional applications or petitions.  32. Enter the Type of application or petition filed.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    335.999,
+                    576.0,
+                    353.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line33_LocationAppFiled[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Location the application or petition was filed (for example, USCIS office or Port of Entry)",
+                "struct_parent": 119,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 33. Enter the Location the application or petition was filed (for example, USCIS office or Port of Entry).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    300.002,
+                    576.0,
+                    318.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line34_OutcomeApplicationOrPetitionFiled[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Outcome of the application or petition (for example, approved, denied, or pending)",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 34. Enter the Outcome of the application or petition (for example, approved, denied, or pending).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    264.002,
+                    576.0,
+                    282.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line27_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 125,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 27. Select No.",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    699.999,
+                    555.998,
+                    709.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P2_Line27_CB[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 124,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 27. Have you previously filed an application for advance permission to enter the United States as a nonimmigrant? Select Yes. If you answered \"Yes\" to Item Number 27., provide the details in Item Numbers 28. through 29.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    699.999,
+                    514.0,
+                    709.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line29_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line29_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 29. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    330.001,
+                    546.001,
+                    575.0,
+                    564.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line30_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 30. Select No.",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    505.003,
+                    555.998,
+                    515.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P2_Line30_CB[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 30. Have you EVER been in the United States for a period of six months or more? Select Yes. If you answered \"Yes\" to Item Number 30., provide the dates you were in the United States (from and to) and your immigration status at the time of entry into the United States in the space provided in Part 6. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    505.003,
+                    514.0,
+                    515.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P2_Line31_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 116,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 31. Select No.",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    445.002,
+                    555.998,
+                    455.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P2_Line31_CB[0]",
+                "field_type": "/Btn",
+                "description": "- 34",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 31. Have you EVER filed an application or petition for immigration benefits with the U.S. Government, or has one ever been filed on your behalf? Select Yes.  If you answered \"Yes\" to Item Number 31., provide the information requested in Item Numbers 32. - 34.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    445.002,
+                    514.0,
+                    455.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line35_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 35. Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    247.002,
+                    556.001,
+                    257.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P2_Line35_CB[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 120,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 35. Have you ever been denied or refused an immigration benefit by the U.S. Government, or had a benefit revoked or terminated (including but not limited to visas)? Select Yes.  If you answered \"Yes\" to Item Number 35., provide an explanation the information in the space provided in Part 6. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    247.002,
+                    514.0,
+                    257.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P2_Line36_CB[1]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 36. Select No.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    187.004,
+                    556.001,
+                    197.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P2_Line36_CB[0]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Information About You. Immigration and Criminal History. 36. Have you ever, in or outside the United States, been arrested, cited, charged, indicted, fined, convicted, or imprisoned for breaking or violating any law or ordinance, excluding minor traffic violations? Select Yes. If you answered \"Yes\" to Item Number 36., describe the incidents in detail and include all offenses where impaired driving may have been an issue in the space provided in Part 6. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    187.004,
+                    514.0,
+                    197.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P2_Line37_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 145,
+                "tool_tip": "Part 2. Information About You. Travel Information. NOTE:  If you are applying for T or U nonimmigrant status and are in the United States, you may skip Item Numbers 37. - 43. Location at Which you Plan to Enter the United States (desired Port of Entry) 37. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    618.001,
+                    281.999,
+                    636.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line40_TravelToUS[0]",
+                "field_type": "/Tx",
+                "description": "How do you plan to travel to the United States? For example, by plane, ship, car)",
+                "struct_parent": 148,
+                "tool_tip": "Part 2. Information About You. Travel Information. 40. How do you plan to travel to the United States? For example, by plane, ship, car).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    570.002,
+                    281.999,
+                    588.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line42_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Approximate Length of Stay in the United States",
+                "struct_parent": 128,
+                "tool_tip": "Part 2. Information About You. Travel Information. 42. Enter the Approximate Length of Stay in the United States.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    534.002,
+                    576.0,
+                    552.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line43_Summary[0]",
+                "field_type": "/Tx",
+                "description": "43",
+                "struct_parent": 129,
+                "tool_tip": "Part 2. Information About You. Travel Information. 43. Explain What is the purpose of your stay in the United States? ",
+                "initial_value": "",
+                "rect": [
+                    60.194,
+                    426.002,
+                    576.193,
+                    516.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_EmployerName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of the Employer or Company",
+                "struct_parent": 130,
+                "tool_tip": "Part 2. Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 44. Employer 1 (current or most recent). Enter the Name of the Employer or Company.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    576.0,
+                    330.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 131,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Address of Employer or Company. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    258.001,
+                    444.002,
+                    276.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 136,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    222.001,
+                    443.999,
+                    240.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Postal Code",
+                "struct_parent": 140,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    186.001,
+                    348.001,
+                    204.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_Province[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Province",
+                "struct_parent": 139,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    186.001,
+                    216.0,
+                    204.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Occupation[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Your Occupation",
+                "struct_parent": 142,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Your Occupation.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    150.004,
+                    576.0,
+                    168.004
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "DateTo[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 144,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Dates of Employment. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    96.001,
+                    348.001,
+                    114.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 143,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Dates of Employment. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    96.001,
+                    186.001,
+                    114.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line39_PortOfEntry[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of the Port of Entry",
+                "struct_parent": 147,
+                "tool_tip": "Part 2. Information About You. Travel Information. 39. Enter the Name of the Port of Entry.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    618.001,
+                    576.0,
+                    636.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line38_State[0]",
+                "field_type": "/Ch",
+                "description": "Select the State form the list of States / Protectorates",
+                "struct_parent": 146,
+                "tool_tip": "Part 2. Information About You. Travel Information. 38. Select the State form the list of States / Protectorates.",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    618.001,
+                    373.683,
+                    636.001
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line41_PlanDateEnterUS[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 149,
+                "tool_tip": "Part 2. Information About You. Travel Information. 41. When do you plan to enter the United States? Enter a Date. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    318.002,
+                    570.002,
+                    408.002,
+                    588.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 134,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    262.004,
+                    496.0,
+                    272.004
+                ],
+                "page_number": 6,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line44_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 133,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    262.004,
+                    478.0,
+                    272.004
+                ],
+                "page_number": 6,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line44_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 132,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    262.004,
+                    460.0,
+                    272.004
+                ],
+                "page_number": 6,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line44_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment, Suite or Floor Number (if applicable)",
+                "struct_parent": 135,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter an Apartment, Suite or Floor Number (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    258.001,
+                    576.0,
+                    276.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the ZIP Code",
+                "struct_parent": 138,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Enter the ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    222.001,
+                    575.821,
+                    240.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line44_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the list of States / Protectorates",
+                "struct_parent": 137,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. Select State from the list of States / Protectorates.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    222.001,
+                    510.001,
+                    240.001
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line44_Country[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Country",
+                "struct_parent": 141,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 44. For International Address enter Country.",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    186.001,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line45_EmployerName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of the Employer or Company",
+                "struct_parent": 160,
+                "tool_tip": "Part 2. Information About You. Employment History. Provide your employment history for the last five years, whether inside or outside the United States.  Provide the most recent employment first.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. 45. Employer 2. Enter the Name of the Employer or Company.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    666.0,
+                    576.0,
+                    684.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 161,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Address of Employer or Company. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    611.997,
+                    443.999,
+                    629.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 166,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    575.997,
+                    443.999,
+                    593.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Postal Code",
+                "struct_parent": 168,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    539.997,
+                    348.001,
+                    557.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_Province[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Province",
+                "struct_parent": 167,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    539.997,
+                    216.0,
+                    557.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_Occupation[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Your Occupation",
+                "struct_parent": 152,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Your Occupation.",
+                "initial_value": "",
+                "rect": [
+                    60.055,
+                    504.0,
+                    576.0,
+                    522.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 154,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Dates of Employment. Enter Date To. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    450.0,
+                    348.001,
+                    468.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 153,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Dates of Employment. Enter Date From. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    450.0,
+                    186.001,
+                    468.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 164,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    615.997,
+                    496.0,
+                    625.997
+                ],
+                "page_number": 7,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "P2_Line45_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 163,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    615.997,
+                    478.0,
+                    625.997
+                ],
+                "page_number": 7,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "P2_Line45_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 162,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    615.997,
+                    460.0,
+                    625.997
+                ],
+                "page_number": 7,
+                "options": [
+                    "/APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line45_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment, Suite or Floor Number (if applicable)",
+                "struct_parent": 165,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter an Apartment, Suite or Floor Number (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    611.997,
+                    576.0,
+                    629.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the ZIP Code",
+                "struct_parent": 169,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Enter the ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    515.999,
+                    575.997,
+                    576.0,
+                    593.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P2_Line45_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from the list of States / Protectorates",
+                "struct_parent": 170,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. Select State from the list of States / Protectorates.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    575.997,
+                    510.001,
+                    593.997
+                ],
+                "page_number": 7,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line45_Country[0]",
+                "field_type": "/Tx",
+                "description": "For International Address enter Country",
+                "struct_parent": 171,
+                "tool_tip": "Part 2. Information About You. Employment History. Address of Employer or Company. 45. For International Address enter Country.",
+                "initial_value": "",
+                "rect": [
+                    353.999,
+                    539.997,
+                    576.0,
+                    557.997
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Applicant's Statement, Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P3_Line1_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Daytime Telephone Number",
+                "struct_parent": 155,
+                "tool_tip": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. Provide your daytime telephone number, mobile telephone number (if any), and email address (if any). 1. Enter Applicant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    335.999,
+                    306.0,
+                    353.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P3_Line3_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Email Address (if any)",
+                "struct_parent": 157,
+                "tool_tip": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. 3. Enter Applicant's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    299.993,
+                    306.0,
+                    317.993
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P3_Line4_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 158,
+                "tool_tip": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Certification and Signature. I certify, under penalty of perjury, that I provided or authorized all of the responses and information contained in and submitted with my application, I read and understand or, if interpreted to me in a language in which I am fluent by the interpreter listed in Part 4., understood, all of the responses and information contained in, and submitted with, my application, and that all of the responses and the information is complete, true, and correct.  Furthermore, I authorize the release of any information from any and all of my records that USCIS may need to determine my eligibility for an immigration request and to other entities and persons where necessary for the administration and enforcement of U.S. immigration law. 4. Enter the Applicant's Signature. This field cannot be electronically signed. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    155.999,
+                    438.001,
+                    173.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P3_Line2_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Mobile Telephone Number (if any)",
+                "struct_parent": 156,
+                "tool_tip": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant Contact Information. 2. Enter Applicant's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    335.993,
+                    576.0,
+                    353.993
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P3_Line4_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 159,
+                "tool_tip": "Part 3. Applicant's Statement, Contact Information, Certification, and Signature. Applicant's Certification and Signature. 4. Enter the Applicant's Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    155.999,
+                    576.0,
+                    173.999
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Interpreter's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 188,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    659.999,
+                    306.0,
+                    677.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line2_BusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Business or Organization Name",
+                "struct_parent": 190,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. 2. Enter the Interpreter's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    623.996,
+                    306.0,
+                    641.996
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line3_InterpreterDaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Daytime Telephone Number",
+                "struct_parent": 185,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter the Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    557.997,
+                    306.0,
+                    575.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Interpreter's Email Address (if any)",
+                "struct_parent": 187,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. 5. Enter the Interpreter's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    522.0,
+                    306.0,
+                    540.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line6_Iamfluent[0]",
+                "field_type": "/Tx",
+                "description": "Enter language",
+                "struct_parent": 174,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that I am fluent in English and and I have interpreted every question on the application and instructions and interpreted the applicant's answers to the questions in that language, and the applicant informed me that they understood every instruction, question, and answer on the application. Enter language.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    473.998,
+                    569.999,
+                    491.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line6_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 175,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. 6. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This field cannot be signed electronically. Print this form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    413.997,
+                    438.001,
+                    431.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 189,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    659.999,
+                    576.0,
+                    677.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line4_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Intepreter's Mobile Telephone Number (if any)",
+                "struct_parent": 186,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. 4. Enter the Intepreter's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    557.994,
+                    576.0,
+                    575.994
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 176,
+                "tool_tip": "Part 4. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. 6. Enter the Date of Interpreter's Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    413.997,
+                    576.0,
+                    431.997
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application,   if Other Than the Applicant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line1_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 177,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    305.997,
+                    312.001,
+                    323.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P5_Line2_BusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name",
+                "struct_parent": 179,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 2. Enter Preparer's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.003,
+                    312.001,
+                    288.003
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P5_Line3_PreparerDaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 180,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    203.998,
+                    306.0,
+                    221.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Preparer's Email Address (if any)",
+                "struct_parent": 182,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 5. Preparer's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    167.998,
+                    306.0,
+                    185.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P5_Line6_SignatureofPreparer[0]",
+                "field_type": "/Tx",
+                "description": "Print the form and sign in ink",
+                "struct_parent": 183,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. Preparer's Certification. I certify, under penalty of perjury, that I prepared this application for the applicant at their request and with express consent and that all of the responses and information contained in and submitted with the application is complete, true, and correct and reflects only information provided by the applicant.  The applicant reviewed the responses and information and informed me that they understand the responses and information in or submitted with the application. 6. Enter the Preparer's Signature. This field cannot be signed electronically. Print the form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    47.999,
+                    438.001,
+                    65.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P5_Line1_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 178,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 1. Enter Preparer's Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    317.999,
+                    305.997,
+                    576.0,
+                    323.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P4_Line4_PreparerFaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number (if any)",
+                "struct_parent": 181,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 4. Enter Preparer's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    336.002,
+                    203.998,
+                    576.0,
+                    221.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "P5_Line6_DateOfSignature[0]",
+                "field_type": "/Tx",
+                "description": "01/01/2023",
+                "struct_parent": 184,
+                "tool_tip": "Part 5. Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant. 6. Enter Preparer's Date of Signature. Enter the Date as a 2-digit month, 2-digit day, and 4-digit year. Ex. 01/01/2023.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    47.999,
+                    576.0,
+                    65.999
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P2_Line1_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 194,
+                "tool_tip": "Part 6. Additional Information. 1. B. Given Name (First Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    630.0,
+                    414.0,
+                    648.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P2_Line1_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 193,
+                "tool_tip": "Part 6. Additional Information  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and. A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Family Name (Last Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    630.0,
+                    234.0,
+                    648.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P2_Line3_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 196,
+                "tool_tip": "Part 6. Additional Information. 2. A. Number (if any). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    165.325,
+                    605.999,
+                    294.335,
+                    623.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line3_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 199,
+                "tool_tip": "Part 6. Additional Information. 3. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    569.999,
+                    294.001,
+                    587.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line3_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 198,
+                "tool_tip": "Part 6. Additional Information. 3. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    569.999,
+                    205.002,
+                    587.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line3_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 197,
+                "tool_tip": "Part 6. Additional Information. 3. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    569.999,
+                    115.002,
+                    587.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line3_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 200,
+                "tool_tip": "Part 6. Additional Information. 3. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.194,
+                    492.001,
+                    576.193,
+                    564.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line4_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 203,
+                "tool_tip": "Part 6. Additional Information. 4. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    455.998,
+                    294.001,
+                    473.998
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line4_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 202,
+                "tool_tip": "Part 6. Additional Information. 4. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    455.998,
+                    205.002,
+                    473.998
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line4_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 201,
+                "tool_tip": "Part 6. Additional Information. 4.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    455.998,
+                    115.002,
+                    473.998
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line4_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 204,
+                "tool_tip": "Part 6. Additional Information. 4. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    378.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line5_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 207,
+                "tool_tip": "Part 6. Additional Information. 5. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    341.997,
+                    294.001,
+                    359.997
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line5_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 206,
+                "tool_tip": "Part 6. Additional Information. 5. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    341.997,
+                    205.002,
+                    359.997
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line5_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 205,
+                "tool_tip": "Part 6. Additional Information. 5. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    341.997,
+                    115.002,
+                    359.997
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line5_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 208,
+                "tool_tip": "Part 6. Additional Information. 5. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    263.999,
+                    576.0,
+                    335.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line6_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 211,
+                "tool_tip": "Part 6. Additional Information. 6. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    227.999,
+                    294.001,
+                    245.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line6_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 210,
+                "tool_tip": "Part 6. Additional Information. 6.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    227.999,
+                    205.002,
+                    245.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line6_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 209,
+                "tool_tip": "Part 6. Additional Information. 6. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    227.999,
+                    115.002,
+                    245.999
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P6_Line6_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 212,
+                "tool_tip": "Part 6. Additional Information. 6. D. Enter Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    150.001,
+                    576.0,
+                    222.001
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "P2_Line1_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 195,
+                "tool_tip": "Part 6. Additional Information. 1. C. Middle Name. This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    630.0,
+                    576.0,
+                    648.0
+                ],
+                "page_number": 9
+            }
+        ]
+    }
+]

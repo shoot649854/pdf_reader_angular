@@ -1,0 +1,242 @@
+[
+    {
+        "title": "General Petition Requirements",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 1,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    504.497,
+                    53.626,
+                    515.497
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 5,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    144.497,
+                    53.626,
+                    155.497
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Additional Documentation to Show the Worker Qualifies for H-2B Employment",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[2]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 8,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    690.499,
+                    53.626,
+                    701.499
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[5]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 11,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    666.5,
+                    53.626,
+                    677.5
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[3]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 9,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    642.502,
+                    53.626,
+                    653.502
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[4]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 10,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    456.495,
+                    53.626,
+                    467.495
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": ".",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[6]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 12,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    300.493,
+                    53.626,
+                    311.493
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "H-2 Eligible Countries List Requirements",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[9]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 19,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    726.501,
+                    53.626,
+                    737.501
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[7]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 14,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    654.501,
+                    53.626,
+                    665.501
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[8]",
+                "field_type": "/Btn",
+                "description": "CheckBox1",
+                "struct_parent": 15,
+                "tool_tip": "CheckBox1",
+                "initial_value": "",
+                "rect": [
+                    42.626,
+                    546.504,
+                    53.626,
+                    557.504
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "Yes",
+                "struct_parent": 17,
+                "tool_tip": "Yes",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    343.003,
+                    52.001,
+                    353.003
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "No",
+                "struct_parent": 18,
+                "tool_tip": "No",
+                "initial_value": "",
+                "rect": [
+                    42.001,
+                    271.0,
+                    52.001,
+                    281.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/No"
+                ]
+            }
+        ]
+    }
+]

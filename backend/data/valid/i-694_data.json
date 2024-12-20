@@ -1,0 +1,2099 @@
+[
+    {
+        "title": "Part 1.  Information About You (Appellant)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You (Appellant). 1. Full Legal Name. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.663,
+                    498.002,
+                    264.662,
+                    516.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You (Appellant). 1. Full Legal Name. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.664,
+                    497.835,
+                    432.663,
+                    515.835
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. A. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.718,
+                    443.999,
+                    432.717,
+                    461.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    443.996,
+                    264.716,
+                    461.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    276.718,
+                    407.999,
+                    432.717,
+                    425.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. B. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    407.996,
+                    264.716,
+                    425.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_4_InCareOfName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Enter In Care Of Name.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    353.999,
+                    576.717,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_4_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    54.748,
+                    317.999,
+                    438.891,
+                    335.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L4_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.748,
+                    281.999,
+                    438.902,
+                    299.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L6_StreetName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    54.796,
+                    192.002,
+                    438.355,
+                    210.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L6_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    156.002,
+                    438.287,
+                    174.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Must be 9 digits; no dashes",
+                "struct_parent": 31,
+                "tool_tip": "Part 1. Information About You (Appellant). 6. Enter Alien Registration Number (A. Number), if any. Must be 9 digits; no dashes.",
+                "initial_value": "",
+                "rect": [
+                    84.835,
+                    120.002,
+                    204.12,
+                    138.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part1__Line7_ElisNumber[0]",
+                "field_type": "/Tx",
+                "description": "Must be 12 digits; no dashes",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You (Appellant). 7. Enter U S C I S Online Account Number, if any. Must be 12 digits; no dashes.",
+                "initial_value": "",
+                "rect": [
+                    66.719,
+                    84.002,
+                    240.729,
+                    102.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You (Appellant). 1. Full Legal Name. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    444.662,
+                    497.835,
+                    576.663,
+                    515.835
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3A_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. A. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    444.716,
+                    443.996,
+                    576.717,
+                    461.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L3B_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You (Appellant). 2. Any Other Names Used. B. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    444.716,
+                    407.996,
+                    576.717,
+                    425.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.77,
+                    321.999,
+                    512.77,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.766,
+                    321.999,
+                    488.766,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.768,
+                    321.999,
+                    464.768,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.717,
+                    317.999,
+                    576.717,
+                    335.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L4_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    282.475,
+                    576.0,
+                    300.475
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L4_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (Appellant). 3. U.S. Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.717,
+                    282.002,
+                    486.717,
+                    300.002
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P1_5a_chbxyesno[0]",
+                "field_type": "/Btn",
+                "description": "physical address in Item Number 5",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You (Appellant). 4. Is your current U.S. mailing address the same as your U.S. physical address? Select No. If you answered \"No,\" provide your U.S. physical address in Item Number 5.",
+                "initial_value": "",
+                "rect": [
+                    540.717,
+                    265.002,
+                    550.717,
+                    275.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_5a_chbxyesno[1]",
+                "field_type": "/Btn",
+                "description": "physical address? Select Yes",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You (Appellant). 4. Is your current U.S. mailing address the same as your U.S. physical address? Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    498.719,
+                    265.002,
+                    508.719,
+                    275.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_L6_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.77,
+                    196.002,
+                    512.77,
+                    206.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P1_L6_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.766,
+                    196.002,
+                    488.766,
+                    206.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P1_L6_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.768,
+                    196.002,
+                    464.768,
+                    206.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P1_L6_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.717,
+                    192.002,
+                    576.717,
+                    210.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L6_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    498.716,
+                    156.002,
+                    576.717,
+                    174.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P1_L6_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You (Appellant). 5. U.S. Physical Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.717,
+                    156.002,
+                    486.717,
+                    174.002
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Application Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "ApplicationForCheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Your appeal is based on an application for which of the following? Select Permanent Residence (Form I-6 98)",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Application Information. 1. Your appeal is based on an application for which of the following? Select Permanent Residence (Form I-6 98).",
+                "initial_value": "",
+                "rect": [
+                    55.716,
+                    685.003,
+                    65.716,
+                    695.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Permanent Residence (I-698)"
+                ]
+            },
+            {
+                "field_name": "ApplicationForCheckBox[2]",
+                "field_type": "/Btn",
+                "description": "Your appeal is based on an application for which of the following? Select Waiver of Grounds of Inadmissibility (Form I-6 90)",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. Application Information. 1. Your appeal is based on an application for which of the following? Select Waiver of Grounds of Inadmissibility (Form I-6 90).",
+                "initial_value": "",
+                "rect": [
+                    295.717,
+                    685.0,
+                    305.717,
+                    695.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Waiver of Grounds of Inadmissibility"
+                ]
+            },
+            {
+                "field_name": "ApplicationForCheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Your appeal is based on an application for which of the following? Select Temporary Residence (Form I- 6 87)",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Application Information. 1. Your appeal is based on an application for which of the following? Select Temporary Residence (Form I- 6 87).",
+                "initial_value": "",
+                "rect": [
+                    175.715,
+                    685.0,
+                    185.715,
+                    695.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Temporary Residence (I-687)"
+                ]
+            },
+            {
+                "field_name": "P1_9_DateOfDecision[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Application Information. 3. Enter Date of Decision. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    252.524,
+                    635.998,
+                    336.523,
+                    653.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line11c_CertificateNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Receipt Number, if any",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Application Information. 2. Enter Receipt Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.748,
+                    635.998,
+                    222.729,
+                    653.998
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Reason for Appeal",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "WrittenBriefCheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Select I waive the right to submit a written brief or statement",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Reason for Appeal. 2. Select I waive the right to submit a written brief or statement.",
+                "initial_value": "",
+                "rect": [
+                    55.716,
+                    538.002,
+                    65.716,
+                    548.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/I waive the right to submit a written brief or statement."
+                ]
+            },
+            {
+                "field_name": "WrittenBriefCheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Select I will submit a brief within 30 calendar days",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Reason for Appeal. 2. Select I will submit a brief within 30 calendar days.",
+                "initial_value": "",
+                "rect": [
+                    301.715,
+                    537.999,
+                    311.715,
+                    547.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/I will submit a brief within 30 calendar days."
+                ]
+            },
+            {
+                "field_name": "Pt1Line11c_CertificateNumber[0]",
+                "field_type": "/Tx",
+                "description": "Additional Information",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Reason for Appeal. 2. The appeal must include a statement explaining any error or conclusion of law in the decision being appealed or any erroneous statement of fact stated in the decision.  Please provide an explanation.  If you need additional space to complete this section, use the space provided in Part 7. Additional Information. ",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    47.996,
+                    576.717,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P2_Brief_YN[0]",
+                "field_type": "/Btn",
+                "description": "If you answered \"No,\" select a response in Item Number 2",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Reason for Appeal. 1. Is your written brief attached? Select No. If you answered \"No,\" select a response in Item Number 2.",
+                "initial_value": "",
+                "rect": [
+                    540.714,
+                    580.003,
+                    550.714,
+                    590.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P2_Brief_YN[1]",
+                "field_type": "/Btn",
+                "description": "Is your written brief attached? Select Yes",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Reason for Appeal. 1. Is your written brief attached? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    498.716,
+                    580.003,
+                    508.716,
+                    590.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Appellant's Statement, Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_L1_chbx[1]",
+                "field_type": "/Btn",
+                "description": "Select I can read and understand English, and I have read and understand every question and instruction on this form and my answer to every question",
+                "struct_parent": 51,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. NOTE:  Read the Penalties section of the Form I-6 94 Instructions before completing this part. Appellant's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Appellant's Statement Regarding the Interpreter. A. Select I can read and understand English, and I have read and understand every question and instruction on this form and my answer to every question. ",
+                "initial_value": "",
+                "rect": [
+                    73.812,
+                    618.999,
+                    83.812,
+                    628.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P5_L1_chbx[0]",
+                "field_type": "/Btn",
+                "description": "read to me every question and instruction on this form and my answer to every question in a language in which I am fluent and I understood everything",
+                "struct_parent": 50,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Appellant's Statement Regarding the Interpreter. B. Select The interpreter named in Part 5. read to me every question and instruction on this form and my answer to every question in a language in which I am fluent and I understood everything.                       ",
+                "initial_value": "",
+                "rect": [
+                    73.906,
+                    588.997,
+                    83.906,
+                    598.997
+                ],
+                "page_number": 3,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P5_L1B_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 49,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 1. Appellant's Statement Regarding the Interpreter. B. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    168.905,
+                    569.999,
+                    480.909,
+                    587.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_L2_chbx[0]",
+                "field_type": "/Btn",
+                "description": "prepared this form for me based only upon information I provided or authorized",
+                "struct_parent": 47,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Appellant's Statement Regarding the Preparer. Select At my request, the preparer named in Part 6. prepared this form for me based only upon information I provided or authorized.  ",
+                "initial_value": "",
+                "rect": [
+                    55.906,
+                    517.0,
+                    65.906,
+                    527.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "P5_L2_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Preparer",
+                "struct_parent": 46,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Statement. NOTE:  Select the box for either Item A. or B. in Item Number 1.  If applicable, select the box for Item Number 2. 2. Appellant's Statement Regarding the Preparer. Enter Name of Preparer.",
+                "initial_value": "",
+                "rect": [
+                    258.908,
+                    516.002,
+                    570.906,
+                    534.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L3_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Appellant's Daytime Telephone Number",
+                "struct_parent": 53,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Contact Information. 3. Enter Appellant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.913,
+                    438.004,
+                    300.912,
+                    456.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Appellant's Email Address, if any",
+                "struct_parent": 52,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Contact Information. 5. Enter Appellant's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.913,
+                    402.021,
+                    576.913,
+                    420.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "The name of the appellant can not be typewritten into this space",
+                "struct_parent": 55,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Certification. Copies of any documents I have submitted are exact photocopies of unaltered, original documents, and I understand that U S C I S may require that I submit original documents to U S C I S at a later date.  Furthermore, I authorize the release of any information from any of my records that U S C I S may need to determine my eligibility for the immigration benefit I seek. I certify, under penalty of perjury, that I provided or authorized all of the information in this form, I understand all of the information contained in, and submitted with, this form, and that all of this information is complete, true, and correct. Appellant's Signature. 6. Appellant's Signature. This form can not be signed electronically.  The name of the appellant can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    54.813,
+                    234.003,
+                    432.813,
+                    252.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L4_MobileTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Appellant's Mobile Telephone Number, if any",
+                "struct_parent": 54,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Contact Information. 4. Enter Appellant's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    330.914,
+                    438.004,
+                    576.913,
+                    456.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P3_L2b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 48,
+                "tool_tip": "Part 4. Appellant's Statement, Contact Information, Certification, and Signature. Appellant's Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    444.912,
+                    234.0,
+                    576.913,
+                    252.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Interpreter's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_L1A_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 56,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    84.002,
+                    312.718,
+                    102.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_L2_BusOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name, if any",
+                "struct_parent": 58,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    48.005,
+                    576.717,
+                    66.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P4_L1B_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 57,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.717,
+                    84.002,
+                    576.717,
+                    102.002
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Interpreter's Contact Information, Certification, and Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_L3A_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 64,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Street Number and Name. ",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    659.999,
+                    438.718,
+                    677.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L3c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 61,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    623.999,
+                    439.211,
+                    641.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L3f_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 69,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    228.716,
+                    587.999,
+                    372.716,
+                    605.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L3g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 70,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    587.999,
+                    216.717,
+                    605.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L4_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 72,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.714,
+                    521.997,
+                    300.713,
+                    539.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, if any",
+                "struct_parent": 73,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.694,
+                    486.014,
+                    300.693,
+                    503.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L5_Name[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 74,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and another language, which is the same language provided in Part 4., Item B. in Item Number 1., and I have read to this appellant in the identified language every question and instruction on this form and his or her answer to every question.  The appellant informed me that he or she understands every instruction, question, and answer on the form, including the Appellant's Certification, and has verified the accuracy of every answer. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    145.049,
+                    414.0,
+                    421.05,
+                    432.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L6a_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the interpreter can not be typewritten into this space",
+                "struct_parent": 75,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Interpreter's Signature. This form can not be signed electronically.  The name of the interpreter can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    54.731,
+                    311.757,
+                    432.731,
+                    329.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_LB_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 66,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.716,
+                    663.999,
+                    512.716,
+                    673.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P4_LB_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 67,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.715,
+                    663.999,
+                    488.715,
+                    673.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P4_LB_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 68,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.717,
+                    663.999,
+                    464.717,
+                    673.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P4_L3B_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 65,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.717,
+                    659.999,
+                    576.717,
+                    677.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 63,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    498.716,
+                    623.999,
+                    576.717,
+                    641.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 62,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.717,
+                    623.999,
+                    486.717,
+                    641.999
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P4_L3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 71,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    384.718,
+                    588.061,
+                    576.717,
+                    605.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L4_DaytimeTelePhoneNumber1[1]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number, if any",
+                "struct_parent": 77,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    330.718,
+                    521.997,
+                    576.717,
+                    539.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P4_L6b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 76,
+                "tool_tip": "Part 5. Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    444.73,
+                    311.998,
+                    576.731,
+                    329.998
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other  Than the Appellant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_L1A_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 79,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Provide the following information about the preparer. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    173.999,
+                    312.718,
+                    191.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_L2_BusOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name, if any",
+                "struct_parent": 80,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    138.002,
+                    576.717,
+                    156.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P5_L1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 78,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.717,
+                    173.999,
+                    576.717,
+                    191.999
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other  Than the Appellant  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_L3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 87,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    54.669,
+                    641.999,
+                    438.67,
+                    659.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3c_City[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 84,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    54.669,
+                    605.999,
+                    438.67,
+                    623.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3f_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 92,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    228.668,
+                    569.999,
+                    372.668,
+                    587.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 93,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    54.669,
+                    569.999,
+                    216.669,
+                    587.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L4_DaytimeTelePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 95,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    503.997,
+                    300.716,
+                    521.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 94,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    467.997,
+                    300.716,
+                    485.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L7_chbx[0]",
+                "field_type": "/Btn",
+                "description": "Select I am not an attorney or accredited representative but have prepared this form on behalf of the appellant and with the appellant's consent",
+                "struct_parent": 97,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this form on behalf of the appellant and with the appellant's consent.",
+                "initial_value": "",
+                "rect": [
+                    73.716,
+                    420.999,
+                    83.716,
+                    430.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P5_L7_chbx[1]",
+                "field_type": "/Btn",
+                "description": "NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this form, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this form",
+                "struct_parent": 98,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative. NOTE:  If you are an attorney or accredited representative whose representation extends beyond preparation of this form, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, with this form.",
+                "initial_value": "",
+                "rect": [
+                    73.716,
+                    390.997,
+                    83.716,
+                    400.997
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P5_L7B_chbx[0]",
+                "field_type": "/Btn",
+                "description": "Select I am an attorney or accredited representative and my representation of the appellant in this case does not extend beyond the preparation of this form",
+                "struct_parent": 99,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the appellant in this case does not extend beyond the preparation of this form.",
+                "initial_value": "",
+                "rect": [
+                    145.716,
+                    378.998,
+                    155.716,
+                    388.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "P5_L7B_chbx[1]",
+                "field_type": "/Btn",
+                "description": "Select I am an attorney or accredited representative and my representation of the appellant in this case extends beyond the preparation of this form",
+                "struct_parent": 100,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the appellant in this case extends beyond the preparation of this form.",
+                "initial_value": "",
+                "rect": [
+                    91.716,
+                    378.998,
+                    101.716,
+                    388.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "P4_L2_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the preparer can not be typewritten into this space",
+                "struct_parent": 101,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Certification. By my signature, I certify, under penalty of perjury, that I prepared this form at the request of the appellant.  The appellant then reviewed this completed form and informed me that he or she understands all of the information contained in, and submitted with, his or her form, including the Appellant's Certification, and that all of this information is complete, true, and correct.  I completed this form based only on information that the appellant provided to me or authorized me to obtain or use. Preparer's Signature. 8. Preparer's Signature. This form can not be signed electronically. The name of the preparer can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    54.666,
+                    185.754,
+                    432.666,
+                    203.995
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 89,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    502.648,
+                    645.999,
+                    512.648,
+                    655.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P5_L3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 90,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    478.647,
+                    645.999,
+                    488.647,
+                    655.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P5_L3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 91,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    454.649,
+                    645.999,
+                    464.649,
+                    655.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P5_L3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 88,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    522.669,
+                    641.999,
+                    576.669,
+                    659.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 86,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    498.668,
+                    605.999,
+                    576.669,
+                    623.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 85,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    450.669,
+                    605.999,
+                    486.669,
+                    623.999
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P5_L3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 83,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Mailing Address. 3. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    384.67,
+                    570.061,
+                    576.669,
+                    587.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L5_FaxNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number, if any",
+                "struct_parent": 96,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    330.718,
+                    503.997,
+                    576.717,
+                    521.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P5_L8B_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 102,
+                "tool_tip": "Part 6. Contact Information, Declaration, and Signature of the Person Preparing This Form, if Other Than the Appellant. Preparer's Signature. 8. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    444.77,
+                    185.754,
+                    576.771,
+                    203.754
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_L1_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 1",
+                "struct_parent": 110,
+                "tool_tip": "Part 7. Additional Information. 1. Given Name (First Name). This field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    270.717,
+                    629.751,
+                    432.717,
+                    648.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P1_1_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 1",
+                "struct_parent": 111,
+                "tool_tip": "Part 7. Additional Information. If you need extra space to provide any additional information within this form, use the space below. If you need more space than what is provided, you may make copies of this page to complete and file with this form or attach a separate sheet of paper. Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. Family Name (Last Name). This field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    54.717,
+                    629.751,
+                    258.718,
+                    648.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 1",
+                "struct_parent": 124,
+                "tool_tip": "Part 7. Additional Information. 2. Alien Registration Number (A. Number), if any. This field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    174.719,
+                    606.002,
+                    303.729,
+                    624.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 107,
+                "tool_tip": "Part 7. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.72,
+                    569.999,
+                    366.721,
+                    587.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 106,
+                "tool_tip": "Part 7. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.717,
+                    569.999,
+                    258.718,
+                    587.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 105,
+                "tool_tip": "Part 7. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    569.996,
+                    150.718,
+                    587.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 108,
+                "tool_tip": "Part 7. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    491.998,
+                    576.717,
+                    563.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 117,
+                "tool_tip": "Part 7. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.717,
+                    449.997,
+                    366.718,
+                    467.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 115,
+                "tool_tip": "Part 7. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    449.997,
+                    150.718,
+                    467.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 116,
+                "tool_tip": "Part 7. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.717,
+                    449.995,
+                    258.718,
+                    467.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 112,
+                "tool_tip": "Part 7. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    371.999,
+                    576.717,
+                    443.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2c_ItemNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 120,
+                "tool_tip": "Part 7. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.717,
+                    329.995,
+                    366.718,
+                    347.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2b_PartNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 119,
+                "tool_tip": "Part 7. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.717,
+                    329.995,
+                    258.718,
+                    347.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2a_PageNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 118,
+                "tool_tip": "Part 7. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    329.995,
+                    150.718,
+                    347.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2d_AdditionalInfo[2]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 113,
+                "tool_tip": "Part 7. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    251.997,
+                    576.717,
+                    323.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2c_ItemNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 123,
+                "tool_tip": "Part 7. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    288.717,
+                    209.994,
+                    366.718,
+                    227.994
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2b_PartNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 122,
+                "tool_tip": "Part 7. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.717,
+                    209.994,
+                    258.718,
+                    227.994
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2a_PageNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 121,
+                "tool_tip": "Part 7. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    209.994,
+                    150.718,
+                    227.994
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Line2d_AdditionalInfo[3]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 114,
+                "tool_tip": "Part 7. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    72.717,
+                    131.995,
+                    576.717,
+                    203.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P1_L1_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Part 1",
+                "struct_parent": 109,
+                "tool_tip": "Part 7. Additional Information. 1. Middle Name. This field is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    444.719,
+                    629.584,
+                    576.72,
+                    647.833
+                ],
+                "page_number": 6
+            }
+        ]
+    }
+]

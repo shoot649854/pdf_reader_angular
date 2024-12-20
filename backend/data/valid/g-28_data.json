@@ -91,7 +91,10 @@
                     154.0,
                     458.002
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
             },
             {
                 "field_name": "Line3b_Unit[0]",
@@ -106,7 +109,10 @@
                     111.999,
                     458.002
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
             },
             {
                 "field_name": "Line3b_Unit[2]",
@@ -121,7 +127,10 @@
                     70.001,
                     458.002
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
             },
             {
                 "field_name": "Line3b_AptSteFlrNumber[0]",
@@ -181,7 +190,72 @@
                     120.073,
                     414.0
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
             },
             {
                 "field_name": "Line3f_Province[0]",
@@ -307,7 +381,10 @@
                     352.999,
                     635.002
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Pt2Line1a_LicensingAuthority[0]",
@@ -352,7 +429,10 @@
                     500.052,
                     485.001
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
             },
             {
                 "field_name": "Checkbox1dAmNot[0]",
@@ -367,7 +447,10 @@
                     449.0,
                     485.001
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Pt2Line1d_NameofFirmOrOrganization[0]",
@@ -397,7 +480,10 @@
                     352.999,
                     371.003
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line2b_NameofOrganization[0]",
@@ -442,7 +528,10 @@
                     352.999,
                     233.001
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line3_NameofAttorneyOrRep[0]",
@@ -472,7 +561,10 @@
                     352.999,
                     149.002
                 ],
-                "page_number": 1
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line4b_LawStudent[0]",
@@ -508,7 +600,10 @@
                     70.926,
                     641.0
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line1b_ListFormNumber[0]",
@@ -538,7 +633,10 @@
                     71.074,
                     575.001
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line2b_ListMatter[0]",
@@ -568,7 +666,10 @@
                     71.074,
                     521.001
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Line3b_ListSpecificMatter[0]",
@@ -613,7 +714,10 @@
                     215.0,
                     403.999
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/R"
+                ]
             },
             {
                 "field_name": "Line4_Checkbox[3]",
@@ -628,7 +732,10 @@
                     143.0,
                     403.996
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/P"
+                ]
             },
             {
                 "field_name": "Line4_Checkbox[1]",
@@ -643,7 +750,10 @@
                     71.0,
                     403.993
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/A"
+                ]
             },
             {
                 "field_name": "Line4_Checkbox[2]",
@@ -658,7 +768,10 @@
                     190.999,
                     388.997
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/B"
+                ]
             },
             {
                 "field_name": "Line4_Checkbox[4]",
@@ -673,7 +786,10 @@
                     71.0,
                     388.992
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/BD"
+                ]
             },
             {
                 "field_name": "Pt3Line5a_FamilyName[0]",
@@ -853,7 +969,10 @@
                     436.002,
                     493.996
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
             },
             {
                 "field_name": "Line12b_Unit[0]",
@@ -868,7 +987,10 @@
                     394.001,
                     493.996
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
             },
             {
                 "field_name": "Line12b_Unit[2]",
@@ -883,7 +1005,10 @@
                     352.0,
                     493.996
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
             },
             {
                 "field_name": "Line12b_AptSteFlrNumber[0]",
@@ -943,7 +1068,72 @@
                     401.998,
                     449.997
                 ],
-                "page_number": 2
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
             },
             {
                 "field_name": "Line12f_Province[0]",
@@ -1009,7 +1199,10 @@
                     71.0,
                     544.999
                 ],
-                "page_number": 3
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Pt4Line2b_CheckBox2b[0]",
@@ -1024,7 +1217,10 @@
                     71.0,
                     491.002
                 ],
-                "page_number": 3
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "Pt4Line2c_CheckBox2c[0]",
@@ -1039,7 +1235,10 @@
                     71.0,
                     323.001
                 ],
-                "page_number": 3
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
             },
             {
                 "field_name": "P5_Line6a_SignatureofApplicant[0]",

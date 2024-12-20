@@ -1,0 +1,3086 @@
+[
+    {
+        "title": "Petitioner's Mailing Address",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G - 28 or Form G - 28 I is attached",
+                "struct_parent": 10,
+                "tool_tip": "To be completed by an attorney or B I A. - accredited representative, if any. Select this box if Form G - 28 or Form G - 28 I is attached.",
+                "initial_value": "",
+                "rect": [
+                    152.754,
+                    518.003,
+                    162.754,
+                    528.003
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Petitioner's Contact Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 9,
+                "tool_tip": "To be completed by an attorney or B I A. - accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    490.0,
+                    384.004,
+                    508.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney or Accredited Representative U S C I S Online Account Number, if any",
+                "struct_parent": 8,
+                "tool_tip": "To be completed by an attorney or B I A. -  accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    490.0,
+                    570.01,
+                    508.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About The Employer  (Petitioner)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Petitioning Organization",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). 1. Enter Name of the Petitioning Organization.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    396.0,
+                    294.001,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. A. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    329.998,
+                    294.106,
+                    347.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    306.0,
+                    294.001,
+                    324.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    285.996,
+                    154.0,
+                    295.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    285.996,
+                    112.002,
+                    295.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2 C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    285.996,
+                    70.001,
+                    295.996
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    281.996,
+                    294.001,
+                    299.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    257.998,
+                    294.001,
+                    275.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. F.  Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    234.0,
+                    294.001,
+                    252.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 2. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    234.0,
+                    119.999,
+                    252.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "E",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 3. Is this mailing address the same as the physical location of the sponsoring company or organization? Select No. If you answered \"No\" to Item Number 3., provide the sponsoring company's or organization's physical address in Item Numbers 4. A. through 4. E.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    190.001,
+                    268.001,
+                    200.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Is this mailing address the same as the physical location of the sponsoring company or organization? Select Yes",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Mailing Address. 3. Is this mailing address the same as the physical location of the sponsoring company or organization? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    190.001,
+                    226.0,
+                    200.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt1Line4a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 29,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    420.001,
+                    576.0,
+                    438.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    400.0,
+                    436.002,
+                    410.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    400.0,
+                    394.001,
+                    410.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    400.0,
+                    352.0,
+                    410.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    396.0,
+                    576.0,
+                    414.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    371.999,
+                    576.0,
+                    389.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 27,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    348.001,
+                    576.0,
+                    366.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 28,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Physical Address. 4. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    348.001,
+                    402.001,
+                    366.001
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line5_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Contact Information. 5. Enter Daytime Telephone Number. ",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    281.999,
+                    576.0,
+                    299.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_FaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Fax Number",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Contact Information. 6. Enter Fax Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    245.999,
+                    576.0,
+                    263.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line7_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address, if any",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Contact Information. 7. Enter Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    209.999,
+                    576.0,
+                    227.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line8_WebsiteAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Website Address, if any",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Contact Information. 8. Enter Website Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    173.999,
+                    576.0,
+                    191.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line9_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Does the petitioner employ 50 or more individuals in the United States? Select No",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Employees in the United States. 9. Does the petitioner employ 50 or more individuals in the United States? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    112.0,
+                    550.0,
+                    122.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line9_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", complete Item Number 10",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Employees in the United States. 9. Does the petitioner employ 50 or more individuals in the United States? Select Yes. If you answered \"Yes\" to Item Number 9., complete Item Number 10.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    112.0,
+                    507.999,
+                    122.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About The Employer  (Petitioner) (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line10_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "nonimmigrant status? Select No",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Employees in the United States. 10. Are more than 50 percent of the petitioner's employees in H - 1. B., L - 1. A., or L - 1. B. nonimmigrant status? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    663.999,
+                    268.001,
+                    673.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line10_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "nonimmigrant status? Select Yes",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. Information About The Employer (Petitioner). Petitioner's Employees in the United States. 10. Are more than 50 percent of the petitioner's employees in H - 1. B., L - 1. A., or L - 1. B. nonimmigrant status? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    663.999,
+                    226.0,
+                    673.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Information About the Proposed Position  and Prior Employment Periods in the United  States",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1_CheckBox[0]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 37,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. The beneficiary will work as a. 1. A. Select Manager or Executive (L - 1. A.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    501.999,
+                    71.0,
+                    511.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt3Line1_CheckBox[1]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. The beneficiary will work as a. 1. B. Select Specialized Knowledge Professional (L - 1. B.).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    483.999,
+                    71.0,
+                    493.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt3Line5a_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 39,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Dates of Proposed Employment. Provide the beneficiary's dates of proposed employment. 2. A. Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    407.999,
+                    293.998,
+                    425.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5b_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 40,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Dates of Proposed Employment. Provide the beneficiary's dates of proposed employment. 2. B. Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    383.998,
+                    294.001,
+                    401.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Was the beneficiary of this petition in the United States during the last seven years? Select No",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. 3. Was the beneficiary of this petition in the United States during the last seven years? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    321.999,
+                    268.001,
+                    331.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt2Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Additional Information",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. 3. Was the beneficiary of this petition in the United States during the last seven years? Select Yes. If you answered \u201cYes\u201d to Item Number 3., provide the dates of the beneficiary's prior periods of stay for the last seven years in a work-authorized capacity and indicate the beneficiary's immigration status and visa category (for example, H - 1 B, O - 1) during the period of stay.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    321.999,
+                    226.0,
+                    331.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line10a_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 41,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. If you answered \u201cYes\u201d to Item Number 3., provide the dates of the beneficiary's prior periods of stay for the last seven years in a work-authorized capacity and indicate the beneficiary's immigration status and visa category (for example, H - 1 B, O - 1) during the period of stay.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. Period of Stay One. 4. A. Enter From Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    185.998,
+                    293.998,
+                    203.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line10b_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 42,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. Period of Stay One. 4. B. Enter To Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    162.0,
+                    293.998,
+                    180.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line11_NonimmigrantStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Nonimmigrant Status During Period of Stay",
+                "struct_parent": 43,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. Period of Stay One. 5. Enter Nonimmigrant Status During Period of Stay.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    126.0,
+                    294.001,
+                    144.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12a_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 52,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. Period of Stay Two. 6. A. Enter From Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    702.0,
+                    576.0,
+                    720.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12b_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 53,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. Period of Stay Two. 6. B. Enter To Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    678.002,
+                    575.997,
+                    696.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line13_NonimmigrantStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Nonimmigrant Status During Period of Stay",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Information About the Proposed Position and Prior Employment Periods in the United States. Prior Periods of Stay in the United States. Period of Stay Two. 7. Enter Nonimmigrant Status During Period of Stay.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    642.002,
+                    576.0,
+                    660.002
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About the Beneficiary",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 44,
+                "tool_tip": "Part 3. Information About the Beneficiary. Provide the following information about the beneficiary. 1. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    446.82,
+                    551.999,
+                    575.83,
+                    569.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line2_USCISELISAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number, if any",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Information About the Beneficiary. Provide the following information about the beneficiary. 2. Enter U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    515.999,
+                    576.008,
+                    533.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Information About the Beneficiary. Provide the following information about the beneficiary. 3. Enter U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    446.975,
+                    479.999,
+                    575.985,
+                    497.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 31,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Full Name. 4. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    425.999,
+                    576.0,
+                    443.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 32,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Full Name. 4. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    402.001,
+                    576.0,
+                    420.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 33,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Full Name. 4. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    378.0,
+                    575.997,
+                    396.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Names Used, if any. Provide all other names the beneficiary has ever used, including aliases, maiden name, and nicknames.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 5. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    270.0,
+                    576.0,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Names Used, if any. 5. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    245.999,
+                    576.0,
+                    263.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Names Used, if any. 5. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    222.001,
+                    575.997,
+                    240.001
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About the Beneficiary  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line6a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 65,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. A. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    642.005,
+                    294.001,
+                    660.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name or P O Box",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. B. Enter Street Number and Name or P O Box.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    606.005,
+                    294.001,
+                    624.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.003,
+                    586.001,
+                    154.003,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line6c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    586.001,
+                    112.002,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line6c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    586.001,
+                    70.001,
+                    596.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt3Line6c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    582.001,
+                    294.001,
+                    600.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 61,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    558.003,
+                    294.001,
+                    576.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6e_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 62,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. E. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    533.999,
+                    294.001,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6f_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 63,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. F. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    510.004,
+                    294.001,
+                    528.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line6g_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 64,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 6. G. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    473.998,
+                    294.001,
+                    491.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line7_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "F",
+                "struct_parent": 67,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 7. Is this mailing address also where the beneficiary physically resides? Select No. If you answered \"No\" to Item Number 7., provide the beneficiary's physical address in Item Numbers 8. A. through 8. F.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    442.001,
+                    268.001,
+                    452.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt3Line7_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Is this mailing address also where the beneficiary physically resides? Select Yes",
+                "struct_parent": 66,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Mailing Address. 7. Is this mailing address also where the beneficiary physically resides? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    442.001,
+                    226.0,
+                    452.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line8a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 70,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    354.002,
+                    294.001,
+                    372.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line8b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 72,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    334.001,
+                    154.0,
+                    344.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line8b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 71,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    101.999,
+                    334.001,
+                    111.999,
+                    344.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line8b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 74,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    334.001,
+                    70.001,
+                    344.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt3Line8b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    330.001,
+                    294.001,
+                    348.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line8c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 75,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    306.0,
+                    294.001,
+                    324.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line8d_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 76,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. D. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    281.999,
+                    293.879,
+                    299.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line8e_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 77,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. E. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    257.998,
+                    293.879,
+                    275.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line8f_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 78,
+                "tool_tip": "Part 3. Information About the Beneficiary. Beneficiary's Foreign Physical Address. 8. F. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    221.998,
+                    294.001,
+                    239.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line9_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 82,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 9. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    695.999,
+                    576.0,
+                    713.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line10_Gender[0]",
+                "field_type": "/Btn",
+                "description": "Select Female",
+                "struct_parent": 79,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 10. Gender. Select Female.",
+                "initial_value": "",
+                "rect": [
+                    440.158,
+                    676.001,
+                    450.158,
+                    686.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Pt2Line10_Gender[1]",
+                "field_type": "/Btn",
+                "description": "Select Male",
+                "struct_parent": 80,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 10. Gender. Select Male.",
+                "initial_value": "",
+                "rect": [
+                    386.158,
+                    676.001,
+                    396.158,
+                    686.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Pt2Line11_CityOrTownofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town of Birth",
+                "struct_parent": 81,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 11. Enter City or Town of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    635.998,
+                    576.0,
+                    653.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line12_ProvinceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province or State of Birth",
+                "struct_parent": 83,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 12. Enter Province or State of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    599.998,
+                    576.0,
+                    617.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line13_CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 69,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 13. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    564.007,
+                    576.0,
+                    582.007
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line14_CitzorNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 68,
+                "tool_tip": "Part 3. Information About the Beneficiary. Other Information About the Beneficiary. 14. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    528.004,
+                    576.0,
+                    546.004
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Information About Proposed United  States Employment",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line1_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Provide the receipt number for the Blanket L petition upon which this petition is based",
+                "struct_parent": 84,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. 1. Provide the receipt number for the Blanket L petition upon which this petition is based.",
+                "initial_value": "",
+                "rect": [
+                    387.598,
+                    425.92,
+                    576.0,
+                    443.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Are you filing Form I - 129, Petition for a Nonimmigrant Worker, with this petition? Select No",
+                "struct_parent": 86,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. 2. Are you filing Form I - 129, Petition for a Nonimmigrant Worker, with this petition? Select No.",
+                "initial_value": "",
+                "rect": [
+                    540.0,
+                    397.006,
+                    550.0,
+                    407.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Are you filing Form I - 129, Petition for a Nonimmigrant Worker, with this petition? Select Yes",
+                "struct_parent": 85,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. 2. Are you filing Form I - 129, Petition for a Nonimmigrant Worker, with this petition? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    497.999,
+                    397.006,
+                    507.999,
+                    407.006
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt4Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 87,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    342.003,
+                    576.0,
+                    360.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 89,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    425.999,
+                    322.005,
+                    435.999,
+                    332.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt4Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 88,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    383.998,
+                    322.005,
+                    393.998,
+                    332.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt4Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 91,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    322.005,
+                    352.0,
+                    332.005
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt4Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 90,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    318.005,
+                    576.0,
+                    336.005
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 92,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    294.004,
+                    576.0,
+                    312.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 93,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    473.998,
+                    270.003,
+                    575.997,
+                    288.003
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt4Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 94,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Employment Address for the Beneficiary. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    270.003,
+                    402.001,
+                    288.003
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter Beneficiary's Wages Per Year",
+                "struct_parent": 96,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Wages and Hours of Proposed Employment. Provide the wages per year the beneficiary will receive and the number of hours the beneficiary will work per week for the proposed employment.  Also describe any other compensation the beneficiary will receive, including dollar value (if applicable). 4. Enter Beneficiary's Wages Per Year.",
+                "initial_value": "",
+                "rect": [
+                    475.999,
+                    150.001,
+                    576.0,
+                    168.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line7_HoursPerWeek[0]",
+                "field_type": "/Tx",
+                "description": "Enter Beneficiary's Hours Per Week",
+                "struct_parent": 97,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Wages and Hours of Proposed Employment. Provide the wages per year the beneficiary will receive and the number of hours the beneficiary will work per week for the proposed employment.  Also describe any other compensation the beneficiary will receive, including dollar value (if applicable). 5. Enter Beneficiary's Hours Per Week.",
+                "initial_value": "",
+                "rect": [
+                    475.999,
+                    126.0,
+                    576.0,
+                    144.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt3Line9_JobDescription[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Compensation",
+                "struct_parent": 95,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Wages and Hours of Proposed Employment.  Provide the wages per year the beneficiary will receive and the number of hours the beneficiary will work per week for the proposed employment.  Also describe any other compensation the beneficiary will receive, including dollar value (if applicable). 6. Enter Other Compensation.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    72.0,
+                    576.0,
+                    108.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Information About Proposed United  States Employment  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line8_JobTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter Job Title",
+                "struct_parent": 99,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Job Title and Duties. Provide the job title and duties the beneficiary will perform.  Also indicate the percentage of time the beneficiary will spend performing the duties on a daily basis.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 7. Enter Job Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    570.002,
+                    294.001,
+                    588.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line9_JobDescription[1]",
+                "field_type": "/Tx",
+                "description": "Enter Duties Performed on a Daily Basis",
+                "struct_parent": 100,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Proposed Job Title and Duties.  Provide the job title and duties the beneficiary will perform.  Also indicate the percentage of time the beneficiary will spend performing the duties on a daily basis.  If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 8. Enter Duties Performed on a Daily Basis.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    516.002,
+                    294.001,
+                    552.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line14_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "specialized knowledge professional status for the beneficiary, will the beneficiary work primarily offsite (at a worksite of a company or organization other than the petitioner or its affiliate, branch, subsidiary, or parent company)? Select No",
+                "struct_parent": 102,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Primary Worksite. If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 9. If you are seeking L - 1. B. specialized knowledge professional status for the beneficiary, will the beneficiary work primarily offsite (at a worksite of a company or organization other than the petitioner or its affiliate, branch, subsidiary, or parent company)? Select No.",
+                "initial_value": "",
+                "rect": [
+                    258.001,
+                    376.002,
+                    268.001,
+                    386.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt4Line14_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "through 11",
+                "struct_parent": 101,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Primary Worksite. If you need extra space to complete this section, use the space provided in Part 10. Additional Information. 9. If you are seeking L - 1. B. specialized knowledge professional status for the beneficiary, will the beneficiary work primarily offsite (at a worksite of a company or organization other than the petitioner or its affiliate, branch, subsidiary, or parent company)? Select Yes. If you answered \"Yes\" to Item Number 9., describe how and who will control and supervise the beneficiary's work and why the placement is not labor for hire in Item Numbers 10. A. through 11. ",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    376.002,
+                    226.0,
+                    386.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt4Line10a_SupervisorName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Supervisor's Name",
+                "struct_parent": 104,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Primary Worksite. 10. A. Enter Supervisor's Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    282.002,
+                    294.001,
+                    300.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line10b_NatureOfSupv[0]",
+                "field_type": "/Tx",
+                "description": "Enter Nature of Supervision and Control of the Beneficiary's Work",
+                "struct_parent": 103,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Primary Worksite. 10. B. Enter Nature of Supervision and Control of the Beneficiary's Work.",
+                "initial_value": "",
+                "rect": [
+                    59.998,
+                    198.0,
+                    293.862,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line11_Reason[0]",
+                "field_type": "/Tx",
+                "description": "Also include a description of how the beneficiary's duties at this worksite relate to your need for the specialized knowledge he or she possesses",
+                "struct_parent": 105,
+                "tool_tip": "Part 4. Information About Proposed United States Employment. Primary Worksite. 11. Describe the reasons why the placement of the beneficiary at this worksite is not an arrangement to provide labor for hire.  Also include a description of how the beneficiary's duties at this worksite relate to your need for the specialized knowledge he or she possesses.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    77.998,
+                    294.001,
+                    131.998
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Information About Foreign Employment",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line1_CheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Select Manager",
+                "struct_parent": 106,
+                "tool_tip": "Part 5. Information About Foreign Employment. Provide information for each qualifying foreign employer for whom the beneficiary worked during the required one continuous year out of three years.  If you need extra space to complete this section, use the space provided in Part 10.  Additional Information. Qualifying Foreign Position. Indicate the type of qualifying position the beneficiary was employed in while working for the qualifying foreign employer. 1. A. Select Manager.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    574.002,
+                    352.999,
+                    584.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt5Line1_CheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Select Executive",
+                "struct_parent": 107,
+                "tool_tip": "Part 5. Information About Foreign Employment. Provide information for each qualifying foreign employer for whom the beneficiary worked during the required one continuous year out of three years.  If you need extra space to complete this section, use the space provided in Part 10.  Additional Information. Qualifying Foreign Position. Indicate the type of qualifying position the beneficiary was employed in while working for the qualifying foreign employer. 1. B. Select Executive.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    556.002,
+                    352.999,
+                    566.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt5Line1_CheckBox[2]",
+                "field_type": "/Btn",
+                "description": "Select Specialized Knowledge Professional",
+                "struct_parent": 108,
+                "tool_tip": "Part 5. Information About Foreign Employment. Provide information for each qualifying foreign employer for whom the beneficiary worked during the required one continuous year out of three years.  If you need extra space to complete this section, use the space provided in Part 10.  Additional Information. Qualifying Foreign Position. Indicate the type of qualifying position the beneficiary was employed in while working for the qualifying foreign employer. 1. C. Select Specialized Knowledge Professional.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    538.002,
+                    352.999,
+                    548.002
+                ],
+                "page_number": 4,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "Pt4Line2_ForeignEmployerName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Foreign Employer Name",
+                "struct_parent": 109,
+                "tool_tip": "Part 5. Information About Foreign Employment. Qualifying Foreign Employer Name and Address. Provide the name and address for the qualifying foreign employer for whom the beneficiary worked. 2. Enter Foreign Employer Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    438.001,
+                    576.0,
+                    456.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line3a_StreetNumberName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 110,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    384.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 112,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    425.999,
+                    364.0,
+                    435.999,
+                    374.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt5Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 111,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    364.0,
+                    394.001,
+                    374.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt5Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 114,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    364.0,
+                    352.0,
+                    374.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt5Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 113,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    360.0,
+                    576.0,
+                    378.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line3c_CityOrTown[1]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 115,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    336.002,
+                    576.0,
+                    354.002
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line3e_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 118,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. D. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    312.001,
+                    575.878,
+                    330.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt4Line3d_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 116,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. E. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    408.132,
+                    288.0,
+                    576.011,
+                    306.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Line2f_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 117,
+                "tool_tip": "Part 5. Information About Foreign Employment. Mailing Address. 3. F. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    252.0,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Information About Foreign Employment   (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line4_JobTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter Job Title",
+                "struct_parent": 120,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years. Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 4. Enter Job Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    545.998,
+                    294.001,
+                    563.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line5a_StartDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 121,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 5. A. Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    522.0,
+                    294.001,
+                    540.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line5b_EndDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 122,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 5. B. Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    497.999,
+                    294.001,
+                    515.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line6_JobDuties[0]",
+                "field_type": "/Tx",
+                "description": "Enter Job Duties",
+                "struct_parent": 123,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 6. Enter Job Duties.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    425.999,
+                    294.001,
+                    479.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line7_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter Wages Earned Per Year",
+                "struct_parent": 124,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 7. Enter Wages Earned Per Year.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    401.998,
+                    294.001,
+                    419.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line8_HoursPerWeek[0]",
+                "field_type": "/Tx",
+                "description": "Enter Hours Worked Per Week",
+                "struct_parent": 125,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job One. 8. Enter Hours Worked Per Week.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    378.0,
+                    294.001,
+                    396.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line9_JobTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter Job Title",
+                "struct_parent": 126,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 9. Enter Job Title.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    311.998,
+                    294.001,
+                    329.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line10a_StartDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 127,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 10. A. Enter Start Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    288.0,
+                    294.001,
+                    306.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line10b_EndDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 128,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 10. B. Enter End Date. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    263.999,
+                    294.001,
+                    281.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line11_JobDuties[0]",
+                "field_type": "/Tx",
+                "description": "Enter Job Duties",
+                "struct_parent": 129,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 11. Enter Job Duties.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    192.002,
+                    294.001,
+                    246.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line12_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter Wages Earned Per Year",
+                "struct_parent": 130,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 12. Enter Wages Earned Per Year.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    167.998,
+                    294.001,
+                    185.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line13_HoursPerWeek[0]",
+                "field_type": "/Tx",
+                "description": "Enter Hours Worked Per Week",
+                "struct_parent": 131,
+                "tool_tip": "Part 5. Information About Foreign Employment. Other Information About the Beneficiary's Foreign Employment. Provide the beneficiary's job titles, dates of foreign employment, and the duties of the jobs the beneficiary performed during the required one continuous year out of three years.  Also provide the yearly wage the beneficiary received and the number of hours the beneficiary worked per week. Job Two. 13. Enter Hours Worked Per Week.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    144.0,
+                    294.001,
+                    162.0
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Certification Regarding the Release of  Controlled Technology or Technical Data to  Foreign Persons in the United States",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5_CheckBox[0]",
+                "field_type": "/Btn",
+                "description": "Department of State to release such technology or technical data to the foreign person",
+                "struct_parent": 132,
+                "tool_tip": "Part 6. Certification Regarding the Release of Controlled Technology or Technical Data to Foreign Persons in the United States.   Select Item Number 1. or 2., as appropriate.  With respect to the technology or technical data the petitioner will release or otherwise provide access to the beneficiary, the petitioner certifies that it has reviewed the Export Administration Regulations (E A. R) and the International Traffic in Arms Regulations (I T A. R) and has determined that. 1. Select A license is not required from either the U.S. Department of Commerce or the U.S. Department of State to release such technology or technical data to the foreign person.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    591.999,
+                    352.999,
+                    601.999
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt5_CheckBox[1]",
+                "field_type": "/Btn",
+                "description": "Department of State to release such technology or technical data to the beneficiary AND the petitioner will prevent access to the controlled technology or technical data by the beneficiary until and unless the petitioner has received the required license or other authorization to release it to the beneficiary",
+                "struct_parent": 133,
+                "tool_tip": "Part 6. Certification Regarding the Release of Controlled Technology or Technical Data to Foreign Persons in the United States.   Select Item Number 1. or 2., as appropriate.  With respect to the technology or technical data the petitioner will release or otherwise provide access to the beneficiary, the petitioner certifies that it has reviewed the Export Administration Regulations (E A. R) and the International Traffic in Arms Regulations (I T A. R) and has determined that. 2. Select A license is required from the U.S. Department of Commerce and / or the U.S. Department of State to release such technology or technical data to the beneficiary AND the petitioner will prevent access to the controlled technology or technical data by the beneficiary until and unless the petitioner has received the required license or other authorization to release it to the beneficiary.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    532.001,
+                    352.999,
+                    542.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Certification, and  Signature of the Petitioner or Authorized  Signatory",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt7Line1_PetionerAuthorizedFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Petitioner's or Authorized Signatory's Family Name (Last Name)",
+                "struct_parent": 139,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 1. Enter Petitioner's or Authorized Signatory's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    287.997,
+                    576.0,
+                    305.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line1_PetionerAuthorizedGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Petitioner's or Authorized Signatory's Given Name (First Name)",
+                "struct_parent": 137,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 1. Enter Petitioner's or Authorized Signatory's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    239.998,
+                    576.0,
+                    257.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line2_PetionerAuthorizedMiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Petitioner's or Authorized Signatory's Title",
+                "struct_parent": 138,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 2. Enter Petitioner's or Authorized Signatory's Title.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    203.998,
+                    576.0,
+                    221.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_PetitionerAuthorizedDaytimePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Petitioner's or Authorized Signatory's Daytime Telephone Number",
+                "struct_parent": 134,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 3. Petitioner's or Authorized Signatory's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    155.996,
+                    576.0,
+                    173.996
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line4_PetitionerAuthorizedMobileNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Petitioner's or Authorized Signatory's Mobile Telephone Number (if any)",
+                "struct_parent": 136,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 4. Petitioner's or Authorized Signatory's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    107.997,
+                    576.0,
+                    125.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line5_PetitionerAurthorizedEmail[0]",
+                "field_type": "/Tx",
+                "description": "Petitioner's or Authorized Signatory's Email Address (if any)",
+                "struct_parent": 135,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Contact Information. 5. Petitioner's or Authorized Signatory's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    59.998,
+                    576.0,
+                    77.998
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Certification, and  Signature of the Petitioner or Authorized  Signatory  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt7Line6_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the petitioner can not be typewritten into this space",
+                "struct_parent": 142,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Certification and Signature. 6. Enter Petitioner's or Authorized Signatory's Signature. This form can not be signed electronically. The name of the petitioner can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    413.997,
+                    294.001,
+                    431.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt7Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 141,
+                "tool_tip": "Part 7. Contact Information, Certification, and Signature of the Petitioner or Authorized Signatory. Petitioner's or Authorized Signatory's Certification and Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    389.999,
+                    294.001,
+                    407.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Interpreter's Contact Information,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt8Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 145,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.469,
+                    275.995,
+                    294.001,
+                    293.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 144,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.469,
+                    239.995,
+                    294.001,
+                    257.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line2_InterpreterBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name",
+                "struct_parent": 143,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.469,
+                    204.043,
+                    294.001,
+                    222.043
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line3_InterpreterDaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 146,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 3. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    137.999,
+                    294.001,
+                    155.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line4_InterpreterMobileTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number (if any)",
+                "struct_parent": 148,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 4. Enter Interpreter's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    102.002,
+                    294.001,
+                    120.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line5_InterpreterEmail[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address (if any)",
+                "struct_parent": 147,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information. 5. Enter Interpreter's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    66.002,
+                    294.001,
+                    84.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_NameofLanguage[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 151,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. I certify, under penalty of perjury, that I am fluent in English and I have interpreted every question on the petition and Instructions and interpreted the petitioner's or authorized signatory's answers to the questions in that language, and the petitioner or authorized signatory informed me that they understood every instruction, question, and answer on the petition. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    678.002,
+                    569.999,
+                    696.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line6_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the Interpreter can not be typewritten into this space",
+                "struct_parent": 150,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Enter Interpreter's Signature. This form can not be signed electronically. The name of the Interpreter can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    569.999,
+                    576.0,
+                    587.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 149,
+                "tool_tip": "Part 8.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification and Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    546.001,
+                    576.0,
+                    564.001
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 9.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,   if Other Than the Petitioner or Authorized  Signatory",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt9Line1_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 153,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Full Name. 1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    402.001,
+                    576.0,
+                    420.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line1_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 152,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Full Name. 1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    366.001,
+                    576.0,
+                    384.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line2_PreparerBusinessOrganizationName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name",
+                "struct_parent": 154,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Full Name. 2. Enter Preparer's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    330.001,
+                    576.0,
+                    348.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line3_PreparerDaytimePhoneNumber1[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 156,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Contact Information. 3. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    264.002,
+                    576.0,
+                    282.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line4_PreparerMobileNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number (if any)",
+                "struct_parent": 155,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Contact Information. 4. Enter Preparer's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    228.002,
+                    576.0,
+                    246.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line5_PreparerEmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address (if any)",
+                "struct_parent": 157,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Contact Information. 5. Enter Preparer's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    192.002,
+                    576.0,
+                    210.002
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 9.  Contact Information, Declaration, and  Signature of the Person Preparing this Petition,   if Other Than the Petitioner or Authorized  Signatory  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt9Line6_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the preparer can not be typewritten into this space",
+                "struct_parent": 159,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Certification and Signature. 6. Enter Preparer's or Authorized Signatory's Signature. This form can not be signed electronically. The name of the preparer can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    509.998,
+                    294.001,
+                    527.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt9Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 160,
+                "tool_tip": "Part 9.  Contact Information, Declaration, and Signature of the Person Preparing this Petition, if Other Than the Petitioner or Authorized Signatory. Preparer's Certification and Signature. 6. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    485.997,
+                    294.001,
+                    503.997
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 10.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line4a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "It is pre-populated from Part 1",
+                "struct_parent": 174,
+                "tool_tip": "Part 10. Additional Information. If you need extra space to provide any additional information within this petition, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this petition or attach a separate sheet of paper.  Type or print the beneficiary's name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Beneficiary's Family Name (Last Name). This is a read only field. It is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    294.001,
+                    600.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt3Line4b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "It is pre-populated from Part 1",
+                "struct_parent": 175,
+                "tool_tip": "Part 10. Additional Information. 1. B. Beneficiary's Given Name (First Name). This is a read only field. It is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    294.012,
+                    564.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt3Line4c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "It is pre-populated from Part 1",
+                "struct_parent": 176,
+                "tool_tip": "Part 10. Additional Information. 1. C. Beneficiary's Middle Name. This is a read only field. It is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    510.001,
+                    294.01,
+                    528.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt3Line1_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "It is pre-populated from Part 1",
+                "struct_parent": 162,
+                "tool_tip": "Part 10. Additional Information. 2. Beneficiary's Alien Registration Number (A. Number), if any. This is a read only field. It is pre-populated from Part 1.",
+                "initial_value": "",
+                "rect": [
+                    164.957,
+                    474.001,
+                    293.967,
+                    492.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 165,
+                "tool_tip": "Part 10. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    431.997,
+                    294.007,
+                    449.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 164,
+                "tool_tip": "Part 10. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.995,
+                    431.997,
+                    203.995,
+                    449.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 163,
+                "tool_tip": "Part 10. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    431.997,
+                    114.001,
+                    449.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 166,
+                "tool_tip": "Part 10. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    263.999,
+                    294.015,
+                    425.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 180,
+                "tool_tip": "Part 10. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    221.998,
+                    294.015,
+                    239.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 179,
+                "tool_tip": "Part 10. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    221.998,
+                    204.001,
+                    239.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 178,
+                "tool_tip": "Part 10. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.987,
+                    221.998,
+                    114.001,
+                    239.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 181,
+                "tool_tip": "Part 10. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.987,
+                    53.997,
+                    294.007,
+                    215.997
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 169,
+                "tool_tip": "Part 10. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    708.001,
+                    576.0,
+                    726.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 168,
+                "tool_tip": "Part 10. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.994,
+                    708.001,
+                    485.994,
+                    726.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 167,
+                "tool_tip": "Part 10. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    708.001,
+                    396.0,
+                    726.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 177,
+                "tool_tip": "Part 10. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    540.0,
+                    576.02,
+                    702.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 172,
+                "tool_tip": "Part 10. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    498.07,
+                    576.0,
+                    515.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 171,
+                "tool_tip": "Part 10. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    497.999,
+                    486.0,
+                    515.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 170,
+                "tool_tip": "Part 10. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    497.999,
+                    396.0,
+                    515.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt10Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 173,
+                "tool_tip": "Part 10. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    330.001,
+                    576.0,
+                    492.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line7c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 184,
+                "tool_tip": "Part 10. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    288.0,
+                    576.0,
+                    306.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line7b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 183,
+                "tool_tip": "Part 10. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.994,
+                    288.0,
+                    485.994,
+                    306.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line7a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 182,
+                "tool_tip": "Part 10. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    288.0,
+                    396.0,
+                    306.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt9Line7d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 185,
+                "tool_tip": "Part 10. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    119.999,
+                    576.0,
+                    281.999
+                ],
+                "page_number": 8
+            }
+        ]
+    }
+]

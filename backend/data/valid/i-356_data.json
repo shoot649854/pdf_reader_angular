@@ -1,0 +1,4011 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G-28 is attached",
+                "struct_parent": 1,
+                "tool_tip": "To be Completed by the Obligor and Agent/Co-Obligor's Attorney or Accredited Representative (if any).  Select this box if Form G-28 is attached.",
+                "initial_value": "",
+                "rect": [
+                    42.684,
+                    469.0,
+                    52.684,
+                    479.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Request for Cancellation  of Public Charge Bond",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 3,
+                "tool_tip": "To be Completed by the Obligor and Agent/Co-Obligor's Attorney or Accredited Representative (if any).  Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    264.186,
+                    438.001,
+                    384.188,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "VolagNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 2,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    144.187,
+                    438.001,
+                    252.181,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox2[1]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G-28 is attached",
+                "struct_parent": 5,
+                "tool_tip": "To be Completed by the Alien's Attorney or Accredited Representative (if any).  Select this box if Form G-28 is attached.",
+                "initial_value": "",
+                "rect": [
+                    42.684,
+                    390.999,
+                    52.684,
+                    400.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "AttorneyStateBarNumber2[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 7,
+                "tool_tip": "To be Completed by the Alien's Attorney or Accredited Representative (if any).  Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    264.186,
+                    360.0,
+                    384.188,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "VolagNumber2[0]",
+                "field_type": "/Tx",
+                "description": "To be Completed by the Alien's Attorney or Accredited Representative (if any)",
+                "struct_parent": 6,
+                "tool_tip": "To be Completed by the Alien's Attorney or Accredited Representative (if any).  Enter Volag Number (if any)",
+                "initial_value": "",
+                "rect": [
+                    144.187,
+                    360.0,
+                    252.181,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISELISAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 12 digits",
+                "struct_parent": 4,
+                "tool_tip": "To be Completed by the Obligor and Agent/Co-Obligor's Attorney or Accredited Representative (if any).  Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. Enter 12 digits.",
+                "initial_value": "",
+                "rect": [
+                    396.184,
+                    438.001,
+                    570.194,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISELISAcctNumber2[0]",
+                "field_type": "/Tx",
+                "description": "Enter 12 digits",
+                "struct_parent": 8,
+                "tool_tip": "To be Completed by the Alien's Attorney or Accredited Representative (if any).  Enter Attorney or Accredited Representative U S C I S Online Account Number, if any. Enter 12 digits.",
+                "initial_value": "",
+                "rect": [
+                    396.184,
+                    360.0,
+                    570.194,
+                    378.0
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Obligor and Agent/Co-Obligor Information  (To Be Completed by the Obligor or Agent/Co-Obligor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_ObligorName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Obligor",
+                "struct_parent": 9,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 1.  Enter Name of Obligor.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    227.999,
+                    576.0,
+                    245.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 10,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 2. Mailing Address. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    174.002,
+                    402.001,
+                    192.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 11,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 2. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    138.002,
+                    402.001,
+                    156.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 16,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    101.999,
+                    402.001,
+                    119.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 14,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    447.999,
+                    142.002,
+                    457.999,
+                    152.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 13,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    142.002,
+                    439.999,
+                    152.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 12,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    411.999,
+                    142.002,
+                    421.999,
+                    152.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 15,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.045,
+                    138.002,
+                    576.221,
+                    156.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 18,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    467.994,
+                    101.999,
+                    576.17,
+                    119.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 17,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 2. Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    101.999,
+                    463.504,
+                    119.999
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Obligor and Agent/Co-Obligor Information  (To Be Completed by the Obligor or Agent/Co-Obligor)  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line6_StreetNumberName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 21,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    654.001,
+                    402.001,
+                    672.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_CityOrTown[1]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 26,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    617.998,
+                    402.001,
+                    635.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_Item3_DayPhone[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digits for number",
+                "struct_parent": 30,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 4. Daytime Telephone Number. Enter 10 digits for number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    294.001,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line3_FEIN[0]",
+                "field_type": "/Tx",
+                "description": "6",
+                "struct_parent": 29,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 6. Enter Taxpayer Identification Number (T I N) (includes I T I N, E I N and S S N)",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    576.0,
+                    564.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line1_AgentorCoObligorName[0]",
+                "field_type": "/Tx",
+                "description": "7",
+                "struct_parent": 32,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 7. Enter Name of Agent/Co-Obligor (if any-Surety Bonds only)",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    479.999,
+                    402.001,
+                    497.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_InCareofName[1]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 33,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    426.002,
+                    402.001,
+                    444.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line6A_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 48,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    390.002,
+                    402.001,
+                    408.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line6A_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 53,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    354.005,
+                    402.001,
+                    372.005
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_StreetNumberName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 34,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    300.002,
+                    402.001,
+                    318.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_CityOrTown[2]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 39,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    263.999,
+                    402.001,
+                    281.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part2_Item3_DayPhone[1]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digits for number",
+                "struct_parent": 43,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 10. Daytime Telephone Number. Enter 10 digits for number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    228.002,
+                    294.001,
+                    245.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line12_FEIN[0]",
+                "field_type": "/Tx",
+                "description": "12",
+                "struct_parent": 42,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 12. Enter Taxpayer Identification Number (TIN) (includes I T I N, E I N and S S N)",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    576.0,
+                    209.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line13_PowerAttyNumber[0]",
+                "field_type": "/Tx",
+                "description": "13",
+                "struct_parent": 45,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 13. Enter Power of Attorney Number",
+                "initial_value": "",
+                "rect": [
+                    59.689,
+                    156.002,
+                    575.688,
+                    174.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Line2a_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Bond Receipt Number",
+                "struct_parent": 46,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Bond. 14. Enter Bond Receipt Number.",
+                "initial_value": "",
+                "rect": [
+                    74.429,
+                    90.003,
+                    262.831,
+                    108.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 24,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.047,
+                    658.001,
+                    458.047,
+                    668.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 22,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.047,
+                    658.001,
+                    440.047,
+                    668.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 23,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.047,
+                    658.001,
+                    422.047,
+                    668.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_AptSteFlrNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 25,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    654.001,
+                    576.0,
+                    672.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_ZipCode[1]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 28,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    617.998,
+                    576.0,
+                    635.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_State[1]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 27,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Provide the following information.  Information About Obligor. 3. Physical Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.05,
+                    617.998,
+                    463.555,
+                    635.998
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part2_Item5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address (if any)",
+                "struct_parent": 31,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Obligor. 5. Enter Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line8_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 51,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    447.999,
+                    394.002,
+                    457.999,
+                    404.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line8_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 49,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    394.002,
+                    439.999,
+                    404.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line8_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 50,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    411.999,
+                    394.002,
+                    421.999,
+                    404.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6A_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 52,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    390.002,
+                    576.0,
+                    408.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line6A_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 55,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    354.005,
+                    576.0,
+                    372.005
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line6A_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 54,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 8. Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    354.005,
+                    463.504,
+                    372.005
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line9_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 37,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Select Floor.  ",
+                "initial_value": "",
+                "rect": [
+                    448.047,
+                    304.002,
+                    458.047,
+                    314.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line9_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 35,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Select Suite. ",
+                "initial_value": "",
+                "rect": [
+                    430.047,
+                    304.002,
+                    440.047,
+                    314.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line9_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 36,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor).  Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.047,
+                    304.002,
+                    422.047,
+                    314.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line6_AptSteFlrNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 38,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    299.999,
+                    576.0,
+                    317.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_ZipCode[2]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 41,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    263.999,
+                    576.0,
+                    281.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_State[2]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 40,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 9. Physical Address (if different from that of Obligor). Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.05,
+                    263.999,
+                    463.555,
+                    281.999
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part2_Item5_Email[1]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address (if any)",
+                "struct_parent": 44,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Agent/Co-Obligor. 11. Enter Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    227.999,
+                    576.0,
+                    245.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line15_BondAmount[0]",
+                "field_type": "/Tx",
+                "description": "Enter Bond Amount",
+                "struct_parent": 47,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Bond. 15. Enter Bond Amount. ",
+                "initial_value": "",
+                "rect": [
+                    354.002,
+                    90.0,
+                    576.0,
+                    108.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line16_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 57,
+                "tool_tip": "Part 1.  Obligor and Agent/Co-Obligor Information (To Be Completed by the Obligor or Agent/Co-Obligor). Information About Bond. 16. Date when Department of Homeland Security (DHS) approved and accepted the bond as shown in Section D of the Public Charge Bond (Form I-945) (mm/dd/yyyy). Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    684.0,
+                    576.0,
+                    702.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Obligor's or Agent/Co-Obligor's Contact Information, Certification, and Signature  (To Be  Completed By the Obligor or Agent/Co-Obligor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "The Alien Naturalized, Permanently Departed the United States, or Died",
+                "struct_parent": 58,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1. Choose the appropriate statement and sign. A. The Alien Naturalized, Permanently Departed the United States, or Died.",
+                "initial_value": "",
+                "rect": [
+                    84.998,
+                    591.999,
+                    94.998,
+                    601.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt2ItemNumber1_ObligorName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Obligor",
+                "struct_parent": 59,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of the Obligor.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    576.0,
+                    324.0,
+                    587.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_ObligorName[1]",
+                "field_type": "/Tx",
+                "description": "The Alien Naturalized, Permanently Departed the United States, or Died",
+                "struct_parent": 61,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of the Obligor acting on behalf of",
+                "initial_value": "",
+                "rect": [
+                    275.998,
+                    558.0,
+                    419.998,
+                    569.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line16_Date[1]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 63,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Alien Date of Birth. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    522.0,
+                    389.999,
+                    533.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_Address[0]",
+                "field_type": "/Tx",
+                "description": "Enter Address of the Alien",
+                "struct_parent": 64,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Address of the Alien.",
+                "initial_value": "",
+                "rect": [
+                    197.997,
+                    504.0,
+                    569.996,
+                    515.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_ObligorName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Obligor",
+                "struct_parent": 65,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of Obligor.",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    486.0,
+                    551.999,
+                    497.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line1_AgentorCoObligorName[2]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Agent/Co-Obligor, if any",
+                "struct_parent": 66,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of the Agent/Co-Obligor, if any.",
+                "initial_value": "",
+                "rect": [
+                    270.0,
+                    468.0,
+                    569.999,
+                    479.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line1_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident",
+                "struct_parent": 67,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1. Choose the appropriate statement and sign. B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. ",
+                "initial_value": "",
+                "rect": [
+                    84.998,
+                    418.0,
+                    94.998,
+                    428.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt2ItemNumber1_ObligorName[4]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Obligor",
+                "struct_parent": 70,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. Enter Name of the Obligor.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    402.001,
+                    324.0,
+                    414.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_ObligorName[3]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Obligor acting on behalf of",
+                "struct_parent": 68,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. Enter Name of the Obligor acting on behalf of.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    384.001,
+                    420.001,
+                    396.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line16_Date[2]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 69,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. Enter Alien Date of Birth. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    348.001,
+                    389.999,
+                    360.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_Address[1]",
+                "field_type": "/Tx",
+                "description": "Enter Address of the Alien",
+                "struct_parent": 73,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. Enter Address of the Alien.",
+                "initial_value": "",
+                "rect": [
+                    197.997,
+                    330.001,
+                    569.996,
+                    342.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part5_Line6a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 74,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 2. Signature of Obligor. This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    210.002,
+                    432.0,
+                    228.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part5_Line6a_Signature[1]",
+                "field_type": "/Tx",
+                "description": "This is a read only field",
+                "struct_parent": 75,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 3. Signature of Agent/Co-Obligor (if any). This is a read only field.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    174.002,
+                    432.0,
+                    192.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line1_AgentorCoObligorName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Agent/Co-Obligor",
+                "struct_parent": 60,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of the Agent/Co-Obligor.",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    576.0,
+                    569.999,
+                    587.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_AlienName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Alien requesting that the public charge bond executed on Form I-945 on behalf of",
+                "struct_parent": 62,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.A. The Alien Naturalized, Permanently Departed the United States, or Died. Enter Name of the Alien requesting that the public charge bond executed on Form I-945 on behalf of.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    540.0,
+                    569.999,
+                    551.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line1_AgentorCoObligorName[3]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Agent/Co-Obligor",
+                "struct_parent": 71,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident. Enter Name of the Agent/Co-Obligor. ",
+                "initial_value": "",
+                "rect": [
+                    486.0,
+                    402.001,
+                    570.002,
+                    414.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2ItemNumber1_AlienName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Name of the Alien requesting that the public charge bond executed on form I-945 on behalf of",
+                "struct_parent": 72,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 1.B. Cancellation Following The Alien's 5th Anniversary of the Alien's Admission as a Lawful Permanent Resident.  Enter Name of the Alien requesting that the public charge bond executed on form I-945 on behalf of.",
+                "initial_value": "",
+                "rect": [
+                    335.999,
+                    366.001,
+                    569.999,
+                    378.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part8_Item8b_Date[0]",
+                "field_type": "/Tx",
+                "description": "Enter 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 76,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 2. Date of Signature. Enter 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    210.002,
+                    576.0,
+                    228.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part8_Item8b_Date[1]",
+                "field_type": "/Tx",
+                "description": "Enter 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 77,
+                "tool_tip": "Part 2.  Obligor's or Agent/Co-Obligor's Statement, Contact Information, Certification, and Signature (To Be Completed By the Obligor or Agent/Co-Obligor). 3. Date of Signature. Enter 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    174.002,
+                    576.0,
+                    192.002
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued  (To Be Completed  By the Alien or the Alien's Executor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter  Alien Registration Number (A Number) (if any)",
+                "struct_parent": 79,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor) 1. Enter  Alien Registration Number (A Number) (if any).",
+                "initial_value": "",
+                "rect": [
+                    102.501,
+                    672.001,
+                    258.358,
+                    690.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2_AcctIdentifier[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number (if any)",
+                "struct_parent": 81,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor) 3. Enter U S C I S Online Account Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    78.542,
+                    636.001,
+                    257.726,
+                    654.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line4_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 83,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 4. Current Legal Name. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    581.998,
+                    443.999,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line4_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 84,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 4. Current Legal Name. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    581.998,
+                    276.001,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "Line 1 of 2",
+                "struct_parent": 89,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Given Name (First Name). Line 1 of 2. ",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    528.001,
+                    443.999,
+                    546.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Line 1 of 2",
+                "struct_parent": 85,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Family Name (Last Name). Line 1 of 2.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    528.001,
+                    276.001,
+                    546.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Line 2 of 2",
+                "struct_parent": 87,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Given Name (First Name). Line 2 of 2. ",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    509.998,
+                    443.999,
+                    527.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Line 2 of 2",
+                "struct_parent": 88,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Family Name (Last Name). Line 2 of 2.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    509.998,
+                    276.001,
+                    527.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Select this Box for Female",
+                "struct_parent": 118,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 6. Gender. Select this Box for Female.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    490.0,
+                    219.999,
+                    500.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select this Box for Female",
+                "struct_parent": 93,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 6. Gender. Select this Box for Female.",
+                "initial_value": "",
+                "rect": [
+                    155.866,
+                    490.0,
+                    165.866,
+                    500.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/F"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select this Box for Male",
+                "struct_parent": 92,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 6. Gender. Select this Box for Male.",
+                "initial_value": "",
+                "rect": [
+                    107.867,
+                    490.0,
+                    117.867,
+                    500.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/M"
+                ]
+            },
+            {
+                "field_name": "Pt1Line35_CountryOfCitzOrNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 94,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 8. Place of Birth. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    432.0,
+                    312.001,
+                    450.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line36b_CountryOfCitzOrNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 96,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 8. Place of Birth. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.049,
+                    396.0,
+                    402.049,
+                    414.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line9_CountryofCitzOrNationality[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Citizenship or Nationality",
+                "struct_parent": 97,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 9. Enter Country of Citizenship or Nationality.",
+                "initial_value": "",
+                "rect": [
+                    59.882,
+                    359.997,
+                    402.154,
+                    377.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care of Name, if any",
+                "struct_parent": 98,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Enter In Care of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    306.0,
+                    402.001,
+                    324.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 99,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    269.997,
+                    402.001,
+                    287.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 104,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    234.0,
+                    402.001,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 107,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    180.0,
+                    402.001,
+                    198.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 112,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    144.0,
+                    402.001,
+                    162.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 116,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    252.292,
+                    108.0,
+                    329.695,
+                    126.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 115,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    108.0,
+                    246.002,
+                    126.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line3_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number (if any)",
+                "struct_parent": 80,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor) 2. Enter U. S. Social Security Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    322.101,
+                    672.001,
+                    480.311,
+                    690.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line4_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 82,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 4. Current Legal Name. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    581.998,
+                    576.0,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Line 1 of 2",
+                "struct_parent": 90,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Middle Name. Line 1 of 2. ",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    528.001,
+                    576.0,
+                    546.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Line 2 of 2",
+                "struct_parent": 86,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 5. Other Names You May Have Used Since Birth. Enter Middle Name. Line 2 of 2. ",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    509.998,
+                    576.0,
+                    527.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line22_DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 91,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 7. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    473.998,
+                    486.0,
+                    576.0,
+                    504.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line36a_CityTownOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province",
+                "struct_parent": 95,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 8. Place of Birth. Enter State or Province.",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    432.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line10_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 102,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.6,
+                    273.997,
+                    458.6,
+                    283.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line10_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 100,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.6,
+                    273.997,
+                    440.6,
+                    283.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line10_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 101,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.6,
+                    273.997,
+                    422.6,
+                    283.997
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 103,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    269.997,
+                    576.0,
+                    287.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 106,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    234.0,
+                    576.0,
+                    252.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 105,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 10. Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.6,
+                    234.0,
+                    464.105,
+                    252.0
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt3Line11_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 110,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.288,
+                    184.0,
+                    458.288,
+                    194.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line11_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 108,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.288,
+                    184.0,
+                    440.288,
+                    194.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line11_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 109,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.288,
+                    184.0,
+                    422.288,
+                    194.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 111,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    468.286,
+                    180.0,
+                    575.694,
+                    198.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 114,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.286,
+                    144.0,
+                    575.694,
+                    162.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line4d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 113,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.288,
+                    144.0,
+                    463.793,
+                    162.0
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line4h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 117,
+                "tool_tip": "Part 3.  Information About the Alien for Whom the Public Charge Bond Was Issued (To Be Completed By the Alien or the Alien's Executor). 11. Physical Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    336.297,
+                    108.0,
+                    576.0,
+                    126.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Reason for Cancellation of the Bond",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line1_CheckboxYes[0]",
+                "field_type": "/Btn",
+                "description": "Citizen (answer Item Number 2",
+                "struct_parent": 120,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. 1. I am requesting a cancellation because: I became a U.S. Citizen (answer Item Number 2.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    685.0,
+                    72.161,
+                    695.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt4Line1_CheckboxYes[1]",
+                "field_type": "/Btn",
+                "description": "I am requesting a cancellation because: I permanently departed the United States (answer Item Number 3",
+                "struct_parent": 121,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. 1. I am requesting a cancellation because: I permanently departed the United States (answer Item Number 3.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    667.0,
+                    72.161,
+                    677.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt4Line1_CheckboxYes[2]",
+                "field_type": "/Btn",
+                "description": "I am requesting a cancellation because: The alien is deceased and I am the alien's executor (answer Item Number 4",
+                "struct_parent": 122,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. 1. I am requesting a cancellation because: The alien is deceased and I am the alien's executor (answer Item Number 4.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    649.0,
+                    72.161,
+                    659.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Pt4Line1_CheckboxYes[3]",
+                "field_type": "/Btn",
+                "description": "I am requesting a cancellation because: Five years have passed since I became a lawful permanent resident (answer Item Number 5",
+                "struct_parent": 123,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. 1. I am requesting a cancellation because: Five years have passed since I became a lawful permanent resident (answer Item Number 5.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    631.0,
+                    72.161,
+                    641.0
+                ],
+                "page_number": 5,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Pt4Line6_CertNo[0]",
+                "field_type": "/Tx",
+                "description": "A",
+                "struct_parent": 124,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.A. Have you become a United States citizen? If you answered \"Yes,\" Enter Certificate of Naturalization Number or Citizenship Certificate Number (if applicable)",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    468.003,
+                    432.0,
+                    486.003
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 127,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.B. If you answered \"Yes,\" Enter Date of Naturalization or Acquired Citizenship. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    432.0,
+                    288.0,
+                    450.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[1]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 129,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.D. Have you become a United States citizen? If you answered \"Yes,\" Enter Date When Passport Issued (if applicable). Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    155.999,
+                    396.0,
+                    288.0,
+                    414.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4_CB3[1]",
+                "field_type": "/Btn",
+                "description": "Government from outside the United States to record the abandonment  of my lawful permanent residence",
+                "struct_parent": 136,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.  Have you permanently departed the United States?  Provided documentation as provided in the Instructions. Yes, I departed and submitted Form I-407 to the U.S. Government from outside the United States to record the abandonment  of my lawful permanent residence.",
+                "initial_value": "",
+                "rect": [
+                    61.502,
+                    331.001,
+                    71.502,
+                    341.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt4_CB3[0]",
+                "field_type": "/Btn",
+                "description": "(Go to Item Number 4",
+                "struct_parent": 130,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.  Have you permanently departed the United States?  Provided documentation as provided in the Instructions. No, I have not permanently departed.  (Go to Item Number 4.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    313.001,
+                    72.161,
+                    323.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[2]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 131,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.A. Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items. A. - D. Enter Date you left the United States. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    84.019,
+                    258.001,
+                    269.822,
+                    276.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[3]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 133,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.C. Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items. A. - D. Enter Date When Record of Abandonment of Lawful Permanent Resident Status (Form I-407) was filed. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    222.001,
+                    384.001,
+                    240.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line6_Place[1]",
+                "field_type": "/Tx",
+                "description": "Embassy/Consular Section/ Port of Entry) was filed Attach copy of Form I-407 (if available) and any documentation you received",
+                "struct_parent": 134,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.D. Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items. A. - D. Enter Place where Form I-407 (USCIS International Office, U.S. Embassy/Consular Section/ Port of Entry) was filed Attach copy of Form I-407 (if available) and any documentation you received.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    170.212,
+                    576.0,
+                    188.212
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line1_CheckboxNo[0]",
+                "field_type": "/Btn",
+                "description": "(Go to Item Number 3",
+                "struct_parent": 126,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.A. Have you become a United States citizen? No. (Go to Item Number 3.)",
+                "initial_value": "",
+                "rect": [
+                    434.157,
+                    523.003,
+                    444.157,
+                    533.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt4Line1_CheckboxYes[4]",
+                "field_type": "/Btn",
+                "description": "Have you become a United States citizen? Yes",
+                "struct_parent": 125,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.A. Have you become a United States citizen? Yes. ",
+                "initial_value": "",
+                "rect": [
+                    392.159,
+                    523.003,
+                    402.159,
+                    533.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt2Line14B_PassportNumber[0]",
+                "field_type": "/Tx",
+                "description": "Passport Number (if applicable)",
+                "struct_parent": 128,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Became a U. S. Citizen. 2.C. Have you become a United States citizen? If you answered \"Yes,\" Enter U.S. Passport Number (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    323.96,
+                    432.0,
+                    492.281,
+                    450.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line6_Place[0]",
+                "field_type": "/Tx",
+                "description": "Enter Place of Place of Departure/Removal, Exclusion, or Disposition",
+                "struct_parent": 132,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.B. Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items. A. - D. Enter Place of Place of Departure/Removal, Exclusion, or Disposition.",
+                "initial_value": "",
+                "rect": [
+                    311.998,
+                    258.001,
+                    533.999,
+                    276.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[4]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 135,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Permanently Departed the United States. 3.E. Have you permanently departed the United States? If you answered \u201cYes,\u201d please provide the following information (as applicable) in Items. A. - D. Enter Date of the Removal, Exclusion, Deportation, or Voluntary Departure Order. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    146.211,
+                    576.0,
+                    164.211
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Reason for Cancellation of the Bond  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line6_CertNo[1]",
+                "field_type": "/Tx",
+                "description": "B",
+                "struct_parent": 141,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4.B. Has the alien on whose behalf a bond has been issued died? Enter Death Certificate Number (please attach an official copy of the death certificate)",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    606.002,
+                    576.0,
+                    624.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[5]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 140,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4.A. Has the alien on whose behalf a bond has been issued died? If you answered \u201cYes,\u201d please provide the information in Items A. - B. about the alien's death and attach a certified copy of the alien's death certificate: Enter Date of Death. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    606.002,
+                    209.999,
+                    624.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 143,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Full Name. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    522.0,
+                    443.999,
+                    540.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Full Name",
+                "struct_parent": 142,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Full Name. Enter Family Name (Last name)",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    522.0,
+                    276.001,
+                    540.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2b_StreetNumberName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 145,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    468.0,
+                    402.001,
+                    486.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2d_CityOrTown[1]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 150,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    432.0,
+                    402.001,
+                    450.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 154,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    396.0,
+                    330.001,
+                    414.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 153,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    396.0,
+                    246.002,
+                    414.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2a_InCareofName[1]",
+                "field_type": "/Tx",
+                "description": "Enter In Care of Name, if any",
+                "struct_parent": 156,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter In Care of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    341.997,
+                    402.061,
+                    359.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 157,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    305.997,
+                    402.001,
+                    323.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 162,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.0,
+                    402.001,
+                    288.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 166,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    233.997,
+                    330.001,
+                    251.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 165,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    233.997,
+                    246.002,
+                    251.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Part2_Item3_DayPhone[2]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digits for number",
+                "struct_parent": 168,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Enter Daytime Telephone Number. Enter 10 digits for number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.003,
+                    294.001,
+                    216.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt2Line6C_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship to Deceased",
+                "struct_parent": 170,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Enter Relationship to Deceased.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    162.0,
+                    294.001,
+                    180.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4_Line4CB[1]",
+                "field_type": "/Btn",
+                "description": "(Go to Item Number 5",
+                "struct_parent": 139,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Has the alien on whose behalf a bond has been issued died? No. (Go to Item Number 5.)",
+                "initial_value": "",
+                "rect": [
+                    434.16,
+                    673.004,
+                    444.16,
+                    683.004
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt4_Line4CB[0]",
+                "field_type": "/Btn",
+                "description": "Has the alien on whose behalf a bond has been issued died? Yes",
+                "struct_parent": 138,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Has the alien on whose behalf a bond has been issued died? Yes. ",
+                "initial_value": "",
+                "rect": [
+                    392.159,
+                    673.004,
+                    402.159,
+                    683.004
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 144,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Full Name. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    522.0,
+                    576.0,
+                    540.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 148,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.6,
+                    472.0,
+                    458.6,
+                    482.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 147,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4.  Physical Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.6,
+                    472.0,
+                    440.6,
+                    482.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 146,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.6,
+                    472.0,
+                    422.6,
+                    482.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_AptSteFlrNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 149,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    469.001,
+                    468.0,
+                    576.0,
+                    486.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2f_ZipCode[1]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 152,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    432.0,
+                    576.0,
+                    450.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2e_State[1]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 151,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.6,
+                    432.0,
+                    461.999,
+                    450.0
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line2i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 155,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased.  Information about the person completing Item Number 4. on behalf of the deceased alien (Please attach a certified copy that establishes your legal authority to act on behalf of the alien's estate): 4. Physical Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    336.603,
+                    396.0,
+                    576.0,
+                    414.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1LineMailing_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 160,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.6,
+                    309.997,
+                    458.6,
+                    319.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1LineMailing_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 159,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.6,
+                    309.997,
+                    440.6,
+                    319.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1LineMailing_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 158,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.6,
+                    309.997,
+                    422.6,
+                    319.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 161,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    469.001,
+                    305.997,
+                    576.0,
+                    323.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 164,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    469.001,
+                    270.0,
+                    576.0,
+                    288.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 163,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.6,
+                    270.0,
+                    464.105,
+                    288.0
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line2i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 167,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Mailing Address. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    336.603,
+                    233.997,
+                    576.0,
+                    251.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Part2_Item5_Email[2]",
+                "field_type": "/Tx",
+                "description": "Enter your Email Address (if any)",
+                "struct_parent": 169,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Deceased. 4. Enter your Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    306.048,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4_Line5CB[1]",
+                "field_type": "/Btn",
+                "description": "Have you been a lawful permanent resident for at least five years? No",
+                "struct_parent": 172,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Five Years after Becoming a Lawful Permanent Resident. 5. Have you been a lawful permanent resident for at least five years? No.",
+                "initial_value": "",
+                "rect": [
+                    386.158,
+                    112.0,
+                    396.158,
+                    122.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt4_Line5CB[0]",
+                "field_type": "/Btn",
+                "description": "Have you been a lawful permanent resident for at least five years? Yes",
+                "struct_parent": 171,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Five Years after Becoming a Lawful Permanent Resident. 5. Have you been a lawful permanent resident for at least five years? Yes. ",
+                "initial_value": "",
+                "rect": [
+                    350.161,
+                    112.0,
+                    360.161,
+                    122.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P2_Line14B_DateIssued[6]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 173,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Five Years after Becoming a Lawful Permanent Resident. 5. Enter Date When You Became a Lawful Permanent Resident. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    65.999,
+                    522.0,
+                    83.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt4Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 186,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    101.996,
+                    312.001,
+                    119.996
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name, if any",
+                "struct_parent": 187,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    65.996,
+                    312.004,
+                    83.996
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4_Line6CB[1]",
+                "field_type": "/Btn",
+                "description": "Have you been a lawful permanent resident for at least five years? No",
+                "struct_parent": 180,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Five Years after Becoming a Lawful Permanent Resident. 5. Have you been a lawful permanent resident for at least five years? No.",
+                "initial_value": "",
+                "rect": [
+                    542.157,
+                    699.999,
+                    552.157,
+                    709.999
+                ],
+                "page_number": 7,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt4_Line6CB[0]",
+                "field_type": "/Btn",
+                "description": "Have you been a lawful permanent resident for at least five years? Yes",
+                "struct_parent": 179,
+                "tool_tip": "Part 4.  Reason for Cancellation of the Bond. Five Years after Becoming a Lawful Permanent Resident. 5. Have you been a lawful permanent resident for at least five years? Yes. ",
+                "initial_value": "",
+                "rect": [
+                    506.16,
+                    699.999,
+                    516.16,
+                    709.999
+                ],
+                "page_number": 7,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line2_RepresentativeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter name of preparer",
+                "struct_parent": 182,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. 2. Alien's (or the Alien's Executor's) Statement Regarding the Preparer. At my request, the preparer named in Part 8., prepared my parts of this Form I-356 for me based only upon information I provided or authorized. Enter name of preparer.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part5_Line3_DaytimePhoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 176,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. Alien's (or the Alien's Executor's) Contact Information. 3. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    552.002,
+                    294.001,
+                    569.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part5_Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address (if any)",
+                "struct_parent": 175,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. Alien's (or the Alien's Executor's) Contact Information. 5. Enter Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    516.005,
+                    294.001,
+                    534.005
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt7_AlienOrExecutorName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 178,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. Federal Agency Disclosure and Authorizations. Enter Name. ",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    461.999,
+                    569.999,
+                    479.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt7_AlienOrExecutorName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Name",
+                "struct_parent": 181,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. Federal Agency Disclosure and Authorizations. Enter Name. ",
+                "initial_value": "",
+                "rect": [
+                    47.999,
+                    402.001,
+                    569.999,
+                    420.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part5_Line6a_Signature[2]",
+                "field_type": "/Tx",
+                "description": "Alien's (or Alien's Executor's) Signature",
+                "struct_parent": 183,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. 6. Alien's (or Alien's Executor's) Signature. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    198.0,
+                    432.0,
+                    216.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part5_Line4_SafePhoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number (if any)",
+                "struct_parent": 177,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. Alien's (or the Alien's Executor's) Contact Information. 4. Enter Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    551.999,
+                    576.0,
+                    569.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part6_Line6b_dateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 184,
+                "tool_tip": "Part 6.  Alien's (or Alien Executor's) Contact Information, Certification, and Signature. 6. Date of Signature. Enter Date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt4Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 185,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    318.008,
+                    101.996,
+                    576.0,
+                    119.996
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and Signature of the Person Preparing the Alien's Parts of  Form I-356, if Other Than the Alien (or the Alien's Executor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line4_DaytimeTelephoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 190,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information.  4. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    677.999,
+                    294.001,
+                    695.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt4Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, if any",
+                "struct_parent": 189,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Contact Information.  6. Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    641.999,
+                    294.001,
+                    659.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt4Line6a_NameOfLanguage[0]",
+                "field_type": "/Tx",
+                "description": "Enter specified language",
+                "struct_parent": 192,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification.  I certify, under penalty of perjury, that I am fluent in English and (enter language), which is the same language provided in Part 6., Item B., in Item Number 1. Enter specified language.",
+                "initial_value": "",
+                "rect": [
+                    144.082,
+                    577.0,
+                    360.082,
+                    594.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt4Line6b_Signature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the interpreter can not be typewritten into this space",
+                "struct_parent": 193,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature.  7. Interpreter's Signature. This form can not be signed electronically. The name of the interpreter can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    492.001,
+                    432.0,
+                    510.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt5Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name, if any",
+                "struct_parent": 197,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Full Name.  2. Enter Preparer's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.018,
+                    348.001,
+                    312.08,
+                    366.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt4Line4_DaytimeTelephoneNumber3[1]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number, if any",
+                "struct_parent": 191,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Contact Information.  5. Enter Interpreter's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    677.999,
+                    576.0,
+                    695.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt4Line6b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 194,
+                "tool_tip": "Part 7.  Interpreter's Contact Information, Certification, and Signature. Interpreter's Signature. 7. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    492.001,
+                    576.0,
+                    510.001
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt5Line1_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 195,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Full Name.  1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    383.998,
+                    576.0,
+                    401.998
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt5Line5_PrepDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number, if any",
+                "struct_parent": 200,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Contact Information.  5. Enter Preparer's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    281.999,
+                    576.0,
+                    299.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt5Line8_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 202,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Signature.  8. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    126.0,
+                    575.997,
+                    144.0
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt3Line4_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1)",
+                "struct_parent": 222,
+                "tool_tip": "Part 9. Additional Information. 1. Enter Given Name (First Name). (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    630.0,
+                    443.999,
+                    648.0
+                ],
+                "page_number": 9
+            }
+        ]
+    },
+    {
+        "title": "Preparer's Full Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line1_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 196,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Full Name.  1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.08,
+                    383.998,
+                    312.08,
+                    401.998
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Certification and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line4_PrepDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 199,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Contact Information.  4. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    281.999,
+                    294.001,
+                    299.999
+                ],
+                "page_number": 8
+            },
+            {
+                "field_name": "Pt5Line6_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 198,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). Preparer's Contact Information.  6. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    245.993,
+                    294.001,
+                    263.993
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Interpreter's Contact Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line8_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Preparer's Signature",
+                "struct_parent": 201,
+                "tool_tip": "Part 8.  Contact Information, Certification, and Signature of the Person Preparing the Alien's Parts of Form I-356, if Other Than the Alien (or the Alien's Executor). 8. Preparer's Signature. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    126.0,
+                    432.0,
+                    144.0
+                ],
+                "page_number": 8
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line4_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name) (This field is being pre-populated from Part 1)",
+                "struct_parent": 221,
+                "tool_tip": "Part 9. Additional Information.  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A-Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Enter Family Name (Last Name) (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    60.021,
+                    630.0,
+                    270.318,
+                    648.0
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt3Line1_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1, Item Number 8)",
+                "struct_parent": 206,
+                "tool_tip": "Part 9. Additional Information. 2. Enter Alien Registration Number (A - Number), if any.  (This field is being pre-populated from Part 1, Item Number 8).",
+                "initial_value": "",
+                "rect": [
+                    165.229,
+                    605.667,
+                    293.998,
+                    624.044
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 209,
+                "tool_tip": "Part 9. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    563.834,
+                    264.002,
+                    581.834
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 208,
+                "tool_tip": "Part 9. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    563.834,
+                    192.002,
+                    581.834
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 207,
+                "tool_tip": "Part 9. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    563.834,
+                    120.002,
+                    581.834
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 204,
+                "tool_tip": "Part 9. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    497.999,
+                    576.0,
+                    557.836
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 219,
+                "tool_tip": "Part 9. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    461.835,
+                    264.002,
+                    479.835
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 218,
+                "tool_tip": "Part 9. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    461.835,
+                    192.002,
+                    479.835
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 217,
+                "tool_tip": "Part 9. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    461.835,
+                    120.002,
+                    479.835
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 220,
+                "tool_tip": "Part 9. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    396.0,
+                    576.0,
+                    455.834
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 214,
+                "tool_tip": "Part 9. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    359.836,
+                    264.002,
+                    377.836
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 215,
+                "tool_tip": "Part 9. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    359.836,
+                    192.002,
+                    377.836
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 216,
+                "tool_tip": "Part 9. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    359.836,
+                    120.002,
+                    377.836
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 205,
+                "tool_tip": "Part 9. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    294.001,
+                    576.0,
+                    353.835
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 212,
+                "tool_tip": "Part 9. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    257.837,
+                    264.002,
+                    275.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 211,
+                "tool_tip": "Part 9. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    257.837,
+                    192.002,
+                    275.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 210,
+                "tool_tip": "Part9. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    257.837,
+                    120.002,
+                    275.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 213,
+                "tool_tip": "Part 9. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    576.0,
+                    251.836
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line7c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 226,
+                "tool_tip": "Part 6. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    204.001,
+                    155.837,
+                    264.002,
+                    173.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line7b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 225,
+                "tool_tip": "Part 9. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    132.001,
+                    155.837,
+                    192.002,
+                    173.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line7a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 224,
+                "tool_tip": "Part 9. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    155.837,
+                    120.002,
+                    173.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt7Line7d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 227,
+                "tool_tip": "Part 9. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    90.0,
+                    576.0,
+                    149.837
+                ],
+                "page_number": 9
+            },
+            {
+                "field_name": "Pt3Line4_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1)",
+                "struct_parent": 223,
+                "tool_tip": "Part 9. Additional Information. 1. Enter Middle Name. (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    630.0,
+                    576.003,
+                    648.0
+                ],
+                "page_number": 9
+            }
+        ]
+    }
+]

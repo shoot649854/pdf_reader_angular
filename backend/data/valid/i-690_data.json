@@ -1,0 +1,3353 @@
+[
+    {
+        "title": "Mailing Address",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G - 28 or G - 28 I is attached",
+                "struct_parent": 19,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Select this box if Form G - 28 or G - 28 I is attached.",
+                "initial_value": "",
+                "rect": [
+                    150.446,
+                    529.001,
+                    160.446,
+                    539.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Application for Waiver of Grounds of Inadmissibility Under                           Sections 245A or 210 of the Immigration and Nationality Act",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney State Bar Number, if applicable",
+                "struct_parent": 20,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney State Bar Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    497.999,
+                    383.998,
+                    515.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney or Accredited Representative U S C I S Online Account Number, if any",
+                "struct_parent": 21,
+                "tool_tip": "To be completed by an attorney or accredited representative, if any. Enter Attorney or Accredited Representative U S C I S Online Account Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    497.999,
+                    570.01,
+                    515.999
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (Applicant)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information About You (the Applicant). Your Current Legal Name. 1. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    360.0,
+                    443.999,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You (the Applicant). Your Current Legal Name. 1. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    360.0,
+                    276.001,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care of Name, if any",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter In Care of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    293.998,
+                    576.0,
+                    311.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    257.998,
+                    402.001,
+                    275.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    221.998,
+                    402.001,
+                    239.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    185.998,
+                    330.001,
+                    203.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    185.998,
+                    246.002,
+                    203.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name, if applicable",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information About You (the Applicant). Your Current Legal Name. 1. Enter Middle Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    360.0,
+                    576.003,
+                    378.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.6,
+                    261.998,
+                    458.6,
+                    271.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.6,
+                    261.998,
+                    440.6,
+                    271.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.6,
+                    261.998,
+                    422.6,
+                    271.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line2_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    469.001,
+                    257.998,
+                    576.0,
+                    275.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    469.001,
+                    222.001,
+                    576.0,
+                    240.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.6,
+                    221.998,
+                    464.105,
+                    239.998
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line2_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 2. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    336.603,
+                    185.998,
+                    576.0,
+                    203.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Checkbox3[0]",
+                "field_type": "/Btn",
+                "description": ", provide your physical address in Item Number 4",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 3. Is your current mailing address the same as your physical address? Check this box for No. If you answered \"No\" to Item Number 3., provide your physical address in Item Number 4.",
+                "initial_value": "",
+                "rect": [
+                    542.163,
+                    166.0,
+                    552.163,
+                    176.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Checkbox3[1]",
+                "field_type": "/Btn",
+                "description": "Is your current mailing address the same as your physical address? Check this box for Yes",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You (the Applicant). Mailing Address. 3. Is your current mailing address the same as your physical address? Check this box for Yes.",
+                "initial_value": "",
+                "rect": [
+                    500.162,
+                    166.0,
+                    510.162,
+                    176.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 1.  Information About You  (Applicant) (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line4_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 42,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    654.001,
+                    402.001,
+                    672.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 47,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    618.001,
+                    402.001,
+                    636.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 51,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    252.292,
+                    582.001,
+                    329.695,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 50,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    246.002,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line5_CityTownOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter City, Town or Village of Birth",
+                "struct_parent": 41,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 5. Enter City, Town or Village of Birth.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    515.999,
+                    294.001,
+                    533.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number, if any",
+                "struct_parent": 39,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 8. Enter Alien Registration Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    259.631,
+                    480.005,
+                    388.641,
+                    498.005
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line7_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 7. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    479.996,
+                    186.001,
+                    497.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line9_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number, if any",
+                "struct_parent": 53,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 9.  Enter U S C I S Online Account Number, if any.  ",
+                "initial_value": "",
+                "rect": [
+                    72.663,
+                    444.002,
+                    246.673,
+                    462.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line10_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 10. Enter U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    301.286,
+                    443.999,
+                    430.537,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 44,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    412.288,
+                    658.001,
+                    422.288,
+                    668.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 45,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    448.288,
+                    657.998,
+                    458.288,
+                    667.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 43,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    430.288,
+                    657.998,
+                    440.288,
+                    667.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 46,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    468.286,
+                    654.001,
+                    575.694,
+                    672.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 49,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    468.286,
+                    618.001,
+                    575.694,
+                    636.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line4_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 48,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    408.288,
+                    618.001,
+                    463.793,
+                    636.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line4_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 52,
+                "tool_tip": "Part 1. Information About You (the Applicant). Physical Address. 4. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    336.297,
+                    582.001,
+                    576.0,
+                    600.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt1Line6_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 40,
+                "tool_tip": "Part 1. Information About You (the Applicant). Other Information. 6. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    515.999,
+                    576.0,
+                    533.999
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Additional Information About You",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Checkbox2[1]",
+                "field_type": "/Btn",
+                "description": "I am applying for a waiver for this primary application: Check this box for Permanent Residence (Form I-6 98, LIFE Act Form I-4 85)",
+                "struct_parent": 29,
+                "tool_tip": "Part 2. Additional Information About You. 1. I am applying for a waiver for this primary application: Check this box for Permanent Residence (Form I-6 98, LIFE Act Form I-4 85).",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    370.001,
+                    71.0,
+                    380.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/T"
+                ]
+            },
+            {
+                "field_name": "Pt2Line2_DateOfVisaApp[0]",
+                "field_type": "/Tx",
+                "description": "Date You Filed the Primary Application (month /day /year), enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Additional Information About You. 2. Date You Filed the Primary Application (month /day /year), enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    330.001,
+                    258.001,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox18[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(8)(A)",
+                "struct_parent": 62,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(8)(A).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    274.0,
+                    291.999,
+                    284.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/18"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox6[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(2)(I)",
+                "struct_parent": 78,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(2)(I).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    274.0,
+                    183.999,
+                    284.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/6"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(1)(A)(i)",
+                "struct_parent": 30,
+                "tool_tip": "Part 2. Additional Information About You. Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(1)(A)(i).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    273.994,
+                    70.001,
+                    283.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox19[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(8)(B)",
+                "struct_parent": 56,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(8)(B).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    256.0,
+                    291.999,
+                    266.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/19"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox7[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(4)",
+                "struct_parent": 65,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(4).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    256.0,
+                    183.999,
+                    266.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/7"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox2[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(1)(A) and (i i)",
+                "struct_parent": 33,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(1)(A) and (i i).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    255.994,
+                    70.001,
+                    265.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/2"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox20[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(A)(i)",
+                "struct_parent": 61,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(A)(i).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    238.0,
+                    291.999,
+                    248.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/20"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox8[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(6)(B)",
+                "struct_parent": 63,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(6)(B).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    238.0,
+                    183.999,
+                    248.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/8"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox3[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(1)(A)(i i i)",
+                "struct_parent": 35,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(1)(A)(i i i).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    237.994,
+                    70.001,
+                    247.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/3"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox21[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(A)(i i)",
+                "struct_parent": 57,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(A)(i i).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    220.0,
+                    291.999,
+                    230.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/21"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox12[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(C)(i)",
+                "struct_parent": 34,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(C)(i).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    220.0,
+                    183.999,
+                    230.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/12"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox4[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(1)(A)(iv)",
+                "struct_parent": 36,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(1)(A)(iv).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    219.994,
+                    70.001,
+                    229.994
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox22[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(B)(i)(I)",
+                "struct_parent": 60,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(B)(i)(I).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    202.0,
+                    291.999,
+                    212.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/22"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox13[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(C) (i i)",
+                "struct_parent": 32,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(C) (i i).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    202.0,
+                    183.999,
+                    212.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/13"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox4[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(1)(A)(iv)",
+                "struct_parent": 76,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(1)(A)(iv).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    202.0,
+                    70.001,
+                    212.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/4"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox23[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(B)(i)(II)",
+                "struct_parent": 58,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(B)(i)(II).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    184.0,
+                    291.999,
+                    194.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/23"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox14[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(D)",
+                "struct_parent": 68,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(D).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    184.0,
+                    183.999,
+                    194.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/14"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox5[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(2)(H)",
+                "struct_parent": 31,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(2)(H).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    184.0,
+                    70.001,
+                    194.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox24[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(C)(i)(I)",
+                "struct_parent": 59,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(C)(i)(I).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    166.0,
+                    291.999,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/24"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox15[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(E)",
+                "struct_parent": 66,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(E).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    166.0,
+                    183.999,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/15"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox6[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(2)(I)",
+                "struct_parent": 64,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(2)(I).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    166.0,
+                    70.001,
+                    176.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/6"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox25[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(9)(C)(i)(II)",
+                "struct_parent": 75,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(9)(C)(i)(II).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    148.0,
+                    291.999,
+                    158.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/25"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox16[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(F)",
+                "struct_parent": 67,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(F).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    148.0,
+                    183.999,
+                    158.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/16"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox5[1]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(2)(H)",
+                "struct_parent": 77,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(2)(H).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    148.0,
+                    70.001,
+                    158.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox26[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(10)(A)",
+                "struct_parent": 69,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(10)(A).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    130.0,
+                    291.999,
+                    140.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/26"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox17[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(6)(G)",
+                "struct_parent": 55,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(6)(G).",
+                "initial_value": "",
+                "rect": [
+                    173.999,
+                    130.0,
+                    183.999,
+                    140.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/17"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox5[2]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12 (a)(2)(H)",
+                "struct_parent": 79,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12 (a)(2)(H).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    130.0,
+                    70.001,
+                    140.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/5"
+                ]
+            },
+            {
+                "field_name": "Pt2Line5_ReasonOfAdmissibility[0]",
+                "field_type": "/Tx",
+                "description": "Enter the specific reasons why you are inadmissible",
+                "struct_parent": 38,
+                "tool_tip": "Part 2. Additional Information About You. Number 5. Enter the specific reasons why you are inadmissible.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    42.001,
+                    576.0,
+                    107.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Checkbox2[0]",
+                "field_type": "/Btn",
+                "description": "I am applying for a waiver for this primary application: Check this box  for Temporary Residence (Form I-6 87 or Form I-700)",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Additional Information About You. 1. I am applying for a waiver for this primary application: Check this box  for Temporary Residence (Form I-6 87 or Form I-700).",
+                "initial_value": "",
+                "rect": [
+                    324.999,
+                    370.001,
+                    334.999,
+                    380.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/P"
+                ]
+            },
+            {
+                "field_name": "Line3_ReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Receipt Number for Primary Application",
+                "struct_parent": 54,
+                "tool_tip": "Part 2. Additional Information About You. 3. Enter Receipt Number for Primary Application.",
+                "initial_value": "",
+                "rect": [
+                    320.428,
+                    330.001,
+                    508.83,
+                    348.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox27[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(10)(B)",
+                "struct_parent": 74,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(10)(B).",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    274.0,
+                    399.999,
+                    284.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/27"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox28[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(10)(C)",
+                "struct_parent": 70,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(10)(C).",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    256.0,
+                    399.999,
+                    266.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/28"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox29[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(10)(D)",
+                "struct_parent": 73,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(10)(D).",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    238.0,
+                    399.999,
+                    248.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/29"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox30[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for 2 12(a)(10)(E)",
+                "struct_parent": 71,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for 2 12(a)(10)(E).",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    220.0,
+                    399.999,
+                    230.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/30"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_CheckBox31[0]",
+                "field_type": "/Btn",
+                "description": "Check this box for Other Inadmissibility",
+                "struct_parent": 72,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). Check this box for Other Inadmissibility.",
+                "initial_value": "",
+                "rect": [
+                    389.999,
+                    202.0,
+                    399.999,
+                    212.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/31"
+                ]
+            },
+            {
+                "field_name": "Pt2Line4_Specify[0]",
+                "field_type": "/Tx",
+                "description": "If Other Inadmissibility is checked, enter other inadmissibility",
+                "struct_parent": 37,
+                "tool_tip": "Part 2, Number 4. I am applying for a waiver of (select all applicable boxes). Immigration and Nationality Act (I N A) section (Please see the instructions for more information on these sections). If Other Inadmissibility is checked, enter other inadmissibility.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    180.0,
+                    576.0,
+                    198.0
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Additional Information About You  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line6a_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 111,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    288.615,
+                    636.001,
+                    444.614,
+                    654.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 124,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. A. Relative 1. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    636.001,
+                    281.999,
+                    654.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 112,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    600.001,
+                    414.0,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 117,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    564.004,
+                    414.0,
+                    582.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 122,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    528.001,
+                    414.139,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 121,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    528.001,
+                    204.001,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient)",
+                "struct_parent": 120,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Immigration Status (for example, U.S. citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    480.002,
+                    414.0,
+                    498.002
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 83,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    288.315,
+                    425.999,
+                    444.314,
+                    443.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6b_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 125,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    425.999,
+                    281.999,
+                    443.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 84,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    389.999,
+                    413.986,
+                    407.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 89,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    353.999,
+                    413.986,
+                    371.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 94,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    317.999,
+                    414.139,
+                    335.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line6B_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 93,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    317.999,
+                    204.001,
+                    335.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient)",
+                "struct_parent": 92,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Immigration Status (for example, U.S. citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    270.0,
+                    414.0,
+                    288.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 97,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    288.615,
+                    216.0,
+                    444.614,
+                    234.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6c_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 126,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    216.0,
+                    281.999,
+                    234.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 98,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    180.0,
+                    414.0,
+                    198.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 103,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    144.0,
+                    414.0,
+                    162.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 108,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    108.0,
+                    414.139,
+                    126.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line6C_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 107,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    108.0,
+                    204.001,
+                    126.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient)",
+                "struct_parent": 106,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Immigration Status (for example, U.S. citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    60.001,
+                    414.0,
+                    78.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6a_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name, if applicable",
+                "struct_parent": 110,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Middle Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    450.615,
+                    636.001,
+                    576.615,
+                    654.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 115,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    460.001,
+                    604.001,
+                    470.001,
+                    614.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6A_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 113,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    442.001,
+                    604.001,
+                    452.001,
+                    614.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6A_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 114,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    424.001,
+                    604.001,
+                    434.001,
+                    614.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6A_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 116,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. A. Relative 1. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    600.001,
+                    576.0,
+                    618.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 119,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    564.004,
+                    576.0,
+                    582.004
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6A_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 118,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.  A. Relative 1. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    564.004,
+                    475.506,
+                    582.004
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6A_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A - Number), if any",
+                "struct_parent": 123,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. A. Relative 1. Enter Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    444.365,
+                    528.001,
+                    573.375,
+                    546.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name, if applicable",
+                "struct_parent": 82,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Middle Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    450.315,
+                    425.999,
+                    576.315,
+                    443.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 87,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    460.001,
+                    393.999,
+                    470.001,
+                    403.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6B_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 85,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    442.001,
+                    393.999,
+                    452.001,
+                    403.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6B_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 86,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    424.001,
+                    393.999,
+                    434.001,
+                    403.999
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6B_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 88,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    389.999,
+                    576.0,
+                    407.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 91,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    353.999,
+                    576.0,
+                    371.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6B_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 90,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    353.999,
+                    475.506,
+                    371.999
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6B_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A - Number), if any",
+                "struct_parent": 95,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. B. Relative 2. Enter Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    317.999,
+                    573.009,
+                    335.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name, if applicable",
+                "struct_parent": 96,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Middle Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    450.615,
+                    216.0,
+                    576.615,
+                    234.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 101,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    460.001,
+                    184.0,
+                    470.001,
+                    194.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6C_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 99,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    442.001,
+                    184.0,
+                    452.001,
+                    194.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6C_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 100,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    424.001,
+                    184.0,
+                    434.001,
+                    194.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6C_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 102,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    180.0,
+                    576.0,
+                    198.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 105,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    144.0,
+                    576.0,
+                    162.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6C_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 104,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    144.0,
+                    475.506,
+                    162.0
+                ],
+                "page_number": 3,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6C_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A - Number), if any",
+                "struct_parent": 109,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. C. Relative 3. Enter Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    108.0,
+                    575.773,
+                    126.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt2Line6D_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 147,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    666.0,
+                    281.999,
+                    684.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 131,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    288.629,
+                    665.994,
+                    444.628,
+                    683.994
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 132,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    630.003,
+                    414.0,
+                    648.003
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line7Ad_CityTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 137,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    594.0,
+                    414.0,
+                    612.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_Relationship[0]",
+                "field_type": "/Tx",
+                "description": "Enter Relationship",
+                "struct_parent": 142,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Relationship.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    558.0,
+                    414.139,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt1Line6D_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 141,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Date of Birth. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    558.0,
+                    204.001,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_ImmigrationStatus[0]",
+                "field_type": "/Tx",
+                "description": "citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient)",
+                "struct_parent": 140,
+                "tool_tip": "Part 2. Additional Information About You. 7. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Immigration Status (for example, U.S. citizen, lawful permanent resident, valid nonimmigrant status, deferred action recipient).",
+                "initial_value": "",
+                "rect": [
+                    78.001,
+                    511.999,
+                    414.0,
+                    529.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line7_ReasonForWaiver[0]",
+                "field_type": "/Tx",
+                "description": "Additional Information",
+                "struct_parent": 129,
+                "tool_tip": "Part 2. Additional Information About You. 7. Describe the family unity, humanitarian, or public interest reasons or considerations for why U.S. Citizenship and Immigration Services (U S C I S) should grant your waiver.  If you need extra space to complete this section, use the space provided in Part 6. Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.805,
+                    425.999,
+                    576.002,
+                    468.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name, if applicable",
+                "struct_parent": 130,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Middle Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    450.629,
+                    665.994,
+                    576.629,
+                    683.994
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Floor",
+                "struct_parent": 135,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Check this box if it is a Floor.",
+                "initial_value": "",
+                "rect": [
+                    460.001,
+                    634.0,
+                    470.001,
+                    644.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6D_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is a Suite",
+                "struct_parent": 133,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Check this box if it is a Suite.",
+                "initial_value": "",
+                "rect": [
+                    442.001,
+                    634.0,
+                    452.001,
+                    644.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6D_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if it is an Apartment",
+                "struct_parent": 134,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Check this box if it is an Apartment.",
+                "initial_value": "",
+                "rect": [
+                    424.001,
+                    634.0,
+                    434.001,
+                    644.0
+                ],
+                "page_number": 4,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt2Line6D_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter the number of the Apartment, Suite, or Floor",
+                "struct_parent": 136,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter the number of the Apartment, Suite, or Floor.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    630.0,
+                    576.0,
+                    648.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 139,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    594.0,
+                    576.0,
+                    612.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt2Line6D_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 138,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    420.001,
+                    594.0,
+                    475.506,
+                    612.0
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt2Line6D_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A - Number), if any",
+                "struct_parent": 143,
+                "tool_tip": "Part 2. Additional Information About You. 6. List all immediate relatives in the United States (parents, spouse, and children).  If you need extra space to complete this section, use the space provided in Part 6. Additional Information. D. Relative 4. Enter Alien Registration Number (A - Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    558.0,
+                    573.009,
+                    576.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Applicant's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1_ApplicantDaytimeTelephoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Daytime Telephone Number",
+                "struct_parent": 144,
+                "tool_tip": "Part 3.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information.  1. Enter Applicant's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    294.001,
+                    330.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line3_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Email Address, if any",
+                "struct_parent": 146,
+                "tool_tip": "Part 3.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information.  3. Enter Applicant's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    276.001,
+                    294.001,
+                    294.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line4_SignatureOfApplicant[0]",
+                "field_type": "/Tx",
+                "description": "The name of the applicant can not be typewritten into this space",
+                "struct_parent": 148,
+                "tool_tip": "Part 3.  Applicant's Contact Information, Certification, and Signature.  Applicant's Certification and Signature. 4. Applicant's Signature. This form can not be signed electronically. The name of the applicant can not be typewritten into this space.  ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    131.998,
+                    432.0,
+                    149.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line2_ApplicantMobileTelephoneNumber3[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant's Mobile Telephone Number, if any",
+                "struct_parent": 145,
+                "tool_tip": "Part 3.  Applicant's Contact Information, Certification, and Signature.  Applicant's Contact Information. 2. Enter Applicant's Mobile Telephone Number, if any. ",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    312.001,
+                    576.0,
+                    330.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt3Line4_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 149,
+                "tool_tip": "Part 3.  Applicant's Contact Information, Certification, and Signature.  Applicant's Certification and Signature. 4. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    131.998,
+                    576.0,
+                    149.998
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Interpreter's Contact Information, Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt4Line1_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 153,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature. Provide the following information concerning the interpreter.  Interpreter's Full Name.  1. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    653.998,
+                    312.001,
+                    671.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name",
+                "struct_parent": 154,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Full Name.  2. Enter Interpreter's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    617.998,
+                    312.004,
+                    635.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line3_InterpreterDaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 156,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Contact Information.  3. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    551.999,
+                    294.001,
+                    569.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, if any",
+                "struct_parent": 155,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.   Interpreter's Contact Information.  5. Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    515.999,
+                    294.001,
+                    533.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line6a_NameOfLanguage[0]",
+                "field_type": "/Tx",
+                "description": "Enter specified language",
+                "struct_parent": 160,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature (continued).  Interpreter's Certification.  I certify, under penalty of perjury, that I am fluent in English and (enter language), which is the same language provided in Part 3., Item B., in Item Number 1. Enter specified language.",
+                "initial_value": "",
+                "rect": [
+                    299.999,
+                    468.0,
+                    564.001,
+                    486.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line6_InterpreterSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the interpreter can not be typewritten into this space",
+                "struct_parent": 158,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Signature.  6. Interpreter's Signature. This form can not be signed electronically. The name of the interpreter can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    408.002,
+                    432.0,
+                    426.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line1_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 152,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Full Name. 1. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    318.008,
+                    653.998,
+                    576.0,
+                    671.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line4_InterpreterMobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number, if any",
+                "struct_parent": 157,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Contact Information.  4. Enter Interpreter's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    551.999,
+                    576.0,
+                    569.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt4Line6_InterpreterDateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 159,
+                "tool_tip": "Part 4.  Interpreter's Contact Information, Certification, and Signature.  Interpreter's Signature.  6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    408.002,
+                    576.0,
+                    426.002
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if  Other Than the Applicant",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line1_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 162,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Full Name.  1. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.08,
+                    287.997,
+                    312.08,
+                    305.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line2_NameofBusinessorOrgName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name",
+                "struct_parent": 163,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Full Name.  2. Enter Preparer's Business or Organization Name.",
+                "initial_value": "",
+                "rect": [
+                    60.018,
+                    252.006,
+                    312.08,
+                    270.006
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line3_PrepDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 165,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information.  3. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    185.998,
+                    294.001,
+                    203.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line5_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 164,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information.  5. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    149.998,
+                    294.001,
+                    167.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line1_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 161,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Full Name.  1. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    324.0,
+                    287.997,
+                    576.0,
+                    305.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt5Line4_PrepDaytimeTelePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number, if any",
+                "struct_parent": 166,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Contact Information.  4. Enter Preparer's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    186.001,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other  Than the Applicant  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line6_PreparerSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the preparer can not be typewritten into this space",
+                "struct_parent": 169,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification and Signature.  6. Preparer's Signature. This form can not be signed electronically. The name of the preparer can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.007,
+                    432.0,
+                    600.007
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt5Line6_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 170,
+                "tool_tip": "Part 5.  Contact Information, Declaration, and Signature of the Person Preparing this Application, if Other Than the Applicant.  Preparer's Certification and Signature.  6. Enter Date of Signature. Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    582.007,
+                    575.997,
+                    600.007
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1)",
+                "struct_parent": 191,
+                "tool_tip": "Part 6. Additional Information. 1. Enter Given Name (First Name). (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    281.999,
+                    630.164,
+                    443.999,
+                    648.164
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt1Line1_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name) (This field is being pre-populated from Part 1)",
+                "struct_parent": 190,
+                "tool_tip": "Part 6. Additional Information.  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A-Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Enter Family Name (Last Name) (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    630.164,
+                    276.001,
+                    648.164
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt1Line8_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1, Item Number 8)",
+                "struct_parent": 174,
+                "tool_tip": "Part 6. Additional Information. 2. Enter Alien Registration Number (A - Number), if any.  (This field is being pre-populated from Part 1, Item Number 8).",
+                "initial_value": "",
+                "rect": [
+                    164.954,
+                    606.161,
+                    293.964,
+                    624.161
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 177,
+                "tool_tip": "Part 6. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    563.998,
+                    336.002,
+                    581.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 176,
+                "tool_tip": "Part 6. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    563.998,
+                    240.001,
+                    581.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 175,
+                "tool_tip": "Part 6. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    563.998,
+                    144.0,
+                    581.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 178,
+                "tool_tip": "Part 6. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    503.836,
+                    576.0,
+                    558.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 188,
+                "tool_tip": "Part 6. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    275.987,
+                    461.999,
+                    335.988,
+                    479.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 187,
+                "tool_tip": "Part 6. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    179.986,
+                    461.999,
+                    239.987,
+                    479.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 186,
+                "tool_tip": "Part 6. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    461.999,
+                    144.0,
+                    479.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 189,
+                "tool_tip": "Part 6. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    401.998,
+                    576.0,
+                    455.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 183,
+                "tool_tip": "Part 6. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    275.987,
+                    360.0,
+                    335.988,
+                    378.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 184,
+                "tool_tip": "Part 6. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    179.986,
+                    360.0,
+                    239.987,
+                    378.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 185,
+                "tool_tip": "Part 6. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    360.0,
+                    144.0,
+                    378.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 173,
+                "tool_tip": "Part 6. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    299.999,
+                    576.0,
+                    353.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 181,
+                "tool_tip": "Part 6. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    275.987,
+                    258.001,
+                    335.988,
+                    276.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 180,
+                "tool_tip": "Part 6. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    179.986,
+                    258.001,
+                    239.987,
+                    276.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 179,
+                "tool_tip": "Part 6. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    258.001,
+                    144.0,
+                    276.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 182,
+                "tool_tip": "Part 6. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    198.0,
+                    576.0,
+                    252.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line7c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 195,
+                "tool_tip": "Part 6. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    275.987,
+                    156.002,
+                    335.988,
+                    174.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line7b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 194,
+                "tool_tip": "Part 6. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    179.986,
+                    156.002,
+                    239.987,
+                    174.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line7a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 193,
+                "tool_tip": "Part 6. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    156.002,
+                    144.0,
+                    174.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt6Line7d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 196,
+                "tool_tip": "Part 6. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    96.001,
+                    576.0,
+                    150.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Pt1Line1_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "(This field is being pre-populated from Part 1)",
+                "struct_parent": 192,
+                "tool_tip": "Part 6. Additional Information. 1. Enter Middle Name. (This field is being pre-populated from Part 1).",
+                "initial_value": "",
+                "rect": [
+                    450.0,
+                    630.164,
+                    576.003,
+                    648.164
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

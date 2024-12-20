@@ -1,0 +1,1229 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "GivenNameFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Given Name (First Name)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information About You. Enter the Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    185.78,
+                    594.603,
+                    306.53,
+                    610.902
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FamilyNameLastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Family Name (Last Name)",
+                "struct_parent": 6,
+                "tool_tip": "Part 1.  Information About You  (Person who filed a previously approved Form I-800A, Application for Determination of Suitability to Adopt a Child from a Convention Country). Enter the Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    594.603,
+                    178.784,
+                    610.902
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Supplement 3, Request for Action on Approved Form I-800A",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "OtherNamesUsed[0]",
+                "field_type": "/Tx",
+                "description": "Enter Other Name Used (including maident name if appropriate",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information About You. Enter Other Name Used (including maident name if appropriate.",
+                "initial_value": "",
+                "rect": [
+                    228.594,
+                    563.068,
+                    399.234,
+                    579.628
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "OtherNamesUsed[1]",
+                "field_type": "/Tx",
+                "description": "Enter Other Name Used (including maident name if appropriate",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information About You. Enter Other Name Used (including maident name if appropriate.",
+                "initial_value": "",
+                "rect": [
+                    37.44,
+                    563.068,
+                    220.74,
+                    579.628
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "PlaceofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Place of Birth (City / Town, State / Province, Country)",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information About You. Enter the Place of Birth (City / Town, State / Province, Country).",
+                "initial_value": "",
+                "rect": [
+                    159.659,
+                    532.301,
+                    399.011,
+                    548.6
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information About You. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    532.299,
+                    152.215,
+                    548.941
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "HomeAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    501.128,
+                    346.569,
+                    518.302
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[0]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    221.159,
+                    471.024,
+                    399.005,
+                    487.323
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    471.024,
+                    213.265,
+                    487.323
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    221.159,
+                    440.538,
+                    399.005,
+                    456.837
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Originalsignaturerequired[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Zip / Postal Code",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter the Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    440.538,
+                    213.265,
+                    456.837
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MailingAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information About You. Mailing Address. If different from Home Address. Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    409.804,
+                    344.75,
+                    426.978
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Originalsignaturerequired[1]",
+                "field_type": "/Tx",
+                "description": "Enter an In Care of Name",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter an In Care of Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    380.052,
+                    399.132,
+                    396.351
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "StateorProvince[1]",
+                "field_type": "/Tx",
+                "description": "Enter the State or Province",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter the State or Province.",
+                "initial_value": "",
+                "rect": [
+                    221.162,
+                    349.483,
+                    399.011,
+                    365.782
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "City[1]",
+                "field_type": "/Tx",
+                "description": "Enter the City",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter the City.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    349.483,
+                    213.265,
+                    365.782
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Country[1]",
+                "field_type": "/Tx",
+                "description": "Enter the Country",
+                "struct_parent": 17,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter the Country.",
+                "initial_value": "",
+                "rect": [
+                    174.2,
+                    318.259,
+                    399.013,
+                    334.558
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ZipPostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter a Zip / Postal Code",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter a Zip / Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    318.259,
+                    166.178,
+                    334.772
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter numbers only",
+                "struct_parent": 30,
+                "tool_tip": "Part 1. Information About You. Enter a Daytime Phone Number, with area code. Enter numbers only.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    287.438,
+                    219.577,
+                    303.737
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "E-mailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address, if any",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information About You. Enter an Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    228.254,
+                    287.435,
+                    399.01,
+                    303.734
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateApprovalExpires[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 26,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 1. Enter the Date Approval Expires. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    296.6,
+                    207.473,
+                    398.559,
+                    225.862
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "DateofApproval[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 25,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 1. Enter the Date of Approval. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024. ",
+                "initial_value": "",
+                "rect": [
+                    187.271,
+                    207.473,
+                    289.23,
+                    225.862
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an U S C I S Receipt Number",
+                "struct_parent": 27,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 1. Enter an U S C I S Receipt Number.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    207.473,
+                    177.905,
+                    225.905
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISAccountNumber[0]",
+                "field_type": "/Tx",
+                "description": "Ehter the U S C I S Account Number, if known",
+                "struct_parent": 29,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 1. Ehter the U S C I S Account Number, if known.",
+                "initial_value": "",
+                "rect": [
+                    228.135,
+                    177.239,
+                    398.486,
+                    193.538
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "LocationofUSCISOfficeWhereFiled[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Location of the U S C I S Office where filed",
+                "struct_parent": 28,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. Enter the Location of the U S C I S Office where filed.",
+                "initial_value": "",
+                "rect": [
+                    50.4,
+                    177.239,
+                    220.751,
+                    193.538
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox3[0]",
+                "field_type": "/Btn",
+                "description": "(An updated/amended home study must be submitted",
+                "struct_parent": 32,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. See USCIS Form G-1055, Fee Schedule, available at www.uscis.gov/g-1055, for information on filing fees. I am requesting: Select A. My FIRST or SECOND extension of the approval of my Form I-800A, and I have not yet submitted Form I-800 on behalf of a specific child.  If any changes have occurred, I will indicate such change in Item 3 on the following page.  (An updated/amended home study must be submitted.)",
+                "initial_value": "",
+                "rect": [
+                    60.319,
+                    85.944,
+                    70.319,
+                    95.944
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Middle Name",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information About You. Enter the Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    313.906,
+                    594.603,
+                    398.795,
+                    610.902
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if applicable",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information About You. Home Address. Enter an Apartment Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    353.531,
+                    501.125,
+                    399.01,
+                    517.424
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "ApartmentNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter an Apartment Number, if applicable",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information About You. Mailing Address. Enter an Apartment Number, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    353.531,
+                    409.801,
+                    399.01,
+                    426.1
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "FFRectangle8[0]",
+                "field_type": "/Btn",
+                "description": "FFRectangle8",
+                "struct_parent": 3,
+                "tool_tip": "FFRectangle8",
+                "initial_value": "",
+                "rect": [
+                    415.611,
+                    88.906,
+                    425.611,
+                    98.906
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "FFText26[4]",
+                "field_type": "/Tx",
+                "description": "ATTY State License #  ",
+                "struct_parent": 2,
+                "tool_tip": "ATTY State License #  ",
+                "initial_value": "",
+                "rect": [
+                    403.5,
+                    42.871,
+                    575.997,
+                    57.802
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "CheckBox1[10]",
+                "field_type": "/Btn",
+                "description": "(An updated/amended home study must be submitted",
+                "struct_parent": 46,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting: Select B. A THIRD or SUBSEQUENT extension of the approval of my Form I-800A, and I have not yet submitted Form I-800 on behalf of a specific child.  If any changes have occurred, I will indicate such change in Item 3 on the following page.  (An updated/amended home study must be submitted.)",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    690.999,
+                    72.836,
+                    700.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[13]",
+                "field_type": "/Btn",
+                "description": "I am requesting: Select C",
+                "struct_parent": 52,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting: Select C. A new approval notice based on changes in circumstances since my Form I-800A was approved, and I am not requesting an extension, and:",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    655.001,
+                    72.836,
+                    665.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[11]",
+                "field_type": "/Btn",
+                "description": "I am requesting A new approval notice based on changes in circumstances since my Form I-800A was approved, and I am not requesting an extension, and: Select 1",
+                "struct_parent": 47,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting A new approval notice based on changes in circumstances since my Form I-800A was approved, and I am not requesting an extension, and: Select 1. I have not yet submitted Form I-800 on behalf of a specific child; or",
+                "initial_value": "",
+                "rect": [
+                    92.835,
+                    628.002,
+                    102.835,
+                    638.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[12]",
+                "field_type": "/Btn",
+                "description": "(An updated/amended home study must be submitted",
+                "struct_parent": 48,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting A new approval notice based on changes in circumstances since my Form I-800A was approved, and I am not requesting an extension, and: Select 2. I was directed to file Form I-800A, Supplement 3, by USCIS or U.S. Department of State after filing Form I-800 on behalf of a specific child.  Complete Item 3 below.  (An updated/amended home study must be submitted.)",
+                "initial_value": "",
+                "rect": [
+                    92.835,
+                    601.001,
+                    102.835,
+                    611.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox3[1]",
+                "field_type": "/Btn",
+                "description": ")  NOTE:  If requesting both an extension and a change of Convention country, check Item 2, a, or 2, b, and also indicate the change in Item 3 below",
+                "struct_parent": 49,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting: Select D. A FIRST or SECOND change in a Convention country, that was not previously included in my home study recommendation and my Form I-800A approval notice.  I have not yet submitted Form I-800 on behalf of a specific child.  No extension requested.  (An amended home study recommending the adoption in the new Convention country must accompany this application.)  NOTE:  If requesting both an extension and a change of Convention country, check Item 2, a, or 2, b, and also indicate the change in Item 3 below.  ",
+                "initial_value": "",
+                "rect": [
+                    60.35,
+                    559.497,
+                    70.35,
+                    569.497
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox3[2]",
+                "field_type": "/Btn",
+                "description": ")  NOTE:  If requesting both an extension and a change of Convention country, check Item 2, a, or 2, b, and also indicate the change in Item 3 below",
+                "struct_parent": 50,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting: Select E. A THIRD or SUBSEQUENT change in a Convention country, that was not previously included in my most recent home study recommendation and my Form I-800A or Form I-800A, Supplement 3 approval notice.  I have not yet submitted Form I-800 on behalf of a specific child.  No extension requested.  (An amended home study recommending the adoption in the new Convention country must accompany this application.)  NOTE:  If requesting both an extension and a change of Convention country, check Item 2, a, or 2, b, and also indicate the change in Item 3 below.  ",
+                "initial_value": "",
+                "rect": [
+                    60.35,
+                    492.497,
+                    70.35,
+                    502.497
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox3[3]",
+                "field_type": "/Btn",
+                "description": "I am not requesting an extension and there has been no change in circumstances since my Form I-800A was approved",
+                "struct_parent": 51,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 2.  Filing Basis. I am requesting: Select F. A duplicate approval notice.  I am not requesting an extension and there has been no change in circumstances since my Form I-800A was approved. ",
+                "initial_value": "",
+                "rect": [
+                    60.35,
+                    424.497,
+                    70.35,
+                    434.497
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Select:  There have been no changes",
+                "struct_parent": 35,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  There have been no changes.",
+                "initial_value": "",
+                "rect": [
+                    60.866,
+                    361.0,
+                    70.866,
+                    371.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[9]",
+                "field_type": "/Btn",
+                "description": "You must file a new Form I-800A",
+                "struct_parent": 44,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select: Marital status.  STOP.  Do not file this form.  You must file a new Form I-800A. ",
+                "initial_value": "",
+                "rect": [
+                    60.866,
+                    343.0,
+                    70.866,
+                    353.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[8]",
+                "field_type": "/Btn",
+                "description": "Select:  Residence",
+                "struct_parent": 43,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Residence.",
+                "initial_value": "",
+                "rect": [
+                    60.866,
+                    325.0,
+                    70.866,
+                    335.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[7]",
+                "field_type": "/Btn",
+                "description": "Select:  Financial status",
+                "struct_parent": 42,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Financial status.",
+                "initial_value": "",
+                "rect": [
+                    60.866,
+                    307.0,
+                    70.866,
+                    317.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[6]",
+                "field_type": "/Btn",
+                "description": "If selected complete then enter the new Convention country in the next field",
+                "struct_parent": 41,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Change in Convention country. If selected complete then enter the new Convention country in the next field.",
+                "initial_value": "",
+                "rect": [
+                    60.866,
+                    289.0,
+                    70.866,
+                    299.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "NameofthenewConventioncountry[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Name of the New Conventioin country",
+                "struct_parent": 45,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Enter the Name of the New Conventioin country.",
+                "initial_value": "",
+                "rect": [
+                    72.0,
+                    251.997,
+                    571.122,
+                    269.724
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "CheckBox1[1]",
+                "field_type": "/Btn",
+                "description": "Select:  History of arrest",
+                "struct_parent": 36,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  History of arrest.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    235.0,
+                    72.836,
+                    245.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[5]",
+                "field_type": "/Btn",
+                "description": "Select:  History of child abuse or neglect",
+                "struct_parent": 40,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  History of child abuse or neglect.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    217.0,
+                    72.836,
+                    227.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[4]",
+                "field_type": "/Btn",
+                "description": "Select:  History of substance abuse",
+                "struct_parent": 39,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  History of substance abuse.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    199.0,
+                    72.836,
+                    209.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[3]",
+                "field_type": "/Btn",
+                "description": "Select:  History of family violence",
+                "struct_parent": 38,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  History of family violence.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    181.0,
+                    72.836,
+                    191.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[2]",
+                "field_type": "/Btn",
+                "description": "Select:  History of sexual abuse",
+                "struct_parent": 37,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  History of sexual abuse.",
+                "initial_value": "",
+                "rect": [
+                    62.836,
+                    163.0,
+                    72.836,
+                    173.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[14]",
+                "field_type": "/Btn",
+                "description": "Select:  Change in the number of children or characteristics (such as age, gender, or special needs) of child(ren) you intend to adopt",
+                "struct_parent": 55,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Change in the number of children or characteristics (such as age, gender, or special needs) of child(ren) you intend to adopt. ",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    696.491,
+                    63.235,
+                    706.491
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[15]",
+                "field_type": "/Btn",
+                "description": "(If you check this box, Form I-800A, Supplement 1, should be completed and submitted for each new adult member of the household",
+                "struct_parent": 56,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Change in number and/or identity of adult members of the household.  (If you check this box, Form I-800A, Supplement 1, should be completed and submitted for each new adult member of the household.)",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    667.0,
+                    63.235,
+                    677.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CheckBox1[16]",
+                "field_type": "/Btn",
+                "description": "(Use a separate sheet of paper for additional children",
+                "struct_parent": 57,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  Change in number and/or identity of children in the household.  (Use a separate sheet of paper for additional children.)",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    640.001,
+                    63.235,
+                    650.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country of BIrth",
+                "struct_parent": 60,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 1. Enter the Country of BIrth.",
+                "initial_value": "",
+                "rect": [
+                    298.13,
+                    574.725,
+                    397.822,
+                    600.237
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 59,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 1. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    233.404,
+                    574.725,
+                    295.296,
+                    600.237
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": ") Row 1",
+                "struct_parent": 58,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Change in number and/or identity of children in the household.  (Use a separate sheet of paper for additional children.) Row 1. Enter the Child Name (First, Middle, Last)",
+                "initial_value": "",
+                "rect": [
+                    69.987,
+                    574.725,
+                    230.57,
+                    600.237
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Country of BIrth",
+                "struct_parent": 65,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 2. Enter the Country of BIrth.",
+                "initial_value": "",
+                "rect": [
+                    298.13,
+                    546.379,
+                    397.822,
+                    571.891
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "DateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 64,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 2. Enter the Date of Birth. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    233.404,
+                    546.379,
+                    295.296,
+                    571.891
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Name[0]",
+                "field_type": "/Tx",
+                "description": ") Row 2",
+                "struct_parent": 63,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Change in number and/or identity of children in the household.  (Use a separate sheet of paper for additional children.) Row 2. Enter the Child Name (First, Middle, Last)",
+                "initial_value": "",
+                "rect": [
+                    69.987,
+                    546.379,
+                    230.57,
+                    571.891
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "CheckBox1[17]",
+                "field_type": "/Btn",
+                "description": ")",
+                "struct_parent": 68,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.  Check all boxes that apply.  (NOTE:  All changes must be fully explained and evaluated in the required updated home study.). Select:  ",
+                "initial_value": "",
+                "rect": [
+                    53.235,
+                    515.873,
+                    63.235,
+                    525.873
+                ],
+                "page_number": 3,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "AdditionalInformationAbouttheChanges[0]",
+                "field_type": "/Tx",
+                "description": "Enter any Other additional information about the change(s)",
+                "struct_parent": 69,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended.Enter any Other additional information about the change(s).",
+                "initial_value": "",
+                "rect": [
+                    70.084,
+                    389.052,
+                    575.997,
+                    494.464
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 71,
+                "tool_tip": "Part 3.  Certification and Signature of You, the Prospective Adoptive Parent(s)  (Read the information on penalties in the instructions before completing this section.). Your certification: I certify, under penalty of perjury under the laws of the United States, that: 1.  Each answer I have given to each question on Form I-800A and attached supplement(s) is true and correct to the best of my knowledge, information, and belief; and 2.  I understand the ongoing duty to disclose information concerning my suitability as an adoptive parent, as described on Page 7 of the instructions to Form I-800A, and I agree to notify the home study preparer and USCIS of any new information that I am required to disclose. Enter Your Signature. Print this form and sign in ink. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    192.002,
+                    373.853,
+                    213.117
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Child's Relationship to You",
+                "struct_parent": 62,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 1. Enter the Child's Relationship to You. ",
+                "initial_value": "",
+                "rect": [
+                    469.878,
+                    574.725,
+                    574.296,
+                    600.237
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number) if applicable",
+                "struct_parent": 61,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 1. Enter an Alien Registration Number (A - Number) if applicable.",
+                "initial_value": "",
+                "rect": [
+                    400.656,
+                    574.725,
+                    467.044,
+                    600.237
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "RelationshiptoYou[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Child's Relationship to You",
+                "struct_parent": 67,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 2. Enter the Child's Relationship to You. ",
+                "initial_value": "",
+                "rect": [
+                    469.878,
+                    546.379,
+                    574.296,
+                    571.891
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "ANumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter an Alien Registration Number (A - Number) if applicable",
+                "struct_parent": 66,
+                "tool_tip": "Part 2.  Action Requested on Your Previously Approved Form I-800A. 3.  Information on changes that have occurred since Form I-800A with supplements (if any) was approved or extended. Row 2. Enter an Alien Registration Number (A - Number) if applicable.",
+                "initial_value": "",
+                "rect": [
+                    400.656,
+                    546.379,
+                    467.044,
+                    571.891
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Date[0]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 70,
+                "tool_tip": "Part 3.  Certification and Signature of You, the Prospective Adoptive Parent(s)  (Read the information on penalties in the instructions before completing this section.) . Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    192.002,
+                    576.0,
+                    213.075
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6a_SignatureofApplicant[1]",
+                "field_type": "/Tx",
+                "description": "Print this form and sign in ink",
+                "struct_parent": 84,
+                "tool_tip": "Part 3.  Certification and Signature of You, the Prospective Adoptive Parent(s)  (Read the information on penalties in the instructions before completing this section.). Your certification: I certify, under penalty of perjury under the laws of the United States, that: 1.  Each answer I have given to each question on Form I-800A and attached supplement(s) is true and correct to the best of my knowledge, information, and belief; and 2.  I understand the ongoing duty to disclose information concerning my suitability as an adoptive parent, as described on Page 7 of the instructions to Form I-800A, and I agree to notify the home study preparer and USCIS of any new information that I am required to disclose. Enter Your Spouse's Signature. Print this form and sign in ink. ",
+                "initial_value": "",
+                "rect": [
+                    65.999,
+                    569.795,
+                    374.4,
+                    592.943
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Attorney[1]",
+                "field_type": "/Btn",
+                "description": "Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select No",
+                "struct_parent": 78,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select No.",
+                "initial_value": "",
+                "rect": [
+                    233.226,
+                    365.433,
+                    243.226,
+                    375.433
+                ],
+                "page_number": 4,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Attorney[0]",
+                "field_type": "/Btn",
+                "description": "Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select Yes",
+                "struct_parent": 77,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Attorney or Representative Only:  In the event of a Request for Evidence (RFE), may USCIS contact you by fax or e-mail? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    185.474,
+                    365.433,
+                    195.474,
+                    375.433
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "PreparersFirmName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Firm Name, if applicable",
+                "struct_parent": 76,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Firm Name, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    290.937,
+                    283.836,
+                    576.0,
+                    304.722
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PreparersPrintedName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Printed Name",
+                "struct_parent": 81,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Printed Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    283.836,
+                    283.89,
+                    304.722
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "PreparersAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Preparer's Address",
+                "struct_parent": 79,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter the Preparer's Address.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    247.261,
+                    576.0,
+                    268.147
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter numbers only",
+                "struct_parent": 74,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter a Fax Number, with area code. Enter numbers only.",
+                "initial_value": "",
+                "rect": [
+                    178.625,
+                    196.835,
+                    315.354,
+                    218.8
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "[0]",
+                "field_type": "/Tx",
+                "description": "Enter numbers only",
+                "struct_parent": 83,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter a Daytime Phone Number, with area code. Enter numbers only.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    196.835,
+                    172.729,
+                    218.8
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date[1]",
+                "field_type": "/Tx",
+                "description": "Example: 01/01/2024",
+                "struct_parent": 75,
+                "tool_tip": "Part 3.  Certification and Signature of You, the Prospective Adoptive Parent(s)  (Read the information on penalties in the instructions before completing this section.) . Enter the Date of Signature. Enter the Date as a 2-digit month, 2-digit day and 4-digit year. Example: 01/01/2024.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    569.795,
+                    576.0,
+                    592.986
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Date[2]",
+                "field_type": "/Tx",
+                "description": "Print form and sign in ink",
+                "struct_parent": 80,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Attorney or Representative Only: I declare that I prepared this application at the request of the above person(s), and it is based on all information provided to me by the person(s).  I have not knowingly withheld any material information that would affect the outcome of this application. Enter the Date of Signature. This form cannot be signed electronically. Print form and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    384.503,
+                    320.264,
+                    576.0,
+                    341.153
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "E-mailAddress[1]",
+                "field_type": "/Tx",
+                "description": "Enter an Email Address",
+                "struct_parent": 82,
+                "tool_tip": "Part 4.  Signature of Person Preparing Form if Other Than Above. Enter an Email Address.",
+                "initial_value": "",
+                "rect": [
+                    320.0,
+                    196.838,
+                    576.0,
+                    220.386
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

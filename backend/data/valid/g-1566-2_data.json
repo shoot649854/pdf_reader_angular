@@ -1,0 +1,1613 @@
+[
+    {
+        "title": null,
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1_NATZ[0]",
+                "field_type": "/Btn",
+                "description": "Select this box for Certificate of Non-Existence of Naturalization",
+                "struct_parent": 2,
+                "tool_tip": "Part 1.  Certificate Request.  1. Certificate Type (select only one).  Select this box for Certificate of Non-Existence of Naturalization.",
+                "initial_value": "",
+                "rect": [
+                    60.731,
+                    625.002,
+                    70.731,
+                    635.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt1Line1_CITZ[0]",
+                "field_type": "/Btn",
+                "description": "Citizenship and Immigration Services (U S C I S) records",
+                "struct_parent": 5,
+                "tool_tip": "Part 1.  Certificate Request.  1. Certificate Type (select only one).  Select this box for Certificate of Non-Existence of any U.S. Citizenship and Immigration Services (U S C I S) records.",
+                "initial_value": "",
+                "rect": [
+                    60.731,
+                    607.002,
+                    70.731,
+                    617.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt1Line1_Other[0]",
+                "field_type": "/Btn",
+                "description": "Select this box for Other (provide an explanation about the type of records about which you seek a Certificate of Non-Existence",
+                "struct_parent": 3,
+                "tool_tip": "Part 1.  Certificate Request.  1. Certificate Type (select only one).  Select this box for Other (provide an explanation about the type of records about which you seek a Certificate of Non-Existence.)",
+                "initial_value": "",
+                "rect": [
+                    60.731,
+                    589.002,
+                    70.731,
+                    599.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Pt1Line1_Explain[0]",
+                "field_type": "/Tx",
+                "description": "Enter explanation",
+                "struct_parent": 4,
+                "tool_tip": "Part 1.  Check this box for Other (provide an explanation about the type of records about which you seek a Certificate of Non-Existence).  Enter explanation. ",
+                "initial_value": "",
+                "rect": [
+                    77.817,
+                    569.999,
+                    576.003,
+                    587.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "NumCertReq[0]",
+                "field_type": "/Tx",
+                "description": "Enter number of certificates requested",
+                "struct_parent": 6,
+                "tool_tip": "Part 1.  Certificate Request.  2. Number of Certificates Requested. Enter number of certificates requested.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    546.001,
+                    270.0,
+                    564.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Sec2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 8,
+                "tool_tip": "Part 2.  Information About Subject of Record.  1. Name.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    438.001,
+                    444.002,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Sec2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 7,
+                "tool_tip": "Part 2.  Information About Subject of Record.  1. Name. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    438.001,
+                    276.001,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 11,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 1.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    372.002,
+                    450.003,
+                    390.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 10,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 1.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    372.002,
+                    282.002,
+                    390.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 14,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 2.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    353.999,
+                    450.003,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 13,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 2.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    353.999,
+                    282.002,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Line8_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 16,
+                "tool_tip": "Part 2.  Information About Subject of Record. 3.  Date of Birth.  Enter Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    330.001,
+                    312.001,
+                    348.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part3_Item3A_YesNo[1]",
+                "field_type": "/Btn",
+                "description": "Is this an approximate date?  Select No",
+                "struct_parent": 25,
+                "tool_tip": "Part 2.  Information About Subject of Record.  3. A. Is this an approximate date?  Select No.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    312.953,
+                    262.0,
+                    322.953
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Part3_Item3A_YesNo[0]",
+                "field_type": "/Btn",
+                "description": "Is this an approximate date?  Select Yes",
+                "struct_parent": 24,
+                "tool_tip": "Part 2.  Information About Subject of Record.  3. A. Is this an approximate date?  Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    312.953,
+                    219.999,
+                    322.953
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Sec1_Line2b_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 17,
+                "tool_tip": "Part 2.  Information About Subject of Record.  3.B. If applicable, provide any additional date(s) of birth the subject of record may have used.  This information may assist out search for relevant records.  Date 1 (mm/dd/yyyy).  Enter Additional Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    168.001,
+                    263.999,
+                    300.002,
+                    281.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "_CountryOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 19,
+                "tool_tip": "Part 2.  Information About Subject of Record.  4. Country of Birth.  Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    162.0,
+                    240.001,
+                    576.0,
+                    258.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line8_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Date of Entry into the United States as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 20,
+                "tool_tip": "Part 2.  Information About Subject of Record.  5. Date of Entry into the United States (mm/dd/yyyy).  Enter Date of Entry into the United States as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    288.0,
+                    216.0,
+                    420.001,
+                    234.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part3_Item14D_SpouseParent[1]",
+                "field_type": "/Btn",
+                "description": "Is this an approximate date?  Select No",
+                "struct_parent": 22,
+                "tool_tip": "Part 2.  Information About Subject of Record.  5.B. Is this an approximate date?  Select No.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    199.0,
+                    262.0,
+                    209.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Part3_Item14D_SpouseParent[0]",
+                "field_type": "/Btn",
+                "description": "Is this an approximate date?  Select Yes",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Information About Subject of Record.  5.B. Is this an approximate date?  Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    209.999,
+                    199.0,
+                    219.999,
+                    209.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Sec2Line6_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 9 digit Alien Registration Number (A-Number)",
+                "struct_parent": 23,
+                "tool_tip": "Part 2.  Information About Subject of Record.  6. Provide any Alien Registration Number (A. Number) that may be associated with the subject of record.  An A-Number may also be called a U S C I S Number. Enter 9 digit Alien Registration Number (A-Number). ",
+                "initial_value": "",
+                "rect": [
+                    90.0,
+                    150.001,
+                    216.0,
+                    168.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "_CountryOfBirth[1]",
+                "field_type": "/Tx",
+                "description": "Enter identifying reference numbers",
+                "struct_parent": 26,
+                "tool_tip": "Part 2.  Information About Subject of Record.  7. Provide any other identifying or reference numbers found on documents issued by U S C I S or the former Immigration and Naturalization Service (I N S).  Enter identifying reference numbers. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    101.999,
+                    569.999,
+                    119.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Sec2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 9,
+                "tool_tip": "Part 2.  Information About Subject of Record.  1. Name.  Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    438.001,
+                    576.008,
+                    456.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 12,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 1.  Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    371.999,
+                    576.008,
+                    389.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line2_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 15,
+                "tool_tip": "Part 2.  Information About Subject of Record.  2. Other Names Used (including maiden name, aliases, and nicknames).  Providing other names or alternate spellings of the subject of record's name may assist U S C I S's search for relevant records.  Row 2.  Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    353.996,
+                    576.008,
+                    371.996
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Sec1_Line2b1_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 18,
+                "tool_tip": "Part 2.  Information About Subject of Record.  3.B. If applicable, provide any additional date(s) of birth the subject of record may have used.  This information may assist out search for relevant records.  Date 2 (mm/dd/yyyy).  Enter Additional Date of Birth as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    263.999,
+                    534.002,
+                    281.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Sec2_8GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (Last Name)",
+                "struct_parent": 30,
+                "tool_tip": "Part 2.  Information About Subject of Record.  8. Spouse's Name(s).  Row 1, First Spouse.  Enter Given Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    666.0,
+                    450.0,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec2_8FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 29,
+                "tool_tip": "Part 2.  Information About Subject of Record.  8. Spouse's Name(s).  Row 1, First Spouse.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    666.0,
+                    282.002,
+                    684.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec2_8AGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (Last Name)",
+                "struct_parent": 33,
+                "tool_tip": "Part 2.  Information About Subject of Record. 8. Spouse's Name(s). Row 2, Second Spouse. Enter Given Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    647.997,
+                    450.0,
+                    665.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec2_8AFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 32,
+                "tool_tip": "Part 2.  Information About Subject of Record.  8. Spouse's Name(s).  Row 2, Second Spouse.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    647.997,
+                    282.002,
+                    665.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line1_9GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Row 1, First Child: Enter Given Name (First Name)",
+                "struct_parent": 36,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 1, First Child: Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.005,
+                    594.0,
+                    450.006,
+                    612.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line1_9FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Row 1, First Child: Enter Family Name (Last Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 1, First Child: Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.004,
+                    594.0,
+                    282.005,
+                    612.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line2_9GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Row 2, Second Child: Enter Given Name (First Name)",
+                "struct_parent": 39,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 2, Second Child: Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.005,
+                    575.997,
+                    450.006,
+                    593.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line2_9FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Row 2, Second Child: Enter Family Name (Last Name)",
+                "struct_parent": 38,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 2, Second Child: Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.004,
+                    575.997,
+                    282.005,
+                    593.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_9GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Row 3, Third Child: Enter Given Name (First Name)",
+                "struct_parent": 42,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 3, Third Child: Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.005,
+                    557.997,
+                    450.006,
+                    575.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_9FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Row 3, Third Child: Enter Family Name (Last Name)",
+                "struct_parent": 41,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 3, Third Child: Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.004,
+                    557.997,
+                    282.005,
+                    575.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_9GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Row 4, Fourth Child: Enter Given Name (First Name)",
+                "struct_parent": 45,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 4, Fourth Child: Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.005,
+                    539.997,
+                    450.006,
+                    557.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_9FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Row 4, Fourth Child: Enter Family Name (Last Name)",
+                "struct_parent": 44,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 4, Fourth Child: Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    539.997,
+                    282.002,
+                    557.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5_9GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Row 5, Fifth Child: Enter Given Name (First Name)",
+                "struct_parent": 48,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 5, Fifth Child: Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.005,
+                    521.997,
+                    450.006,
+                    539.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5_9FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Row 5, Fifth Child: Enter Family Name (Last Name)",
+                "struct_parent": 47,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 5, Fifth Child: Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    521.997,
+                    282.002,
+                    539.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec3_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 51,
+                "tool_tip": "Part 3.  Requestor Information.  1. Requestor's Full Name.  Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    282.002,
+                    432.0,
+                    444.002,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec3_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 50,
+                "tool_tip": "Part 3.  Requestor Information.  1. Requestor's Full Name.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    432.0,
+                    276.001,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address",
+                "struct_parent": 53,
+                "tool_tip": "Part 3.  Requestor Information.  2. Email Address.  Enter Email Address.",
+                "initial_value": "",
+                "rect": [
+                    60.177,
+                    395.997,
+                    576.003,
+                    413.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 56,
+                "tool_tip": "Part 3.  Requestor Information.  3.   Requestor's Mailing Address.  Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    342.0,
+                    396.0,
+                    360.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 57,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    306.0,
+                    396.0,
+                    324.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 65,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    270.0,
+                    341.997,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 64,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    270.0,
+                    258.001,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_checkbox3_Yes[0]",
+                "field_type": "/Btn",
+                "description": "Select Yes, a return envelope is included",
+                "struct_parent": 55,
+                "tool_tip": "Part 3.  Requestor Information.  4. Is a self-addressed, prepaid return envelope submitted with your Form G-1566?  NOTE: U S C I S will send certificates to an international address only if a prepaid envelope with sufficient postage for international shipping is submitted with Form G-1566.  Select Yes, a return envelope is included.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    205.148,
+                    70.001,
+                    215.148
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P4_checkbox3_No[0]",
+                "field_type": "/Btn",
+                "description": "Select No, a return envelope is not included",
+                "struct_parent": 54,
+                "tool_tip": "Part 3.  Requestor Information.  4. Is a self-addressed, prepaid return envelope submitted with your Form G-1566?  NOTE: U S C I S will send certificates to an international address only if a prepaid envelope with sufficient postage for international shipping is submitted with Form G-1566.  Select No, a return envelope is not included.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    187.148,
+                    70.001,
+                    197.148
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Sec2_8MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 31,
+                "tool_tip": "Part 2.  Information About Subject of Record.  8. Spouse's Name(s).  Row 1, First Spouse.  Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    665.997,
+                    576.008,
+                    683.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec2_8AMiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 34,
+                "tool_tip": "Part 2.  Information About Subject of Record. 8. Spouse's Name(s). Row 2, Second Spouse. Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    647.994,
+                    576.008,
+                    665.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line1_9MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Row 1, First Child: Enter Middle Name (if applicable)",
+                "struct_parent": 37,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 1, First Child: Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    593.997,
+                    576.008,
+                    611.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line2_9MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Row 2, Second Child: Enter Middle Name (if applicable)",
+                "struct_parent": 40,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 2, Second Child: Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    575.994,
+                    576.008,
+                    593.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_9MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Row 3, Third Child: Enter Middle Name (if applicable)",
+                "struct_parent": 43,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 3, Third Child: Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    557.994,
+                    576.008,
+                    575.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_9MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Row 4, Fourth Child: Enter Middle Name (if applicable)",
+                "struct_parent": 46,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 4, Fourth Child: Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    539.994,
+                    576.008,
+                    557.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5_9MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Row 5, Fifth Child: Enter Middle Name (if applicable)",
+                "struct_parent": 49,
+                "tool_tip": "Part 2.  Information About Subject of Record.  9. Children's Name(s).  Row 5, Fifth Child: Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    521.994,
+                    576.008,
+                    539.994
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Sec3_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name (if applicable)",
+                "struct_parent": 52,
+                "tool_tip": "Part 3.  Requestor Information.  1. Requestor's Full Name.  Enter Middle Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    449.827,
+                    432.0,
+                    576.008,
+                    450.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 60,
+                "tool_tip": "Part 3.  Requestor's Information.  3. Requestor's Mailing Address.  Select Floor. ",
+                "initial_value": "",
+                "rect": [
+                    447.999,
+                    346.0,
+                    457.999,
+                    356.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 59,
+                "tool_tip": "Part 3.  Requestor's Information.  3. Requestor's Mailing Address.  Select Suite. ",
+                "initial_value": "",
+                "rect": [
+                    429.999,
+                    346.0,
+                    439.999,
+                    356.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 58,
+                "tool_tip": "Part 3.  Requestor's Information.  3. Requestor's Mailing Address.  Select Apartment. ",
+                "initial_value": "",
+                "rect": [
+                    411.999,
+                    346.0,
+                    421.999,
+                    356.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 61,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    474.029,
+                    342.0,
+                    576.011,
+                    360.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 62,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    306.0,
+                    576.0,
+                    324.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 63,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.   Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    306.0,
+                    461.999,
+                    324.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt3Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 66,
+                "tool_tip": "Part 3.  Requestor Information.  3. Requestor's Mailing Address.  Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    348.001,
+                    270.0,
+                    576.0,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P5_Line3a_SignatureofApplicant[0]",
+                "field_type": "/Tx",
+                "description": "No Entry",
+                "struct_parent": 69,
+                "tool_tip": "Part 4. Verification of Identity and Subject of Record Consent.  Declaration Under Penalty of Perjury.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3. I certify, swear, or affirm, under penalty of perjury under the laws of the United States of America, that the information in this request is complete, true, and correct.  1. Applicant's Signature.  No Entry.",
+                "initial_value": "",
+                "rect": [
+                    59.975,
+                    612.0,
+                    438.145,
+                    630.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line3a_SignatureofApplicant[1]",
+                "field_type": "/Tx",
+                "description": "No Entry",
+                "struct_parent": 71,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  2. Applicant's Signature.  No Entry.",
+                "initial_value": "",
+                "rect": [
+                    59.975,
+                    509.998,
+                    438.145,
+                    527.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line5e_[0]",
+                "field_type": "/Tx",
+                "description": "Enter Day Subscribed and sworn to before Notary",
+                "struct_parent": 73,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  3. Enter Day Subscribed and sworn to before Notary.",
+                "initial_value": "",
+                "rect": [
+                    264.002,
+                    486.0,
+                    282.002,
+                    504.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line4_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Daytime Telephone Number",
+                "struct_parent": 75,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  4. Enter Requestor's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.032,
+                    450.0,
+                    312.032,
+                    468.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P7_Line8a_SignatureofPreparer[0]",
+                "field_type": "/Tx",
+                "description": "No Entry",
+                "struct_parent": 77,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  5. Signature of Notary.  No Entry.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    414.0,
+                    360.0,
+                    431.974
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Part1_TypeofApplication[0]",
+                "field_type": "/Btn",
+                "description": "Select box",
+                "struct_parent": 78,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Consent. 7. Subject of Record is deceased.  Select box. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    367.001,
+                    71.0,
+                    377.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "P7_Line8a_SignatureofPreparer[1]",
+                "field_type": "/Tx",
+                "description": "No Entry",
+                "struct_parent": 79,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Consent.  Signature of Requestor.  By my signature, I certify that I understand all of the information contained in this request is complete, true, and correct.  8. Signature of Requestor.  No Entry. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    281.999,
+                    438.001,
+                    299.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line3b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 70,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Consent.  Declaration Under Penalty of Perjury.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  I certify, swear, or affirm, under penalty of perjury under the laws of the United States of America, that the information in this request is complete, true, and correct.  1. Enter Date of Signature.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line3b_DateofSignature[1]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 72,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  2. Enter Date of Signature.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    510.001,
+                    576.0,
+                    528.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt1Line5[0]",
+                "field_type": "/Tx",
+                "description": "Enter Year Subscribed and sworn to before Notary",
+                "struct_parent": 74,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  3. Enter Year Subscribed and sworn to before Notary.",
+                "initial_value": "",
+                "rect": [
+                    330.012,
+                    486.0,
+                    358.968,
+                    504.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line4_DaytimePhoneNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Requestor's Daytime Telephone Number",
+                "struct_parent": 76,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  4. Enter Requestor's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    324.031,
+                    450.0,
+                    576.031,
+                    468.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "CommDate[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 81,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Record Consent.  Notarized Affidavit of Identity.  IMPORTANT: Do NOT sign and date below until the notary public provides instructions to you.  By my signature, I consent to U S C I S providing a Certificate of Non-Existence or a response to the requestor named in Part 3.  6. My commission Expires on (mm/dd/yyyy).  Enter Commission Expiration Date.  Enter as 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    414.0,
+                    576.0,
+                    432.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P7_Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 80,
+                "tool_tip": "Part 4.  Verification of Identity and Subject of Consent.  Signature of Requestor.  By my signature, I certify that I understand all of the information contained in this request is complete, true, and correct.  8. Enter Date of Signature.  Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    281.999,
+                    576.0,
+                    299.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Sec2_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from page 1",
+                "struct_parent": 101,
+                "tool_tip": "Part 5.  Additional Information.  If you need extra space to provide any additional information within this request, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Given Name (First Name).  This is a read only field.  This field is pre-populated from page 1.",
+                "initial_value": "",
+                "rect": [
+                    245.999,
+                    648.0,
+                    420.001,
+                    666.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Sec2_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from page 1",
+                "struct_parent": 100,
+                "tool_tip": "Part 5.  Additional Information.  If you need extra space to provide any additional information within this application, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this application or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Family Name (Last Name).  This is a read only field.  This field is pre-populated from page 1.",
+                "initial_value": "",
+                "rect": [
+                    59.995,
+                    648.0,
+                    240.185,
+                    666.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Sec2Line6_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from page 1",
+                "struct_parent": 103,
+                "tool_tip": "Part 5.  Additional Information.  2. Alien Registration Number (A. Number), if any.  This is a read only field.  This field is pre-populated from page 1.",
+                "initial_value": "",
+                "rect": [
+                    176.321,
+                    623.999,
+                    305.331,
+                    641.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 98,
+                "tool_tip": "Part 5.  Additional Information.  3. C. Item Number.  Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    581.998,
+                    336.002,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 97,
+                "tool_tip": "Part 5.  Additional Information.  3. B. Part Number.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    581.998,
+                    240.001,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[3]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 96,
+                "tool_tip": "Part 5.  Additional Information.  3. A. Page Number.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    581.998,
+                    144.0,
+                    599.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[3]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 99,
+                "tool_tip": "Part 5.  Additional Information.  3. D.  Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    522.0,
+                    576.0,
+                    576.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 93,
+                "tool_tip": "Part 5.  Additional Information.  4. C. Item Number.  Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    479.999,
+                    336.002,
+                    497.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 94,
+                "tool_tip": "Part 5.  Additional Information.  4. B. Part Number.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    479.999,
+                    240.001,
+                    497.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[2]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 95,
+                "tool_tip": "Part 5.  Additional Information.  4. A. Page Number.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    479.999,
+                    144.0,
+                    497.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[2]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 92,
+                "tool_tip": "Part 5.  Additional Information.  4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    420.001,
+                    576.0,
+                    474.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 90,
+                "tool_tip": "Part 5.  Additional Information.  5. C. Item Number.  Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    377.997,
+                    336.002,
+                    395.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 89,
+                "tool_tip": "Part 5.  Additional Information.  5. B. Part Number.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    377.997,
+                    240.001,
+                    395.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 88,
+                "tool_tip": "Part 5.  Additional Information.  5. A. Page Number.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    377.997,
+                    144.0,
+                    395.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 91,
+                "tool_tip": "Part 5.  Additional Information.  5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    317.999,
+                    576.0,
+                    371.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 85,
+                "tool_tip": "Part 5.  Additional Information.  6. C. Item Number.  Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    276.001,
+                    275.998,
+                    336.002,
+                    293.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 86,
+                "tool_tip": "Part 5.  Additional Information.  6. B. Part Number.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    180.0,
+                    275.998,
+                    240.001,
+                    293.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 87,
+                "tool_tip": "Part 5.  Additional Information.  6. A. Page Number.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    275.998,
+                    144.0,
+                    293.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 84,
+                "tool_tip": "Part 5.  Additional Information.  6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    216.003,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3c_ItemNumber[4]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 105,
+                "tool_tip": "Part 5.  Additional Information.  7. C. Item Number.  Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    275.995,
+                    173.999,
+                    335.996,
+                    191.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3b_PartNumber[4]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 106,
+                "tool_tip": "Part 5.  Additional Information.  7. B. Part Number.  Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    179.994,
+                    173.999,
+                    239.995,
+                    191.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3a_PageNumber[4]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 107,
+                "tool_tip": "Part 5.  Additional Information.  7. A. Page Number.  Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    83.993,
+                    173.999,
+                    143.994,
+                    191.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt8Line3d_AdditionalInfo[4]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 104,
+                "tool_tip": "Part 5.  Additional Information.  7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    83.993,
+                    114.004,
+                    575.994,
+                    168.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Sec2_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from page 1",
+                "struct_parent": 102,
+                "tool_tip": "Part 5.  Additional Information.  If you need extra space to provide any additional information within this request, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this request or attach a separate sheet of paper.  Type or print your name and A. Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet.  1. Middle Name (if applicable).  This is a read only field.  This field is pre-populated from page 1.",
+                "initial_value": "",
+                "rect": [
+                    425.999,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 4
+            }
+        ]
+    }
+]

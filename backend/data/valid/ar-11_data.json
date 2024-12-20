@@ -1,0 +1,707 @@
+[
+    {
+        "title": "Alien's Change of Address Card",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "S1_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Information About You",
+                "struct_parent": 2,
+                "tool_tip": "Information About You.  Enter Given Name (First Name)",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    635.995,
+                    425.999,
+                    653.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S1_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Information About You",
+                "struct_parent": 1,
+                "tool_tip": "Information About You.  Enter Middle Name (if applicable)",
+                "initial_value": "",
+                "rect": [
+                    438.001,
+                    635.995,
+                    576.0,
+                    653.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2B__Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a designated floor",
+                "struct_parent": 9,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Check this box if the address is a designated floor.",
+                "initial_value": "",
+                "rect": [
+                    439.499,
+                    513.998,
+                    449.499,
+                    523.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "S2B__Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a suite",
+                "struct_parent": 10,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Check this box if the address is a suite.  ",
+                "initial_value": "",
+                "rect": [
+                    420.999,
+                    513.998,
+                    430.999,
+                    523.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "S2B__Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is an apartment",
+                "struct_parent": 7,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).   Check this box if the address is an apartment.",
+                "initial_value": "",
+                "rect": [
+                    402.999,
+                    513.998,
+                    412.999,
+                    523.998
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "S2B_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "If you marked the apartment, suite or floor box, enter the number here",
+                "struct_parent": 8,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).   If you marked the apartment, suite or floor box, enter the number here.",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    509.998,
+                    576.0,
+                    527.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2B_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the zip code",
+                "struct_parent": 6,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Enter the zip code.",
+                "initial_value": "",
+                "rect": [
+                    461.999,
+                    473.998,
+                    576.0,
+                    491.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2B_State[0]",
+                "field_type": "/Ch",
+                "description": "You will be making a selection from the drop down list containing the 2 letter abbreviations of state names",
+                "struct_parent": 5,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Enter the state.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+                "initial_value": "",
+                "rect": [
+                    404.001,
+                    473.998,
+                    450.0,
+                    491.998
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "S2A_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a designated floor",
+                "struct_parent": 28,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Check this box if the address is a designated floor.",
+                "initial_value": "",
+                "rect": [
+                    439.502,
+                    417.997,
+                    449.502,
+                    427.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "S2A_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a suite",
+                "struct_parent": 29,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Check this box if the address is a suite.  ",
+                "initial_value": "",
+                "rect": [
+                    421.002,
+                    417.997,
+                    431.002,
+                    427.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "S2A_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is an apartment",
+                "struct_parent": 26,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Check this box if the address is an apartment.",
+                "initial_value": "",
+                "rect": [
+                    403.002,
+                    417.997,
+                    413.002,
+                    427.997
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "S2A_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "If you marked the apartment, suite or floor box, enter the number here",
+                "struct_parent": 27,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  If you marked the apartment, suite or floor box, enter the number here.",
+                "initial_value": "",
+                "rect": [
+                    462.002,
+                    413.997,
+                    576.003,
+                    431.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2A_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the zip code",
+                "struct_parent": 25,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Enter the zip code.",
+                "initial_value": "",
+                "rect": [
+                    461.996,
+                    377.997,
+                    575.997,
+                    395.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2A_State[0]",
+                "field_type": "/Ch",
+                "description": "You will be making a selection from the drop down list containing the 2 letter abbreviations of state names",
+                "struct_parent": 24,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Enter the state.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+                "initial_value": "",
+                "rect": [
+                    404.004,
+                    377.997,
+                    450.003,
+                    395.997
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "S2C_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a designated floor",
+                "struct_parent": 17,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Check this box if the address is a designated floor.",
+                "initial_value": "",
+                "rect": [
+                    439.505,
+                    321.999,
+                    449.505,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "S2C_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is a suite",
+                "struct_parent": 18,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Check this box if the address is a suite.  ",
+                "initial_value": "",
+                "rect": [
+                    421.005,
+                    321.999,
+                    431.005,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "S2C_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Check this box if the address is an apartment",
+                "struct_parent": 15,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Check this box if the address is an apartment.",
+                "initial_value": "",
+                "rect": [
+                    403.005,
+                    321.999,
+                    413.005,
+                    331.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "S2C_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "If you marked the apartment, suite or floor box, enter the number here",
+                "struct_parent": 16,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  If you marked the apartment, suite or floor box, enter the number here.",
+                "initial_value": "",
+                "rect": [
+                    462.005,
+                    317.999,
+                    576.006,
+                    335.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2C_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter the zip code",
+                "struct_parent": 14,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Enter the zip code.",
+                "initial_value": "",
+                "rect": [
+                    462.005,
+                    281.999,
+                    576.006,
+                    299.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2C_State[0]",
+                "field_type": "/Ch",
+                "description": "You will be making a selection from the drop down list containing the 2 letter abbreviations of state names",
+                "struct_parent": 13,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Enter the state.  You will be making a selection from the drop down list containing the 2 letter abbreviations of state names.",
+                "initial_value": "",
+                "rect": [
+                    404.007,
+                    281.999,
+                    450.006,
+                    299.999
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "S3_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 23,
+                "tool_tip": "Your Signature.  Date of Signature. Enter the 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    443.999,
+                    210.002,
+                    576.0,
+                    228.002
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Your Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "S1_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 3,
+                "tool_tip": "Information About You.  Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    635.995,
+                    252.0,
+                    653.995
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter your alien registration number or A Number here",
+                "struct_parent": 21,
+                "tool_tip": "Information About You.  Enter your alien registration number or A Number here.",
+                "initial_value": "",
+                "rect": [
+                    203.998,
+                    600.001,
+                    342.008,
+                    618.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S1_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter the 2 digit month, 2 digit day and 4 digit year",
+                "struct_parent": 4,
+                "tool_tip": "Information About You.  Enter your Date of Birth. Enter the 2 digit month, 2 digit day and 4 digit year.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    600.001,
+                    167.998,
+                    618.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Information About Your Address",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "S2B_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 11,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    35.994,
+                    509.998,
+                    389.78,
+                    527.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2B_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 12,
+                "tool_tip": "Information About Your Address.  Present Physical Address (No P O Boxes).  Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    35.994,
+                    473.998,
+                    389.78,
+                    491.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2A_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 30,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    35.997,
+                    413.997,
+                    389.783,
+                    431.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2A_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 31,
+                "tool_tip": "Information About Your Address.  Previous Physical Address.  Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    378.0,
+                    389.786,
+                    396.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2C_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter the Street Number and Name",
+                "struct_parent": 19,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Enter the Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    317.999,
+                    389.786,
+                    335.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S2C_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter the City or Town",
+                "struct_parent": 20,
+                "tool_tip": "Information About Your Address.  Mailing Address (Optional).  Enter the City or Town.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    281.999,
+                    389.786,
+                    299.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "S3_SignatureApplicant[0]",
+                "field_type": "/Tx",
+                "description": "This form will be rejected without a signature in this space",
+                "struct_parent": 22,
+                "tool_tip": "Your Signature.  Signature of Applicant.  This form can not be signed electronically.  The name of the applicant can not be typewritten into this space.  If the applicant is a minor child, the parent must sign the child's name in this space.  This form will be rejected without a signature in this space.",
+                "initial_value": "",
+                "rect": [
+                    36.0,
+                    210.002,
+                    432.0,
+                    228.002
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]

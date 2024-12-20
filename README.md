@@ -137,7 +137,7 @@ poetry run python PDFDataCLI.py data/I-140.pdf -o output.json
 To generate json object from all pdf data in `./data` directory, you can run the following command to generate multiple json objects.
 
 ```bash
-poetry run python PDFDataCLI.py data/*.pdf && mv *_data.json data/valid/
+poetry run python script/PDFDataCLI.py data/pdf/*.pdf && mv *_data.json data/valid/
 ```
 
 ## Commit message

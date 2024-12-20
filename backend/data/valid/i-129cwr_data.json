@@ -1,0 +1,3255 @@
+[
+    {
+        "title": "Part 1.  Information about the Employer",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 1,
+                "tool_tip": "Part 1. Information about the Employer. Legal Name of Individual Employer or Sole Proprietor. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    515.999,
+                    294.001,
+                    533.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 1. Information about the Employer. Legal Name of Individual Employer or Sole Proprietor. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    491.998,
+                    294.001,
+                    509.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 3,
+                "tool_tip": "Part 1. Information about the Employer. Legal Name of Individual Employer or Sole Proprietor. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    468.0,
+                    294.001,
+                    486.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line2_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Information about the Employer. Legal Name of Individual Employer or Sole Proprietor. 2. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    443.999,
+                    294.001,
+                    461.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line3_NameOfEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Employer or Organization",
+                "struct_parent": 4,
+                "tool_tip": "Part 1. Information about the Employer. Employing Company or Organization Name. 3. Enter Name of Employer or Organization.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    377.997,
+                    294.086,
+                    395.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4b_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name, if any",
+                "struct_parent": 14,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. A. Enter In Care Of Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    312.001,
+                    294.001,
+                    330.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 6,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. B. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    288.0,
+                    294.001,
+                    306.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. C. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.003,
+                    267.999,
+                    154.003,
+                    277.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    267.999,
+                    112.002,
+                    277.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    267.999,
+                    70.001,
+                    277.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt1Line4c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    263.999,
+                    294.001,
+                    281.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 11,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    239.998,
+                    294.001,
+                    257.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4c_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 13,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    216.0,
+                    294.001,
+                    234.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line4c_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 12,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    216.0,
+                    120.002,
+                    234.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt1Line4g_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "Enter a description of your location, (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition",
+                "struct_parent": 15,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 4. G. Enter a description of your location, (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    83.999,
+                    294.001,
+                    137.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line5_BusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Trade Name or \"Doing Business As\" Name (if applicable)",
+                "struct_parent": 16,
+                "tool_tip": "Part 1. Information about the Employer. Employer Address. 5. Enter Trade Name or \"Doing Business As\" Name (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    47.999,
+                    294.001,
+                    65.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line6_IDaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Daytime Telephone Number",
+                "struct_parent": 18,
+                "tool_tip": "Part 1. Information about the Employer. Employer's Contact Information. 6. Enter Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line7_MobilePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number (if any)",
+                "struct_parent": 20,
+                "tool_tip": "Part 1. Information about the Employer. Employer's Contact Information. 7. Enter Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    576.0,
+                    576.0,
+                    594.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line8_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Email Address (if any)",
+                "struct_parent": 19,
+                "tool_tip": "Part 1. Information about the Employer. Employer's Contact Information. 8. Enter Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    540.0,
+                    576.0,
+                    558.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line9_EIN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Employer Identification Number (E I N)",
+                "struct_parent": 21,
+                "tool_tip": "Part 1. Information about the Employer. Taxpayer Identification Numbers. Provide the following information as applicable: 9. Enter Employer Identification Number (E I N).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    455.998,
+                    576.0,
+                    473.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line10_ITIN[0]",
+                "field_type": "/Tx",
+                "description": "Enter Individual Taxpayer Identification Number (I T I N)",
+                "struct_parent": 23,
+                "tool_tip": "Part 1. Information about the Employer. Taxpayer Identification Numbers. 10. Enter Individual Taxpayer Identification Number (I T I N).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    335.999,
+                    576.0,
+                    353.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line11_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number (if any)",
+                "struct_parent": 24,
+                "tool_tip": "Part 1. Information about the Employer. Taxpayer Identification Numbers. 11. Enter U. S. Social Security Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    446.99,
+                    300.002,
+                    576.0,
+                    318.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line12_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter U S C I S Online Account Number (if any)",
+                "struct_parent": 22,
+                "tool_tip": "Part 1. Information about the Employer. Taxpayer Identification Numbers. 12. Enter U S C I S Online Account Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    264.008,
+                    576.0,
+                    282.008
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line13_EVerify[0]",
+                "field_type": "/Tx",
+                "description": "Enter Employer's Name as Listed in E-Verify",
+                "struct_parent": 25,
+                "tool_tip": "Part 1. Information about the Employer. E-Verify Information. 13. Enter Employer's Name as Listed in E-Verify.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt1Line14_EVerifyID[0]",
+                "field_type": "/Tx",
+                "description": "Enter Employer's E - Verify Company Identification Number or a Valid E - Verify Client Company Identification Number",
+                "struct_parent": 26,
+                "tool_tip": "Part 1. Information about the Employer. E-Verify Information. 14. Enter Employer's E - Verify Company Identification Number or a Valid E - Verify Client Company Identification Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    150.001,
+                    576.0,
+                    168.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Legal Name of Individual Employer or Sole  Proprietor",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Button1[0]",
+                "field_type": "/Btn",
+                "description": "This is the U S Postal Service ZIP Code Lookup site",
+                "struct_parent": 17,
+                "tool_tip": "Click this button to open: https://tools.usps.com/go/ZipLookupAction_input. This is the U S Postal Service ZIP Code Lookup site.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    348.001,
+                    294.001,
+                    366.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/BBox",
+                    "/FormType",
+                    "/Matrix",
+                    "/Resources",
+                    "/Subtype",
+                    "/Type"
+                ]
+            },
+            {
+                "field_name": "Line3b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 159,
+                "tool_tip": "Worker's Information. 3. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    329.998,
+                    294.001,
+                    347.998
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line3c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 160,
+                "tool_tip": "Worker's Information. 3. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    306.0,
+                    294.001,
+                    324.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line4_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 161,
+                "tool_tip": "Worker's Information. 4. Date of Birth. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    281.999,
+                    294.001,
+                    299.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line5_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 162,
+                "tool_tip": "Worker's Information. 5. Enter U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    164.991,
+                    245.999,
+                    294.001,
+                    263.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line6_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A Number), if any",
+                "struct_parent": 163,
+                "tool_tip": "Worker's Information. 6. Enter Alien Registration Number (A Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    164.991,
+                    209.999,
+                    294.001,
+                    227.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "pt7No7_No[0]",
+                "field_type": "/Btn",
+                "description": "Is the approved worker currently in C W - 1 status? Select No",
+                "struct_parent": 165,
+                "tool_tip": "Worker's Information. 7. Is the approved worker currently in C W - 1 status? Select No.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    181.0,
+                    273.999,
+                    191.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "pt7No7_Yes[0]",
+                "field_type": "/Btn",
+                "description": "Is the approved worker currently in C W - 1 status? Select Yes",
+                "struct_parent": 164,
+                "tool_tip": "Worker's Information. 7. Is the approved worker currently in C W - 1 status? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    181.0,
+                    232.001,
+                    191.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "pt7No8B[0]",
+                "field_type": "/Btn",
+                "description": "? Select No",
+                "struct_parent": 167,
+                "tool_tip": "Worker's Information. 8. A. Is the approved worker currently working for the employer name Item Number 2.? Select No.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    151.001,
+                    273.999,
+                    161.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/No"
+                ]
+            },
+            {
+                "field_name": "pt7No8A[0]",
+                "field_type": "/Btn",
+                "description": "? Select Yes",
+                "struct_parent": 166,
+                "tool_tip": "Worker's Information. 8. A. Is the approved worker currently working for the employer name Item Number 2.? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    151.001,
+                    232.001,
+                    161.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "/Yes"
+                ]
+            },
+            {
+                "field_name": "Line8b_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "Enter explanation why the worker is not currently working for the employer named in Item Number 2",
+                "struct_parent": 168,
+                "tool_tip": "Worker's Information. 8. B. Enter explanation why the worker is not currently working for the employer named in Item Number 2. ",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    54.0,
+                    294.001,
+                    108.0
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Taxpayer Identification Numbers",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line9b[1]",
+                "field_type": "/Btn",
+                "description": "No",
+                "struct_parent": 30,
+                "tool_tip": "No",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    427.002,
+                    556.001,
+                    437.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line9b[0]",
+                "field_type": "/Btn",
+                "description": "Yes",
+                "struct_parent": 29,
+                "tool_tip": "Yes",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    427.002,
+                    514.0,
+                    437.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt1Line9c[1]",
+                "field_type": "/Btn",
+                "description": "No",
+                "struct_parent": 32,
+                "tool_tip": "No",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    373.002,
+                    555.998,
+                    383.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt1Line9c[0]",
+                "field_type": "/Btn",
+                "description": "Yes",
+                "struct_parent": 31,
+                "tool_tip": "Yes",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    373.002,
+                    514.0,
+                    383.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Reporting Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line1a_DateFrom[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 27,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 1. A. Enter Date From. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    72.003,
+                    575.997,
+                    90.003
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Pt2Line1b_DateTo[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 28,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 1. B. Enter Date To. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    48.002,
+                    575.997,
+                    66.002
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 2.  Reporting Information  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt2Line2_PetitionReceiptNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Receipt Number of Approved Form I - 1 29 C W Petition",
+                "struct_parent": 48,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 2. Enter Receipt Number of Approved Form I - 1 29 C W Petition.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    684.0,
+                    294.001,
+                    702.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line3_ETA[0]",
+                "field_type": "/Tx",
+                "description": "Enter Employment and Training Administration (E T A) Case Number For Temporary Labor Certification (T L C)",
+                "struct_parent": 47,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 3. Enter Employment and Training Administration (E T A) Case Number For Temporary Labor Certification (T L C).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    635.998,
+                    294.001,
+                    653.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line4_TotalNumberWorker[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Number of Workers Approved on the Petition",
+                "struct_parent": 46,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 4. Enter Total Number of Workers Approved on the Petition.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    599.998,
+                    294.001,
+                    617.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt2Line5_TotalNumberWorker[0]",
+                "field_type": "/Tx",
+                "description": "Enter Total Number of Workers on the Approved Petition Who Are Currently Working For the Employer Named in Part 1",
+                "struct_parent": 34,
+                "tool_tip": "Part 2. Reporting Information. Reporting Period. 5. Enter Total Number of Workers on the Approved Petition Who Are Currently Working For the Employer Named in Part 1.",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    551.999,
+                    294.001,
+                    569.999
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Worker Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt3Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Worker Information. Provide the information requested in Item Numbers 1. A. through 4. as reported on the approved Form I- 1 29 C W petition. If the approved petition included more than one worker, use the Additional Worker Attachment for Form I- 1 29 C W R to provide the information for each additional worker.  Worker's Information. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    395.997,
+                    294.001,
+                    413.997
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    371.996,
+                    294.001,
+                    389.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    347.998,
+                    294.001,
+                    365.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line2_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 2. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    324.0,
+                    294.001,
+                    342.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line3_SSN[0]",
+                "field_type": "/Tx",
+                "description": "Social Security Number, if any",
+                "struct_parent": 39,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 3. Enter U.S. Social Security Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    164.991,
+                    288.0,
+                    294.001,
+                    306.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line4_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Number), if any",
+                "struct_parent": 40,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 4. Enter Alien Registration Number (A. Number), if any.",
+                "initial_value": "",
+                "rect": [
+                    164.991,
+                    252.0,
+                    294.001,
+                    270.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line5_No[0]",
+                "field_type": "/Btn",
+                "description": "Is the approved worker currently in C W - 1 status? Select No",
+                "struct_parent": 42,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 5. Is the approved worker currently in C W - 1 status? Select No.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    223.001,
+                    273.999,
+                    233.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt3Line5_Yes[0]",
+                "field_type": "/Btn",
+                "description": "Is the approved worker currently in C W - 1 status? Select Yes",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 5. Is the approved worker currently in C W - 1 status? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    223.001,
+                    232.001,
+                    233.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6A_No[0]",
+                "field_type": "/Btn",
+                "description": "? Select No",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 6. A. Is the approved worker currently working for the employer named in Part 1.? Select No.",
+                "initial_value": "",
+                "rect": [
+                    263.999,
+                    193.002,
+                    273.999,
+                    203.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6A_Yes[0]",
+                "field_type": "/Btn",
+                "description": "? Select Yes",
+                "struct_parent": 44,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 6. A. Is the approved worker currently working for the employer named in Part 1.? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    222.001,
+                    193.002,
+                    232.001,
+                    203.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line6b_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "Enter explanation",
+                "struct_parent": 43,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 6. B. If you answered \u201cNo,\u201d to Item Number 6. A., provide an explanation about why the worker is not currently working for the employer named in Part 1. Enter explanation.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    96.001,
+                    294.52,
+                    150.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line7a_Hours[0]",
+                "field_type": "/Ch",
+                "description": "Select the wage offered, per week or year, on the approved Form I-129CW petition",
+                "struct_parent": 66,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 7. A.  Select the wage offered, per week or year, on the approved Form I-129CW petition. ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    696.002,
+                    576.0,
+                    714.002
+                ],
+                "page_number": 2,
+                "options": [
+                    "week",
+                    "year"
+                ]
+            },
+            {
+                "field_name": "Pt3Line7a_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter what was the wage offered, per week or year, on the approved Form I- 1 29 C W petition",
+                "struct_parent": 65,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 7. A. Enter what was the wage offered, per week or year, on the approved Form I- 1 29 C W petition.",
+                "initial_value": "",
+                "rect": [
+                    390.002,
+                    696.002,
+                    473.998,
+                    714.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line7b_Hours[0]",
+                "field_type": "/Ch",
+                "description": "Select the actual wage, per week or per year, currently paid to this worker",
+                "struct_parent": 64,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 7. B. Select the actual wage, per week or per year, currently paid to this worker. ",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    618.004,
+                    576.0,
+                    636.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "week",
+                    "year"
+                ]
+            },
+            {
+                "field_name": "Pt3Line7b_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter what is the actual wage, per week or per year, currently paid to this worker",
+                "struct_parent": 63,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 7. B. Enter what is the actual wage, per week or per year, currently paid to this worker. ",
+                "initial_value": "",
+                "rect": [
+                    390.002,
+                    618.004,
+                    473.998,
+                    636.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "HowMany[0]",
+                "field_type": "/Tx",
+                "description": "Enter what are the hours, per week, offered on the approved Form I- 1 29 C W petition",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 8. A. Enter what are the hours, per week, offered on the approved Form I- 1 29 C W petition.",
+                "initial_value": "",
+                "rect": [
+                    504.499,
+                    546.004,
+                    576.0,
+                    564.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "HowMany[1]",
+                "field_type": "/Tx",
+                "description": "Enter what are the actual hours this worker worked per week",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 8. B. Enter what are the actual hours this worker worked per week.",
+                "initial_value": "",
+                "rect": [
+                    504.499,
+                    510.004,
+                    576.0,
+                    528.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line9_JobTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter what is the current job title of the worker's position",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 9. Enter what is the current job title of the worker's position.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    474.004,
+                    576.0,
+                    492.004
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line10_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "Enter what are the worker's current job duties",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 10. Enter what are the worker's current job duties.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    390.002,
+                    576.0,
+                    444.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line11_No[0]",
+                "field_type": "/Btn",
+                "description": "? Select No",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 11. A. Is the worker working at the location in Part 1. Item Number 3.? Select No.",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    361.006,
+                    555.998,
+                    371.006
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt3Line11_Yes[0]",
+                "field_type": "/Btn",
+                "description": "? Select Yes",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 11. A. Is the worker working at the location in Part 1. Item Number 3.? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    361.006,
+                    514.0,
+                    371.006
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt3Line12_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. If you answered \u201cNo\u201d to Item Number 11.Aa., provide the address where the worker will work. If the location has no address, describe the location where the worker will work and provide a map with your Form I - 1 29 C W R. 12. A. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    282.002,
+                    576.0,
+                    300.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    262.004,
+                    352.0,
+                    272.004
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Pt3Line12_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    262.001,
+                    436.002,
+                    272.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Pt3Line12_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    262.001,
+                    394.001,
+                    272.001
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Pt3Line12_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    258.001,
+                    576.0,
+                    276.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    234.003,
+                    576.0,
+                    252.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 62,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    210.002,
+                    576.0,
+                    228.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Pt3Line12_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 61,
+                "tool_tip": "Part 3. Worker Information. Worker's Information. 12. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    210.002,
+                    402.001,
+                    228.002
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Statement, Contact Information,  Certification, and Signature of the Employer or  Authorized Signatory",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt6Line1Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question",
+                "struct_parent": 68,
+                "tool_tip": "Part 5. Statement, Contact Information, Certification, and Signature of the Employer or Authorized Signatory. Employer's or Authorized Signatory's Statement. NOTE: Select the box for either Item Number 1. B. or 1. B. If applicable, select the box for Item Number 2. Select this box for: 1. A. I can read and understand English, and I have read and understand every question and instruction on this petition and my answer to every question.",
+                "initial_value": "",
+                "rect": [
+                    61.003,
+                    78.998,
+                    71.003,
+                    88.998
+                ],
+                "page_number": 3,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt6Line1Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "has read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent",
+                "struct_parent": 69,
+                "tool_tip": "Part 5. Statement, Contact Information, Certification, and Signature of the Employer or Authorized Signatory. Employer's or Authorized Signatory's Statement. Select this box for:  1. B. The interpreter named in Part 6. has read to me every question and instruction on this petition and my answer to every question in a language in which I am fluent.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    727.001,
+                    352.999,
+                    737.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt6Line1b_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language",
+                "struct_parent": 70,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Statement. 1. B. Enter Language.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    684.0,
+                    569.999,
+                    702.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", prepared this petition for me based only upon information I provided or authorized",
+                "struct_parent": 71,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Statement. Select this box for:  2. At my request, the preparer named in Part 7., prepared this petition for me based only upon information I provided or authorized.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    643.002,
+                    352.999,
+                    653.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/C"
+                ]
+            },
+            {
+                "field_name": "Pt6Line2_RepresentativeName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Preparer",
+                "struct_parent": 72,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Statement. 2. Enter Name of Preparer.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    623.999,
+                    569.999,
+                    641.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line3_PetitionerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Family Name (Last Name)",
+                "struct_parent": 74,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 3. A. Enter Authorized Signatory's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    521.997,
+                    576.0,
+                    539.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line4_PetitionerFirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Given Name (First Name)",
+                "struct_parent": 73,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 3. B. Enter Authorized Signatory's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    485.997,
+                    576.0,
+                    503.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line5_PetitionerTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Title",
+                "struct_parent": 75,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 4. Enter Authorized Signatory's Title.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    449.997,
+                    576.0,
+                    467.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line6_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Daytime Telephone Number",
+                "struct_parent": 76,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 5. Enter Authorized Signatory's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    341.665,
+                    413.997,
+                    575.999,
+                    431.997
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line7_MobileNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Mobile Telephone Number (if any)",
+                "struct_parent": 78,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 6. Enter Authorized Signatory's Mobile Telephone Number (if any).",
+                "initial_value": "",
+                "rect": [
+                    341.665,
+                    378.0,
+                    575.999,
+                    396.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "Pt6Line8_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Authorized Signatory's Email Address (if any)",
+                "struct_parent": 77,
+                "tool_tip": "Part 5., Employer's or Authorized Signatory's Contact Information. 7. Enter Authorized Signatory's Email Address (if any).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    342.0,
+                    576.0,
+                    360.0
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Statement, Contact Information,  Certification, and Signature of the Employer or  Authorized Signatory  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt5Line8a_SignatureofPetitioner[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 81,
+                "tool_tip": "Part 5. Statement, Contact Information, Certification, and Signature of the Employer or Authorized Signatory (continued).  Employer's or Authorized Signatory's Signature. 8. A. Petitioner's Signature.  This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    623.999,
+                    294.001,
+                    641.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt5Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 80,
+                "tool_tip": "Part 5. Statement, Contact Information, Certification, and Signature of the Employer or Authorized Signatory (continued).  Employer's or Authorized Signatory's Signature.  8. B. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    210.002,
+                    600.001,
+                    294.001,
+                    618.001
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Interpreter's Contact Information,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt6Line1a_InterpreterFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 83,
+                "tool_tip": "Part 6. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    467.997,
+                    294.001,
+                    485.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line1b_InterpreterGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 82,
+                "tool_tip": "Part 6., Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    431.997,
+                    294.001,
+                    449.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line2_InterpreterBusinessorOrg[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name, if any",
+                "struct_parent": 84,
+                "tool_tip": "Part 6., 2. Enter Interpreter's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    395.997,
+                    294.001,
+                    413.997
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 86,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    342.0,
+                    294.001,
+                    360.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 89,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.003,
+                    321.999,
+                    154.003,
+                    331.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/FLR"
+                ]
+            },
+            {
+                "field_name": "Pt6Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 88,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    321.999,
+                    112.002,
+                    331.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "Pt6Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 87,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    321.999,
+                    70.001,
+                    331.999
+                ],
+                "page_number": 4,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "Pt6Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 90,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    317.999,
+                    294.001,
+                    335.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 85,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    293.998,
+                    294.001,
+                    311.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 92,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    270.0,
+                    293.998,
+                    288.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 93,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    83.999,
+                    270.0,
+                    119.999,
+                    288.0
+                ],
+                "page_number": 4,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt6Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 95,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    245.999,
+                    294.001,
+                    263.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 91,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    221.998,
+                    294.001,
+                    239.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 94,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    185.998,
+                    294.001,
+                    203.998
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line3i_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "If you are located in the C N M I and your place of business does not have a physical address, enter a description of your location (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition",
+                "struct_parent": 96,
+                "tool_tip": "Part 6., Interpreter's Mailing Address. 3. I. If you are located in the C N M I and your place of business does not have a physical address, enter a description of your location (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition.",
+                "initial_value": "",
+                "rect": [
+                    59.482,
+                    65.999,
+                    294.001,
+                    119.999
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line4_InterpreterDaytimeTelephone[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Daytime Telephone Number",
+                "struct_parent": 97,
+                "tool_tip": "Part 6., Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    684.0,
+                    576.0,
+                    702.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line5_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Mobile Telephone Number, if any",
+                "struct_parent": 99,
+                "tool_tip": "Part 6., Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    648.0,
+                    576.0,
+                    666.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line6_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, if any",
+                "struct_parent": 98,
+                "tool_tip": "Part 6., Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    612.0,
+                    576.0,
+                    630.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6_NameofLanguage[0]",
+                "field_type": "/Tx",
+                "description": "The petitioner or authorized signatory informed me that he or she understands every instruction, question, and answer on the petition, including the Petitioner's or Authorized Signatory's Declaration and Certification, and has verified the accuracy of every answer",
+                "struct_parent": 100,
+                "tool_tip": "Part 6., Interpreter's Certification. I certify, under penalty of perjury, that: I am fluent in English and (another language), which is the same language specified in Part 5., Item Number 1. A., and I have read to this petitioner or the authorized signatory in the identified language every question and instruction on this petition and his or her answer to every question.  The petitioner or authorized signatory informed me that he or she understands every instruction, question, and answer on the petition, including the Petitioner's or Authorized Signatory's Declaration and Certification, and has verified the accuracy of every answer. ",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    546.001,
+                    573.001,
+                    564.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line7a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 102,
+                "tool_tip": "Part 6., Interpreter's Signature. 7. A. Interpreter's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    384.001,
+                    576.0,
+                    402.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt6Line7b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 101,
+                "tool_tip": "Part 6., Interpreter's Signature. 7. B. Date of Signature.  Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    492.001,
+                    360.003,
+                    576.0,
+                    378.003
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and  Signature of the Person Preparing This  Certification, if Other Than the Petitioner or  Authorized Signatory",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt7Line1a_PreparerFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 105,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing This Certification, if Other Than the Petitioner or Authorized Signatory. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt7Line1b_PreparerGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 103,
+                "tool_tip": "Part 7., Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    162.0,
+                    576.0,
+                    180.0
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "Pt7Line2_BusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name, if any",
+                "struct_parent": 104,
+                "tool_tip": "Part 7., 2. Enter Preparer's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    126.0,
+                    576.0,
+                    144.0
+                ],
+                "page_number": 4
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Contact Information, Declaration, and  Signature of the Person Preparing This  Certification, if Other Than the Petitioner or  Authorized Signatory  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt7Line3_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 111,
+                "tool_tip": "Part 7. Contact Information, Declaration, and Signature of the Person Preparing This Certification, if Other Than the Petitioner or Authorized Signatory (continued). Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    624.002,
+                    294.001,
+                    642.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 114,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.003,
+                    604.001,
+                    154.003,
+                    614.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/FLR "
+                ]
+            },
+            {
+                "field_name": "Pt7Line3_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 113,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    102.002,
+                    604.001,
+                    112.002,
+                    614.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/STE"
+                ]
+            },
+            {
+                "field_name": "Pt7Line3_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 112,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    604.001,
+                    70.001,
+                    614.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/APT"
+                ]
+            },
+            {
+                "field_name": "Pt7Line3_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 115,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    600.001,
+                    294.001,
+                    618.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 110,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    576.0,
+                    294.001,
+                    594.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 116,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    552.002,
+                    294.001,
+                    570.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 117,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    84.002,
+                    552.002,
+                    120.002,
+                    570.002
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Pt7Line3_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 109,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    528.001,
+                    294.001,
+                    546.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 107,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    504.0,
+                    294.001,
+                    522.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 108,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    468.0,
+                    294.001,
+                    486.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line3i_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "If you are located in the C N M I and your place of business does not have a physical address, enter a description of your location (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition",
+                "struct_parent": 118,
+                "tool_tip": "Part 7., Preparer's Mailing Address. 3. I. If you are located in the C N M I and your place of business does not have a physical address, enter a description of your location (for example: \"3 miles southwest of Any town Post Office, near the water tower\") and provide a map with your petition.",
+                "initial_value": "",
+                "rect": [
+                    59.482,
+                    348.001,
+                    294.001,
+                    402.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line4_DaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Daytime Telephone Number",
+                "struct_parent": 120,
+                "tool_tip": "Part 7., Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    281.999,
+                    294.001,
+                    299.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line5_PreparerFaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Mobile Telephone Number, if any",
+                "struct_parent": 119,
+                "tool_tip": "Part 7., Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    245.999,
+                    294.001,
+                    263.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line6_Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 121,
+                "tool_tip": "Part 7., Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    209.999,
+                    294.001,
+                    227.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt8Line7_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "I am not an attorney or accredited representative but have prepared this form on behalf of the employer and with the employer's consent",
+                "struct_parent": 127,
+                "tool_tip": "Part 7., Preparer's Statement. Select this box for:  7. A. I am not an attorney or accredited representative but have prepared this form on behalf of the employer and with the employer's consent. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    703.003,
+                    352.999,
+                    713.003
+                ],
+                "page_number": 5,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "Pt8Line7_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "I am an attorney or accredited representative,and my representation of the employer in this case",
+                "struct_parent": 124,
+                "tool_tip": "Part 7., Preparer's Statement. Select this box for:  7. B. I am an attorney or accredited representative,and my representation of the employer in this case. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    661.002,
+                    352.999,
+                    671.002
+                ],
+                "page_number": 5,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "Pt8Line7b_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "I am an attorney or accredited representative, and my representation of the employer in this case does not extend beyond the preparation of this petition",
+                "struct_parent": 126,
+                "tool_tip": "Part 7., Preparer's Statement. Select this box for: 7. B. I am an attorney or accredited representative, and my representation of the employer in this case does not extend beyond the preparation of this petition.",
+                "initial_value": "",
+                "rect": [
+                    408.998,
+                    637.004,
+                    418.998,
+                    647.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Pt8Line7b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "I am an attorney or accredited representative, and my representation of the employer in this case extends beyond the preparation of this petition",
+                "struct_parent": 125,
+                "tool_tip": "Part 7., Preparer's Statement. Select this box for: 7. B. I am an attorney or accredited representative, and my representation of the employer in this case extends beyond the preparation of this petition. ",
+                "initial_value": "",
+                "rect": [
+                    360.999,
+                    637.004,
+                    370.999,
+                    647.004
+                ],
+                "page_number": 5,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Pt7Line8a_Signature[0]",
+                "field_type": "/Tx",
+                "description": "Print and sign in ink",
+                "struct_parent": 122,
+                "tool_tip": "Part 7., Preparer's Signature.  8. A. Preparer's Signature. This signature field can not be signed with a digital signature and the signee's name can not be typewritten into this space. This is a protected field. Print and sign in ink.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    372.002,
+                    576.0,
+                    390.002
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "Pt7Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter date as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 123,
+                "tool_tip": "Part 7., Preparer's Signature. 8. B. Date of Signature. Enter date as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    491.998,
+                    348.001,
+                    575.997,
+                    366.001
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 8.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Pt1Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 133,
+                "tool_tip": "Part 8. Additional Information. 1. A. Family Name (Last Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    594.0,
+                    294.004,
+                    612.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 134,
+                "tool_tip": "Part 8.,1. B. Given Name (First Name). This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    569.999,
+                    294.004,
+                    587.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt1Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "This field is pre-populated from Page 1",
+                "struct_parent": 135,
+                "tool_tip": "Part 8., 1. C. Middle Name. This field is pre-populated from Page 1.",
+                "initial_value": "",
+                "rect": [
+                    120.005,
+                    545.998,
+                    294.004,
+                    563.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt9Line2_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Alien Registration Number (A  Number), if any",
+                "struct_parent": 140,
+                "tool_tip": "Part 8., 2. Enter Alien Registration Number (A  Number), if any. ",
+                "initial_value": "",
+                "rect": [
+                    164.962,
+                    522.0,
+                    293.972,
+                    540.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 132,
+                "tool_tip": "Part 8., 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.001,
+                    480.002,
+                    294.001,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 131,
+                "tool_tip": "Part 8., 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.001,
+                    480.002,
+                    204.001,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 130,
+                "tool_tip": "Part 8., 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    480.002,
+                    114.001,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 129,
+                "tool_tip": "Part 8., 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    293.899,
+                    294.021,
+                    473.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 139,
+                "tool_tip": "Part 8., 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    240.007,
+                    252.0,
+                    294.007,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 138,
+                "tool_tip": "Part 8., 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    150.007,
+                    252.0,
+                    204.007,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 137,
+                "tool_tip": "Part 8., 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    60.007,
+                    252.0,
+                    114.007,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 136,
+                "tool_tip": "Part 8., 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    60.007,
+                    65.999,
+                    294.007,
+                    245.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line5c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 147,
+                "tool_tip": "Part 8., 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    708.001,
+                    576.0,
+                    726.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 146,
+                "tool_tip": "Part 8., 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.006,
+                    708.001,
+                    486.006,
+                    726.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 145,
+                "tool_tip": "Part 8., 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    708.001,
+                    396.006,
+                    726.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 148,
+                "tool_tip": "Part 8., 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.98,
+                    522.0,
+                    576.0,
+                    702.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 143,
+                "tool_tip": "Part 8., 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    480.002,
+                    576.0,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 142,
+                "tool_tip": "Part 8., 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    480.002,
+                    486.0,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line7a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 141,
+                "tool_tip": "Part 8., 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    480.002,
+                    396.0,
+                    498.002
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 144,
+                "tool_tip": "Part 8., 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.98,
+                    294.001,
+                    576.0,
+                    474.001
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line7c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 151,
+                "tool_tip": "Part 8., 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    252.0,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line7b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 150,
+                "tool_tip": "Part 8., 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.006,
+                    252.0,
+                    486.006,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line7a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 149,
+                "tool_tip": "Part 8., 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    252.0,
+                    396.006,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "Pt8_Line7d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 152,
+                "tool_tip": "Part 8., 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.98,
+                    65.999,
+                    576.0,
+                    245.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Worker's Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 154,
+                "tool_tip": "Legal Name of Individual Employer or Sole Proprietor. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    522.0,
+                    294.001,
+                    540.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 155,
+                "tool_tip": "Legal Name of Individual Employer or Sole Proprietor. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    497.999,
+                    294.001,
+                    515.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 156,
+                "tool_tip": "Legal Name of Individual Employer or Sole Proprietor. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    474.001,
+                    294.001,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line2_NameOfEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Employer or Organization",
+                "struct_parent": 157,
+                "tool_tip": "Employing Company or Organization Name . 2. Enter Name of Employer or Organization.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    407.996,
+                    294.086,
+                    425.996
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Employing Company or Organization Name",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line3a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 158,
+                "tool_tip": "Worker's Information. 3. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    353.999,
+                    294.001,
+                    371.999
+                ],
+                "page_number": 7
+            }
+        ]
+    },
+    {
+        "title": "Additional Worker Attachment for Form I-129CWR",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Line9a_Hours[0]",
+                "field_type": "/Ch",
+                "description": "Select if the wage offered, per week or year, on the approved Form I- 1 29 C W petition",
+                "struct_parent": 170,
+                "tool_tip": "Worker's Information. 9. A. Select if the wage offered, per week or year, on the approved Form I- 1 29 C W petition.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    636.001,
+                    576.0,
+                    654.001
+                ],
+                "page_number": 7,
+                "options": [
+                    "week",
+                    "year"
+                ]
+            },
+            {
+                "field_name": "Line9a_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter what was the wage offered, per week or year, on the approved Form I- 1 29 C W petition",
+                "struct_parent": 169,
+                "tool_tip": "Worker's Information. 9. A. Enter what was the wage offered, per week or year, on the approved Form I- 1 29 C W petition.",
+                "initial_value": "",
+                "rect": [
+                    390.002,
+                    636.001,
+                    473.998,
+                    654.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line9_Hours[0]",
+                "field_type": "/Ch",
+                "description": "Select if the actual wage, per week or per currently paid to this worker per week or year",
+                "struct_parent": 178,
+                "tool_tip": "Worker's Information. 9. B. Select if the actual wage, per week or per currently paid to this worker per week or year.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    558.003,
+                    576.0,
+                    576.003
+                ],
+                "page_number": 7,
+                "options": [
+                    "week",
+                    "year"
+                ]
+            },
+            {
+                "field_name": "Line9b_Wages[0]",
+                "field_type": "/Tx",
+                "description": "Enter what is the actual wage, per week or per currently paid to this worker",
+                "struct_parent": 177,
+                "tool_tip": "Worker's Information. 9. B. Enter what is the actual wage, per week or per currently paid to this worker.",
+                "initial_value": "",
+                "rect": [
+                    390.002,
+                    558.003,
+                    473.998,
+                    576.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "HowMany[0]",
+                "field_type": "/Tx",
+                "description": "Enter what are the hours, per week, offered on the approved Form I- 1 29 C W petition",
+                "struct_parent": 171,
+                "tool_tip": "Worker's Information. 10. A. Enter what are the hours, per week, offered on the approved Form I- 1 29 C W petition.",
+                "initial_value": "",
+                "rect": [
+                    504.499,
+                    522.003,
+                    576.0,
+                    540.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "HowMany[1]",
+                "field_type": "/Tx",
+                "description": "Enter what are the actual hours this worker worked per week",
+                "struct_parent": 172,
+                "tool_tip": "Worker's Information. 10. B. Enter what are the actual hours this worker worked per week.",
+                "initial_value": "",
+                "rect": [
+                    504.499,
+                    486.003,
+                    576.0,
+                    504.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line11_JobTitle[0]",
+                "field_type": "/Tx",
+                "description": "Enter what is the current job title of the worker's position",
+                "struct_parent": 173,
+                "tool_tip": "Worker's Information. 11. Enter what is the current job title of the worker's position.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    450.003,
+                    576.0,
+                    468.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Line12_OtherExplain[0]",
+                "field_type": "/Tx",
+                "description": "Enter what are the worker's current job duties",
+                "struct_parent": 174,
+                "tool_tip": "Worker's Information. 12. Enter what are the worker's current job duties.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    366.001,
+                    576.0,
+                    420.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "AddSecLine13_No[0]",
+                "field_type": "/Btn",
+                "description": "of Form I - 1 29 C W R? Select No",
+                "struct_parent": 176,
+                "tool_tip": "Worker's Information. 13. A. Is the worker working at the location in Part 1. Item Number 3. of Form I - 1 29 C W R? Select No.",
+                "initial_value": "",
+                "rect": [
+                    545.998,
+                    337.005,
+                    555.998,
+                    347.005
+                ],
+                "page_number": 7,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "AddSecLine13_Yes[0]",
+                "field_type": "/Btn",
+                "description": "of Form I- 1 29 C W R?  Select Yes",
+                "struct_parent": 175,
+                "tool_tip": "Worker's Information. 13. A. Is the worker working at the location in Part 1. Item Number 3. of Form I- 1 29 C W R?  Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    504.0,
+                    337.005,
+                    514.0,
+                    347.005
+                ],
+                "page_number": 7,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "AddSecLine14_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Name and Number",
+                "struct_parent": 179,
+                "tool_tip": "Worker's Information. If you answered \u201cNo\u201d to Item Number 13. A., provide the address where the worker will work. If the location has no address, describe the location where the worker will work and provide a map with your Form I - 1 29 C W R. 14. A. Enter Street Name and Number.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    258.001,
+                    576.0,
+                    276.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "AddSecLine14_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Floor",
+                "struct_parent": 182,
+                "tool_tip": "Worker's Information. 14. B. Select Floor.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    238.0,
+                    436.002,
+                    248.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "AddSecLine14_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 181,
+                "tool_tip": "Worker's Information. 14. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.001,
+                    238.0,
+                    394.001,
+                    248.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "AddSecLine14_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 180,
+                "tool_tip": "Worker's Information. 14. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    238.0,
+                    352.0,
+                    248.0
+                ],
+                "page_number": 7,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "AddSecLine14_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 183,
+                "tool_tip": "Worker's Information. 14. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    234.0,
+                    576.0,
+                    252.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "AddSecLine14_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 184,
+                "tool_tip": "Worker's Information. 14. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    209.999,
+                    576.0,
+                    227.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "AddSecLine14_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter ZIP Code",
+                "struct_parent": 186,
+                "tool_tip": "Worker's Information. 14. E. Enter ZIP Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    186.001,
+                    576.0,
+                    204.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "AddSecLine14_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 185,
+                "tool_tip": "Worker's Information. 14. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    366.001,
+                    186.001,
+                    402.001,
+                    204.001
+                ],
+                "page_number": 7,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            }
+        ]
+    }
+]

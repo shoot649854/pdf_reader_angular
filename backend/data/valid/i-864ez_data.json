@@ -1,0 +1,3069 @@
+[
+    {
+        "title": "Part 2.  Information About the Immigrant You  Are Sponsoring (Intending Immigrant)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "G28-CheckBox1[0]",
+                "field_type": "/Btn",
+                "description": "Select this box if Form G- 28 or Form G- 28 I is attached",
+                "struct_parent": 29,
+                "tool_tip": "To be completed by an attorney or accredited representative (if any).  Select this box if Form G- 28 or Form G- 28 I is attached.",
+                "initial_value": "",
+                "rect": [
+                    144.502,
+                    588.999,
+                    154.502,
+                    598.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/1"
+                ]
+            },
+            {
+                "field_name": "Part2_Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 1,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Name of Immigrant. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    282.002,
+                    294.001,
+                    300.002
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 2,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Name of Immigrant. 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    258.001,
+                    294.001,
+                    276.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 3,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Name of Immigrant. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    234.0,
+                    294.001,
+                    252.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name",
+                "struct_parent": 12,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. A. Enter In Care Of Name.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    473.998,
+                    576.0,
+                    491.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 13,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    450.0,
+                    576.0,
+                    468.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 17,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    430.002,
+                    352.998,
+                    440.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P2_Line2_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 15,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. C. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    427.0,
+                    429.999,
+                    437.0,
+                    439.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P2_Line2_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 14,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.999,
+                    429.999,
+                    394.999,
+                    439.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P2_Line2_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 16,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    425.999,
+                    576.0,
+                    443.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 18,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    401.998,
+                    576.0,
+                    419.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 21,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    473.998,
+                    378.0,
+                    576.0,
+                    396.0
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from list of States",
+                "struct_parent": 20,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. E. Select State from list of States.",
+                "initial_value": "",
+                "rect": [
+                    368.001,
+                    378.0,
+                    401.998,
+                    396.0
+                ],
+                "page_number": 1,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P2_Line2_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 19,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    353.999,
+                    576.0,
+                    371.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 23,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    329.998,
+                    576.0,
+                    347.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "P2_Line2_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 22,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Mailing Address. 2. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    294.001,
+                    576.0,
+                    312.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line3_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 24,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Other Information. 3. Enter Daytime Telephone Number. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    227.999,
+                    576.0,
+                    245.999
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line4_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2 digit-Day and 4-digit Year",
+                "struct_parent": 4,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Other Information. 4. Enter Date of Birth. Enter as 2-digit Month, 2 digit-Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    204.001,
+                    576.0,
+                    222.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line5_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "9 digits",
+                "struct_parent": 25,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Other Information. 5. Enter Alien Registration Number. (A. Number), if any. 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    446.82,
+                    168.001,
+                    575.83,
+                    186.001
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line6_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "12 characters",
+                "struct_parent": 26,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Other Information. 6. Enter U S C I S Online Account Number, if any. 12 characters.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    131.998,
+                    576.008,
+                    149.998
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "Part2_Line7_SSN[0]",
+                "field_type": "/Tx",
+                "description": "9 digits",
+                "struct_parent": 11,
+                "tool_tip": "Part 2. Information About the Immigrant You Are Sponsoring (Intending Immigrant). Other Information. 7. Enter U.S. Social Security Number, if any. 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    446.947,
+                    96.001,
+                    575.957,
+                    114.001
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Other Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "AttorneyStateBarNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Attorney or State Bar Number (if applicable)",
+                "struct_parent": 27,
+                "tool_tip": "To be completed by an attorney or accredited representative (if any).  Enter Attorney or State Bar Number (if applicable).",
+                "initial_value": "",
+                "rect": [
+                    252.0,
+                    557.997,
+                    384.001,
+                    575.997
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "12 characters",
+                "struct_parent": 28,
+                "tool_tip": "To be completed by an attorney or accredited representative (if any).  Enter Attorney or Accredited Representative Number U S C I S Online Account Number (if any). 12 characters.",
+                "initial_value": "",
+                "rect": [
+                    396.0,
+                    557.997,
+                    570.01,
+                    575.997
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "Part 1.    Qualifying to Use Form I-864EZ",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P1_Line1a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select No (Use Form I - 8 64)",
+                "struct_parent": 5,
+                "tool_tip": "Part 1. Qualifying to Use Form I - 8 64 E Z. 1. A. Select No (Use Form I - 8 64).",
+                "initial_value": "",
+                "rect": [
+                    194.159,
+                    478.001,
+                    204.159,
+                    488.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line1a_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 6,
+                "tool_tip": "START HERE - Type or print in black ink. Part 1. Qualifying to Use Form I - 8 64 E Z. 1. A. I am the petitioner of the family member sponsored on this affidavit. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    152.161,
+                    478.001,
+                    162.161,
+                    488.001
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line1b_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 8,
+                "tool_tip": "Part 1. Qualifying to Use Form I - 8 64 E Z. 1. B. I am using my own earned or retirement income, which is documented using Internal Revenue Service (I R S) Form W - 2. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    152.161,
+                    430.002,
+                    162.161,
+                    440.002
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P1_Line1b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select No (Use Form I - 8 64)",
+                "struct_parent": 7,
+                "tool_tip": "Part 1. Qualifying to Use Form I - 8 64 E Z. 1. B. I am using my own earned or retirement income, which is documented using Internal Revenue Service ( IR S) Form W-2. Select No (Use Form I - 8 64).",
+                "initial_value": "",
+                "rect": [
+                    194.159,
+                    429.999,
+                    204.159,
+                    439.999
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line1c_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select No (Use Form I - 8 64)",
+                "struct_parent": 9,
+                "tool_tip": "Part 1. Qualifying to Use Form I - 8 64 E Z. 1. C. The sponsored immigrant is the only person immigrating based on the underlying visa petition. Select No (Use Form I - 8 64).",
+                "initial_value": "",
+                "rect": [
+                    194.162,
+                    382.0,
+                    204.162,
+                    392.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P1_Line1c_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 10,
+                "tool_tip": "Part 1. Qualifying to Use Form I - 8 64 E Z. 1. C. The sponsored immigrant is the only person immigrating based on the underlying visa petition. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    152.161,
+                    382.0,
+                    162.161,
+                    392.0
+                ],
+                "page_number": 1,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 3.  Information About You (Sponsor)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part3_Line1a_FamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 45,
+                "tool_tip": "Part 3. Information About You (Sponsor). 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    702.0,
+                    294.001,
+                    720.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line1b_GivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 46,
+                "tool_tip": "Part 3. Information About You (Sponsor). 1. B. Enter Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    677.999,
+                    294.001,
+                    695.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line1c_MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 47,
+                "tool_tip": "Part 3. Information About You (Sponsor). 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    120.002,
+                    653.998,
+                    294.001,
+                    671.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2a_InCareofName[0]",
+                "field_type": "/Tx",
+                "description": "Enter In Care Of Name",
+                "struct_parent": 33,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. A. Enter In Care Of Name.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    587.999,
+                    294.001,
+                    605.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2b_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 34,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. B. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    564.001,
+                    294.001,
+                    582.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2c_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 38,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. C. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    544.003,
+                    70.999,
+                    554.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part3_Line2c_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 36,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. C. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    145.001,
+                    544.0,
+                    155.001,
+                    554.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part3_Line2c_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 35,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. C. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    544.0,
+                    113.0,
+                    554.0
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part3_Line2c_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 37,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. C. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    540.0,
+                    294.001,
+                    558.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2d_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 39,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. D. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    515.999,
+                    294.001,
+                    533.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2f_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 42,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. F. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    492.001,
+                    294.001,
+                    510.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2e_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 41,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. E. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    86.002,
+                    492.001,
+                    119.999,
+                    510.001
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part3_Line2g_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 40,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. G. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    468.0,
+                    294.001,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2h_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 44,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. H. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    443.999,
+                    294.001,
+                    461.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line2i_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 43,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 2. I. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    408.002,
+                    294.001,
+                    426.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line3_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", provide your physical address below",
+                "struct_parent": 48,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 3. Is your current mailing address the same as your physical address? Select No. If you answered \"No\" to Item Number 3., provide your physical address below.",
+                "initial_value": "",
+                "rect": [
+                    260.161,
+                    375.999,
+                    270.161,
+                    385.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "Part3_Line3_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Is your current mailing address the same as your physical address? Select Yes",
+                "struct_parent": 49,
+                "tool_tip": "Part 3. Information About You (Sponsor). Mailing Address. 3. Is your current mailing address the same as your physical address? Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    218.16,
+                    375.999,
+                    228.16,
+                    385.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "Part3_Line4a_StreetNumberNameA[0]",
+                "field_type": "/Tx",
+                "description": "Street Number and Name",
+                "struct_parent": 51,
+                "tool_tip": "Part 3. Information About You (Sponsor). If you answered \"No\" to Item Number 3., provide your physical address below. Physical Address. 4. A. Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    288.003,
+                    294.001,
+                    306.003
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4b_UnitA[2]",
+                "field_type": "/Btn",
+                "description": "Select  Apartment",
+                "struct_parent": 55,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. B. Select  Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    267.999,
+                    70.999,
+                    277.999
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "Part3_Line4b_UnitA[1]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 53,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. B. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    267.996,
+                    154.998,
+                    277.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "Part3_Line4b_UnitA[0]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 52,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    267.996,
+                    113.0,
+                    277.996
+                ],
+                "page_number": 2,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "Part3_Line4b_AptSteFlrNumberA[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 54,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    263.996,
+                    294.001,
+                    281.996
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 50,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    239.998,
+                    294.001,
+                    257.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 58,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    192.002,
+                    216.0,
+                    294.001,
+                    234.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 59,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    86.002,
+                    216.0,
+                    120.002,
+                    234.0
+                ],
+                "page_number": 2,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "Part3_Line4f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 57,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    192.002,
+                    294.001,
+                    210.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 56,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    168.001,
+                    294.001,
+                    186.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line4h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 60,
+                "tool_tip": "Part 3. Information About You (Sponsor). Physical Address. 4. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    132.001,
+                    294.001,
+                    150.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line5_CountryofDomicile[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Domicile",
+                "struct_parent": 61,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 5. Enter Country of Domicile.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    65.988,
+                    294.001,
+                    83.988
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line6_DateOfBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 62,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 6. Enter Date of Birth. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    41.998,
+                    294.001,
+                    59.998
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line7_CityorTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town of Birth",
+                "struct_parent": 64,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 7. Enter City or Town of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    714.002,
+                    576.0,
+                    732.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "Part3_Line8_StateofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter State or Province of Birth, if applicable",
+                "struct_parent": 65,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 8. Enter State or Province of Birth, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    678.002,
+                    576.0,
+                    696.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line9_CountryofBirth[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country of Birth",
+                "struct_parent": 66,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 9. Enter Country of Birth.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    642.002,
+                    576.0,
+                    660.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line10_SSN[0]",
+                "field_type": "/Tx",
+                "description": "9 digits",
+                "struct_parent": 63,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 10. Enter U.S. Social Security Number (Required). 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    446.947,
+                    606.002,
+                    575.957,
+                    624.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line2_USCISOnlineAcctNumber[0]",
+                "field_type": "/Tx",
+                "description": "12 characters",
+                "struct_parent": 67,
+                "tool_tip": "Part 3. Information About You (Sponsor). Other Information. 11. Enter U S C I S Online Account Number, if any. 12 characters.",
+                "initial_value": "",
+                "rect": [
+                    401.998,
+                    570.002,
+                    576.008,
+                    588.002
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line12_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "citizen",
+                "struct_parent": 69,
+                "tool_tip": "Part 3. Information About You (Sponsor). Citizenship or Nationality. 12. Select I am a U.S. citizen.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    523.003,
+                    352.999,
+                    533.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P3_Line12_Checkbox[2]",
+                "field_type": "/Btn",
+                "description": "Select I am a lawful permanent resident",
+                "struct_parent": 70,
+                "tool_tip": "Part 3. Information About You (Sponsor). Citizenship or Nationality. 13. A. Select I am a lawful permanent resident.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    505.003,
+                    352.999,
+                    515.003
+                ],
+                "page_number": 2,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P3_Line12c_AlienNumber[0]",
+                "field_type": "/Tx",
+                "description": "9 digits",
+                "struct_parent": 71,
+                "tool_tip": "Part 3. Information About You (Sponsor). Citizenship or Nationality. 13. B. Enter your alien registration number. 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    446.947,
+                    468.0,
+                    575.957,
+                    486.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P3_Line12_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "national",
+                "struct_parent": 68,
+                "tool_tip": "Part 3. Information About You (Sponsor). Citizenship or Nationality. 14. Select I am a U.S. national.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    451.011,
+                    352.999,
+                    461.011
+                ],
+                "page_number": 2,
+                "options": [
+                    "/D"
+                ]
+            },
+            {
+                "field_name": "P3_Line13_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select No",
+                "struct_parent": 72,
+                "tool_tip": "Part 3. Information About You (Sponsor). Military Service. 15. I am currently on active duty in the United States Armed Forces or U.S. Coast Guard. Select No.",
+                "initial_value": "",
+                "rect": [
+                    542.16,
+                    387.998,
+                    552.16,
+                    397.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P3_Line13_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select Yes",
+                "struct_parent": 73,
+                "tool_tip": "Part 3. Information About You (Sponsor). Military Service. 15. I am currently on active duty in the United States Armed Forces or U.S. Coast Guard. Select Yes.",
+                "initial_value": "",
+                "rect": [
+                    500.159,
+                    387.998,
+                    510.159,
+                    397.998
+                ],
+                "page_number": 2,
+                "options": [
+                    "/Y"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Part 4.  Information About Your Household Size",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P4_Line1a_TotalNumberofImmigrants[0]",
+                "field_type": "/Tx",
+                "description": "The number 2 is entered in this space for you",
+                "struct_parent": 78,
+                "tool_tip": "Part 4. Information About Your Household Size. NOTE:  Do not count any household member more than once. 1. A. Enter Yourself and the person you are sponsoring on this Form I - 8 64 E Z. The number 2 is entered in this space for you.",
+                "initial_value": "2",
+                "rect": [
+                    546.001,
+                    294.001,
+                    576.0,
+                    312.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_Line1b_Spouse[0]",
+                "field_type": "/Tx",
+                "description": "Enter Your Spouse",
+                "struct_parent": 77,
+                "tool_tip": "Part 4. Information About Your Household Size. 1. B. Enter Your Spouse.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    270.0,
+                    576.0,
+                    288.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_Line1c_Dependent[0]",
+                "field_type": "/Tx",
+                "description": "Enter Your dependent children under 21 years of age",
+                "struct_parent": 76,
+                "tool_tip": "Part 4. Information About Your Household Size. 1. C. Enter Your dependent children under 21 years of age.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    245.999,
+                    576.0,
+                    263.999
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_Line1d_sponsoredpersons[0]",
+                "field_type": "/Tx",
+                "description": "If you have sponsored any other persons on a Form I - 8 64 who are now lawful permanent residents in the United States, enter the number here",
+                "struct_parent": 74,
+                "tool_tip": "Part 4. Information About Your Household Size. 1. D. If you have sponsored any other persons on a Form I - 8 64 who are now lawful permanent residents in the United States, enter the number here. ",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    198.0,
+                    576.0,
+                    216.0
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_Line1e_otherDependents[0]",
+                "field_type": "/Tx",
+                "description": "If you have any other dependents listed on your most recent Federal income tax return, enter the number here",
+                "struct_parent": 75,
+                "tool_tip": "Part 4. Information About Your Household Size. 1. E. If you have any other dependents listed on your most recent Federal income tax return, enter the number here.",
+                "initial_value": "",
+                "rect": [
+                    546.001,
+                    150.001,
+                    576.0,
+                    168.001
+                ],
+                "page_number": 2
+            },
+            {
+                "field_name": "P4_Line1f_AddTogether[0]",
+                "field_type": "/Tx",
+                "description": "This is your HOUSEHOLD SIZE for the purpose of this Form I - 8 64 E Z",
+                "struct_parent": 79,
+                "tool_tip": "Part 4. Information About Your Household Size. 1. F. Add together Item Numbers 1. A. through 1. E. and enter the number here.  This is your HOUSEHOLD SIZE for the purpose of this Form I - 8 64 E Z.",
+                "initial_value": "2",
+                "rect": [
+                    546.001,
+                    101.999,
+                    576.0,
+                    119.999
+                ],
+                "page_number": 2
+            }
+        ]
+    },
+    {
+        "title": "Part 5.  Information About Your Employment  and Income",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P5_Line1_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "C",
+                "struct_parent": 88,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 1. I am currently. Select Employed (Complete Item Numbers 2. A. through 2. C.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    676.001,
+                    72.161,
+                    686.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/E"
+                ]
+            },
+            {
+                "field_name": "P5_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "B",
+                "struct_parent": 87,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 1. I am currently. Select Retired (Complete Item Numbers 3. A. through 3. B.)",
+                "initial_value": "",
+                "rect": [
+                    62.161,
+                    658.001,
+                    72.161,
+                    668.001
+                ],
+                "page_number": 3,
+                "options": [
+                    "/R"
+                ]
+            },
+            {
+                "field_name": "P5_Line2a_CurrentOccupation[0]",
+                "field_type": "/Tx",
+                "description": "Enter Current Occupation, if applicable",
+                "struct_parent": 82,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 2. A. Enter Current Occupation, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    618.001,
+                    294.001,
+                    636.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line2b_NameofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Employer Number 1, if applicable",
+                "struct_parent": 83,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 2. B. Enter Name of Employer Number 1, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    582.001,
+                    294.001,
+                    600.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line2c_NameofEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Employer Number 2, if applicable",
+                "struct_parent": 84,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 2. C. Enter Name of Employer Number 2, if applicable.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    546.001,
+                    294.001,
+                    564.001
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line3a_FormerEmployer[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Former Employer",
+                "struct_parent": 85,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Retired. 3. A. Enter Name of Former Employer.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    509.998,
+                    294.001,
+                    527.998
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line3b_DateofRetirement[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day and 4-digit Year",
+                "struct_parent": 86,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Retired. 3. B. Enter Date of Retirement. Enter as 2-digit Month, 2-digit Day and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    201.002,
+                    486.0,
+                    294.001,
+                    504.0
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line4_AnnualIncome[0]",
+                "field_type": "/Tx",
+                "description": "Enter your current individual annual income",
+                "struct_parent": 89,
+                "tool_tip": "Part 5. Information About Your Employment and Income. 4. Enter your current individual annual income.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    461.999,
+                    294.001,
+                    479.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line5a_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Have you filed a Federal income tax return for each of the three most recent tax years? Select No",
+                "struct_parent": 90,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 5. A. Have you filed a Federal income tax return for each of the three most recent tax years? Select No.",
+                "initial_value": "",
+                "rect": [
+                    260.161,
+                    400.0,
+                    270.161,
+                    410.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P5_Line5a_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Have you filed a Federal income tax return for each of the three most recent tax years? Select Yes",
+                "struct_parent": 91,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 5. A. Have you filed a Federal income tax return for each of the three most recent tax years? Select Yes. ",
+                "initial_value": "",
+                "rect": [
+                    218.16,
+                    400.0,
+                    228.16,
+                    410.0
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line5b_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select (Optional) I have attached photocopies or transcripts of my Federal income tax returns for my second and third most recent tax years",
+                "struct_parent": 98,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 5. B. Select (Optional) I have attached photocopies or transcripts of my Federal income tax returns for my second and third most recent tax years. ",
+                "initial_value": "",
+                "rect": [
+                    61.0,
+                    337.002,
+                    71.0,
+                    347.002
+                ],
+                "page_number": 3,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P5_Line6a_TotalIncome[0]",
+                "field_type": "/Tx",
+                "description": "Enter Most Recent Total Income",
+                "struct_parent": 97,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 6. A. Enter Most Recent Total Income.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    227.999,
+                    294.001,
+                    245.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6a_TaxYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter Most Recent Tax Year",
+                "struct_parent": 92,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. My total income (adjusted gross income on I R S Form 10 40 E Z) as reported on my Federal income tax returns for the most recent three years was. 6. A. Enter Most Recent Tax Year.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    227.999,
+                    198.0,
+                    245.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6b_TotalIncome[0]",
+                "field_type": "/Tx",
+                "description": "Enter Second Most Recent Total Income",
+                "struct_parent": 95,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 6. B. Enter Second Most Recent Total Income.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    209.999,
+                    294.001,
+                    227.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6b_TaxYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter Second Most Recent Tax Year",
+                "struct_parent": 96,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 6. B. Enter Second Most Recent Tax Year.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    209.999,
+                    198.0,
+                    227.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6c_TotalIncome[0]",
+                "field_type": "/Tx",
+                "description": "Enter Third Most Recent Total Income",
+                "struct_parent": 94,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 6. C. Enter Third Most Recent Total Income.",
+                "initial_value": "",
+                "rect": [
+                    216.0,
+                    191.999,
+                    294.001,
+                    209.999
+                ],
+                "page_number": 3
+            },
+            {
+                "field_name": "P5_Line6c_TaxYear[0]",
+                "field_type": "/Tx",
+                "description": "Enter Third Most Recent Tax Year",
+                "struct_parent": 93,
+                "tool_tip": "Part 5. Information About Your Employment and Income. Federal Income Tax Information. 6. C. Enter Third Most Recent Tax Year.",
+                "initial_value": "",
+                "rect": [
+                    144.0,
+                    191.999,
+                    198.0,
+                    209.999
+                ],
+                "page_number": 3
+            }
+        ]
+    },
+    {
+        "title": "Part 6.  Sponsor's Contract, Statement, Contact  Information, Declaration, Certification, and  Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P6_Line1_Checkbox[1]",
+                "field_type": "/Btn",
+                "description": "Select I can read and understand English, and I have read and understand every question and instruction on this affidavit and my answer to every question",
+                "struct_parent": 105,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Statement. NOTE:  Select the box for either Item Number 1. A. or 1. B. If applicable, select the box for Item Number 2. 1. A. Select I can read and understand English, and I have read and understand every question and instruction on this affidavit and my answer to every question.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    474.995,
+                    352.999,
+                    484.995
+                ],
+                "page_number": 4,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P6_Line1_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": "read to me every question and instruction on this affidavit and my answer to every question, in a language in which I am fluent, and I understood everything",
+                "struct_parent": 103,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Statement. 1. B. Select The interpreter named in Part 7. read to me every question and instruction on this affidavit and my answer to every question, in a language in which I am fluent, and I understood everything.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    432.992,
+                    352.999,
+                    442.992
+                ],
+                "page_number": 4,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P6_Line1b_language[0]",
+                "field_type": "/Tx",
+                "description": "Enter Language in which I am fluent, and I understood everything",
+                "struct_parent": 104,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Statement. 1. B. Enter Language in which I am fluent, and I understood everything.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    389.991,
+                    569.999,
+                    407.991
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P6_Line2_Checkbox[0]",
+                "field_type": "/Btn",
+                "description": ", prepared this affidavit for me based only upon information I provided or authorized",
+                "struct_parent": 106,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Statement. 2. Select At my request, the preparer named in Part 8., prepared this affidavit for me based only upon information I provided or authorized. ",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    348.995,
+                    352.999,
+                    358.995
+                ],
+                "page_number": 4,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P6_Line2_Attorney[0]",
+                "field_type": "/Tx",
+                "description": "Enter Name of Preparer named in Part 8",
+                "struct_parent": 107,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Statement. 2. Enter Name of Preparer named in Part 8.",
+                "initial_value": "",
+                "rect": [
+                    360.0,
+                    329.995,
+                    569.999,
+                    347.995
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P6_Line3_DaytimeTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Sponsor's Daytime Telephone Number",
+                "struct_parent": 108,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Contact Information. 3. Enter Sponsor's Daytime Telephone Number. Enter 10 digit number",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    240.001,
+                    576.0,
+                    258.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P6_Line4_MobileTelephoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 109,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Contact Information. 4. Enter Sponsor's Mobile Telephone Number, if any. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    204.001,
+                    576.0,
+                    222.001
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P7Line7_EmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Sponsor's Email Address, if any",
+                "struct_parent": 110,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Contact Information. 5. Enter Sponsor's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    168.004,
+                    576.0,
+                    186.004
+                ],
+                "page_number": 4
+            },
+            {
+                "field_name": "P6Line6a_ApplicantSignature[0]",
+                "field_type": "/Tx",
+                "description": "NOTE TO ALL SPONSORS:  If you do not completely fill out this affidavit or fail to submit required documents listed in the Instructions, U S C I S or D O S may deny your request",
+                "struct_parent": 114,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Signature. 6. A. Sponsor's Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space. NOTE TO ALL SPONSORS:  If you do not completely fill out this affidavit or fail to submit required documents listed in the Instructions, U S C I S or D O S may deny your request.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    168.001,
+                    294.001,
+                    186.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P6Line6b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 113,
+                "tool_tip": "Part 6. Sponsor's Contract, Statement, Contact Information, Declaration, Certification, and Signature. Sponsor's Signature. 6. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year. ",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    144.003,
+                    294.004,
+                    162.003
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Interpreter's Contact Information,  Certification, and Signature",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7_Line1a_InterpretersFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Family Name (Last Name)",
+                "struct_parent": 116,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Provide the following information about the interpreter. Interpreter's Full Name. 1. A. Enter Interpreter's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    623.999,
+                    576.0,
+                    641.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line1b_InterpretersGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Given Name (First Name)",
+                "struct_parent": 115,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 1. B. Enter Interpreter's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    587.999,
+                    576.0,
+                    605.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line2_InterpretersBusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Business or Organization Name, if any",
+                "struct_parent": 117,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Full Name. 2. Enter Interpreter's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.468,
+                    551.999,
+                    576.0,
+                    569.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 119,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    497.999,
+                    576.0,
+                    515.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 121,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    384.999,
+                    478.001,
+                    394.999,
+                    488.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 123,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    342.998,
+                    478.001,
+                    352.998,
+                    488.001
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 120,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    427.0,
+                    477.998,
+                    437.0,
+                    487.998
+                ],
+                "page_number": 5,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P7_Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 122,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    468.0,
+                    473.998,
+                    576.0,
+                    491.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 118,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    407.999,
+                    450.0,
+                    576.0,
+                    468.0
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 125,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    474.001,
+                    425.999,
+                    576.0,
+                    443.999
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 126,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    368.001,
+                    425.999,
+                    402.001,
+                    443.999
+                ],
+                "page_number": 5,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P7_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 124,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    401.933,
+                    401.998,
+                    575.901,
+                    419.998
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 128,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    377.994,
+                    575.901,
+                    395.994
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 127,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    341.997,
+                    576.0,
+                    359.997
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line4_InterpretersDaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 130,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Interpreter's Contact Information. 4. Enter Interpreter's Daytime Telephone Number. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    276.001,
+                    576.0,
+                    294.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line4_InterpretersDaytimePhoneNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 132,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Interpreter's Contact Information. 5. Enter Interpreter's Mobile Telephone Number, if any. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    240.001,
+                    576.0,
+                    258.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Line5_InterpretersEmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Interpreter's Email Address, if any",
+                "struct_parent": 129,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Interpreter's Contact Information. 6. Enter Interpreter's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    204.001,
+                    576.0,
+                    222.001
+                ],
+                "page_number": 5
+            },
+            {
+                "field_name": "P7_Language[0]",
+                "field_type": "/Tx",
+                "description": "Enter language",
+                "struct_parent": 131,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Certification. I certify under penalty of perjury that I am fluent in English and (enter language) which is the same language specified in Part 6., Item Number 1. B., and I have read to this sponsor in the identified language every question and instruction on this affidavit and his or her answer to every question.  The sponsor informed me that he or she understands every instruction, question, and answer on the affidavit, including the Sponsor's Declaration and Certification, and has verified the accuracy of every answer.  Enter language.",
+                "initial_value": "",
+                "rect": [
+                    426.002,
+                    138.002,
+                    569.999,
+                    155.999
+                ],
+                "page_number": 5
+            }
+        ]
+    },
+    {
+        "title": "Part 7.  Interpreter's Contact Information,  Certification, and Signature  (continued)",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P7Line6a_InterpretersSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the applicant can not be typewritten into this space",
+                "struct_parent": 136,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature.  Interpreter's Signature. 7. A. Interpreter's Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    648.0,
+                    294.001,
+                    666.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P7_Line6b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 135,
+                "tool_tip": "Part 7. Interpreter's Contact Information, Certification, and Signature. Interpreter's Interpreter's Signature. 7. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    198.0,
+                    623.999,
+                    294.004,
+                    641.999
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 8.    Contact Information, Declaration, and  Signature of the Person Preparing this Affidavit,  if Other Than the Sponsor",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "P8_Line1a_PreparersFamilyName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Family Name (Last Name)",
+                "struct_parent": 138,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Provide the following information about the preparer. Preparer's Full Name. 1. A. Enter Preparer's Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    473.995,
+                    293.998,
+                    491.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line1b_PreparersGivenName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Given Name (First Name)",
+                "struct_parent": 139,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Full Name. 1. B. Enter Preparer's Given Name (First Name).",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    437.995,
+                    294.001,
+                    455.995
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line2_PreparersBusinessName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Business or Organization Name, if any",
+                "struct_parent": 137,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. 2. Enter Preparer's Business or Organization Name, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    401.998,
+                    294.001,
+                    419.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3a_StreetNumberName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Street Number and Name",
+                "struct_parent": 141,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. A. Enter Street Number and Name.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    347.998,
+                    294.001,
+                    365.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3b_Unit[0]",
+                "field_type": "/Btn",
+                "description": "Select designated Floor",
+                "struct_parent": 142,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. B. Select designated Floor.",
+                "initial_value": "",
+                "rect": [
+                    144.998,
+                    327.997,
+                    154.998,
+                    337.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ STE "
+                ]
+            },
+            {
+                "field_name": "P8_Line3b_Unit[1]",
+                "field_type": "/Btn",
+                "description": "Select Suite",
+                "struct_parent": 143,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. B. Select Suite.",
+                "initial_value": "",
+                "rect": [
+                    103.0,
+                    327.997,
+                    113.0,
+                    337.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ FLR "
+                ]
+            },
+            {
+                "field_name": "P8_Line3b_Unit[2]",
+                "field_type": "/Btn",
+                "description": "Select Apartment",
+                "struct_parent": 145,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. B. Select Apartment.",
+                "initial_value": "",
+                "rect": [
+                    60.999,
+                    327.997,
+                    70.999,
+                    337.997
+                ],
+                "page_number": 6,
+                "options": [
+                    "/ APT "
+                ]
+            },
+            {
+                "field_name": "P8_Line3b_AptSteFlrNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Apartment, Suite or Floor Number",
+                "struct_parent": 144,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. B. Enter Apartment, Suite or Floor Number.",
+                "initial_value": "",
+                "rect": [
+                    186.001,
+                    323.997,
+                    294.001,
+                    341.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3c_CityOrTown[0]",
+                "field_type": "/Tx",
+                "description": "Enter City or Town",
+                "struct_parent": 140,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. C. Enter City or Town.",
+                "initial_value": "",
+                "rect": [
+                    126.0,
+                    299.999,
+                    294.001,
+                    317.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3e_ZipCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Zip Code",
+                "struct_parent": 146,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. E. Enter Zip Code.",
+                "initial_value": "",
+                "rect": [
+                    191.999,
+                    275.998,
+                    293.998,
+                    293.998
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3d_State[0]",
+                "field_type": "/Ch",
+                "description": "Select State from List of States",
+                "struct_parent": 147,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. D. Select State from List of States.",
+                "initial_value": "",
+                "rect": [
+                    86.002,
+                    275.998,
+                    120.002,
+                    293.998
+                ],
+                "page_number": 6,
+                "options": [
+                    " ",
+                    "AA",
+                    "AE",
+                    "AK",
+                    "AL",
+                    "AP",
+                    "AR",
+                    "AS",
+                    "AZ",
+                    "CA",
+                    "CO",
+                    "CT",
+                    "DC",
+                    "DE",
+                    "FL",
+                    "FM",
+                    "GA",
+                    "GU",
+                    "HI",
+                    "IA",
+                    "ID",
+                    "IL",
+                    "IN",
+                    "KS",
+                    "KY",
+                    "LA",
+                    "MA",
+                    "MD",
+                    "ME",
+                    "MH",
+                    "MI",
+                    "MN",
+                    "MO",
+                    "MP",
+                    "MS",
+                    "MT",
+                    "NC",
+                    "ND",
+                    "NE",
+                    "NH",
+                    "NJ",
+                    "NM",
+                    "NV",
+                    "NY",
+                    "OH",
+                    "OK",
+                    "OR",
+                    "PA",
+                    "PR",
+                    "PW",
+                    "RI",
+                    "SC",
+                    "SD",
+                    "TN",
+                    "TX",
+                    "UT",
+                    "VA",
+                    "VI",
+                    "VT",
+                    "WA",
+                    "WI",
+                    "WV",
+                    "WY"
+                ]
+            },
+            {
+                "field_name": "P8_Line3f_Province[0]",
+                "field_type": "/Tx",
+                "description": "Enter Province",
+                "struct_parent": 150,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. F. Enter Province.",
+                "initial_value": "",
+                "rect": [
+                    119.942,
+                    252.0,
+                    293.904,
+                    270.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3g_PostalCode[0]",
+                "field_type": "/Tx",
+                "description": "Enter Postal Code",
+                "struct_parent": 148,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. G. Enter Postal Code.",
+                "initial_value": "",
+                "rect": [
+                    119.942,
+                    227.996,
+                    293.904,
+                    245.996
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line3h_Country[0]",
+                "field_type": "/Tx",
+                "description": "Enter Country",
+                "struct_parent": 149,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Mailing Address. 3. H. Enter Country.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    191.999,
+                    294.001,
+                    209.999
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line4_PreparersDaytimePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 152,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Contact Information. 4. Enter Preparer's Daytime Telephone Number. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    125.997,
+                    294.001,
+                    143.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line5_PreparersFaxNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter 10 digit number",
+                "struct_parent": 153,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Contact Information. 5. Enter Preparer's Mobile Telephone Number, if any. Enter 10 digit number.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    89.997,
+                    294.001,
+                    107.997
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line6_PreparersEmailAddress[0]",
+                "field_type": "/Tx",
+                "description": "Enter Preparer's Email Address, if any",
+                "struct_parent": 151,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Contact Information. 6. Enter Preparer's Email Address, if any.",
+                "initial_value": "",
+                "rect": [
+                    60.001,
+                    54.0,
+                    294.001,
+                    72.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line7_checkbox[0]",
+                "field_type": "/Btn",
+                "description": "Select I am not an attorney or accredited representative but have prepared this affidavit on behalf of the sponsor and with the sponsor's consent",
+                "struct_parent": 154,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Statement. 7. A. Select I am not an attorney or accredited representative but have prepared this affidavit on behalf of the sponsor and with the sponsor's consent.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    709.001,
+                    352.999,
+                    719.001
+                ],
+                "page_number": 6,
+                "options": [
+                    "/A"
+                ]
+            },
+            {
+                "field_name": "P8_Line7_checkbox[1]",
+                "field_type": "/Btn",
+                "description": "NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G-28I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit",
+                "struct_parent": 155,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the sponsor in this case extends or does not extend beyond the preparation of this affidavit. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G-28I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit.",
+                "initial_value": "",
+                "rect": [
+                    342.999,
+                    667.0,
+                    352.999,
+                    677.0
+                ],
+                "page_number": 6,
+                "options": [
+                    "/B"
+                ]
+            },
+            {
+                "field_name": "P8_Line7_Extend[1]",
+                "field_type": "/Btn",
+                "description": "NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G-28I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit",
+                "struct_parent": 157,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the sponsor in this case does not extend beyond the preparation of this affidavit. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G-28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G-28I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit.",
+                "initial_value": "",
+                "rect": [
+                    409.001,
+                    642.999,
+                    419.001,
+                    652.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/N"
+                ]
+            },
+            {
+                "field_name": "P8_Line7_Extend[0]",
+                "field_type": "/Btn",
+                "description": "NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G - 2 8I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit",
+                "struct_parent": 156,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Statement. 7. B. Select I am an attorney or accredited representative and my representation of the sponsor in this case extends beyond the preparation of this affidavit. NOTE:  If you are an attorney or accredited representative, you may be obliged to submit a completed Form G - 28, Notice of Entry of Appearance as Attorney or Accredited Representative, or G - 2 8I, Notice of Entry of Appearance as Attorney In Matters Outside the Geographical Confines of the United States, with this affidavit.",
+                "initial_value": "",
+                "rect": [
+                    361.002,
+                    642.999,
+                    371.002,
+                    652.999
+                ],
+                "page_number": 6,
+                "options": [
+                    "/Y"
+                ]
+            },
+            {
+                "field_name": "P8_Line8a_PreparersSignature[0]",
+                "field_type": "/Tx",
+                "description": "The name of the applicant can not be typewritten into this space",
+                "struct_parent": 158,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor.  Preparer's Signature. 8. A. Preparer's Signature. This form can not be signed electronically.  The name of the applicant can not be typewritten into this space.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    342.0,
+                    576.0,
+                    360.0
+                ],
+                "page_number": 6
+            },
+            {
+                "field_name": "P8_Line8b_DateofSignature[0]",
+                "field_type": "/Tx",
+                "description": "Enter as 2-digit Month, 2-digit Day, and 4-digit Year",
+                "struct_parent": 159,
+                "tool_tip": "Part 8.  Contact Information, Declaration, and Signature of the Person Preparing this Affidavit, if Other Than the Sponsor. Preparer's Signature. 8. B. Enter Date of Signature. Enter as 2-digit Month, 2-digit Day, and 4-digit Year.",
+                "initial_value": "",
+                "rect": [
+                    479.999,
+                    317.996,
+                    576.003,
+                    335.996
+                ],
+                "page_number": 6
+            }
+        ]
+    },
+    {
+        "title": "Part 9.  Additional Information",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Part3_Line1a_FamilyName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Family Name (Last Name)",
+                "struct_parent": 169,
+                "tool_tip": "Part 9. Additional Information. If you need extra space to provide any additional information within this affidavit, use the space below.  If you need more space than what is provided, you may make copies of this page to complete and file with this affidavit or attach a separate sheet of paper.  Type or print your name and A-Number (if any) at the top of each sheet; indicate the Page Number, Part Number, and Item Number to which your answer refers; and sign and date each sheet. 1. A. Enter Family Name (Last Name).",
+                "initial_value": "",
+                "rect": [
+                    119.982,
+                    600.001,
+                    293.981,
+                    618.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part3_Line1b_GivenName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Given Name (First Name)",
+                "struct_parent": 170,
+                "tool_tip": "Part 9. Additional Information. 1. B. Enter Given Name (First Name). ",
+                "initial_value": "",
+                "rect": [
+                    119.982,
+                    576.0,
+                    293.981,
+                    594.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "Part3_Line1c_MiddleName[1]",
+                "field_type": "/Tx",
+                "description": "Enter Middle Name",
+                "struct_parent": 171,
+                "tool_tip": "Part 9. Additional Information. 1. C. Enter Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    119.982,
+                    551.999,
+                    293.981,
+                    569.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P3_Line12c_AlienNumber[1]",
+                "field_type": "/Tx",
+                "description": "9 digits",
+                "struct_parent": 181,
+                "tool_tip": "Part 9. Additional Information. 2. Enter. A. Number, if any. 9 digits.",
+                "initial_value": "",
+                "rect": [
+                    163.613,
+                    510.001,
+                    292.623,
+                    528.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line3c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 165,
+                "tool_tip": "Part 9. Additional Information. 3. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.978,
+                    474.001,
+                    293.978,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line3b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 164,
+                "tool_tip": "Part 9. Additional Information. 3. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.978,
+                    474.001,
+                    203.978,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line3a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 163,
+                "tool_tip": "Part 9. Additional Information. 3. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.978,
+                    474.001,
+                    113.978,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line3d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 162,
+                "tool_tip": "Part 9. Additional Information. 3. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.978,
+                    288.0,
+                    293.998,
+                    467.997
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line4c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 175,
+                "tool_tip": "Part 9. Additional Information. 4. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    239.984,
+                    252.003,
+                    293.984,
+                    270.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line4b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 174,
+                "tool_tip": "Part 9. Additional Information. 4. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    149.984,
+                    252.003,
+                    203.984,
+                    270.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line4a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 173,
+                "tool_tip": "Part 9. Additional Information. 4. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    59.984,
+                    252.003,
+                    113.984,
+                    270.003
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line4d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 172,
+                "tool_tip": "Part 9. Additional Information. 4. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    59.984,
+                    66.002,
+                    294.004,
+                    246.104
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line9c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 168,
+                "tool_tip": "Part 9. Additional Information. 5. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.977,
+                    714.002,
+                    575.977,
+                    732.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line5a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 166,
+                "tool_tip": "Part 9. Additional Information. 5. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.977,
+                    714.002,
+                    395.977,
+                    732.002
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line5b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 167,
+                "tool_tip": "Part 9. Additional Information. 5. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    713.999,
+                    486.0,
+                    731.999
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line5d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 180,
+                "tool_tip": "Part 9. Additional Information. 5. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.997,
+                    528.001,
+                    576.017,
+                    708.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6c_ItemNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 178,
+                "tool_tip": "Part 9. Additional Information. 6. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    521.983,
+                    474.001,
+                    575.983,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6b_PartNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 177,
+                "tool_tip": "Part 9. Additional Information. 6. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    431.983,
+                    474.001,
+                    485.983,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6a_PageNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 176,
+                "tool_tip": "Part 9. Additional Information. 6. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    341.983,
+                    474.001,
+                    395.983,
+                    492.001
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6d_AdditionalInfo[0]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 179,
+                "tool_tip": "Part 9. Additional Information. 6. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    341.989,
+                    288.0,
+                    576.009,
+                    468.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6c_ItemNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Item Number",
+                "struct_parent": 184,
+                "tool_tip": "Part 9. Additional Information. 7. C. Enter Item Number.",
+                "initial_value": "",
+                "rect": [
+                    522.0,
+                    252.0,
+                    576.0,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6b_PartNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Part Number",
+                "struct_parent": 183,
+                "tool_tip": "Part 9. Additional Information. 7. B. Enter Part Number.",
+                "initial_value": "",
+                "rect": [
+                    432.0,
+                    252.0,
+                    486.0,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6a_PageNumber[1]",
+                "field_type": "/Tx",
+                "description": "Enter Page Number",
+                "struct_parent": 182,
+                "tool_tip": "Part 9. Additional Information. 7. A. Enter Page Number.",
+                "initial_value": "",
+                "rect": [
+                    342.0,
+                    252.0,
+                    396.0,
+                    270.0
+                ],
+                "page_number": 7
+            },
+            {
+                "field_name": "P9_Line6d_AdditionalInfo[1]",
+                "field_type": "/Tx",
+                "description": "Enter Additional Information",
+                "struct_parent": 185,
+                "tool_tip": "Part 9. Additional Information. 7. D. Enter Additional Information.",
+                "initial_value": "",
+                "rect": [
+                    342.006,
+                    65.999,
+                    576.026,
+                    245.999
+                ],
+                "page_number": 7
+            }
+        ]
+    }
+]

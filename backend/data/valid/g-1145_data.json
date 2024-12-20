@@ -1,0 +1,89 @@
+[
+    {
+        "title": "What Is the Purpose of This Form?",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "FirstName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant or Petitioner Full First Name",
+                "struct_parent": 4,
+                "tool_tip": "Complete this form and clip it on top of the first page of your immigration form or forms. Enter Applicant or Petitioner Full First Name.",
+                "initial_value": "",
+                "rect": [
+                    218.044,
+                    119.974,
+                    392.043,
+                    135.094
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "LastName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant or Petitioner Full Last Name",
+                "struct_parent": 3,
+                "tool_tip": "Complete this form and clip it on top of the first page of your immigration form or forms. Enter Applicant or Petitioner Full Last Name.",
+                "initial_value": "",
+                "rect": [
+                    37.395,
+                    119.974,
+                    211.394,
+                    135.094
+                ],
+                "page_number": 1
+            }
+        ]
+    },
+    {
+        "title": "e-Notification of Application/Petition Acceptance",
+        "description": "",
+        "questions": [
+            {
+                "field_name": "Email[0]",
+                "field_type": "/Tx",
+                "description": "Enter E-mail Address",
+                "struct_parent": 6,
+                "tool_tip": "Complete this form and clip it on top of the first page of your immigration form or forms. Enter E-mail Address.",
+                "initial_value": "",
+                "rect": [
+                    37.395,
+                    86.666,
+                    335.18,
+                    101.786
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MiddleName[0]",
+                "field_type": "/Tx",
+                "description": "Enter Applicant or Petitioner Full Middle Name",
+                "struct_parent": 5,
+                "tool_tip": "Complete this form and clip it on top of the first page of your immigration form or forms. Enter Applicant or Petitioner Full Middle Name.",
+                "initial_value": "",
+                "rect": [
+                    402.001,
+                    118.032,
+                    574.002,
+                    133.152
+                ],
+                "page_number": 1
+            },
+            {
+                "field_name": "MobilePhoneNumber[0]",
+                "field_type": "/Tx",
+                "description": "Enter Mobile Telephone Number without spaces, dashes, slashes or parenthesis; for example (011) 555-0101 enter as 0115550101",
+                "struct_parent": 7,
+                "tool_tip": "Complete this form and clip it on top of the first page of your immigration form or forms.  Enter Mobile Telephone Number without spaces, dashes, slashes or parenthesis; for example (011) 555-0101 enter as 0115550101. ",
+                "initial_value": "",
+                "rect": [
+                    345.348,
+                    86.666,
+                    574.348,
+                    101.786
+                ],
+                "page_number": 1
+            }
+        ]
+    }
+]
