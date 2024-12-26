@@ -1,0 +1,11 @@
+# Minimizing Docker image
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pip/
+build/
+dist/
+tests/
+.vscode/
+.git/

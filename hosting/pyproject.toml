@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hosting"
+version = "0.1.0"
+description = ""
+authors = ["github-actions <jojoto8845@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+colorlog = "^6.9.0"
+pymupdf = "^1.25.1"
+pypdf = "^5.1.0"
+flask = "^3.1.0"
+google-cloud-storage = "^2.19.0"
+firebase-admin = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

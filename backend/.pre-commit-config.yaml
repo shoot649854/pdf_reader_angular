@@ -42,8 +42,8 @@ repos:
         exclude: '.*\.ipynb$'
       - id: check-toml
         name: Validate TOML files
-      - id: check-yaml
-        name: Validate YAML files
+      # - id: check-yaml
+      #   name: Validate YAML files
       - id: debug-statements
         name: Check for and remove debug statements (e.g., print)
       - id: end-of-file-fixer

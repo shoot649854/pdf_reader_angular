@@ -1,0 +1,94 @@
+import pypdf
+from src.logging.Logging import logger
+
+
+class PDFManipulator:
+    """Handles PDF reading, form filling, and writing."""
+
+    def __init__(self, pdf_path):
+        self.pdf_path = pdf_path
+        self.pdf_reader = pypdf.PdfReader(pdf_path)
+        self.pdf_writer = pypdf.PdfWriter()
+
+    def fill_form(self, data_dict):
+        for _, page in enumerate(self.pdf_reader.pages, start=1):
+            if "/Annots" in page:
+                annotations = page["/Annots"]
+                for annotation in annotations:
+                    field = annotation.get_object()
+                    if "/T" in field:
+                        field_name = self._get_field_name(field)
+                        field_type = field.get("/FT")
+                        if field_name in data_dict:
+                            value = data_dict[field_name]
+                            self._update_field(field, field_type, value)
+            else:
+                self.pdf_writer.add_page(page)
+        logger.info("Completed form filling.")
+
+    def save_pdf(self, output_pdf_path):
+        logger.info(f"Saving filled PDF to: {output_pdf_path}")
+        with open(output_pdf_path, "wb") as output_file:
+            self.pdf_writer.write(output_file)
+        logger.info(f"PDF saved successfully to {output_pdf_path}.")
+
+    def save_pdf_to_buffer(self, pdf_buffer):
+        """Save the filled PDF to an in-memory bytes buffer."""
+        self.pdf_writer.write(pdf_buffer)
+        logger.info("PDF saved successfully to in-memory buffer.")
+
+    def _get_field_name(self, field):
+        field_name_obj = field["/T"]
+        field_name = field_name_obj if isinstance(field_name_obj, str) else field_name_obj.decode("utf-8", errors="ignore")
+        return field_name
+
+    def _update_field(self, field, field_type, value):
+        if field_type == "/Tx":
+            field.update({pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value)})
+        elif field_type == "/Btn":
+            self._update_button_field(field, value)
+        elif field_type == "/Ch":
+            field.update(
+                {
+                    pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value),
+                    pypdf.generic.NameObject("/DV"): pypdf.generic.create_string_object(value),
+                }
+            )
+        else:
+            field.update({pypdf.generic.NameObject("/V"): pypdf.generic.create_string_object(value)})
+
+    def _update_button_field(self, field, value):
+        if isinstance(value, bool):
+            value = "yes" if value else "no"
+
+        elif isinstance(value, str):
+            value = value.lower()
+
+        if value.lower() == "yes":
+            on_value = self._get_on_value(field)
+            field.update(
+                {
+                    pypdf.generic.NameObject("/V"): pypdf.generic.NameObject(on_value),
+                    pypdf.generic.NameObject("/AS"): pypdf.generic.NameObject(on_value),
+                }
+            )
+        else:
+            field.update(
+                {
+                    pypdf.generic.NameObject("/V"): pypdf.generic.NameObject("/Off"),
+                    pypdf.generic.NameObject("/AS"): pypdf.generic.NameObject("/Off"),
+                }
+            )
+
+    def _get_on_value(self, field):
+        if "/AP" in field:
+            appearances = field["/AP"]
+            if "/N" in appearances:
+                normal_appearances = appearances["/N"]
+                possible_values = list(normal_appearances.keys())
+                on_values = [val for val in possible_values if val != "/Off"]
+                return on_values[0] if on_values else "/Yes"
+            else:
+                return "/Yes"
+        else:
+            return "/Yes"
