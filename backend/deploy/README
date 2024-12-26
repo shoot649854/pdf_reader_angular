@@ -13,3 +13,7 @@ gcloud projects describe vaulted-zodiac-253111 --format="value(projectNumber)"
 ```bash
 gcloud logs read process_pdf --region=us-central1
 ```
+
+```bash
+gcloud functions logs read process-pdf --region=us-central1
+```

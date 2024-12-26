@@ -112,23 +112,28 @@ def upload_files(folder_name: str = None):
         return jsonify({"error": f"Failed to upload files: {str(e)}"}), 500
 
 
-def download_file(filename) -> BytesIO:
+def download_file(bucket_name, source_blob_name) -> BytesIO:
     """Download a file from Google Cloud Storage."""
     try:
-        bucket = get_bucket()
-        blob = bucket.blob(filename)
+        # bucket = get_bucket()
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(source_blob_name)
+
+        # blob = bucket.blob(filename)
         if not blob.exists(client=bucket.client):
-            logger.warning(f"File '{filename}' does not exist in bucket '{bucket.name}'.")
-            return jsonify({"error": f"File '{filename}' does not exist."}), 404
+            logger.warning(f"File '{source_blob_name}' does not exist in bucket '{bucket.name}'.")
+            return jsonify({"error": f"File '{source_blob_name}' does not exist."}), 404
 
         # Download blob content into memory
         file_obj = BytesIO()
         blob.download_to_file(file_obj)
         file_obj.seek(0)
-        logger.info(f"File '{filename}' downloaded from GCS bucket '{bucket.name}'.")
+        logger.info(f"File '{source_blob_name}' downloaded from GCS bucket '{bucket.name}'.")
         return file_obj
+
     except Exception as e:
-        logger.error(f"Failed to download file '{filename}': {str(e)}")
+        logger.error(f"Failed to download file '{source_blob_name}': {str(e)}")
         raise
 
 
@@ -137,7 +142,12 @@ def route_download_file(filename):
     """Flask route to download a file from Google Cloud Storage."""
     try:
         file_obj = download_file(filename)
-        return send_file(file_obj, as_attachment=True, download_name=filename, mimetype="application/pdf")
+        return send_file(
+            file_obj,
+            as_attachment=True,
+            download_name=filename,
+            mimetype="application/pdf",
+        )
 
     except FileNotFoundError as e:
         return jsonify({"error": str(e)}), 404
