@@ -1,3 +1,4 @@
 backend/data/form_data.json
 frontend/src/assets/form_data.json
 .mypy_cache
+sa-build-key.json
