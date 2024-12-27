@@ -1,0 +1,19 @@
+title: CloudDeployRoles
+stage: GA
+includedPermissions:
+  - clouddeploy.deliveryPipelines.create
+  - clouddeploy.deliveryPipelines.get
+  - clouddeploy.deliveryPipelines.update
+  - clouddeploy.operations.get
+  - clouddeploy.releases.create
+  - clouddeploy.releases.get
+  - clouddeploy.rollouts.create
+  - clouddeploy.rollouts.get
+  - clouddeploy.rollouts.list
+  - clouddeploy.targets.update
+  - iam.serviceAccounts.actAs
+  - iam.workloadIdentityUser
+  - storage.buckets.create
+  - storage.buckets.get
+  - storage.buckets.list
+  - storage.objects.create
